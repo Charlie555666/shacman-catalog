@@ -398,30 +398,26 @@ body {
   </div>
 </div>
 
-<!-- ─── CloudBase SDK ─── -->
-<script src="https://static.cloudbase.net/cloudbase-js-sdk/latest/cloudbase.full.js"></script>
-
 <script>
-var CLOUDBASE_ENV = 'gengyanchao-d0gyzofwr69907e3c';
 var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/submit.html';
 var _pendingBtn = null;
-var cloudbaseReady = false;
-var cloudbaseDb = null;
+var _dlCallbackDone = false;
 
-(function initCloudBase() {
-  var app = cloudbase.init({ env: CLOUDBASE_ENV, region: 'ap-shanghai' });
-  cloudbaseDb = app.database();
-  app.auth({ persistence: 'local' })
-    .anonymousAuthProvider()
-    .signIn()
-    .then(function() {
-      cloudbaseReady = true;
-      console.log('[Catalog] CloudBase OK');
-    })
-    .catch(function() {
-      console.log('[Catalog] SDK auth failed, using proxy fallback');
-    });
-})();
+// Listen for submit result from iframe proxy
+window.addEventListener('message', function(e) {
+  if (!e.data || e.data.type !== 'dl-submit-result') return;
+  _dlCallbackDone = true;
+  var btn = _pendingBtn;
+  if (e.data.status === 'ok') {
+    showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
+    console.log('[Catalog] saved via proxy', e.data.data.id);
+  } else {
+    showToast('Ошибка отправки, попробуйте снова / 提交失败，请重试', 'error');
+    console.warn('[Catalog] proxy err:', e.data.data.msg);
+  }
+  closeDlModal();
+  if (btn) downloadSingleExec(btn);
+});
 
 function downloadPDF() {
   window.print();
@@ -466,50 +462,34 @@ function submitDlForm() {
   var model = th ? (th.querySelector('.model-name')||{}).innerText || '' : '';
   var country = document.querySelector('.top-nav .country') ? document.querySelector('.top-nav .country').innerText.replace('市场','').trim() : '';
 
-  var data = {
-    name: name, phone: phone, company: company,
-    country: country, model: model, pageUrl: window.location.href,
-    createdAt: new Date().toISOString()
-  };
-
   var btn = _pendingBtn;
 
-  // 先显示提交中提示
+  // Show submitting toast
   showToast('Отправка... / 正在提交…', 'info');
 
-  // 方案A: 直接 SDK（CloudBase 同域）
-  if (cloudbaseReady) {
-    cloudbaseDb.collection('pdf_downloads').add(data)
-      .then(function(r) {
-        console.log('[Catalog] saved', r.id);
-        showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
-        closeDlModal();
-        downloadSingleExec(btn);
-      })
-      .catch(function(e) {
-        console.warn('[Catalog] save err:', e.message);
-        showToast('Ошибка отправки, попробуйте снова / 提交失败，请重试', 'error');
-        closeDlModal();
-        downloadSingleExec(btn);
-      });
-  } else {
-    // 方案B: 隐藏 iframe 代理（跨域 GitHub Pages）
-    var params = '?name=' + encodeURIComponent(name) +
-      '&phone=' + encodeURIComponent(phone) +
-      '&company=' + encodeURIComponent(company) +
-      '&country=' + encodeURIComponent(country) +
-      '&model=' + encodeURIComponent(model) +
-      '&ref=' + encodeURIComponent(window.location.href);
-    var iframe = document.createElement('iframe');
-    iframe.style.display = 'none';
-    iframe.src = DL_PROXY_URL + params;
-    document.body.appendChild(iframe);
-    setTimeout(function() { document.body.removeChild(iframe); }, 10000);
+  // Always use iframe proxy (works from any domain, no SDK auth issues)
+  _dlCallbackDone = false;
+  var params = '?name=' + encodeURIComponent(name) +
+    '&phone=' + encodeURIComponent(phone) +
+    '&company=' + encodeURIComponent(company) +
+    '&country=' + encodeURIComponent(country) +
+    '&model=' + encodeURIComponent(model) +
+    '&ref=' + encodeURIComponent(window.location.href);
+  var iframe = document.createElement('iframe');
+  iframe.style.display = 'none';
+  iframe.src = DL_PROXY_URL + params;
+  document.body.appendChild(iframe);
 
-    showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
-    closeDlModal();
-    downloadSingleExec(btn);
-  }
+  // Fallback: if no postMessage received after 8 seconds, show success anyway and download
+  setTimeout(function() {
+    if (!_dlCallbackDone) {
+      console.log('[Catalog] proxy timeout, download anyway');
+      showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
+      closeDlModal();
+      if (btn) downloadSingleExec(btn);
+    }
+    if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+  }, 8000);
 }
 
 function downloadSingleExec(btn) {
