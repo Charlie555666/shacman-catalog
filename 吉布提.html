@@ -97,6 +97,27 @@ body {
 .sec-table td.highlight { font-weight:700; color:var(--navy); }
 .sec-table .model-name { font-size:12px; font-weight:700; color:white; }
 .sec-table .model-drive { font-size:9px; color:rgba(255,255,255,0.7); }
+/* ─── 配置详情行 ─── */
+.config-row td {
+  vertical-align:top; padding:6px 8px;
+}
+.config-label {
+  background: #E8ECF2 !important; color: var(--navy) !important;
+  font-weight:700 !important; font-size:10px !important;
+  text-align:right !important; min-width:100px;
+  border-right: 2px solid var(--mid-blue) !important;
+}
+.config-cell {
+  font-size:10px !important; line-height:1.5; color: var(--text-medium);
+  max-width:280px; word-break:break-all;
+}
+.config-text {
+  max-height:90px; overflow-y:auto;
+  padding:2px 4px; background:#FAFBFC;
+  border:1px solid #e8e8e8; border-radius:3px;
+}
+.config-text::-webkit-scrollbar { width:4px; }
+.config-text::-webkit-scrollbar-thumb { background:#c0c4cc; border-radius:2px; }
 .model-dl-btn {
   display:block; margin:4px auto 0; background:rgba(255,255,255,0.15);
   color:rgba(255,255,255,0.8); border:1px solid rgba(255,255,255,0.2);
@@ -191,8 +212,8 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX42555T324&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 (四骑马螺栓)&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
-          <th data-specs="{&quot;model&quot;: &quot;SX42555V324&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 (四骑马螺栓)&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX42555T324&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 (四骑马螺栓)&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX42555V324&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 (四骑马螺栓)&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -215,6 +236,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 9.5T</td><td>HD 9.5T</td></tr>
 <tr><td class="label-col">Application</td><td>1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）</td><td>1、集装箱、日用品运输（集装箱/日用品/农副产品等，GCW≤120t，铺装路面为主，少部分道路有破损情况，运距≤1500km）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池</div></td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁(带遥控器）、普通空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器">四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器</div></td><td class="config-cell"><div class="config-text" title="四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器">四点液压悬置、侧工具箱、SHACMAN标识、全英文标识、平板安装板、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、WABCO四通道ABS、驾驶室横向减震器</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -228,7 +251,7 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX32555R354&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP10.340E22&quot;, &quot;hp&quot;: &quot;340&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-QH50花键&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3575+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.92&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、渣土运输（砂石/土方/建筑材料等，GVW≤50t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 340HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX32555R354&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP10.340E22&quot;, &quot;hp&quot;: &quot;340&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-QH50花键&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;3575+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.92&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、渣土运输（砂石/土方/建筑材料等，GVW≤50t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、WABCO进口四通道ABS、侧工具箱、SHACMAN标识、全英文标识、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、驾驶室横向减震器、预留超载检测系统线束、网关及接口&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 340HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -251,6 +274,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 9.5T</td></tr>
 <tr><td class="label-col">Application</td><td>1、渣土运输（砂石/土方/建筑材料等，GVW≤50t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、普通方向盘、后桥稳定杆、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点液压悬置、WABCO进口四通道ABS、侧工具箱、SHACMAN标识、全英文标识、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、驾驶室横向减震器、预留超载检测系统线束、网关及接口">四点液压悬置、WABCO进口四通道ABS、侧工具箱、SHACMAN标识、全英文标识、倒车蜂鸣器、2kg灭火器、发动机车下启停、电瓶箱防盗、油箱盖防盗、经济版随车工具箱、驾驶室横向减震器、预留超载检测系统线束、网关及接口</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -266,8 +291,8 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX12555T434&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-铁壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;4375+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥- 4.769&quot;, &quot;wheelbase&quot;: &quot;2000&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
-          <th data-specs="{&quot;model&quot;: &quot;SX12555T464&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-铁壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;4575+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;2600&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX12555T434&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-铁壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;4375+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥- 4.769&quot;, &quot;wheelbase&quot;: &quot;2000&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留900mm空间、经济版随车工具箱、驾驶室横向减震器&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX12555T464&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.380E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180-铁壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;4575+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-4.769&quot;, &quot;wheelbase&quot;: &quot;2600&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留1100mm空间、经济版随车工具箱、驾驶室横向减震器&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -290,6 +315,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 9.5T</td><td>HD 9.5T</td></tr>
 <tr><td class="label-col">Application</td><td>1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）</td><td>1、集装箱、日用工业品运输（集装箱/日用品/农副产品等  GCW≤70t  铺装路面为主，少部分道路破损， 运距≤1500km 常用车速50-65km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池</div></td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器、普通排气、普通方向盘、水箱保护栅、油底壳保护栅、尾灯保护栅、后桥稳定杆、165Ah免维护蓄电池</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留900mm空间、经济版随车工具箱、驾驶室横向减震器">四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留900mm空间、经济版随车工具箱、驾驶室横向减震器</div></td><td class="config-cell"><div class="config-text" title="四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留1100mm空间、经济版随车工具箱、驾驶室横向减震器">四点液压悬置、SHACMAN标识、全英文标识、车架尾部预留全挂车电气路接口，带挂车手阀、铁储气筒、WABCO进口四通道ABS、倒车蜂鸣器、备胎架、2kg灭火器、八字尾梁、预留球销式牵引装置孔位、发动机车下启停、电瓶箱防盗、油箱盖防盗、车架右侧驱动轮前预留1100mm空间、经济版随车工具箱、驾驶室横向减震器</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -320,7 +347,9 @@ function downloadSingle(btn) {
     frame: "Châssis (mm)", suspension: "Suspension",
     fuel_tank: "Réservoir (L)", tire: "Pneus",
     saddle: "Sellette", service_brake: "Frein de Service",
-    abs: "ABS", application: "Application"
+    abs: "ABS", application: "Application",
+    base_config_label: "基础配置 / Configuration de Base",
+    country_config_label: "一国一策配置 / Configuration Spécifique Pays"
   };
   
   var rows = '';
@@ -341,6 +370,16 @@ function downloadSingle(btn) {
     var val = specs[dataKey] || '';
     if (!val) continue;
     rows += '<tr><td>' + labels[labelKey] + '</td><td>' + val + '</td></tr>';
+  }
+  
+  // ─── 基础配置 & 一国一策配置 ───
+  var bc = specs.base_config || '';
+  var cc = specs.country_config || '';
+  if (bc) {
+    rows += '<tr style="background:#f0f4f8;"><td style="font-weight:700;color:#212a3b;font-size:12px;">' + labels.base_config_label + '</td><td style="font-size:11px;line-height:1.6;color:#333;">' + bc + '</td></tr>';
+  }
+  if (cc) {
+    rows += '<tr style="background:#fff8e1;"><td style="font-weight:700;color:#c62828;font-size:12px;">' + labels.country_config_label + '</td><td style="font-size:11px;line-height:1.6;color:#333;">' + cc + '</td></tr>';
   }
   
   var platform = specs.platform || specs.model || '';

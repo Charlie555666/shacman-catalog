@@ -97,6 +97,27 @@ body {
 .sec-table td.highlight { font-weight:700; color:var(--navy); }
 .sec-table .model-name { font-size:12px; font-weight:700; color:white; }
 .sec-table .model-drive { font-size:9px; color:rgba(255,255,255,0.7); }
+/* ─── 配置详情行 ─── */
+.config-row td {
+  vertical-align:top; padding:6px 8px;
+}
+.config-label {
+  background: #E8ECF2 !important; color: var(--navy) !important;
+  font-weight:700 !important; font-size:10px !important;
+  text-align:right !important; min-width:100px;
+  border-right: 2px solid var(--mid-blue) !important;
+}
+.config-cell {
+  font-size:10px !important; line-height:1.5; color: var(--text-medium);
+  max-width:280px; word-break:break-all;
+}
+.config-text {
+  max-height:90px; overflow-y:auto;
+  padding:2px 4px; background:#FAFBFC;
+  border:1px solid #e8e8e8; border-radius:3px;
+}
+.config-text::-webkit-scrollbar { width:4px; }
+.config-text::-webkit-scrollbar-thumb { background:#c0c4cc; border-radius:2px; }
 .model-dl-btn {
   display:block; margin:4px auto 0; background:rgba(255,255,255,0.15);
   color:rgba(255,255,255,0.8); border:1px solid rgba(255,255,255,0.2);
@@ -191,8 +212,8 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX4188YY381&quot;, &quot;platform&quot;: &quot;X6000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP13.480E501&quot;, &quot;hp&quot;: &quot;480&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2421TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;（970-850）×270(单8)&quot;, &quot;tire&quot;: &quot;3800&quot;, &quot;fuel_tank&quot;: &quot;13T HD单级减速盘式桥-2.846&quot;, &quot;wheelbase&quot;: &quot;1050&quot;, &quot;abs&quot;: &quot;HD 7.3T盘式制动免维护前轴&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前少片簧，后全气囊&quot;, &quot;rear_axle&quot;: &quot;（970-850）×270(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅&quot;}"><span class="model-name">X6000</span><br><span class="model-drive">4×2 · 480HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
-          <th data-specs="{&quot;model&quot;: &quot;SX4188YY381&quot;, &quot;platform&quot;: &quot;X6000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP13.480E501&quot;, &quot;hp&quot;: &quot;480&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2421TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;(970-850)×270(单8)&quot;, &quot;tire&quot;: &quot;3800&quot;, &quot;fuel_tank&quot;: &quot;13T HD单级减速盘式桥-2.846&quot;, &quot;wheelbase&quot;: &quot;1050&quot;, &quot;abs&quot;: &quot;HD 7.3T盘式制动免维护前轴&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前后少片簧&quot;, &quot;rear_axle&quot;: &quot;(970-850)×270(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前后稳定杆、水箱保护栅、220Ah免维护蓄电池&quot;}"><span class="model-name">X6000</span><br><span class="model-drive">4×2 · 480HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX4188YY381&quot;, &quot;platform&quot;: &quot;X6000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP13.480E501&quot;, &quot;hp&quot;: &quot;480&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2421TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;（970-850）×270(单8)&quot;, &quot;tire&quot;: &quot;3800&quot;, &quot;fuel_tank&quot;: &quot;13T HD单级减速盘式桥-2.846&quot;, &quot;wheelbase&quot;: &quot;1050&quot;, &quot;abs&quot;: &quot;HD 7.3T盘式制动免维护前轴&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前少片簧，后全气囊&quot;, &quot;rear_axle&quot;: &quot;（970-850）×270(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅&quot;, &quot;country_config&quot;: &quot;四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束&quot;}"><span class="model-name">X6000</span><br><span class="model-drive">4×2 · 480HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX4188YY381&quot;, &quot;platform&quot;: &quot;X6000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP13.480E501&quot;, &quot;hp&quot;: &quot;480&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2421TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;(970-850)×270(单8)&quot;, &quot;tire&quot;: &quot;3800&quot;, &quot;fuel_tank&quot;: &quot;13T HD单级减速盘式桥-2.846&quot;, &quot;wheelbase&quot;: &quot;1050&quot;, &quot;abs&quot;: &quot;HD 7.3T盘式制动免维护前轴&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前后少片簧&quot;, &quot;rear_axle&quot;: &quot;(970-850)×270(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅&quot;, &quot;country_config&quot;: &quot;四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束&quot;}"><span class="model-name">X6000</span><br><span class="model-drive">4×2 · 480HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -215,6 +236,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 7.3T盘式制动免维护前轴</td><td>HD 7.3T盘式制动免维护前轴</td></tr>
 <tr><td class="label-col">Application</td><td>1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）</td><td>1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅">X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅</div></td><td class="config-cell"><div class="config-text" title="X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅">X6000加长高顶驾驶室带顶侧导流罩、通风加热空气主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、多功能方向盘(带定速巡航，不带电子转向管柱锁)、中控锁（带双遥控）、公路用车保险杠、三级上车踏板、国产转向机、中置空滤器、整体式挡泥板、约斯特50鞍座、进口离合器、前稳定杆、水箱保护栅</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束">四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束">四点空气悬置、全车盘式制动、手动天窗、WABCO ECAS、国产EBS+ESC、SHACMAN Telematics、220Ah免维护蓄电池、方形后处理、挡泥板带防飞溅、安装板不带E标、SHACMAN标识、全法文标识、置物平台、倒车蜂鸣器、一键断电熄火开关、全液晶仪表、360环视（7路）、10寸液晶显示屏、前碰撞预警+车道偏离预警系统、疲劳驾驶提醒、小桌板、驾驶室窗帘、烟灰缸、大容量冰箱（42L）、32T千斤顶、8KG灭火器、15芯电缆、2个驻车楔块、1200W逆变电源、前下防护、油箱盖防盗、螺母防护帽、发光LOGO、灯具，玻璃，安全带，轮胎，防飞溅，后视镜，鞍座带E标、限速85km/h、轻量化钢轮辋、EZF650法兰取力器（带液力缓速器）、预留行车记录仪线束</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -228,7 +251,7 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX33185W306C&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;ISM11E5 450&quot;, &quot;hp&quot;: &quot;450&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2420TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1950+3025+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.262(鼓式)&quot;, &quot;wheelbase&quot;: &quot;1000&quot;, &quot;abs&quot;: &quot;HD 9.5T盘式制动前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧（四骑马螺栓）&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、渣土运输（砂石/土方/建筑材料等，GVW≤70t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、国产转向机、中控锁（带遥控器）、进口离合器、多功能方向盘(定速巡航)、金属保险杠-灯护网、三级上车踏板、油浴空滤器、上排气、SHACMAN Telematics（仅终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、220Ah免维护蓄电池&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">8×4 · 450HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX33185W306C&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;ISM11E5 450&quot;, &quot;hp&quot;: &quot;450&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12TX2420TD-铝壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1950+3025+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.262(鼓式)&quot;, &quot;wheelbase&quot;: &quot;1000&quot;, &quot;abs&quot;: &quot;HD 9.5T盘式制动前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧（四骑马螺栓）&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、渣土运输（砂石/土方/建筑材料等，GVW≤70t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、国产转向机、中控锁（带遥控器）、进口离合器、多功能方向盘(定速巡航)、金属保险杠-灯护网、三级上车踏板、油浴空滤器、上排气、SHACMAN Telematics（仅终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、220Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、后下防护、日间行车灯、全法文标识、WABCO六通道ABS+ASR、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、侧工具箱、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、螺母防护帽、EZF650花键取力器、预留行车记录仪线束&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">8×4 · 450HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -251,6 +274,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 9.5T盘式制动前轴</td></tr>
 <tr><td class="label-col">Application</td><td>1、渣土运输（砂石/土方/建筑材料等，GVW≤70t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、国产转向机、中控锁（带遥控器）、进口离合器、多功能方向盘(定速巡航)、金属保险杠-灯护网、三级上车踏板、油浴空滤器、上排气、SHACMAN Telematics（仅终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、220Ah免维护蓄电池">X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动电加热后视镜、电动翻转、电动摇窗机、国产转向机、中控锁（带遥控器）、进口离合器、多功能方向盘(定速巡航)、金属保险杠-灯护网、三级上车踏板、油浴空滤器、上排气、SHACMAN Telematics（仅终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、220Ah免维护蓄电池</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点液压悬置、后下防护、日间行车灯、全法文标识、WABCO六通道ABS+ASR、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、侧工具箱、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、螺母防护帽、EZF650花键取力器、预留行车记录仪线束">四点液压悬置、后下防护、日间行车灯、全法文标识、WABCO六通道ABS+ASR、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、侧工具箱、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、螺母防护帽、EZF650花键取力器、预留行车记录仪线束</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -266,7 +291,7 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th data-specs="{&quot;model&quot;: &quot;SX5318GJB5X306C&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;M10E5 460&quot;, &quot;hp&quot;: &quot;460&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;ZF16S2530TO-铝壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1950+3025+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.92&quot;, &quot;wheelbase&quot;: &quot;1600&quot;, &quot;abs&quot;: &quot;HD 9.5T盘式制动前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧（四骑马螺栓）&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、混凝土运输（混凝土等，GVW≤45t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤50km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;搅拌车/Mixer&quot;, &quot;base_config&quot;: &quot;X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动翻转、电动电加热后视镜、电动摇窗机、三级上车踏板、中控锁（带遥控器）、进口离合器、国产转向机、油浴空滤器、金属保险杠-灯护网、上排气、多功能方向盘(定速巡航)、水箱保护栅、尾灯保护栅、220Ah免维护蓄电池、油底壳保护栅&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">8×4 · 460HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX5318GJB5X306C&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;M10E5 460&quot;, &quot;hp&quot;: &quot;460&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;ZF16S2530TO-铝壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1950+3025+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.92&quot;, &quot;wheelbase&quot;: &quot;1600&quot;, &quot;abs&quot;: &quot;HD 9.5T盘式制动前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧（四骑马螺栓）&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、混凝土运输（混凝土等，GVW≤45t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤50km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;搅拌车/Mixer&quot;, &quot;base_config&quot;: &quot;X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动翻转、电动电加热后视镜、电动摇窗机、三级上车踏板、中控锁（带遥控器）、进口离合器、国产转向机、油浴空滤器、金属保险杠-灯护网、上排气、多功能方向盘(定速巡航)、水箱保护栅、尾灯保护栅、220Ah免维护蓄电池、油底壳保护栅&quot;, &quot;country_config&quot;: &quot;四点液压悬置、全法文标识、WABCO六通道ABS+ASR、Shacman Telematics（仅终端）、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、全车螺母防护帽、侧工具箱、预留行车记录仪线束&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">8×4 · 460HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -289,6 +314,8 @@ body {
 <tr><td class="label-col">Frein de Service</td><td></td></tr>
 <tr><td class="label-col">ABS</td><td>HD 9.5T盘式制动前轴</td></tr>
 <tr><td class="label-col">Application</td><td>1、混凝土运输（混凝土等，GVW≤45t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤50km，常用车速35-50km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动翻转、电动电加热后视镜、电动摇窗机、三级上车踏板、中控锁（带遥控器）、进口离合器、国产转向机、油浴空滤器、金属保险杠-灯护网、上排气、多功能方向盘(定速巡航)、水箱保护栅、尾灯保护栅、220Ah免维护蓄电池、油底壳保护栅">X5000加长平顶驾驶室不带导流罩、液压主座椅、电控自动恒温空调、电动翻转、电动电加热后视镜、电动摇窗机、三级上车踏板、中控锁（带遥控器）、进口离合器、国产转向机、油浴空滤器、金属保险杠-灯护网、上排气、多功能方向盘(定速巡航)、水箱保护栅、尾灯保护栅、220Ah免维护蓄电池、油底壳保护栅</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点液压悬置、全法文标识、WABCO六通道ABS+ASR、Shacman Telematics（仅终端）、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、全车螺母防护帽、侧工具箱、预留行车记录仪线束">四点液压悬置、全法文标识、WABCO六通道ABS+ASR、Shacman Telematics（仅终端）、SHACMAN标识、铸造前伸梁+中置前牵引座、限速85km/h、灯具，玻璃，安全带，轮胎，后视镜带E标、倒车蜂鸣器、8kg灭火器、2个危险警示灯、油箱盖防盗、2个驻车楔块、前下防护、全车螺母防护帽、侧工具箱、预留行车记录仪线束</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -319,7 +346,9 @@ function downloadSingle(btn) {
     frame: "Châssis (mm)", suspension: "Suspension",
     fuel_tank: "Réservoir (L)", tire: "Pneus",
     saddle: "Sellette", service_brake: "Frein de Service",
-    abs: "ABS", application: "Application"
+    abs: "ABS", application: "Application",
+    base_config_label: "基础配置 / Configuration de Base",
+    country_config_label: "一国一策配置 / Configuration Spécifique Pays"
   };
   
   var rows = '';
@@ -340,6 +369,16 @@ function downloadSingle(btn) {
     var val = specs[dataKey] || '';
     if (!val) continue;
     rows += '<tr><td>' + labels[labelKey] + '</td><td>' + val + '</td></tr>';
+  }
+  
+  // ─── 基础配置 & 一国一策配置 ───
+  var bc = specs.base_config || '';
+  var cc = specs.country_config || '';
+  if (bc) {
+    rows += '<tr style="background:#f0f4f8;"><td style="font-weight:700;color:#212a3b;font-size:12px;">' + labels.base_config_label + '</td><td style="font-size:11px;line-height:1.6;color:#333;">' + bc + '</td></tr>';
+  }
+  if (cc) {
+    rows += '<tr style="background:#fff8e1;"><td style="font-weight:700;color:#c62828;font-size:12px;">' + labels.country_config_label + '</td><td style="font-size:11px;line-height:1.6;color:#333;">' + cc + '</td></tr>';
   }
   
   var platform = specs.platform || specs.model || '';
