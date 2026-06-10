@@ -97,6 +97,56 @@ body {
 .sec-table td.highlight { font-weight:700; color:var(--navy); }
 .sec-table .model-name { font-size:12px; font-weight:700; color:white; }
 .sec-table .model-drive { font-size:9px; color:rgba(255,255,255,0.7); }
+.model-dl-btn {
+  display:block; margin:4px auto 0; background:rgba(255,255,255,0.15);
+  color:rgba(255,255,255,0.8); border:1px solid rgba(255,255,255,0.2);
+  border-radius:3px; padding:2px 8px; font-size:9px; cursor:pointer;
+  transition:all 0.2s; white-space:nowrap;
+}
+.model-dl-btn:hover {
+  background:var(--mid-blue); color:white; border-color:var(--mid-blue);
+}
+/* ─── 单车型弹出打印窗口 ─── */
+.single-print-wrap {
+  max-width:700px; margin:0 auto; padding:20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.single-print-wrap .sp-header {
+  text-align:center; border-bottom:3px solid var(--deep-navy);
+  padding-bottom:16px; margin-bottom:20px;
+}
+.single-print-wrap .sp-header .brand { font-size:22px; font-weight:700; color:var(--deep-navy); letter-spacing:3px; }
+.single-print-wrap .sp-header .model { font-size:18px; font-weight:700; color:var(--navy); margin:6px 0; }
+.single-print-wrap .sp-header .sub { font-size:12px; color:var(--text-light); }
+.single-print-wrap .sp-table { width:100%; border-collapse:collapse; font-size:12px; }
+.single-print-wrap .sp-table td {
+  padding:8px 12px; border-bottom:1px solid #ddd;
+}
+.single-print-wrap .sp-table td:first-child {
+  width:35%; font-weight:600; color:var(--navy); background:#f5f7fa;
+}
+.single-print-wrap .sp-table td:last-child { color:var(--text-dark); }
+.single-print-wrap .sp-footer {
+  text-align:center; margin-top:30px; padding-top:16px;
+  border-top:1px solid #ddd; font-size:10px; color:var(--text-light);
+}
+.single-print-toolbar {
+  position:fixed; top:0; left:0; right:0; background:var(--deep-navy);
+  color:white; padding:10px 20px; display:flex; align-items:center;
+  justify-content:space-between; z-index:9999;
+}
+.single-print-toolbar span { font-size:14px; font-weight:600; }
+.single-print-toolbar button {
+  background:var(--mid-blue); color:white; border:none; border-radius:4px;
+  padding:8px 20px; font-size:13px; cursor:pointer; font-weight:600;
+}
+.single-print-toolbar button:hover { background:#0890c9; }
+.single-print-toolbar button.ghost {
+  background:transparent; border:1px solid rgba(255,255,255,0.3);
+}
+@media print {
+  .single-print-toolbar { display:none; }
+}
 .empty-msg { text-align:center; padding:60px; color:var(--text-light); font-size:14px; }
 .country-footer {
   text-align:center; padding:16px; background:var(--deep-navy);
@@ -141,8 +191,8 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">4×2 · 430HP</span></th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">4×2 · 430HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX41854V361&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP12.430N&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅲ&quot;, &quot;gearbox&quot;: &quot;16JSD200TA+QH50(花键)&quot;, &quot;axle_ratio&quot;: &quot;(940-850)×300(单8)&quot;, &quot;tire&quot;: &quot;3600&quot;, &quot;fuel_tank&quot;: &quot;13T  HD双级 4.266&quot;, &quot;wheelbase&quot;: &quot;1025&quot;, &quot;abs&quot;: &quot;HD7.5T&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前后 少片簧&quot;, &quot;rear_axle&quot;: &quot;(940-850)×300(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、普通排气、多功能方向盘、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、前后稳定杆、JOST 50鞍座带E标、三段整体式挡泥板、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">4×2 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX41854V361&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP12.430N&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅲ&quot;, &quot;gearbox&quot;: &quot;16JSD200TA+QH50&quot;, &quot;axle_ratio&quot;: &quot;(940-850)×300(单8)&quot;, &quot;tire&quot;: &quot;3600&quot;, &quot;fuel_tank&quot;: &quot;13T  HD双级 4.266&quot;, &quot;wheelbase&quot;: &quot;1025&quot;, &quot;abs&quot;: &quot;HD7.5T&quot;, &quot;saddle&quot;: &quot;加长高顶&quot;, &quot;front_axle&quot;: &quot;前少片簧，后空气悬架&quot;, &quot;rear_axle&quot;: &quot;(940-850)×300(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶&quot;, &quot;application&quot;: &quot;1、日用品运输（粮食、水果、木材、家电、百货，GCW≤40t，铺装路面 运距≤2000km 满载车速80～90km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、前排气带防火帽、多功能方向盘、进口转向机、WABCO进口四通道EBS+ESC、水箱保护栅、前后稳定杆、JOST50鞍座带E标、三段整体式挡泥板、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">4×2 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -178,7 +228,7 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">8×4 · 430HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX33155V306&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430N&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅲ&quot;, &quot;gearbox&quot;: &quot;16JSD200TA+QH50&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1800+2975+1400&quot;, &quot;fuel_tank&quot;: &quot;16T  HD双级 5.262&quot;, &quot;wheelbase&quot;: &quot;850&quot;, &quot;abs&quot;: &quot;HD9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后 多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、渣土运输（砂石/土方/建筑材料等，GVW≤70t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤100km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、电动翻转、金属保险杠-带灯护网、中置前牵引座、三级上车踏板、油浴空滤器、上排气、普通方向盘、国产四通道ABS、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、防风型油底壳保护栅、前后横向稳定杆、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">8×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -216,7 +266,7 @@ body {
       <thead>
         <tr>
           <th class="label-col">Spécifications Techniques</th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">8×4 · 430HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX5315GJB5V306&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430N&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅲ&quot;, &quot;gearbox&quot;: &quot;16JSD200TA&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;1800+2975+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级 5.262&quot;, &quot;wheelbase&quot;: &quot;1700&quot;, &quot;abs&quot;: &quot;HD9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后 多片簧 四主片+四骑马&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、混凝土运输（混凝土等，GVW≤45t，大部分为非铺装路面，路面坡道、坑洼路面较多，一般运距≤50km，常用车速35-50km/h）&quot;, &quot;category&quot;: &quot;搅拌车/Mixer&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、电动翻转、金属保险杠-带灯护网、中置前牵引座、三级上车踏板、普通侧置空滤器、上排气、普通方向盘、国产四通道ABS、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、防风型油底壳保护栅、前后横向稳定杆、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">8×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -251,6 +301,89 @@ body {
 <script>
 function downloadPDF() {
   window.print();
+}
+
+function downloadSingle(btn) {
+  var th = btn.closest('th');
+  var specsStr = th.getAttribute('data-specs');
+  if (!specsStr) return;
+  
+  // Parse the JSON (stored with &quot; instead of ")
+  var specs = JSON.parse(specsStr.replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
+  
+  var labels = {
+    drive: "Transmission", wheelbase: "Empattement (mm)", cab: "Cabine",
+    engine: "Moteur", emission: "Norme", power: "Puissance (ch)",
+    transmission: "Boîte de Vitesses", front_axle: "Essieu Avant (t)",
+    rear_axle: "Pont Arrière", final_ratio: "Rapport Final",
+    frame: "Châssis (mm)", suspension: "Suspension",
+    fuel_tank: "Réservoir (L)", tire: "Pneus",
+    saddle: "Sellette", service_brake: "Frein de Service",
+    abs: "ABS", application: "Application"
+  };
+  
+  var rows = '';
+  var fieldMap = [
+    ['drive', 'drive'], ['wheelbase', 'wheelbase'], ['cab', 'cab'],
+    ['engine', 'engine'], ['emission', 'emission'], ['power', 'hp'],
+    ['transmission', 'gearbox'], ['front_axle', 'front_axle'],
+    ['rear_axle', 'rear_axle'], ['final_ratio', 'axle_ratio'],
+    ['frame', 'frame'], ['suspension', 'suspension'],
+    ['fuel_tank', 'fuel_tank'], ['tire', 'tire'],
+    ['saddle', 'saddle'], ['service_brake', 'service_brake'],
+    ['abs', 'abs'], ['application', 'application']
+  ];
+  
+  for (var i = 0; i < fieldMap.length; i++) {
+    var labelKey = fieldMap[i][0];
+    var dataKey = fieldMap[i][1];
+    var val = specs[dataKey] || '';
+    if (!val) continue;
+    rows += '<tr><td>' + labels[labelKey] + '</td><td>' + val + '</td></tr>';
+  }
+  
+  var platform = specs.platform || specs.model || '';
+  var drive = specs.drive || '';
+  var hp = specs.hp || '';
+  var model = specs.model || '';
+  
+  var w = window.open('', '_blank', 'width=800,height=700');
+  w.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8"><title>' + platform + ' Spec Sheet</title>');
+  w.document.write('<style>');
+  w.document.write('*{margin:0;padding:0;box-sizing:border-box;}');
+  w.document.write('body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#f0f2f5;padding-top:50px;}');
+  w.document.write('.toolbar{position:fixed;top:0;left:0;right:0;background:#1A223E;color:white;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;z-index:9999;}');
+  w.document.write('.toolbar span{font-size:14px;font-weight:600;}');
+  w.document.write('.toolbar button{background:#0aa2e1;color:white;border:none;border-radius:4px;padding:8px 20px;font-size:13px;cursor:pointer;font-weight:600;margin-left:8px;}');
+  w.document.write('.toolbar button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.3);}');
+  w.document.write('.wrap{max-width:680px;margin:20px auto;background:white;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.1);overflow:hidden;}');
+  w.document.write('.header{background:#1A223E;color:white;padding:20px 24px;text-align:center;}');
+  w.document.write('.header .brand{font-size:20px;font-weight:700;letter-spacing:3px;}');
+  w.document.write('.header .model{font-size:18px;font-weight:700;margin:8px 0 4px;}');
+  w.document.write('.header .sub{font-size:12px;color:rgba(255,255,255,0.6);}');
+  w.document.write('.specs{padding:16px 24px;}');
+  w.document.write('table{width:100%;border-collapse:collapse;}');
+  w.document.write('td{padding:8px 12px;border-bottom:1px solid #eee;font-size:13px;}');
+  w.document.write('td:first-child{width:35%;font-weight:600;color:#212a3b;background:#f5f7fa;}');
+  w.document.write('.footer{text-align:center;padding:16px;font-size:10px;color:#999;border-top:1px solid #eee;}');
+  w.document.write('@media print{body{background:white;padding:0;}');
+  w.document.write('.toolbar{display:none;}.wrap{box-shadow:none;margin:0;border-radius:0;max-width:100%;}}');
+  w.document.write('</style></head><body>');
+  w.document.write('<div class="toolbar"><span>' + platform + '</span><div>');
+  w.document.write('<button onclick="window.print()">🖨️ Télécharger PDF</button>');
+  w.document.write('<button class="ghost" onclick="window.close()">Fermer</button>');
+  w.document.write('</div></div>');
+  w.document.write('<div class="wrap">');
+  w.document.write('<div class="header"><div class="brand">SHACMAN</div>');
+  w.document.write('<div class="model">' + model + '</div>');
+  w.document.write('<div class="sub">' + drive + ' · ' + hp + 'HP</div></div>');
+  w.document.write('<div class="specs"><table>' + rows + '</table></div>');
+  w.document.write('<div class="footer">SHACMAN · Shaanxi Fenghan Trading Co., Ltd. · Xi'an, China</div>');
+  w.document.write('</div></body></html>');
+  w.document.close();
+  
+  // Auto trigger print after a short delay
+  setTimeout(function() { w.print(); }, 600);
 }
 </script>
 

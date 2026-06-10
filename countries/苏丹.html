@@ -97,6 +97,56 @@ body {
 .sec-table td.highlight { font-weight:700; color:var(--navy); }
 .sec-table .model-name { font-size:12px; font-weight:700; color:white; }
 .sec-table .model-drive { font-size:9px; color:rgba(255,255,255,0.7); }
+.model-dl-btn {
+  display:block; margin:4px auto 0; background:rgba(255,255,255,0.15);
+  color:rgba(255,255,255,0.8); border:1px solid rgba(255,255,255,0.2);
+  border-radius:3px; padding:2px 8px; font-size:9px; cursor:pointer;
+  transition:all 0.2s; white-space:nowrap;
+}
+.model-dl-btn:hover {
+  background:var(--mid-blue); color:white; border-color:var(--mid-blue);
+}
+/* ─── 单车型弹出打印窗口 ─── */
+.single-print-wrap {
+  max-width:700px; margin:0 auto; padding:20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.single-print-wrap .sp-header {
+  text-align:center; border-bottom:3px solid var(--deep-navy);
+  padding-bottom:16px; margin-bottom:20px;
+}
+.single-print-wrap .sp-header .brand { font-size:22px; font-weight:700; color:var(--deep-navy); letter-spacing:3px; }
+.single-print-wrap .sp-header .model { font-size:18px; font-weight:700; color:var(--navy); margin:6px 0; }
+.single-print-wrap .sp-header .sub { font-size:12px; color:var(--text-light); }
+.single-print-wrap .sp-table { width:100%; border-collapse:collapse; font-size:12px; }
+.single-print-wrap .sp-table td {
+  padding:8px 12px; border-bottom:1px solid #ddd;
+}
+.single-print-wrap .sp-table td:first-child {
+  width:35%; font-weight:600; color:var(--navy); background:#f5f7fa;
+}
+.single-print-wrap .sp-table td:last-child { color:var(--text-dark); }
+.single-print-wrap .sp-footer {
+  text-align:center; margin-top:30px; padding-top:16px;
+  border-top:1px solid #ddd; font-size:10px; color:var(--text-light);
+}
+.single-print-toolbar {
+  position:fixed; top:0; left:0; right:0; background:var(--deep-navy);
+  color:white; padding:10px 20px; display:flex; align-items:center;
+  justify-content:space-between; z-index:9999;
+}
+.single-print-toolbar span { font-size:14px; font-weight:600; }
+.single-print-toolbar button {
+  background:var(--mid-blue); color:white; border:none; border-radius:4px;
+  padding:8px 20px; font-size:13px; cursor:pointer; font-weight:600;
+}
+.single-print-toolbar button:hover { background:#0890c9; }
+.single-print-toolbar button.ghost {
+  background:transparent; border:1px solid rgba(255,255,255,0.3);
+}
+@media print {
+  .single-print-toolbar { display:none; }
+}
 .empty-msg { text-align:center; padding:60px; color:var(--text-light); font-size:14px; }
 .country-footer {
   text-align:center; padding:16px; background:var(--deep-navy);
@@ -141,10 +191,10 @@ body {
       <thead>
         <tr>
           <th class="label-col">Technical Specifications</th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX4255JV324&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级加宽4.769&quot;, &quot;wheelbase&quot;: &quot;加长平顶&quot;, &quot;abs&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;saddle&quot;: &quot;HD 9.5T&quot;, &quot;front_axle&quot;: &quot;700L+230L铝合金油箱&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;HD 9.5T&quot;, &quot;application&quot;: &quot;1、重载运输-日用品运输（日用品  90t＜GCW≤120t  铺装路面  运距≤500km 满载常用车速40-60km/h)&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;F3000加长平顶驾驶室带顶导流罩、空气主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器（车型1）/油浴式空滤器(车型2)、普通排气（车型1）、普通排气（尾管朝左、仅车型2）、水箱保护栅、防风型油底壳保护栅、普通方向盘、加强型约斯特90鞍座、前后稳定杆、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX4255JV384&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T  HD 双级加宽4.769&quot;, &quot;wheelbase&quot;: &quot;加长平顶&quot;, &quot;abs&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;saddle&quot;: &quot;HD 9.5T&quot;, &quot;front_axle&quot;: &quot;700L+300L铝合金油箱&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;HD 9.5T&quot;, &quot;application&quot;: &quot;1、重载运输-日用品运输（日用品  90t＜GCW≤120t  铺装路面  运距≤500km 满载常用车速40-60km/h)&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;F3000加长平顶驾驶室带顶导流罩、空气主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通空滤器（车型1）/油浴式空滤器(车型2)、普通排气（车型1）、普通排气（尾管朝左、仅车型2）、水箱保护栅、防风型油底壳保护栅、普通方向盘、加强型约斯特90鞍座、前后稳定杆、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX42555V324&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳-QH50花键&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD 双级加宽4.769&quot;, &quot;wheelbase&quot;: &quot;加长平顶&quot;, &quot;abs&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;saddle&quot;: &quot;HD  9.5T&quot;, &quot;front_axle&quot;: &quot;700L+230L铝合金油箱&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;HD  9.5T&quot;, &quot;application&quot;: &quot;1、重载运输-日用品运输（日用品  90t＜GCW≤120t  铺装路面  运距≤500km 满载常用车速40-60km/h)&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、手动翻转、工程用车保险杠（黑色外观）-灯护网、三级上车踏板、普通空滤器、普通排气、水箱保护栅、防风型油底壳保护栅、前后稳定杆、中控锁、普通方向盘、加强型约斯特90鞍座、左前牵引销、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX42555V384&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳-QH50花键&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造加宽桥-4.769&quot;, &quot;wheelbase&quot;: &quot;加长平顶&quot;, &quot;abs&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;saddle&quot;: &quot;HD 9.5T前轴&quot;, &quot;front_axle&quot;: &quot;（700L+300L）铝合金油箱&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;HD 9.5T前轴&quot;, &quot;application&quot;: &quot;1、重载运输-日用品运输（日用品  90t＜GCW≤120t  铺装路面  运距≤500km 满载常用车速40-60km/h)&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、手动翻转、工程用车保险杠（黑色外观）-带灯护网、三级上车踏板、中控锁(带遥控器)、油浴式空滤器、普通排气（尾管朝左）、国产转向机、普通方向盘、加强型约斯特90鞍座、分体式挡泥板、左前牵引销、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -180,9 +230,9 @@ body {
       <thead>
         <tr>
           <th class="label-col">Technical Specifications</th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 380HP</span></th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX3255JT384&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP10.380E22&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180+QH50（花键）&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD 双级加宽-5.262&quot;, &quot;wheelbase&quot;: &quot;850&quot;, &quot;abs&quot;: &quot;HD  9.5T&quot;, &quot;saddle&quot;: &quot;中长平顶&quot;, &quot;front_axle&quot;: &quot;前后 多片簧 四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;中长平顶&quot;, &quot;application&quot;: &quot;1、重载运输-城建渣土（渣土、砂石料等  GVW≤50T 铺装路面 运距≤50km 满载车速40-60km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;F3000中 加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通方向盘、油浴式空滤器、普通排气（尾管朝左）、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX3255JV384&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧II&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳 -QH50花键&quot;, &quot;axle_ratio&quot;: &quot;850×300 (8+7)&quot;, &quot;tire&quot;: &quot;3775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造加 宽桥-5.262&quot;, &quot;wheelbase&quot;: &quot;850&quot;, &quot;abs&quot;: &quot;HD 9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300 (8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、重载运输-城建渣土（渣土、砂石料等  GVW≤50T 铺装路面 运距≤50km 满载车速40-60km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、国产离合器、普通方向盘、油浴式空滤器、普通排气(尾管朝左)、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX32555V38&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B+QH50（花键）&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;3775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD 双级加宽-5.262&quot;, &quot;wheelbase&quot;: &quot;850&quot;, &quot;abs&quot;: &quot;HD  9.5T&quot;, &quot;saddle&quot;: &quot;中长平顶&quot;, &quot;front_axle&quot;: &quot;前后 多片簧 四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;中长平顶&quot;, &quot;application&quot;: &quot;1、重载运输-城建渣土（渣土、砂石料等  GVW≤50T 铺装路面 运距≤50km 满载车速40-60km/h）&quot;, &quot;category&quot;: &quot;自卸车/Dumper&quot;, &quot;base_config&quot;: &quot;X3000中 加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、手动翻转、工程用车保险杠（黑色外观）-灯护网、普通方向盘、三级上车踏板、油浴式空滤器、普通排气（尾管朝左）、水箱保护栅、中控锁、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -220,10 +270,10 @@ body {
       <thead>
         <tr>
           <th class="label-col">Technical Specifications</th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span></th>
-          <th><span class="model-name">L3000</span><br><span class="model-drive">4×2 · 210HP</span></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX1255JV434&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;4375+1400&quot;, &quot;fuel_tank&quot;: &quot;16T  HD 双级加宽桥-4.769&quot;, &quot;wheelbase&quot;: &quot;2400&quot;, &quot;abs&quot;: &quot;HD  9.5T&quot;, &quot;saddle&quot;: &quot;中长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;中长平顶&quot;, &quot;application&quot;: &quot;1、复合运输-农副产品运输（粮食、瓜果、蔬菜等  GVW≤35t 类国道及省道 运距≤300km 满载车速50-70km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;F3000中 加长平顶驾驶室带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、普通方向盘、油浴式空滤器、普通排气（尾管朝左）、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX12555V434&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳-QH50法兰&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;4375+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造加宽桥-4.769&quot;, &quot;wheelbase&quot;: &quot;2400&quot;, &quot;abs&quot;: &quot;HD 9.5T前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧(四骑马螺栓)&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、复合运输-农副产品运输（粮食、瓜果、蔬菜等  GVW≤35t 类国道及省道 运距≤300km 满载车速50-70km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室带顶导流罩、液压主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、手动翻转、工程用车保险杠（黑色外观）-带灯护网、三级上车踏板、中控锁(带遥控器)、油浴式空滤器、普通排气（尾管朝左）、国产转向机、普通方向盘、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX1255JV464&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.430E201&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-QH50法兰&quot;, &quot;axle_ratio&quot;: &quot;850×300（8+7）&quot;, &quot;tire&quot;: &quot;4575+1400&quot;, &quot;fuel_tank&quot;: &quot;16T  HD 双级铸造加宽桥-5.262&quot;, &quot;wheelbase&quot;: &quot;2600&quot;, &quot;abs&quot;: &quot;HD  9.5T&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300（8+7）&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、复合运输-农副产品运输（粮食、瓜果、蔬菜等  GVW≤35t 类国道及省道 运距≤300km 满载车速50-70km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;F3000加长平顶驾驶室带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、普通方向盘、油浴式空滤器、普通排气（尾管朝左）、水箱保护栅、防风型油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX11858J451&quot;, &quot;platform&quot;: &quot;L3000&quot;, &quot;drive&quot;: &quot;4×2&quot;, &quot;version&quot;: &quot;标载版&quot;, &quot;engine&quot;: &quot;WP6.210E32&quot;, &quot;hp&quot;: &quot;210&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;8JS85TM（铝）&quot;, &quot;axle_ratio&quot;: &quot;870×250（7+4）&quot;, &quot;tire&quot;: &quot;4500&quot;, &quot;fuel_tank&quot;: &quot;10T 单级-4.625&quot;, &quot;wheelbase&quot;: &quot;1900&quot;, &quot;abs&quot;: &quot;HD  4.8T（盘式制动）&quot;, &quot;saddle&quot;: &quot;L3000驾驶室&quot;, &quot;front_axle&quot;: &quot;前后多片簧&quot;, &quot;rear_axle&quot;: &quot;870×250（7+4）&quot;, &quot;suspension&quot;: &quot;L3000驾驶室&quot;, &quot;application&quot;: &quot;1、复合运输-农副产品运输（粮食、瓜果、蔬菜等  GVW≤35t 类国道及省道 运距≤300km 满载车速50-70km/h）&quot;, &quot;category&quot;: &quot;载货车/Cargo Truck&quot;, &quot;base_config&quot;: &quot;L3000驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电动空调、电动摇窗机、手动翻转、L3000保险杠、两级上车踏板、中控锁（双遥控）、普通空滤器、普通排气、水箱保护栅、尾灯保护栅、135Ah免维护蓄电池&quot;}"><span class="model-name">L3000</span><br><span class="model-drive">4×2 · 210HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
@@ -258,6 +308,89 @@ body {
 <script>
 function downloadPDF() {
   window.print();
+}
+
+function downloadSingle(btn) {
+  var th = btn.closest('th');
+  var specsStr = th.getAttribute('data-specs');
+  if (!specsStr) return;
+  
+  // Parse the JSON (stored with &quot; instead of ")
+  var specs = JSON.parse(specsStr.replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
+  
+  var labels = {
+    drive: "Drive", wheelbase: "Wheelbase (mm)", cab: "Cab",
+    engine: "Engine", emission: "Emission", power: "Power (hp)",
+    transmission: "Transmission", front_axle: "Front Axle (t)",
+    rear_axle: "Rear Axle", final_ratio: "Final Ratio",
+    frame: "Frame (mm)", suspension: "Suspension",
+    fuel_tank: "Fuel Tank (L)", tire: "Tires",
+    saddle: "5th Wheel", service_brake: "Service Brake",
+    abs: "ABS", application: "Application"
+  };
+  
+  var rows = '';
+  var fieldMap = [
+    ['drive', 'drive'], ['wheelbase', 'wheelbase'], ['cab', 'cab'],
+    ['engine', 'engine'], ['emission', 'emission'], ['power', 'hp'],
+    ['transmission', 'gearbox'], ['front_axle', 'front_axle'],
+    ['rear_axle', 'rear_axle'], ['final_ratio', 'axle_ratio'],
+    ['frame', 'frame'], ['suspension', 'suspension'],
+    ['fuel_tank', 'fuel_tank'], ['tire', 'tire'],
+    ['saddle', 'saddle'], ['service_brake', 'service_brake'],
+    ['abs', 'abs'], ['application', 'application']
+  ];
+  
+  for (var i = 0; i < fieldMap.length; i++) {
+    var labelKey = fieldMap[i][0];
+    var dataKey = fieldMap[i][1];
+    var val = specs[dataKey] || '';
+    if (!val) continue;
+    rows += '<tr><td>' + labels[labelKey] + '</td><td>' + val + '</td></tr>';
+  }
+  
+  var platform = specs.platform || specs.model || '';
+  var drive = specs.drive || '';
+  var hp = specs.hp || '';
+  var model = specs.model || '';
+  
+  var w = window.open('', '_blank', 'width=800,height=700');
+  w.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8"><title>' + platform + ' Spec Sheet</title>');
+  w.document.write('<style>');
+  w.document.write('*{margin:0;padding:0;box-sizing:border-box;}');
+  w.document.write('body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#f0f2f5;padding-top:50px;}');
+  w.document.write('.toolbar{position:fixed;top:0;left:0;right:0;background:#1A223E;color:white;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;z-index:9999;}');
+  w.document.write('.toolbar span{font-size:14px;font-weight:600;}');
+  w.document.write('.toolbar button{background:#0aa2e1;color:white;border:none;border-radius:4px;padding:8px 20px;font-size:13px;cursor:pointer;font-weight:600;margin-left:8px;}');
+  w.document.write('.toolbar button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.3);}');
+  w.document.write('.wrap{max-width:680px;margin:20px auto;background:white;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.1);overflow:hidden;}');
+  w.document.write('.header{background:#1A223E;color:white;padding:20px 24px;text-align:center;}');
+  w.document.write('.header .brand{font-size:20px;font-weight:700;letter-spacing:3px;}');
+  w.document.write('.header .model{font-size:18px;font-weight:700;margin:8px 0 4px;}');
+  w.document.write('.header .sub{font-size:12px;color:rgba(255,255,255,0.6);}');
+  w.document.write('.specs{padding:16px 24px;}');
+  w.document.write('table{width:100%;border-collapse:collapse;}');
+  w.document.write('td{padding:8px 12px;border-bottom:1px solid #eee;font-size:13px;}');
+  w.document.write('td:first-child{width:35%;font-weight:600;color:#212a3b;background:#f5f7fa;}');
+  w.document.write('.footer{text-align:center;padding:16px;font-size:10px;color:#999;border-top:1px solid #eee;}');
+  w.document.write('@media print{body{background:white;padding:0;}');
+  w.document.write('.toolbar{display:none;}.wrap{box-shadow:none;margin:0;border-radius:0;max-width:100%;}}');
+  w.document.write('</style></head><body>');
+  w.document.write('<div class="toolbar"><span>' + platform + '</span><div>');
+  w.document.write('<button onclick="window.print()">🖨️ Download PDF</button>');
+  w.document.write('<button class="ghost" onclick="window.close()">Close</button>');
+  w.document.write('</div></div>');
+  w.document.write('<div class="wrap">');
+  w.document.write('<div class="header"><div class="brand">SHACMAN</div>');
+  w.document.write('<div class="model">' + model + '</div>');
+  w.document.write('<div class="sub">' + drive + ' · ' + hp + 'HP</div></div>');
+  w.document.write('<div class="specs"><table>' + rows + '</table></div>');
+  w.document.write('<div class="footer">SHACMAN · Shaanxi Fenghan Trading Co., Ltd. · Xi'an, China</div>');
+  w.document.write('</div></body></html>');
+  w.document.close();
+  
+  // Auto trigger print after a short delay
+  setTimeout(function() { w.print(); }, 600);
 }
 </script>
 
