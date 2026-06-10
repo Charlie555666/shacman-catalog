@@ -34,6 +34,33 @@ body {
 .top-nav .country { font-size:14px; color: var(--mid-blue); margin-left:auto; }
 .top-nav a { color:rgba(255,255,255,0.7); text-decoration:none; font-size:12px; }
 .top-nav a:hover { color:white; }
+/* ─── 下载工具栏 ─── */
+.download-bar {
+  background: linear-gradient(135deg, #f0f4f8, #e8edf3);
+  border-bottom: 2px solid var(--mid-blue);
+  padding: 10px 24px;
+  display: flex; align-items: center; justify-content: center; gap: 16px;
+  position: sticky; top: 44px; z-index: 99;
+}
+.download-bar .hint { font-size: 12px; color: var(--text-light); }
+.download-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--mid-blue); color: white;
+  border: none; border-radius: 6px;
+  padding: 10px 24px; font-size: 14px; font-weight: 600;
+  cursor: pointer; transition: all 0.2s;
+  text-decoration: none; letter-spacing: 0.5px;
+}
+.download-btn:hover {
+  background: #0890c9; transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(10,162,225,0.3);
+}
+.download-btn.secondary {
+  background: var(--deep-navy);
+}
+.download-btn.secondary:hover {
+  background: #152540; box-shadow: 0 4px 12px rgba(26,34,62,0.3);
+}
 .page-list { display:flex; flex-direction:column; align-items:center; padding:20px 0; gap:20px; }
 .page {
   width:943px; background:var(--white); box-shadow:0 2px 12px rgba(0,0,0,0.15);
@@ -79,7 +106,7 @@ body {
   body { background:white; padding:0; gap:0; }
   .page { box-shadow:none; page-break-after:always; }
   .page:last-child { page-break-after:auto; }
-  .top-nav { display:none; }
+  .top-nav, .download-bar { display:none; }
 }
 @media (max-width:1000px) {
   .page { width:100vw; }
@@ -93,6 +120,13 @@ body {
   <span class="brand">SHACMAN</span>
   <a href="index.html">← Volver al Índice</a>
   <span class="country">哥伦比亚</span>
+</div>
+
+<div class="download-bar">
+  <span class="hint">Haga clic para guardar este catálogo como PDF</span>
+  <button class="download-btn" onclick="downloadPDF()" title="📥 Descargar / Imprimir PDF">
+    Descargar PDF
+  </button>
 </div>
 
 <div class="page-list">
@@ -257,6 +291,12 @@ body {
 </div>
 
 <div class="country-footer">SHACMAN · Shaanxi Automobile Holding Group Co., Ltd. · Xi'an, China</div>
+
+<script>
+function downloadPDF() {
+  window.print();
+}
+</script>
 
 </body>
 </html>
