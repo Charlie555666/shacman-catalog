@@ -182,6 +182,20 @@ body {
 @media (max-width:1000px) {
   .page { width:100vw; }
 }
+/* Toast notification */
+.catalog-toast {
+  position:fixed;top:20px;left:50%;transform:translateX(-50%);
+  padding:14px 28px;border-radius:8px;z-index:999999;
+  font-size:15px;font-weight:600;color:#fff;text-align:center;max-width:90vw;
+  box-shadow:0 4px 20px rgba(0,0,0,0.25);
+  animation:toast-in .35s ease-out, toast-out .3s 3s ease-in forwards;
+  pointer-events:none;line-height:1.5;
+}
+.catalog-toast.success{background:#2e7d32;}
+.catalog-toast.info{background:#1565c0;}
+.catalog-toast.error{background:#c62828;}
+@keyframes toast-in{from{opacity:0;top:-50px;}to{opacity:1;top:20px;}}
+@keyframes toast-out{to{opacity:0;top:-50px;}}
 </style>
 
 </head>
@@ -190,7 +204,7 @@ body {
 <div class="top-nav">
   <span class="brand">SHACMAN</span>
   <a href="index.html">← Retour à l'Index du Catalogue</a>
-  <span class="country">卢旺达</span>
+  <span class="country">卢旺达 · 9 models</span>
 </div>
 
 <div class="download-bar">
@@ -205,7 +219,7 @@ body {
   <div class="page-header">
     <span class="badge">Tracteur Rou</span>
     <h2>Tracteur Routier</h2>
-    <span class="models">SX4255HU324, SX4255HU324R, SX4255JU324, SX4255HT324</span>
+    <span class="models">SX4255HU324, SX4255HU324R, SX4255JU324, SX4255HT324, SX4255HU324</span>
   </div>
   <div class="sec-table-wrap">
     <table class="sec-table">
@@ -216,30 +230,31 @@ body {
           <th data-specs="{&quot;model&quot;: &quot;SX4255HU324R&quot;, &quot;platform&quot;: &quot;H3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP12.400E201&quot;, &quot;hp&quot;: &quot;400&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×270(8+4)&quot;, &quot;tire&quot;: &quot;3175+1350&quot;, &quot;fuel_tank&quot;: &quot;13T HD单级3.7&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 5.5T&quot;, &quot;saddle&quot;: &quot;加长半高顶&quot;, &quot;front_axle&quot;: &quot;前后 少片簧&quot;, &quot;rear_axle&quot;: &quot;850×270(8+4)&quot;, &quot;suspension&quot;: &quot;加长半高顶&quot;, &quot;application&quot;: &quot;1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产右置转向机、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆&quot;, &quot;base_config_display&quot;: &quot;H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产右置转向机 (Domestic RHD Steering Gear)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)&quot;}"><span class="model-name">H3000</span><br><span class="model-drive">6×4 · 400HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
           <th data-specs="{&quot;model&quot;: &quot;SX4255JU324&quot;, &quot;platform&quot;: &quot;F3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12.400E201&quot;, &quot;hp&quot;: &quot;400&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铁壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+5)&quot;, &quot;tire&quot;: &quot;3175+1400&quot;, &quot;fuel_tank&quot;: &quot;13T HD 双级减速桥-4.266&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 7.5T前轴&quot;, &quot;saddle&quot;: &quot;加长平顶&quot;, &quot;front_axle&quot;: &quot;前后多片簧 两主片两骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300(8+5)&quot;, &quot;suspension&quot;: &quot;加长平顶&quot;, &quot;application&quot;: &quot;1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;F3000加长平顶驾驶室带顶导流罩、电控自动恒温空调、电动摇窗机、金属保险杠-带灯护网、普通侧置空滤器、国产转向机、普通90鞍座、三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池、普通排气、水箱保护栅、手动翻转、空气主座椅、普通后视镜、三级上车踏板&quot;, &quot;country_config&quot;: &quot;四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、2kg灭火器、32T千斤顶、经济版随车工具箱、平板安装板&quot;, &quot;base_config_display&quot;: &quot;F3000加长平顶驾驶室带顶导流罩 (with Roof Fairing, Extended Flat Roof)、电控自动恒温空调 (Electronic Auto Climate Control (A/C))、电动摇窗机 (Power Window)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、普通侧置空滤器 (Standard Side-Mount Air Filter)、国产转向机 (Domestic Steering Gear)、普通90鞍座 (Standard 90 Fifth Wheel)、三段整体式挡泥板 (3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、手动翻转 (Manual Cab Tilt)、空气主座椅 (Air Suspension Main Seat)、普通后视镜 (Standard Rearview Mirror)、三级上车踏板 (3-Step Access Ladder)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、平板安装板 (Flat Mount Plate)&quot;}"><span class="model-name">F3000</span><br><span class="model-drive">6×4 · 400HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
           <th data-specs="{&quot;model&quot;: &quot;SX4255HT324&quot;, &quot;platform&quot;: &quot;H3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP10.380E22&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;10JSD180T-铁壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×270（单8）&quot;, &quot;tire&quot;: &quot;3175+1350&quot;, &quot;fuel_tank&quot;: &quot;11.5T HD单级减速桥-4.11&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 5.5T&quot;, &quot;saddle&quot;: &quot;加长半高顶&quot;, &quot;front_axle&quot;: &quot;前后 少片簧&quot;, &quot;rear_axle&quot;: &quot;850×270（单8）&quot;, &quot;suspension&quot;: &quot;加长半高顶&quot;, &quot;application&quot;: &quot;1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;H3000加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、银字银标、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、鞍座可调、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆、2kg灭火器、后桥V型推力杆&quot;, &quot;base_config_display&quot;: &quot;H3000加长半高顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Semi-High Roof)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、银字银标 (Silver Lettering & Silver Badge)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、鞍座可调 (Fifth Wheel Adjustable)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)、2kg灭火器 (2kg Fire Extinguisher)、后桥V型推力杆&quot;}"><span class="model-name">H3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX4255HU324&quot;, &quot;platform&quot;: &quot;H3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP12.400E201&quot;, &quot;hp&quot;: &quot;400&quot;, &quot;emission&quot;: &quot;欧Ⅱ&quot;, &quot;gearbox&quot;: &quot;12JSD200T-B-铝壳-无取力器&quot;, &quot;axle_ratio&quot;: &quot;850×270(8+4)&quot;, &quot;tire&quot;: &quot;3175+1350&quot;, &quot;fuel_tank&quot;: &quot;11.5T HD单级减速桥-3.7&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 5.5T&quot;, &quot;saddle&quot;: &quot;加长半高顶&quot;, &quot;front_axle&quot;: &quot;前后 少片簧&quot;, &quot;rear_axle&quot;: &quot;850×270(8+4)&quot;, &quot;suspension&quot;: &quot;加长半高顶&quot;, &quot;application&quot;: &quot;1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）&quot;, &quot;category&quot;: &quot;牵引车/Tractor&quot;, &quot;base_config&quot;: &quot;H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆&quot;, &quot;base_config_display&quot;: &quot;H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)&quot;}"><span class="model-name">H3000</span><br><span class="model-drive">6×4 · 400HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
-<tr class="group-row"><td colspan="5">Tracteur Routier</td></tr>
-<tr><td class="label-col">Transmission</td><td>6×4</td><td>6×4</td><td>6×4</td><td>6×4</td></tr>
-<tr><td class="label-col">Empattement (mm)</td><td>725</td><td>725</td><td>725</td><td>725</td></tr>
-<tr><td class="label-col">Cabine</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">Moteur</td><td>WP12.400E201</td><td>WP12.400E201</td><td>WP12.400E201</td><td>WP10.380E22</td></tr>
-<tr><td class="label-col">Norme</td><td>欧Ⅱ</td><td>欧Ⅱ</td><td>欧Ⅱ</td><td>欧Ⅱ</td></tr>
-<tr><td class="label-col">Puissance (ch)</td><td class="highlight">400</td><td class="highlight">400</td><td class="highlight">400</td><td class="highlight">380</td></tr>
-<tr><td class="label-col">Boîte de Vitesses</td><td>12JSD200T-B-铁壳-无取力器</td><td>12JSD200T-B-铁壳-无取力器</td><td>12JSD200T-B-铁壳-无取力器</td><td>10JSD180T-铁壳-无取力器</td></tr>
-<tr><td class="label-col">Essieu Avant (t)</td><td>前后 少片簧</td><td>前后 少片簧</td><td>前后多片簧 两主片两骑马螺栓</td><td>前后 少片簧</td></tr>
-<tr><td class="label-col">Pont Arrière</td><td>850×270(8+4)</td><td>850×270(8+4)</td><td>850×300(8+5)</td><td>850×270（单8）</td></tr>
-<tr><td class="label-col">Rapport Final</td><td>850×270(8+4)</td><td>850×270(8+4)</td><td>850×300(8+5)</td><td>850×270（单8）</td></tr>
-<tr><td class="label-col">Châssis (mm)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">Suspension</td><td>加长半高顶</td><td>加长半高顶</td><td>加长平顶</td><td>加长半高顶</td></tr>
-<tr><td class="label-col">Réservoir (L)</td><td>13T HD单级3.7</td><td>13T HD单级3.7</td><td>13T HD 双级减速桥-4.266</td><td>11.5T HD单级减速桥-4.11</td></tr>
-<tr><td class="label-col">Pneus</td><td>3175+1350</td><td>3175+1350</td><td>3175+1400</td><td>3175+1350</td></tr>
-<tr><td class="label-col">Sellette</td><td>加长半高顶</td><td>加长半高顶</td><td>加长平顶</td><td>加长半高顶</td></tr>
-<tr><td class="label-col">Frein de Service</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">ABS</td><td>HD 5.5T</td><td>HD 5.5T</td><td>HD 7.5T前轴</td><td>HD 5.5T</td></tr>
-<tr><td class="label-col">Application</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td></tr>
-<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产右置转向机、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产右置转向机 (Domestic RHD Steering Gear)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="F3000加长平顶驾驶室带顶导流罩、电控自动恒温空调、电动摇窗机、金属保险杠-带灯护网、普通侧置空滤器、国产转向机、普通90鞍座、三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池、普通排气、水箱保护栅、手动翻转、空气主座椅、普通后视镜、三级上车踏板">F3000加长平顶驾驶室带顶导流罩 (with Roof Fairing, Extended Flat Roof)、电控自动恒温空调 (Electronic Auto Climate Control (A/C))、电动摇窗机 (Power Window)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、普通侧置空滤器 (Standard Side-Mount Air Filter)、国产转向机 (Domestic Steering Gear)、普通90鞍座 (Standard 90 Fifth Wheel)、三段整体式挡泥板 (3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、手动翻转 (Manual Cab Tilt)、空气主座椅 (Air Suspension Main Seat)、普通后视镜 (Standard Rearview Mirror)、三级上车踏板 (3-Step Access Ladder)</div></td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Semi-High Roof)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td></tr>
-<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、2kg灭火器、32T千斤顶、经济版随车工具箱、平板安装板">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、平板安装板 (Flat Mount Plate)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、银字银标、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、鞍座可调、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆、2kg灭火器、后桥V型推力杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、银字银标 (Silver Lettering & Silver Badge)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、鞍座可调 (Fifth Wheel Adjustable)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)、2kg灭火器 (2kg Fire Extinguisher)、后桥V型推力杆</div></td></tr>
+<tr class="group-row"><td colspan="6">Tracteur Routier</td></tr>
+<tr><td class="label-col">Transmission</td><td>6×4</td><td>6×4</td><td>6×4</td><td>6×4</td><td>6×4</td></tr>
+<tr><td class="label-col">Empattement (mm)</td><td>725</td><td>725</td><td>725</td><td>725</td><td>725</td></tr>
+<tr><td class="label-col">Cabine</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">Moteur</td><td>WP12.400E201</td><td>WP12.400E201</td><td>WP12.400E201</td><td>WP10.380E22</td><td>WP12.400E201</td></tr>
+<tr><td class="label-col">Norme</td><td>欧Ⅱ</td><td>欧Ⅱ</td><td>欧Ⅱ</td><td>欧Ⅱ</td><td>欧Ⅱ</td></tr>
+<tr><td class="label-col">Puissance (ch)</td><td class="highlight">400</td><td class="highlight">400</td><td class="highlight">400</td><td class="highlight">380</td><td class="highlight">400</td></tr>
+<tr><td class="label-col">Boîte de Vitesses</td><td>12JSD200T-B-铁壳-无取力器</td><td>12JSD200T-B-铁壳-无取力器</td><td>12JSD200T-B-铁壳-无取力器</td><td>10JSD180T-铁壳-无取力器</td><td>12JSD200T-B-铝壳-无取力器</td></tr>
+<tr><td class="label-col">Essieu Avant (t)</td><td>前后 少片簧</td><td>前后 少片簧</td><td>前后多片簧 两主片两骑马螺栓</td><td>前后 少片簧</td><td>前后 少片簧</td></tr>
+<tr><td class="label-col">Pont Arrière</td><td>850×270(8+4)</td><td>850×270(8+4)</td><td>850×300(8+5)</td><td>850×270（单8）</td><td>850×270(8+4)</td></tr>
+<tr><td class="label-col">Rapport Final</td><td>850×270(8+4)</td><td>850×270(8+4)</td><td>850×300(8+5)</td><td>850×270（单8）</td><td>850×270(8+4)</td></tr>
+<tr><td class="label-col">Châssis (mm)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">Suspension</td><td>加长半高顶</td><td>加长半高顶</td><td>加长平顶</td><td>加长半高顶</td><td>加长半高顶</td></tr>
+<tr><td class="label-col">Réservoir (L)</td><td>13T HD单级3.7</td><td>13T HD单级3.7</td><td>13T HD 双级减速桥-4.266</td><td>11.5T HD单级减速桥-4.11</td><td>11.5T HD单级减速桥-3.7</td></tr>
+<tr><td class="label-col">Pneus</td><td>3175+1350</td><td>3175+1350</td><td>3175+1400</td><td>3175+1350</td><td>3175+1350</td></tr>
+<tr><td class="label-col">Sellette</td><td>加长半高顶</td><td>加长半高顶</td><td>加长平顶</td><td>加长半高顶</td><td>加长半高顶</td></tr>
+<tr><td class="label-col">Frein de Service</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">ABS</td><td>HD 5.5T</td><td>HD 5.5T</td><td>HD 7.5T前轴</td><td>HD 5.5T</td><td>HD 5.5T</td></tr>
+<tr><td class="label-col">Application</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td><td>1、日用工业品运输（集装箱、日用工业品 GCW≤49t 大部分为双向两车道，小部分为双向四车道，以铺装路面为主 运距≤3000km 常用车速70～80km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Configuration de Base</td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产右置转向机、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产右置转向机 (Domestic RHD Steering Gear)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="F3000加长平顶驾驶室带顶导流罩、电控自动恒温空调、电动摇窗机、金属保险杠-带灯护网、普通侧置空滤器、国产转向机、普通90鞍座、三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池、普通排气、水箱保护栅、手动翻转、空气主座椅、普通后视镜、三级上车踏板">F3000加长平顶驾驶室带顶导流罩 (with Roof Fairing, Extended Flat Roof)、电控自动恒温空调 (Electronic Auto Climate Control (A/C))、电动摇窗机 (Power Window)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、普通侧置空滤器 (Standard Side-Mount Air Filter)、国产转向机 (Domestic Steering Gear)、普通90鞍座 (Standard 90 Fifth Wheel)、三段整体式挡泥板 (3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、手动翻转 (Manual Cab Tilt)、空气主座椅 (Air Suspension Main Seat)、普通后视镜 (Standard Rearview Mirror)、三级上车踏板 (3-Step Access Ladder)</div></td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Semi-High Roof)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="H3000加长半高顶驾驶室带顶导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、普通90鞍座、轻量化三段整体式挡泥板、尾灯保护栅、165Ah免维护蓄电池">H3000加长半高顶驾驶室带顶导流罩 (Extended Semi-High Roof, with Roof Fairing)、空气主座椅 (Air Suspension Main Seat)、杆式后视镜 (Rod-Type Rearview Mirror)、电动空调 (Electric A/C)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠-带灯护网 (Metal Bumper w/ Light Guard Mesh)、三级上车踏板 (3-Step Access Ladder)、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、水箱保护栅 (Radiator Protection Grid)、普通90鞍座 (Standard 90 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、尾灯保护栅 (Tail Lamp Protection Grid)、165Ah免维护蓄电池 (165Ah Maintenance-Free Battery)</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Configuration Spécifique Pays</td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、倒车蜂鸣器、软轴操纵、电瓶箱防盗、燃油系统性防盗、2kg灭火器、32T千斤顶、经济版随车工具箱、平板安装板">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、倒车蜂鸣器 (Reverse Buzzer)、软轴操纵 (Cable Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、平板安装板 (Flat Mount Plate)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、银字银标、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、鞍座可调、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆、2kg灭火器、后桥V型推力杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、银字银标 (Silver Lettering & Silver Badge)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、鞍座可调 (Fifth Wheel Adjustable)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)、2kg灭火器 (2kg Fire Extinguisher)、后桥V型推力杆</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、环形窗帘+卧铺挡帘、SHACMAN标识、全英文标识、铝合金储气筒、瓦楞安装板、倒车蜂鸣器、伸缩轴操纵、电瓶箱防盗、燃油系统性防盗、鞍座可调、2kg灭火器、32T千斤顶、经济版随车工具箱、加装一个30L储气筒、标配体现平衡轴连接杆">四点空气悬置 (4-Point Air Suspension)、环形窗帘+卧铺挡帘 (Wrap-Around Curtain, Bunk Curtain)、SHACMAN标识 (SHACMAN Logo)、全英文标识 (All-English Labeling)、铝合金储气筒 (Aluminum Air Reservoir)、瓦楞安装板 (Corrugated Mount Plate)、倒车蜂鸣器 (Reverse Buzzer)、伸缩轴操纵 (Telescopic Shaft Control)、电瓶箱防盗 (Battery Box Anti-Theft)、燃油系统性防盗、鞍座可调 (Fifth Wheel Adjustable)、2kg灭火器 (2kg Fire Extinguisher)、32T千斤顶、经济版随车工具箱 (Economy Tool Kit)、加装一个30L储气筒、标配体现平衡轴连接杆 (Standard with Balance Shaft Linkage)</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -293,28 +308,43 @@ body {
 <!-- ─── 下载登录弹窗 ─── -->
 <div id="dl-modal" style="display:none;position:fixed;z-index:99999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.45);">
   <div style="background:white;border-radius:10px;max-width:400px;margin:80px auto;padding:28px 24px;box-shadow:0 8px 30px rgba(0,0,0,0.18);position:relative;">
-    <h3 style="margin:0 0 6px;font-size:17px;color:#1A223E;">dl_modal_title</h3>
-    <p style="margin:0 0 16px;font-size:12px;color:#888;">dl_modal_hint</p>
-    <input id="dl-name"  type="text" placeholder="dl_name_ph"  style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
-    <input id="dl-phone" type="tel" placeholder="dl_phone_ph" style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
-    <input id="dl-company" type="text" placeholder="dl_company_ph" style="width:100%;padding:9px 12px;margin-bottom:16px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <h3 style="margin:0 0 6px;font-size:17px;color:#1A223E;">Télécharger la Fiche Technique / 下载产品规格书</h3>
+    <p style="margin:0 0 16px;font-size:12px;color:#888;">Veuillez remplir vos coordonnées pour télécharger / 请填写信息后下载</p>
+    <input id="dl-name"  type="text" placeholder="Nom / 姓名"  style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <input id="dl-phone" type="tel" placeholder="Téléphone / 手机号" style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <input id="dl-company" type="text" placeholder="Société / 公司名称" style="width:100%;padding:9px 12px;margin-bottom:16px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
     <div style="display:flex;gap:10px;">
-      <button onclick="closeDlModal()" style="flex:1;padding:10px;border:1px solid #ccc;background:white;border-radius:6px;font-size:14px;cursor:pointer;">dl_cancel</button>
-      <button onclick="submitDlForm()" style="flex:1;padding:10px;border:none;background:#0aa2e1;color:white;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;">dl_submit</button>
+      <button onclick="closeDlModal()" style="flex:1;padding:10px;border:1px solid #ccc;background:white;border-radius:6px;font-size:14px;cursor:pointer;">Annuler / 取消</button>
+      <button onclick="submitDlForm()" style="flex:1;padding:10px;border:none;background:#0aa2e1;color:white;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;">Soumettre et Télécharger / 提交并下载</button>
     </div>
     <span onclick="closeDlModal()" style="position:absolute;top:10px;right:14px;font-size:20px;color:#999;cursor:pointer;">&times;</span>
   </div>
 </div>
 
-<!-- ─── 下载记录代理提交（iframe 方式，绕跨域限制）─── -->
-<iframe name="dl-hidden-frame" id="dl-hidden-frame" style="display:none;"></iframe>
+<!-- ─── CloudBase SDK ─── -->
+<script src="https://static.cloudbase.net/cloudbase-js-sdk/latest/cloudbase.full.js"></script>
 
 <script>
-// ══════════════════════════════════════
-//  通过 CloudBase 代理页提交下载记录
-// ══════════════════════════════════════
+var CLOUDBASE_ENV = 'gengyanchao-d0gyzofwr69907e3c';
 var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/submit.html';
 var _pendingBtn = null;
+var cloudbaseReady = false;
+var cloudbaseDb = null;
+
+(function initCloudBase() {
+  var app = cloudbase.init({ env: CLOUDBASE_ENV, region: 'ap-shanghai' });
+  cloudbaseDb = app.database();
+  app.auth({ persistence: 'local' })
+    .anonymousAuthProvider()
+    .signIn()
+    .then(function() {
+      cloudbaseReady = true;
+      console.log('[Catalog] CloudBase OK');
+    })
+    .catch(function() {
+      console.log('[Catalog] SDK auth failed, using proxy fallback');
+    });
+})();
 
 function downloadPDF() {
   window.print();
@@ -335,12 +365,23 @@ function closeDlModal() {
   _pendingBtn = null;
 }
 
+function showToast(msg, type) {
+  type = type || 'info';
+  var old = document.querySelector('.catalog-toast');
+  if (old) old.remove();
+  var el = document.createElement('div');
+  el.className = 'catalog-toast ' + type;
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(function() { if (el.parentNode) el.remove(); }, 3500);
+}
+
 function submitDlForm() {
   var name    = document.getElementById('dl-name').value.trim();
   var phone   = document.getElementById('dl-phone').value.trim();
   var company = document.getElementById('dl-company').value.trim();
   if (!name || !phone) {
-    alert('dl_fill_alert');
+    alert('Veuillez remplir le nom et le téléphone / 请填写姓名和手机号');
     return;
   }
 
@@ -348,19 +389,50 @@ function submitDlForm() {
   var model = th ? (th.querySelector('.model-name')||{}).innerText || '' : '';
   var country = document.querySelector('.top-nav .country') ? document.querySelector('.top-nav .country').innerText.replace('市场','').trim() : '';
 
-  // 通过隐藏 iframe 加载 CloudBase 代理页提交数据（绕跨域限制）
-  var params = '?name=' + encodeURIComponent(name) +
-    '&phone=' + encodeURIComponent(phone) +
-    '&company=' + encodeURIComponent(company) +
-    '&country=' + encodeURIComponent(country) +
-    '&model=' + encodeURIComponent(model) +
-    '&ref=' + encodeURIComponent(window.location.href);
-
-  document.getElementById('dl-hidden-frame').src = DL_PROXY_URL + params;
+  var data = {
+    name: name, phone: phone, company: company,
+    country: country, model: model, pageUrl: window.location.href,
+    createdAt: new Date().toISOString()
+  };
 
   var btn = _pendingBtn;
-  closeDlModal();
-  downloadSingleExec(btn);
+
+  // 先显示提交中提示
+  showToast('Envoi en cours... / 正在提交…', 'info');
+
+  // 方案A: 直接 SDK（CloudBase 同域）
+  if (cloudbaseReady) {
+    cloudbaseDb.collection('pdf_downloads').add(data)
+      .then(function(r) {
+        console.log('[Catalog] saved', r.id);
+        showToast('✓ Soumis ! Téléchargement en cours... / 提交成功，正在下载…', 'success');
+        closeDlModal();
+        downloadSingleExec(btn);
+      })
+      .catch(function(e) {
+        console.warn('[Catalog] save err:', e.message);
+        showToast('Échec de l'envoi, veuillez réessayer / 提交失败，请重试', 'error');
+        closeDlModal();
+        downloadSingleExec(btn);
+      });
+  } else {
+    // 方案B: 隐藏 iframe 代理（跨域 GitHub Pages）
+    var params = '?name=' + encodeURIComponent(name) +
+      '&phone=' + encodeURIComponent(phone) +
+      '&company=' + encodeURIComponent(company) +
+      '&country=' + encodeURIComponent(country) +
+      '&model=' + encodeURIComponent(model) +
+      '&ref=' + encodeURIComponent(window.location.href);
+    var iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    iframe.src = DL_PROXY_URL + params;
+    document.body.appendChild(iframe);
+    setTimeout(function() { document.body.removeChild(iframe); }, 10000);
+
+    showToast('✓ Soumis ! Téléchargement en cours... / 提交成功，正在下载…', 'success');
+    closeDlModal();
+    downloadSingleExec(btn);
+  }
 }
 
 function downloadSingleExec(btn) {

@@ -182,6 +182,20 @@ body {
 @media (max-width:1000px) {
   .page { width:100vw; }
 }
+/* Toast notification */
+.catalog-toast {
+  position:fixed;top:20px;left:50%;transform:translateX(-50%);
+  padding:14px 28px;border-radius:8px;z-index:999999;
+  font-size:15px;font-weight:600;color:#fff;text-align:center;max-width:90vw;
+  box-shadow:0 4px 20px rgba(0,0,0,0.25);
+  animation:toast-in .35s ease-out, toast-out .3s 3s ease-in forwards;
+  pointer-events:none;line-height:1.5;
+}
+.catalog-toast.success{background:#2e7d32;}
+.catalog-toast.info{background:#1565c0;}
+.catalog-toast.error{background:#c62828;}
+@keyframes toast-in{from{opacity:0;top:-50px;}to{opacity:1;top:20px;}}
+@keyframes toast-out{to{opacity:0;top:-50px;}}
 </style>
 
 </head>
@@ -190,7 +204,7 @@ body {
 <div class="top-nav">
   <span class="brand">SHACMAN</span>
   <a href="index.html">← Back to Catalog Index</a>
-  <span class="country">乌兹别克</span>
+  <span class="country">乌兹别克 · 10 models</span>
 </div>
 
 <div class="download-bar">
@@ -323,7 +337,7 @@ body {
   <div class="page-header">
     <span class="badge">特种车</span>
     <h2>特种车/Special</h2>
-    <span class="models">SX41884V451T, SX42584V404T, SX42584V404T, SX33186V486T</span>
+    <span class="models">SX41884V451T, SX42584V404T, SX42584V404T, SX33186V486T, SX5258GJB5T534T</span>
   </div>
   <div class="sec-table-wrap">
     <table class="sec-table">
@@ -334,30 +348,31 @@ body {
           <th data-specs="{&quot;model&quot;: &quot;SX42584V404T&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;轻量化版&quot;, &quot;engine&quot;: &quot;WP13NG430E52_CNG&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧V&quot;, &quot;gearbox&quot;: &quot;12JSD200TA-B铁壳-QH50花键取力器&quot;, &quot;axle_ratio&quot;: &quot;(970-850)×270(单8)&quot;, &quot;tire&quot;: &quot;3975+1400&quot;, &quot;fuel_tank&quot;: &quot;13T HD（盘式）单级减速桥-3.7&quot;, &quot;wheelbase&quot;: &quot;800&quot;, &quot;abs&quot;: &quot;HD 7.5T（盘式）前轴&quot;, &quot;saddle&quot;: &quot;加长高顶驾驶室带顶侧导流罩&quot;, &quot;front_axle&quot;: &quot;前少片簧后全空气囊悬架&quot;, &quot;rear_axle&quot;: &quot;(970-850)×270(单8)&quot;, &quot;suspension&quot;: &quot;加长高顶驾驶室带顶侧导流罩&quot;, &quot;application&quot;: &quot;一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）&quot;, &quot;category&quot;: &quot;特种车/Special&quot;, &quot;base_config&quot;: &quot;X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池&quot;, &quot;country_config&quot;: &quot;四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五&quot;, &quot;base_config_display&quot;: &quot;X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
           <th data-specs="{&quot;model&quot;: &quot;SX42584V404T&quot;, &quot;platform&quot;: &quot;X5000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP13NG430E52 CNG&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧V&quot;, &quot;gearbox&quot;: &quot;12JSDX220TB-铁壳-QH50花键取力器&quot;, &quot;axle_ratio&quot;: &quot;（970-850）×300（8+7）&quot;, &quot;tire&quot;: &quot;3975+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.262&quot;, &quot;wheelbase&quot;: &quot;725&quot;, &quot;abs&quot;: &quot;HD 7.5T前轴&quot;, &quot;saddle&quot;: &quot;加长高顶驾驶室&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;（970-850）×300（8+7）&quot;, &quot;suspension&quot;: &quot;加长高顶驾驶室&quot;, &quot;application&quot;: &quot;一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）&quot;, &quot;category&quot;: &quot;特种车/Special&quot;, &quot;base_config&quot;: &quot;X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池&quot;, &quot;country_config&quot;: &quot;四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五&quot;, &quot;base_config_display&quot;: &quot;X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)&quot;, &quot;country_config_display&quot;: &quot;四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五&quot;}"><span class="model-name">X5000</span><br><span class="model-drive">6×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
           <th data-specs="{&quot;model&quot;: &quot;SX33186V486T&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;8×4&quot;, &quot;version&quot;: &quot;超强版&quot;, &quot;engine&quot;: &quot;WP13NG430E52 CNG&quot;, &quot;hp&quot;: &quot;430&quot;, &quot;emission&quot;: &quot;欧V&quot;, &quot;gearbox&quot;: &quot;12JSDX220TB-铁壳-QH50+FHB400&quot;, &quot;axle_ratio&quot;: &quot;970-850×320 (8+7+8)&quot;, &quot;tire&quot;: &quot;1800+4775+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.262&quot;, &quot;wheelbase&quot;: &quot;1000&quot;, &quot;abs&quot;: &quot;HD 9.5T前轴&quot;, &quot;saddle&quot;: &quot;中长平顶驾驶室&quot;, &quot;front_axle&quot;: &quot;前后多片簧 四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;970-850×320 (8+7+8)&quot;, &quot;suspension&quot;: &quot;中长平顶驾驶室&quot;, &quot;application&quot;: &quot;一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）&quot;, &quot;category&quot;: &quot;特种车/Special&quot;, &quot;base_config&quot;: &quot;X3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调（杰克塞尔压缩机)、电动摇窗机、金属保险杠、三级上车踏板、中控锁（带遥控器）、沙漠空滤器、大箱底板加热、多功能方向盘（带定速巡航）、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、全英文标识、英文铭牌、车门下护板、不装配ABS、倒车蜂鸣器、备胎架、2公斤灭火器、驻车楔块、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核&quot;, &quot;base_config_display&quot;: &quot;X3000中长平顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Flat Roof)、液压主座椅 (Hydraulic Main Seat)、普通后视镜 (Standard Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机) (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、金属保险杠 (Metal Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、沙漠空滤器 (Desert Air Filter)、大箱底板加热 (Cargo Floor Heating)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、水箱保护栅 (Radiator Protection Grid)、尾灯保护栅 (Tail Lamp Protection Grid)、180Ah免维护蓄电池 (180Ah Maintenance-Free Battery)&quot;, &quot;country_config_display&quot;: &quot;四点液压悬置 (4-Point Hydraulic Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、车门下护板、不装配ABS (No ABS Fitted)、倒车蜂鸣器 (Reverse Buzzer)、备胎架 (Spare Tire Carrier)、2公斤灭火器 (2kg Fire Extinguisher)、驻车楔块 (Wheel Chock)、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">8×4 · 430HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
+          <th data-specs="{&quot;model&quot;: &quot;SX5258GJB5T534T&quot;, &quot;platform&quot;: &quot;X3000&quot;, &quot;drive&quot;: &quot;6×4&quot;, &quot;version&quot;: &quot;加强版&quot;, &quot;engine&quot;: &quot;WP12NG380E51 CNG-PTO&quot;, &quot;hp&quot;: &quot;380&quot;, &quot;emission&quot;: &quot;欧Ⅴ&quot;, &quot;gearbox&quot;: &quot;12JSD180T-铁壳&quot;, &quot;axle_ratio&quot;: &quot;850×300(8+7)&quot;, &quot;tire&quot;: &quot;5325+1400&quot;, &quot;fuel_tank&quot;: &quot;16T HD双级铸造桥-5.262&quot;, &quot;wheelbase&quot;: &quot;1700&quot;, &quot;abs&quot;: &quot;HD 7.5T前轴&quot;, &quot;saddle&quot;: &quot;加长平顶驾驶室&quot;, &quot;front_axle&quot;: &quot;前后多片簧/四主片+四骑马螺栓&quot;, &quot;rear_axle&quot;: &quot;850×300(8+7)&quot;, &quot;suspension&quot;: &quot;加长平顶驾驶室&quot;, &quot;application&quot;: &quot;一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）&quot;, &quot;category&quot;: &quot;特种车/Special&quot;, &quot;base_config&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、手动翻转、金属保险杠、三级上车踏板、中控锁（带遥控器）、沙漠空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、尾灯保护栅、180Ah免维护蓄电池&quot;, &quot;country_config&quot;: &quot;四点液压悬置、车门下护板、铝合金储气筒、倒车蜂鸣器、备胎架、2KG灭火器、全英文标识、英文铭牌、驻车楔块、远程油门控制器、一条静电拖带、薄钢板压型护罩，防护罩上有通风孔、气瓶符合ECE标准、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求&quot;, &quot;base_config_display&quot;: &quot;X3000加长平顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Flat Roof)、液压主座椅 (Hydraulic Main Seat)、普通后视镜 (Standard Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠 (Metal Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、沙漠空滤器 (Desert Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、尾灯保护栅 (Tail Lamp Protection Grid)、180Ah免维护蓄电池 (180Ah Maintenance-Free Battery)&quot;, &quot;country_config_display&quot;: &quot;四点液压悬置 (4-Point Hydraulic Suspension)、车门下护板、铝合金储气筒 (Aluminum Air Reservoir)、倒车蜂鸣器 (Reverse Buzzer)、备胎架 (Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、驻车楔块 (Wheel Chock)、远程油门控制器 (Remote Throttle Controller)、一条静电拖带、薄钢板压型护罩，防护罩上有通风孔、气瓶符合ECE标准 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求&quot;}"><span class="model-name">X3000</span><br><span class="model-drive">6×4 · 380HP</span><br><button class="model-dl-btn" onclick="event.stopPropagation();downloadSingle(this)" title="Download spec sheet">📥 PDF</button></th>
         </tr>
       </thead>
       <tbody>
-<tr class="group-row"><td colspan="5">特种车/Special</td></tr>
-<tr><td class="label-col">Drive</td><td>4×2</td><td>6×4</td><td>6×4</td><td>8×4</td></tr>
-<tr><td class="label-col">Wheelbase (mm)</td><td>1050</td><td>800</td><td>725</td><td>1000</td></tr>
-<tr><td class="label-col">Cab</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">Engine</td><td>WP13NG430E52_CNG</td><td>WP13NG430E52_CNG</td><td>WP13NG430E52 CNG</td><td>WP13NG430E52 CNG</td></tr>
-<tr><td class="label-col">Emission</td><td>欧V</td><td>欧V</td><td>欧V</td><td>欧V</td></tr>
-<tr><td class="label-col">Power (hp)</td><td class="highlight">430</td><td class="highlight">430</td><td class="highlight">430</td><td class="highlight">430</td></tr>
-<tr><td class="label-col">Transmission</td><td>12JSD200TA-B-铁壳-QH50花键取力器 FHB400</td><td>12JSD200TA-B铁壳-QH50花键取力器</td><td>12JSDX220TB-铁壳-QH50花键取力器</td><td>12JSDX220TB-铁壳-QH50+FHB400</td></tr>
-<tr><td class="label-col">Front Axle (t)</td><td>前少片簧后全空气囊悬架</td><td>前少片簧后全空气囊悬架</td><td>前后多片簧 四主片+四骑马螺栓</td><td>前后多片簧 四主片+四骑马螺栓</td></tr>
-<tr><td class="label-col">Rear Axle</td><td>(970-850)×300（单8）</td><td>(970-850)×270(单8)</td><td>（970-850）×300（8+7）</td><td>970-850×320 (8+7+8)</td></tr>
-<tr><td class="label-col">Final Ratio</td><td>(970-850)×300（单8）</td><td>(970-850)×270(单8)</td><td>（970-850）×300（8+7）</td><td>970-850×320 (8+7+8)</td></tr>
-<tr><td class="label-col">Frame (mm)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">Suspension</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室</td><td>中长平顶驾驶室</td></tr>
-<tr><td class="label-col">Fuel Tank (L)</td><td>13T HD（盘式）单级减速桥-3.7</td><td>13T HD（盘式）单级减速桥-3.7</td><td>16T HD双级铸造桥-5.262</td><td>16T HD双级铸造桥-5.262</td></tr>
-<tr><td class="label-col">Tires</td><td>4500</td><td>3975+1400</td><td>3975+1400</td><td>1800+4775+1400</td></tr>
-<tr><td class="label-col">5th Wheel</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室</td><td>中长平顶驾驶室</td></tr>
-<tr><td class="label-col">Service Brake</td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="label-col">ABS</td><td>HD 7.5T（盘式）前轴</td><td>HD 7.5T（盘式）前轴</td><td>HD 7.5T前轴</td><td>HD 9.5T前轴</td></tr>
-<tr><td class="label-col">Application</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td></tr>
-<tr class="config-row"><td class="label-col config-label">基础配置 / Базовая Комплектация</td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、 轻量化三段整体式挡泥板、水箱保护栅、油底壳保护栅、180Ah免维护电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、水箱保护栅 (Radiator Protection Grid)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护电池</div></td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)</div></td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)</div></td><td class="config-cell"><div class="config-text" title="X3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调（杰克塞尔压缩机)、电动摇窗机、金属保险杠、三级上车踏板、中控锁（带遥控器）、沙漠空滤器、大箱底板加热、多功能方向盘（带定速巡航）、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池">X3000中长平顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Flat Roof)、液压主座椅 (Hydraulic Main Seat)、普通后视镜 (Standard Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机) (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、金属保险杠 (Metal Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、沙漠空滤器 (Desert Air Filter)、大箱底板加热 (Cargo Floor Heating)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、水箱保护栅 (Radiator Protection Grid)、尾灯保护栅 (Tail Lamp Protection Grid)、180Ah免维护蓄电池 (180Ah Maintenance-Free Battery)</div></td></tr>
-<tr class="config-row"><td class="label-col config-label">一国一策配置 / Специфичная Комплектация</td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、铝合金储气筒、WABCO进口四通道ABS_ASR、2KG灭火器、驻车楔块、倒车蜂鸣器、ETA断路器、一条静电拖带、ECE、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板、底盘前回转≥1800mm">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、倒车蜂鸣器 (Reverse Buzzer)、ETA断路器、一条静电拖带、ECE、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板、底盘前回转≥1800mm (Chassis Front Swing Clearance ≥1800mm)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五</div></td><td class="config-cell"><div class="config-text" title="四点液压悬置、全英文标识、英文铭牌、车门下护板、不装配ABS、倒车蜂鸣器、备胎架、2公斤灭火器、驻车楔块、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核">四点液压悬置 (4-Point Hydraulic Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、车门下护板、不装配ABS (No ABS Fitted)、倒车蜂鸣器 (Reverse Buzzer)、备胎架 (Spare Tire Carrier)、2公斤灭火器 (2kg Fire Extinguisher)、驻车楔块 (Wheel Chock)、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核</div></td></tr>
+<tr class="group-row"><td colspan="6">特种车/Special</td></tr>
+<tr><td class="label-col">Drive</td><td>4×2</td><td>6×4</td><td>6×4</td><td>8×4</td><td>6×4</td></tr>
+<tr><td class="label-col">Wheelbase (mm)</td><td>1050</td><td>800</td><td>725</td><td>1000</td><td>1700</td></tr>
+<tr><td class="label-col">Cab</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">Engine</td><td>WP13NG430E52_CNG</td><td>WP13NG430E52_CNG</td><td>WP13NG430E52 CNG</td><td>WP13NG430E52 CNG</td><td>WP12NG380E51 CNG-PTO</td></tr>
+<tr><td class="label-col">Emission</td><td>欧V</td><td>欧V</td><td>欧V</td><td>欧V</td><td>欧Ⅴ</td></tr>
+<tr><td class="label-col">Power (hp)</td><td class="highlight">430</td><td class="highlight">430</td><td class="highlight">430</td><td class="highlight">430</td><td class="highlight">380</td></tr>
+<tr><td class="label-col">Transmission</td><td>12JSD200TA-B-铁壳-QH50花键取力器 FHB400</td><td>12JSD200TA-B铁壳-QH50花键取力器</td><td>12JSDX220TB-铁壳-QH50花键取力器</td><td>12JSDX220TB-铁壳-QH50+FHB400</td><td>12JSD180T-铁壳</td></tr>
+<tr><td class="label-col">Front Axle (t)</td><td>前少片簧后全空气囊悬架</td><td>前少片簧后全空气囊悬架</td><td>前后多片簧 四主片+四骑马螺栓</td><td>前后多片簧 四主片+四骑马螺栓</td><td>前后多片簧/四主片+四骑马螺栓</td></tr>
+<tr><td class="label-col">Rear Axle</td><td>(970-850)×300（单8）</td><td>(970-850)×270(单8)</td><td>（970-850）×300（8+7）</td><td>970-850×320 (8+7+8)</td><td>850×300(8+7)</td></tr>
+<tr><td class="label-col">Final Ratio</td><td>(970-850)×300（单8）</td><td>(970-850)×270(单8)</td><td>（970-850）×300（8+7）</td><td>970-850×320 (8+7+8)</td><td>850×300(8+7)</td></tr>
+<tr><td class="label-col">Frame (mm)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">Suspension</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室</td><td>中长平顶驾驶室</td><td>加长平顶驾驶室</td></tr>
+<tr><td class="label-col">Fuel Tank (L)</td><td>13T HD（盘式）单级减速桥-3.7</td><td>13T HD（盘式）单级减速桥-3.7</td><td>16T HD双级铸造桥-5.262</td><td>16T HD双级铸造桥-5.262</td><td>16T HD双级铸造桥-5.262</td></tr>
+<tr><td class="label-col">Tires</td><td>4500</td><td>3975+1400</td><td>3975+1400</td><td>1800+4775+1400</td><td>5325+1400</td></tr>
+<tr><td class="label-col">5th Wheel</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室带顶侧导流罩</td><td>加长高顶驾驶室</td><td>中长平顶驾驶室</td><td>加长平顶驾驶室</td></tr>
+<tr><td class="label-col">Service Brake</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label-col">ABS</td><td>HD 7.5T（盘式）前轴</td><td>HD 7.5T（盘式）前轴</td><td>HD 7.5T前轴</td><td>HD 9.5T前轴</td><td>HD 7.5T前轴</td></tr>
+<tr><td class="label-col">Application</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td><td>一、日用工业品运输、长途物流运输(国道、省道 一般运距约1000km 年运营里程8-15万公里 常用车速70-90km/h）</td></tr>
+<tr class="config-row"><td class="label-col config-label">基础配置 / Базовая Комплектация</td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、 轻量化三段整体式挡泥板、水箱保护栅、油底壳保护栅、180Ah免维护电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、水箱保护栅 (Radiator Protection Grid)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护电池</div></td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)</div></td><td class="config-cell"><div class="config-text" title="X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、约斯特50鞍座、轻量化三段整体式挡泥板、油底壳保护栅、180Ah免维护低温蓄电池">X5000加长高顶驾驶室带顶侧导流罩 (with Roof & Side Fairings, Extended High Roof)、空气主座椅 (Air Suspension Main Seat)、电动电加热后视镜 (Electric Heated Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、电动翻转 (Power Cab Tilt)、玻璃钢保险杠 (FRP (Glass-Fiber) Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、普通侧置空滤器 (Standard Side-Mount Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、约斯特50鞍座 (JOST 50 Fifth Wheel)、轻量化三段整体式挡泥板 (Lightweight 3-Piece Integral Mudguard)、油底壳保护栅 (Oil Pan Protection Grid)、180Ah免维护低温蓄电池 (180Ah Low-Temp MF Battery)</div></td><td class="config-cell"><div class="config-text" title="X3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调（杰克塞尔压缩机)、电动摇窗机、金属保险杠、三级上车踏板、中控锁（带遥控器）、沙漠空滤器、大箱底板加热、多功能方向盘（带定速巡航）、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池">X3000中长平顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Flat Roof)、液压主座椅 (Hydraulic Main Seat)、普通后视镜 (Standard Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机) (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、金属保险杠 (Metal Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、沙漠空滤器 (Desert Air Filter)、大箱底板加热 (Cargo Floor Heating)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、水箱保护栅 (Radiator Protection Grid)、尾灯保护栅 (Tail Lamp Protection Grid)、180Ah免维护蓄电池 (180Ah Maintenance-Free Battery)</div></td><td class="config-cell"><div class="config-text" title="X3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调（杰克塞尔压缩机）、电动摇窗机、手动翻转、金属保险杠、三级上车踏板、中控锁（带遥控器）、沙漠空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、尾灯保护栅、180Ah免维护蓄电池">X3000加长平顶驾驶室不带顶导流罩 (w/o Roof Fairing, Extended Flat Roof)、液压主座椅 (Hydraulic Main Seat)、普通后视镜 (Standard Rearview Mirror)、电控自动恒温空调（杰克塞尔压缩机） (Electronic Auto Climate Control (A/C), Jacksel Compressor)、电动摇窗机 (Power Window)、手动翻转 (Manual Cab Tilt)、金属保险杠 (Metal Bumper)、三级上车踏板 (3-Step Access Ladder)、中控锁（带遥控器） (Central Locking (with Remote))、沙漠空滤器 (Desert Air Filter)、普通排气 (Standard Exhaust)、国产转向机 (Domestic Steering Gear)、多功能方向盘（带定速巡航） (Multi-Function Wheel (Cruise Control))、尾灯保护栅 (Tail Lamp Protection Grid)、180Ah免维护蓄电池 (180Ah Maintenance-Free Battery)</div></td></tr>
+<tr class="config-row"><td class="label-col config-label">一国一策配置 / Специфичная Комплектация</td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、铝合金储气筒、WABCO进口四通道ABS_ASR、2KG灭火器、驻车楔块、倒车蜂鸣器、ETA断路器、一条静电拖带、ECE、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板、底盘前回转≥1800mm">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、倒车蜂鸣器 (Reverse Buzzer)、ETA断路器、一条静电拖带、ECE、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板、底盘前回转≥1800mm (Chassis Front Swing Clearance ≥1800mm)</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五</div></td><td class="config-cell"><div class="config-text" title="四点空气悬置、全英文标识、英文铭牌、10吋多媒体显示屏、手动天窗、集成式日间行车灯、双侧车门镀铬马力标、铝合金储气筒、WABCO进口四通道ABS_ASR、倒车蜂鸣器、简易备胎架、2KG灭火器、驻车楔块、360环视、ETA断路器、低温管线、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五">四点空气悬置 (4-Point Air Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、10吋多媒体显示屏 (Multimedia Display)、手动天窗 (Manual Sunroof)、集成式日间行车灯 (Integrated DRL)、双侧车门镀铬马力标、铝合金储气筒 (Aluminum Air Reservoir)、WABCO进口四通道ABS_ASR (4-Channel ABS)、倒车蜂鸣器 (Reverse Buzzer)、简易备胎架 (Simple Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、驻车楔块 (Wheel Chock)、360环视 (360° Surround View)、ETA断路器、低温管线 (Low-Temp Piping)、一条静电拖带、气瓶间连接管外加橡胶保护套、玻璃钢气瓶护罩、150L钢瓶 ECE标准气瓶 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求、充气阀为NGV1+俄罗斯插销，集成式加气面板冷却系统模块五</div></td><td class="config-cell"><div class="config-text" title="四点液压悬置、全英文标识、英文铭牌、车门下护板、不装配ABS、倒车蜂鸣器、备胎架、2公斤灭火器、驻车楔块、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核">四点液压悬置 (4-Point Hydraulic Suspension)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、车门下护板、不装配ABS (No ABS Fitted)、倒车蜂鸣器 (Reverse Buzzer)、备胎架 (Spare Tire Carrier)、2公斤灭火器 (2kg Fire Extinguisher)、驻车楔块 (Wheel Chock)、一条静电拖带、钢板压型护罩，有通风孔、ECE气瓶、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标)（不装配限流装置）、阀及气瓶连接管路满足快充要求,充气阀为NGV1+俄罗斯插销、气瓶编号朝外便于审核</div></td><td class="config-cell"><div class="config-text" title="四点液压悬置、车门下护板、铝合金储气筒、倒车蜂鸣器、备胎架、2KG灭火器、全英文标识、英文铭牌、驻车楔块、远程油门控制器、一条静电拖带、薄钢板压型护罩，防护罩上有通风孔、气瓶符合ECE标准、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求">四点液压悬置 (4-Point Hydraulic Suspension)、车门下护板、铝合金储气筒 (Aluminum Air Reservoir)、倒车蜂鸣器 (Reverse Buzzer)、备胎架 (Spare Tire Carrier)、2KG灭火器 (2KG Fire Extinguisher)、全英文标识 (All-English Labeling)、英文铭牌 (English Nameplate)、驻车楔块 (Wheel Chock)、远程油门控制器 (Remote Throttle Controller)、一条静电拖带、薄钢板压型护罩，防护罩上有通风孔、气瓶符合ECE标准 (ECE Standard)、气瓶连接管路符合ISO15500标准，管路外有橡胶防护套、进口电磁阀式气瓶阀带E标（不装配限流装置）、阀及气瓶连接管路满足快充要求</div></td></tr>
       </tbody>
     </table>
   </div>
@@ -370,28 +385,43 @@ body {
 <!-- ─── 下载登录弹窗 ─── -->
 <div id="dl-modal" style="display:none;position:fixed;z-index:99999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.45);">
   <div style="background:white;border-radius:10px;max-width:400px;margin:80px auto;padding:28px 24px;box-shadow:0 8px 30px rgba(0,0,0,0.18);position:relative;">
-    <h3 style="margin:0 0 6px;font-size:17px;color:#1A223E;">dl_modal_title</h3>
-    <p style="margin:0 0 16px;font-size:12px;color:#888;">dl_modal_hint</p>
-    <input id="dl-name"  type="text" placeholder="dl_name_ph"  style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
-    <input id="dl-phone" type="tel" placeholder="dl_phone_ph" style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
-    <input id="dl-company" type="text" placeholder="dl_company_ph" style="width:100%;padding:9px 12px;margin-bottom:16px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <h3 style="margin:0 0 6px;font-size:17px;color:#1A223E;">Скачать Спецификацию / 下载产品规格书</h3>
+    <p style="margin:0 0 16px;font-size:12px;color:#888;">Заполните данные для скачивания / 请填写信息后下载</p>
+    <input id="dl-name"  type="text" placeholder="Имя / 姓名"  style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <input id="dl-phone" type="tel" placeholder="Телефон / 手机号" style="width:100%;padding:9px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
+    <input id="dl-company" type="text" placeholder="Компания / 公司名称" style="width:100%;padding:9px 12px;margin-bottom:16px;border:1px solid #ccc;border-radius:6px;font-size:14px;box-sizing:border-box;" />
     <div style="display:flex;gap:10px;">
-      <button onclick="closeDlModal()" style="flex:1;padding:10px;border:1px solid #ccc;background:white;border-radius:6px;font-size:14px;cursor:pointer;">dl_cancel</button>
-      <button onclick="submitDlForm()" style="flex:1;padding:10px;border:none;background:#0aa2e1;color:white;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;">dl_submit</button>
+      <button onclick="closeDlModal()" style="flex:1;padding:10px;border:1px solid #ccc;background:white;border-radius:6px;font-size:14px;cursor:pointer;">Отмена / 取消</button>
+      <button onclick="submitDlForm()" style="flex:1;padding:10px;border:none;background:#0aa2e1;color:white;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;">Отправить и Скачать / 提交并下载</button>
     </div>
     <span onclick="closeDlModal()" style="position:absolute;top:10px;right:14px;font-size:20px;color:#999;cursor:pointer;">&times;</span>
   </div>
 </div>
 
-<!-- ─── 下载记录代理提交（iframe 方式，绕跨域限制）─── -->
-<iframe name="dl-hidden-frame" id="dl-hidden-frame" style="display:none;"></iframe>
+<!-- ─── CloudBase SDK ─── -->
+<script src="https://static.cloudbase.net/cloudbase-js-sdk/latest/cloudbase.full.js"></script>
 
 <script>
-// ══════════════════════════════════════
-//  通过 CloudBase 代理页提交下载记录
-// ══════════════════════════════════════
+var CLOUDBASE_ENV = 'gengyanchao-d0gyzofwr69907e3c';
 var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/submit.html';
 var _pendingBtn = null;
+var cloudbaseReady = false;
+var cloudbaseDb = null;
+
+(function initCloudBase() {
+  var app = cloudbase.init({ env: CLOUDBASE_ENV, region: 'ap-shanghai' });
+  cloudbaseDb = app.database();
+  app.auth({ persistence: 'local' })
+    .anonymousAuthProvider()
+    .signIn()
+    .then(function() {
+      cloudbaseReady = true;
+      console.log('[Catalog] CloudBase OK');
+    })
+    .catch(function() {
+      console.log('[Catalog] SDK auth failed, using proxy fallback');
+    });
+})();
 
 function downloadPDF() {
   window.print();
@@ -412,12 +442,23 @@ function closeDlModal() {
   _pendingBtn = null;
 }
 
+function showToast(msg, type) {
+  type = type || 'info';
+  var old = document.querySelector('.catalog-toast');
+  if (old) old.remove();
+  var el = document.createElement('div');
+  el.className = 'catalog-toast ' + type;
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(function() { if (el.parentNode) el.remove(); }, 3500);
+}
+
 function submitDlForm() {
   var name    = document.getElementById('dl-name').value.trim();
   var phone   = document.getElementById('dl-phone').value.trim();
   var company = document.getElementById('dl-company').value.trim();
   if (!name || !phone) {
-    alert('dl_fill_alert');
+    alert('Заполните имя и телефон / 请填写姓名和手机号');
     return;
   }
 
@@ -425,19 +466,50 @@ function submitDlForm() {
   var model = th ? (th.querySelector('.model-name')||{}).innerText || '' : '';
   var country = document.querySelector('.top-nav .country') ? document.querySelector('.top-nav .country').innerText.replace('市场','').trim() : '';
 
-  // 通过隐藏 iframe 加载 CloudBase 代理页提交数据（绕跨域限制）
-  var params = '?name=' + encodeURIComponent(name) +
-    '&phone=' + encodeURIComponent(phone) +
-    '&company=' + encodeURIComponent(company) +
-    '&country=' + encodeURIComponent(country) +
-    '&model=' + encodeURIComponent(model) +
-    '&ref=' + encodeURIComponent(window.location.href);
-
-  document.getElementById('dl-hidden-frame').src = DL_PROXY_URL + params;
+  var data = {
+    name: name, phone: phone, company: company,
+    country: country, model: model, pageUrl: window.location.href,
+    createdAt: new Date().toISOString()
+  };
 
   var btn = _pendingBtn;
-  closeDlModal();
-  downloadSingleExec(btn);
+
+  // 先显示提交中提示
+  showToast('Отправка... / 正在提交…', 'info');
+
+  // 方案A: 直接 SDK（CloudBase 同域）
+  if (cloudbaseReady) {
+    cloudbaseDb.collection('pdf_downloads').add(data)
+      .then(function(r) {
+        console.log('[Catalog] saved', r.id);
+        showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
+        closeDlModal();
+        downloadSingleExec(btn);
+      })
+      .catch(function(e) {
+        console.warn('[Catalog] save err:', e.message);
+        showToast('Ошибка отправки, попробуйте снова / 提交失败，请重试', 'error');
+        closeDlModal();
+        downloadSingleExec(btn);
+      });
+  } else {
+    // 方案B: 隐藏 iframe 代理（跨域 GitHub Pages）
+    var params = '?name=' + encodeURIComponent(name) +
+      '&phone=' + encodeURIComponent(phone) +
+      '&company=' + encodeURIComponent(company) +
+      '&country=' + encodeURIComponent(country) +
+      '&model=' + encodeURIComponent(model) +
+      '&ref=' + encodeURIComponent(window.location.href);
+    var iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    iframe.src = DL_PROXY_URL + params;
+    document.body.appendChild(iframe);
+    setTimeout(function() { document.body.removeChild(iframe); }, 10000);
+
+    showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
+    closeDlModal();
+    downloadSingleExec(btn);
+  }
 }
 
 function downloadSingleExec(btn) {
