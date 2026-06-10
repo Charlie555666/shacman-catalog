@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Download Record</title>
+<script src="https://static.cloudbase.net/cloudbase-js-sdk/latest/cloudbase.full.js"></script>
+</head>
+<body>
+<script>
+(function() {
+  var CLOUDBASE_ENV = 'gengyanchao-d0gyzofwr69907e3c';
+
+  // Parse query params
+  var params = {};
+  location.search.substring(1).split('&').forEach(function(p) {
+    var pair = p.split('=');
+    if (pair[0]) params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+  });
+
+  if (!params.name || !params.phone) {
+    document.body.innerHTML = 'Missing params';
+    return;
+  }
+
+  var app = cloudbase.init({ env: CLOUDBASE_ENV, region: 'ap-shanghai' });
+  var db = app.database();
+
+  app.auth({ persistence: 'local' })
+    .anonymousAuthProvider()
+    .signIn()
+    .then(function() {
+      return db.collection('pdf_downloads').add({
+        name: params.name,
+        phone: params.phone,
+        company: params.company || '',
+        country: params.country || '',
+        model: params.model || '',
+        pageUrl: params.ref || '',
+        createdAt: new Date().toISOString()
+      });
+    })
+    .then(function(res) {
+      document.body.innerHTML = 'OK ' + res.id;
+      // Notify parent window
+      try { window.parent.postMessage({status:'ok',id:res.id},'*'); } catch(e) {}
+    })
+    .catch(function(err) {
+      document.body.innerHTML = 'ERR: ' + (err.message || String(err));
+      try { window.parent.postMessage({status:'error',msg:err.message},'*'); } catch(e) {}
+    });
+})();
+</script>
+</body>
+</html>

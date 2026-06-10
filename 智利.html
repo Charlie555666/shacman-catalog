@@ -301,34 +301,15 @@ body {
   </div>
 </div>
 
-<!-- ─── CloudBase SDK ─── -->
-<script src="https://static.cloudbase.net/cloudbase-js-sdk/latest/cloudbase.full.js"></script>
+<!-- ─── 下载记录代理提交（iframe 方式，绕跨域限制）─── -->
+<iframe name="dl-hidden-frame" id="dl-hidden-frame" style="display:none;"></iframe>
 
 <script>
 // ══════════════════════════════════════
-//  CloudBase 配置 — 匿名登录 + NoSQL 记录
+//  通过 CloudBase 代理页提交下载记录
 // ══════════════════════════════════════
-var CLOUDBASE_ENV = 'gengyanchao-d0gyzofwr69907e3c';
-var _pendingBtn = null;   // 暂存等待提交的按钮
-
-// 初始化 CloudBase
-var cloudbaseApp = cloudbase.init({ env: CLOUDBASE_ENV, region: 'ap-shanghai' });
-var cloudbaseDb = cloudbaseApp.database();
-var cloudbaseReady = false;
-
-(function initCloudBase() {
-  cloudbaseApp.auth({ persistence: 'local' })
-    .anonymousAuthProvider()
-    .signIn()
-    .then(function() {
-      cloudbaseReady = true;
-      console.log('[Catalog] CloudBase 匿名登录成功');
-    })
-    .catch(function(err) {
-      console.error('[Catalog] CloudBase 匿名登录失败:', err);
-      // 即使失败也不阻塞下载，只是不记录
-    });
-})();
+var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/submit.html';
+var _pendingBtn = null;
 
 function downloadPDF() {
   window.print();
@@ -362,24 +343,15 @@ function submitDlForm() {
   var model = th ? (th.querySelector('.model-name')||{}).innerText || '' : '';
   var country = document.querySelector('.top-nav .country') ? document.querySelector('.top-nav .country').innerText.replace('市场','').trim() : '';
 
-  // 通过 CloudBase NoSQL 匿名写入下载记录
-  if (cloudbaseReady) {
-    cloudbaseDb.collection('pdf_downloads').add({
-      name: name,
-      phone: phone,
-      company: company,
-      country: country,
-      model: model,
-      pageUrl: window.location.href,
-      createdAt: new Date().toISOString()
-    }).then(function(res) {
-      console.log('[Catalog] 下载记录已保存', res.id);
-    }).catch(function(err) {
-      console.error('[Catalog] 下载记录保存失败:', err);
-    });
-  } else {
-    console.warn('[Catalog] CloudBase 未就绪，跳过记录');
-  }
+  // 通过隐藏 iframe 加载 CloudBase 代理页提交数据（绕跨域限制）
+  var params = '?name=' + encodeURIComponent(name) +
+    '&phone=' + encodeURIComponent(phone) +
+    '&company=' + encodeURIComponent(company) +
+    '&country=' + encodeURIComponent(country) +
+    '&model=' + encodeURIComponent(model) +
+    '&ref=' + encodeURIComponent(window.location.href);
+
+  document.getElementById('dl-hidden-frame').src = DL_PROXY_URL + params;
 
   var btn = _pendingBtn;
   closeDlModal();
