@@ -441,8 +441,16 @@ body {
 
 <style>
 @media print {
-  #print-overlay { position:absolute; background:white; }
-  #print-overlay #print-toolbar { display:none; }
+  body > * { display: none !important; }
+  #print-overlay {
+    display: block !important;
+    position: absolute !important;
+    left: 0 !important; top: 0 !important;
+    width: 100% !important; height: auto !important;
+    background: white !important; overflow: visible !important; z-index: 999999 !important;
+  }
+  #print-overlay > * { display: block !important; }
+  #print-overlay #print-toolbar { display: none !important; }
   #print-overlay #print-content { box-shadow:none; border-radius:0; max-width:100%; margin:0; }
 }
 </style>
