@@ -16,10 +16,13 @@
     if (pair[0]) params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
   });
 
+  var TOKEN = params.token || '';
+
   function sendResult(status, data) {
     try {
       window.parent.postMessage({
         type: 'dl-submit-result',
+        token: TOKEN,
         status: status,
         data: data
       }, '*');

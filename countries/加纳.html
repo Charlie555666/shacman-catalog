@@ -450,19 +450,21 @@ body {
 <script>
 var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/submit.html';
 var _pendingBtn = null;
-var _dlCallbackDone = false;
+var _dlToken = null;  // unique token per submission; prevents duplicate triggers from stale iframes
 
-// Listen for submit result from iframe proxy
+// Listen for submit result from iframe proxy — only handle if token matches
 window.addEventListener('message', function(e) {
   if (!e.data || e.data.type !== 'dl-submit-result') return;
-  _dlCallbackDone = true;
+  if (!_dlToken || e.data.token !== _dlToken) return;  // ignore stale callbacks
+  var token = _dlToken;
+  _dlToken = null;  // consume the token immediately to block any duplicate
   var btn = _pendingBtn;
   if (e.data.status === 'ok') {
     showToast('✓ Submitted! Download starting... / 提交成功，正在下载…', 'success');
-    console.log('[Catalog] saved via proxy', e.data.data.id);
+    console.log('[Catalog] saved via proxy', e.data.data && e.data.data.id);
   } else {
     showToast('Submission failed, please try again / 提交失败，请重试', 'error');
-    console.warn('[Catalog] proxy err:', e.data.data.msg);
+    console.warn('[Catalog] proxy err:', e.data.data && e.data.data.msg);
   }
   closeDlModal();
   if (btn) downloadSingleExec(btn);
@@ -513,25 +515,34 @@ function submitDlForm() {
 
   var btn = _pendingBtn;
 
+  // Assign a new unique token for this submission; invalidate any pending old request
+  var token = 't' + Date.now() + Math.random().toString(36).slice(2);
+  _dlToken = token;
+
   // Show submitting toast
   showToast('Submitting... / 正在提交…', 'info');
 
-  // Always use iframe proxy (works from any domain, no SDK auth issues)
-  _dlCallbackDone = false;
+  // Remove any leftover old iframes
+  var oldIframes = document.querySelectorAll('iframe.dl-proxy-frame');
+  for (var i = 0; i < oldIframes.length; i++) { oldIframes[i].parentNode.removeChild(oldIframes[i]); }
+
   var params = '?name=' + encodeURIComponent(name) +
     '&phone=' + encodeURIComponent(phone) +
     '&company=' + encodeURIComponent(company) +
     '&country=' + encodeURIComponent(country) +
     '&model=' + encodeURIComponent(model) +
+    '&token=' + encodeURIComponent(token) +
     '&ref=' + encodeURIComponent(window.location.href);
   var iframe = document.createElement('iframe');
+  iframe.className = 'dl-proxy-frame';
   iframe.style.display = 'none';
   iframe.src = DL_PROXY_URL + params;
   document.body.appendChild(iframe);
 
   // Fallback: if no postMessage received after 8 seconds, show success anyway and download
   setTimeout(function() {
-    if (!_dlCallbackDone) {
+    if (_dlToken === token) {  // only if this token is still active (not already handled)
+      _dlToken = null;
       console.log('[Catalog] proxy timeout, download anyway');
       showToast('✓ Submitted! Download starting... / 提交成功，正在下载…', 'success');
       closeDlModal();
