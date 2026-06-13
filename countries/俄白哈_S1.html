@@ -777,22 +777,16 @@ var DL_PROXY_URL = 'https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbasea
 var _pendingBtn = null;
 var _dlToken = null;  // unique token per submission; prevents duplicate triggers from stale iframes
 
-// Listen for submit result from iframe proxy — only handle if token matches
+// Background proxy listener — only logs result; download already triggered immediately
 window.addEventListener('message', function(e) {
   if (!e.data || e.data.type !== 'dl-submit-result') return;
   if (!_dlToken || e.data.token !== _dlToken) return;  // ignore stale callbacks
-  var token = _dlToken;
-  _dlToken = null;  // consume the token immediately to block any duplicate
-  var btn = _pendingBtn;
+  _dlToken = null;  // consume token
   if (e.data.status === 'ok') {
-    showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
-    console.log('[Catalog] saved via proxy', e.data.data && e.data.data.id);
+    console.log('[Catalog] lead saved via proxy', e.data.data && e.data.data.id);
   } else {
-    showToast('Ошибка отправки, попробуйте снова / 提交失败，请重试', 'error');
     console.warn('[Catalog] proxy err:', e.data.data && e.data.data.msg);
   }
-  closeDlModal();
-  if (btn) downloadSingleExec(btn);
 });
 
 function downloadPDF() {
@@ -844,13 +838,11 @@ function submitDlForm() {
   var token = 't' + Date.now() + Math.random().toString(36).slice(2);
   _dlToken = token;
 
-  // Show submitting toast
-  showToast('Отправка... / 正在提交…', 'info');
-
   // Remove any leftover old iframes
   var oldIframes = document.querySelectorAll('iframe.dl-proxy-frame');
   for (var i = 0; i < oldIframes.length; i++) { oldIframes[i].parentNode.removeChild(oldIframes[i]); }
 
+  // Fire-and-forget: send lead data to proxy in background via iframe
   var params = '?name=' + encodeURIComponent(name) +
     '&phone=' + encodeURIComponent(phone) +
     '&company=' + encodeURIComponent(company) +
@@ -864,17 +856,14 @@ function submitDlForm() {
   iframe.src = DL_PROXY_URL + params;
   document.body.appendChild(iframe);
 
-  // Fallback: if no postMessage received after 8 seconds, show success anyway and download
+  // Clean up iframe after a while (proxy runs in background, non-blocking)
   setTimeout(function() {
-    if (_dlToken === token) {  // only if this token is still active (not already handled)
-      _dlToken = null;
-      console.log('[Catalog] proxy timeout, download anyway');
-      showToast('✓ Отправлено! Идёт загрузка... / 提交成功，正在下载…', 'success');
-      closeDlModal();
-      if (btn) downloadSingleExec(btn);
-    }
     if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
-  }, 8000);
+  }, 15000);
+
+  // IMMEDIATE download — don't wait for proxy response
+  closeDlModal();
+  if (btn) downloadSingleExec(btn);
 }
 
 function downloadSingleExec(btn) {
