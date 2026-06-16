@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>下载记录 — Shacman Catalog Admin</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: #0D1F3D; }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+  .loading {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0D1F3D;
+    color: white;
+    z-index: 9999;
+    font-family: '微软雅黑', sans-serif;
+    transition: opacity 0.4s;
+  }
+  .loading.hide { opacity: 0; pointer-events: none; }
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid rgba(255,255,255,0.2);
+    border-top-color: #C89B3C;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading p { font-size: 14px; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<div class="loading" id="loading">
+  <div class="spinner"></div>
+  <p>Loading admin dashboard…</p>
+</div>
+
+<iframe 
+  src="https://gengyanchao-d0gyzofwr69907e3c-1441948863.tcloudbaseapp.com/admin.html"
+  id="adminFrame"
+  onload="document.getElementById('loading').classList.add('hide'); setTimeout(function(){ var l=document.getElementById('loading'); if(l)l.remove(); }, 500);"
+></iframe>
+
+</body>
+</html>
