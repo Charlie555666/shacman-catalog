@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://charlie555666.github.io/shacman-catalog/sitemap.xml
