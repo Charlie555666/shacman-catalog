@@ -7,6 +7,12 @@
   var BASE_URL = 'https://www.fenghan-trade.com';
   var path = window.location.pathname;
 
+  // ─── 0. Google Search Console verification meta ────────────────────────────
+  var gscMeta = document.createElement('meta');
+  gscMeta.name = 'google-site-verification';
+  gscMeta.content = 'ToFV2gZpfLfPuYrf8hPCWdo8VJwGuGxn5jf-UCn9YnQ';
+  document.head.appendChild(gscMeta);
+
   // ─── 1. Organization schema (all pages) ───────────────────────────────────
   var orgScript = document.createElement('script');
   orgScript.type = 'application/ld+json';
