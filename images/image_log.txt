@@ -1,0 +1,76 @@
+[WHITE] 牵引车10张/1521883361214242816_ab23b19d77540f380232b87729ab541b.png -> shacman/tractor/tractor_white_01.png
+[WHITE] 牵引车10张/202004091647311474f261ecd94c0893ec5b104e3aaff1.png -> shacman/tractor/tractor_white_02.png
+[WHITE] 牵引车10张/53e3fbf48717b15f840bbf6376ee99d.png -> shacman/tractor/tractor_white_03.png
+[WHITE] 牵引车10张/6X4-420HP-Right-Hand-Drive-Tractor-Truck-with-Front-Grill-Protect-and-1000L-Fuel-Tank.png -> shacman/tractor/tractor_white_04.png
+[WHITE] 牵引车10张/6x4 400HP红色10.png -> shacman/tractor/tractor_white_05.png
+[WHITE] 牵引车10张/6x4 450hp 白色1.png -> shacman/tractor/tractor_white_06.png
+[WHITE] 牵引车10张/6x4 460HP红色2.png -> shacman/tractor/tractor_white_07.png
+[WHITE] 牵引车10张/6x4 460HP红色4.png -> shacman/tractor/tractor_white_08.png
+[WHITE] 牵引车10张/6x4 480hp 白色.png -> shacman/tractor/tractor_white_09.png
+[WHITE] 牵引车10张/d21b8844ec1a2153839954c8d6c788b.png -> shacman/tractor/tractor_white_10.png
+[WHITE] 自卸车10张/1.png -> shacman/dump/dump_white_11.png
+[WHITE] 自卸车10张/11_163558.png -> shacman/dump/dump_white_12.png
+[WHITE] 自卸车10张/33_120147.png -> shacman/dump/dump_white_13.png
+[WHITE] 自卸车10张/8.png -> shacman/dump/dump_white_14.png
+[WHITE] 自卸车10张/DSC00032.png -> shacman/dump/dump_white_15.png
+[WHITE] 自卸车10张/DSC00070.png -> shacman/dump/dump_white_16.png
+[WHITE] 自卸车10张/cadc7edfe91bc045e498677e684ab6a.png -> shacman/dump/dump_white_17.png
+[WHITE] 自卸车10张/ece93aa293bb356c10f8e953c8fcee2.png -> shacman/dump/dump_white_18.png
+[WHITE] 自卸车10张/微信图片_20250519114448.png -> shacman/dump/dump_white_19.png
+[WHITE] 自卸车10张/微信图片_20250519114509.png -> shacman/dump/dump_white_20.png
+[WHITE] 垃圾车10张/2b5adaecec853e2075f2dfb065722a6.png -> shacman/special/garbage_white_21.png
+[WHITE] 垃圾车10张/456A2253.png -> shacman/special/garbage_white_22.png
+[WHITE] 垃圾车10张/456A6669.png -> shacman/special/garbage_white_23.png
+[WHITE] 垃圾车10张/456A6901.png -> shacman/special/garbage_white_24.png
+[WHITE] 垃圾车10张/456A6950.png -> shacman/special/garbage_white_25.png
+[WHITE] 垃圾车10张/46932e569e213e70dec93d80629dfaf.png -> shacman/special/garbage_white_26.png
+[WHITE] 垃圾车10张/WechatIMG480.png -> shacman/special/garbage_white_27.png
+[WHITE] 垃圾车10张/WechatIMG483.png -> shacman/special/garbage_white_28.png
+[WHITE] 垃圾车10张/WechatIMG486.png -> shacman/special/garbage_white_29.png
+[WHITE] 垃圾车10张/a309d777c66d688f12fd7ddf4e12c38.png -> shacman/special/garbage_white_30.png
+[WHITE] 油罐车10张/456A8214-Photoroom.png -> shacman/special/tanker_white_31.png
+[WHITE] 油罐车10张/456A8229-Photoroom.png -> shacman/special/tanker_white_32.png
+[WHITE] 油罐车10张/77_160527-Photoroom.png -> shacman/special/tanker_white_33.png
+[WHITE] 油罐车10张/88_160528-Photoroom.png -> shacman/special/tanker_white_34.png
+[WHITE] 油罐车10张/WechatIMG201-Photoroom.png -> shacman/special/tanker_white_35.png
+[WHITE] 油罐车10张/WechatIMG212-Photoroom.png -> shacman/special/tanker_white_36.png
+[WHITE] 油罐车10张/WechatIMG306-Photoroom.png -> shacman/special/tanker_white_37.png
+[WHITE] 油罐车10张/WechatIMG309-Photoroom.png -> shacman/special/tanker_white_38.png
+[WHITE] 油罐车10张/WechatIMG3399-Photoroom.png -> shacman/special/tanker_white_39.png
+[WHITE] 油罐车10张/WechatIMG3401.png -> shacman/special/tanker_white_40.png
+[WHITE] 洒水车10张/WechatIMG1776.png -> shacman/special/water_white_41.png
+[WHITE] 洒水车10张/WechatIMG358.png -> shacman/special/water_white_42.png
+[WHITE] 洒水车10张/WechatIMG360.png -> shacman/special/water_white_43.png
+[WHITE] 洒水车10张/WechatIMG361.png -> shacman/special/water_white_44.png
+[WHITE] 洒水车10张/WechatIMG871.png -> shacman/special/water_white_45.png
+[WHITE] 洒水车10张/WechatIMG872.png -> shacman/special/water_white_46.png
+[WHITE] 洒水车10张/WechatIMG880.png -> shacman/special/water_white_47.png
+[WHITE] 洒水车10张/WechatIMG901.png -> shacman/special/water_white_48.png
+[WHITE] 洒水车10张/WechatIMG903.png -> shacman/special/water_white_49.png
+[WHITE] 洒水车10张/微信图片_20250811095538.png -> shacman/special/water_white_50.png
+[WHITE] 随车吊10张/456A2100.png -> shacman/special/crane_white_51.png
+[WHITE] 随车吊10张/456A5336.png -> shacman/special/crane_white_52.png
+[WHITE] 随车吊10张/456A5658.png -> shacman/special/crane_white_53.png
+[WHITE] 随车吊10张/456A5731.png -> shacman/special/crane_white_54.png
+[WHITE] 随车吊10张/WechatIMG1169.png -> shacman/special/crane_white_55.png
+[WHITE] 随车吊10张/WechatIMG3534.png -> shacman/special/crane_white_56.png
+[WHITE] 随车吊10张/WechatIMG3541.png -> shacman/special/crane_white_57.png
+[WHITE] 随车吊10张/WechatIMG46.png -> shacman/special/crane_white_58.png
+[WHITE] 随车吊10张/WechatIMG885.png -> shacman/special/crane_white_59.png
+[WHITE] 随车吊10张/WechatIMG890.png -> shacman/special/crane_white_60.png
+[SHACMAN] 陕汽\X3000图片\4×2  白色牵引车460HP  高顶/微信图片_20250224165700.jpg -> shacman/tractor/x3000_4x2_tractor_01.jpg
+[SHACMAN] 陕汽\X3000图片\4×2  白色牵引车460HP  高顶/微信图片_20250224165716.jpg -> shacman/tractor/x3000_4x2_tractor_02.jpg
+[SHACMAN] 陕汽\X3000图片\6×4牵引车  红色 高顶/微信图片_20250224163045.jpg -> shacman/tractor/x3000_6x4_tractor_01.jpg
+[SHACMAN] 陕汽\X3000图片\6×4牵引车  红色 高顶/微信图片_20250224163109.jpg -> shacman/tractor/x3000_6x4_tractor_02.jpg
+[SHACMAN] 陕汽\F3000图片\8×4 自卸车 430HP 红色  u型斗/11_155528.jpg -> shacman/dump/f3000_dump_01.jpg
+[SHACMAN] 陕汽\F3000图片\8×4 自卸车 430HP 红色  u型斗/22_155529.jpg -> shacman/dump/f3000_dump_02.jpg
+[SHACMAN] 陕汽\F3000图片\8×4 自卸车  380HP 黑白/81635b8ccf3c3d7103bc634e40bb0fc.jpg -> shacman/dump/f3000_dump_bw_01.jpg
+[SHACMAN] 陕汽\F3000图片\8×4 自卸车  380HP 黑白/c2d8d3163c2afe9dd59cd8c90e3a437.jpg -> shacman/dump/f3000_dump_bw_02.jpg
+[SHACMAN] 陕汽\H3000图片\6×4 白绿自卸 400HP/11_163558.jpg -> shacman/dump/h3000_dump_01.jpg
+[SHACMAN] 陕汽\H3000图片\6×4 白绿自卸 400HP/22_163559.jpg -> shacman/dump/h3000_dump_02.jpg
+[SHACMAN] 陕汽\H3000图片\H3000s 6×4  牵引车  炽烈金/24ac75d756f06e84e8b429ac451849c.jpg -> shacman/tractor/h3000s_tractor_01.jpg
+[SHACMAN] 陕汽\H3000图片\H3000s 6×4  牵引车  炽烈金/2b0d3fae34d63e3b233e025d2ed5460.jpg -> shacman/tractor/h3000s_tractor_02.jpg
+[SHACMAN] 陕汽\L3000图片\4×2 红色/1af0f322f5b743ab7df47e14d0d05f1.jpg -> shacman/cargo/l3000_cargo_01.jpg
+[SHACMAN] 陕汽\L3000图片\4×2 红色/25b37a1510deec96835b354f05ff7a1.jpg -> shacman/cargo/l3000_cargo_02.jpg
+[SHACMAN] 陕汽\H3000图片\6×4 搅拌车/a16c81d6cc6416d20e920446cb85c1c.png -> shacman/special/h3000_mixer_01.png
+[SHACMAN] 陕汽\H3000图片\6×4 搅拌车/da3ae533e9b205aaa1e08ab64a59e51.png -> shacman/special/h3000_mixer_02.png
