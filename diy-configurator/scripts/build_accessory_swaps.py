@@ -332,6 +332,9 @@ print(f"Add-on items: {len(addon_items)}")
 swap_by_cat = {}
 for item in swap_items:
     cat = item.get('category', 'Other')
+    # Default empty category to '其他附件'
+    if not cat.strip():
+        cat = '其他附件'
     # Merge tire brand categories into unified "轮胎品牌"
     if cat in TIRE_BRAND_CATEGORIES:
         cat = '轮胎品牌'
