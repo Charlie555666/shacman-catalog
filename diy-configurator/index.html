@@ -548,12 +548,16 @@ async function renderStep5(app) {
     </div>`;
 
     for (const opt of swapOptions) {
-      const pc = opt.price_change;
+      const pc = opt.price_change;      // FULL price (positive=upgrade, negative=downgrade)
+      const isUp = opt.is_upgrade !== false && pc > 0;
+      // Rule: 升配原价 / Upgrade=full price | 降配×80% / Downgrade=full ×0.8
+      const adj = isUp ? pc : Math.round(pc * 0.8);
       const selected = currentEngine === opt.swap;
-      engineHTML += `<div class="option-row ${selected ? 'selected' : ''}" onclick="selectEngine('${opt.swap.replace(/'/g,"\\'")}', ${pc})">
+      const downgradeNote = !isUp && pc < 0 ? `<small style="color:#888;font-size:11px;display:block;">= ¥${(Math.abs(pc)/10000).toFixed(1)}万 × 80%</small>` : '';
+      engineHTML += `<div class="option-row ${selected ? 'selected' : ''}" onclick="selectEngine('${opt.swap.replace(/'/g,"\\'")}', ${adj})">
         <input type="radio" name="engine" ${selected ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">换装 / Swap to ${opt.swap}</div><div class="opt-desc">从 ${v.engine} 换装 / From ${v.engine}</div></div>
-        <div class="opt-price ${pc > 0 ? 'positive' : pc < 0 ? 'negative' : 'zero'}">${pc >= 0 ? '+' : ''}¥${(pc/10000).toFixed(1)}万</div>
+        <div class="opt-info"><div class="opt-name">换装 / Swap to ${opt.swap}</div><div class="opt-desc">从 ${v.engine} 换装 / From ${v.engine}${downgradeNote}</div></div>
+        <div class="opt-price ${adj > 0 ? 'positive' : adj < 0 ? 'negative' : 'zero'}">${adj >= 0 ? '+' : ''}¥${(Math.abs(adj)/10000).toFixed(1)}万</div>
       </div>`;
     }
     engineHTML += '</div>';
