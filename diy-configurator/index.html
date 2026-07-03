@@ -646,7 +646,10 @@ function renderStep6(app) {
     selectedAcc.push({ id, price });
   }
 
-  const totalPrice = basePrice + engineChange / 10000 + accessoriesTotal / 10000;
+  const optionTotalWan = (engineChange + accessoriesTotal) / 10000; // 换装总价(万元)
+  const totalPrice = basePrice + optionTotalWan;
+  // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13
+  const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
 
   let html = `<div class="card summary-box">
     <h2 style="color:var(--gold); border-bottom-color:var(--gold);"><span class="icon">📊</span> 报价汇总 / Quotation Summary</h2>
@@ -688,17 +691,22 @@ function renderStep6(app) {
 
     ${!v.has_price ? '<div style="background:#fff3cd; color:#856404; padding:15px; border-radius:8px; margin:15px 0; font-size:14px;">⚠️ 该车型暂无标准报价，请联系销售获取基础价格。以下为选装增项汇总。</div>' : ''}
 
+    <!-- FOB Chassis Price (main output) -->
     <div class="total-price">
-      <div class="label">预估总价 / Estimated Total</div>
-      <div class="amount">¥${totalPrice.toFixed(1)}<span class="small"> 万元</span></div>
+      <div class="label">FOB 底盘价 / FOB Chassis Price</div>
+      <div class="amount">¥${fobChassisPrice.toFixed(2)}<span class="small"> 万元</span></div>
+      <div style="font-size:13px; opacity:0.7; margin-top:8px;">= (底盘价 + 换装总价) × 0.95 ÷ 1.13</div>
       ${!v.has_price ? '<div style="font-size:13px; opacity:0.7; margin-top:5px;">* 不含基础车价，仅含选装增项</div>' : ''}
     </div>
 
     <div class="price-breakdown">
-      <div class="line"><span>基础车价 / Base Price</span><span>¥${basePrice.toFixed(1)} 万</span></div>
+      <div class="line"><span>底盘价格 / Chassis Base</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
       ${selectedAcc.map(a => `<div class="line"><span>${a.id.split('_').slice(1).join(' ')}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`).join('')}
-      <div class="line total"><span>总计 / Total</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
+      <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
+      <div class="line" style="color:var(--gold);"><span>× 系数 0.95</span><span>¥${(totalPrice*0.95).toFixed(2)} 万</span></div>
+      <div class="line" style="color:var(--gold);"><span>÷ 1.13 (去增值税)</span><span>—</span></div>
+      <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price</span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
     </div>
   </div>
 
@@ -742,14 +750,20 @@ function resetAll() {
 
 function contactSales() {
   const v = STATE.selectedVehicle;
-  const totalPrice = (v.has_price ? v.price : 0) + (STATE._enginePriceChange || 0)/10000 +
-    Object.values(STATE.selectedAccessories).reduce((a,b) => a+b, 0)/10000;
+  const basePrice = v.has_price ? v.price : 0;
+  const engineChange = STATE._enginePriceChange || 0;
+  const accessoriesTotal = Object.values(STATE.selectedAccessories).reduce((a,b) => a+b, 0);
+  const optionTotalWan = (engineChange + accessoriesTotal) / 10000;
+  const totalPrice = basePrice + optionTotalWan;
+  const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
   const msg = encodeURIComponent(
     `Hi, I configured a vehicle on your DIY configurator:\n` +
     `Country: ${STATE.selectedCountry}\n` +
     `Model: ${v.model || v.version}\n` +
     `Engine: ${STATE.selectedEngine || v.engine}\n` +
-    `Estimated Price: ¥${totalPrice.toFixed(1)} 万\n` +
+    `Chassis Base: ¥${basePrice.toFixed(1)} 万\n` +
+    `Options Total: ¥${optionTotalWan.toFixed(1)} 万\n` +
+    `FOB Chassis Price: ¥${fobChassisPrice.toFixed(2)} 万\n` +
     `Please send me the official quotation.`
   );
   window.open(`https://wa.me/8615319431311?text=${msg}`, '_blank');
