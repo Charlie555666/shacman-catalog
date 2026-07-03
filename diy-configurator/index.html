@@ -303,9 +303,11 @@ async function selectCountry(name) {
   const app = document.getElementById('app');
   app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>正在加载车辆数据 / Loading vehicle data for ' + name + '...</div></div>';
 
-  const safeName = encodeURIComponent(name);
+  // Use country's file field (ASCII slug) for reliable GitHub Pages CDN serving
+  const countryInfo = STATE.countries.find(c => c.name === name);
+  const fileName = countryInfo && countryInfo.file ? countryInfo.file : 'vehicles_' + encodeURIComponent(name) + '.json';
   try {
-    STATE.countryData = await fetchJSON(DATA_BASE + 'vehicles_' + safeName + '.json');
+    STATE.countryData = await fetchJSON(DATA_BASE + fileName);
   } catch(e) {
     app.innerHTML = `<div class="card"><p style="color:red">加载失败 / Failed to load vehicles for ${name}: ${e.message}</p><button class="btn btn-outline" onclick="STATE.step=1;render()">← 返回 / Back</button></div>`;
     return;

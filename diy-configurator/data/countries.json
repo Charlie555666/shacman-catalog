@@ -15,7 +15,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_zone-n.json"
   },
   {
     "name": "S",
@@ -36,7 +37,8 @@
       "天然气车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_zone-s.json"
   },
   {
     "name": "东南非六国",
@@ -59,7 +61,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_east-south-africa-6.json"
   },
   {
     "name": "中亚三国",
@@ -80,7 +83,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_central-asia.json"
   },
   {
     "name": "乌兹别克",
@@ -99,7 +103,8 @@
       "牵引车",
       "特种车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_uzbekistan.json"
   },
   {
     "name": "乌拉圭",
@@ -117,7 +122,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_uruguay.json"
   },
   {
     "name": "亚美尼亚",
@@ -131,7 +137,8 @@
     ],
     "categories": [
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_armenia.json"
   },
   {
     "name": "伊拉克",
@@ -148,7 +155,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_iraq.json"
   },
   {
     "name": "几内亚",
@@ -165,7 +173,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_guinea.json"
   },
   {
     "name": "刚果金",
@@ -184,7 +193,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_drc.json"
   },
   {
     "name": "利比亚",
@@ -203,7 +213,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_libya.json"
   },
   {
     "name": "加纳",
@@ -223,7 +234,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_ghana.json"
   },
   {
     "name": "卡塔尔",
@@ -239,7 +251,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_qatar.json"
   },
   {
     "name": "卢旺达",
@@ -255,7 +268,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_rwanda.json"
   },
   {
     "name": "印度尼西亚",
@@ -277,7 +291,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_indonesia.json"
   },
   {
     "name": "厄瓜多尔",
@@ -297,7 +312,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_ecuador.json"
   },
   {
     "name": "吉布提",
@@ -313,7 +329,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_djibouti.json"
   },
   {
     "name": "哈萨克",
@@ -333,7 +350,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_kazakhstan.json"
   },
   {
     "name": "哥伦比亚",
@@ -351,7 +369,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_colombia.json"
   },
   {
     "name": "喀麦隆",
@@ -372,7 +391,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_cameroon.json"
   },
   {
     "name": "埃及",
@@ -390,7 +410,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_egypt.json"
   },
   {
     "name": "墨西哥",
@@ -409,7 +430,8 @@
       "专用车",
       "牵引车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_mexico.json"
   },
   {
     "name": "多米尼加",
@@ -429,7 +451,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_dominican-republic.json"
   },
   {
     "name": "安哥拉",
@@ -448,7 +471,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_angola.json"
   },
   {
     "name": "尼日利亚",
@@ -464,7 +488,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_nigeria.json"
   },
   {
     "name": "巴基斯坦",
@@ -483,7 +508,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_pakistan.json"
   },
   {
     "name": "巴布亚新几内亚",
@@ -498,7 +524,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_papua-new-guinea.json"
   },
   {
     "name": "巴拉圭",
@@ -512,7 +539,8 @@
     ],
     "categories": [
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_paraguay.json"
   },
   {
     "name": "摩洛哥",
@@ -529,7 +557,8 @@
       "搅拌车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_morocco.json"
   },
   {
     "name": "斐济",
@@ -547,7 +576,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_fiji.json"
   },
   {
     "name": "新加坡",
@@ -563,7 +593,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_singapore.json"
   },
   {
     "name": "智利",
@@ -579,7 +610,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_chile.json"
   },
   {
     "name": "柬埔寨",
@@ -597,7 +629,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_cambodia.json"
   },
   {
     "name": "格鲁吉亚",
@@ -614,7 +647,8 @@
     "categories": [
       "专用车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_georgia.json"
   },
   {
     "name": "毛里塔尼亚",
@@ -633,7 +667,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_mauritania.json"
   },
   {
     "name": "沙特",
@@ -655,7 +690,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_saudi-arabia.json"
   },
   {
     "name": "泰国",
@@ -670,7 +706,8 @@
     "categories": [
       "专用车",
       "牵引车"
-    ]
+    ],
+    "file": "vehicles_thailand.json"
   },
   {
     "name": "牙买加",
@@ -689,7 +726,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_jamaica.json"
   },
   {
     "name": "科威特",
@@ -705,7 +743,8 @@
     "categories": [
       "2026年科威特市场应用及配置推荐-牵引",
       "2026年科威特市场应用及配置推荐-载货"
-    ]
+    ],
+    "file": "vehicles_kuwait.json"
   },
   {
     "name": "秘鲁",
@@ -725,7 +764,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_peru.json"
   },
   {
     "name": "突尼斯",
@@ -741,7 +781,8 @@
       "搅拌车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_tunisia.json"
   },
   {
     "name": "缅甸",
@@ -762,7 +803,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_myanmar.json"
   },
   {
     "name": "老挝",
@@ -783,7 +825,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_laos.json"
   },
   {
     "name": "肯尼亚",
@@ -800,7 +843,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_kenya.json"
   },
   {
     "name": "苏丹",
@@ -818,7 +862,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_sudan.json"
   },
   {
     "name": "苏里南",
@@ -833,7 +878,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_suriname.json"
   },
   {
     "name": "菲律宾",
@@ -854,7 +900,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_philippines.json"
   },
   {
     "name": "蒙古",
@@ -871,7 +918,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_mongolia.json"
   },
   {
     "name": "西非五国",
@@ -890,7 +938,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_west-africa-5.json"
   },
   {
     "name": "越南",
@@ -910,7 +959,8 @@
       "专用车",
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_vietnam.json"
   },
   {
     "name": "阿尔及利亚",
@@ -932,7 +982,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_algeria.json"
   },
   {
     "name": "阿曼",
@@ -949,7 +1000,8 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_oman.json"
   },
   {
     "name": "阿根廷",
@@ -967,7 +1019,8 @@
     "categories": [
       "牵引车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_argentina.json"
   },
   {
     "name": "阿联酋",
@@ -986,7 +1039,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_uae.json"
   },
   {
     "name": "香港",
@@ -1004,7 +1058,8 @@
       "搅拌车",
       "牵引车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_hong-kong.json"
   },
   {
     "name": "马来西亚",
@@ -1028,7 +1083,8 @@
       "牵引车",
       "自卸车",
       "载货车"
-    ]
+    ],
+    "file": "vehicles_malaysia.json"
   },
   {
     "name": "马达加斯加",
@@ -1043,6 +1099,7 @@
     "categories": [
       "牵引车",
       "自卸车"
-    ]
+    ],
+    "file": "vehicles_madagascar.json"
   }
 ]
