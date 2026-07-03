@@ -1,7 +1,7 @@
 /**
- * hero-inject.js — 51微店 fenghan-trade.com 首页首屏优化 + DIY配置器入口
+ * hero-inject.js — 51微店 fenghan-trade.com 首页首屏优化 + 导航栏DIY配置器入口
  * Injected via 统计代码 as: <script src="hero-inject.js"></script>
- * Version: 2026-07-02
+ * Version: 2026-07-03
  */
 (function() {
     if (window.__fenghanInjected) return;
@@ -36,20 +36,9 @@
         '.fenghan-hero-wrap .hero-subtitle{gap:8px}.fenghan-hero-wrap .hero-btns{flex-direction:column;align-items:center}' +
         '.fenghan-hero-wrap .hero-btns a{width:100%;max-width:280px;text-align:center}' +
         '.fenghan-trust{gap:16px;padding:28px 12px}.fenghan-trust .stat-num{font-size:26px}.fenghan-brands .brands-row{gap:16px}}' +
-        // DIY Configurator Banner
-        '.diy-cta{display:block;margin:0;padding:36px 24px;background:linear-gradient(135deg,#0D1F3D 0%,#1a3a6b 100%);text-decoration:none;position:relative;overflow:hidden}' +
-        '.diy-cta::before{content:\"\";position:absolute;top:-50%;right:-10%;width:280px;height:280px;background:radial-gradient(circle,rgba(200,155,60,0.25) 0%,transparent 70%);border-radius:50%}' +
-        '.diy-cta::after{content:\"\";position:absolute;bottom:-30%;left:-5%;width:180px;height:180px;background:radial-gradient(circle,rgba(198,40,40,0.12) 0%,transparent 70%);border-radius:50%}' +
-        '.diy-cta:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(13,31,61,0.35);transition:all 0.3s}' +
-        '.diy-cta-inner{position:relative;z-index:1;display:flex;align-items:center;gap:20px;flex-wrap:wrap;max-width:960px;margin:0 auto}' +
-        '.diy-cta-icon{width:56px;height:56px;background:rgba(200,155,60,0.18);border:2px solid #C89B3C;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:28px}' +
-        '.diy-cta-text{flex:1;min-width:200px}' +
-        '.diy-cta-text h3{margin:0 0 4px;font-size:20px;font-weight:700;color:#C89B3C}' +
-        '.diy-cta-text p{margin:0;font-size:13px;color:rgba(255,255,255,0.8);line-height:1.5}' +
-        '.diy-cta-btn{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;background:linear-gradient(135deg,#C62828,#e53935);color:#fff;border-radius:6px;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap;transition:all 0.3s;flex-shrink:0}' +
-        '.diy-cta-btn:hover{background:linear-gradient(135deg,#b71c1c,#d32f2f);transform:scale(1.05);box-shadow:0 4px 14px rgba(198,40,40,0.45)}' +
-        '.diy-cta-btn svg{width:16px;height:16px;fill:currentColor}' +
-        '@media(max-width:600px){.diy-cta{padding:24px 16px}.diy-cta-text h3{font-size:17px}.diy-cta-btn{width:100%;justify-content:center}}';
+        // DIY Configurator Nav Link
+        '.diy-nav-link{color:#C89B3C !important;font-weight:700 !important;text-decoration:none !important;padding:8px 16px !important;border:2px solid #C89B3C;border-radius:6px;transition:all .25s;display:inline-block;margin-left:4px}' +
+        '.diy-nav-link:hover{background:#C89B3C;color:#0D1F3D!important;transform:translateY(-1px);box-shadow:0 4px 12px rgba(200,155,60,.35)}';
     document.head.appendChild(style);
 
     // Inject HTML sections
@@ -106,30 +95,29 @@
             else art.appendChild(trust);
         }
 
-        // 3. DIY Configurator CTA - insert after trust stats
-        var diyCta = document.createElement('a');
-        diyCta.className = 'diy-cta';
-        diyCta.href = 'https://charlie555666.github.io/shacman-catalog/diy-configurator/';
-        diyCta.target = '_blank';
-        diyCta.rel = 'noopener';
-        diyCta.title = 'DIY Vehicle Configurator — Build Your SHACMAN Truck';
-        diyCta.innerHTML =
-            '<div class="diy-cta-inner">' +
-            '<div class="diy-cta-icon">&#9881;</div>' +
-            '<div class="diy-cta-text">' +
-            '<h3>DIY Vehicle Configurator · 在线选车配车</h3>' +
-            '<p>Select country &rarr; pick model &rarr; swap engine &amp; accessories &rarr; get real-time pricing. Build your perfect SHACMAN truck in minutes!</p>' +
-            '</div>' +
-            '<span class="diy-cta-btn">' +
-            '<svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>' +
-            'Start Configuring' +
-            '</span>' +
-            '</div>';
-
-        if (trust && trust.parentNode) {
-            trust.parentNode.insertBefore(diyCta, trust.nextSibling);
-        } else {
-            art.appendChild(diyCta);
+        // 3. DIY Configurator Nav Link — inject into top navigation bar (after FAQ)
+        var nav = document.querySelector('nav,[class*=nav],[class*=menu],[class*=header] ul,[class*=navbar]') || document.querySelector('header');
+        var faqLink = null;
+        if (nav) {
+            var navLinks = nav.querySelectorAll('a');
+            for (var n = 0; n < navLinks.length; n++) {
+                if (navLinks[n].textContent.toUpperCase().indexOf('FAQ') > -1) {
+                    faqLink = navLinks[n];
+                    break;
+                }
+            }
+        }
+        var diyNav = document.createElement('a');
+        diyNav.className = 'diy-nav-link';
+        diyNav.href = 'https://charlie555666.github.io/shacman-catalog/diy-configurator/';
+        diyNav.target = '_blank';
+        diyNav.rel = 'noopener';
+        diyNav.title = 'DIY Vehicle Configurator — Build Your SHACMAN Truck';
+        diyNav.textContent = '\u2699\uFE0F DIY Config';
+        if (faqLink && faqLink.parentNode) {
+            faqLink.parentNode.insertBefore(diyNav, faqLink.nextSibling);
+        } else if (nav) {
+            nav.appendChild(diyNav);
         }
 
         // 4. Brand section - insert before footer
