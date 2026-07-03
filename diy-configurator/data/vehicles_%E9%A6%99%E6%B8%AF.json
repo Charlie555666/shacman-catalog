@@ -18,9 +18,9 @@
     "abs": "HD 7.5T前轴",
     "fifth_wheel": "H3000S标准驾驶室",
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、工程用车保险杠、三级上车踏板、单体沙滤+中置空滤器、普通排气、国产右置转向机、进口离合器、多功能方向盘（带定速巡航）、水箱保护栅、油底壳保护栅、立式蓄电池、SHACMAN Telematics（带屏带终端）",
-    "options": "55.88",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 55.88,
+    "has_price": true
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -40,10 +40,10 @@
     "wheelbase": "/",
     "abs": "HD 7.5T前轴",
     "fifth_wheel": "X5000加长高顶平地板驾驶室",
-    "base_config": "X5000加长高顶平地板驾驶室带顶侧导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁(双遥控)、直流空滤器、普通排气、国产右置转向机、多功能方向盘、轻量化三段整体式挡泥板、JOST50鞍座、水箱保护栅、油底壳保护栅、220Ah免维护蓄电池带上车踏梯、SHACMAN Telematics（带屏带终端，多媒体屏幕屏蔽掉影音娱乐功能）、X5000",
-    "options": "38.883",
-    "price": null,
-    "has_price": false
+    "base_config": "X5000加长高顶平地板驾驶室带顶侧导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁(双遥控)、直流空滤器、普通排气、国产右置转向机、多功能方向盘、轻量化三段整体式挡泥板、JOST50鞍座、水箱保护栅、油底壳保护栅、220Ah免维护蓄电池带上车踏梯、SHACMAN Telematics（带屏带终端，多媒体屏幕屏蔽掉影音娱乐功能）、X5000右置内饰",
+    "options": "",
+    "price": 38.883,
+    "has_price": true
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -64,9 +64,9 @@
     "abs": "HD 4.8T前轴",
     "fifth_wheel": "L5000驾驶室",
     "base_config": "L5000驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、电动空调、电动摇窗机、电动翻转、公路保险杠、两级上车踏板、中控锁(双遥控)、普通空滤器、普通排气、国产右置转向机、进口离合器、多功能方向盘（带定速巡航）、165Ah免维护蓄电池、SHACMAN Telematics（带屏带终端）",
-    "options": "30.45",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 30.45,
+    "has_price": true
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -87,8 +87,8 @@
     "abs": "4.8T HD鼓式制动前轴",
     "fifth_wheel": "L5000驾驶室",
     "base_config": "L5000驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、电动空调、电动摇窗机、电动翻转、公路保险杠、中控锁(双遥控)、普通空滤器、国产右置转向机、国产离合器、多功能方向盘（带定速巡航）、SHACMAN Telematics(带屏带终端)、135Ah免维护蓄电池",
-    "options": "28.156",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 28.156,
+    "has_price": true
   }
 ]

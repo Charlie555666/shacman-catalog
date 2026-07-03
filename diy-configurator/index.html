@@ -84,6 +84,7 @@ body { font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; background: var(-
 .option-row .opt-price.positive { color: #c62828; }
 .option-row .opt-price.negative { color: #2e7d32; }
 .option-row .opt-price.zero { color: #999; }
+.opt-price-sub { font-size: 11px; color: #999; margin-top: 2px; text-align: right; min-width: 120px; }
 
 /* Summary */
 .summary-box { background: linear-gradient(135deg, var(--navy), #1a3a6b); color: #fff; border-radius: 12px; padding: 30px; }
@@ -510,6 +511,10 @@ async function renderStep5(app) {
     const en = item.note_en || '';
     return `<div class="opt-desc">${item.note}${en ? ' / ' + en : ''}</div>`;
   }
+  function getTireCount(drive) {
+    const m = { '4×2': 7, '4x2': 7, '6×4': 11, '6x4': 11, '8×4': 13, '8x4': 13 };
+    return m[drive] || 7;
+  }
   // Load engine swaps & accessories if not loaded
   if (!STATE.engineSwaps) {
     app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>正在加载配置数据 / Loading configuration data...</div></div>';
@@ -591,10 +596,15 @@ async function renderStep5(app) {
       const id = `${cat}_${item.description}`;
       const checked = STATE.selectedAccessories[id] || false;
       const p = item.is_deduction ? -item.price : item.price;
-      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
+      const isTireSet = item.is_tire_set && v.drive;
+      const tireCt = isTireSet ? getTireCount(v.drive) : 0;
+      const totalP = isTireSet ? p * tireCt : p;
+      const unitStr = isTireSet ? `×${tireCt}条 / ${tireCt} tires` : `${item.unit}`;
+      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
         <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
-        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
+        <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
+        ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
       </div>`;
     }
 
@@ -605,10 +615,15 @@ async function renderStep5(app) {
         const id = `${cat}_${item.description}`;
         const checked = STATE.selectedAccessories[id] || false;
         const p = item.is_deduction ? -item.price : item.price;
-        accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
+        const isTireSet = item.is_tire_set && v.drive;
+        const tireCt = isTireSet ? getTireCount(v.drive) : 0;
+        const totalP = isTireSet ? p * tireCt : p;
+        const unitStr = isTireSet ? `×${tireCt}条 / ${tireCt} tires` : `${item.unit}`;
+        accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
           <input type="checkbox" ${checked ? 'checked' : ''}>
           <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
-          <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
+          <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
+          ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
         </div>`;
       }
       accHTML += `</div>`;
@@ -626,10 +641,14 @@ async function renderStep5(app) {
       const id = `${cat}_${item.description}`;
       const checked = STATE.selectedAccessories[id] || false;
       const p = item.is_deduction ? -item.price : item.price;
-      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
+      const isTireSet = item.is_tire_set && v.drive;
+      const tireCt = isTireSet ? getTireCount(v.drive) : 0;
+      const totalP = isTireSet ? p * tireCt : p;
+      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
         <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
-        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
+        <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
+        ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
       </div>`;
     }
   }
@@ -697,12 +716,16 @@ function renderStep6(app) {
   // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13
   const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
 
-  // Build accessory lookup for English descriptions
+  // Build accessory lookup for English descriptions & tire info
   const accLookup = {};
+  const tireLookup = {};  // track tire items for set pricing display
   if (STATE.accessories && STATE.accessories.by_category) {
     for (const items of Object.values(STATE.accessories.by_category)) {
       for (const item of items) {
         accLookup[item.description] = item.description_en || '';
+        if (item.is_tire_set && item.tire_count) {
+          tireLookup[item.description] = item.tire_count;
+        }
       }
     }
   }
@@ -767,14 +790,14 @@ function renderStep6(app) {
     <div class="price-breakdown">
       <div class="line"><span>底盘价格 / Chassis Base</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
-      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
       <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price</span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
     </div>
     ` : `
     <div class="price-breakdown">
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
-      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>选装合计 / Options Subtotal</span><span>¥${optionTotalWan.toFixed(1)} 万</span></div>
     </div>
     `}

@@ -18,9 +18,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长平顶",
     "base_config": "F2000加长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、13款普通后视镜、热区空调、手动摇窗机、手动翻转、玻璃钢保险杠、普通空滤器、普通排气、进口离合器、165Ah免维护蓄电池",
-    "options": "26.83",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 26.83,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -41,9 +41,9 @@
     "abs": "MAN 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、普通空滤器、普通排气、油底壳保护栅、进口离合器、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "27.56",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 27.56,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -64,9 +64,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长平顶",
     "base_config": "F2000加长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、13款普通后视镜、热区空调、手动摇窗机、手动翻转、玻璃钢保险杠、普通空滤器、普通排气、进口离合器、165Ah免维护蓄电池",
-    "options": "25.44",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 25.44,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -87,9 +87,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、普通空滤器、普通排气、油底壳保护栅、进口离合器、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "26.19",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 26.19,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -110,9 +110,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、四点空气悬浮、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、普通空滤器、普通排气、水箱保护栅、JOST50鞍座、前后稳定杆、进口转向机、三段整体式挡泥板带防飞溅、180Ah免维护蓄电池、中控锁（双遥控）",
-    "options": "30.55",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 30.55,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -133,9 +133,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、四点空气悬浮、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、普通空滤器、普通排气、水箱保护栅、JOST50鞍座、前后稳定杆、进口转向机、三段整体式挡泥板带防飞溅、180Ah免维护蓄电池、中控锁（双遥控）",
-    "options": "31.04",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 31.04,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -156,9 +156,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、四点空气悬浮、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、普通空滤器、普通排气、水箱保护栅、JOST50鞍座、前后稳定杆、进口转向机、三段整体式挡泥板带防飞溅、180Ah免维护蓄电池、中控锁（双遥控）",
-    "options": "33.69",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 33.69,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -179,9 +179,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、四点空气悬浮、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、普通空滤器、普通排气、水箱保护栅、JOST50鞍座、前后稳定杆、进口转向机、三段整体式挡泥板带防飞溅、180Ah免维护蓄电池、中控锁（双遥控）",
-    "options": "34.49",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 34.49,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -202,9 +202,9 @@
     "abs": "MAN 7.5T",
     "fifth_wheel": "加长平顶",
     "base_config": "F2000加长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、13款普通后视镜、热区空调、手动摇窗机、手动翻转、玻璃钢保险杠、普通空滤器、普通排气、进口离合器、165Ah免维护蓄电池",
-    "options": "25.19",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 25.19,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -225,9 +225,9 @@
     "abs": "MAN 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、进口离合器、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "26.92",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 26.92,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -248,9 +248,9 @@
     "abs": "MAN 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、进口离合器、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "27.88",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 27.88,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -271,9 +271,9 @@
     "abs": "MAN 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、四点液压悬浮、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、进口离合器、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "30.88",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 30.88,
+    "has_price": true
   },
   {
     "region": "其他/Other",
@@ -317,9 +317,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产转向机、普通方向盘、进口离合器、左前牵引销、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "28.26",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 28.26,
+    "has_price": true
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -340,9 +340,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产转向机、普通方向盘、进口离合器、左前牵引销、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "32.33",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 32.33,
+    "has_price": true
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -363,9 +363,9 @@
     "abs": "HD 7.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通侧置空滤器、普通排气、国产转向机、普通方向盘、进口离合器、左前牵引销、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "26.93",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 26.93,
+    "has_price": true
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -570,9 +570,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、油浴式空滤器、普通排气、国产转向机、普通方向盘、进口离合器、左前牵引销、水箱保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "27.15",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 27.15,
+    "has_price": true
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -593,9 +593,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、热区空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、油浴式空滤器、普通排气、国产转向机、普通方向盘、进口离合器、左前牵引销、水箱保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "30.8",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 30.8,
+    "has_price": true
   },
   {
     "region": "非洲一区/Africa Zone 1",

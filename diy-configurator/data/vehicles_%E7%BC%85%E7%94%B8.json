@@ -18,9 +18,9 @@
     "abs": "HD 7.5T",
     "fifth_wheel": "标准",
     "base_config": "H3000标准驾驶室不带顶导流罩、液压主座椅、杆式后视镜、电动空调、电动摇窗机、电动翻转、工程用车保险杠、两级上车踏板、普通侧置空滤器、水箱保护栅、165Ah免维护蓄电池、普通排气、左前牵引销和后牵引座、中置备胎架",
-    "options": "25.004",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 25.004,
+    "has_price": true
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -202,9 +202,9 @@
     "abs": "HD7.5T鼓式制动前轴",
     "fifth_wheel": "L3000升级版驾驶室",
     "base_config": "H3000标准驾驶室不带导流罩、液压主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、工程用车保险杠、两级上车踏板、普通侧置空滤器、水箱保护栅、尾灯保护栅、135Ah免维护蓄电池、普通排气、左前牵引销和后牵引座",
-    "options": "16.909",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 16.909,
+    "has_price": true
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -225,9 +225,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "27.455",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 27.455,
+    "has_price": true
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -248,9 +248,9 @@
     "abs": "HD 9.5T",
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
-    "options": "29.949",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 29.949,
+    "has_price": true
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -271,8 +271,8 @@
     "abs": "HD 5.5T",
     "fifth_wheel": "加长半高顶",
     "base_config": "H3000加长半高顶驾驶室不带顶侧导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、公路保险杠、三级上车踏板、普通侧置空滤器、水箱保护栅、165Ah免维护蓄电池、普通排气、左前牵引销和后牵引座",
-    "options": "27.384",
-    "price": null,
-    "has_price": false
+    "options": "",
+    "price": 27.384,
+    "has_price": true
   }
 ]
