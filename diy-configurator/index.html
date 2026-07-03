@@ -300,17 +300,12 @@ async function selectCountry(name) {
   const app = document.getElementById('app');
   app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>Loading vehicle data for ' + name + '...</div></div>';
 
-  const safeName = name.replace(/[/\\:*?"<>|]/g, '_');
+  const safeName = encodeURIComponent(name);
   try {
     STATE.countryData = await fetchJSON(DATA_BASE + 'vehicles_' + safeName + '.json');
   } catch(e) {
-    // Try URL encoding
-    try {
-      STATE.countryData = await fetchJSON(DATA_BASE + 'vehicles_' + encodeURIComponent(name) + '.json');
-    } catch(e2) {
-      app.innerHTML = `<div class="card"><p style="color:red">Failed to load vehicles for ${name}: ${e.message}</p><button class="btn btn-outline" onclick="STATE.step=1;render()">返回</button></div>`;
-      return;
-    }
+    app.innerHTML = `<div class="card"><p style="color:red">Failed to load vehicles for ${name}: ${e.message}</p><button class="btn btn-outline" onclick="STATE.step=1;render()">返回</button></div>`;
+    return;
   }
 
   STATE.step = 2;
@@ -415,10 +410,11 @@ function renderStep4(app) {
     <p style="color:#888; margin-bottom:15px;">${STATE.selectedCountry} · ${STATE.selectedCategory} · ${STATE.selectedPlatform} (${vlist.length} 款)</p>`;
 
   for (const v of vlist) {
+    // Only show verified fields (note: tires/wheelbase/fuel_tank fields in source
+    // knowledge base have column offset issues, so we skip them in the card view)
     const specs = [
       v.engine, `${v.hp}HP`, v.emission,
-      v.drive, v.gearbox.split('-')[0],
-      v.tires, v.wheelbase
+      v.drive, v.gearbox.split('-')[0]
     ].filter(Boolean);
 
     html += `<div class="vehicle-card ${STATE.selectedVehicle && STATE.selectedVehicle.model === v.model ? 'selected' : ''}" onclick="selectVehicle(this)" data-idx="${vlist.indexOf(v)}">
@@ -501,7 +497,7 @@ async function renderStep5(app) {
   if (swapOptions.length > 0) {
     engineHTML = `<div class="card">
       <h2><span class="icon">⚙️</span> 发动机换装 / Engine Swap</h2>
-      <p style="color:#888; margin-bottom:12px;">原装: <strong>${v.engine}</strong> (${v.hp}HP)</p>`;
+      <p style="color:#888; margin-bottom:12px;">原装: <strong>${v.engine}</strong> (${v.hp}HP · ${v.emission}) ${!v.has_price ? '<span class="no-price-badge">📞 询价</span>' : ''}</p>`;
 
     // Default: keep original
     engineHTML += `<div class="option-row ${currentEngine === v.engine ? 'selected' : ''}" onclick="selectEngine('${v.engine.replace(/'/g,"\\'")}', 0)">
@@ -553,7 +549,7 @@ async function renderStep5(app) {
       accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
         <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
-        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${(Math.abs(p)/10000).toFixed(2)}万/${item.unit}</div>
+        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
       </div>`;
     }
 
@@ -567,7 +563,7 @@ async function renderStep5(app) {
         accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
           <input type="checkbox" ${checked ? 'checked' : ''}>
           <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
-          <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${(Math.abs(p)/10000).toFixed(2)}万/${item.unit}</div>
+          <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
         </div>`;
       }
       accHTML += `</div>`;
@@ -588,7 +584,7 @@ async function renderStep5(app) {
       accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
         <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
-        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${(Math.abs(p)/10000).toFixed(2)}万/${item.unit}</div>
+        <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
       </div>`;
     }
   }
@@ -701,34 +697,22 @@ function renderStep6(app) {
     <div class="price-breakdown">
       <div class="line"><span>基础车价 / Base Price</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
-      ${selectedAcc.map(a => `<div class="line"><span>${a.id.split('_').slice(1).join(' ')}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${(a.price/10000).toFixed(2)} 万</span></div>`).join('')}
+      ${selectedAcc.map(a => `<div class="line"><span>${a.id.split('_').slice(1).join(' ')}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`).join('')}
       <div class="line total"><span>总计 / Total</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
     </div>
   </div>
 
   <div class="card">
     <h2><span class="icon">📋</span> 基础配置详情 / Base Configuration</h2>
-    <div class="summary-grid" style="grid-template-columns: 1fr 1fr 1fr;">
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">轮胎</div><div class="s-value">${v.tires || '-'}</div>
-      </div>
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">油箱</div><div class="s-value">${v.fuel_tank || '-'}</div>
-      </div>
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">轴距</div><div class="s-value">${v.wheelbase || '-'}</div>
-      </div>
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">后桥速比</div><div class="s-value">${v.axle_ratio || '-'}</div>
-      </div>
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">ABS</div><div class="s-value">${v.abs || '-'}</div>
-      </div>
-      <div class="summary-item" style="background:#f5f5f5; color:var(--text);">
-        <div class="s-label">鞍座</div><div class="s-value">${v.fifth_wheel || '-'}</div>
-      </div>
+    ${v.base_config ? `<div style="padding:15px; background:#f9f9f9; border-radius:8px; font-size:14px; line-height:1.8;">
+      <strong>标准配置 / Standard Equipment:</strong><br>${v.base_config}
+    </div>` : `<p style="color:#999;">暂无详细配置描述</p>`}
+    ${v.options ? `<div style="margin-top:15px; padding:15px; background:#fef9e7; border-radius:8px; font-size:14px; line-height:1.8;">
+      <strong>选装项目 / Optional Equipment:</strong><br>${v.options}
+    </div>` : ''}
+    <div style="margin-top:12px; padding:8px 12px; background:#e3f2fd; border-radius:8px; font-size:12px; color:#1565c0;">
+      💡 以上配置表数据来源于 SHACMAN 全球车型配置知识库。具体配置以厂商最新公告为准。轮胎、轴距、油箱容量等详细信息请在Step 5中选配或咨询销售。
     </div>
-    ${v.base_config ? `<div style="margin-top:15px; padding:15px; background:#f9f9f9; border-radius:8px; font-size:13px;"><strong>基础配置描述:</strong><br>${v.base_config}</div>` : ''}
   </div>
 
   <div class="flex-between mt-20">
