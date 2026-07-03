@@ -77,6 +77,8 @@ body { font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; background: var(-
 .option-row input[type="radio"], .option-row input[type="checkbox"] { margin-right: 12px; width: 18px; height: 18px; accent-color: var(--red); }
 .option-row .opt-info { flex: 1; }
 .option-row .opt-name { font-weight: 600; font-size: 14px; }
+.option-row .opt-name .opt-cn { display: block; }
+.option-row .opt-name .opt-en { display: block; font-size: 11px; color: #888; font-weight: 400; margin-top: 1px; }
 .option-row .opt-desc { font-size: 12px; color: #888; margin-top: 2px; }
 .option-row .opt-price { font-weight: 700; font-size: 15px; min-width: 120px; text-align: right; }
 .option-row .opt-price.positive { color: #c62828; }
@@ -469,6 +471,45 @@ function nextToStep5() {
 
 // ── Step 5: Configure Options ──
 async function renderStep5(app) {
+  // Category English name mapping
+  const catEn = {
+    '变速箱': 'Transmission',
+    '驾驶室': 'Cab',
+    '轮胎': 'Tires',
+    '轮辋': 'Wheel Rims',
+    '悬架系统': 'Suspension',
+    '鞍座': 'Fifth Wheel',
+    '油箱': 'Fuel Tank',
+    '空调': 'A/C',
+    '转向机': 'Steering Gear',
+    '驾驶室悬置': 'Cab Suspension',
+    '驾驶室相关部件': 'Cab Components',
+    '米其林': 'Michelin Tires',
+    '三角': 'Triangle Tires',
+    '玲珑': 'Linglong Tires',
+    '双钱': 'Double Coin Tires',
+    '中策': 'Zhongce Tires',
+    '金宇': 'Jinyu Tires',
+    '成山': 'Chengshan Tires',
+    '离合器': 'Clutch',
+    '取力器': 'PTO',
+    '车桥': 'Axle',
+    '底盘其他': 'Chassis Others',
+    '安全类': 'Safety',
+    '驱动': 'Drivetrain',
+    '寒区推荐配置': 'Cold Region Package',
+    '高温地区推荐配置': 'Hot Region Package',
+    '': 'General Options'
+  };
+  function catLabel(cat) { return catEn[cat] ? `${cat} / ${catEn[cat]}` : cat; }
+  function optLabel(item) {
+    return `<span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span>`;
+  }
+  function noteLabel(item) {
+    if (!item.note) return '';
+    const en = item.note_en || '';
+    return `<div class="opt-desc">${item.note}${en ? ' / ' + en : ''}</div>`;
+  }
   // Load engine swaps & accessories if not loaded
   if (!STATE.engineSwaps) {
     app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>正在加载配置数据 / Loading configuration data...</div></div>';
@@ -536,7 +577,7 @@ async function renderStep5(app) {
     if (!items || items.length === 0) continue;
     seenCats.add(cat);
 
-    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${cat}</h3>`;
+    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
 
     // Show top 5 items per category with "show more"
     const showItems = items.slice(0, 5);
@@ -548,7 +589,7 @@ async function renderStep5(app) {
       const p = item.is_deduction ? -item.price : item.price;
       accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
+        <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
         <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
       </div>`;
     }
@@ -562,7 +603,7 @@ async function renderStep5(app) {
         const p = item.is_deduction ? -item.price : item.price;
         accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
           <input type="checkbox" ${checked ? 'checked' : ''}>
-          <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
+          <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
           <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
         </div>`;
       }
@@ -575,7 +616,7 @@ async function renderStep5(app) {
   for (const [cat, items] of Object.entries(byCat)) {
     if (seenCats.has(cat)) continue;
     if (items.length === 0) continue;
-    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${cat}</h3>`;
+    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
 
     for (const item of items.slice(0, 4)) {
       const id = `${cat}_${item.description}`;
@@ -583,7 +624,7 @@ async function renderStep5(app) {
       const p = item.is_deduction ? -item.price : item.price;
       accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${p})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">${item.description}</div>${item.note ? `<div class="opt-desc">${item.note}</div>` : ''}</div>
+        <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
         <div class="opt-price ${p > 0 ? 'positive' : p < 0 ? 'negative' : 'zero'}">${p >= 0 ? '+' : ''}¥${Math.abs(p).toLocaleString()}元/${item.unit}</div>
       </div>`;
     }
@@ -652,6 +693,16 @@ function renderStep6(app) {
   // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13
   const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
 
+  // Build accessory lookup for English descriptions
+  const accLookup = {};
+  if (STATE.accessories && STATE.accessories.by_category) {
+    for (const items of Object.values(STATE.accessories.by_category)) {
+      for (const item of items) {
+        accLookup[item.description] = item.description_en || '';
+      }
+    }
+  }
+
   let html = `<div class="card summary-box">
     <h2 style="color:var(--gold); border-bottom-color:var(--gold);"><span class="icon">📊</span> 报价汇总 / Quotation Summary</h2>
     
@@ -703,7 +754,7 @@ function renderStep6(app) {
     <div class="price-breakdown">
       <div class="line"><span>底盘价格 / Chassis Base</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
-      ${selectedAcc.map(a => `<div class="line"><span>${a.id.split('_').slice(1).join(' ')}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`).join('')}
+      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
       <div class="line" style="color:var(--gold);"><span>× 系数 0.95</span><span>¥${(totalPrice*0.95).toFixed(2)} 万</span></div>
       <div class="line" style="color:var(--gold);"><span>÷ 1.13 (去增值税)</span><span>—</span></div>
