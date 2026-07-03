@@ -19,8 +19,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3OOO加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气、普通方向盘、左前牵引销、水箱保护栅、油底壳保护栅、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.406,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -42,8 +43,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、左前牵引销、油底壳保护栅、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.462,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -65,8 +67,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3OOO加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气箱式排气带防火帽、普通方向盘、左前牵引销、水箱保护栅、油底壳保护栅、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.406,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -88,8 +91,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、箱式排气带防火帽、国产转向机、普通方向盘、左前牵引销、油底壳保护栅、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.462,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -111,8 +115,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、普通方向盘、普通90鞍座、分体式挡泥板、左前牵引销、水箱保护栅、尾灯保护栅、前稳定杆、165Ah免维护蓄电池",
     "options": "DH952542H08PE",
-    "price": null,
-    "has_price": false
+    "price": 30.76,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -134,8 +139,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、普通方向盘、普通90鞍座、分体式挡泥板、左前牵引销、水箱保护栅、尾灯保护栅、前稳定杆、165Ah免维护蓄电池",
     "options": "DH952542H08PC",
-    "price": null,
-    "has_price": false
+    "price": 30.76,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -157,8 +163,9 @@
     "fifth_wheel": "加长平顶加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带遥控器）、油浴式空滤器、普通排气、多功能方向盘、普通90鞍座、分体式挡泥板、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH972542H42B6",
-    "price": null,
-    "has_price": false
+    "price": 33.69,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -180,8 +187,9 @@
     "fifth_wheel": "加长半高顶",
     "base_config": "H3000加长半高顶驾驶室不带顶侧导流罩、液压主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、普通方向盘、油浴式空滤器、普通排气、国产转向机、加强型90鞍座、分体式挡泥板、尾灯保护栅、油底壳保护栅、水箱保护栅、165Ah免维护蓄电池",
     "options": "DH992542H08NF",
-    "price": null,
-    "has_price": false
+    "price": 28.707,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -203,8 +211,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、中置牵引装置、油底壳保护栅、前后稳定杆、加强型尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 28.116,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -226,8 +235,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、中置牵引装置、油底壳保护栅、前后稳定杆、加强型尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 28.116,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -249,8 +259,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、普通暖风、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、中置牵引装置、油底壳保护栅、前后稳定杆、加强型尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 30.866,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -272,7 +283,8 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、无中控锁、普通排气、普通空滤器、国产转向机、普通方向盘、左前牵引销、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 34.279,
+    "has_price": true,
+    "price_source": "model_map"
   }
 ]

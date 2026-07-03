@@ -19,8 +19,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "F3000加长平顶驾驶室不带顶侧导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952534H01G5",
-    "price": null,
-    "has_price": false
+    "price": 27.0,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -42,8 +43,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "F3000加长平顶驾驶室不带顶侧导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952534H01G7",
-    "price": null,
-    "has_price": false
+    "price": 27.08,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -65,8 +67,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、前后稳定杆",
     "options": "DH972534H01G5",
-    "price": null,
-    "has_price": false
+    "price": 29.175,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -88,8 +91,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、前后稳定杆",
     "options": "DH972538H01G5",
-    "price": null,
-    "has_price": false
+    "price": 30.275,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -111,8 +115,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "F3000加长平顶驾驶室不带顶侧导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠、两级上车踏板、普通侧置空滤器、普通排气、水箱保护栅、165Ah免维护蓄电池",
     "options": "DH953140H08H2",
-    "price": null,
-    "has_price": false
+    "price": 31.154,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -134,8 +139,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转 电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、前后稳定杆",
     "options": "DH973140H08H2",
-    "price": null,
-    "has_price": false
+    "price": 33.099,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -157,8 +163,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转 电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、前后稳定杆",
     "options": "DH973142H08H2",
-    "price": null,
-    "has_price": false
+    "price": 33.799,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -180,8 +187,9 @@
     "fifth_wheel": "油田专用中长低顶驾驶室",
     "base_config": "F3000油田专用中长低顶驾驶室不带顶侧导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠、三级上车踏板、普通中置空滤器、普通排气、水箱保护栅、165Ah免维护蓄电池",
     "options": "DH952534H01JX",
-    "price": null,
-    "has_price": false
+    "price": 26.562,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -203,8 +211,9 @@
     "fifth_wheel": "L3000驾驶室",
     "base_config": "L3000驾驶室不带导流罩、液压主座椅、电动空调、电动摇窗机、手动翻转、L3000保险杠、固定踏板、中控锁（双遥控)、普通侧置空滤器、国产转向机、尾灯保护栅、135Ah免维护蓄电池",
     "options": "DH981821H06H6",
-    "price": null,
-    "has_price": false
+    "price": 16.94,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -226,8 +235,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、排气管后置带防火帽、国产转向机、多功能方向盘(不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "DH972538H01H6",
-    "price": null,
-    "has_price": false
+    "price": 30.027,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -249,8 +259,9 @@
     "fifth_wheel": "L3000驾驶室",
     "base_config": "L3000驾驶室不带导流罩、液压主座椅、电动空调、电动摇窗机、手动翻转、L3000保险杠、两级上车踏板、 中控锁(带遥控器)、普通空滤器、筒式后处理、国产转向机、 普通方向盘、135Ah免维护蓄电池",
     "options": "DH981821H06H5",
-    "price": null,
-    "has_price": false
+    "price": 16.23,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -272,8 +283,9 @@
     "fifth_wheel": "2400",
     "base_config": "X3000加长平顶驾驶室不带导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、普通侧置空滤器、国产转向机、多功能方向盘(不带定速巡航，仅保留按键）、尾灯保护栅、180Ah免维护蓄电池、水箱保护栅、前后稳定杆",
     "options": "DH972538H01H7",
-    "price": null,
-    "has_price": false
+    "price": 40.137,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -295,8 +307,9 @@
     "fifth_wheel": "L3000驾驶室",
     "base_config": "L3000驾驶室不带导流罩、空气主座椅-第三座椅、杆式后视镜、电动空调、电动摇窗机、电动翻转、L3000保险杠、两级上车踏板、中控锁（带遥控器）、普通纵置空滤器、筒式后处理、国产转向机、135Ah免维护蓄电池、普通方向盘",
     "options": "DH981821H06MX",
-    "price": null,
-    "has_price": false
+    "price": 16.71,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -318,8 +331,9 @@
     "fifth_wheel": "H3000加长半高顶驾驶室",
     "base_config": "H3000加长半高顶驾驶室不带顶导流罩、液压主座椅、电动摇窗机、手动翻转、电动空调、杆式后视镜、普通侧置空滤器、普通方向盘、普通排气、工程用车保险杠、两级上车踏板、铝水箱、左前牵引销、后牵引座、前稳定杆、165Ah免维护蓄电池",
     "options": "DH991831H01N8",
-    "price": null,
-    "has_price": false
+    "price": 23.445,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -342,7 +356,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器（仅第1款），普通中置空滤（仅第2款）、普通排气、多功能方向盘(不带定速巡航，仅保留按键）（仅车型1）、多功能方向盘（仅车型2）、普通90鞍座、三段式整体式挡泥板、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 31.019,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -365,7 +380,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器（仅第1款），普通中置空滤（仅第2款）、普通排气、多功能方向盘(不带定速巡航，仅保留按键）（仅车型1）、多功能方向盘（仅车型2）、普通90鞍座、三段式整体式挡泥板、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 34.184,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -388,7 +404,8 @@
     "base_config": "F3000加长高顶驾驶室不带顶侧导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠、铰链上车踏板、沙漠空滤器、普通排气、加强型90鞍座、分体式挡泥板、水箱保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 28.935,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -411,7 +428,8 @@
     "base_config": "F3000加长高顶驾驶室带顶侧导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、玻璃钢保险杠、铰链上车踏板、普通空滤器、普通排气、普通50鞍座、分体式挡泥板、180Ah低温免维护蓄电池、水箱保护栅、进气加热、电加热油量感应器、低温管线束、发动机带水寒宝",
     "options": "",
     "price": 24.035,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -434,7 +452,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器（仅第1款），普通中置空滤（仅第2款）、普通排气、多功能方向盘(不带定速巡航，仅保留按键）（仅车型1）、多功能方向盘（仅车型2）、普通90鞍座、三段式整体式挡泥板、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 33.589,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -457,7 +476,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通侧置空滤器（仅第1款），普通中置空滤（仅第2款）、普通排气、多功能方向盘(不带定速巡航，仅保留按键）（仅车型1）、多功能方向盘（仅车型2）、普通90鞍座、三段式整体式挡泥板、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 31.099,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -480,7 +500,8 @@
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、整体式电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁(带遥控器)、油浴式空滤器、普通排气、多功能方向盘(不带定速巡航，仅保留按键）、普通90鞍座、轻量化三段整体挡泥板、前稳定杆、左前牵引销、国产离合器、国产转向机、尾灯保护栅、水箱保护栅180Ah免维护蓄电池",
     "options": "",
     "price": 37.124,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -502,8 +523,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.92,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -525,8 +547,9 @@
     "fifth_wheel": "中长平顶驾驶室",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952534H01HU",
-    "price": null,
-    "has_price": false
+    "price": 26.27,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -548,8 +571,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.27,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -571,8 +595,9 @@
     "fifth_wheel": "中长平顶驾驶室",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952538H01HU",
-    "price": null,
-    "has_price": false
+    "price": 27.17,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -595,7 +620,8 @@
     "base_config": "液压主座椅、四点液压悬浮驾驶室、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、沙漠空滤器、金属保险杠、三级上车踏板、前后大灯保护栅、水箱保护栅、轮辋装饰罩、165Ah免维护蓄电池、后桥稳定杆，体现管线整改、SHACMAN标识、全英文标识",
     "options": "",
     "price": null,
-    "has_price": false
+    "has_price": false,
+    "price_source": "none"
   },
   {
     "region": "亚俄区/CIS",
@@ -617,8 +643,9 @@
     "fifth_wheel": "中长平顶驾驶室",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952542H08HU",
-    "price": null,
-    "has_price": false
+    "price": 28.37,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -641,7 +668,8 @@
     "base_config": "液压主座椅、四点液压悬浮驾驶室、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、油浴空滤器、金属保险杠、两级踏板、日间行车灯、前后大灯保护栅、水箱保护栅、轮辋装饰罩、165Ah免维护蓄电池、大箱底板加热排气管、2公斤灭火器、驻车楔块、SHACMAN标识、海关联盟俄文铭牌",
     "options": "",
     "price": null,
-    "has_price": false
+    "has_price": false,
+    "price_source": "none"
   },
   {
     "region": "亚俄区/CIS",
@@ -663,8 +691,9 @@
     "fifth_wheel": "中长平顶驾驶室",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952538H01HV",
-    "price": null,
-    "has_price": false
+    "price": 27.88,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -686,8 +715,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "空气主座椅、四点空气悬浮驾驶室、电控自动恒温空调、保温驾驶室、电动摇窗机、手动翻转、发动机电磁离合器风扇、沙漠空滤器、WABCO四通道ABS、90普通鞍座、平板安装板、金属保险杠、三级上车踏板、整体式挡泥板、165Ah免维护蓄电池、2公斤灭火器、驻车楔块、SHACMAN标识、海关联盟俄文铭牌",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 27.56,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -709,8 +739,9 @@
     "fifth_wheel": "中长平顶驾驶室",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、沙漠空滤器、普通排气、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952538H0115",
-    "price": null,
-    "has_price": false
+    "price": 26.92,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -732,8 +763,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池,前后稳定杆",
     "options": "DH9A2538H01H1",
-    "price": null,
-    "has_price": false
+    "price": 29.617,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -755,8 +787,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池,前后稳定杆",
     "options": "DH9A2542H08K1",
-    "price": null,
-    "has_price": false
+    "price": 30.667,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -778,8 +811,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、国产转向机、多功能方向盘、金属保险杠-带灯护网、三级上车踏板、分体式油浴空滤器、普通排气、中置前牵引座、中控锁（带遥控器）、尾灯保护栅、水箱保护栅、前后稳定杆、180Ah免维护蓄电池",
     "options": "DH972538H3WH1",
-    "price": null,
-    "has_price": false
+    "price": 30.112,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -801,8 +835,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、前后稳定杆",
     "options": "DH972534H01H5",
-    "price": null,
-    "has_price": false
+    "price": 27.857,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -824,8 +859,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池,前后稳定杆",
     "options": "DH972538H01HU",
-    "price": null,
-    "has_price": false
+    "price": 29.617,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -847,8 +883,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池,前后稳定杆",
     "options": "DH972543H08HU",
-    "price": null,
-    "has_price": false
+    "price": 30.667,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -870,8 +907,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩 、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、多功能方向盘（不带定速巡航，仅保留按键）、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池、前后稳定杆",
     "options": "DH973143H08M5",
-    "price": null,
-    "has_price": false
+    "price": 33.227,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -893,8 +931,9 @@
     "fifth_wheel": "标准驾驶室",
     "base_config": "L3000驾驶室不带导流罩、液压主座椅-加装第三座椅、普通后视镜、电动空调、电动摇窗机、手动翻转、公路用车保险杠、两级上车踏板、 中控锁(带遥控器)、普通侧置空滤器、普通排气、国产转向机、普通方向盘、水箱保护栅、无尾灯保护栅、135Ah免维护蓄电池",
     "options": "DH981817H06M3",
-    "price": null,
-    "has_price": false
+    "price": 17.39,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -916,8 +955,9 @@
     "fifth_wheel": "加长高顶驾驶室",
     "base_config": "X3000加长高顶驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（双遥控）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（不带定速巡航，仅保留按键）、尾灯保护栅、油底壳保护栅、165Ah免维护蓄电池",
     "options": "DH972543H08SU",
-    "price": null,
-    "has_price": false
+    "price": 32.287,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "亚俄区/CIS",
@@ -939,7 +979,8 @@
     "fifth_wheel": "加长高顶驾驶室",
     "base_config": "X3000加长高顶驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（双遥控）、普通侧置空滤器、普通排气、国产转向机、多功能方向盘（不带定速巡航，仅保留按键）、尾灯保护栅、油底壳保护栅、165Ah免维护蓄电池",
     "options": "DH972543H08SV",
-    "price": null,
-    "has_price": false
+    "price": 32.877,
+    "has_price": true,
+    "price_source": "model_map"
   }
 ]

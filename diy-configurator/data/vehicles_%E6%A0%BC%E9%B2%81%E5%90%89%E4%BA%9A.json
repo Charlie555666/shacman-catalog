@@ -20,7 +20,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、玻璃钢保险杠、三级上车踏板、中控锁(带遥控器)、普通侧置空滤器、多功能方向盘、国产转向机、水箱保护栅、油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 34.008,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -43,7 +44,8 @@
     "base_config": "",
     "options": "[1.2 H3000加强版自卸车/ 6×4]:12.00R20",
     "price": 31.49,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -66,7 +68,8 @@
     "base_config": "",
     "options": "[1.2 H3000加强版自卸车/ 6×4]:12.00R20",
     "price": 31.69,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -89,7 +92,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、玻璃钢保险杠、三级上车踏板、中控锁(带遥控器)、普通侧置空滤器、多功能方向盘、国产转向机、水箱保护栅、油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "[1.3 X3000加强版自卸车/6×4]:16T HD双级5.92; [1.3 X3000加强版自卸车/6×4]:16T HD双级5.92、玻璃钢保险杠、加装国产六通道ABS、12JSD200T-B-铁壳-QH50-FHB400缓速器、360环视",
     "price": 32.984,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -112,7 +116,8 @@
     "base_config": "X3000中长平顶驾驶室不带导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杆-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、多功能方向盘、SHACMAN Telematics（带屏无终端）、国产转向机、水箱保护栅、油底壳保护栅、前后稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "[1.3 X3000加强版自卸车/6×4]:16T HD双级5.92; [1.3 X3000加强版自卸车/6×4]:16T HD双级5.92、玻璃钢保险杠、加装国产六通道ABS、12JSD200T-B-铁壳-QH50-FHB400缓速器、360环视",
     "price": 33.184,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -135,7 +140,8 @@
     "base_config": "",
     "options": "[2.1 H3000加强版自卸车/8x4]:16T HD双级5.92",
     "price": 34.58,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -157,8 +163,9 @@
     "fifth_wheel": "",
     "base_config": "H3000加长半高顶驾驶室不带顶侧导流罩、液压主座椅、整体式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、普通排气、国产转向机、SHACMAN Telematics（带屏无终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "[1.1 H3000水泥搅拌车/6×4]:16T HD双级5.262; [1.1 H3000水泥搅拌车/6×4]:16T HD双级5.262、玻璃钢保险杠",
-    "price": null,
-    "has_price": false
+    "price": 32.88,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚俄区/CIS",
@@ -180,7 +187,8 @@
     "fifth_wheel": "",
     "base_config": "H3000标准驾驶室不带顶侧导流罩、液压主座椅、整体式后视镜、电动空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、普通排气、国产转向机、SHACMAN Telematics（带屏无终端）、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "[1.2 H3000水泥搅拌车/8×4]:16T HD双级5.262; [1.2 H3000水泥搅拌车/8×4]:16T HD双级5.262、玻璃钢保险杠",
-    "price": null,
-    "has_price": false
+    "price": 34.84,
+    "has_price": true,
+    "price_source": "base_dh_col"
   }
 ]

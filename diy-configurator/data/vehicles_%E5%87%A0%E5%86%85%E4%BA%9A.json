@@ -20,7 +20,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、普通方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 25.54,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -43,7 +44,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、普通方向盘、油浴式空滤器、排气管后置带防火帽、国产转向机、国产离合器、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 25.61,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -66,7 +68,8 @@
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、两级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、加强型JOST 90鞍座(JSK39DV1-46)、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 29.4,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -89,7 +92,8 @@
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、加强型JOST 90鞍座(JSK39DV1-46)、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 28.492,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -112,7 +116,8 @@
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、油浴式空滤器、普通排气、水箱保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 27.416,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -135,7 +140,8 @@
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、三级上车踏板、油浴式空滤器、普通排气、水箱保护栅、加强型90鞍座、分体式挡泥板、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 23.541,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -158,7 +164,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、手动翻转、三级上车踏板、中控锁（带遥控器）、单体油浴空滤器、X5000黑色工程保险杠-带灯护网、国产转向机、多功能方向盘、加强型JOST 90鞍座(JSK39DV1-46)、分体式挡泥板、油底壳保护栅、后桥稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 35.17,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -181,7 +188,8 @@
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、手动摇窗机、手动翻转、两级上车踏板、无中控锁、钢板保险杠、加强型约斯特90鞍座(JSK39DV-46)、油浴式空滤器、普通排气、国产转向机、普通方向盘、分体式挡泥板、左前牵引销、尾灯保护栅、油底壳保护栅、水箱保护栅、前稳定杆、165Ah免维护蓄电池",
     "options": "",
     "price": 31.08,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -204,7 +212,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、三级上车踏板、中控锁（带遥控器）、X5000黑色工程保险杠-灯护网、油浴式空滤器、普通排气、国产转向机、多功能方向盘、WABCO进口四通道ABS、尾灯保护栅、油底壳保护栅、全防护水箱保护栅、加强型JOST 90鞍座(JSK39DV1-46)、分体式挡泥板、左前牵引销、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 34.78,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -226,8 +235,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、两级上车踏板、油浴式空滤器、普通排气、油底壳保护栅、加强型尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 27.88,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -249,8 +259,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、两级上车踏板、油浴式空滤器、普通排气、加强型油底壳保护栅、加强型水箱保护栅、加强型尾灯保护栅、前后稳定杆、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.021,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -272,8 +283,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、单制冷空调、手动摇窗机、手动翻转、钢板保险杠、两级上车踏板、油浴式空滤器、普通排气、加强型油底壳保护栅、加强型水箱保护栅、加强型尾灯保护栅、前后稳定杆、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.021,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -295,8 +307,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、单制冷空调、国产转向机、多功能方向盘、WABCO进口四通道ABS、电动翻转、三级上车踏板、X5000黑色工程保险杠-灯护网、中置前牵引座、电动摇窗机、中控锁（带遥控器）、油浴式空滤器、普通排气、加强型尾灯保护栅、全防护水箱保护栅、油底壳保护栅、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 38.663,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -318,7 +331,8 @@
     "fifth_wheel": "中长平顶",
     "base_config": "X3000中长平顶驾驶室不带顶导流罩自卸车整车、空气主座椅、电动电加热后视镜、单制冷空调、油浴式空滤器、普通排气、国产转向机、多功能方向盘、电动翻转、三级上车踏板、X5000黑色工程保险杠-灯护网、电动摇窗机、中控锁、油底壳保护栅、尾灯保护栅、水箱保护栅、前后稳定杆、WABCO进口四通道ABS、180Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 35.347,
+    "has_price": true,
+    "price_source": "model_map"
   }
 ]

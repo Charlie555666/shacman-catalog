@@ -20,7 +20,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、中控锁、多功能方向盘、单体油浴式空滤器、普通排气、进口离合器、左前牵引销、水箱保护栅、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 34.972,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -43,7 +44,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主副座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、普通空滤器、普通排气、水箱保护栅、进口离合器、前稳定杆、JOST 50鞍座、轻量化三段整体式挡泥板、180Ah免维护蓄电池、Shacman telematics（仅带屏）",
     "options": "",
     "price": 38.442,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -66,7 +68,8 @@
     "base_config": "H3000S加长高顶驾驶室带顶侧导流罩、空气主副座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁、普通空滤器、普通排气、国产转向机、多功能方向盘（带定速巡航）、进口离合器、JOST 50鞍座、轻量化三段整体式挡泥板、水箱保护栅、前稳定杆、180Ah免维护蓄电池、Shacman telematics（仅带屏）",
     "options": "",
     "price": 34.345,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -89,7 +92,8 @@
     "base_config": "H3000S标准驾驶室带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、普通空滤器、普通排气、水箱保护栅、进口离合器、前稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 31.79,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -112,6 +116,7 @@
     "base_config": "X3000中长平顶驾驶室带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、油浴式空滤器、普通排气、水箱保护栅、进口离合器、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 34.707,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

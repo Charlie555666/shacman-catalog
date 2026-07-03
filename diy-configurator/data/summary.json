@@ -3,6 +3,14 @@
   "total_countries": 57,
   "total_engine_swaps": 64,
   "total_accessories": 329,
+  "price_sources": {
+    "price_col": 120,
+    "options_col": 434,
+    "base_dh_col": 78,
+    "model_map": 210,
+    "none": 8
+  },
+  "model_price_map_size": 614,
   "all_engines": [
     "15NEVIE530（带E标）",
     "D6.7EVIE290",

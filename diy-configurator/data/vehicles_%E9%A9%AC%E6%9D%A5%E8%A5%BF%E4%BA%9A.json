@@ -20,7 +20,8 @@
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、国产右置转向机、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 34.892,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -43,7 +44,8 @@
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、国产右置转向机、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 38.632,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -66,7 +68,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、国产右置转向机、玻璃钢保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护电池",
     "options": "",
     "price": 32.825,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -89,7 +92,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、国产右置转向机、玻璃钢保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护电池",
     "options": "",
     "price": 37.925,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -112,7 +116,8 @@
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、国产右置转向机、国产离合器、玻璃钢保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销和后牵引座、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 32.61,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -134,8 +139,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、上排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH9A1846H38H2",
-    "price": null,
-    "has_price": false
+    "price": 35.917,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -157,8 +163,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、普通排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH9A1840H38H1",
-    "price": null,
-    "has_price": false
+    "price": 34.297,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -180,8 +187,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "H3000S加长高顶驾驶室带顶侧导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、普通侧置空滤器、上排气、国产右置转向机、多功能方向盘（带定速巡航）、海沃L50鞍座、轻量化三段式整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池、 SHACMAN Telematics（带屏）",
     "options": "DH991842H58K1",
-    "price": null,
-    "has_price": false
+    "price": 32.11,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -203,8 +211,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X6000加长平顶驾驶室带顶导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁（带遥控器）、普通排气、进口右置转向机、进口离合器、多功能方向盘（定速巡航）、约斯特 50 鞍座（JSK36DV)、整体式挡泥板、前后稳定杆、变速箱怀档操纵、220Ah免维护蓄电池",
     "options": "DH9X1840H5X02",
-    "price": null,
-    "has_price": false
+    "price": 44.47,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -226,8 +235,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "S6000加长高顶驾驶室带顶侧导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁(带遥控器)、普通排气、进口右置转向机、进口离合器、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV)、整体式挡泥板、前后稳定杆、变速箱怀档操纵、220Ah免维护蓄电池",
     "options": "DH9X1841H5X01",
-    "price": null,
-    "has_price": false
+    "price": 45.28,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -249,8 +259,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、普通排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH9A1840H38H3",
-    "price": null,
-    "has_price": false
+    "price": 34.297,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -272,8 +283,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、上排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH9A1846H38H4",
-    "price": null,
-    "has_price": false
+    "price": 35.317,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -295,8 +307,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁（两把遥控器）、侧置抬高前移空滤、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、180Ah免维护蓄电池、SHACMAN Telematics（仅屏幕无终端）",
     "options": "DH971840H5XM2",
-    "price": null,
-    "has_price": false
+    "price": 34.372,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -318,8 +331,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X6000 加长平顶驾驶室带顶导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁（带遥控器）、上排气、进口右置转向机、进口离合器、多功能方向盘（定速巡航）、约斯特 50 鞍座（JSK36DV)、整体式挡泥板、前轴稳定杆、变速箱怀档操纵、220Ah 免维护蓄电池",
     "options": "DH9X1848HK5M0",
-    "price": null,
-    "has_price": false
+    "price": 52.643,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -341,8 +355,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁（带双遥控器）、侧置抬高前移空滤、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV)、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、180Ah 免维护蓄电池、SHACMANTelematics（仅屏幕无终端）",
     "options": "DH972546H5XMD",
-    "price": null,
-    "has_price": false
+    "price": 38.772,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -364,8 +379,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X6000加长平顶驾驶室带顶导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁（带遥控器）、上排气、进口右置转向机、多功能方向盘（定速巡航）、约斯特50鞍座（JSK36DV）、整体式挡泥板、前后稳定杆、变速箱怀档操纵、220Ah 免维护蓄电池",
     "options": "DH9X2548HK5M8",
-    "price": null,
-    "has_price": false
+    "price": 50.753,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -387,8 +403,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X6000加长平顶驾驶室带顶导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁（带遥控器）、上排气、进口右置转向机、多功能方向盘（定速巡航）、约斯特50鞍座（JSK36DV）、整体式挡泥板、水箱保护栅、前后稳定杆、变速箱怀档操纵、220Ah 免维护蓄电池",
     "options": "DH9X2556HK5M7",
-    "price": null,
-    "has_price": false
+    "price": 51.653,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -410,8 +427,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "S6000加长高顶驾驶室带顶侧导流罩、空气主座椅带通风、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、上车踏板、普通中置空滤器、中控锁(带遥控器）、上排气、进口右置转向机、进口离合器、多功能方向盘(自适应巡航)、约斯特50鞍座（JSK36DV）、整体式挡泥板、前后稳定杆、变速箱怀档操纵、220Ah免维护蓄电池",
     "options": "DH9X2556HK5M1",
-    "price": null,
-    "has_price": false
+    "price": 51.113,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -433,8 +451,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、上排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH972554H59H1",
-    "price": null,
-    "has_price": false
+    "price": 42.293,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -456,8 +475,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁、普通侧置空滤器、上排气、进口右置转向机、多功能方向盘（带定速巡航）、约斯特50鞍座（JSK36DV）、轻量化三段整体式挡泥板、前轴稳定杆、水箱保护栅、尾灯保护栅、怀档操纵、180Ah免维护蓄电池、SHACMAN Telematics（仅12.8寸悬浮屏无终端）",
     "options": "DH9A2546H38H5",
-    "price": null,
-    "has_price": false
+    "price": 40.573,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -479,8 +499,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁（两把遥控）、多功能方向盘（带定速巡航）、侧置抬高前移空滤、上排气、国产右置转向机、前轴稳定杆、轻量化三段整体式挡泥板、国产铸造90鞍座（G9038C-190）、180Ah 免维护蓄电池、SHACMANTelematics（仅带屏）",
     "options": "DH972556HK501",
-    "price": null,
-    "has_price": false
+    "price": 41.259,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -502,8 +523,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、玻璃钢保险杠、三级上车踏板、中控锁（两把遥控）、多功能方向盘（带定速巡航）、侧置抬高前移空滤、上排气、国产右置转向机、前轴稳定杆、轻量化三段整体式挡泥板、国产铸造90鞍座（G9038C-190）、180Ah 免维护蓄电池、SHACMANTelematics（仅带屏）",
     "options": "/",
-    "price": null,
-    "has_price": false
+    "price": 41.747,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -525,8 +547,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "H3000S加长高顶驾驶室带顶侧导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、公路用车保险杠、三级上车踏板、普通侧置空滤器、上排气、国产右置转向机、多功能方向盘（带定速巡航）、海沃L50鞍座、轻量化三段式整体式挡泥板、前后稳定杆、水箱保护栅、前大灯保护栅、尾灯保护栅、怀挡操作、165Ah免维护蓄电池",
     "options": "DH992546H58K2",
-    "price": null,
-    "has_price": false
+    "price": 36.41,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -549,7 +572,8 @@
     "base_config": "偏置单边驾驶室、液压主座椅、内置空调、手动翻转、沙漠空滤器、金属保险杠、国产离合器、国产右置转向机（车型1、3）、普通方向盘、普通排气、后牵引座（车型1、3）、中置前牵引座（车型2）、防风型油底壳保护栅（仅车型2）、水箱保护栅（离地高度≥52cm）、加强型尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 27.944,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -572,7 +596,8 @@
     "base_config": "偏置单边驾驶室、液压主座椅、内置空调、手动翻转、沙漠空滤器、金属保险杠、国产离合器、国产右置转向机（车型1、3）、普通方向盘、普通排气、后牵引座（车型1、3）、中置前牵引座（车型2）、防风型油底壳保护栅（仅车型2）、水箱保护栅（离地高度≥52cm）、加强型尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 28.244,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -595,7 +620,8 @@
     "base_config": "偏置单边驾驶室、液压主座椅、内置空调、手动翻转、沙漠空滤器、金属保险杠、国产离合器、国产右置转向机（车型1、3）、普通方向盘、普通排气、后牵引座（车型1、3）、中置前牵引座（车型2）、防风型油底壳保护栅（仅车型2）、水箱保护栅（离地高度≥52cm）、加强型尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 28.944,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -618,7 +644,8 @@
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、金属保险杠、普通方向盘、三级上车踏板、油浴式空滤器、上排气、国产右置转向机、前后稳定杆、中置前牵引座、油底壳保护栅、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 33.512,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -641,7 +668,8 @@
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、金属保险杠、普通方向盘、三级上车踏板、油浴式空滤器、上排气、国产右置转向机、前后稳定杆、中置前牵引座、油底壳保护栅、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 37.554,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -664,7 +692,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、金属保险杠、两级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护电池",
     "options": "",
     "price": 32.3,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -687,7 +716,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、金属保险杠、两级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销、水箱保护栅、尾灯保护栅、180Ah免维护电池",
     "options": "",
     "price": 37.271,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -710,7 +740,8 @@
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、国产离合器、国产右置转向机、金属保险杠（带灯护网）、两级上车踏板、油浴式空滤器、上排气、普通方向盘、中置前牵引座、前大灯保护栅、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 32.125,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -733,7 +764,8 @@
     "base_config": "H3000S加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转（油泵左置）、国产离合器、国产右置转向机、公路用车保险杠、三级上车踏板、油浴式空滤器、上排气、普通方向盘、前后稳定杆、左前牵引销和后牵引座、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 37.21,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -756,6 +788,7 @@
     "base_config": "L5000驾驶室带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、L5000保险杠、中控锁（两把遥控）、两级上车踏板、普通侧置空滤器、筒式后处理、国产右置转向机、进口离合器、左前牵引销、水箱保护栅、怀档操纵、135Ah免维护蓄电池、SHACMAN Telematics（仅带屏）",
     "options": "",
     "price": 27.9,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

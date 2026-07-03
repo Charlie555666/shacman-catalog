@@ -20,7 +20,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、进口离合器、水箱保护栅、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 29.69,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -43,6 +44,7 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、普通排气、水箱保护栅、进口离合器、前后稳定杆、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 32.945,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

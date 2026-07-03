@@ -20,7 +20,8 @@
     "base_config": "H3000S加长半高顶驾驶室带顶导流罩、空气主座椅、电动空调、普通90鞍座、国产离合器、普通侧置空滤器、中控锁(带遥控器)、普通排气、国产右置转向机、普通方向盘、手动翻转、三级上车踏板、公路用车保险杠、电动摇窗机、杆式后视镜、三段整体式挡泥板、左前牵引销、WABCO进口四通道ABS、165Ah免维护蓄电池",
     "options": "电动翻转 | 油底壳保护栅",
     "price": 26.6,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -43,7 +44,8 @@
     "base_config": "H3000S加长高顶驾驶室带顶侧导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、手动翻转、普通90鞍座、国产离合器、普通侧置空滤器、普通排气、国产右置转向机、中控锁(带遥控器)、普通方向盘、三级上车踏板、公路用车保险杠、三段整体式挡泥板、左前牵引销、WABCO进口四通道ABS、165Ah免维护蓄电池",
     "options": "电动翻转 | 油底壳保护栅",
     "price": 28.605,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -66,7 +68,8 @@
     "base_config": "H3000加长半高顶驾驶室不带顶侧导流罩、空气主座椅（带报警锁扣）、电动空调、杆式后视镜、电动摇窗机、手动翻转、约斯特90鞍座、国产离合器、普通中置空滤器、普通排气（带防火帽）、国产右置转向机、普通方向盘、三级上车踏板、公路用车保险杠、分体式挡泥板、无中控锁、左前牵引销、国产四通道ABS、165Ah免维护蓄电池",
     "options": "电动翻转",
     "price": 29.05,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -89,7 +92,8 @@
     "base_config": "H3000S加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电动空调、国产离合器、油浴式空滤器、普通排气、普通方向盘、手动翻转、两级上车踏板、工程用车保险杠-带灯护网、电动摇窗机、尾灯保护栅、水箱保护栅、无中控锁、国产右置转向机、前稳定杆、水箱保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 27.805,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -112,7 +116,8 @@
     "base_config": "H3000S加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电动空调、国产离合器、普通中置空滤、普通排气、国产右置转向机、普通方向盘、手动翻转、两级上车踏板、工程用车保险杠-带灯护网、电动摇窗机、前稳定杆、尾灯保护栅、水箱保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 30.305,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -135,7 +140,8 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、工程保险杠、两级上车踏板、无中控锁、油浴式空滤器、普通排气、国产右置转向机、普通方向盘、油底壳保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 27.05,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -158,6 +164,7 @@
     "base_config": "L3000驾驶室带导流罩、空气主座椅、杆式后视镜、电动空调、电动摇窗机、国产离合器、普通空滤器、普通排气、国产右置转向机、普通方向盘、手动翻转、两级上车踏板、L3000保险杠、中控锁(双遥控)、WABCO进口四通道ABS、135Ah免维护蓄电池",
     "options": "",
     "price": 18.42,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

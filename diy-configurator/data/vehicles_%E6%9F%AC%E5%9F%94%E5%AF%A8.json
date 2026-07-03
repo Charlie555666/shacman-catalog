@@ -20,7 +20,8 @@
     "base_config": "H3000加长半高顶驾驶室不带顶导流罩、液压主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转、工程用车保险杠、两级上车踏板、普通侧置空滤器、普通排气、165Ah免维护蓄电池",
     "options": "",
     "price": 27.034,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -43,7 +44,8 @@
     "base_config": "L3000驾驶室不带导流罩、液压主座椅、普通后视镜、单制冷空调、电动摇窗机、手动翻转、L3000保险杠、两级上车踏板、中控锁(带遥控)、普通侧置空滤器、水箱保护栅、165Ah免维护蓄电池、筒式后处理带防火帽",
     "options": "",
     "price": 15.962,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -66,7 +68,8 @@
     "base_config": "H3000加长半高顶驾驶室不带顶侧导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转、公路用车保险杠、三级上车踏板、中控锁(带遥控器）、普通侧置空滤器、国产离合器、轻量化整体式挡泥板、水箱保护栅、165Ah免维护蓄电池、方形消声器带防火帽、普通90鞍座",
     "options": "",
     "price": 25.911,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -89,7 +92,8 @@
     "base_config": "H3000加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转、公路用车保险杠、三级上车踏板、中控锁（双遥控）、普通侧置空滤器、普通排气、约斯特50鞍座、轻量化整体式挡泥板、165Ah免维护蓄电池",
     "options": "WABCO 4通道ABS | 鹿鼎J-3800-50双摆鞍座 | 11R22.5 | 12JSD200TA-B铝壳带气助力",
     "price": 26.812,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -112,7 +116,8 @@
     "base_config": "H3000加长半高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转、公路用车保险杠、三级上车踏板、中控锁（双遥控）、普通侧置空滤器、普通排气、普通方向盘、普通90鞍座、轻量化整体式挡泥板、165Ah免维护蓄电池",
     "options": "12JSD200T-B-铝壳-QH50花键取力器 | 12JSD200T-B-铝壳-QH50法兰取力器 | L50鞍座 | 600L铝合金油箱 | 13T HD单级减速桥-4.111",
     "price": 26.3,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -135,7 +140,8 @@
     "base_config": "H3000S加长高顶驾驶室不带顶导流罩、空气主座椅、杆式后视镜、单制冷空调、电动摇窗机、电动翻转、公路用车保险杠、三级上车踏板、中控锁（双遥控）、普通侧置空滤器、普通排气、普通方向盘、普通90鞍座、轻量化整体式挡泥板、165Ah免维护蓄电池",
     "options": "12JSD200T-B-铝壳-QH50花键取力器 | 12JSD200T-B-铝壳-QH50法兰取力器 | L50鞍座 | 600L铝合金油箱 | 13T HD单级减速桥-4.111",
     "price": 27.05,
-    "has_price": true
+    "has_price": true,
+    "price_source": "price_col"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -158,6 +164,7 @@
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、单制冷空调、电动摇窗机、手动翻转、金属保险杠、两级上车踏板、油浴式空滤、普通排气、水箱保护栅、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
     "price": 26.789,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

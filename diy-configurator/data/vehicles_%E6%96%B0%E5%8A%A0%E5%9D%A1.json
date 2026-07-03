@@ -20,7 +20,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、工程保险杠、三级上车踏板、中控锁(带双遥控器)、油浴式空滤器、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、中置前牵引座、水箱保护栅、180Ah免维护蓄电池、SHACMAN Telematics（带屏带终端）",
     "options": "",
     "price": 44.712,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -43,7 +44,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、中控锁（带双遥控器）、三级上车踏板、直流空滤器、普通排气、国产右置转向机、国产离合器、多功能方向盘（带定速巡航）、前轴稳定杆、左前牵引销、水箱保护栅、180Ah免维护蓄电池、SHACMAN Telematics（带屏带终端）",
     "options": "",
     "price": 41.904,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -65,8 +67,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、中控锁（双遥控）、三级上车踏板、直流空滤器、普通排气、进口离合器、国产右置转向机、多功能方向盘（带定速巡航）、JSK37C 鞍座（150）、三段整体式挡泥板、水箱保护栅、180Ah免维护蓄电池、SHACMAN Telematics(带屏带终端)",
     "options": "DH9A1840H9501",
-    "price": null,
-    "has_price": false
+    "price": 39.422,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -88,8 +91,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶侧导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、中控锁（双遥控）、三级上车踏板、直流空滤器、普通排气、进口离合器、国产右置转向机、多功能方向盘（带定速巡航）、JSK37C 鞍座（150）、三段整体式挡泥板、水箱保护栅、180Ah免维护蓄电池、SHACMAN Telematics(带屏带终端)",
     "options": "DH9A1840H9502",
-    "price": null,
-    "has_price": false
+    "price": 39.322,
+    "has_price": true,
+    "price_source": "base_dh_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -112,7 +116,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带双遥控器）、直流空滤器、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、SHACMAN Telematics（带屏带终端）、水箱保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 40.807,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -135,7 +140,8 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁（带双遥控器）、直流空滤器、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、SHACMAN Telematics（带屏带终端）、水箱保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 40.707,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -158,6 +164,7 @@
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、单制冷空调、电动摇窗机、电动翻转、玻璃钢保险杠、中控锁(带双遥控器)、三级上车踏板、直流空滤器、普通排气、国产右置转向机、多功能方向盘（带定速巡航）、前稳定杆、水箱保护栅、SHACMAN Telematics（带屏带终端）、180Ah免维护蓄电池",
     "options": "",
     "price": 44.432,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]

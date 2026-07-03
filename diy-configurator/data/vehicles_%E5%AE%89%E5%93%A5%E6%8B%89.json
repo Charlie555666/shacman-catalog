@@ -19,8 +19,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、无中控锁、普通空滤器、普通排气、国产转向机、普通方向盘、左前牵引销、前稳定杆、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.281,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -42,8 +43,9 @@
     "fifth_wheel": "标准驾驶室",
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、多功能方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、油底壳保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 24.812,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -65,8 +67,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "X3000中长平顶驾驶室不带导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、水箱保护栅、油底壳保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 27.563,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -88,8 +91,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "F3000加长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、普通90鞍座、分体式挡泥板、左前牵引销、水箱保护栅、油底壳保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH952542H08PA",
-    "price": null,
-    "has_price": false
+    "price": 30.76,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -111,8 +115,9 @@
     "fifth_wheel": "加长半高顶",
     "base_config": "H3000S加长半高顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、公路用车保险杠、三级上车踏板、无中控锁、普通空滤器、普通排气、国产转向机、多功能方向盘、加强型90鞍座、三段整体式挡泥板、左前牵引销、水箱保护栅、油底壳保护栅、尾灯保护栅、前稳定杆、165Ah免维护蓄电池",
     "options": "DH992542H08HP",
-    "price": null,
-    "has_price": false
+    "price": 28.707,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -134,8 +139,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁(带遥控器)、多功能方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、前稳定杆、普通90鞍座、分体式挡泥板、左前牵引销、油底壳保护栅、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH972542H08MM",
-    "price": null,
-    "has_price": false
+    "price": 33.361,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -157,8 +163,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁(带遥控器)、多功能方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、前稳定杆、普通90鞍座、分体式挡泥板、左前牵引销、油底壳保护栅、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH972550H09NN",
-    "price": null,
-    "has_price": false
+    "price": 32.013,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -180,8 +187,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁(带遥控器)、多功能方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、前稳定杆、普通90鞍座、分体式挡泥板、左前牵引销、油底壳保护栅、水箱保护栅、尾灯保护栅、165Ah免维护蓄电池",
     "options": "DH9A2542H0801",
-    "price": null,
-    "has_price": false
+    "price": 33.361,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -203,8 +211,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、黑色工程保险杠-灯护网、三级上车踏板、中控锁（带遥控器）、单体油浴式空滤器、普通排气、国产转向机、WABCO进口四通道ABS、前稳定杆、多功能方向盘、加强型90鞍座、轻量化三段整体挡泥板、油底壳保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "DH9A2556H3TPP",
-    "price": null,
-    "has_price": false
+    "price": 41.392,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -226,8 +235,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、水箱保护栅、油底壳保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 26.92,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -249,8 +259,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "F3000中长平顶驾驶室不带顶导流罩、空气主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、两级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、普通方向盘、水箱保护栅、油底壳保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 30.97,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -272,8 +283,9 @@
     "fifth_wheel": "标准驾驶室",
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、多功能方向盘、中置前牵引座、油底壳保护栅、水箱保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 25.934,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -295,8 +307,9 @@
     "fifth_wheel": "标准驾驶室",
     "base_config": "H3000S标准驾驶室不带顶导流罩、空气主座椅、杆式后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-灯护网、三级上车踏板、无中控锁、油浴式空滤器、普通排气、国产转向机、多功能方向盘、左前牵引销和后牵引座、油底壳保护栅、水箱保护栅、前稳定杆、尾灯保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.527,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -318,8 +331,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁(带遥控器)、普通方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、前稳定杆、中置前牵引座、尾灯保护栅、水箱保护栅、油底壳保护栅、水箱保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 31.871,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -341,7 +355,8 @@
     "fifth_wheel": "中长平顶",
     "base_config": "X3000中长平顶驾驶室不带顶导流罩、液压主座椅、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁(带遥控器)、普通方向盘、油浴式空滤器、普通排气、国产转向机、国产离合器、前后稳定杆、中置前牵引座、尾灯保护栅、水箱保护栅、油底壳保护栅、165Ah免维护蓄电池",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 27.965,
+    "has_price": true,
+    "price_source": "model_map"
   }
 ]

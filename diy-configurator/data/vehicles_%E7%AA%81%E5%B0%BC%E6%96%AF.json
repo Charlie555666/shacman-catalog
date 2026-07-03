@@ -19,8 +19,9 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、电动翻转、金属保险杠-带灯护网、中置前牵引座、三级上车踏板、普通侧置空滤器、上排气、普通方向盘、国产四通道ABS、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、防风型油底壳保护栅、前后横向稳定杆、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 34.379,
+    "has_price": true,
+    "price_source": "model_map"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -43,7 +44,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、普通排气、多功能方向盘、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、前后稳定杆、JOST 50鞍座带E标、三段整体式挡泥板、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）",
     "options": "",
     "price": 28.219,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -66,7 +68,8 @@
     "base_config": "X3000加长高顶驾驶室带顶侧导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带遥控器）、普通空滤器、普通排气、多功能方向盘、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、前后稳定杆、JOST 50鞍座带E标、三段整体式挡泥板、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）",
     "options": "",
     "price": 31.558,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -88,7 +91,8 @@
     "fifth_wheel": "加长平顶",
     "base_config": "X3000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、中控锁(带遥控器)、电动翻转、金属保险杠-带灯护网、中置前牵引座、三级上车踏板、油浴空滤器、上排气、普通方向盘、国产四通道ABS、进口转向机、WABCO进口四通道ABS+ASR、水箱保护栅、防风型油底壳保护栅、前后横向稳定杆、180Ah免维护蓄电池、SHACMAN Telematics（仅终端）",
     "options": "",
-    "price": null,
-    "has_price": false
+    "price": 34.569,
+    "has_price": true,
+    "price_source": "model_map"
   }
 ]

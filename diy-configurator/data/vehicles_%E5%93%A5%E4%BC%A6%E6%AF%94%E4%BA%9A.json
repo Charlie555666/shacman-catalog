@@ -20,7 +20,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、国产转向机、多功能方向盘（带定速巡航）、进口离合器、水箱保护栅、尾灯保护栅、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 44.847,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -43,7 +44,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、油浴式空滤器、国产转向机、多功能方向盘（带定速巡航）、进口离合器、水箱保护栅、尾灯保护栅、前后稳定杆、180Ah免维护蓄电池",
     "options": "",
     "price": 49.817,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -66,7 +68,8 @@
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、套色外观、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、前稳定杆、铸造50鞍座（L50）、分体式挡泥板（降高度）、尾灯保护栅、180Ah免维护蓄电池、Shacman telematics（仅带屏）",
     "options": "",
     "price": 44.944,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -89,7 +92,8 @@
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、套色外观、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、前稳定杆、铸造50鞍座（L50）、分体式挡泥板（降高度）、尾灯保护栅、180Ah免维护蓄电池、Shacman telematics（仅带屏）",
     "options": "",
     "price": 45.844,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -112,7 +116,8 @@
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、前后稳定杆、铸造50鞍座（L50）、分体式挡泥板（降高度）、尾灯保护栅、180Ah免维护蓄电池、Shacman telematics（仅带屏）",
     "options": "",
     "price": 38.61,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -135,7 +140,8 @@
     "base_config": "X5000加长平顶驾驶室带顶导流罩、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、工程保险杠、中置前牵引座、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、直流空滤器、普通排气、水箱保护栅、进口离合器、约斯特50鞍座(JSK39DV1-28)、轻量化三段整体式挡泥板、尾灯保护栅、180Ah免维护蓄电池、Shacman telematics（仅终端）",
     "options": "",
     "price": 43.906,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -158,7 +164,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 39.283,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -181,7 +188,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、国产转向机、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 45.363,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -204,7 +212,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 45.778,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -227,7 +236,8 @@
     "base_config": "L3000驾驶室不带导流罩、空气主座椅、电动电加热后视镜、电动空调、电动摇窗机、电动翻转、L3000保险杠、两级上车踏板、中控锁、普通空滤器、国产转向机、普通方向盘、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 28.645,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -250,7 +260,8 @@
     "base_config": "X5000中长平顶驾驶室不带顶导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、X5000黑色工程保险杠-带灯护网、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、国产转向机、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 47.164,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -273,7 +284,8 @@
     "base_config": "X5000加长平顶驾驶室不带导流罩、空气主副座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 41.353,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -296,7 +308,8 @@
     "base_config": "X5000加长平顶驾驶室不带导流罩、液压主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁、多功能方向盘（带定速巡航）、油浴式空滤器、普通排气、水箱保护栅、进口离合器、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 46.833,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   },
   {
     "region": "中南美区/Latin America",
@@ -319,6 +332,7 @@
     "base_config": "L3000驾驶室不带导流罩、空气主座椅、电动电加热后视镜、电动空调、电动摇窗机、电动翻转、L3000保险杠、两级上车踏板、中控锁、普通侧置空滤器、国产转向机、普通方向盘、水箱保护栅、尾灯保护栅、180Ah免维护蓄电池",
     "options": "",
     "price": 29.4,
-    "has_price": true
+    "has_price": true,
+    "price_source": "options_col"
   }
 ]
