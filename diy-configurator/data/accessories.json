@@ -1,0 +1,5332 @@
+{
+  "items": [
+    {
+      "category": "",
+      "description": "加装康明斯Jacob制动",
+      "unit": "辆",
+      "price": 5000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "换装防火型消声器（防火帽）",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "选装上排气/右排气（右上排气或右下排气）",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "普通空滤换装中置空滤器",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": "高配换低配不减钱"
+    },
+    {
+      "category": "",
+      "description": "普通空滤换装油浴式空滤器",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "普通空滤换装分体式油浴",
+      "unit": "辆",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "普通空滤换装双级空滤器",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "",
+      "description": "普通空滤换装沙漠式空滤器",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "悬架系统",
+      "description": "选装复合式空气悬架（国产标配ECAS）",
+      "unit": "辆",
+      "price": 7000,
+      "is_deduction": false,
+      "note": "4×2车型（指定WABCO品牌需在配置中描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌，加价1000元/辆）"
+    },
+    {
+      "category": "悬架系统",
+      "description": "全气囊空气悬架（国产标配ECAS）",
+      "unit": "辆",
+      "price": 12000,
+      "is_deduction": false,
+      "note": "4×2车型，4气囊；前少片簧（指定WABCO品牌ECAS系统需在配置中增加描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌加价2000元/辆）"
+    },
+    {
+      "category": "悬架系统",
+      "description": "前后少片簧换前后多片簧两骑马螺栓",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "悬架系统",
+      "description": "两主片两骑马螺栓换装四主片四骑马螺栓",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": "加强版牵引，载货，专用可选"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙X3000加长平顶5驾驶室换装加长高顶4驾驶室",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": "5、6同价"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙X3000加长高顶4驾驶室换装加长平顶5驾驶室",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": true,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙X3000加长高顶驾驶室加装顶侧导流罩",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙X3000驾驶室加装顶导流罩",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "减价1500"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙F3000加长平顶J驾驶室换装加长高顶N驾驶室",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": "D、J同价"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙F3000加长高顶N驾驶室换装加长平顶J驾驶室",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": true,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙F3000加装顶导流罩",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙F3000加长高顶驾驶室加装顶侧导流罩",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000标准驾驶室（M）换装H3000加长半高顶驾驶室（H）",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000加长半高顶驾驶室（H）换装新H3000标准驾驶室（M）",
+      "unit": "辆",
+      "price": 1800,
+      "is_deduction": true,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000半高顶驾驶室（H）换装高顶驾驶室（G）",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000高顶驾驶室（G）换装半高顶驾驶室（H）",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": true,
+      "note": ""
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000高顶驾驶室（G）选装顶侧导流罩",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": "取消顶侧导流罩减价1200"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000驾驶室选装顶导流罩",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "取消顶导流罩减价800"
+    },
+    {
+      "category": "驾驶室",
+      "description": "德龙H3000换M3000同规格驾驶室",
+      "unit": "辆",
+      "price": 0,
+      "is_deduction": false,
+      "note": "同价"
+    },
+    {
+      "category": "驾驶室",
+      "description": "L3000驾驶室选装导流罩",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室悬置",
+      "description": "手动翻转选装驾驶室电动翻转装置",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "减价1000（X3000/X5000牵引车不减价）"
+    },
+    {
+      "category": "驾驶室悬置",
+      "description": "四点液压悬置换装四点空气悬置驾驶室",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "减价700（X3000/X5000牵引车不减价）"
+    },
+    {
+      "category": "空调",
+      "description": "加装进口驻车空调",
+      "unit": "辆",
+      "price": 8000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "空调",
+      "description": "加装国产驻车空调",
+      "unit": "辆",
+      "price": 5000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "空调",
+      "description": "普通暖风换装电控自动恒温空调",
+      "unit": "台",
+      "price": 2500,
+      "is_deduction": false,
+      "note": "单制冷空调与电控自动恒温空调同价"
+    },
+    {
+      "category": "空调",
+      "description": "电控自动恒温空调换装热区空调",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "单制冷热区空调与热区空调同价"
+    },
+    {
+      "category": "空调",
+      "description": "普通暖风换装热区空调",
+      "unit": "辆",
+      "price": 4000,
+      "is_deduction": false,
+      "note": "单制冷热区空调与热区空调同价"
+    },
+    {
+      "category": "转向机",
+      "description": "换装进口转向机",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "转向机",
+      "description": "F3000换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 3500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "转向机",
+      "description": "X3000/X5000车型换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 4000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "转向机",
+      "description": "H3000S车型换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 5500,
+      "is_deduction": false,
+      "note": "H3000S右舵车型仅体现H3000S外观"
+    },
+    {
+      "category": "转向机",
+      "description": "H3000车型换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 5500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "转向机",
+      "description": "L3000车型换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 5500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "转向机",
+      "description": "偏置矿用自卸换装右置方向盘（国产转向机）",
+      "unit": "辆",
+      "price": 6000,
+      "is_deduction": false,
+      "note": "车辆状态为F3000底盘加偏置驾驶室，非通力偏置矿用自卸车"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "L3000/F3000加装第三座椅",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "X3000/X5000液压主座椅换成空气主座椅",
+      "unit": "个",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "减价500"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "X3000/X5000空气主座椅换装通风加热空气主座椅",
+      "unit": "个",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "液压主座椅换装空气主座椅",
+      "unit": "个",
+      "price": 600,
+      "is_deduction": false,
+      "note": "除X3000/X5000以外平台可选；减价500"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "固定副座椅换装液压副座椅",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "固定副座椅换装空气副座椅",
+      "unit": "个",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "X3000/X5000加装中控锁",
+      "unit": "个",
+      "price": 400,
+      "is_deduction": false,
+      "note": "减价300"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "加装中控锁",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": "除X3000/X5000以外平台可选"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "加装X3000加宽卧铺",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "中间储物盒",
+      "unit": "辆",
+      "price": 200,
+      "is_deduction": false,
+      "note": "X3000牵引车增加和减少该配置均不加价不减价。"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "手动摇窗机换装电动摇窗机",
+      "unit": "套",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "保险杠状态变化（玻璃钢、金属保险杠互换）",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "金属保险杠、玻璃钢保险杠换装工程保险杠",
+      "unit": "辆",
+      "price": 600,
+      "is_deduction": false,
+      "note": "仅X3000可选"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "加装第三级上车踏板",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": "L3000不可选"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "加装军用保护前围",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": "金属保险杠可选"
+    },
+    {
+      "category": "驾驶室相关部件",
+      "description": "加装不锈钢前围",
+      "unit": "辆",
+      "price": 6500,
+      "is_deduction": false,
+      "note": "X3000牵引车玻璃钢保险杠可选"
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50鞍座换轻量化90型鞍座",
+      "unit": "辆",
+      "price": 600,
+      "is_deduction": false,
+      "note": "普通50鞍座与低位50鞍座同价，仅港口运输标柜车型可选"
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50型鞍座换普通90型鞍座",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50鞍座换国产JSK37DV鞍座（铸造鞍座）",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50鞍座换JOST 50鞍座(不带E标)",
+      "unit": "辆",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50鞍座换JOST 50鞍座(带E标)",
+      "unit": "辆",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50鞍座换国产铸造50鞍座(L50)",
+      "unit": "辆",
+      "price": 1700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通90鞍座换国产铸造90鞍座(L90)",
+      "unit": "辆",
+      "price": 1700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "约斯特50鞍座（不带E标）换装约斯特国产C型铸造50鞍座（JSK37C)",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通50型鞍座换装约斯特国产化加强50鞍座(JSK39DV1-28)",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "JOST 50鞍座（不带E标）换装JOST轻量化90鞍座",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通90鞍座换装JOST 90鞍座",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通90鞍座换装加强型90鞍座",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通90鞍座换装加强型JOST 90鞍座(JSK39DV1-35)",
+      "unit": "辆",
+      "price": 1800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加强型JOST 90鞍座(JSK39DV1-35)换装加强型JOST 90鞍座(JSK39DV1-46)",
+      "unit": "辆",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加强型JOST 90鞍座(JSK39DV1-35)换装国产铸造90鞍座(G9038C-190)带E标",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加强型JOST 90鞍座(JSK39DV1-35)换装约斯特国产铸造90鞍座(JSK38C)带E标",
+      "unit": "辆",
+      "price": 3800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "普通90鞍座换装90型普通双摆鞍座",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加强型90型鞍座换装90型普通双摆鞍座",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加强型90鞍座换装JOST 50鞍座(不带E标)",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": true,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "自卸车加装临时鞍座",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "JOST 50鞍座换装约斯特50双摆鞍座（JSK38G1-2）",
+      "unit": "辆",
+      "price": 30000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "10.00R20子午胎换装10R22.5真空胎",
+      "unit": "条",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "10.00R20子午胎换装11.00R20子午胎",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "11.00R20子午胎换装12.00R20子午胎",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装12.00R24子午胎",
+      "unit": "条",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装13R22.5真空胎",
+      "unit": "条",
+      "price": 150,
+      "is_deduction": false,
+      "note": "需选用加宽桥（轮胎选换装加价，加宽桥不加价）"
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装315/70R22.5真空胎",
+      "unit": "条",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装315/80R22.5真空胎",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装385/65R22.5真空胎",
+      "unit": "条",
+      "price": 500,
+      "is_deduction": false,
+      "note": "385/65R22.5真空胎标配24PR"
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装425/65R22.5（20PR）真空胎",
+      "unit": "条",
+      "price": 1100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "11R22.5、12R22.5真空胎换装11.00R20子午胎、295/80R22.5真空胎",
+      "unit": "条",
+      "price": 300300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装20-20沙漠轮胎",
+      "unit": "条",
+      "price": 6400,
+      "is_deduction": false,
+      "note": "含轮辋价格"
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎换装15.5-20斜交轮胎",
+      "unit": "条",
+      "price": 3500,
+      "is_deduction": false,
+      "note": "含轮辋价格"
+    },
+    {
+      "category": "鞍座",
+      "description": "11R22.5、12R22.5真空胎指定块状花纹",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "295/80R22.5、315/80R22.5子午胎指定块状花纹",
+      "unit": "条",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "315/70R22.5指定块状花纹",
+      "unit": "条",
+      "price": 150,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "13R22.5指定矿用花纹",
+      "unit": "条",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "315/80R22.5子午胎指定矿用花纹",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R24子午胎指定矿用花纹",
+      "unit": "条",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎指定矿用/越野花纹",
+      "unit": "条",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "14.00R20子午胎指定越野花纹",
+      "unit": "条",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "315/80R22.5、12.00R24真空胎18层级换20层级",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "12.00R20子午胎18层级换20层级",
+      "unit": "条",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "单选加宽桥",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加装胎压监测装置",
+      "unit": "轴",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加一条12.00R20轮胎（含轮辋）",
+      "unit": "条",
+      "price": 1800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "鞍座",
+      "description": "加一条14.00R20轮胎（含轮辋）",
+      "unit": "条",
+      "price": 4500,
+      "is_deduction": false,
+      "note": "14.00R20标配横向花纹"
+    },
+    {
+      "category": "米其林",
+      "description": "11R22.5指定米其林品牌",
+      "unit": "条",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "米其林",
+      "description": "315/80R22.5指定米其林品牌",
+      "unit": "条",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "米其林",
+      "description": "295/80R22.5指定米其林品牌",
+      "unit": "条",
+      "price": 2400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "米其林",
+      "description": "385/65R22.5指定米其林品牌",
+      "unit": "条",
+      "price": 4800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "12R22.5指定三角品牌",
+      "unit": "条",
+      "price": 250,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "12.00R20指定三角品牌",
+      "unit": "条",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "295/80R22.5指定三角品牌",
+      "unit": "条",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "315/70R22.5指定三角品牌",
+      "unit": "条",
+      "price": 250,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "315/80R22.5指定三角品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "13R22.5指定三角品牌",
+      "unit": "条",
+      "price": 150,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "12.00R24指定三角品牌",
+      "unit": "条",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "14.00R20指定三角品牌",
+      "unit": "条",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "三角",
+      "description": "385/65R22.5指定三角品牌",
+      "unit": "条",
+      "price": 450,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "玲珑",
+      "description": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24指定玲珑品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "12R22.5指定双钱品牌",
+      "unit": "条",
+      "price": 700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "12.00R20指定双钱品牌",
+      "unit": "条",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "315/80R22.5指定双钱品牌",
+      "unit": "条",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "315/70R22.5指定双钱品牌",
+      "unit": "条",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "425/65R22.5指定双钱品牌",
+      "unit": "条",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "双钱",
+      "description": "385/65R22.5、295/80R22.5指定双钱品牌",
+      "unit": "条",
+      "price": 700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "12R22.5指定中策品牌",
+      "unit": "条",
+      "price": 250,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "12.00R20指定中策品牌",
+      "unit": "条",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "315/70R22.5指定中策品牌",
+      "unit": "条",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "315/80R22.5指定中策品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "385/65R22.5指定中策品牌",
+      "unit": "条",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "中策",
+      "description": "295/80R22.5指定中策品牌",
+      "unit": "条",
+      "price": 150,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "金宇",
+      "description": "12.00R20子午胎指定金宇品牌",
+      "unit": "条",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "金宇",
+      "description": "315/80R22.5指定金宇品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "金宇",
+      "description": "295/80R22.5指定金宇品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "金宇",
+      "description": "315/70R22.5指定金宇品牌",
+      "unit": "条",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "金宇",
+      "description": "385/65R22.5指定金宇品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "成山",
+      "description": "12.00R20指定成山品牌",
+      "unit": "条",
+      "price": 350,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "成山",
+      "description": "315/70R22.5指定成山品牌",
+      "unit": "条",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "成山",
+      "description": "315/80R22.5指定成山品牌",
+      "unit": "条",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "成山",
+      "description": "385/65R22.5、12.00R24指定成山品牌",
+      "unit": "条",
+      "price": 250,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "成山",
+      "description": "14.00R20指定成山品牌",
+      "unit": "条",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装铝合金轮辋",
+      "unit": "条",
+      "price": 700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装铝合金轮辋（珀然）",
+      "unit": "条",
+      "price": 850,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装铝合金轮辋（美铝）",
+      "unit": "条",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装大偏置普通铝合金轮辋",
+      "unit": "条",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装大偏置珀然铝合金轮辋",
+      "unit": "条",
+      "price": 950,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "轮辋",
+      "description": "换装大偏置美铝铝合金轮辋",
+      "unit": "条",
+      "price": 1600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "加装200L铁油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "加装300L铝合金油箱",
+      "unit": "个",
+      "price": 2900,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "加装230L铝合金油箱",
+      "unit": "个",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "230L铝合金油箱换260L铝合金油箱",
+      "unit": "个",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "260L铝合金油箱换300铝合金油箱",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "200L铁换300L铝合金油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "380L铁油箱换装400L铝合金油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "380L铁油箱换装400L不锈钢油箱",
+      "unit": "个",
+      "price": 3600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "300L铝合金油箱换装400L铝合金油箱",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "400L铝合金油箱换装600L铝合金油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "500L铝合金油箱换装600L铝合金油箱",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "600L铝合金油箱换装700L铝合金油箱",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "700L铝合金油箱换双腔油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "700L铝合金油箱换装（400L+300L）铝合金油箱",
+      "unit": "个",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "400L铝合金油箱换800L铝合金油箱",
+      "unit": "个",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "双腔油箱",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "增加一道世柏燃油粗滤器",
+      "unit": "个",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "增加一道长效粗滤器",
+      "unit": "个",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "增加一道普通粗滤",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "燃油水寒宝",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "油箱增加1组进回油口",
+      "unit": "辆",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "油箱",
+      "description": "油箱高配换至低配不减价",
+      "unit": "辆",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "8JS85TM换8JS105",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "8JS85TM换8JS95TM",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "8JS85TM换装8JS118",
+      "unit": "台",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "8JS85TM换装8JS125TB",
+      "unit": "台",
+      "price": 2800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "8JS118换装9JS119",
+      "unit": "台",
+      "price": 2800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "9JS119换装9JS135",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "9JS135换装RTD11509C",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "RTD11509C换装9JS150A",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "RTD11509C换装9JS180/10JSD180",
+      "unit": "台",
+      "price": 4500,
+      "is_deduction": false,
+      "note": "9JS180与10JSD180同价"
+    },
+    {
+      "category": "变速箱",
+      "description": "10JSD180换装12JSD180T",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD160T换装12JSD180T",
+      "unit": "台",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD180T换装12JSD200T-B",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "10JSD180换装12JSD200T-B",
+      "unit": "台",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD200T-B换装12JSDX220T-B",
+      "unit": "台",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD200T-B换装12JSDX240T",
+      "unit": "台",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSDX240T换装12JSDX240K",
+      "unit": "台",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD200T-B换装16JSD200T",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSDX240T换装16JSDX240T",
+      "unit": "台",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "同规格变速器带超速档和不带超速档变速箱同价",
+      "unit": "台",
+      "price": 0,
+      "is_deduction": false,
+      "note": "仅适用于法士特变速箱"
+    },
+    {
+      "category": "变速箱",
+      "description": "12JSD200T-B换装SF16JZ240",
+      "unit": "台",
+      "price": 13000,
+      "is_deduction": false,
+      "note": "AMT变速箱仅潍柴共轨和康明斯发动机可选，必须带ABS"
+    },
+    {
+      "category": "变速箱",
+      "description": "SF16JZ240换F16JZ260",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "SF16JZ260换ZF12TX2620(不带缓速器）",
+      "unit": "台",
+      "price": 25000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "铁壳变速箱换装铝壳变速箱",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "12档变速箱加价500，仅适用于法士特变速箱"
+    },
+    {
+      "category": "变速箱",
+      "description": "加装ZF缓速器、福伊特缓速器",
+      "unit": "台",
+      "price": 25000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "加装法士特缓速器",
+      "unit": "台",
+      "price": 18000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "加装换挡助力（柔性换挡）",
+      "unit": "台",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "变速箱",
+      "description": "变速箱高换低减价为选换装×80%",
+      "unit": "台",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "离合器",
+      "description": "国产离合器换装伊顿离合器",
+      "unit": "台",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减700"
+    },
+    {
+      "category": "取力器",
+      "description": "加装QH50取力器",
+      "unit": "辆",
+      "price": 1300,
+      "is_deduction": false,
+      "note": "QH50、QHG50、QHG50B、QHG50C、QD40J同价"
+    },
+    {
+      "category": "取力器",
+      "description": "加装QH70取力器",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装QF60取力器",
+      "unit": "辆",
+      "price": 28000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装QQ60取力器(A/B)",
+      "unit": "辆",
+      "price": 17000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装QQ90取力器",
+      "unit": "辆",
+      "price": 18000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装QQ130取力器(A)",
+      "unit": "辆",
+      "price": 20000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装N200法兰取力器",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "取力器",
+      "description": "加装发动机PTO取力",
+      "unit": "辆",
+      "price": 7000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "4.8T前轴换4.8T加强型前轴",
+      "unit": "轴",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "5.5吨HD前轴换装7.5吨HD前轴",
+      "unit": "轴",
+      "price": 2000,
+      "is_deduction": false,
+      "note": "5.5T前轴无法匹配12.00R20轮胎"
+    },
+    {
+      "category": "车桥",
+      "description": "7.5吨HD前轴换装9.5吨HD前轴",
+      "unit": "轴",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "13吨HD技术双级桥与16吨HD技术双级桥",
+      "unit": "轴",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "13吨HD技术单级桥换装13吨HD技术双级桥",
+      "unit": "轴",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "11.5吨HD技术单级桥换装13吨HD技术单级桥",
+      "unit": "轴",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "车桥",
+      "description": "加装后桥筒式减震器",
+      "unit": "轴",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "空气悬架、复合空气悬架可匹配"
+    },
+    {
+      "category": "车桥",
+      "description": "前轴、后桥高配换低配不减钱",
+      "unit": "轴",
+      "price": 0,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "底盘其他",
+      "description": "鼓式制动换装盘式制动",
+      "unit": "轴",
+      "price": 2000,
+      "is_deduction": false,
+      "note": "每根轴或桥加价2000，仅适合标载工况"
+    },
+    {
+      "category": "底盘其他",
+      "description": "盘式制动器指定克诺尔品牌",
+      "unit": "轴",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "底盘其他",
+      "description": "选装前轴轮辋装饰罩",
+      "unit": "轴",
+      "price": 200,
+      "is_deduction": false,
+      "note": "材质为塑料"
+    },
+    {
+      "category": "底盘其他",
+      "description": "选装前轴不锈钢轮辋装饰罩",
+      "unit": "轴",
+      "price": 400,
+      "is_deduction": false,
+      "note": "材质为不锈钢"
+    },
+    {
+      "category": "底盘其他",
+      "description": "后桥稳定杆",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减500元"
+    },
+    {
+      "category": "底盘其他",
+      "description": "换装加强传动轴",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "自卸车、搅拌车标配"
+    },
+    {
+      "category": "底盘其他",
+      "description": "轴距加长",
+      "unit": "300/mm",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "载货车400mm/1000元"
+    },
+    {
+      "category": "底盘其他",
+      "description": "底盘整喷聚脲",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": "4×2车型"
+    },
+    {
+      "category": "安全类",
+      "description": "加装国产四通道ABS",
+      "unit": "辆",
+      "price": 4000,
+      "is_deduction": false,
+      "note": "六通道不可装在4×2车型"
+    },
+    {
+      "category": "安全类",
+      "description": "加装国产六通道ABS",
+      "unit": "辆",
+      "price": 6500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装WABCO四通道ABS",
+      "unit": "辆",
+      "price": 5000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装WABCO六通道ABS",
+      "unit": "辆",
+      "price": 7500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装国产电子制动系统EBS",
+      "unit": "辆",
+      "price": 8000,
+      "is_deduction": false,
+      "note": "4×2、6×4、8×4车型"
+    },
+    {
+      "category": "安全类",
+      "description": "加装国产电子制动系统EBS",
+      "unit": "辆",
+      "price": 10000,
+      "is_deduction": false,
+      "note": "6×2、8×2车型"
+    },
+    {
+      "category": "安全类",
+      "description": "加装国产紧急制动系统AEBS",
+      "unit": "辆",
+      "price": 16000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装WABCO紧急制动系统AEBS",
+      "unit": "辆",
+      "price": 22000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装车身稳定系统ESC",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装疲劳监控驾驶系统",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "加装车道偏离预警系统+防碰撞预警",
+      "unit": "辆",
+      "price": 3600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "持续式磨损报警",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": "限X6000平台"
+    },
+    {
+      "category": "安全类",
+      "description": "加装防侧滑系统系统ASR",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "需与WABCO四通道/六通道ABS一起选用"
+    },
+    {
+      "category": "安全类",
+      "description": "换装全车WABCO阀类",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "全车VOSS接头",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "安全类",
+      "description": "自动间隙调整臂",
+      "unit": "每根桥",
+      "price": 400,
+      "is_deduction": false,
+      "note": "驱动桥或轴均可选装（全驱车除外），说明计划中无特别说明默认是前后桥都更换"
+    },
+    {
+      "category": "安全类",
+      "description": "车架后悬长度增加（300mm以上）",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驱动",
+      "description": "6×4换装6×6",
+      "unit": "辆",
+      "price": 100000,
+      "is_deduction": false,
+      "note": "500马力以下按此执行，500马力以上需考虑分动器差价"
+    },
+    {
+      "category": "驱动",
+      "description": "4×2换装4×4",
+      "unit": "辆",
+      "price": 100000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驱动",
+      "description": "同扭矩分动箱指定铁马/株齿品牌",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "驱动",
+      "description": "FDX-2500换到FDX-3200",
+      "unit": "个",
+      "price": 40000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "保温驾驶室",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减750元"
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "加强暖风",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "加装风暖式独立暖风装置（进口品牌）",
+      "unit": "辆",
+      "price": 4000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "加装风暖式独立暖风装置（国产品牌）",
+      "unit": "辆",
+      "price": 3500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "加装9KW水暖独立暖风装置",
+      "unit": "辆",
+      "price": 10000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "低温管线",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "寒区推荐配置",
+      "description": "加装大厢底板加热排气管（指底盘部分的加价）",
+      "unit": "辆",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "高温地区推荐配置",
+      "description": "保温驾驶室",
+      "unit": "个",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减750元"
+    },
+    {
+      "category": "高温地区推荐配置",
+      "description": "加装热区空调",
+      "unit": "辆",
+      "price": 4000,
+      "is_deduction": false,
+      "note": "单制冷热区空调与热区空调同价"
+    },
+    {
+      "category": "高温地区推荐配置",
+      "description": "换装高温管线",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装七寸多媒体显示屏",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装十寸多媒体显示屏",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装倒车影像",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": "需同时加装多媒体显示屏"
+    },
+    {
+      "category": "电器系统",
+      "description": "加装倒车雷达",
+      "unit": "个",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "盲区监控",
+      "unit": "辆",
+      "price": 1700,
+      "is_deduction": false,
+      "note": "需同时加装多媒体显示屏"
+    },
+    {
+      "category": "电器系统",
+      "description": "X5000加装360环视",
+      "unit": "辆",
+      "price": 2500,
+      "is_deduction": false,
+      "note": "需同时加装多媒体显示屏"
+    },
+    {
+      "category": "电器系统",
+      "description": "加装格罗纳斯系统(GLONASS紧急呼叫系统)",
+      "unit": "辆",
+      "price": 5000,
+      "is_deduction": false,
+      "note": "取消减3500"
+    },
+    {
+      "category": "电器系统",
+      "description": "135Ah免维护蓄电池换装165Ah免维护蓄电池",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "165Ah免维护蓄电池换装180Ah免维护蓄电池",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "180Ah免维护蓄电池换装220Ah免维护蓄电池",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "180Ah低温蓄电池换装220Ah低温蓄电池",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "180Ah免维护蓄电池换180Ah低温蓄电池",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装国产电子行驶记录仪",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装进口电子行驶记录仪",
+      "unit": "辆",
+      "price": 3000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "预留行驶记录仪线束及接口",
+      "unit": "辆",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "机械泵发动机加装限速装置",
+      "unit": "辆",
+      "price": 3600,
+      "is_deduction": false,
+      "note": "电控发动机不加价"
+    },
+    {
+      "category": "电器系统",
+      "description": "加装多功能方向盘（带定速巡航）",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "电控发动机标配定速巡航功能 机械泵发动机不可匹配定速巡航功能"
+    },
+    {
+      "category": "电器系统",
+      "description": "ETA断容器",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "减价700"
+    },
+    {
+      "category": "电器系统",
+      "description": "逆变电源接口（300W）",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "逆变电源接口（1200W）",
+      "unit": "个",
+      "price": 1500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "专用车选装远程油门控制装置（包括油门专用线束、远程油门预留接口、远程油门控制器）",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "说明：1.限装配潍柴电控共轨和ISM发动机的车型可选装；2.搅拌车、粉罐车标配摇臂式远程油门控制装置，需在配置中注明“带远程油门控制装置”（仅潍柴共轨和康明斯发动机）；"
+    },
+    {
+      "category": "电器系统",
+      "description": "发动机车下启动装置",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装电动电加热后视镜",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": "X3000牵引车取消该项目不减价"
+    },
+    {
+      "category": "电器系统",
+      "description": "加装后梁照明灯",
+      "unit": "个",
+      "price": 200,
+      "is_deduction": false,
+      "note": "用于自卸车后端大箱下方工作照明使用"
+    },
+    {
+      "category": "电器系统",
+      "description": "X3000加装LED日间行车灯",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": "标配车型取消该项目不减价"
+    },
+    {
+      "category": "电器系统",
+      "description": "加装倒车蜂鸣器",
+      "unit": "辆",
+      "price": 100,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "换装LED尾灯",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "电器系统",
+      "description": "加装ADR系统",
+      "unit": "辆",
+      "price": 6500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "三角警示牌",
+      "unit": "个",
+      "price": 100,
+      "is_deduction": false,
+      "note": "每车标配一个警示牌"
+    },
+    {
+      "category": "其他",
+      "description": "加装危险警示灯",
+      "unit": "盏",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "全挂车电气路接口",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "牵引车增加车架引桥",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加大操作平台",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "增加一片铝合金操作平台",
+      "unit": "辆",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装门下护板",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装防飞溅翼子板",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装挡泥皮",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装备胎架",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": "简易备胎架加价100"
+    },
+    {
+      "category": "其他",
+      "description": "加装军用拖勾+八字尾梁",
+      "unit": "辆",
+      "price": 2800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装八字尾梁",
+      "unit": "辆",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "选装驻车楔块",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": "每车两块（包括支架）"
+    },
+    {
+      "category": "其他",
+      "description": "换装32T千斤顶",
+      "unit": "个",
+      "price": 200,
+      "is_deduction": false,
+      "note": "随车工具是16T千斤顶"
+    },
+    {
+      "category": "其他",
+      "description": "换装50T千斤顶",
+      "unit": "个",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装静电拖带",
+      "unit": "条/辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装灭火器（2KG）",
+      "unit": "个",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "加装灭火器（8KG）",
+      "unit": "个",
+      "price": 400,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "选装军车后拖钩",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "选装双前牵引销",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": "必须与德龙铁质保险杠配合使用；"
+    },
+    {
+      "category": "其他",
+      "description": "选装后牵引座",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": "牵引车、泵车无后牵引座，其余车型均标配"
+    },
+    {
+      "category": "其他",
+      "description": "约斯特球销式牵引装置",
+      "unit": "辆",
+      "price": 11000,
+      "is_deduction": false,
+      "note": "全挂车可选"
+    },
+    {
+      "category": "其他",
+      "description": "整车加装大于10kg尿素",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "出口车随车工具(经济版)",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他",
+      "description": "出口车随车工具(豪华版)",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "防护类",
+      "description": "加装传动轴保护架",
+      "unit": "辆",
+      "price": 200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "防护类",
+      "description": "水箱保护栅",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "防护类",
+      "description": "油底壳保护栅",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": "整体式结构，从中冷器底部一直到发动机油底壳下部"
+    },
+    {
+      "category": "防护类",
+      "description": "前后灯具保护栅",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": "前灯具保护栅200、后灯具保护栅200"
+    },
+    {
+      "category": "防护类",
+      "description": "加装后防护",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减500元"
+    },
+    {
+      "category": "防护类",
+      "description": "加装前下部防护",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减600元"
+    },
+    {
+      "category": "防护类",
+      "description": "加装侧防护",
+      "unit": "辆",
+      "price": 1500,
+      "is_deduction": false,
+      "note": "牵引车可选"
+    },
+    {
+      "category": "防护类",
+      "description": "X6000选装侧防护板",
+      "unit": "辆",
+      "price": 3500,
+      "is_deduction": false,
+      "note": "需考虑X6000的轴距以及油箱布置，此条为固定侧防护加价 可翻转侧防护需加价6500；"
+    },
+    {
+      "category": "防护类",
+      "description": "选装电瓶箱防盗装置",
+      "unit": "辆",
+      "price": 300,
+      "is_deduction": false,
+      "note": "仅是增加可上锁的金属盖"
+    },
+    {
+      "category": "防护类",
+      "description": "选装油箱盖防盗装置",
+      "unit": "辆",
+      "price": 100,
+      "is_deduction": false,
+      "note": "仅是增加可上锁的金属盖"
+    },
+    {
+      "category": "防护类",
+      "description": "燃油防盗报警",
+      "unit": "辆",
+      "price": 150,
+      "is_deduction": false,
+      "note": "含报警喇叭、线束、报警器"
+    },
+    {
+      "category": "防护类",
+      "description": "系统性燃油防盗",
+      "unit": "辆",
+      "price": 400,
+      "is_deduction": false,
+      "note": "含油箱盖防盗"
+    },
+    {
+      "category": "其他附件",
+      "description": "整体式后视镜",
+      "unit": "辆",
+      "price": 600,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "加装卧铺挡帘+环形窗帘",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "整车选装铝合金储气筒",
+      "unit": "辆",
+      "price": 1000,
+      "is_deduction": false,
+      "note": "取消减600"
+    },
+    {
+      "category": "其他附件",
+      "description": "同配置载货车用作专用车",
+      "unit": "辆",
+      "price": 3500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "换装金属挡泥板",
+      "unit": "辆",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "车架增加尾梁人字反光贴",
+      "unit": "辆",
+      "price": 700,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "金属挡泥板换三段整体式挡泥板",
+      "unit": "桥",
+      "price": 1200,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "分体式挡泥板换装三段整体式挡泥板",
+      "unit": "桥",
+      "price": 800,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "分体式挡泥板换装轻量化三段式整体式挡泥板",
+      "unit": "桥",
+      "price": 1000,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "其他附件",
+      "description": "分体式挡泥板换轻量化整体式挡泥板",
+      "unit": "桥",
+      "price": 500,
+      "is_deduction": false,
+      "note": ""
+    },
+    {
+      "category": "超级版自卸",
+      "description": "超级版选装包一（钢板保险杠、LED尾灯、加强板簧、尾灯保护栅）",
+      "unit": "辆",
+      "price": 2000,
+      "is_deduction": false,
+      "note": "通用配置加强版F3000 6×4/8×4自卸车选装 1、选装包内不包含/铸造前伸梁+中置牵引拖钩/，若需要此配置需在改装说明中描述，并加价500元； 2、超级版自卸车不体现X3000内饰提升，且不可选择。 3、轮胎根据工况、用户需求单独选择（超级版包内不包含轮胎花纹、层级指定）核价。 4、选装包内各项内容，原则全部体现，如特殊情况取消某项，需单独技术评审，且价格不减价。"
+    },
+    {
+      "category": "超级版自卸",
+      "description": "超级版选装包二（钢板保险杠、加强板簧、长效粗滤、三拉带400L铁油箱+防护、LED尾灯、后桥稳定杆、油底壳防护、系统性燃油防盗、电瓶箱防盗、尾灯保护栅）",
+      "unit": "辆",
+      "price": 5200,
+      "is_deduction": false,
+      "note": ""
+    }
+  ],
+  "by_category": {
+    "": [
+      {
+        "category": "",
+        "description": "加装康明斯Jacob制动",
+        "unit": "辆",
+        "price": 5000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "换装防火型消声器（防火帽）",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "选装上排气/右排气（右上排气或右下排气）",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "普通空滤换装中置空滤器",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": "高配换低配不减钱"
+      },
+      {
+        "category": "",
+        "description": "普通空滤换装油浴式空滤器",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "普通空滤换装分体式油浴",
+        "unit": "辆",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "普通空滤换装双级空滤器",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "",
+        "description": "普通空滤换装沙漠式空滤器",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "悬架系统": [
+      {
+        "category": "悬架系统",
+        "description": "选装复合式空气悬架（国产标配ECAS）",
+        "unit": "辆",
+        "price": 7000,
+        "is_deduction": false,
+        "note": "4×2车型（指定WABCO品牌需在配置中描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌，加价1000元/辆）"
+      },
+      {
+        "category": "悬架系统",
+        "description": "全气囊空气悬架（国产标配ECAS）",
+        "unit": "辆",
+        "price": 12000,
+        "is_deduction": false,
+        "note": "4×2车型，4气囊；前少片簧（指定WABCO品牌ECAS系统需在配置中增加描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌加价2000元/辆）"
+      },
+      {
+        "category": "悬架系统",
+        "description": "前后少片簧换前后多片簧两骑马螺栓",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "悬架系统",
+        "description": "两主片两骑马螺栓换装四主片四骑马螺栓",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": "加强版牵引，载货，专用可选"
+      }
+    ],
+    "驾驶室": [
+      {
+        "category": "驾驶室",
+        "description": "德龙X3000加长平顶5驾驶室换装加长高顶4驾驶室",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": "5、6同价"
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙X3000加长高顶4驾驶室换装加长平顶5驾驶室",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": true,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙X3000加长高顶驾驶室加装顶侧导流罩",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙X3000驾驶室加装顶导流罩",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "减价1500"
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙F3000加长平顶J驾驶室换装加长高顶N驾驶室",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": "D、J同价"
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙F3000加长高顶N驾驶室换装加长平顶J驾驶室",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": true,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙F3000加装顶导流罩",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙F3000加长高顶驾驶室加装顶侧导流罩",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000标准驾驶室（M）换装H3000加长半高顶驾驶室（H）",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000加长半高顶驾驶室（H）换装新H3000标准驾驶室（M）",
+        "unit": "辆",
+        "price": 1800,
+        "is_deduction": true,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000半高顶驾驶室（H）换装高顶驾驶室（G）",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000高顶驾驶室（G）换装半高顶驾驶室（H）",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": true,
+        "note": ""
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000高顶驾驶室（G）选装顶侧导流罩",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": "取消顶侧导流罩减价1200"
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000驾驶室选装顶导流罩",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "取消顶导流罩减价800"
+      },
+      {
+        "category": "驾驶室",
+        "description": "德龙H3000换M3000同规格驾驶室",
+        "unit": "辆",
+        "price": 0,
+        "is_deduction": false,
+        "note": "同价"
+      },
+      {
+        "category": "驾驶室",
+        "description": "L3000驾驶室选装导流罩",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "驾驶室悬置": [
+      {
+        "category": "驾驶室悬置",
+        "description": "手动翻转选装驾驶室电动翻转装置",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "减价1000（X3000/X5000牵引车不减价）"
+      },
+      {
+        "category": "驾驶室悬置",
+        "description": "四点液压悬置换装四点空气悬置驾驶室",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "减价700（X3000/X5000牵引车不减价）"
+      }
+    ],
+    "空调": [
+      {
+        "category": "空调",
+        "description": "加装进口驻车空调",
+        "unit": "辆",
+        "price": 8000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "空调",
+        "description": "加装国产驻车空调",
+        "unit": "辆",
+        "price": 5000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "空调",
+        "description": "普通暖风换装电控自动恒温空调",
+        "unit": "台",
+        "price": 2500,
+        "is_deduction": false,
+        "note": "单制冷空调与电控自动恒温空调同价"
+      },
+      {
+        "category": "空调",
+        "description": "电控自动恒温空调换装热区空调",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "单制冷热区空调与热区空调同价"
+      },
+      {
+        "category": "空调",
+        "description": "普通暖风换装热区空调",
+        "unit": "辆",
+        "price": 4000,
+        "is_deduction": false,
+        "note": "单制冷热区空调与热区空调同价"
+      }
+    ],
+    "转向机": [
+      {
+        "category": "转向机",
+        "description": "换装进口转向机",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "转向机",
+        "description": "F3000换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 3500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "转向机",
+        "description": "X3000/X5000车型换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 4000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "转向机",
+        "description": "H3000S车型换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 5500,
+        "is_deduction": false,
+        "note": "H3000S右舵车型仅体现H3000S外观"
+      },
+      {
+        "category": "转向机",
+        "description": "H3000车型换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 5500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "转向机",
+        "description": "L3000车型换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 5500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "转向机",
+        "description": "偏置矿用自卸换装右置方向盘（国产转向机）",
+        "unit": "辆",
+        "price": 6000,
+        "is_deduction": false,
+        "note": "车辆状态为F3000底盘加偏置驾驶室，非通力偏置矿用自卸车"
+      }
+    ],
+    "驾驶室相关部件": [
+      {
+        "category": "驾驶室相关部件",
+        "description": "L3000/F3000加装第三座椅",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "X3000/X5000液压主座椅换成空气主座椅",
+        "unit": "个",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "减价500"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "X3000/X5000空气主座椅换装通风加热空气主座椅",
+        "unit": "个",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "液压主座椅换装空气主座椅",
+        "unit": "个",
+        "price": 600,
+        "is_deduction": false,
+        "note": "除X3000/X5000以外平台可选；减价500"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "固定副座椅换装液压副座椅",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "固定副座椅换装空气副座椅",
+        "unit": "个",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "X3000/X5000加装中控锁",
+        "unit": "个",
+        "price": 400,
+        "is_deduction": false,
+        "note": "减价300"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "加装中控锁",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": "除X3000/X5000以外平台可选"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "加装X3000加宽卧铺",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "中间储物盒",
+        "unit": "辆",
+        "price": 200,
+        "is_deduction": false,
+        "note": "X3000牵引车增加和减少该配置均不加价不减价。"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "手动摇窗机换装电动摇窗机",
+        "unit": "套",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "保险杠状态变化（玻璃钢、金属保险杠互换）",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "金属保险杠、玻璃钢保险杠换装工程保险杠",
+        "unit": "辆",
+        "price": 600,
+        "is_deduction": false,
+        "note": "仅X3000可选"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "加装第三级上车踏板",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": "L3000不可选"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "加装军用保护前围",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": "金属保险杠可选"
+      },
+      {
+        "category": "驾驶室相关部件",
+        "description": "加装不锈钢前围",
+        "unit": "辆",
+        "price": 6500,
+        "is_deduction": false,
+        "note": "X3000牵引车玻璃钢保险杠可选"
+      }
+    ],
+    "鞍座": [
+      {
+        "category": "鞍座",
+        "description": "普通50鞍座换轻量化90型鞍座",
+        "unit": "辆",
+        "price": 600,
+        "is_deduction": false,
+        "note": "普通50鞍座与低位50鞍座同价，仅港口运输标柜车型可选"
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50型鞍座换普通90型鞍座",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50鞍座换国产JSK37DV鞍座（铸造鞍座）",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50鞍座换JOST 50鞍座(不带E标)",
+        "unit": "辆",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50鞍座换JOST 50鞍座(带E标)",
+        "unit": "辆",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50鞍座换国产铸造50鞍座(L50)",
+        "unit": "辆",
+        "price": 1700,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通90鞍座换国产铸造90鞍座(L90)",
+        "unit": "辆",
+        "price": 1700,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "约斯特50鞍座（不带E标）换装约斯特国产C型铸造50鞍座（JSK37C)",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通50型鞍座换装约斯特国产化加强50鞍座(JSK39DV1-28)",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "JOST 50鞍座（不带E标）换装JOST轻量化90鞍座",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通90鞍座换装JOST 90鞍座",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通90鞍座换装加强型90鞍座",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通90鞍座换装加强型JOST 90鞍座(JSK39DV1-35)",
+        "unit": "辆",
+        "price": 1800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加强型JOST 90鞍座(JSK39DV1-35)换装加强型JOST 90鞍座(JSK39DV1-46)",
+        "unit": "辆",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加强型JOST 90鞍座(JSK39DV1-35)换装国产铸造90鞍座(G9038C-190)带E标",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加强型JOST 90鞍座(JSK39DV1-35)换装约斯特国产铸造90鞍座(JSK38C)带E标",
+        "unit": "辆",
+        "price": 3800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "普通90鞍座换装90型普通双摆鞍座",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加强型90型鞍座换装90型普通双摆鞍座",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加强型90鞍座换装JOST 50鞍座(不带E标)",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": true,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "自卸车加装临时鞍座",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "JOST 50鞍座换装约斯特50双摆鞍座（JSK38G1-2）",
+        "unit": "辆",
+        "price": 30000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "10.00R20子午胎换装10R22.5真空胎",
+        "unit": "条",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "10.00R20子午胎换装11.00R20子午胎",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "11.00R20子午胎换装12.00R20子午胎",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装12.00R24子午胎",
+        "unit": "条",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装13R22.5真空胎",
+        "unit": "条",
+        "price": 150,
+        "is_deduction": false,
+        "note": "需选用加宽桥（轮胎选换装加价，加宽桥不加价）"
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装315/70R22.5真空胎",
+        "unit": "条",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装315/80R22.5真空胎",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装385/65R22.5真空胎",
+        "unit": "条",
+        "price": 500,
+        "is_deduction": false,
+        "note": "385/65R22.5真空胎标配24PR"
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装425/65R22.5（20PR）真空胎",
+        "unit": "条",
+        "price": 1100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "11R22.5、12R22.5真空胎换装11.00R20子午胎、295/80R22.5真空胎",
+        "unit": "条",
+        "price": 300300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装20-20沙漠轮胎",
+        "unit": "条",
+        "price": 6400,
+        "is_deduction": false,
+        "note": "含轮辋价格"
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎换装15.5-20斜交轮胎",
+        "unit": "条",
+        "price": 3500,
+        "is_deduction": false,
+        "note": "含轮辋价格"
+      },
+      {
+        "category": "鞍座",
+        "description": "11R22.5、12R22.5真空胎指定块状花纹",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "295/80R22.5、315/80R22.5子午胎指定块状花纹",
+        "unit": "条",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "315/70R22.5指定块状花纹",
+        "unit": "条",
+        "price": 150,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "13R22.5指定矿用花纹",
+        "unit": "条",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "315/80R22.5子午胎指定矿用花纹",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R24子午胎指定矿用花纹",
+        "unit": "条",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎指定矿用/越野花纹",
+        "unit": "条",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "14.00R20子午胎指定越野花纹",
+        "unit": "条",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "315/80R22.5、12.00R24真空胎18层级换20层级",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "12.00R20子午胎18层级换20层级",
+        "unit": "条",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "单选加宽桥",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加装胎压监测装置",
+        "unit": "轴",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加一条12.00R20轮胎（含轮辋）",
+        "unit": "条",
+        "price": 1800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "鞍座",
+        "description": "加一条14.00R20轮胎（含轮辋）",
+        "unit": "条",
+        "price": 4500,
+        "is_deduction": false,
+        "note": "14.00R20标配横向花纹"
+      }
+    ],
+    "米其林": [
+      {
+        "category": "米其林",
+        "description": "11R22.5指定米其林品牌",
+        "unit": "条",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "米其林",
+        "description": "315/80R22.5指定米其林品牌",
+        "unit": "条",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "米其林",
+        "description": "295/80R22.5指定米其林品牌",
+        "unit": "条",
+        "price": 2400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "米其林",
+        "description": "385/65R22.5指定米其林品牌",
+        "unit": "条",
+        "price": 4800,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "三角": [
+      {
+        "category": "三角",
+        "description": "12R22.5指定三角品牌",
+        "unit": "条",
+        "price": 250,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "12.00R20指定三角品牌",
+        "unit": "条",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "295/80R22.5指定三角品牌",
+        "unit": "条",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "315/70R22.5指定三角品牌",
+        "unit": "条",
+        "price": 250,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "315/80R22.5指定三角品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "13R22.5指定三角品牌",
+        "unit": "条",
+        "price": 150,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "12.00R24指定三角品牌",
+        "unit": "条",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "14.00R20指定三角品牌",
+        "unit": "条",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "三角",
+        "description": "385/65R22.5指定三角品牌",
+        "unit": "条",
+        "price": 450,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "玲珑": [
+      {
+        "category": "玲珑",
+        "description": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24指定玲珑品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "双钱": [
+      {
+        "category": "双钱",
+        "description": "12R22.5指定双钱品牌",
+        "unit": "条",
+        "price": 700,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "双钱",
+        "description": "12.00R20指定双钱品牌",
+        "unit": "条",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "双钱",
+        "description": "315/80R22.5指定双钱品牌",
+        "unit": "条",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "双钱",
+        "description": "315/70R22.5指定双钱品牌",
+        "unit": "条",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "双钱",
+        "description": "425/65R22.5指定双钱品牌",
+        "unit": "条",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "双钱",
+        "description": "385/65R22.5、295/80R22.5指定双钱品牌",
+        "unit": "条",
+        "price": 700,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "中策": [
+      {
+        "category": "中策",
+        "description": "12R22.5指定中策品牌",
+        "unit": "条",
+        "price": 250,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "中策",
+        "description": "12.00R20指定中策品牌",
+        "unit": "条",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "中策",
+        "description": "315/70R22.5指定中策品牌",
+        "unit": "条",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "中策",
+        "description": "315/80R22.5指定中策品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "中策",
+        "description": "385/65R22.5指定中策品牌",
+        "unit": "条",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "中策",
+        "description": "295/80R22.5指定中策品牌",
+        "unit": "条",
+        "price": 150,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "金宇": [
+      {
+        "category": "金宇",
+        "description": "12.00R20子午胎指定金宇品牌",
+        "unit": "条",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "金宇",
+        "description": "315/80R22.5指定金宇品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "金宇",
+        "description": "295/80R22.5指定金宇品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "金宇",
+        "description": "315/70R22.5指定金宇品牌",
+        "unit": "条",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "金宇",
+        "description": "385/65R22.5指定金宇品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "成山": [
+      {
+        "category": "成山",
+        "description": "12.00R20指定成山品牌",
+        "unit": "条",
+        "price": 350,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "成山",
+        "description": "315/70R22.5指定成山品牌",
+        "unit": "条",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "成山",
+        "description": "315/80R22.5指定成山品牌",
+        "unit": "条",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "成山",
+        "description": "385/65R22.5、12.00R24指定成山品牌",
+        "unit": "条",
+        "price": 250,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "成山",
+        "description": "14.00R20指定成山品牌",
+        "unit": "条",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "轮辋": [
+      {
+        "category": "轮辋",
+        "description": "换装铝合金轮辋",
+        "unit": "条",
+        "price": 700,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "轮辋",
+        "description": "换装铝合金轮辋（珀然）",
+        "unit": "条",
+        "price": 850,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "轮辋",
+        "description": "换装铝合金轮辋（美铝）",
+        "unit": "条",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "轮辋",
+        "description": "换装大偏置普通铝合金轮辋",
+        "unit": "条",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "轮辋",
+        "description": "换装大偏置珀然铝合金轮辋",
+        "unit": "条",
+        "price": 950,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "轮辋",
+        "description": "换装大偏置美铝铝合金轮辋",
+        "unit": "条",
+        "price": 1600,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "油箱": [
+      {
+        "category": "油箱",
+        "description": "加装200L铁油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "加装300L铝合金油箱",
+        "unit": "个",
+        "price": 2900,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "加装230L铝合金油箱",
+        "unit": "个",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "230L铝合金油箱换260L铝合金油箱",
+        "unit": "个",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "260L铝合金油箱换300铝合金油箱",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "200L铁换300L铝合金油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "380L铁油箱换装400L铝合金油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "380L铁油箱换装400L不锈钢油箱",
+        "unit": "个",
+        "price": 3600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "300L铝合金油箱换装400L铝合金油箱",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "400L铝合金油箱换装600L铝合金油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "500L铝合金油箱换装600L铝合金油箱",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "600L铝合金油箱换装700L铝合金油箱",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "700L铝合金油箱换双腔油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "700L铝合金油箱换装（400L+300L）铝合金油箱",
+        "unit": "个",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "400L铝合金油箱换800L铝合金油箱",
+        "unit": "个",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "双腔油箱",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "增加一道世柏燃油粗滤器",
+        "unit": "个",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "增加一道长效粗滤器",
+        "unit": "个",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "增加一道普通粗滤",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "燃油水寒宝",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "油箱增加1组进回油口",
+        "unit": "辆",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "油箱",
+        "description": "油箱高配换至低配不减价",
+        "unit": "辆",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "变速箱": [
+      {
+        "category": "变速箱",
+        "description": "8JS85TM换8JS105",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "8JS85TM换8JS95TM",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "8JS85TM换装8JS118",
+        "unit": "台",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "8JS85TM换装8JS125TB",
+        "unit": "台",
+        "price": 2800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "8JS118换装9JS119",
+        "unit": "台",
+        "price": 2800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "9JS119换装9JS135",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "9JS135换装RTD11509C",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "RTD11509C换装9JS150A",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "RTD11509C换装9JS180/10JSD180",
+        "unit": "台",
+        "price": 4500,
+        "is_deduction": false,
+        "note": "9JS180与10JSD180同价"
+      },
+      {
+        "category": "变速箱",
+        "description": "10JSD180换装12JSD180T",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD160T换装12JSD180T",
+        "unit": "台",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD180T换装12JSD200T-B",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "10JSD180换装12JSD200T-B",
+        "unit": "台",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD200T-B换装12JSDX220T-B",
+        "unit": "台",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD200T-B换装12JSDX240T",
+        "unit": "台",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSDX240T换装12JSDX240K",
+        "unit": "台",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD200T-B换装16JSD200T",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSDX240T换装16JSDX240T",
+        "unit": "台",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "同规格变速器带超速档和不带超速档变速箱同价",
+        "unit": "台",
+        "price": 0,
+        "is_deduction": false,
+        "note": "仅适用于法士特变速箱"
+      },
+      {
+        "category": "变速箱",
+        "description": "12JSD200T-B换装SF16JZ240",
+        "unit": "台",
+        "price": 13000,
+        "is_deduction": false,
+        "note": "AMT变速箱仅潍柴共轨和康明斯发动机可选，必须带ABS"
+      },
+      {
+        "category": "变速箱",
+        "description": "SF16JZ240换F16JZ260",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "SF16JZ260换ZF12TX2620(不带缓速器）",
+        "unit": "台",
+        "price": 25000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "铁壳变速箱换装铝壳变速箱",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "12档变速箱加价500，仅适用于法士特变速箱"
+      },
+      {
+        "category": "变速箱",
+        "description": "加装ZF缓速器、福伊特缓速器",
+        "unit": "台",
+        "price": 25000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "加装法士特缓速器",
+        "unit": "台",
+        "price": 18000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "加装换挡助力（柔性换挡）",
+        "unit": "台",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "变速箱",
+        "description": "变速箱高换低减价为选换装×80%",
+        "unit": "台",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "离合器": [
+      {
+        "category": "离合器",
+        "description": "国产离合器换装伊顿离合器",
+        "unit": "台",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减700"
+      }
+    ],
+    "取力器": [
+      {
+        "category": "取力器",
+        "description": "加装QH50取力器",
+        "unit": "辆",
+        "price": 1300,
+        "is_deduction": false,
+        "note": "QH50、QHG50、QHG50B、QHG50C、QD40J同价"
+      },
+      {
+        "category": "取力器",
+        "description": "加装QH70取力器",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装QF60取力器",
+        "unit": "辆",
+        "price": 28000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装QQ60取力器(A/B)",
+        "unit": "辆",
+        "price": 17000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装QQ90取力器",
+        "unit": "辆",
+        "price": 18000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装QQ130取力器(A)",
+        "unit": "辆",
+        "price": 20000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装N200法兰取力器",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "取力器",
+        "description": "加装发动机PTO取力",
+        "unit": "辆",
+        "price": 7000,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "车桥": [
+      {
+        "category": "车桥",
+        "description": "4.8T前轴换4.8T加强型前轴",
+        "unit": "轴",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "车桥",
+        "description": "5.5吨HD前轴换装7.5吨HD前轴",
+        "unit": "轴",
+        "price": 2000,
+        "is_deduction": false,
+        "note": "5.5T前轴无法匹配12.00R20轮胎"
+      },
+      {
+        "category": "车桥",
+        "description": "7.5吨HD前轴换装9.5吨HD前轴",
+        "unit": "轴",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "车桥",
+        "description": "13吨HD技术双级桥与16吨HD技术双级桥",
+        "unit": "轴",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "车桥",
+        "description": "13吨HD技术单级桥换装13吨HD技术双级桥",
+        "unit": "轴",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "车桥",
+        "description": "11.5吨HD技术单级桥换装13吨HD技术单级桥",
+        "unit": "轴",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "车桥",
+        "description": "加装后桥筒式减震器",
+        "unit": "轴",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "空气悬架、复合空气悬架可匹配"
+      },
+      {
+        "category": "车桥",
+        "description": "前轴、后桥高配换低配不减钱",
+        "unit": "轴",
+        "price": 0,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "底盘其他": [
+      {
+        "category": "底盘其他",
+        "description": "鼓式制动换装盘式制动",
+        "unit": "轴",
+        "price": 2000,
+        "is_deduction": false,
+        "note": "每根轴或桥加价2000，仅适合标载工况"
+      },
+      {
+        "category": "底盘其他",
+        "description": "盘式制动器指定克诺尔品牌",
+        "unit": "轴",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "底盘其他",
+        "description": "选装前轴轮辋装饰罩",
+        "unit": "轴",
+        "price": 200,
+        "is_deduction": false,
+        "note": "材质为塑料"
+      },
+      {
+        "category": "底盘其他",
+        "description": "选装前轴不锈钢轮辋装饰罩",
+        "unit": "轴",
+        "price": 400,
+        "is_deduction": false,
+        "note": "材质为不锈钢"
+      },
+      {
+        "category": "底盘其他",
+        "description": "后桥稳定杆",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减500元"
+      },
+      {
+        "category": "底盘其他",
+        "description": "换装加强传动轴",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "自卸车、搅拌车标配"
+      },
+      {
+        "category": "底盘其他",
+        "description": "轴距加长",
+        "unit": "300/mm",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "载货车400mm/1000元"
+      },
+      {
+        "category": "底盘其他",
+        "description": "底盘整喷聚脲",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": "4×2车型"
+      }
+    ],
+    "安全类": [
+      {
+        "category": "安全类",
+        "description": "加装国产四通道ABS",
+        "unit": "辆",
+        "price": 4000,
+        "is_deduction": false,
+        "note": "六通道不可装在4×2车型"
+      },
+      {
+        "category": "安全类",
+        "description": "加装国产六通道ABS",
+        "unit": "辆",
+        "price": 6500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装WABCO四通道ABS",
+        "unit": "辆",
+        "price": 5000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装WABCO六通道ABS",
+        "unit": "辆",
+        "price": 7500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装国产电子制动系统EBS",
+        "unit": "辆",
+        "price": 8000,
+        "is_deduction": false,
+        "note": "4×2、6×4、8×4车型"
+      },
+      {
+        "category": "安全类",
+        "description": "加装国产电子制动系统EBS",
+        "unit": "辆",
+        "price": 10000,
+        "is_deduction": false,
+        "note": "6×2、8×2车型"
+      },
+      {
+        "category": "安全类",
+        "description": "加装国产紧急制动系统AEBS",
+        "unit": "辆",
+        "price": 16000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装WABCO紧急制动系统AEBS",
+        "unit": "辆",
+        "price": 22000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装车身稳定系统ESC",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装疲劳监控驾驶系统",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "加装车道偏离预警系统+防碰撞预警",
+        "unit": "辆",
+        "price": 3600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "持续式磨损报警",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": "限X6000平台"
+      },
+      {
+        "category": "安全类",
+        "description": "加装防侧滑系统系统ASR",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "需与WABCO四通道/六通道ABS一起选用"
+      },
+      {
+        "category": "安全类",
+        "description": "换装全车WABCO阀类",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "全车VOSS接头",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "安全类",
+        "description": "自动间隙调整臂",
+        "unit": "每根桥",
+        "price": 400,
+        "is_deduction": false,
+        "note": "驱动桥或轴均可选装（全驱车除外），说明计划中无特别说明默认是前后桥都更换"
+      },
+      {
+        "category": "安全类",
+        "description": "车架后悬长度增加（300mm以上）",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "驱动": [
+      {
+        "category": "驱动",
+        "description": "6×4换装6×6",
+        "unit": "辆",
+        "price": 100000,
+        "is_deduction": false,
+        "note": "500马力以下按此执行，500马力以上需考虑分动器差价"
+      },
+      {
+        "category": "驱动",
+        "description": "4×2换装4×4",
+        "unit": "辆",
+        "price": 100000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驱动",
+        "description": "同扭矩分动箱指定铁马/株齿品牌",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "驱动",
+        "description": "FDX-2500换到FDX-3200",
+        "unit": "个",
+        "price": 40000,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "寒区推荐配置": [
+      {
+        "category": "寒区推荐配置",
+        "description": "保温驾驶室",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减750元"
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "加强暖风",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "加装风暖式独立暖风装置（进口品牌）",
+        "unit": "辆",
+        "price": 4000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "加装风暖式独立暖风装置（国产品牌）",
+        "unit": "辆",
+        "price": 3500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "加装9KW水暖独立暖风装置",
+        "unit": "辆",
+        "price": 10000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "低温管线",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "寒区推荐配置",
+        "description": "加装大厢底板加热排气管（指底盘部分的加价）",
+        "unit": "辆",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "高温地区推荐配置": [
+      {
+        "category": "高温地区推荐配置",
+        "description": "保温驾驶室",
+        "unit": "个",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减750元"
+      },
+      {
+        "category": "高温地区推荐配置",
+        "description": "加装热区空调",
+        "unit": "辆",
+        "price": 4000,
+        "is_deduction": false,
+        "note": "单制冷热区空调与热区空调同价"
+      },
+      {
+        "category": "高温地区推荐配置",
+        "description": "换装高温管线",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "电器系统": [
+      {
+        "category": "电器系统",
+        "description": "加装七寸多媒体显示屏",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装十寸多媒体显示屏",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装倒车影像",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": "需同时加装多媒体显示屏"
+      },
+      {
+        "category": "电器系统",
+        "description": "加装倒车雷达",
+        "unit": "个",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "盲区监控",
+        "unit": "辆",
+        "price": 1700,
+        "is_deduction": false,
+        "note": "需同时加装多媒体显示屏"
+      },
+      {
+        "category": "电器系统",
+        "description": "X5000加装360环视",
+        "unit": "辆",
+        "price": 2500,
+        "is_deduction": false,
+        "note": "需同时加装多媒体显示屏"
+      },
+      {
+        "category": "电器系统",
+        "description": "加装格罗纳斯系统(GLONASS紧急呼叫系统)",
+        "unit": "辆",
+        "price": 5000,
+        "is_deduction": false,
+        "note": "取消减3500"
+      },
+      {
+        "category": "电器系统",
+        "description": "135Ah免维护蓄电池换装165Ah免维护蓄电池",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "165Ah免维护蓄电池换装180Ah免维护蓄电池",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "180Ah免维护蓄电池换装220Ah免维护蓄电池",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "180Ah低温蓄电池换装220Ah低温蓄电池",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "180Ah免维护蓄电池换180Ah低温蓄电池",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装国产电子行驶记录仪",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装进口电子行驶记录仪",
+        "unit": "辆",
+        "price": 3000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "预留行驶记录仪线束及接口",
+        "unit": "辆",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "机械泵发动机加装限速装置",
+        "unit": "辆",
+        "price": 3600,
+        "is_deduction": false,
+        "note": "电控发动机不加价"
+      },
+      {
+        "category": "电器系统",
+        "description": "加装多功能方向盘（带定速巡航）",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "电控发动机标配定速巡航功能 机械泵发动机不可匹配定速巡航功能"
+      },
+      {
+        "category": "电器系统",
+        "description": "ETA断容器",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "减价700"
+      },
+      {
+        "category": "电器系统",
+        "description": "逆变电源接口（300W）",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "逆变电源接口（1200W）",
+        "unit": "个",
+        "price": 1500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "专用车选装远程油门控制装置（包括油门专用线束、远程油门预留接口、远程油门控制器）",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "说明：1.限装配潍柴电控共轨和ISM发动机的车型可选装；2.搅拌车、粉罐车标配摇臂式远程油门控制装置，需在配置中注明“带远程油门控制装置”（仅潍柴共轨和康明斯发动机）；"
+      },
+      {
+        "category": "电器系统",
+        "description": "发动机车下启动装置",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装电动电加热后视镜",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": "X3000牵引车取消该项目不减价"
+      },
+      {
+        "category": "电器系统",
+        "description": "加装后梁照明灯",
+        "unit": "个",
+        "price": 200,
+        "is_deduction": false,
+        "note": "用于自卸车后端大箱下方工作照明使用"
+      },
+      {
+        "category": "电器系统",
+        "description": "X3000加装LED日间行车灯",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": "标配车型取消该项目不减价"
+      },
+      {
+        "category": "电器系统",
+        "description": "加装倒车蜂鸣器",
+        "unit": "辆",
+        "price": 100,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "换装LED尾灯",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "电器系统",
+        "description": "加装ADR系统",
+        "unit": "辆",
+        "price": 6500,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "其他": [
+      {
+        "category": "其他",
+        "description": "三角警示牌",
+        "unit": "个",
+        "price": 100,
+        "is_deduction": false,
+        "note": "每车标配一个警示牌"
+      },
+      {
+        "category": "其他",
+        "description": "加装危险警示灯",
+        "unit": "盏",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "全挂车电气路接口",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "牵引车增加车架引桥",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加大操作平台",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "增加一片铝合金操作平台",
+        "unit": "辆",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装门下护板",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装防飞溅翼子板",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装挡泥皮",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装备胎架",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": "简易备胎架加价100"
+      },
+      {
+        "category": "其他",
+        "description": "加装军用拖勾+八字尾梁",
+        "unit": "辆",
+        "price": 2800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装八字尾梁",
+        "unit": "辆",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "选装驻车楔块",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": "每车两块（包括支架）"
+      },
+      {
+        "category": "其他",
+        "description": "换装32T千斤顶",
+        "unit": "个",
+        "price": 200,
+        "is_deduction": false,
+        "note": "随车工具是16T千斤顶"
+      },
+      {
+        "category": "其他",
+        "description": "换装50T千斤顶",
+        "unit": "个",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装静电拖带",
+        "unit": "条/辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装灭火器（2KG）",
+        "unit": "个",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "加装灭火器（8KG）",
+        "unit": "个",
+        "price": 400,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "选装军车后拖钩",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "选装双前牵引销",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": "必须与德龙铁质保险杠配合使用；"
+      },
+      {
+        "category": "其他",
+        "description": "选装后牵引座",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": "牵引车、泵车无后牵引座，其余车型均标配"
+      },
+      {
+        "category": "其他",
+        "description": "约斯特球销式牵引装置",
+        "unit": "辆",
+        "price": 11000,
+        "is_deduction": false,
+        "note": "全挂车可选"
+      },
+      {
+        "category": "其他",
+        "description": "整车加装大于10kg尿素",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "出口车随车工具(经济版)",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他",
+        "description": "出口车随车工具(豪华版)",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "防护类": [
+      {
+        "category": "防护类",
+        "description": "加装传动轴保护架",
+        "unit": "辆",
+        "price": 200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "防护类",
+        "description": "水箱保护栅",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "防护类",
+        "description": "油底壳保护栅",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": "整体式结构，从中冷器底部一直到发动机油底壳下部"
+      },
+      {
+        "category": "防护类",
+        "description": "前后灯具保护栅",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": "前灯具保护栅200、后灯具保护栅200"
+      },
+      {
+        "category": "防护类",
+        "description": "加装后防护",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减500元"
+      },
+      {
+        "category": "防护类",
+        "description": "加装前下部防护",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减600元"
+      },
+      {
+        "category": "防护类",
+        "description": "加装侧防护",
+        "unit": "辆",
+        "price": 1500,
+        "is_deduction": false,
+        "note": "牵引车可选"
+      },
+      {
+        "category": "防护类",
+        "description": "X6000选装侧防护板",
+        "unit": "辆",
+        "price": 3500,
+        "is_deduction": false,
+        "note": "需考虑X6000的轴距以及油箱布置，此条为固定侧防护加价 可翻转侧防护需加价6500；"
+      },
+      {
+        "category": "防护类",
+        "description": "选装电瓶箱防盗装置",
+        "unit": "辆",
+        "price": 300,
+        "is_deduction": false,
+        "note": "仅是增加可上锁的金属盖"
+      },
+      {
+        "category": "防护类",
+        "description": "选装油箱盖防盗装置",
+        "unit": "辆",
+        "price": 100,
+        "is_deduction": false,
+        "note": "仅是增加可上锁的金属盖"
+      },
+      {
+        "category": "防护类",
+        "description": "燃油防盗报警",
+        "unit": "辆",
+        "price": 150,
+        "is_deduction": false,
+        "note": "含报警喇叭、线束、报警器"
+      },
+      {
+        "category": "防护类",
+        "description": "系统性燃油防盗",
+        "unit": "辆",
+        "price": 400,
+        "is_deduction": false,
+        "note": "含油箱盖防盗"
+      }
+    ],
+    "其他附件": [
+      {
+        "category": "其他附件",
+        "description": "整体式后视镜",
+        "unit": "辆",
+        "price": 600,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "加装卧铺挡帘+环形窗帘",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "整车选装铝合金储气筒",
+        "unit": "辆",
+        "price": 1000,
+        "is_deduction": false,
+        "note": "取消减600"
+      },
+      {
+        "category": "其他附件",
+        "description": "同配置载货车用作专用车",
+        "unit": "辆",
+        "price": 3500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "换装金属挡泥板",
+        "unit": "辆",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "车架增加尾梁人字反光贴",
+        "unit": "辆",
+        "price": 700,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "金属挡泥板换三段整体式挡泥板",
+        "unit": "桥",
+        "price": 1200,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "分体式挡泥板换装三段整体式挡泥板",
+        "unit": "桥",
+        "price": 800,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "分体式挡泥板换装轻量化三段式整体式挡泥板",
+        "unit": "桥",
+        "price": 1000,
+        "is_deduction": false,
+        "note": ""
+      },
+      {
+        "category": "其他附件",
+        "description": "分体式挡泥板换轻量化整体式挡泥板",
+        "unit": "桥",
+        "price": 500,
+        "is_deduction": false,
+        "note": ""
+      }
+    ],
+    "超级版自卸": [
+      {
+        "category": "超级版自卸",
+        "description": "超级版选装包一（钢板保险杠、LED尾灯、加强板簧、尾灯保护栅）",
+        "unit": "辆",
+        "price": 2000,
+        "is_deduction": false,
+        "note": "通用配置加强版F3000 6×4/8×4自卸车选装 1、选装包内不包含/铸造前伸梁+中置牵引拖钩/，若需要此配置需在改装说明中描述，并加价500元； 2、超级版自卸车不体现X3000内饰提升，且不可选择。 3、轮胎根据工况、用户需求单独选择（超级版包内不包含轮胎花纹、层级指定）核价。 4、选装包内各项内容，原则全部体现，如特殊情况取消某项，需单独技术评审，且价格不减价。"
+      },
+      {
+        "category": "超级版自卸",
+        "description": "超级版选装包二（钢板保险杠、加强板簧、长效粗滤、三拉带400L铁油箱+防护、LED尾灯、后桥稳定杆、油底壳防护、系统性燃油防盗、电瓶箱防盗、尾灯保护栅）",
+        "unit": "辆",
+        "price": 5200,
+        "is_deduction": false,
+        "note": ""
+      }
+    ]
+  }
+}

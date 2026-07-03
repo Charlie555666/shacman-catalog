@@ -1,0 +1,1498 @@
+[
+  {
+    "name": "N",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "X3000",
+      "X5000",
+      "X5000S"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISM11E5 450A(满足EEV认证）",
+      "ISM11E5 450A（满足EEV认证）",
+      "ISZ520 54",
+      "M10E5 460A （长换油）",
+      "M13E5 560A（EEV证书）"
+    ]
+  },
+  {
+    "name": "S",
+    "regions": [
+      "亚俄区/CIS"
+    ],
+    "vehicle_count": 52,
+    "priced_count": 8,
+    "platforms": [
+      "F3000",
+      "L3000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "专用车",
+      "全驱车",
+      "天然气车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISD245 50",
+      "ISD270 50",
+      "ISM11E5 440",
+      "WP10.336E53",
+      "WP10.336E53（带PTO）",
+      "WP12.375E50（带PTO）",
+      "WP12.430 E50",
+      "WP12.430E50",
+      "WP12.430E50（带PTO）",
+      "WP13.480E501",
+      "WP13.550E501",
+      "WP13NG430E52 CNG"
+    ]
+  },
+  {
+    "name": "东南非六国",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 41,
+    "priced_count": 41,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "L3000",
+      "X3000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10 385",
+      "M10 440",
+      "M10 480 M13 480",
+      "M13 480",
+      "M13 560",
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP6.210E32",
+      "WP6.240E32"
+    ]
+  },
+  {
+    "name": "中亚三国",
+    "regions": [
+      "亚俄区/CIS"
+    ],
+    "vehicle_count": 41,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10E3 385",
+      "M10E3 450",
+      "WP10.300E22（带PTO）",
+      "WP10.340E22",
+      "WP10.340E22（带PTO）",
+      "WP10.340E32",
+      "WP10.340E32-PTO",
+      "WP10.380E22",
+      "WP10.380E22（带PTO）",
+      "WP10.380E32",
+      "WP12.400E201",
+      "WP12.420E32"
+    ]
+  },
+  {
+    "name": "乌兹别克",
+    "regions": [
+      "亚俄区/CIS"
+    ],
+    "vehicle_count": 10,
+    "priced_count": 0,
+    "platforms": [
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "特种车",
+      "载货车"
+    ],
+    "engines": [
+      "WP12NG380E51 CNG-PTO",
+      "WP13NG430E52 CNG",
+      "WP13NG430E52_CNG",
+      "WP13NG480E58_CNG",
+      "WP7.240E51",
+      "WP7.270E51"
+    ]
+  },
+  {
+    "name": "乌拉圭",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "ISM11E5 385（JACOB）",
+      "ISME420 50（JACOB）",
+      "M10E5 385+PTO"
+    ]
+  },
+  {
+    "name": "亚美尼亚",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 3,
+    "priced_count": 0,
+    "platforms": [
+      "X3000"
+    ],
+    "categories": [
+      "自卸车"
+    ],
+    "engines": [
+      "WP12.430E201",
+      "WP13NG430E52_CNG"
+    ]
+  },
+  {
+    "name": "伊拉克",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "M10E3 385",
+      "M10E3 385+PTO",
+      "M10E3 450 （长换油）",
+      "M13E3 480",
+      "M13E3 520"
+    ]
+  },
+  {
+    "name": "几内亚",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 14,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "M10 460",
+      "M13 520",
+      "WP10.300E22",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP13.500E201"
+    ]
+  },
+  {
+    "name": "刚果金",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 12,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISME420 30（JACOB）",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP12.380E201",
+      "WP12.400E201",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "利比亚",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 11,
+    "priced_count": 0,
+    "platforms": [
+      "H3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISME420 30",
+      "M10 385",
+      "M10 440",
+      "M13 480"
+    ]
+  },
+  {
+    "name": "加纳",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 15,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP12.375N",
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP12.430N"
+    ]
+  },
+  {
+    "name": "卡塔尔",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 2,
+    "priced_count": 0,
+    "platforms": [
+      "H3000",
+      "H3000S"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP12.400E50",
+      "WP12.460E50"
+    ]
+  },
+  {
+    "name": "卢旺达",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 9,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.380E22",
+      "WP12.400E201"
+    ]
+  },
+  {
+    "name": "印度尼西亚",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 52,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "ISM11E5 420（带JACOB）",
+      "ISM11E5_385",
+      "ISM11E5_385（JACOB）",
+      "ISME345 30+JACOB",
+      "ISME345 30（JACOB）",
+      "ISME420_30+JACOB",
+      "ISME5 385（带JACOB）",
+      "ISZ480 51（带JACOB）",
+      "M10 460",
+      "M10E5 360",
+      "M10E5 360 （电控硅油风扇）"
+    ]
+  },
+  {
+    "name": "厄瓜多尔",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 10,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "X3000",
+      "X5000",
+      "X5000 X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISDe285 30",
+      "M10E3 360",
+      "M10E3 450",
+      "M10E3 450+PTO",
+      "M13E3 520"
+    ]
+  },
+  {
+    "name": "吉布提",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "WP10.340E22",
+      "WP12.380E201",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "哈萨克",
+    "regions": [
+      "亚俄区/CIS"
+    ],
+    "vehicle_count": 27,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "L3000",
+      "X3000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISD245 50",
+      "ISD300 50",
+      "ISD300 50-PTO",
+      "M10E5 360",
+      "M10E5 360（带PTO）",
+      "M10E5 385",
+      "M10E5 385（带PTO）",
+      "M10E5 460",
+      "M13E5 560",
+      "WP10.336E53",
+      "WP10.340E22",
+      "WP10.340E22（带PTO）"
+    ]
+  },
+  {
+    "name": "哥伦比亚",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 14,
+    "priced_count": 0,
+    "platforms": [
+      "L3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "D6.7EVIE290（带E标）",
+      "X12EVIE410 （缸内制动）",
+      "X12EVIE410+PTO（带E标）",
+      "X12EVIE410（缸内制动）",
+      "X12EVIE440+PTO（带E标）",
+      "X12EVIE440（缸内制动）",
+      "X12EVIE470（缸内制动）",
+      "Z14EVIE520（缸内制动）"
+    ]
+  },
+  {
+    "name": "喀麦隆",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 18,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "L3000",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M13 480",
+      "WP10.380E22",
+      "WP10.380E22（带PTO）",
+      "WP12.430E201",
+      "WP6.210E32"
+    ]
+  },
+  {
+    "name": "埃及",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 6,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP13NG430A0_CNG"
+    ]
+  },
+  {
+    "name": "墨西哥",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 11,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "L5000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "载货车"
+    ],
+    "engines": [
+      "15NEVIE530（带E标）",
+      "D6.7EVIE290（带E标）",
+      "L9EVIE340（带E标）",
+      "WP13NG460E61_CNG（发动机铭牌带E标）",
+      "X12EVIE410+PTO（带E标）",
+      "X12EVIE440+PTO（带E标）",
+      "Z14EVIE480（带E标）",
+      "Z14EVIE560（发动机带E标",
+      "Z14EVIE560（带E标）"
+    ]
+  },
+  {
+    "name": "多米尼加",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 13,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISDe210 30",
+      "ISME345 30（带JACOB）",
+      "ISME420 30（JACOB）",
+      "ISZ500 30（JACOB）",
+      "M10E3 385（带PTO）",
+      "M10E3 450",
+      "M13E3 480",
+      "M13E3 520"
+    ]
+  },
+  {
+    "name": "安哥拉",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 15,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000S",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "M13 560",
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP12.430E201",
+      "WP13.500E201"
+    ]
+  },
+  {
+    "name": "尼日利亚",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 10,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.380E32",
+      "WP12.430E201",
+      "WP13NG430A0_CNG",
+      "WP13NG430A0_LNG"
+    ]
+  },
+  {
+    "name": "巴基斯坦",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 7,
+    "priced_count": 3,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "L3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10E3 360 （电控硅油风扇）",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP6.240E32",
+      "WP7.270E31"
+    ]
+  },
+  {
+    "name": "巴布亚新几内亚",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 2,
+    "priced_count": 0,
+    "platforms": [
+      "F3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.380E22",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "巴拉圭",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 2,
+    "priced_count": 0,
+    "platforms": [
+      "F3000"
+    ],
+    "categories": [
+      "自卸车"
+    ],
+    "engines": [
+      "ISME385 30（JACOB）",
+      "ISME420 30（JACOB）"
+    ]
+  },
+  {
+    "name": "摩洛哥",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 4,
+    "priced_count": 0,
+    "platforms": [
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "搅拌车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISM11E5 450",
+      "M10E5 460",
+      "WP13.480E501"
+    ]
+  },
+  {
+    "name": "斐济",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 7,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "L5000",
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "WP10H400E50",
+      "WP8.340E51"
+    ]
+  },
+  {
+    "name": "新加坡",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 7,
+    "priced_count": 0,
+    "platforms": [
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "X12EVIE410",
+      "X12EVIE410（PTO)"
+    ]
+  },
+  {
+    "name": "智利",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 3,
+    "priced_count": 0,
+    "platforms": [
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISM11E5 420（JACOB）",
+      "ISZ480 51（JACOB）"
+    ]
+  },
+  {
+    "name": "柬埔寨",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 7,
+    "priced_count": 4,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "L3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.340E22",
+      "WP10.340E22+PTO",
+      "WP10.380E22",
+      "WP6.210E32",
+      "WP7.270E31"
+    ]
+  },
+  {
+    "name": "格鲁吉亚",
+    "regions": [
+      "亚俄区/CIS"
+    ],
+    "vehicle_count": 8,
+    "priced_count": 6,
+    "platforms": [
+      "H3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP12.400E50",
+      "WP12.400E50+PTO",
+      "WP12.430E50",
+      "WP12.430E50+PTO"
+    ]
+  },
+  {
+    "name": "毛里塔尼亚",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 14,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000S",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10E3 385",
+      "M10E3 450",
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.340E22（带PTO）",
+      "WP10.380E22",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "沙特",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 43,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD245 50",
+      "M10E5 385+PTO",
+      "M10E5 460",
+      "M10E5 460_PTO",
+      "M13E5 480 （长换油）",
+      "WP10.336E53",
+      "WP12.400E50",
+      "WP12.430E50",
+      "WP12.460E50",
+      "WP12H460E58"
+    ]
+  },
+  {
+    "name": "泰国",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 3,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车"
+    ],
+    "engines": [
+      "WP10H400E50",
+      "WP7.300E51+带PTO",
+      "WP8.340E51+PTO"
+    ]
+  },
+  {
+    "name": "牙买加",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 17,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "L3000",
+      "X3000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISDe210 30",
+      "ISDe285 30",
+      "ISME345 30（JACOB）",
+      "ISME385 30（JACOB）",
+      "ISME420 30（JACOB）",
+      "WP10.340E22",
+      "WP10.340E22+PTO",
+      "WP10.380E22"
+    ]
+  },
+  {
+    "name": "科威特",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 2,
+    "priced_count": 0,
+    "platforms": [
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "2026年科威特市场应用及配置推荐-牵引",
+      "2026年科威特市场应用及配置推荐-载货"
+    ],
+    "engines": [
+      "WP12.430E50",
+      "WP13.550E501"
+    ]
+  },
+  {
+    "name": "秘鲁",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 21,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "X3000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "ISL325 50+PTO（JACOB）",
+      "ISL325 50（JACOB）",
+      "ISM11E5 420（JACOB）",
+      "ISM11E5 440（JACOB）",
+      "ISZ480 51（JACOB）",
+      "M10E5 360+PTO",
+      "M10E5 385+PTO",
+      "M13E5 520（ECE证书）",
+      "M13E5 560（ECE证书）",
+      "WP13NG430E52_CNG（发动机铭牌带E标）",
+      "WP13NG460E61_CNG（发动机铭牌带E标）"
+    ]
+  },
+  {
+    "name": "突尼斯",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 4,
+    "priced_count": 0,
+    "platforms": [
+      "X3000"
+    ],
+    "categories": [
+      "搅拌车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP12.430N"
+    ]
+  },
+  {
+    "name": "缅甸",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 12,
+    "priced_count": 7,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "搅拌车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10 440 （电控硅油风扇）",
+      "WP10.340E22+PTO",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP12.460N",
+      "WP6.210E32"
+    ]
+  },
+  {
+    "name": "老挝",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 17,
+    "priced_count": 4,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.340E22+PTO",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP12.430E201",
+      "WP12.430N",
+      "WP6.240E32"
+    ]
+  },
+  {
+    "name": "肯尼亚",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 7,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "M10 440",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP6.210E32"
+    ]
+  },
+  {
+    "name": "苏丹",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 11,
+    "priced_count": 4,
+    "platforms": [
+      "F3000",
+      "L3000",
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "WP10.380E22",
+      "WP12.430E201",
+      "WP6.210E32"
+    ]
+  },
+  {
+    "name": "苏里南",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 3,
+    "priced_count": 0,
+    "platforms": [
+      "F3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.380E22",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "菲律宾",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 82,
+    "priced_count": 27,
+    "platforms": [
+      "H3000",
+      "H3000S",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISM11E5 345",
+      "ISM11E5 385",
+      "ISM11E5 420",
+      "ISME 345 30",
+      "ISME385 30",
+      "M10E3 360 （电控硅油风扇）",
+      "M10E3 385",
+      "M10E3 385 （电控硅油风扇）",
+      "M10E3 450",
+      "M10E3 450 （电控硅油风扇）",
+      "M10E5 385 （电控硅油风扇）",
+      "M10E5 460"
+    ]
+  },
+  {
+    "name": "蒙古",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 8,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.340E22（进气加热/水寒宝）",
+      "WP10.380E22（进气加热/水寒宝）",
+      "WP12.400E201（进气加热/水寒宝）",
+      "WP12.430E201（进气加热、水寒宝）",
+      "WP12.460N （进气加热、水寒宝）"
+    ]
+  },
+  {
+    "name": "西非五国",
+    "regions": [
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 23,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000",
+      "H3000S",
+      "X3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "M10 385",
+      "M10 440",
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.380E22",
+      "WP12.400E201",
+      "WP12.430E201"
+    ]
+  },
+  {
+    "name": "越南",
+    "regions": [
+      "亚太区-东南亚/Asia Pacific-SEA"
+    ],
+    "vehicle_count": 41,
+    "priced_count": 16,
+    "platforms": [
+      "F3000",
+      "H3000S",
+      "X3000",
+      "X5000",
+      "偏置"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "ISM11E5_440",
+      "ISME420 30",
+      "M10E5 360（带PTO） （带进气加热）",
+      "M10E5 385 （带进气加热）",
+      "M10E5 385（带进气加热）",
+      "M10E5 410 （带进气加热）",
+      "M10E5 460 （带进气加热）",
+      "M10E5 460（长换油，带进气加热）",
+      "WP10.380E22",
+      "WP10.5H460E50",
+      "WP10H400E50",
+      "WP10H400E50 水寒宝"
+    ]
+  },
+  {
+    "name": "阿尔及利亚",
+    "regions": [
+      "其他/Other",
+      "非洲一区/Africa Zone 1"
+    ],
+    "vehicle_count": 29,
+    "priced_count": 0,
+    "platforms": [
+      "F2000",
+      "F3000",
+      "L3000",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISME420 30",
+      "ISME420 30(带JACOB)",
+      "WP10.290E32",
+      "WP10.300E22",
+      "WP10.340E22",
+      "WP10.340E32",
+      "WP10.380E22",
+      "WP12.430E201",
+      "WP12.460N",
+      "WP6.210E32",
+      "WP7H245E30"
+    ]
+  },
+  {
+    "name": "阿曼",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "M13E3 480",
+      "M13E3 520",
+      "WP12.430N(博世油泵）",
+      "WP12.430N（博世油泵）",
+      "WP13.550E501"
+    ]
+  },
+  {
+    "name": "阿根廷",
+    "regions": [
+      "中南美区/Latin America"
+    ],
+    "vehicle_count": 5,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "L3000",
+      "X5000",
+      "X6000"
+    ],
+    "categories": [
+      "牵引车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "ISM11E5 420（JACOB）",
+      "M10E5 360",
+      "M13E5 560"
+    ]
+  },
+  {
+    "name": "阿联酋",
+    "regions": [
+      "中东/Middle East"
+    ],
+    "vehicle_count": 10,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "X3000",
+      "X5000"
+    ],
+    "categories": [
+      "搅拌车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISM11E5 420",
+      "M10E5 360",
+      "M10E5 460",
+      "M10E5 460+PTO",
+      "M13E5 480",
+      "M13E5 520"
+    ]
+  },
+  {
+    "name": "香港",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 4,
+    "priced_count": 0,
+    "platforms": [
+      "H3000S",
+      "L5000",
+      "X5000"
+    ],
+    "categories": [
+      "搅拌车",
+      "牵引车",
+      "载货车"
+    ],
+    "engines": [
+      "D6.7EVIE290",
+      "WP12H530E68",
+      "WP13.480E62带PTO"
+    ]
+  },
+  {
+    "name": "马来西亚",
+    "regions": [
+      "亚太区-其他/Asia Pacific-Other"
+    ],
+    "vehicle_count": 33,
+    "priced_count": 0,
+    "platforms": [
+      "F3000",
+      "H3000S",
+      "L5000",
+      "S6000",
+      "X3000",
+      "X5000",
+      "X6000",
+      "偏置"
+    ],
+    "categories": [
+      "专用车",
+      "牵引车",
+      "自卸车",
+      "载货车"
+    ],
+    "engines": [
+      "ISD300 50",
+      "M10E5 360 （电控硅油风扇）",
+      "M10E5 360+PTO （电控硅油风扇）",
+      "M10E5 385 （电控硅油风扇）",
+      "M10E5 385+PTO （电控硅油风扇）",
+      "M10E5 410 (长换油)",
+      "M10E5 410 （长换油、电控硅油风扇）",
+      "M10E5 460 （长换油、电控硅油风扇）",
+      "M10E5360",
+      "M10E5460",
+      "M10E5460带PTO",
+      "M13E5 480"
+    ]
+  },
+  {
+    "name": "马达加斯加",
+    "regions": [
+      "非洲二区/Africa Zone 2"
+    ],
+    "vehicle_count": 3,
+    "priced_count": 0,
+    "platforms": [
+      "F3000"
+    ],
+    "categories": [
+      "牵引车",
+      "自卸车"
+    ],
+    "engines": [
+      "WP10.340E22",
+      "WP12.400E201",
+      "WP12.430E201"
+    ]
+  }
+]

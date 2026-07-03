@@ -1,0 +1,980 @@
+{
+  "rules": [
+    {
+      "standard": "ISME345 30",
+      "swap": "ISME420 30",
+      "price_change": 14000.0,
+      "note": "WP10.380E22换WP12.380E201加价4000"
+    },
+    {
+      "standard": "ISME420_30",
+      "swap": "M13 560",
+      "price_change": 27000.0,
+      "note": "WP10.380E22换WP10.380E32加价0"
+    },
+    {
+      "standard": "M10 440",
+      "swap": "M10 480",
+      "price_change": 9000.0,
+      "note": "WP12.430E201换WP13.500E201加价14000"
+    },
+    {
+      "standard": "WP10.300E22",
+      "swap": "W10.340E22",
+      "price_change": 7000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "W10.380E22",
+      "price_change": 10000.0,
+      "note": "关于2026年2季度发动机促销使用说明："
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "M10E5 360",
+      "price_change": 47000.0,
+      "note": "促销时间：4月1日-6月30日（此促销政策从4月1日起的订单计数，所以有配置订单均可计数）"
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP12.400E201",
+      "price_change": 8000.0,
+      "note": "一、促销机型WP10.380E32、WP12.380E201、WP13.500E201三款发动机"
+    },
+    {
+      "standard": "WP10.300E22",
+      "swap": "WP10.336E53",
+      "price_change": 38000.0,
+      "note": "二、促销形式：签单即折让，结算价先减促销，再折点位。"
+    },
+    {
+      "standard": "WP10.300E22",
+      "swap": "ISME5 345",
+      "price_change": 55000.0,
+      "note": "WP10.380E32促销7000元/辆（若订单满20辆，促销9000元/辆）"
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "ISM11E5 345",
+      "price_change": 49000.0,
+      "note": "WP12.380E201促销4000元/辆"
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "WP10.336E53",
+      "price_change": 32000.0,
+      "note": "WP13.500E201促销3000元/辆"
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "WP12.400E50",
+      "price_change": 53000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "ISME 420 30",
+      "price_change": 33000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "ISM11E5 420",
+      "price_change": 63000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "WP12.375E50",
+      "price_change": 50000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "WP12.430E50",
+      "price_change": 56000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "ISM11E 385",
+      "price_change": 53000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "ISM11E5 385",
+      "price_change": 44000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "ISME385 30",
+      "price_change": 15000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP10.375E50",
+      "price_change": 43000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP12.375E50",
+      "price_change": 41000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP12.460E50",
+      "price_change": 55000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP13.550E30",
+      "price_change": 95000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP12.400E201",
+      "price_change": 8000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "M10E5 385",
+      "price_change": 41000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "M10E3 440",
+      "price_change": 25000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "ISM11E5 385",
+      "price_change": 44000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "ISME420 30",
+      "price_change": 24000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "M10E3 385",
+      "price_change": 18000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12 400E201",
+      "swap": "M13 560",
+      "price_change": 43000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.400E201",
+      "swap": "WP13.550E30",
+      "price_change": 87000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.400E201",
+      "swap": "WP12.430E201",
+      "price_change": 7000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.400E201",
+      "swap": "WP10.380E22",
+      "price_change": -5000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.400E50",
+      "swap": "M10E5 460",
+      "price_change": 11000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E201",
+      "swap": "WP13.500E201",
+      "price_change": 14000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E201",
+      "swap": "ISME420 30",
+      "price_change": 9000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E201",
+      "swap": "ISM11E5 440",
+      "price_change": 43000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E201",
+      "swap": "WP12.430E50",
+      "price_change": 32000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E50",
+      "swap": "WP12.400E50",
+      "price_change": -3000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E50",
+      "swap": "WP12.460E50",
+      "price_change": 8000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.180E32",
+      "swap": "WP7.240E51",
+      "price_change": 33500.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.210E32",
+      "swap": "WP7.240E51",
+      "price_change": 32000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.210E32",
+      "swap": "WP6.180E32",
+      "price_change": -2000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.210",
+      "swap": "WP6.240",
+      "price_change": 3500.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.240E32",
+      "swap": "ISDe210 30",
+      "price_change": 29000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP7.240E51",
+      "swap": "WP7.270E51",
+      "price_change": 5000.0,
+      "note": ""
+    },
+    {
+      "standard": "M10 440",
+      "swap": "M10E3 450",
+      "price_change": 3000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP6.210E32",
+      "swap": "WP7.240E51",
+      "price_change": 32000.0,
+      "note": ""
+    },
+    {
+      "standard": "M10E5 360",
+      "swap": "M10E5 460",
+      "price_change": 12000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.460N",
+      "swap": "WP10.380E22",
+      "price_change": -18000.0,
+      "note": ""
+    },
+    {
+      "standard": "M10E5 360",
+      "swap": "M10E5 385",
+      "price_change": 3000.0,
+      "note": ""
+    },
+    {
+      "standard": "ISM420 30",
+      "swap": "M13 E3 520",
+      "price_change": 25000.0,
+      "note": ""
+    },
+    {
+      "standard": "ISM420 30",
+      "swap": "WP12.430E201",
+      "price_change": -7000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12 430E201",
+      "swap": "WP12.460N",
+      "price_change": 12000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10 340E22",
+      "swap": "WP12.430E201",
+      "price_change": 24000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10 340E22",
+      "swap": "WP10.380E22",
+      "price_change": 10000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10 380E22",
+      "swap": "WP12.430E201",
+      "price_change": 15000.0,
+      "note": ""
+    },
+    {
+      "standard": "M10 400",
+      "swap": "M10E3 450",
+      "price_change": 3000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.340E22",
+      "swap": "ISM345 30",
+      "price_change": 19000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.430E50",
+      "swap": "WP12.460E50",
+      "price_change": 8000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "WP10.375E50",
+      "price_change": 43000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.380E22",
+      "swap": "M13E5 520",
+      "price_change": 77000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP12.400E50",
+      "swap": "WP10.336E53",
+      "price_change": -6000.0,
+      "note": ""
+    },
+    {
+      "standard": "WP10.336E53",
+      "swap": "WP12.375E50",
+      "price_change": 12000.0,
+      "note": ""
+    }
+  ],
+  "lookup": {
+    "ISME345 30": [
+      {
+        "swap": "ISME420 30",
+        "price_change": 14000.0
+      }
+    ],
+    "ISME420_30": [
+      {
+        "swap": "M13 560",
+        "price_change": 27000.0
+      }
+    ],
+    "M10 440": [
+      {
+        "swap": "M10 480",
+        "price_change": 9000.0
+      },
+      {
+        "swap": "M10E3 450",
+        "price_change": 3000.0
+      }
+    ],
+    "WP10.300E22": [
+      {
+        "swap": "W10.340E22",
+        "price_change": 7000.0
+      },
+      {
+        "swap": "WP10.336E53",
+        "price_change": 38000.0
+      },
+      {
+        "swap": "ISME5 345",
+        "price_change": 55000.0
+      }
+    ],
+    "WP10.340E22": [
+      {
+        "swap": "W10.380E22",
+        "price_change": 10000.0
+      },
+      {
+        "swap": "M10E5 360",
+        "price_change": 47000.0
+      },
+      {
+        "swap": "ISM11E5 345",
+        "price_change": 49000.0
+      },
+      {
+        "swap": "WP10.336E53",
+        "price_change": 32000.0
+      },
+      {
+        "swap": "WP12.400E50",
+        "price_change": 53000.0
+      },
+      {
+        "swap": "ISME 420 30",
+        "price_change": 33000.0
+      },
+      {
+        "swap": "ISM11E5 420",
+        "price_change": 63000.0
+      },
+      {
+        "swap": "WP12.375E50",
+        "price_change": 50000.0
+      },
+      {
+        "swap": "WP12.430E50",
+        "price_change": 56000.0
+      },
+      {
+        "swap": "ISM11E 385",
+        "price_change": 53000.0
+      },
+      {
+        "swap": "ISM345 30",
+        "price_change": 19000.0
+      }
+    ],
+    "WP10.380E22": [
+      {
+        "swap": "WP12.400E201",
+        "price_change": 8000.0
+      },
+      {
+        "swap": "ISM11E5 385",
+        "price_change": 44000.0
+      },
+      {
+        "swap": "ISME385 30",
+        "price_change": 15000.0
+      },
+      {
+        "swap": "WP10.375E50",
+        "price_change": 43000.0
+      },
+      {
+        "swap": "WP12.375E50",
+        "price_change": 41000.0
+      },
+      {
+        "swap": "WP12.460E50",
+        "price_change": 55000.0
+      },
+      {
+        "swap": "WP13.550E30",
+        "price_change": 95000.0
+      },
+      {
+        "swap": "WP12.400E201",
+        "price_change": 8000.0
+      },
+      {
+        "swap": "M10E5 385",
+        "price_change": 41000.0
+      },
+      {
+        "swap": "M10E3 440",
+        "price_change": 25000.0
+      },
+      {
+        "swap": "ISM11E5 385",
+        "price_change": 44000.0
+      },
+      {
+        "swap": "ISME420 30",
+        "price_change": 24000.0
+      },
+      {
+        "swap": "M10E3 385",
+        "price_change": 18000.0
+      },
+      {
+        "swap": "WP10.375E50",
+        "price_change": 43000.0
+      },
+      {
+        "swap": "M13E5 520",
+        "price_change": 77000.0
+      },
+      {
+        "swap": "WP12.460N",
+        "price_change": -22500
+      },
+      {
+        "swap": "WP10 340E22",
+        "price_change": -8000
+      }
+    ],
+    "WP12 400E201": [
+      {
+        "swap": "M13 560",
+        "price_change": 43000.0
+      }
+    ],
+    "WP12.400E201": [
+      {
+        "swap": "WP13.550E30",
+        "price_change": 87000.0
+      },
+      {
+        "swap": "WP12.430E201",
+        "price_change": 7000.0
+      },
+      {
+        "swap": "WP10.380E22",
+        "price_change": -5000.0
+      }
+    ],
+    "WP12.400E50": [
+      {
+        "swap": "M10E5 460",
+        "price_change": 11000.0
+      },
+      {
+        "swap": "WP10.336E53",
+        "price_change": -6000.0
+      },
+      {
+        "swap": "WP10.340E22",
+        "price_change": -42400
+      },
+      {
+        "swap": "WP12.430E50",
+        "price_change": -3750
+      }
+    ],
+    "WP12.430E201": [
+      {
+        "swap": "WP13.500E201",
+        "price_change": 14000.0
+      },
+      {
+        "swap": "ISME420 30",
+        "price_change": 9000.0
+      },
+      {
+        "swap": "ISM11E5 440",
+        "price_change": 43000.0
+      },
+      {
+        "swap": "WP12.430E50",
+        "price_change": 32000.0
+      },
+      {
+        "swap": "WP12.400E201",
+        "price_change": -5600
+      },
+      {
+        "swap": "ISM420 30",
+        "price_change": -8750
+      },
+      {
+        "swap": "WP10 340E22",
+        "price_change": -19200
+      },
+      {
+        "swap": "WP10 380E22",
+        "price_change": -12000
+      }
+    ],
+    "WP12.430E50": [
+      {
+        "swap": "WP12.400E50",
+        "price_change": -3000.0
+      },
+      {
+        "swap": "WP12.460E50",
+        "price_change": 8000.0
+      },
+      {
+        "swap": "WP12.460E50",
+        "price_change": 8000.0
+      },
+      {
+        "swap": "WP10.340E22",
+        "price_change": -44800
+      },
+      {
+        "swap": "WP12.430E201",
+        "price_change": -25600
+      }
+    ],
+    "WP6.180E32": [
+      {
+        "swap": "WP7.240E51",
+        "price_change": 33500.0
+      },
+      {
+        "swap": "WP6.210E32",
+        "price_change": -2500
+      }
+    ],
+    "WP6.210E32": [
+      {
+        "swap": "WP7.240E51",
+        "price_change": 32000.0
+      },
+      {
+        "swap": "WP6.180E32",
+        "price_change": -2000.0
+      },
+      {
+        "swap": "WP7.240E51",
+        "price_change": 32000.0
+      }
+    ],
+    "WP6.210": [
+      {
+        "swap": "WP6.240",
+        "price_change": 3500.0
+      }
+    ],
+    "WP6.240E32": [
+      {
+        "swap": "ISDe210 30",
+        "price_change": 29000.0
+      }
+    ],
+    "WP7.240E51": [
+      {
+        "swap": "WP7.270E51",
+        "price_change": 5000.0
+      },
+      {
+        "swap": "WP6.180E32",
+        "price_change": -26800
+      },
+      {
+        "swap": "WP6.210E32",
+        "price_change": -25600
+      }
+    ],
+    "M10E5 360": [
+      {
+        "swap": "M10E5 460",
+        "price_change": 12000.0
+      },
+      {
+        "swap": "M10E5 385",
+        "price_change": 3000.0
+      },
+      {
+        "swap": "WP10.340E22",
+        "price_change": -37600
+      }
+    ],
+    "WP12.460N": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -18000.0
+      },
+      {
+        "swap": "WP12 430E201",
+        "price_change": -9600
+      }
+    ],
+    "ISM420 30": [
+      {
+        "swap": "M13 E3 520",
+        "price_change": 25000.0
+      },
+      {
+        "swap": "WP12.430E201",
+        "price_change": -7000.0
+      }
+    ],
+    "WP12 430E201": [
+      {
+        "swap": "WP12.460N",
+        "price_change": 12000.0
+      }
+    ],
+    "WP10 340E22": [
+      {
+        "swap": "WP12.430E201",
+        "price_change": 24000.0
+      },
+      {
+        "swap": "WP10.380E22",
+        "price_change": 10000.0
+      }
+    ],
+    "WP10 380E22": [
+      {
+        "swap": "WP12.430E201",
+        "price_change": 15000.0
+      }
+    ],
+    "M10 400": [
+      {
+        "swap": "M10E3 450",
+        "price_change": 3000.0
+      }
+    ],
+    "WP10.336E53": [
+      {
+        "swap": "WP12.375E50",
+        "price_change": 12000.0
+      },
+      {
+        "swap": "WP10.300E22",
+        "price_change": -30400
+      },
+      {
+        "swap": "WP10.340E22",
+        "price_change": -25600
+      },
+      {
+        "swap": "WP12.400E50",
+        "price_change": -7500
+      }
+    ],
+    "ISME420 30": [
+      {
+        "swap": "ISME345 30",
+        "price_change": -11200
+      },
+      {
+        "swap": "WP10.380E22",
+        "price_change": -19200
+      },
+      {
+        "swap": "WP12.430E201",
+        "price_change": -7200
+      }
+    ],
+    "M13 560": [
+      {
+        "swap": "ISME420_30",
+        "price_change": -21600
+      },
+      {
+        "swap": "WP12 400E201",
+        "price_change": -34400
+      }
+    ],
+    "M10 480": [
+      {
+        "swap": "M10 440",
+        "price_change": -7200
+      }
+    ],
+    "W10.340E22": [
+      {
+        "swap": "WP10.300E22",
+        "price_change": -5600
+      }
+    ],
+    "W10.380E22": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -8000
+      }
+    ],
+    "ISME5 345": [
+      {
+        "swap": "WP10.300E22",
+        "price_change": -44000
+      }
+    ],
+    "ISM11E5 345": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -39200
+      }
+    ],
+    "ISME 420 30": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -26400
+      }
+    ],
+    "ISM11E5 420": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -50400
+      }
+    ],
+    "WP12.375E50": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -40000
+      },
+      {
+        "swap": "WP10.380E22",
+        "price_change": -32800
+      },
+      {
+        "swap": "WP10.336E53",
+        "price_change": -9600
+      }
+    ],
+    "ISM11E 385": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -42400
+      }
+    ],
+    "ISM11E5 385": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -35200
+      }
+    ],
+    "ISME385 30": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -12000
+      }
+    ],
+    "WP10.375E50": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -34400
+      }
+    ],
+    "WP12.460E50": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -44000
+      },
+      {
+        "swap": "WP12.430E50",
+        "price_change": -6400
+      }
+    ],
+    "WP13.550E30": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -76000
+      },
+      {
+        "swap": "WP12.400E201",
+        "price_change": -69600
+      }
+    ],
+    "M10E5 385": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -32800
+      },
+      {
+        "swap": "M10E5 360",
+        "price_change": -2400
+      }
+    ],
+    "M10E3 440": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -20000
+      }
+    ],
+    "M10E3 385": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -14400
+      }
+    ],
+    "M10E5 460": [
+      {
+        "swap": "WP12.400E50",
+        "price_change": -8800
+      },
+      {
+        "swap": "M10E5 360",
+        "price_change": -9600
+      }
+    ],
+    "WP13.500E201": [
+      {
+        "swap": "WP12.430E201",
+        "price_change": -11200
+      }
+    ],
+    "ISM11E5 440": [
+      {
+        "swap": "WP12.430E201",
+        "price_change": -34400
+      }
+    ],
+    "WP6.240": [
+      {
+        "swap": "WP6.210",
+        "price_change": -2800
+      }
+    ],
+    "ISDe210 30": [
+      {
+        "swap": "WP6.240E32",
+        "price_change": -23200
+      }
+    ],
+    "WP7.270E51": [
+      {
+        "swap": "WP7.240E51",
+        "price_change": -4000
+      }
+    ],
+    "M10E3 450": [
+      {
+        "swap": "M10 440",
+        "price_change": -2400
+      },
+      {
+        "swap": "M10 400",
+        "price_change": -2400
+      }
+    ],
+    "M13 E3 520": [
+      {
+        "swap": "ISM420 30",
+        "price_change": -20000
+      }
+    ],
+    "ISM345 30": [
+      {
+        "swap": "WP10.340E22",
+        "price_change": -15200
+      }
+    ],
+    "M13E5 520": [
+      {
+        "swap": "WP10.380E22",
+        "price_change": -61600
+      }
+    ]
+  }
+}
