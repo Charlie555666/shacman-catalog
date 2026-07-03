@@ -182,10 +182,13 @@ const STATE = {
   selectedVehicle: null,
   engineOptions: [],
   selectedEngine: null,
-  selectedAccessories: {},  // {id: true/false}
+  selectedAccessories: {},  // {id: price} for add-on checkboxes
+  _accessorySwapTotal: 0,   // total from swap selections
   engineSwaps: null,
   accessories: null,
   transmissionUpgrades: null,
+  accessorySwaps: null,     // swap-based accessory data
+  accessoryAddons: null,    // add-on items
   selectedTransmission: null,
   _transmissionPriceChange: 0,
   paints: null
@@ -301,6 +304,8 @@ async function selectCountry(name) {
   STATE.selectedVehicle = null;
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
 
   // Load country vehicle data
   const app = document.getElementById('app');
@@ -360,6 +365,8 @@ function selectCategory(cat) {
   STATE.selectedVehicle = null;
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
   STATE.step = 3;
   render();
 }
@@ -398,6 +405,8 @@ function selectPlatform(platform) {
   STATE.selectedVehicle = null;
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
   STATE.step = 4;
   render();
 }
@@ -466,6 +475,8 @@ function selectVehicle(el) {
   STATE.selectedVehicle = vlist[parseInt(el.dataset.idx)];
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
   document.getElementById('btnNextStep4').disabled = false;
 }
 
@@ -542,14 +553,17 @@ async function renderStep5(app) {
   if (!STATE.engineSwaps) {
     app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>正在加载配置数据 / Loading configuration data...</div></div>';
     try {
-      const [es, ac, tu] = await Promise.all([
+      const [es, ac, tu, asw] = await Promise.all([
         fetchJSON(DATA_BASE + 'engine_swaps.json'),
         fetchJSON(DATA_BASE + 'accessories.json'),
-        fetchJSON(DATA_BASE + 'transmission_upgrades.json')
+        fetchJSON(DATA_BASE + 'transmission_upgrades.json'),
+        fetchJSON(DATA_BASE + 'accessory_swaps.json')
       ]);
       STATE.engineSwaps = es;
       STATE.accessories = ac;
       STATE.transmissionUpgrades = tu;
+      STATE.accessorySwaps = asw;
+      STATE.accessoryAddons = asw.addon_items || [];
     } catch(e) {
       app.innerHTML = `<div class="card"><p style="color:red">加载失败 / Failed to load config data: ${e.message}</p></div>`;
       return;
@@ -655,12 +669,70 @@ async function renderStep5(app) {
     </div>`;
   }
 
-  // ── Accessories ──
-  const byCat = STATE.accessories.by_category || {};
-  let accHTML = '<div class="card"><h2><span class="icon">🔩</span> 选装配件 / Optional Accessories</h2>';
+  // ── Accessory Swaps (radio groups by category) ──
+  let accHTML = '';
+  const swapCats = STATE.accessorySwaps.swap_categories || {};
+  const bc = v.base_config || '';
 
-  // Group accessories into logical categories for display
-  const displayOrder = ['变速箱', '驾驶室', '轮胎', '轮辋', '悬架系统', '鞍座', '油箱', '空调', '转向机', '驾驶室悬置', '驾驶室相关部件'];
+  for (const [cat, catInfo] of Object.entries(swapCats)) {
+    const sources = Object.keys(catInfo.options);
+    if (sources.length === 0) continue;
+
+    // Detect vehicle's current config for this category
+    let detectedSource = null;
+    // Check base_config for known source strings
+    for (const src of sources) {
+      if (bc.includes(src) || bc.includes(src.replace(/.*?(\w+驾驶室).*/, '$1'))) {
+        detectedSource = src;
+        break;
+      }
+    }
+
+    // If not detected, use first source as default
+    if (!detectedSource) detectedSource = sources[0];
+    const targets = catInfo.options[detectedSource] || [];
+    if (targets.length === 0) continue;
+
+    accHTML += `<div class="card"><h2><span class="icon">🔩</span> ${cat} / ${catInfo.label_en || cat}</h2>
+      <p style="color:#888; margin-bottom:12px;">当前配置 / Current: <strong>${detectedSource}</strong>${sources.length > 1 ? ' (' + sources.length + '种可选 / options)' : ''}</p>`;
+
+    // "Keep current" option
+    accHTML += `<div class="option-row selected" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '', 0)">
+      <input type="radio" name="swap_${cat.replace(/\s/g,'_')}" checked>
+      <div class="opt-info"><div class="opt-name"><span class="opt-cn">保持原装 / Keep Stock</span><span class="opt-en">Keep original configuration</span></div><div class="opt-desc">${detectedSource}</div></div>
+      <div class="opt-price zero">¥0</div>
+    </div>`;
+
+    // Swap target options
+    for (const t of targets.slice(0, 8)) {
+      const price = t.is_deduction ? -t.price : t.price;
+      const isDowngrade = price < 0;
+      const arrow = isDowngrade ? '↓' : '↑';
+      const label = isDowngrade ? '降级' : '升级';
+      const targetEn = t.target_en || '';
+      accHTML += `<div class="option-row" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '${t.target.replace(/'/g,"\\'")}', ${price})">
+        <input type="radio" name="swap_${cat.replace(/\s/g,'_')}">
+        <div class="opt-info">
+          <div class="opt-name"><span class="opt-cn">${t.target}</span>${targetEn ? '<span class="opt-en">' + targetEn + '</span>' : ''}</div>
+          <div class="opt-desc">${arrow} ${label} / ${isDowngrade ? 'Downgrade' : 'Upgrade'}</div>
+        </div>
+        <div class="opt-price ${price > 0 ? 'positive' : price < 0 ? 'negative' : 'zero'}">${price >= 0 ? '+' : ''}¥${Math.abs(price).toLocaleString()}元</div>
+      </div>`;
+    }
+
+    if (targets.length > 8) {
+      accHTML += `<p style="color:#888; font-size:12px;">还有 ${targets.length - 8} 种选项 / ${targets.length - 8} more options (仅显示8种限最优)</p>`;
+    }
+
+    accHTML += '</div>';
+  }
+
+  // ── Add-on Accessories (checkboxes) ──
+  const byCat = STATE.accessories.by_category || {};
+  let addonHTML = '<div class="card"><h2><span class="icon">📦</span> 加装选装 / Optional Add-ons</h2>';
+
+  // Show add-on items by original categories
+  const displayOrder = ['驾驶室相关部件', '米其林', '三角', '双钱', '中策', '金宇', '成山', '玲珑', '轮辋'];
   const seenCats = new Set();
 
   for (const cat of displayOrder) {
@@ -668,48 +740,45 @@ async function renderStep5(app) {
     if (!items || items.length === 0) continue;
     seenCats.add(cat);
 
-    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
+    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
 
-    // Show top 5 items per category with "show more"
     const showItems = items.slice(0, 5);
     const hiddenItems = items.slice(5);
 
     for (const item of showItems) {
-      const id = `${cat}_${item.description}`;
+      const id = `addon_${cat}_${item.description}`;
       const checked = STATE.selectedAccessories[id] || false;
       const p = item.is_deduction ? -item.price : item.price;
       const isTireSet = item.is_tire_set && v.drive;
       const tireCt = isTireSet ? getTireCount(v.drive) : 0;
       const totalP = isTireSet ? p * tireCt : p;
-      const unitStr = isTireSet ? `×${tireCt}条 / ${tireCt} tires` : `${item.unit}`;
-      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
+      addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
+        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + (item.note_en ? ' / ' + item.note_en : '') + '</div>' : ''}</div>
         <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
-        ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
+        ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
       </div>`;
     }
 
     if (hiddenItems.length > 0) {
       const catId = 'cat_' + cat.replace(/\s/g, '_');
-      accHTML += `<div id="${catId}_more" style="display:none;">`;
+      addonHTML += `<div id="${catId}_more" style="display:none;">`;
       for (const item of hiddenItems) {
-        const id = `${cat}_${item.description}`;
+        const id = `addon_${cat}_${item.description}`;
         const checked = STATE.selectedAccessories[id] || false;
         const p = item.is_deduction ? -item.price : item.price;
         const isTireSet = item.is_tire_set && v.drive;
         const tireCt = isTireSet ? getTireCount(v.drive) : 0;
         const totalP = isTireSet ? p * tireCt : p;
-        const unitStr = isTireSet ? `×${tireCt}条 / ${tireCt} tires` : `${item.unit}`;
-        accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
+        addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
           <input type="checkbox" ${checked ? 'checked' : ''}>
-          <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
+          <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + '</div>' : ''}</div>
           <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
-          ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
+          ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
         </div>`;
       }
-      accHTML += `</div>`;
-      accHTML += `<button class="btn btn-outline btn-sm" onclick="toggleMore('${catId}')" id="${catId}_btn">显示更多 / Show More (${hiddenItems.length}项) ▼</button>`;
+      addonHTML += `</div>`;
+      addonHTML += `<button class="btn btn-outline btn-sm" onclick="toggleMore('${catId}')" id="${catId}_btn">显示更多 / Show More (${hiddenItems.length}项) ▼</button>`;
     }
   }
 
@@ -717,25 +786,24 @@ async function renderStep5(app) {
   for (const [cat, items] of Object.entries(byCat)) {
     if (seenCats.has(cat)) continue;
     if (items.length === 0) continue;
-    accHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
-
+    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
     for (const item of items.slice(0, 4)) {
-      const id = `${cat}_${item.description}`;
+      const id = `addon_${cat}_${item.description}`;
       const checked = STATE.selectedAccessories[id] || false;
       const p = item.is_deduction ? -item.price : item.price;
       const isTireSet = item.is_tire_set && v.drive;
       const tireCt = isTireSet ? getTireCount(v.drive) : 0;
       const totalP = isTireSet ? p * tireCt : p;
-      accHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAccessory('${id.replace(/'/g,"\\'")}', ${totalP})">
+      addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">${optLabel(item)}</div>${noteLabel(item)}</div>
+        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + '</div>' : ''}</div>
         <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
-        ${isTireSet ? `<div class="opt-price-sub">¥${Math.abs(p).toLocaleString()}元/条 ×${tireCt}</div>` : ''}
+        ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
       </div>`;
     }
   }
 
-  accHTML += '</div>';
+  addonHTML += '</div>';
 
   // ── Navigation ──
   const navHTML = `<div class="flex-between mt-20">
@@ -743,22 +811,26 @@ async function renderStep5(app) {
     <button class="btn btn-primary" onclick="STATE.step=6;render()">查看报价汇总 / View Quote →</button>
   </div>`;
 
-  app.innerHTML = engineHTML + transHTML + accHTML + navHTML;
+  app.innerHTML = engineHTML + transHTML + accHTML + addonHTML + navHTML;
 }
 
-function selectEngine(engine, priceChange) {
-  STATE.selectedEngine = engine;
-  STATE._enginePriceChange = priceChange;
+function selectSwap(cat, target, price) {
+  if (!STATE._swapSelections) STATE._swapSelections = {};
+  if (!target) {
+    // Keep original
+    delete STATE._swapSelections[cat];
+  } else {
+    STATE._swapSelections[cat] = { target, price };
+  }
+  // Recalculate swap total
+  STATE._accessorySwapTotal = 0;
+  for (const [c, s] of Object.entries(STATE._swapSelections)) {
+    STATE._accessorySwapTotal += s.price;
+  }
   renderStep5Content();
 }
 
-function selectTransmission(transmission, priceChange) {
-  STATE.selectedTransmission = transmission;
-  STATE._transmissionPriceChange = priceChange;
-  renderStep5Content();
-}
-
-function toggleAccessory(id, price) {
+function toggleAddon(id, price) {
   if (STATE.selectedAccessories[id]) {
     delete STATE.selectedAccessories[id];
   } else {
@@ -799,11 +871,14 @@ function renderStep6(app) {
     accessoriesTotal += price;
     selectedAcc.push({ id, price });
   }
+  const swapTotal = STATE._accessorySwapTotal || 0;
+  const swapSelected = STATE._swapSelections || {};
 
-  const optionTotalWan = (engineChange + transChange + accessoriesTotal) / 10000; // 换装总价(万元)
+  const optionTotalWan = (engineChange + transChange + accessoriesTotal + swapTotal) / 10000; // 换装总价(万元)
   const totalPrice = basePrice + optionTotalWan;
-  // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13
-  const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
+  // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13 + ¥3,000杂费
+  const fobExtraWan = 0.3;
+  const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13 + fobExtraWan;
 
   // Build accessory lookup for English descriptions & tire info
   const accLookup = {};
@@ -889,15 +964,17 @@ function renderStep6(app) {
       <div class="line"><span>底盘价格 / Chassis Base</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
       ${transChange !== 0 ? `<div class="line"><span>变速箱换装 / Gearbox Swap</span><span style="color:${transChange>0?'#ff8a80':'#a5d6a7'}">${transChange>=0?'+':''}¥${Math.abs(transChange).toLocaleString()}元</span></div>` : ''}
-      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(2).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>加装: ${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${Object.entries(swapSelected).map(([cat, s]) => `<div class="line"><span>${cat}换装 / Swap</span><span style="color:${s.price>0?'#ff8a80':'#a5d6a7'}">→ ${s.target} ${s.price>=0?'+':''}¥${Math.abs(s.price).toLocaleString()}元</span></div>`).join('')}
       <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
-      <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price</span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
+      <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price<span style="font-size:11px;color:#888;display:block;">含¥3,000文件/杂费 incl. documentation fee</span></span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
     </div>
     ` : `
     <div class="price-breakdown">
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
       ${transChange !== 0 ? `<div class="line"><span>变速箱换装 / Gearbox Swap</span><span style="color:${transChange>0?'#ff8a80':'#a5d6a7'}">${transChange>=0?'+':''}¥${Math.abs(transChange).toLocaleString()}元</span></div>` : ''}
-      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${selectedAcc.map(a => { const cn = a.id.split('_').slice(2).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>加装: ${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
+      ${Object.entries(swapSelected).map(([cat, s]) => `<div class="line"><span>${cat}换装 / Swap</span><span style="color:${s.price>0?'#ff8a80':'#a5d6a7'}">→ ${s.target} ${s.price>=0?'+':''}¥${Math.abs(s.price).toLocaleString()}元</span></div>`).join('')}
       <div class="line total"><span>选装合计 / Options Subtotal</span><span>¥${optionTotalWan.toFixed(1)} 万</span></div>
     </div>
     `}
@@ -937,6 +1014,10 @@ function resetAll() {
   STATE.selectedVehicle = null;
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
+  STATE._swapSelections = {};
+  STATE._accessorySwapTotal = 0;
   STATE._enginePriceChange = 0;
   STATE.selectedTransmission = null;
   STATE._transmissionPriceChange = 0;
