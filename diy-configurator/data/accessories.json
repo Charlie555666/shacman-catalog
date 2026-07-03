@@ -8,7 +8,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Add 康明斯Jacob制动"
+      "description_en": "Add Cummins Jacobs Engine Brake"
     },
     {
       "category": "",
@@ -18,7 +18,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 防火型消声器（防火帽）"
+      "description_en": "Upgrade to Fireproof Muffler (with Fire Cap)"
     },
     {
       "category": "",
@@ -28,7 +28,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Optional 上排气/右排气（右上排气或右下排气）"
+      "description_en": "Optional Upward/Right-side Exhaust (Right-upward or Right-downward)"
     },
     {
       "category": "",
@@ -38,7 +38,8 @@
       "is_deduction": false,
       "note": "高配换低配不减钱",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 普通空滤中置空滤器"
+      "description_en": "Replace Standard Air Filter with Center-mounted Air Filter",
+      "note_en": "No price reduction for downgrade"
     },
     {
       "category": "",
@@ -48,7 +49,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 普通空滤油浴式空滤器"
+      "description_en": "Replace Standard Air Filter with Oil-bath Air Filter"
     },
     {
       "category": "",
@@ -58,7 +59,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 普通空滤分体式油浴"
+      "description_en": "Replace Standard Air Filter with Split-type Oil-bath Filter"
     },
     {
       "category": "",
@@ -68,7 +69,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 普通空滤双级空滤器"
+      "description_en": "Replace Standard Air Filter with Dual-stage Air Filter"
     },
     {
       "category": "",
@@ -78,7 +79,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Engine / Chassis Options",
-      "description_en": "Switch to 普通空滤沙漠式空滤器"
+      "description_en": "Replace Standard Air Filter with Desert-type Air Filter"
     },
     {
       "category": "悬架系统",
@@ -88,7 +89,8 @@
       "is_deduction": false,
       "note": "4×2车型（指定WABCO品牌需在配置中描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌，加价1000元/辆）",
       "category_en": "Suspension System",
-      "description_en": "Composite air suspension (Domestic ECAS standard)"
+      "description_en": "Optional Composite Air Suspension (Domestic, ECAS Standard)",
+      "note_en": "4×2车型（指定WABCO品牌需在配置中描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌，加价1000元/辆）"
     },
     {
       "category": "悬架系统",
@@ -98,7 +100,8 @@
       "is_deduction": false,
       "note": "4×2车型，4气囊；前少片簧（指定WABCO品牌ECAS系统需在配置中增加描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌加价2000元/辆）",
       "category_en": "Suspension System",
-      "description_en": "Full air suspension (Domestic ECAS standard)"
+      "description_en": "Full Airbag Suspension (Domestic, ECAS Standard)",
+      "note_en": "4×2车型，4气囊；前少片簧（指定WABCO品牌ECAS系统需在配置中增加描述“WABCO ECAS”，并再加价500元） 4×2/6×2车型（气囊指定康迪泰克品牌加价2000元/辆）"
     },
     {
       "category": "悬架系统",
@@ -108,7 +111,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Suspension System",
-      "description_en": "Taper-leaf → Multi-leaf springs (double U-bolts)"
+      "description_en": "Replace Parabolic Leaf Springs with Multi-leaf Springs + 2 U-bolts (Front & Rear)"
     },
     {
       "category": "悬架系统",
@@ -118,7 +121,8 @@
       "is_deduction": false,
       "note": "加强版牵引，载货，专用可选",
       "category_en": "Suspension System",
-      "description_en": "Switch to 两主片两骑马螺栓四主片四骑马螺栓"
+      "description_en": "Upgrade from 2 Main Leaves + 2 U-bolts to 4 Main Leaves + 4 U-bolts",
+      "note_en": "Enhanced version for tractor, cargo, special vehicles"
     },
     {
       "category": "驾驶室",
@@ -128,7 +132,8 @@
       "is_deduction": false,
       "note": "5、6同价",
       "category_en": "Cab",
-      "description_en": "X3000: Flat-top cab → High-roof cab"
+      "description_en": "Delong X3000 Extended Flat-roof (Type 5) Cab → Extended High-roof (Type 4) Cab",
+      "note_en": "Type 5 & 6: same price"
     },
     {
       "category": "驾驶室",
@@ -138,7 +143,7 @@
       "is_deduction": true,
       "note": "",
       "category_en": "Cab",
-      "description_en": "X3000: High-roof cab → Flat-top cab"
+      "description_en": "Delong X3000 Extended High-roof (Type 4) Cab → Extended Flat-roof (Type 5) Cab"
     },
     {
       "category": "驾驶室",
@@ -148,7 +153,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Add 德龙X3000加长高顶驾驶室顶侧导流罩"
+      "description_en": "Delong X3000 Extended High-roof Cab: Add Roof & Side Deflectors"
     },
     {
       "category": "驾驶室",
@@ -158,7 +163,8 @@
       "is_deduction": false,
       "note": "减价1500",
       "category_en": "Cab",
-      "description_en": "Add 德龙X3000驾驶室顶导流罩"
+      "description_en": "Delong X3000 Cab: Add Roof Deflector",
+      "note_en": "Deduct ¥1,500 if removed"
     },
     {
       "category": "驾驶室",
@@ -168,7 +174,8 @@
       "is_deduction": false,
       "note": "D、J同价",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙F3000加长平顶J驾驶室加长高顶N驾驶室"
+      "description_en": "Delong F3000 Extended Flat-roof (J-type) Cab → Extended High-roof (N-type) Cab",
+      "note_en": "Type D & J: same price"
     },
     {
       "category": "驾驶室",
@@ -178,7 +185,7 @@
       "is_deduction": true,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙F3000加长高顶N驾驶室加长平顶J驾驶室"
+      "description_en": "Delong F3000 Extended High-roof (N-type) Cab → Extended Flat-roof (J-type) Cab"
     },
     {
       "category": "驾驶室",
@@ -188,7 +195,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Add 德龙F3000顶导流罩"
+      "description_en": "Delong F3000: Add Roof Deflector"
     },
     {
       "category": "驾驶室",
@@ -198,7 +205,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Add 德龙F3000加长高顶驾驶室顶侧导流罩"
+      "description_en": "Delong F3000 Extended High-roof Cab: Add Roof & Side Deflectors"
     },
     {
       "category": "驾驶室",
@@ -208,7 +215,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙H3000标准驾驶室（M）H3000加长半高顶驾驶室（H）"
+      "description_en": "Delong H3000 Standard Cab (M-type) → H3000 Extended Semi High-roof Cab (H-type)"
     },
     {
       "category": "驾驶室",
@@ -218,7 +225,7 @@
       "is_deduction": true,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙H3000加长半高顶驾驶室（H）新H3000标准驾驶室（M）"
+      "description_en": "Delong H3000 Extended Semi High-roof (H-type) → New H3000 Standard Cab (M-type)"
     },
     {
       "category": "驾驶室",
@@ -228,7 +235,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙H3000半高顶驾驶室（H）高顶驾驶室（G）"
+      "description_en": "Delong H3000 Semi High-roof Cab (H-type) → High-roof Cab (G-type)"
     },
     {
       "category": "驾驶室",
@@ -238,7 +245,7 @@
       "is_deduction": true,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Switch to 德龙H3000高顶驾驶室（G）半高顶驾驶室（H）"
+      "description_en": "Delong H3000 High-roof Cab (G-type) → Semi High-roof Cab (H-type)"
     },
     {
       "category": "驾驶室",
@@ -248,7 +255,8 @@
       "is_deduction": false,
       "note": "取消顶侧导流罩减价1200",
       "category_en": "Cab",
-      "description_en": "Optional 德龙H3000高顶驾驶室（G）顶侧导流罩"
+      "description_en": "Delong H3000 High-roof Cab (G-type): Optional Roof & Side Deflectors",
+      "note_en": "Deduct ¥1,200 if roof/side deflectors removed"
     },
     {
       "category": "驾驶室",
@@ -258,7 +266,8 @@
       "is_deduction": false,
       "note": "取消顶导流罩减价800",
       "category_en": "Cab",
-      "description_en": "Optional 德龙H3000驾驶室顶导流罩"
+      "description_en": "Delong H3000 Cab: Optional Roof Deflector",
+      "note_en": "Deduct ¥800 if roof deflector removed"
     },
     {
       "category": "驾驶室",
@@ -268,7 +277,8 @@
       "is_deduction": false,
       "note": "同价",
       "category_en": "Cab",
-      "description_en": "H3000 → M3000 equivalent cab"
+      "description_en": "Delong H3000: Swap to M3000 Same-spec Cab",
+      "note_en": "Same price"
     },
     {
       "category": "驾驶室",
@@ -278,7 +288,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab",
-      "description_en": "Optional L3000驾驶室导流罩"
+      "description_en": "Delong L3000 Cab: Optional Deflector"
     },
     {
       "category": "驾驶室悬置",
@@ -288,7 +298,8 @@
       "is_deduction": false,
       "note": "减价1000（X3000/X5000牵引车不减价）",
       "category_en": "Cab Suspension",
-      "description_en": "Optional 手动翻转驾驶室电动翻转装置"
+      "description_en": "Manual Cab Tilt → Optional Electric Cab Tilt Device",
+      "note_en": "Deduct ¥1,000 if removed (not applicable for X3000/X5000 tractors)"
     },
     {
       "category": "驾驶室悬置",
@@ -298,7 +309,8 @@
       "is_deduction": false,
       "note": "减价700（X3000/X5000牵引车不减价）",
       "category_en": "Cab Suspension",
-      "description_en": "Switch to 四点液压悬置四点空气悬置驾驶室"
+      "description_en": "4-point Hydraulic Cab Suspension → 4-point Air Cab Suspension",
+      "note_en": "Deduct ¥700 if removed (not applicable for X3000/X5000 tractors)"
     },
     {
       "category": "空调",
@@ -308,7 +320,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Air Conditioning",
-      "description_en": "Add imported parking A/C"
+      "description_en": "Add Imported Parking A/C"
     },
     {
       "category": "空调",
@@ -318,7 +330,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Air Conditioning",
-      "description_en": "Add domestic parking A/C"
+      "description_en": "Add Domestic Parking A/C"
     },
     {
       "category": "空调",
@@ -328,7 +340,8 @@
       "is_deduction": false,
       "note": "单制冷空调与电控自动恒温空调同价",
       "category_en": "Air Conditioning",
-      "description_en": "Switch to 普通暖风电控自动恒温空调"
+      "description_en": "Standard Heater → Electronic Automatic Climate Control",
+      "note_en": "单制冷空调与电控自动恒温空调同价"
     },
     {
       "category": "空调",
@@ -338,7 +351,8 @@
       "is_deduction": false,
       "note": "单制冷热区空调与热区空调同价",
       "category_en": "Air Conditioning",
-      "description_en": "Switch to 电控自动恒温空调热区空调"
+      "description_en": "Electronic Climate Control → Hot-region A/C",
+      "note_en": "单制冷热区空调与热区空调同价"
     },
     {
       "category": "空调",
@@ -348,7 +362,8 @@
       "is_deduction": false,
       "note": "单制冷热区空调与热区空调同价",
       "category_en": "Air Conditioning",
-      "description_en": "Switch to 普通暖风热区空调"
+      "description_en": "Standard Heater → Hot-region A/C",
+      "note_en": "单制冷热区空调与热区空调同价"
     },
     {
       "category": "转向机",
@@ -358,7 +373,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Steering Gear",
-      "description_en": "Upgrade to imported steering gear"
+      "description_en": "Upgrade to Imported Steering Gear"
     },
     {
       "category": "转向机",
@@ -368,7 +383,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Steering Gear",
-      "description_en": "F3000: Right-hand drive (Domestic steering)"
+      "description_en": "Delong F3000: Upgrade to RHD Steering (Domestic Steering Gear)"
     },
     {
       "category": "转向机",
@@ -378,7 +393,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Steering Gear",
-      "description_en": "Switch to X3000/X5000车型右置方向盘（国产转向机）"
+      "description_en": "Delong X3000/X5000: Upgrade to RHD Steering (Domestic Steering Gear)"
     },
     {
       "category": "转向机",
@@ -388,7 +403,8 @@
       "is_deduction": false,
       "note": "H3000S右舵车型仅体现H3000S外观",
       "category_en": "Steering Gear",
-      "description_en": "Switch to H3000S车型右置方向盘（国产转向机）"
+      "description_en": "Delong H3000S: Upgrade to RHD Steering (Domestic Steering Gear)",
+      "note_en": "H3000S RHD models: H3000S exterior only"
     },
     {
       "category": "转向机",
@@ -398,7 +414,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Steering Gear",
-      "description_en": "Switch to H3000车型右置方向盘（国产转向机）"
+      "description_en": "Delong H3000: Upgrade to RHD Steering (Domestic Steering Gear)"
     },
     {
       "category": "转向机",
@@ -408,7 +424,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Steering Gear",
-      "description_en": "Switch to L3000车型右置方向盘（国产转向机）"
+      "description_en": "Delong L3000: Upgrade to RHD Steering (Domestic Steering Gear)"
     },
     {
       "category": "转向机",
@@ -418,7 +434,8 @@
       "is_deduction": false,
       "note": "车辆状态为F3000底盘加偏置驾驶室，非通力偏置矿用自卸车",
       "category_en": "Steering Gear",
-      "description_en": "Switch to 偏置矿用自卸右置方向盘（国产转向机）"
+      "description_en": "Offset Mining Dump Truck: Upgrade to RHD Steering (Domestic Steering Gear)",
+      "note_en": "F3000 chassis + offset cab configuration (non-Tongli mining dump)"
     },
     {
       "category": "驾驶室相关部件",
@@ -428,7 +445,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Add L3000/F3000第三座椅"
+      "description_en": "Delong L3000/F3000: Add Third Seat"
     },
     {
       "category": "驾驶室相关部件",
@@ -438,7 +455,8 @@
       "is_deduction": false,
       "note": "减价500",
       "category_en": "Cab Components",
-      "description_en": "Hydraulic → Air suspension driver seat"
+      "description_en": "Delong X3000/X5000: Hydraulic Driver Seat → Air Driver Seat",
+      "note_en": "Deduct ¥500 if removed"
     },
     {
       "category": "驾驶室相关部件",
@@ -448,7 +466,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Switch to X3000/X5000空气主座椅通风加热空气主座椅"
+      "description_en": "Delong X3000/X5000: Air Driver Seat → Ventilated & Heated Air Driver Seat"
     },
     {
       "category": "驾驶室相关部件",
@@ -458,7 +476,8 @@
       "is_deduction": false,
       "note": "除X3000/X5000以外平台可选；减价500",
       "category_en": "Cab Components",
-      "description_en": "Switch to 液压主座椅空气主座椅"
+      "description_en": "Hydraulic Driver Seat → Air Driver Seat",
+      "note_en": "除X3000/X5000以外平台可选；减价500"
     },
     {
       "category": "驾驶室相关部件",
@@ -468,7 +487,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Switch to 固定副座椅液压副座椅"
+      "description_en": "Fixed Passenger Seat → Hydraulic Passenger Seat"
     },
     {
       "category": "驾驶室相关部件",
@@ -478,7 +497,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Switch to 固定副座椅空气副座椅"
+      "description_en": "Fixed Passenger Seat → Air Passenger Seat"
     },
     {
       "category": "驾驶室相关部件",
@@ -488,7 +507,8 @@
       "is_deduction": false,
       "note": "减价300",
       "category_en": "Cab Components",
-      "description_en": "Add X3000/X5000中控锁"
+      "description_en": "Delong X3000/X5000: Add Central Locking",
+      "note_en": "Deduct ¥300 if removed"
     },
     {
       "category": "驾驶室相关部件",
@@ -498,7 +518,8 @@
       "is_deduction": false,
       "note": "除X3000/X5000以外平台可选",
       "category_en": "Cab Components",
-      "description_en": "Add 中控锁"
+      "description_en": "Add Central Locking",
+      "note_en": "Available for platforms other than X3000/X5000"
     },
     {
       "category": "驾驶室相关部件",
@@ -508,7 +529,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Add X3000加宽卧铺"
+      "description_en": "Delong X3000: Add Wide Sleeper Berth"
     },
     {
       "category": "驾驶室相关部件",
@@ -518,7 +539,8 @@
       "is_deduction": false,
       "note": "X3000牵引车增加和减少该配置均不加价不减价。",
       "category_en": "Cab Components",
-      "description_en": "Center storage box"
+      "description_en": "Center Storage Box",
+      "note_en": "X3000牵引车增加和减少该配置均不加价不减价。"
     },
     {
       "category": "驾驶室相关部件",
@@ -528,7 +550,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Switch to 手动摇窗机电动摇窗机"
+      "description_en": "Manual Window Crank → Power Windows"
     },
     {
       "category": "驾驶室相关部件",
@@ -538,7 +560,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cab Components",
-      "description_en": "Bumper swap: FRP / Metal"
+      "description_en": "Bumper Material Change (FRP ↔ Metal Bumper Swap)"
     },
     {
       "category": "驾驶室相关部件",
@@ -548,7 +570,8 @@
       "is_deduction": false,
       "note": "仅X3000可选",
       "category_en": "Cab Components",
-      "description_en": "Switch to 金属保险杠、玻璃钢保险杠工程保险杠"
+      "description_en": "Metal/FRP Bumper → Heavy-duty Bumper",
+      "note_en": "Only available for X3000"
     },
     {
       "category": "驾驶室相关部件",
@@ -558,7 +581,8 @@
       "is_deduction": false,
       "note": "L3000不可选",
       "category_en": "Cab Components",
-      "description_en": "Add 第三级上车踏板"
+      "description_en": "Add Third Step Board",
+      "note_en": "Not available for L3000"
     },
     {
       "category": "驾驶室相关部件",
@@ -568,7 +592,8 @@
       "is_deduction": false,
       "note": "金属保险杠可选",
       "category_en": "Cab Components",
-      "description_en": "Add 军用保护前围"
+      "description_en": "Add Military Front Guard",
+      "note_en": "Metal bumper required"
     },
     {
       "category": "驾驶室相关部件",
@@ -578,7 +603,8 @@
       "is_deduction": false,
       "note": "X3000牵引车玻璃钢保险杠可选",
       "category_en": "Cab Components",
-      "description_en": "Add 不锈钢前围"
+      "description_en": "Add Stainless Steel Front Guard",
+      "note_en": "X3000 tractor with FRP bumper: optional"
     },
     {
       "category": "鞍座",
@@ -588,7 +614,8 @@
       "is_deduction": false,
       "note": "普通50鞍座与低位50鞍座同价，仅港口运输标柜车型可选",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → Lightweight 90 fifth wheel"
+      "description_en": "Standard 50 Fifth Wheel → Lightweight 90-type Fifth Wheel",
+      "note_en": "Same price as low-profile 50 FW; only for port transport standard container models"
     },
     {
       "category": "鞍座",
@@ -598,7 +625,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → Standard 90 fifth wheel"
+      "description_en": "Standard 50-type Fifth Wheel → Standard 90-type Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -608,7 +635,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → Domestic JSK37DV cast saddle"
+      "description_en": "Standard 50 Fifth Wheel → Domestic JSK37DV Cast Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -618,7 +645,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → JOST 50 saddle (no E-mark)"
+      "description_en": "Standard 50 Fifth Wheel → JOST 50 Fifth Wheel (Non-E-marked)"
     },
     {
       "category": "鞍座",
@@ -628,7 +655,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → JOST 50 saddle (E-marked)"
+      "description_en": "Standard 50 Fifth Wheel → JOST 50 Fifth Wheel (E-marked)"
     },
     {
       "category": "鞍座",
@@ -638,7 +665,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 50 → Domestic cast L50 saddle"
+      "description_en": "Standard 50 Fifth Wheel → Domestic Cast 50 Fifth Wheel (L50)"
     },
     {
       "category": "鞍座",
@@ -648,7 +675,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Standard 90 → Domestic cast L90 saddle"
+      "description_en": "Standard 90 Fifth Wheel → Domestic Cast 90 Fifth Wheel (L90)"
     },
     {
       "category": "鞍座",
@@ -658,7 +685,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 约斯特50鞍座（不带E标）约斯特国产C型铸造50鞍座（JSK37C)"
+      "description_en": "JOST 50 Fifth Wheel (Non-E-marked) → JOST Domestic C-type Cast 50 Fifth Wheel (JSK37C)"
     },
     {
       "category": "鞍座",
@@ -668,7 +695,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 普通50型鞍座约斯特国产化加强50鞍座(JSK39DV1-28)"
+      "description_en": "Standard 50 Fifth Wheel → JOST Domestic Heavy-duty 50 Fifth Wheel (JSK39DV1-28)"
     },
     {
       "category": "鞍座",
@@ -678,7 +705,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to JOST 50鞍座（不带E标）JOST轻量化90鞍座"
+      "description_en": "JOST 50 Fifth Wheel (Non-E-marked) → JOST Lightweight 90 Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -688,7 +715,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 普通90鞍座JOST 90鞍座"
+      "description_en": "Standard 90 Fifth Wheel → JOST 90 Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -698,7 +725,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 普通90鞍座加强型90鞍座"
+      "description_en": "Standard 90 Fifth Wheel → Heavy-duty 90 Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -708,7 +735,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 普通90鞍座加强型JOST 90鞍座(JSK39DV1-35)"
+      "description_en": "Standard 90 Fifth Wheel → Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-35)"
     },
     {
       "category": "鞍座",
@@ -718,7 +745,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 加强型JOST 90鞍座(JSK39DV1-35)加强型JOST 90鞍座(JSK39DV1-46)"
+      "description_en": "Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-35) → Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-46)"
     },
     {
       "category": "鞍座",
@@ -728,7 +755,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 加强型JOST 90鞍座(JSK39DV1-35)国产铸造90鞍座(G9038C-190)带E标"
+      "description_en": "Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-35) → Domestic Cast 90 Fifth Wheel (G9038C-190) E-marked"
     },
     {
       "category": "鞍座",
@@ -738,7 +765,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 加强型JOST 90鞍座(JSK39DV1-35)约斯特国产铸造90鞍座(JSK38C)带E标"
+      "description_en": "Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-35) → JOST Domestic Cast 90 Fifth Wheel (JSK38C) E-marked"
     },
     {
       "category": "鞍座",
@@ -748,7 +775,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 普通90鞍座90型普通双摆鞍座"
+      "description_en": "Standard 90 Fifth Wheel → 90-type Standard Dual-oscillation Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -758,7 +785,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 加强型90型鞍座90型普通双摆鞍座"
+      "description_en": "Heavy-duty 90-type Fifth Wheel → 90-type Standard Dual-oscillation Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -768,7 +795,7 @@
       "is_deduction": true,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 加强型90鞍座JOST 50鞍座(不带E标)"
+      "description_en": "Heavy-duty 90 Fifth Wheel → JOST 50 Fifth Wheel (Non-E-marked)"
     },
     {
       "category": "鞍座",
@@ -778,7 +805,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Add 自卸车临时鞍座"
+      "description_en": "Dump Truck: Add Temporary Fifth Wheel"
     },
     {
       "category": "鞍座",
@@ -788,7 +815,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to JOST 50鞍座约斯特50双摆鞍座（JSK38G1-2）"
+      "description_en": "JOST 50 Fifth Wheel → JOST 50 Dual-oscillation Fifth Wheel (JSK38G1-2)"
     },
     {
       "category": "鞍座",
@@ -798,7 +825,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 10.00R20子午胎10R22.5真空胎"
+      "description_en": "10.00R20 Radial Tires → 10R22.5 Tubeless Tires"
     },
     {
       "category": "鞍座",
@@ -808,7 +835,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 10.00R20子午胎11.00R20子午胎"
+      "description_en": "10.00R20 Radial Tires → 11.00R20 Radial Tires"
     },
     {
       "category": "鞍座",
@@ -818,7 +845,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 11.00R20子午胎12.00R20子午胎"
+      "description_en": "11.00R20 Radial Tires → 12.00R20 Radial Tires"
     },
     {
       "category": "鞍座",
@@ -828,7 +855,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎12.00R24子午胎"
+      "description_en": "12.00R20 Radial Tires → 12.00R24 Radial Tires"
     },
     {
       "category": "鞍座",
@@ -838,7 +865,8 @@
       "is_deduction": false,
       "note": "需选用加宽桥（轮胎选换装加价，加宽桥不加价）",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎13R22.5真空胎"
+      "description_en": "12.00R20 Radial Tires → 13R22.5 Tubeless Tires",
+      "note_en": "Requires wide axle (tire swap has surcharge, axle upgrade free)"
     },
     {
       "category": "鞍座",
@@ -848,7 +876,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎315/70R22.5真空胎"
+      "description_en": "12.00R20 Radial Tires → 315/70R22.5 Tubeless Tires"
     },
     {
       "category": "鞍座",
@@ -858,7 +886,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎315/80R22.5真空胎"
+      "description_en": "12.00R20 Radial Tires → 315/80R22.5 Tubeless Tires"
     },
     {
       "category": "鞍座",
@@ -868,7 +896,8 @@
       "is_deduction": false,
       "note": "385/65R22.5真空胎标配24PR",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎385/65R22.5真空胎"
+      "description_en": "12.00R20 Radial Tires → 385/65R22.5 Tubeless Tires",
+      "note_en": "385/65R22.5真空胎标配24PR"
     },
     {
       "category": "鞍座",
@@ -878,7 +907,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎425/65R22.5（20PR）真空胎"
+      "description_en": "12.00R20 Radial Tires → 425/65R22.5 (20PR) Tubeless Tires"
     },
     {
       "category": "鞍座",
@@ -888,7 +917,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 11R22.5、12R22.5真空胎11.00R20子午胎、295/80R22.5真空胎"
+      "description_en": "11R22.5/12R22.5 Tubeless → 11.00R20 Radial / 295/80R22.5 Tubeless Tires"
     },
     {
       "category": "鞍座",
@@ -898,7 +927,8 @@
       "is_deduction": false,
       "note": "含轮辋价格",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎20-20沙漠轮胎"
+      "description_en": "12.00R20 Radial Tires → 20-20 Desert Tires (incl. rims)",
+      "note_en": "Price includes wheel rims"
     },
     {
       "category": "鞍座",
@@ -908,7 +938,8 @@
       "is_deduction": false,
       "note": "含轮辋价格",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Switch to 12.00R20子午胎15.5-20斜交轮胎"
+      "description_en": "12.00R20 Radial Tires → 15.5-20 Bias Tires (incl. rims)",
+      "note_en": "Price includes wheel rims"
     },
     {
       "category": "鞍座",
@@ -918,7 +949,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "11/12R22.5 tubeless: Block tread"
+      "description_en": "11R22.5 & 12R22.5 Tubeless: Specify Block Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -928,7 +959,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "295/315/80R22.5 radial: Block tread"
+      "description_en": "295/80R22.5 & 315/80R22.5: Specify Block Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -938,7 +969,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "315/70R22.5: Block tread"
+      "description_en": "315/70R22.5: Specify Block Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -948,7 +979,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "13R22.5: Mining tread"
+      "description_en": "13R22.5: Specify Mining Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -958,7 +989,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "315/80R22.5 radial: Mining tread"
+      "description_en": "315/80R22.5: Specify Mining Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -968,7 +999,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "12.00R24 radial: Mining tread"
+      "description_en": "12.00R24: Specify Mining Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -978,7 +1009,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "12.00R20 radial: Mining/Off-road tread"
+      "description_en": "12.00R20: Specify Mining/Off-road Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -988,7 +1019,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "14.00R20 radial: Off-road tread"
+      "description_en": "14.00R20: Specify Off-road Pattern Tread"
     },
     {
       "category": "鞍座",
@@ -1008,7 +1039,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "12.00R20 radial: 18PR → 20PR"
+      "description_en": "12.00R20 Radial: 18PR → 20PR"
     },
     {
       "category": "鞍座",
@@ -1018,7 +1049,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Wide axle option"
+      "description_en": "Select Wide Axle Only"
     },
     {
       "category": "鞍座",
@@ -1028,7 +1059,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Add 胎压监测装置"
+      "description_en": "Add Tire Pressure Monitoring System (TPMS)"
     },
     {
       "category": "鞍座",
@@ -1038,7 +1069,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Add 1x 12.00R20 tire (with rim)"
+      "description_en": "Add One 12.00R20 Tire (incl. Rim)"
     },
     {
       "category": "鞍座",
@@ -1048,7 +1079,8 @@
       "is_deduction": false,
       "note": "14.00R20标配横向花纹",
       "category_en": "Fifth Wheel / Tread Patterns",
-      "description_en": "Add 1x 14.00R20 tire (with rim)"
+      "description_en": "Add One 14.00R20 Tire (incl. Rim)",
+      "note_en": "14.00R20标配横向花纹"
     },
     {
       "category": "米其林",
@@ -1058,7 +1090,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Michelin Tires",
-      "description_en": "11R22.5: Michelin",
+      "description_en": "11R22.5: Specify Michelin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1077,7 +1109,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Michelin Tires",
-      "description_en": "315/80R22.5: Michelin",
+      "description_en": "315/80R22.5: Specify Michelin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1096,7 +1128,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Michelin Tires",
-      "description_en": "295/80R22.5: Michelin",
+      "description_en": "295/80R22.5: Specify Michelin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1115,7 +1147,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Michelin Tires",
-      "description_en": "385/65R22.5: Michelin",
+      "description_en": "385/65R22.5: Specify Michelin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1134,7 +1166,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "12R22.5: Triangle",
+      "description_en": "12R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1153,7 +1185,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "12.00R20: Triangle",
+      "description_en": "12.00R20: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1172,7 +1204,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "295/80R22.5: Triangle",
+      "description_en": "295/80R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1191,7 +1223,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "315/70R22.5: Triangle",
+      "description_en": "315/70R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1210,7 +1242,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "315/80R22.5: Triangle",
+      "description_en": "315/80R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1229,7 +1261,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "13R22.5: Triangle",
+      "description_en": "13R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1248,7 +1280,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "12.00R24: Triangle",
+      "description_en": "12.00R24: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1267,7 +1299,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "14.00R20: Triangle",
+      "description_en": "14.00R20: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1286,7 +1318,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Triangle Tires",
-      "description_en": "385/65R22.5: Triangle",
+      "description_en": "385/65R22.5: Specify Triangle Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1305,7 +1337,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Linglong Tires",
-      "description_en": "All sizes: Linglong",
+      "description_en": "Multiple Sizes: Specify Linglong Brand (295/80, 315/70, 12R, 12.00R20, 315/80, 13R, 12.00R24)",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1324,7 +1356,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "12R22.5: Double Coin",
+      "description_en": "12R22.5: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1343,7 +1375,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "12.00R20: Double Coin",
+      "description_en": "12.00R20: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1362,7 +1394,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "315/80R22.5: Double Coin",
+      "description_en": "315/80R22.5: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1381,7 +1413,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "315/70R22.5: Double Coin",
+      "description_en": "315/70R22.5: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1400,7 +1432,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "425/65R22.5: Double Coin",
+      "description_en": "425/65R22.5: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1419,7 +1451,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Double Coin Tires",
-      "description_en": "385/65R22.5 & 295/80R22.5: Double Coin",
+      "description_en": "385/65R22.5 & 295/80R22.5: Specify Double Coin Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1438,7 +1470,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "12R22.5: Zhongce",
+      "description_en": "12R22.5: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1457,7 +1489,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "12.00R20: Zhongce",
+      "description_en": "12.00R20: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1476,7 +1508,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "315/70R22.5: Zhongce",
+      "description_en": "315/70R22.5: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1495,7 +1527,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "315/80R22.5: Zhongce",
+      "description_en": "315/80R22.5: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1514,7 +1546,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "385/65R22.5: Zhongce",
+      "description_en": "385/65R22.5: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1533,7 +1565,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Zhongce Tires",
-      "description_en": "295/80R22.5: Zhongce",
+      "description_en": "295/80R22.5: Specify Zhongce Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1552,7 +1584,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Jinyu Tires",
-      "description_en": "12.00R20: Jinyu",
+      "description_en": "12.00R20: Specify Jinyu Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1571,7 +1603,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Jinyu Tires",
-      "description_en": "315/80R22.5: Jinyu",
+      "description_en": "315/80R22.5: Specify Jinyu Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1590,7 +1622,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Jinyu Tires",
-      "description_en": "295/80R22.5: Jinyu",
+      "description_en": "295/80R22.5: Specify Jinyu Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1609,7 +1641,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Jinyu Tires",
-      "description_en": "315/70R22.5: Jinyu",
+      "description_en": "315/70R22.5: Specify Jinyu Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1628,7 +1660,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Jinyu Tires",
-      "description_en": "385/65R22.5: Jinyu",
+      "description_en": "385/65R22.5: Specify Jinyu Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1647,7 +1679,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chengshan Tires",
-      "description_en": "12.00R20: Chengshan",
+      "description_en": "12.00R20: Specify Chengshan Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1666,7 +1698,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chengshan Tires",
-      "description_en": "315/70R22.5: Chengshan",
+      "description_en": "315/70R22.5: Specify Chengshan Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1685,7 +1717,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chengshan Tires",
-      "description_en": "315/80R22.5: Chengshan",
+      "description_en": "315/80R22.5: Specify Chengshan Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1704,7 +1736,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chengshan Tires",
-      "description_en": "385/65R22.5 & 12.00R24: Chengshan",
+      "description_en": "385/65R22.5 & 12.00R24: Specify Chengshan Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1723,7 +1755,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chengshan Tires",
-      "description_en": "14.00R20: Chengshan",
+      "description_en": "14.00R20: Specify Chengshan Brand",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1742,7 +1774,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 铝合金轮辋",
+      "description_en": "Upgrade to Aluminum Alloy Wheel Rims",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1761,7 +1793,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 铝合金轮辋（珀然）",
+      "description_en": "Upgrade to Aluminum Alloy Wheel Rims (Poman Brand)",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1780,7 +1812,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 铝合金轮辋（美铝）",
+      "description_en": "Upgrade to Aluminum Alloy Wheel Rims (Alcoa Brand)",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1799,7 +1831,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 大偏置普通铝合金轮辋",
+      "description_en": "Upgrade to Large Offset Standard Aluminum Alloy Wheel Rims",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1818,7 +1850,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 大偏置珀然铝合金轮辋",
+      "description_en": "Upgrade to Large Offset Aluminum Alloy Wheel Rims (Poman Brand)",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1837,7 +1869,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Wheel Rims",
-      "description_en": "Switch to 大偏置美铝铝合金轮辋",
+      "description_en": "Upgrade to Large Offset Aluminum Alloy Wheel Rims (Alcoa Brand)",
       "is_tire_set": true,
       "tire_count": {
         "4×2": 7,
@@ -1856,7 +1888,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add 200L铁油箱"
+      "description_en": "Add 200L Steel Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1866,7 +1898,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add 300L铝合金油箱"
+      "description_en": "Add 300L Aluminum Alloy Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1876,7 +1908,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add 230L铝合金油箱"
+      "description_en": "Add 230L Aluminum Alloy Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1886,7 +1918,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "230L → 260L aluminum fuel tank"
+      "description_en": "230L Aluminum Fuel Tank → 260L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1896,7 +1928,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "260L → 300L aluminum fuel tank"
+      "description_en": "260L Aluminum Fuel Tank → 300L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1906,7 +1938,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "200L steel → 300L aluminum fuel tank"
+      "description_en": "200L Steel Fuel Tank → 300L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1916,7 +1948,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 380L铁油箱400L铝合金油箱"
+      "description_en": "380L Steel Fuel Tank → 400L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1926,7 +1958,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 380L铁油箱400L不锈钢油箱"
+      "description_en": "380L Steel Fuel Tank → 400L Stainless Steel Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1936,7 +1968,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 300L铝合金油箱400L铝合金油箱"
+      "description_en": "300L Aluminum Fuel Tank → 400L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1946,7 +1978,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 400L铝合金油箱600L铝合金油箱"
+      "description_en": "400L Aluminum Fuel Tank → 600L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1956,7 +1988,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 500L铝合金油箱600L铝合金油箱"
+      "description_en": "500L Aluminum Fuel Tank → 600L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1966,7 +1998,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 600L铝合金油箱700L铝合金油箱"
+      "description_en": "600L Aluminum Fuel Tank → 700L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1976,7 +2008,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "700L aluminum → Dual-chamber fuel tank"
+      "description_en": "700L Aluminum Fuel Tank → Dual-chamber Fuel Tank"
     },
     {
       "category": "油箱",
@@ -1986,7 +2018,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Switch to 700L铝合金油箱（400L+300L）铝合金油箱"
+      "description_en": "700L Aluminum Fuel Tank → (400L+300L) Dual Aluminum Fuel Tanks"
     },
     {
       "category": "油箱",
@@ -1996,7 +2028,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "400L → 800L aluminum fuel tank"
+      "description_en": "400L Aluminum Fuel Tank → 800L Aluminum Fuel Tank"
     },
     {
       "category": "油箱",
@@ -2006,7 +2038,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Dual-chamber fuel tank"
+      "description_en": "Dual-chamber Fuel Tank"
     },
     {
       "category": "油箱",
@@ -2016,7 +2048,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add Shibai fuel pre-filter"
+      "description_en": "Add One SIBO Fuel Pre-filter"
     },
     {
       "category": "油箱",
@@ -2026,7 +2058,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add long-life fuel pre-filter"
+      "description_en": "Add One Long-life Pre-filter"
     },
     {
       "category": "油箱",
@@ -2036,7 +2068,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add standard fuel pre-filter"
+      "description_en": "Add One Standard Pre-filter"
     },
     {
       "category": "油箱",
@@ -2046,7 +2078,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Fuel water separator / heater"
+      "description_en": "Fuel Water Separator Heater"
     },
     {
       "category": "油箱",
@@ -2056,7 +2088,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "Add 1 set fuel inlet/return ports"
+      "description_en": "Add 1 Set of Fuel Inlet/Return Ports to Fuel Tank"
     },
     {
       "category": "油箱",
@@ -2066,7 +2098,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Fuel Tank",
-      "description_en": "High→Low spec tank: no price reduction"
+      "description_en": "Fuel Tank: Downgrade (No Price Reduction)"
     },
     {
       "category": "变速箱",
@@ -2076,7 +2108,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "8JS85TM → 8JS105 transmission"
+      "description_en": "8JS85TM → 8JS105 Transmission"
     },
     {
       "category": "变速箱",
@@ -2086,7 +2118,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "8JS85TM → 8JS95TM transmission"
+      "description_en": "8JS85TM → 8JS95TM Transmission"
     },
     {
       "category": "变速箱",
@@ -2096,7 +2128,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 8JS85TM8JS118"
+      "description_en": "8JS85TM → 8JS118 Transmission"
     },
     {
       "category": "变速箱",
@@ -2106,7 +2138,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 8JS85TM8JS125TB"
+      "description_en": "8JS85TM → 8JS125TB Transmission"
     },
     {
       "category": "变速箱",
@@ -2116,7 +2148,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 8JS1189JS119"
+      "description_en": "8JS118 → 9JS119 Transmission"
     },
     {
       "category": "变速箱",
@@ -2126,7 +2158,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 9JS1199JS135"
+      "description_en": "9JS119 → 9JS135 Transmission"
     },
     {
       "category": "变速箱",
@@ -2136,7 +2168,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 9JS135RTD11509C"
+      "description_en": "9JS135 → RTD11509C Transmission"
     },
     {
       "category": "变速箱",
@@ -2146,7 +2178,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to RTD11509C9JS150A"
+      "description_en": "RTD11509C → 9JS150A Transmission"
     },
     {
       "category": "变速箱",
@@ -2156,7 +2188,8 @@
       "is_deduction": false,
       "note": "9JS180与10JSD180同价",
       "category_en": "Transmission",
-      "description_en": "Switch to RTD11509C9JS180/10JSD180"
+      "description_en": "RTD11509C → 9JS180/10JSD180 Transmission",
+      "note_en": "9JS180 & 10JSD180: same price"
     },
     {
       "category": "变速箱",
@@ -2166,7 +2199,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 10JSD18012JSD180T"
+      "description_en": "10JSD180 → 12JSD180T Transmission"
     },
     {
       "category": "变速箱",
@@ -2176,7 +2209,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD160T12JSD180T"
+      "description_en": "12JSD160T → 12JSD180T Transmission"
     },
     {
       "category": "变速箱",
@@ -2186,7 +2219,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD180T12JSD200T-B"
+      "description_en": "12JSD180T → 12JSD200T-B Transmission"
     },
     {
       "category": "变速箱",
@@ -2196,7 +2229,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 10JSD18012JSD200T-B"
+      "description_en": "10JSD180 → 12JSD200T-B Transmission"
     },
     {
       "category": "变速箱",
@@ -2206,7 +2239,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD200T-B12JSDX220T-B"
+      "description_en": "12JSD200T-B → 12JSDX220T-B Transmission"
     },
     {
       "category": "变速箱",
@@ -2216,7 +2249,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD200T-B12JSDX240T"
+      "description_en": "12JSD200T-B → 12JSDX240T Transmission"
     },
     {
       "category": "变速箱",
@@ -2226,7 +2259,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSDX240T12JSDX240K"
+      "description_en": "12JSDX240T → 12JSDX240K Transmission"
     },
     {
       "category": "变速箱",
@@ -2236,7 +2269,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD200T-B16JSD200T"
+      "description_en": "12JSD200T-B → 16JSD200T Transmission"
     },
     {
       "category": "变速箱",
@@ -2246,7 +2279,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSDX240T16JSDX240T"
+      "description_en": "12JSDX240T → 16JSDX240T Transmission"
     },
     {
       "category": "变速箱",
@@ -2256,7 +2289,8 @@
       "is_deduction": false,
       "note": "仅适用于法士特变速箱",
       "category_en": "Transmission",
-      "description_en": "Overdrive / Non-overdrive: same price"
+      "description_en": "Same-spec Transmission: Overdrive vs Direct Drive (Same Price)",
+      "note_en": "Fast Gear transmissions only"
     },
     {
       "category": "变速箱",
@@ -2266,7 +2300,8 @@
       "is_deduction": false,
       "note": "AMT变速箱仅潍柴共轨和康明斯发动机可选，必须带ABS",
       "category_en": "Transmission",
-      "description_en": "Switch to 12JSD200T-BSF16JZ240"
+      "description_en": "12JSD200T-B → SF16JZ240 AMT Transmission",
+      "note_en": "AMT only available with Weichai Common Rail or Cummins engine, ABS required"
     },
     {
       "category": "变速箱",
@@ -2276,7 +2311,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "SF16JZ240 → F16JZ260 transmission"
+      "description_en": "SF16JZ240 → F16JZ260 AMT Transmission"
     },
     {
       "category": "变速箱",
@@ -2286,7 +2321,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "SF16JZ260 → ZF12TX2620 (no retarder)"
+      "description_en": "SF16JZ260 → ZF12TX2620 Transmission (w/o Retarder)"
     },
     {
       "category": "变速箱",
@@ -2296,7 +2331,8 @@
       "is_deduction": false,
       "note": "12档变速箱加价500，仅适用于法士特变速箱",
       "category_en": "Transmission",
-      "description_en": "Switch to 铁壳变速箱铝壳变速箱"
+      "description_en": "Iron Housing → Aluminum Housing Transmission",
+      "note_en": "12-speed transmission +¥500, Fast Gear only"
     },
     {
       "category": "变速箱",
@@ -2306,7 +2342,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Add ZF缓速器、福伊特缓速器"
+      "description_en": "Add ZF/Voith Retarder"
     },
     {
       "category": "变速箱",
@@ -2316,7 +2352,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Add 法士特缓速器"
+      "description_en": "Add Fast Gear Retarder"
     },
     {
       "category": "变速箱",
@@ -2326,7 +2362,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Add 换挡助力（柔性换挡）"
+      "description_en": "Add Shift Assist (Soft Shift)"
     },
     {
       "category": "变速箱",
@@ -2336,7 +2372,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Transmission",
-      "description_en": "Switch to 变速箱高换低减价为选×80%"
+      "description_en": "Transmission Downgrade: Price ×80%"
     },
     {
       "category": "离合器",
@@ -2346,7 +2382,8 @@
       "is_deduction": false,
       "note": "取消减700",
       "category_en": "Clutch",
-      "description_en": "Switch to 国产离合器伊顿离合器"
+      "description_en": "Domestic Clutch → Eaton Clutch",
+      "note_en": "Deduct ¥700 if removed"
     },
     {
       "category": "取力器",
@@ -2356,7 +2393,8 @@
       "is_deduction": false,
       "note": "QH50、QHG50、QHG50B、QHG50C、QD40J同价",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QH50取力器"
+      "description_en": "Add QH50 PTO",
+      "note_en": "QH50, QHG50, QHG50B, QHG50C, QD40J: same price"
     },
     {
       "category": "取力器",
@@ -2366,7 +2404,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QH70取力器"
+      "description_en": "Add QH70 PTO"
     },
     {
       "category": "取力器",
@@ -2376,7 +2414,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QF60取力器"
+      "description_en": "Add QF60 PTO"
     },
     {
       "category": "取力器",
@@ -2386,7 +2424,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QQ60取力器(A/B)"
+      "description_en": "Add QQ60 PTO (Type A/B)"
     },
     {
       "category": "取力器",
@@ -2396,7 +2434,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QQ90取力器"
+      "description_en": "Add QQ90 PTO"
     },
     {
       "category": "取力器",
@@ -2406,7 +2444,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add QQ130取力器(A)"
+      "description_en": "Add QQ130 PTO (Type A)"
     },
     {
       "category": "取力器",
@@ -2416,7 +2454,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add N200法兰取力器"
+      "description_en": "Add N200 Flange PTO"
     },
     {
       "category": "取力器",
@@ -2426,7 +2464,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "PTO / Power Take-Off",
-      "description_en": "Add 发动机PTO取力"
+      "description_en": "Add Engine PTO"
     },
     {
       "category": "车桥",
@@ -2436,7 +2474,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "4.8T → 4.8T Heavy-duty front axle"
+      "description_en": "4.8T Front Axle → 4.8T Heavy-duty Front Axle"
     },
     {
       "category": "车桥",
@@ -2446,7 +2484,8 @@
       "is_deduction": false,
       "note": "5.5T前轴无法匹配12.00R20轮胎",
       "category_en": "Axle",
-      "description_en": "Switch to 5.5吨HD前轴7.5吨HD前轴"
+      "description_en": "5.5T HD Front Axle → 7.5T HD Front Axle",
+      "note_en": "5.5T前轴无法匹配12.00R20轮胎"
     },
     {
       "category": "车桥",
@@ -2456,7 +2495,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "Switch to 7.5吨HD前轴9.5吨HD前轴"
+      "description_en": "7.5T HD Front Axle → 9.5T HD Front Axle"
     },
     {
       "category": "车桥",
@@ -2466,7 +2505,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "13T HD → 16T HD tandem axle"
+      "description_en": "13T HD Double-reduction Axle ↔ 16T HD Double-reduction Axle"
     },
     {
       "category": "车桥",
@@ -2476,7 +2515,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "Switch to 13吨HD技术单级桥13吨HD技术双级桥"
+      "description_en": "13T HD Single-reduction Axle → 13T HD Double-reduction Axle"
     },
     {
       "category": "车桥",
@@ -2486,7 +2525,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "Switch to 11.5吨HD技术单级桥13吨HD技术单级桥"
+      "description_en": "11.5T HD Single-reduction Axle → 13T HD Single-reduction Axle"
     },
     {
       "category": "车桥",
@@ -2496,7 +2535,8 @@
       "is_deduction": false,
       "note": "空气悬架、复合空气悬架可匹配",
       "category_en": "Axle",
-      "description_en": "Add 后桥筒式减震器"
+      "description_en": "Add Rear Axle Cylindrical Shock Absorber",
+      "note_en": "Compatible with air suspension and composite air suspension"
     },
     {
       "category": "车桥",
@@ -2506,7 +2546,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Axle",
-      "description_en": "High→Low spec axle: no price reduction"
+      "description_en": "Front Axle/Rear Axle Downgrade (No Price Reduction)"
     },
     {
       "category": "底盘其他",
@@ -2516,7 +2556,8 @@
       "is_deduction": false,
       "note": "每根轴或桥加价2000，仅适合标载工况",
       "category_en": "Chassis Misc",
-      "description_en": "Switch to 鼓式制动盘式制动"
+      "description_en": "Drum Brake → Disc Brake",
+      "note_en": "+¥2,000 per axle/shaft, standard load only"
     },
     {
       "category": "底盘其他",
@@ -2526,7 +2567,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Chassis Misc",
-      "description_en": "Specify 克诺尔 brand"
+      "description_en": "Disc Brake: Specify Knorr-Bremse Brand"
     },
     {
       "category": "底盘其他",
@@ -2536,7 +2577,8 @@
       "is_deduction": false,
       "note": "材质为塑料",
       "category_en": "Chassis Misc",
-      "description_en": "Optional 前轴轮辋装饰罩"
+      "description_en": "Optional Front Axle Wheel Rim Cover (Plastic)",
+      "note_en": "材质为塑料"
     },
     {
       "category": "底盘其他",
@@ -2546,7 +2588,8 @@
       "is_deduction": false,
       "note": "材质为不锈钢",
       "category_en": "Chassis Misc",
-      "description_en": "Optional 前轴不锈钢轮辋装饰罩"
+      "description_en": "Optional Front Axle Stainless Steel Wheel Rim Cover",
+      "note_en": "材质为不锈钢"
     },
     {
       "category": "底盘其他",
@@ -2556,7 +2599,8 @@
       "is_deduction": false,
       "note": "取消减500元",
       "category_en": "Chassis Misc",
-      "description_en": "Rear axle stabilizer bar"
+      "description_en": "Rear Axle Stabilizer Bar",
+      "note_en": "Deduct ¥500 if removed"
     },
     {
       "category": "底盘其他",
@@ -2566,7 +2610,8 @@
       "is_deduction": false,
       "note": "自卸车、搅拌车标配",
       "category_en": "Chassis Misc",
-      "description_en": "Switch to 加强传动轴"
+      "description_en": "Upgrade to Heavy-duty Drive Shaft",
+      "note_en": "Standard for dump trucks and mixer trucks"
     },
     {
       "category": "底盘其他",
@@ -2576,7 +2621,8 @@
       "is_deduction": false,
       "note": "载货车400mm/1000元",
       "category_en": "Chassis Misc",
-      "description_en": "Extended wheelbase"
+      "description_en": "Extended Wheelbase",
+      "note_en": "Cargo truck: ¥1,000 per 400mm extension"
     },
     {
       "category": "底盘其他",
@@ -2586,7 +2632,8 @@
       "is_deduction": false,
       "note": "4×2车型",
       "category_en": "Chassis Misc",
-      "description_en": "Full chassis polyurea coating"
+      "description_en": "Full Chassis Polyurea Coating",
+      "note_en": "4×2车型"
     },
     {
       "category": "安全类",
@@ -2596,7 +2643,8 @@
       "is_deduction": false,
       "note": "六通道不可装在4×2车型",
       "category_en": "Safety Equipment",
-      "description_en": "Add 国产四通道ABS"
+      "description_en": "Add Domestic 4-channel ABS",
+      "note_en": "六通道不可装在4×2车型"
     },
     {
       "category": "安全类",
@@ -2606,7 +2654,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add 国产六通道ABS"
+      "description_en": "Add Domestic 6-channel ABS"
     },
     {
       "category": "安全类",
@@ -2616,7 +2664,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add WABCO四通道ABS"
+      "description_en": "Add WABCO 4-channel ABS"
     },
     {
       "category": "安全类",
@@ -2626,7 +2674,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add WABCO六通道ABS"
+      "description_en": "Add WABCO 6-channel ABS"
     },
     {
       "category": "安全类",
@@ -2636,7 +2684,8 @@
       "is_deduction": false,
       "note": "4×2、6×4、8×4车型",
       "category_en": "Safety Equipment",
-      "description_en": "Add 国产电子制动系统EBS"
+      "description_en": "Add Domestic Electronic Braking System (EBS)",
+      "note_en": "4×2、6×4、8×4车型"
     },
     {
       "category": "安全类",
@@ -2646,7 +2695,8 @@
       "is_deduction": false,
       "note": "6×2、8×2车型",
       "category_en": "Safety Equipment",
-      "description_en": "Add 国产电子制动系统EBS"
+      "description_en": "Add Domestic Electronic Braking System (EBS)",
+      "note_en": "6×2、8×2车型"
     },
     {
       "category": "安全类",
@@ -2656,7 +2706,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add 国产紧急制动系统AEBS"
+      "description_en": "Add Domestic Advanced Emergency Braking System (AEBS)"
     },
     {
       "category": "安全类",
@@ -2666,7 +2716,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add WABCO紧急制动系统AEBS"
+      "description_en": "Add WABCO Advanced Emergency Braking System (AEBS)"
     },
     {
       "category": "安全类",
@@ -2676,7 +2726,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add 车身稳定系统ESC"
+      "description_en": "Add Electronic Stability Control (ESC)"
     },
     {
       "category": "安全类",
@@ -2686,7 +2736,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add 疲劳监控驾驶系统"
+      "description_en": "Add Driver Fatigue Monitoring System"
     },
     {
       "category": "安全类",
@@ -2696,7 +2746,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Add 车道偏离预警系统+防碰撞预警"
+      "description_en": "Add Lane Departure Warning + Forward Collision Warning"
     },
     {
       "category": "安全类",
@@ -2706,7 +2756,8 @@
       "is_deduction": false,
       "note": "限X6000平台",
       "category_en": "Safety Equipment",
-      "description_en": "Continuous wear alert system"
+      "description_en": "Continuous Brake Wear Alert",
+      "note_en": "限X6000平台"
     },
     {
       "category": "安全类",
@@ -2716,7 +2767,8 @@
       "is_deduction": false,
       "note": "需与WABCO四通道/六通道ABS一起选用",
       "category_en": "Safety Equipment",
-      "description_en": "Add 防侧滑系统系统ASR"
+      "description_en": "Add Anti-Slip Regulation (ASR)",
+      "note_en": "Must be combined with WABCO 4/6-channel ABS"
     },
     {
       "category": "安全类",
@@ -2726,7 +2778,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Switch to 全车WABCO阀类"
+      "description_en": "Upgrade to Full Vehicle WABCO Valves"
     },
     {
       "category": "安全类",
@@ -2736,7 +2788,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Full vehicle VOSS connectors"
+      "description_en": "Full Vehicle VOSS Connectors"
     },
     {
       "category": "安全类",
@@ -2746,7 +2798,8 @@
       "is_deduction": false,
       "note": "驱动桥或轴均可选装（全驱车除外），说明计划中无特别说明默认是前后桥都更换",
       "category_en": "Safety Equipment",
-      "description_en": "Automatic slack adjuster"
+      "description_en": "Automatic Slack Adjuster",
+      "note_en": "Available for drive axle/shaft (excl. AWD). Default: both front & rear if not specified"
     },
     {
       "category": "安全类",
@@ -2756,7 +2809,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Safety Equipment",
-      "description_en": "Extended frame rear overhang (>300mm)"
+      "description_en": "Frame Rear Overhang Extension (300mm+)"
     },
     {
       "category": "驱动",
@@ -2766,8 +2819,8 @@
       "is_deduction": false,
       "note": "500马力以下按此执行，500马力以上需考虑分动器差价",
       "category_en": "Drivetrain",
-      "description_en": "Switch to 6×46×6",
-      "note_en": "Price difference"
+      "description_en": "6×4 → 6×6 AWD Conversion",
+      "note_en": "Applies to ≤500HP; >500HP requires transfer case price adjustment"
     },
     {
       "category": "驱动",
@@ -2777,7 +2830,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Drivetrain",
-      "description_en": "Switch to 4×24×4"
+      "description_en": "4×2 → 4×4 AWD Conversion"
     },
     {
       "category": "驱动",
@@ -2787,7 +2840,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Drivetrain",
-      "description_en": "Specify 铁马/株齿 brand"
+      "description_en": "Same-torque Transfer Case: Specify Tiema/Zhuchi Brand"
     },
     {
       "category": "驱动",
@@ -2797,7 +2850,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Drivetrain",
-      "description_en": "FDX-2500 → FDX-3200"
+      "description_en": "FDX-2500 → FDX-3200 Transfer Case"
     },
     {
       "category": "寒区推荐配置",
@@ -2807,7 +2860,8 @@
       "is_deduction": false,
       "note": "取消减750元",
       "category_en": "Cold Region Package",
-      "description_en": "Insulated cab"
+      "description_en": "Insulated Cab",
+      "note_en": "Deduct ¥750 if removed"
     },
     {
       "category": "寒区推荐配置",
@@ -2817,7 +2871,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Heavy-duty heater"
+      "description_en": "Enhanced Heater"
     },
     {
       "category": "寒区推荐配置",
@@ -2827,7 +2881,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Add 风暖式独立暖风装置（进口品牌）"
+      "description_en": "Add Air-heating Independent Heater (Imported Brand)"
     },
     {
       "category": "寒区推荐配置",
@@ -2837,7 +2891,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Add 风暖式独立暖风装置（国产品牌）"
+      "description_en": "Add Air-heating Independent Heater (Domestic Brand)"
     },
     {
       "category": "寒区推荐配置",
@@ -2847,7 +2901,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Add 9KW水暖独立暖风装置"
+      "description_en": "Add 9KW Water-heating Independent Heater"
     },
     {
       "category": "寒区推荐配置",
@@ -2857,7 +2911,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Low-temperature hoses & lines"
+      "description_en": "Low-temperature Piping"
     },
     {
       "category": "寒区推荐配置",
@@ -2867,7 +2921,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Cold Region Package",
-      "description_en": "Add 大厢底板加热排气管（指底盘部分的加价）"
+      "description_en": "Add Cargo Floor Heating Exhaust Pipe (Chassis Part)"
     },
     {
       "category": "高温地区推荐配置",
@@ -2877,7 +2931,8 @@
       "is_deduction": false,
       "note": "取消减750元",
       "category_en": "Hot Region Package",
-      "description_en": "Insulated cab"
+      "description_en": "Insulated Cab",
+      "note_en": "Deduct ¥750 if removed"
     },
     {
       "category": "高温地区推荐配置",
@@ -2887,7 +2942,8 @@
       "is_deduction": false,
       "note": "单制冷热区空调与热区空调同价",
       "category_en": "Hot Region Package",
-      "description_en": "Add 热区空调"
+      "description_en": "Add Hot-region A/C",
+      "note_en": "单制冷热区空调与热区空调同价"
     },
     {
       "category": "高温地区推荐配置",
@@ -2897,7 +2953,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Hot Region Package",
-      "description_en": "Switch to 高温管线"
+      "description_en": "Upgrade to High-temperature Piping"
     },
     {
       "category": "电器系统",
@@ -2907,7 +2963,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 七寸多媒体显示屏"
+      "description_en": "Add 7-inch Multimedia Display"
     },
     {
       "category": "电器系统",
@@ -2917,7 +2973,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 十寸多媒体显示屏"
+      "description_en": "Add 10-inch Multimedia Display"
     },
     {
       "category": "电器系统",
@@ -2927,7 +2983,8 @@
       "is_deduction": false,
       "note": "需同时加装多媒体显示屏",
       "category_en": "Electrical System",
-      "description_en": "Add 倒车影像"
+      "description_en": "Add Reverse Camera",
+      "note_en": "Requires multimedia display"
     },
     {
       "category": "电器系统",
@@ -2937,7 +2994,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 倒车雷达"
+      "description_en": "Add Reverse Parking Radar"
     },
     {
       "category": "电器系统",
@@ -2947,7 +3004,8 @@
       "is_deduction": false,
       "note": "需同时加装多媒体显示屏",
       "category_en": "Electrical System",
-      "description_en": "Blind spot monitoring"
+      "description_en": "Blind Spot Monitoring System",
+      "note_en": "Requires multimedia display"
     },
     {
       "category": "电器系统",
@@ -2957,7 +3015,8 @@
       "is_deduction": false,
       "note": "需同时加装多媒体显示屏",
       "category_en": "Electrical System",
-      "description_en": "Add X5000360环视"
+      "description_en": "Delong X5000: Add 360 Surround View",
+      "note_en": "Requires multimedia display"
     },
     {
       "category": "电器系统",
@@ -2967,7 +3026,8 @@
       "is_deduction": false,
       "note": "取消减3500",
       "category_en": "Electrical System",
-      "description_en": "Add 格罗纳斯系统(GLONASS紧急呼叫系统)"
+      "description_en": "Add GLONASS Emergency Call System",
+      "note_en": "Deduct ¥3,500 if removed"
     },
     {
       "category": "电器系统",
@@ -2977,7 +3037,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Switch to 135Ah免维护蓄电池165Ah免维护蓄电池"
+      "description_en": "135Ah Maintenance-free Battery → 165Ah Maintenance-free Battery"
     },
     {
       "category": "电器系统",
@@ -2987,7 +3047,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Switch to 165Ah免维护蓄电池180Ah免维护蓄电池"
+      "description_en": "165Ah Maintenance-free Battery → 180Ah Maintenance-free Battery"
     },
     {
       "category": "电器系统",
@@ -2997,7 +3057,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Switch to 180Ah免维护蓄电池220Ah免维护蓄电池"
+      "description_en": "180Ah Maintenance-free Battery → 220Ah Maintenance-free Battery"
     },
     {
       "category": "电器系统",
@@ -3007,7 +3067,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Switch to 180Ah低温蓄电池220Ah低温蓄电池"
+      "description_en": "180Ah Low-temperature Battery → 220Ah Low-temperature Battery"
     },
     {
       "category": "电器系统",
@@ -3017,7 +3077,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "180Ah MF → 180Ah low-temp battery"
+      "description_en": "180Ah Maintenance-free Battery → 180Ah Low-temperature Battery"
     },
     {
       "category": "电器系统",
@@ -3027,7 +3087,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 国产电子行驶记录仪"
+      "description_en": "Add Domestic Electronic Driving Recorder"
     },
     {
       "category": "电器系统",
@@ -3037,7 +3097,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 进口电子行驶记录仪"
+      "description_en": "Add Imported Electronic Driving Recorder"
     },
     {
       "category": "电器系统",
@@ -3047,7 +3107,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Pre-wired for trip recorder"
+      "description_en": "Pre-wired for Driving Recorder (Harness & Interface)"
     },
     {
       "category": "电器系统",
@@ -3057,7 +3117,8 @@
       "is_deduction": false,
       "note": "电控发动机不加价",
       "category_en": "Electrical System",
-      "description_en": "Add 机械泵发动机限速装置"
+      "description_en": "Mechanical Pump Engine: Add Speed Limiter",
+      "note_en": "电控发动机不加价"
     },
     {
       "category": "电器系统",
@@ -3067,7 +3128,8 @@
       "is_deduction": false,
       "note": "电控发动机标配定速巡航功能 机械泵发动机不可匹配定速巡航功能",
       "category_en": "Electrical System",
-      "description_en": "Add 多功能方向盘（带定速巡航）"
+      "description_en": "Add Multi-function Steering Wheel (with Cruise Control)",
+      "note_en": "Cruise control standard on electronic engines; not available for mechanical pump engines"
     },
     {
       "category": "电器系统",
@@ -3077,7 +3139,8 @@
       "is_deduction": false,
       "note": "减价700",
       "category_en": "Electrical System",
-      "description_en": "ETA fuse / circuit breaker"
+      "description_en": "ETA Circuit Breaker",
+      "note_en": "减价700"
     },
     {
       "category": "电器系统",
@@ -3087,7 +3150,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "300W inverter outlet"
+      "description_en": "Power Inverter Outlet (300W)"
     },
     {
       "category": "电器系统",
@@ -3097,7 +3160,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "1200W inverter outlet"
+      "description_en": "Power Inverter Outlet (1200W)"
     },
     {
       "category": "电器系统",
@@ -3107,7 +3170,8 @@
       "is_deduction": false,
       "note": "说明：1.限装配潍柴电控共轨和ISM发动机的车型可选装；2.搅拌车、粉罐车标配摇臂式远程油门控制装置，需在配置中注明“带远程油门控制装置”（仅潍柴共轨和康明斯发动机）；",
       "category_en": "Electrical System",
-      "description_en": "Optional 专用车远程油门控制装置（包括油门专用线束、远程油门预留接口、远程油门控制器）"
+      "description_en": "Special-purpose Vehicle: Optional Remote Throttle Control (incl. harness, interface, and controller)",
+      "note_en": "说明：1.限装配潍柴电控共轨和ISM发动机的车型可选装；2.搅拌车、粉罐车标配摇臂式远程油门控制装置，需在配置中注明“带远程油门控制装置”（仅潍柴共轨和康明斯发动机）；"
     },
     {
       "category": "电器系统",
@@ -3117,7 +3181,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Engine remote start switch"
+      "description_en": "Engine Under-chassis Start Device"
     },
     {
       "category": "电器系统",
@@ -3127,7 +3191,8 @@
       "is_deduction": false,
       "note": "X3000牵引车取消该项目不减价",
       "category_en": "Electrical System",
-      "description_en": "Add 电动电加热后视镜"
+      "description_en": "Add Electric Heated Rearview Mirrors",
+      "note_en": "No price reduction for X3000 tractors if removed"
     },
     {
       "category": "电器系统",
@@ -3137,7 +3202,8 @@
       "is_deduction": false,
       "note": "用于自卸车后端大箱下方工作照明使用",
       "category_en": "Electrical System",
-      "description_en": "Add 后梁照明灯"
+      "description_en": "Add Rear Frame Work Light",
+      "note_en": "用于自卸车后端大箱下方工作照明使用"
     },
     {
       "category": "电器系统",
@@ -3147,7 +3213,8 @@
       "is_deduction": false,
       "note": "标配车型取消该项目不减价",
       "category_en": "Electrical System",
-      "description_en": "Add X3000LED日间行车灯"
+      "description_en": "Delong X3000: Add LED Daytime Running Lights",
+      "note_en": "No price reduction for standard models if removed"
     },
     {
       "category": "电器系统",
@@ -3157,7 +3224,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add 倒车蜂鸣器"
+      "description_en": "Add Reverse Buzzer"
     },
     {
       "category": "电器系统",
@@ -3167,7 +3234,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Switch to LED尾灯"
+      "description_en": "Upgrade to LED Tail Lights"
     },
     {
       "category": "电器系统",
@@ -3177,7 +3244,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Electrical System",
-      "description_en": "Add ADR系统"
+      "description_en": "Add ADR System (Hazardous Goods Compliance)"
     },
     {
       "category": "其他",
@@ -3187,7 +3254,8 @@
       "is_deduction": false,
       "note": "每车标配一个警示牌",
       "category_en": "Others",
-      "description_en": "Warning triangle"
+      "description_en": "Warning Triangle",
+      "note_en": "每车标配一个警示牌"
     },
     {
       "category": "其他",
@@ -3197,7 +3265,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 危险警示灯"
+      "description_en": "Add Hazard Warning Light"
     },
     {
       "category": "其他",
@@ -3207,7 +3275,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Full trailer electrical/pneumatic interface"
+      "description_en": "Full Trailer Electrical & Pneumatic Interface"
     },
     {
       "category": "其他",
@@ -3217,7 +3285,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add chassis ramp (tractor)"
+      "description_en": "Tractor Truck: Add Frame Approach Bridge"
     },
     {
       "category": "其他",
@@ -3227,7 +3295,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Enlarged working platform"
+      "description_en": "Add Enlarged Operation Platform"
     },
     {
       "category": "其他",
@@ -3237,7 +3305,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 1 aluminum working platform"
+      "description_en": "Add One Aluminum Alloy Operation Platform"
     },
     {
       "category": "其他",
@@ -3247,7 +3315,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 门下护板"
+      "description_en": "Add Cab Door Lower Guards"
     },
     {
       "category": "其他",
@@ -3257,7 +3325,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 防飞溅翼子板"
+      "description_en": "Add Anti-splash Fenders"
     },
     {
       "category": "其他",
@@ -3267,7 +3335,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 挡泥皮"
+      "description_en": "Add Mud Flaps"
     },
     {
       "category": "其他",
@@ -3277,7 +3345,8 @@
       "is_deduction": false,
       "note": "简易备胎架加价100",
       "category_en": "Others",
-      "description_en": "Add 备胎架"
+      "description_en": "Add Spare Tire Carrier",
+      "note_en": "Simple spare tire carrier: +¥100"
     },
     {
       "category": "其他",
@@ -3287,7 +3356,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 军用拖勾+八字尾梁"
+      "description_en": "Add Military Tow Hook + Splayed Rear Crossmember"
     },
     {
       "category": "其他",
@@ -3297,7 +3366,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 八字尾梁"
+      "description_en": "Add Splayed Rear Crossmember"
     },
     {
       "category": "其他",
@@ -3307,7 +3376,8 @@
       "is_deduction": false,
       "note": "每车两块（包括支架）",
       "category_en": "Others",
-      "description_en": "Optional 驻车楔块"
+      "description_en": "Optional Wheel Chocks (2 pcs + brackets)",
+      "note_en": "每车两块（包括支架）"
     },
     {
       "category": "其他",
@@ -3317,7 +3387,8 @@
       "is_deduction": false,
       "note": "随车工具是16T千斤顶",
       "category_en": "Others",
-      "description_en": "Switch to 32T千斤顶"
+      "description_en": "Upgrade to 32-ton Jack",
+      "note_en": "随车工具是16T千斤顶"
     },
     {
       "category": "其他",
@@ -3327,7 +3398,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Switch to 50T千斤顶"
+      "description_en": "Upgrade to 50-ton Jack"
     },
     {
       "category": "其他",
@@ -3337,7 +3408,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 静电拖带"
+      "description_en": "Add Anti-static Ground Strap"
     },
     {
       "category": "其他",
@@ -3347,7 +3418,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 灭火器（2KG）"
+      "description_en": "Add Fire Extinguisher (2KG)"
     },
     {
       "category": "其他",
@@ -3357,7 +3428,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 灭火器（8KG）"
+      "description_en": "Add Fire Extinguisher (8KG)"
     },
     {
       "category": "其他",
@@ -3367,7 +3438,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Optional 军车后拖钩"
+      "description_en": "Optional Military Rear Tow Hook"
     },
     {
       "category": "其他",
@@ -3377,7 +3448,8 @@
       "is_deduction": false,
       "note": "必须与德龙铁质保险杠配合使用；",
       "category_en": "Others",
-      "description_en": "Optional 双前牵引销"
+      "description_en": "Optional Dual Front Tow Pins",
+      "note_en": "必须与德龙铁质保险杠配合使用；"
     },
     {
       "category": "其他",
@@ -3387,7 +3459,8 @@
       "is_deduction": false,
       "note": "牵引车、泵车无后牵引座，其余车型均标配",
       "category_en": "Others",
-      "description_en": "Optional 后牵引座"
+      "description_en": "Optional Rear Towing Hitch",
+      "note_en": "Standard on all models except tractors and pump trucks"
     },
     {
       "category": "其他",
@@ -3397,7 +3470,8 @@
       "is_deduction": false,
       "note": "全挂车可选",
       "category_en": "Others",
-      "description_en": "JOST ball-type towing hitch"
+      "description_en": "JOST Ball-type Towing Coupling",
+      "note_en": "Available for full trailers"
     },
     {
       "category": "其他",
@@ -3407,7 +3481,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Add 整车大于10kg尿素"
+      "description_en": "Vehicle: Add Urea/AdBlue (>10kg)"
     },
     {
       "category": "其他",
@@ -3417,7 +3491,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Export tool kit (Economy)"
+      "description_en": "Export Vehicle Tool Kit (Economy Version)"
     },
     {
       "category": "其他",
@@ -3427,7 +3501,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Others",
-      "description_en": "Export tool kit (Deluxe)"
+      "description_en": "Export Vehicle Tool Kit (Luxury Version)"
     },
     {
       "category": "防护类",
@@ -3437,7 +3511,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Protection",
-      "description_en": "Add 传动轴保护架"
+      "description_en": "Add Drive Shaft Guard"
     },
     {
       "category": "防护类",
@@ -3447,7 +3521,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Protection",
-      "description_en": "Radiator protection grille"
+      "description_en": "Radiator Protection Grille"
     },
     {
       "category": "防护类",
@@ -3457,7 +3531,8 @@
       "is_deduction": false,
       "note": "整体式结构，从中冷器底部一直到发动机油底壳下部",
       "category_en": "Protection",
-      "description_en": "Oil pan protection grille"
+      "description_en": "Oil Pan Protection Grille (Full-length, Intercooler to Oil Pan)",
+      "note_en": "整体式结构，从中冷器底部一直到发动机油底壳下部"
     },
     {
       "category": "防护类",
@@ -3467,7 +3542,8 @@
       "is_deduction": false,
       "note": "前灯具保护栅200、后灯具保护栅200",
       "category_en": "Protection",
-      "description_en": "Front/rear lamp protection grille"
+      "description_en": "Front & Rear Light Protection Grilles",
+      "note_en": "前灯具保护栅200、后灯具保护栅200"
     },
     {
       "category": "防护类",
@@ -3477,7 +3553,8 @@
       "is_deduction": false,
       "note": "取消减500元",
       "category_en": "Protection",
-      "description_en": "Add 后防护"
+      "description_en": "Add Rear Under-run Protection",
+      "note_en": "Deduct ¥500 if removed"
     },
     {
       "category": "防护类",
@@ -3487,7 +3564,8 @@
       "is_deduction": false,
       "note": "取消减600元",
       "category_en": "Protection",
-      "description_en": "Add 前下部防护"
+      "description_en": "Add Front Under-run Protection",
+      "note_en": "Deduct ¥600 if removed"
     },
     {
       "category": "防护类",
@@ -3497,7 +3575,8 @@
       "is_deduction": false,
       "note": "牵引车可选",
       "category_en": "Protection",
-      "description_en": "Add 侧防护"
+      "description_en": "Add Side Under-run Protection",
+      "note_en": "牵引车可选"
     },
     {
       "category": "防护类",
@@ -3507,7 +3586,8 @@
       "is_deduction": false,
       "note": "需考虑X6000的轴距以及油箱布置，此条为固定侧防护加价 可翻转侧防护需加价6500；",
       "category_en": "Protection",
-      "description_en": "Optional X6000侧防护板"
+      "description_en": "Delong X6000: Optional Side Guard Panel",
+      "note_en": "需考虑X6000的轴距以及油箱布置，此条为固定侧防护加价 可翻转侧防护需加价6500；"
     },
     {
       "category": "防护类",
@@ -3517,7 +3597,8 @@
       "is_deduction": false,
       "note": "仅是增加可上锁的金属盖",
       "category_en": "Protection",
-      "description_en": "Optional 电瓶箱防盗装置"
+      "description_en": "Optional Battery Box Anti-theft Lock",
+      "note_en": "仅是增加可上锁的金属盖"
     },
     {
       "category": "防护类",
@@ -3527,7 +3608,8 @@
       "is_deduction": false,
       "note": "仅是增加可上锁的金属盖",
       "category_en": "Protection",
-      "description_en": "Optional 油箱盖防盗装置"
+      "description_en": "Optional Fuel Tank Cap Anti-theft Lock",
+      "note_en": "仅是增加可上锁的金属盖"
     },
     {
       "category": "防护类",
@@ -3537,7 +3619,8 @@
       "is_deduction": false,
       "note": "含报警喇叭、线束、报警器",
       "category_en": "Protection",
-      "description_en": "Fuel anti-theft alarm"
+      "description_en": "Fuel Anti-theft Alarm (incl. siren, harness, sensor)",
+      "note_en": "含报警喇叭、线束、报警器"
     },
     {
       "category": "防护类",
@@ -3547,7 +3630,8 @@
       "is_deduction": false,
       "note": "含油箱盖防盗",
       "category_en": "Protection",
-      "description_en": "Systematic fuel anti-theft"
+      "description_en": "Systematic Fuel Anti-theft (incl. tank cap lock)",
+      "note_en": "含油箱盖防盗"
     },
     {
       "category": "其他附件",
@@ -3557,7 +3641,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Integrated rear-view mirror"
+      "description_en": "Integrated Rearview Mirrors"
     },
     {
       "category": "其他附件",
@@ -3567,7 +3651,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Add 卧铺挡帘+环形窗帘"
+      "description_en": "Add Berth Curtain + Ring Curtains"
     },
     {
       "category": "其他附件",
@@ -3577,7 +3661,8 @@
       "is_deduction": false,
       "note": "取消减600",
       "category_en": "Other Accessories",
-      "description_en": "Optional 整车铝合金储气筒"
+      "description_en": "Vehicle: Optional Aluminum Alloy Air Reservoirs",
+      "note_en": "Deduct ¥600 if removed"
     },
     {
       "category": "其他附件",
@@ -3587,7 +3672,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Same-spec cargo truck → special vehicle"
+      "description_en": "Same-spec Cargo Truck Used as Special-purpose Vehicle"
     },
     {
       "category": "其他附件",
@@ -3597,7 +3682,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Switch to 金属挡泥板"
+      "description_en": "Upgrade to Metal Mudguards"
     },
     {
       "category": "其他附件",
@@ -3607,7 +3692,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Frame tail beam reflective stickers"
+      "description_en": "Add Reflective Chevron Tape on Rear Crossmember"
     },
     {
       "category": "其他附件",
@@ -3617,7 +3702,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Metal → 3-piece integrated mudguard"
+      "description_en": "Metal Mudguards → 3-piece Integrated Mudguards"
     },
     {
       "category": "其他附件",
@@ -3627,7 +3712,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Switch to 分体式挡泥板三段整体式挡泥板"
+      "description_en": "Split-type Mudguards → 3-piece Integrated Mudguards"
     },
     {
       "category": "其他附件",
@@ -3637,7 +3722,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Switch to 分体式挡泥板轻量化三段式整体式挡泥板"
+      "description_en": "Split-type Mudguards → Lightweight 3-piece Integrated Mudguards"
     },
     {
       "category": "其他附件",
@@ -3647,7 +3732,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Other Accessories",
-      "description_en": "Split → Lightweight integrated mudguard"
+      "description_en": "Split-type Mudguards → Lightweight Integrated Mudguards"
     },
     {
       "category": "超级版自卸",
@@ -3657,7 +3742,8 @@
       "is_deduction": false,
       "note": "通用配置加强版F3000 6×4/8×4自卸车选装 1、选装包内不包含/铸造前伸梁+中置牵引拖钩/，若需要此配置需在改装说明中描述，并加价500元； 2、超级版自卸车不体现X3000内饰提升，且不可选择。 3、轮胎根据工况、用户需求单独选择（超级版包内不包含轮胎花纹、层级指定）核价。 4、选装包内各项内容，原则全部体现，如特殊情况取消某项，需单独技术评审，且价格不减价。",
       "category_en": "Super Dump Package",
-      "description_en": "Optional 超级版包一（钢板保险杠、LED尾灯、加强板簧、尾灯保护栅）"
+      "description_en": "Super Edition Package 1 (Steel Bumper, LED Tail Lights, Heavy-duty Leaf Springs, Tail Light Guards)",
+      "note_en": "通用配置加强版F3000 6×4/8×4自卸车选装 1、选装包内不包含/铸造前伸梁+中置牵引拖钩/，若需要此配置需在改装说明中描述，并加价500元； 2、超级版自卸车不体现X3000内饰提升，且不可选择。 3、轮胎根据工况、用户需求单独选择（超级版包内不包含轮胎花纹、层级指定）核价。 4、选装包内各项内容，原则全部体现，如特殊情况取消某项，需单独技术评审，且价格不减价。"
     },
     {
       "category": "超级版自卸",
@@ -3667,7 +3753,7 @@
       "is_deduction": false,
       "note": "",
       "category_en": "Super Dump Package",
-      "description_en": "Optional 超级版包二（钢板保险杠、加强板簧、长效粗滤、三拉带400L铁油箱+防护、LED尾灯、后桥稳定杆、油底壳防护、系统性燃油防盗、电瓶箱防盗、尾灯保护栅）"
+      "description_en": "Super Edition Package 2 (Steel Bumper, Heavy-duty Leaf Springs, Long-life Pre-filter, 400L Steel Fuel Tank w/ Triple Straps & Guard, LED Tail Lights, Rear Axle Stabilizer, Oil Pan Guard, Systematic Fuel Anti-theft, Battery Box Lock, Tail Light Guards)"
     }
   ],
   "by_category": {

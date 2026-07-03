@@ -512,8 +512,26 @@ async function renderStep5(app) {
     return `<div class="opt-desc">${item.note}${en ? ' / ' + en : ''}</div>`;
   }
   function getTireCount(drive) {
-    const m = { '4×2': 7, '4x2': 7, '6×4': 11, '6x4': 11, '8×4': 13, '8x4': 13 };
-    return m[drive] || 7;
+    // Standard mapping, with fallback for edge cases
+    const m = {
+      '4×2': 7, '4x2': 7, '4X2': 7,
+      '6×2': 9, '6x2': 9, '6X2': 9,
+      '6×4': 11, '6x4': 11, '6X4': 11,
+      '8×4': 13, '8x4': 13, '8X4': 13,
+      '10×4': 15, '10x4': 15, '10X4': 15,
+      '4×4': 7, '4x4': 7, '4X4': 7,
+      '6×6': 11, '6x6': 11, '6X6': 11
+    };
+    if (m[drive]) return m[drive];
+    // Heuristic: count axles from drive string pattern
+    const axles = drive.match(/(\d+)\s*[×xX]\s*(\d+)/);
+    if (axles) {
+      const totalAxles = parseInt(axles[1]);
+      if (totalAxles <= 4) return 7;
+      if (totalAxles <= 6) return 11;
+      return 13;
+    }
+    return 7; // Default: 4x2
   }
   // Load engine swaps & accessories if not loaded
   if (!STATE.engineSwaps) {
@@ -559,9 +577,11 @@ async function renderStep5(app) {
       const adj = isUp ? pc : Math.round(pc * 0.8);
       const selected = currentEngine === opt.swap;
       const downgradeNote = !isUp && pc < 0 ? `<small style="color:#888;font-size:11px;display:block;">= ¥${(Math.abs(pc)/10000).toFixed(1)}万 × 80%</small>` : '';
+      const swapEn = opt.swap_en || opt.swap;
+      const stdEn = opt.standard_en || v.engine;
       engineHTML += `<div class="option-row ${selected ? 'selected' : ''}" onclick="selectEngine('${opt.swap.replace(/'/g,"\\'")}', ${adj})">
         <input type="radio" name="engine" ${selected ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name">换装 / Swap to ${opt.swap}</div><div class="opt-desc">从 ${v.engine} 换装 / From ${v.engine}${downgradeNote}</div></div>
+        <div class="opt-info"><div class="opt-name"><span class="opt-cn">换装: ${opt.swap}</span><span class="opt-en">Swap to: ${swapEn}</span></div><div class="opt-desc">从 ${v.engine} 换装 / From ${stdEn}${downgradeNote}</div></div>
         <div class="opt-price ${adj > 0 ? 'positive' : adj < 0 ? 'negative' : 'zero'}">${adj >= 0 ? '+' : ''}¥${(Math.abs(adj)/10000).toFixed(1)}万</div>
       </div>`;
     }
@@ -769,6 +789,15 @@ function renderStep6(app) {
     </div>
 
     ${!v.has_price ? '<div style="background:#fff3cd; color:#856404; padding:15px; border-radius:8px; margin:15px 0; font-size:14px;">⚠️ 该车型暂无标准报价，请联系销售获取基础价格。以下为选装增项汇总。<br><small>No standard price available. Please contact sales for base price. Below are optional add-ons only.</small></div>' : ''}
+
+    <!-- Chassis Total Price (Base + Options, before FOB calculation) -->
+    ${v.has_price ? `
+    <div class="total-price" style="background:rgba(255,255,255,0.1); border:2px solid rgba(255,255,255,0.3);">
+      <div class="label">整车底盘价格 / Chassis Total Price <small style="opacity:0.5;">(底盘 + 全部选装)</small></div>
+      <div class="amount" style="color:#fff;">¥${totalPrice.toFixed(1)}<span class="small"> 万</span></div>
+      <div style="font-size:13px; opacity:0.5; margin-top:6px;">≈ ¥${Math.round(totalPrice*10000).toLocaleString()} 元 / RMB</div>
+    </div>
+    ` : ''}
 
     <!-- FOB Chassis Price (main output) -->
     ${v.has_price ? `
