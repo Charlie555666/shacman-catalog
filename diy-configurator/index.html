@@ -751,7 +751,7 @@ function renderStep6(app) {
     <div class="total-price">
       <div class="label">FOB 底盘价 / FOB Chassis Price</div>
       <div class="amount">¥${fobChassisPrice.toFixed(2)}<span class="small"> 万元</span></div>
-      <div style="font-size:13px; opacity:0.7; margin-top:8px;">= (底盘价 + 换装总价) × 0.95 ÷ 1.13</div>
+      <div style="font-size:12px; opacity:0.6; margin-top:6px;">* Price includes all selected options / 价格包含全部选装项目</div>
       ${!v.has_price ? '<div style="font-size:13px; opacity:0.7; margin-top:5px;">* 不含基础车价，仅含选装增项 / Excl. base price, add-ons only</div>' : ''}
     </div>
 
@@ -760,8 +760,6 @@ function renderStep6(app) {
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
       ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
-      <div class="line" style="color:var(--gold);"><span>× 系数 0.95</span><span>¥${(totalPrice*0.95).toFixed(2)} 万</span></div>
-      <div class="line" style="color:var(--gold);"><span>÷ 1.13 (去增值税)</span><span>—</span></div>
       <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price</span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
     </div>
   </div>
