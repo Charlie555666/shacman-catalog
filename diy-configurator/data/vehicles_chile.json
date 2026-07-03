@@ -21,7 +21,8 @@
     "options": "",
     "price": 42.759,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 38.003,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TABQH50取力器+FHB400缓速器"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,6 +71,7 @@
     "options": "",
     "price": 41.193,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TABQH50取力器+FHB400缓速器"
   }
 ]

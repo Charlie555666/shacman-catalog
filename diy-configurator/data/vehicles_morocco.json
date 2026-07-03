@@ -21,7 +21,8 @@
     "options": "",
     "price": 43.212,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "ZF16S2530TO"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 47.22,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2421TD"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 45.951,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2421TD"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -93,6 +96,7 @@
     "options": "",
     "price": 43.892,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12TX2420TD"
   }
 ]

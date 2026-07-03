@@ -21,7 +21,8 @@
     "options": "",
     "price": 36.282,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240AQHG50C法兰"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 42.173,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "F16JZ26A"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 54.687,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2821TD铝壳（"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 42.503,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中东/Middle East",
@@ -117,6 +121,7 @@
     "options": "",
     "price": 43.927,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   }
 ]

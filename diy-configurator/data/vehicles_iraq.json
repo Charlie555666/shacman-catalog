@@ -21,7 +21,8 @@
     "options": "DH972538H3WM1",
     "price": 32.593,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 38.074,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 33.925,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 31.457,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -117,6 +121,7 @@
     "options": "",
     "price": 40.0,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240TA"
   }
 ]

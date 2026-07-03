@@ -21,7 +21,8 @@
     "options": "",
     "price": 27.881,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 33.499,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 38.542,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 25.807,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 28.177,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 28.277,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 28.427,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 42.784,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中南美区/Latin America",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 49.829,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSD-200TA"
   },
   {
     "region": "中南美区/Latin America",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 44.024,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "中南美区/Latin America",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 55.899,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中南美区/Latin America",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 52.073,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "中南美区/Latin America",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 54.371,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中南美区/Latin America",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 35.129,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 35.229,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 41.234,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "13JSDX240T铁壳（带助力）"
   },
   {
     "region": "中南美区/Latin America",
@@ -405,7 +421,8 @@
     "options": "",
     "price": 44.543,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "13JSDX240T铁壳（带助力）"
   },
   {
     "region": "中南美区/Latin America",
@@ -429,7 +446,8 @@
     "options": "",
     "price": 47.172,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2621TD+EZF650取力器（带液力缓速器）"
   },
   {
     "region": "中南美区/Latin America",
@@ -453,7 +471,8 @@
     "options": "",
     "price": 30.117,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -477,7 +496,8 @@
     "options": "",
     "price": 29.017,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中南美区/Latin America",
@@ -501,6 +521,7 @@
     "options": "",
     "price": 34.906,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

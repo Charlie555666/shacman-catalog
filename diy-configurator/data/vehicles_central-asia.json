@@ -21,7 +21,8 @@
     "options": "DH952534H01G5",
     "price": 27.0,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -45,7 +46,8 @@
     "options": "DH952534H01G7",
     "price": 27.08,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -69,7 +71,8 @@
     "options": "DH972534H01G5",
     "price": 29.175,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -93,7 +96,8 @@
     "options": "DH972538H01G5",
     "price": 30.275,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -117,7 +121,8 @@
     "options": "DH953140H08H2",
     "price": 31.154,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TBQH70法兰"
   },
   {
     "region": "亚俄区/CIS",
@@ -141,7 +146,8 @@
     "options": "DH973140H08H2",
     "price": 33.099,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TBQH70法兰"
   },
   {
     "region": "亚俄区/CIS",
@@ -165,7 +171,8 @@
     "options": "DH973142H08H2",
     "price": 33.799,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TBQH70法兰"
   },
   {
     "region": "亚俄区/CIS",
@@ -189,7 +196,8 @@
     "options": "DH952534H01JX",
     "price": 26.562,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "亚俄区/CIS",
@@ -213,7 +221,8 @@
     "options": "DH981821H06H6",
     "price": 16.94,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚俄区/CIS",
@@ -237,7 +246,8 @@
     "options": "DH972538H01H6",
     "price": 30.027,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -261,7 +271,8 @@
     "options": "DH981821H06H5",
     "price": 16.23,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS85M"
   },
   {
     "region": "亚俄区/CIS",
@@ -285,7 +296,8 @@
     "options": "DH972538H01H7",
     "price": 40.137,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -309,7 +321,8 @@
     "options": "DH981821H06MX",
     "price": 16.71,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚俄区/CIS",
@@ -333,7 +346,8 @@
     "options": "DH991831H01N8",
     "price": 23.445,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "亚俄区/CIS",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 31.019,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 34.184,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -405,7 +421,8 @@
     "options": "",
     "price": 28.935,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -429,7 +446,8 @@
     "options": "",
     "price": 24.035,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -453,7 +471,8 @@
     "options": "",
     "price": 33.589,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -477,7 +496,8 @@
     "options": "",
     "price": 31.099,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -501,7 +521,8 @@
     "options": "",
     "price": 37.124,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -525,7 +546,8 @@
     "options": "",
     "price": 26.92,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚俄区/CIS",
@@ -549,7 +571,8 @@
     "options": "DH952534H01HU",
     "price": 26.27,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -573,7 +596,8 @@
     "options": "",
     "price": 26.27,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚俄区/CIS",
@@ -597,7 +621,8 @@
     "options": "DH952538H01HU",
     "price": 27.17,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -621,7 +646,8 @@
     "options": "",
     "price": 29.8,
     "has_price": false,
-    "price_source": "estimated_from_similar"
+    "price_source": "estimated_from_similar",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -645,7 +671,8 @@
     "options": "DH952542H08HU",
     "price": 28.37,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -669,7 +696,8 @@
     "options": "",
     "price": 29.5,
     "has_price": false,
-    "price_source": "estimated_from_similar"
+    "price_source": "estimated_from_similar",
+    "gearbox_base": "112JSD-200TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -693,7 +721,8 @@
     "options": "DH952538H01HV",
     "price": 27.88,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚俄区/CIS",
@@ -717,7 +746,8 @@
     "options": "",
     "price": 27.56,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚俄区/CIS",
@@ -741,7 +771,8 @@
     "options": "DH952538H0115",
     "price": 26.92,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -765,7 +796,8 @@
     "options": "DH9A2538H01H1",
     "price": 29.617,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -789,7 +821,8 @@
     "options": "DH9A2542H08K1",
     "price": 30.667,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -813,7 +846,8 @@
     "options": "DH972538H3WH1",
     "price": 30.112,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -837,7 +871,8 @@
     "options": "DH972534H01H5",
     "price": 27.857,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -861,7 +896,8 @@
     "options": "DH972538H01HU",
     "price": 29.617,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -885,7 +921,8 @@
     "options": "DH972543H08HU",
     "price": 30.667,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -909,7 +946,8 @@
     "options": "DH973143H08M5",
     "price": 33.227,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -933,7 +971,8 @@
     "options": "DH981817H06M3",
     "price": 17.39,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚俄区/CIS",
@@ -957,7 +996,8 @@
     "options": "DH972543H08SU",
     "price": 32.287,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -981,6 +1021,7 @@
     "options": "DH972543H08SV",
     "price": 32.877,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   }
 ]

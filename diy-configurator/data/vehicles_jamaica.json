@@ -21,7 +21,8 @@
     "options": "",
     "price": 27.709,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 21.215,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 28.523,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 27.542,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 32.484,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 32.834,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 31.234,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 32.314,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 30.382,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 30.732,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 29.107,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 41.732,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 25.27,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSX110A"
   },
   {
     "region": "中南美区/Latin America",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 21.5,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "中南美区/Latin America",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 34.147,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 20.573,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "中南美区/Latin America",
@@ -405,6 +421,7 @@
     "options": "",
     "price": 27.535,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   }
 ]

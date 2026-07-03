@@ -21,7 +21,8 @@
     "options": "",
     "price": 36.943,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 27.582,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 40.136,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 36.58,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 33.915,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 36.377,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 39.945,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "中东/Middle East",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 32.785,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 35.827,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -237,7 +246,8 @@
     "options": "DH9A1848HK511",
     "price": 45.135,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12TX2621TD+EZF650取力器（带液力缓速器）"
   },
   {
     "region": "中东/Middle East",
@@ -261,7 +271,8 @@
     "options": "DH971846H58M4",
     "price": 32.802,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -285,7 +296,8 @@
     "options": "DH971846H58M3",
     "price": 33.752,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -309,7 +321,8 @@
     "options": "DH991846H5801",
     "price": 32.6,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -333,7 +346,8 @@
     "options": "DH991846H5802",
     "price": 33.55,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -357,7 +371,8 @@
     "options": "DH991846H5X01",
     "price": 32.85,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -381,7 +396,8 @@
     "options": "DH991846H5X03",
     "price": 34.11,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -405,7 +421,8 @@
     "options": "DH991846H58P0",
     "price": 32.836,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -429,7 +446,8 @@
     "options": "DH971846H58P0",
     "price": 32.981,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -453,7 +471,8 @@
     "options": "DH971846H5X02",
     "price": 33.037,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -477,7 +496,8 @@
     "options": "DH971846H5X03",
     "price": 34.247,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -501,7 +521,8 @@
     "options": "DH971846H58M5",
     "price": 32.338,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -525,7 +546,8 @@
     "options": "DH991846H5803",
     "price": 33.028,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -549,7 +571,8 @@
     "options": "DH991842H58M2",
     "price": 29.181,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -573,7 +596,8 @@
     "options": "DH951842H5801",
     "price": 29.482,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -597,7 +621,8 @@
     "options": "DH992546H5801",
     "price": 36.485,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中东/Middle East",
@@ -621,7 +646,8 @@
     "options": "DH972546H58M2",
     "price": 37.307,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中东/Middle East",
@@ -645,7 +671,8 @@
     "options": "",
     "price": 36.422,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -669,7 +696,8 @@
     "options": "",
     "price": 38.952,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "中东/Middle East",
@@ -693,7 +721,8 @@
     "options": "",
     "price": 40.492,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "中东/Middle East",
@@ -717,7 +746,8 @@
     "options": "",
     "price": 37.612,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -741,7 +771,8 @@
     "options": "",
     "price": 37.215,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -765,7 +796,8 @@
     "options": "",
     "price": 41.222,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -789,7 +821,8 @@
     "options": "",
     "price": 40.865,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -813,7 +846,8 @@
     "options": "",
     "price": 37.898,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "中东/Middle East",
@@ -837,7 +871,8 @@
     "options": "",
     "price": 38.242,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -861,7 +896,8 @@
     "options": "",
     "price": 41.052,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中东/Middle East",
@@ -885,7 +921,8 @@
     "options": "",
     "price": 34.842,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -909,7 +946,8 @@
     "options": "",
     "price": 34.268,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -933,7 +971,8 @@
     "options": "",
     "price": 26.222,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中东/Middle East",
@@ -957,7 +996,8 @@
     "options": "",
     "price": 32.561,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -981,7 +1021,8 @@
     "options": "",
     "price": 22.253,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS95TM"
   },
   {
     "region": "中东/Middle East",
@@ -1005,7 +1046,8 @@
     "options": "",
     "price": 35.632,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ220A+QHG50C(法兰式）"
   },
   {
     "region": "中东/Middle East",
@@ -1029,6 +1071,7 @@
     "options": "",
     "price": 35.051,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ220A"
   }
 ]

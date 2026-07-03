@@ -21,7 +21,8 @@
     "options": "DH981824H5701",
     "price": 20.23,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JSX110TM+QD40J"
   },
   {
     "region": "亚俄区/CIS",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 53.012,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A+QHG50B+液力缓速器"
   },
   {
     "region": "亚俄区/CIS",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 54.512,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "亚俄区/CIS",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 47.621,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 46.334,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 44.823,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 45.256,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 39.155,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -213,7 +221,8 @@
     "options": "DH982524H57H2",
     "price": 23.385,
     "has_price": false,
-    "price_source": "quotation_file_direct"
+    "price_source": "quotation_file_direct",
+    "gearbox_base": "8JS105TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -237,6 +246,7 @@
     "options": "DH982526H57H2",
     "price": 24.215,
     "has_price": false,
-    "price_source": "quotation_file_direct"
+    "price_source": "quotation_file_direct",
+    "gearbox_base": "8JS125TB"
   }
 ]

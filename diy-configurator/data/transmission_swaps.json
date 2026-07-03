@@ -1,0 +1,1428 @@
+{
+  "description": "Transmission swap pricing database for SHACMAN vehicles",
+  "source": "附件2-2026年出口产品换装价格表.xlsx (柴油车 sheet, rows 174-200)",
+  "rules": [
+    [
+      "8JS85TM",
+      "8JS105",
+      1000,
+      "8JS85TM换8JS105"
+    ],
+    [
+      "8JS85TM",
+      "8JS95TM",
+      1000,
+      "8JS85TM换8JS95TM"
+    ],
+    [
+      "8JS85TM",
+      "8JS118",
+      2500,
+      "8JS85TM换装8JS118"
+    ],
+    [
+      "8JS85TM",
+      "8JS125TB",
+      2800,
+      "8JS85TM换装8JS125TB"
+    ],
+    [
+      "8JS118",
+      "9JS119",
+      2800,
+      "8JS118换装9JS119"
+    ],
+    [
+      "9JS119",
+      "9JS135",
+      1500,
+      "9JS119换装9JS135"
+    ],
+    [
+      "9JS135",
+      "RTD11509C",
+      1000,
+      "9JS135换装RTD11509C"
+    ],
+    [
+      "RTD11509C",
+      "9JS150A",
+      1000,
+      "RTD11509C换装9JS150A"
+    ],
+    [
+      "RTD11509C",
+      "9JS180",
+      4500,
+      "RTD11509C换装9JS180/10JSD180（同价）"
+    ],
+    [
+      "RTD11509C",
+      "10JSD180",
+      4500,
+      "RTD11509C换装9JS180/10JSD180（同价）"
+    ],
+    [
+      "10JSD140T",
+      "10JSD140",
+      0,
+      "10JSD140T → 10JSD140 同级"
+    ],
+    [
+      "10JSD140TB",
+      "10JSD140",
+      0,
+      "10JSD140TB → 10JSD140 同级"
+    ],
+    [
+      "10JSD140",
+      "10JSD160",
+      1000,
+      "10JSD140 → 10JSD160 升级"
+    ],
+    [
+      "9JS119TB",
+      "9JS119",
+      0,
+      "9JS119T-B → 9JS119 同级"
+    ],
+    [
+      "9JS135TB",
+      "9JS135",
+      0,
+      "9JS135T-B → 9JS135 同级"
+    ],
+    [
+      "8JS125TA",
+      "8JS125TB",
+      0,
+      "8JS125TA → 8JS125TB 同级"
+    ],
+    [
+      "SF12JZ200",
+      "SF13JZ220A",
+      2000,
+      "SF12JZ200→SF13JZ220A"
+    ],
+    [
+      "SF12JZ220A",
+      "SF13JZ220A",
+      0,
+      "SF12JZ220A→SF13JZ220A同级"
+    ],
+    [
+      "SF13JZ220A",
+      "SF13JZ240A",
+      2000,
+      "SF13JZ220A→SF13JZ240A"
+    ],
+    [
+      "SF13JZ240A",
+      "SF16JZ240",
+      2000,
+      "SF13JZ240A→SF16JZ240"
+    ],
+    [
+      "SF13JZ260A",
+      "SF16JZ260A",
+      0,
+      "SF13JZ260A→SF16JZ260A同级"
+    ],
+    [
+      "SF16JZ220",
+      "SF16JZ220A",
+      0,
+      "SF16JZ220→SF16JZ220A同级"
+    ],
+    [
+      "SF16JZ220A",
+      "SF16JZ240",
+      2000,
+      "SF16JZ220A→SF16JZ240"
+    ],
+    [
+      "F16JZ24A",
+      "F16JZ26A",
+      1000,
+      "F16JZ24A→F16JZ26A"
+    ],
+    [
+      "ZF12TX2420TD",
+      "ZF12TX2620",
+      2000,
+      "ZF12TX2420TD→ZF12TX2620"
+    ],
+    [
+      "12TX2420TD",
+      "12TX2421TD",
+      1500,
+      "12TX2420TD→12TX2421TD"
+    ],
+    [
+      "12TX2421TD",
+      "12TX2621TD",
+      2000,
+      "12TX2421TD→12TX2621TD"
+    ],
+    [
+      "12TX2621TD",
+      "12TX2821TD",
+      2000,
+      "12TX2621TD→12TX2821TD"
+    ],
+    [
+      "ZF16S2530TO",
+      "ZF12TX2620",
+      3000,
+      "ZF16S2530TO→ZF12TX2620"
+    ],
+    [
+      "16S2233TD",
+      "16S2531TO",
+      1500,
+      "16S2233TD→16S2531TO"
+    ],
+    [
+      "16S2531TO",
+      "ZF16S2530TO",
+      0,
+      "16S2531TO→ZF16S2530TO同级"
+    ],
+    [
+      "EHDM26N112CR",
+      "EHDM26N112C",
+      0,
+      "EHDM26N112CR→EHDM26N112C同级"
+    ],
+    [
+      "112JSD200TA",
+      "12JSD200TA",
+      0,
+      "数据修正：112→12"
+    ],
+    [
+      "8JSX110TM变速箱",
+      "8JSX110TM",
+      0,
+      "去除多余后缀"
+    ],
+    [
+      "10JSD180",
+      "12JSD180T",
+      1500,
+      "10JSD180换装12JSD180T"
+    ],
+    [
+      "12JSD160T",
+      "12JSD180T",
+      1200,
+      "12JSD160T换装12JSD180T"
+    ],
+    [
+      "12JSD180T",
+      "12JSD200TB",
+      1000,
+      "12JSD180T换装12JSD200T-B"
+    ],
+    [
+      "10JSD180",
+      "12JSD200TB",
+      2500,
+      "10JSD180换装12JSD200T-B"
+    ],
+    [
+      "12JSD200TB",
+      "12JSDX220TB",
+      1200,
+      "12JSD200T-B换装12JSDX220T-B"
+    ],
+    [
+      "12JSD200TB",
+      "12JSDX240T",
+      3000,
+      "12JSD200T-B换装12JSDX240T"
+    ],
+    [
+      "12JSDX240T",
+      "12JSDX240K",
+      0,
+      "12JSDX240T换装12JSDX240K 同价"
+    ],
+    [
+      "12JSD200TB",
+      "16JSD200T",
+      1500,
+      "12JSD200T-B换装16JSD200T"
+    ],
+    [
+      "12JSDX240T",
+      "16JSDX240T",
+      1200,
+      "12JSDX240T换装16JSDX240T"
+    ],
+    [
+      "12JSD200TB",
+      "SF16JZ240",
+      13000,
+      "12JSD200T-B换装SF16JZ240(AMT)"
+    ],
+    [
+      "SF16JZ240",
+      "F16JZ260",
+      1500,
+      "SF16JZ240换F16JZ260"
+    ],
+    [
+      "SF16JZ260",
+      "ZF12TX2620",
+      25000,
+      "SF16JZ260换ZF12TX2620(不带缓速器)"
+    ],
+    [
+      "9JS180",
+      "10JSD180",
+      0,
+      "9JS180与10JSD180同价"
+    ],
+    [
+      "IRON_CASE",
+      "ALUM_CASE",
+      1000,
+      "铁壳换铝壳 +1000"
+    ],
+    [
+      "IRON_CASE_12",
+      "ALUM_CASE_12",
+      500,
+      "12档铁壳换铝壳 +500"
+    ],
+    [
+      "10JSD180",
+      "10JSD180T",
+      0,
+      "10JSD180与10JSD180T同价"
+    ],
+    [
+      "10JSD180",
+      "10JSD180TB",
+      0,
+      "10JSD180与10JSD180TB同价"
+    ],
+    [
+      "10JSD180T",
+      "10JSD180TB",
+      0,
+      "10JSD180T与10JSD180TB同价"
+    ],
+    [
+      "12JSD200TB",
+      "12JSD200TAB",
+      0,
+      "12JSD200T-B与12JSD200TA-B同价"
+    ],
+    [
+      "12JSD200TB",
+      "12JSD200TA",
+      0,
+      "12JSD200T-B与12JSD200TA同价"
+    ],
+    [
+      "12JSDX220TB",
+      "12JSDX220TAB",
+      0,
+      "12JSDX220T-B与12JSDX220TA-B同价"
+    ],
+    [
+      "12JSDX240T",
+      "12JSDX240TA",
+      0,
+      "12JSDX240T与12JSDX240TA同价"
+    ],
+    [
+      "16JSD200T",
+      "16JSD200TA",
+      0,
+      "16JSD200T与16JSD200TA同价"
+    ],
+    [
+      "16JSDX240T",
+      "16JSDX240TA",
+      0,
+      "16JSDX240T与16JSDX240TA同价"
+    ],
+    [
+      "SF16JZ240",
+      "SF16JZ240A",
+      0,
+      "SF16JZ240与SF16JZ240A同价"
+    ],
+    [
+      "F16JZ260",
+      "F16JZ26A",
+      0,
+      "F16JZ260与F16JZ26A同价"
+    ],
+    [
+      "SF16JZ260",
+      "SF16JZ260A",
+      0,
+      "SF16JZ260与SF16JZ260A同价"
+    ],
+    [
+      "10JSD160",
+      "10JSD180",
+      0,
+      "10JSD160与10JSD180同平台，参照换装"
+    ],
+    [
+      "12JSD160TA",
+      "12JSD160T",
+      0,
+      "12JSD160TA与12JSD160T同价"
+    ],
+    [
+      "12JSD200K",
+      "12JSD200TB",
+      0,
+      "12JSD200K与12JSD200T-B同价(无超速档)"
+    ],
+    [
+      "12JSDX240TB",
+      "12JSDX240T",
+      0,
+      "12JSDX240TB与12JSDX240T同价"
+    ],
+    [
+      "13JSDX240T",
+      "12JSDX240T",
+      0,
+      "13JSDX240T与12JSDX240T同价"
+    ],
+    [
+      "13JSDX260T",
+      "12JSDX240T",
+      1500,
+      "13JSDX260T比12JSDX240T高一级"
+    ],
+    [
+      "8JSX110TM",
+      "8JS125TB",
+      0,
+      "8JSX110TM与8JS125TB同价"
+    ],
+    [
+      "8JSX95TM",
+      "8JS95TM",
+      0,
+      "8JSX95TM与8JS95TM同价"
+    ],
+    [
+      "10JSX110A",
+      "10JSD140",
+      0,
+      "10JSX110A与10JSD140同价"
+    ],
+    [
+      "8JS85M",
+      "8JS85TM",
+      0,
+      "8JS85M与8JS85TM同价"
+    ],
+    [
+      "8JS105TA",
+      "8JS105",
+      0,
+      "8JS105TA与8JS105同价"
+    ],
+    [
+      "12JSD200T",
+      "12JSD200TB",
+      0,
+      "12JSD200T与12JSD200T-B同价"
+    ],
+    [
+      "12JSD220TAB",
+      "12JSDX220TAB",
+      0,
+      "12JSD220TAB与12JSDX220TAB同价"
+    ],
+    [
+      "SF12JZ200",
+      "SF16JZ240",
+      -2000,
+      "SF12JZ200比SF16JZ240低一级"
+    ],
+    [
+      "SF12JZ220A",
+      "SF16JZ240",
+      -1000,
+      "SF12JZ220A比SF16JZ240低"
+    ],
+    [
+      "SF13JZ220A",
+      "SF16JZ240",
+      -500,
+      "SF13JZ220A比SF16JZ240低"
+    ],
+    [
+      "SF13JZ240A",
+      "SF16JZ240",
+      0,
+      "SF13JZ240A与SF16JZ240同价"
+    ],
+    [
+      "SF16JZ220",
+      "SF16JZ240",
+      -1500,
+      "SF16JZ220比SF16JZ240低一级"
+    ],
+    [
+      "SF16JZ220A",
+      "SF16JZ240",
+      -1000,
+      "SF16JZ220A比SF16JZ240低"
+    ],
+    [
+      "SF16JZ26",
+      "SF16JZ260A",
+      0,
+      "SF16JZ26与SF16JZ260A同价"
+    ],
+    [
+      "SF8JZ110A",
+      "F8JZ110MM",
+      0,
+      "SF8JZ110A与F8JZ110MM同价"
+    ],
+    [
+      "F8JZ95MM",
+      "8JS95TM",
+      0,
+      "F8JZ95MM与8JS95TM同价"
+    ],
+    [
+      "F16JZ24A",
+      "F16JZ26A",
+      -1000,
+      "F16JZ24A比F16JZ26A低一级"
+    ],
+    [
+      "12TX2420TD",
+      "12TX2421TD",
+      -1000,
+      "12TX2420TD比12TX2421TD低一级"
+    ],
+    [
+      "12TX2621TD",
+      "12TX2821TD",
+      -2000,
+      "12TX2621TD比12TX2821TD低一级"
+    ],
+    [
+      "16S2233TD",
+      "16S2531TO",
+      -1500,
+      "16S2233TD比16S2531TO低一级"
+    ],
+    [
+      "ZF16S2530TO",
+      "ZF12TX2620",
+      -3000,
+      "ZF16S2530TO比ZF12TX2620低一级"
+    ],
+    [
+      "ZF12TX2420TD",
+      "ZF12TX2620",
+      -1000,
+      "ZF12TX2420TD比ZF12TX2620低一级"
+    ],
+    [
+      "ZF9S1517TO",
+      "9AS1517TO",
+      0,
+      "ZF9S1517TO与9AS1517TO同价"
+    ],
+    [
+      "9AS1517TO",
+      "9JS119",
+      0,
+      "9AS1517TO与9JS119同价级"
+    ],
+    [
+      "EHDM26N112C",
+      "SF16JZ240",
+      0,
+      "EHDM26N112C(EATON)与SF16JZ240同价"
+    ],
+    [
+      "8JS85TEC",
+      "8JS85TM",
+      0,
+      "8JS85TEC与8JS85TM同价"
+    ],
+    [
+      "10JSD180B",
+      "10JSD180",
+      0,
+      "10JSD180B与10JSD180同价"
+    ]
+  ],
+  "feature_prices": {
+    "pto_qh50": 1300,
+    "pto_qh70": 2000,
+    "pto_qd40j": 800,
+    "pto_qhg50": 1300,
+    "pto_qhg50c": 1300,
+    "retarder_fast": 18000,
+    "retarder_voith": 25000,
+    "retarder_fhb400": 18000,
+    "shift_assist": 1500,
+    "aluminum_case_upgrade": 1000,
+    "aluminum_case_upgrade_12": 500
+  },
+  "graph": {
+    "8JS85TM": [
+      [
+        "8JS105",
+        1000
+      ],
+      [
+        "8JS95TM",
+        1000
+      ],
+      [
+        "8JS118",
+        2500
+      ],
+      [
+        "8JS125TB",
+        2800
+      ]
+    ],
+    "8JS118": [
+      [
+        "9JS119",
+        2800
+      ]
+    ],
+    "9JS119": [
+      [
+        "9JS135",
+        1500
+      ]
+    ],
+    "9JS135": [
+      [
+        "RTD11509C",
+        1000
+      ]
+    ],
+    "RTD11509C": [
+      [
+        "9JS150A",
+        1000
+      ],
+      [
+        "9JS180",
+        4500
+      ],
+      [
+        "10JSD180",
+        4500
+      ]
+    ],
+    "10JSD140T": [
+      [
+        "10JSD140",
+        0
+      ]
+    ],
+    "10JSD140TB": [
+      [
+        "10JSD140",
+        0
+      ]
+    ],
+    "10JSD140": [
+      [
+        "10JSD160",
+        1000
+      ]
+    ],
+    "9JS119TB": [
+      [
+        "9JS119",
+        0
+      ]
+    ],
+    "9JS135TB": [
+      [
+        "9JS135",
+        0
+      ]
+    ],
+    "8JS125TA": [
+      [
+        "8JS125TB",
+        0
+      ]
+    ],
+    "SF12JZ200": [
+      [
+        "SF13JZ220A",
+        2000
+      ]
+    ],
+    "SF12JZ220A": [
+      [
+        "SF13JZ220A",
+        0
+      ]
+    ],
+    "SF13JZ220A": [
+      [
+        "SF13JZ240A",
+        2000
+      ]
+    ],
+    "SF13JZ240A": [
+      [
+        "SF16JZ240",
+        0
+      ]
+    ],
+    "SF13JZ260A": [
+      [
+        "SF16JZ260A",
+        0
+      ]
+    ],
+    "SF16JZ220": [
+      [
+        "SF16JZ220A",
+        0
+      ]
+    ],
+    "SF16JZ220A": [
+      [
+        "SF16JZ240",
+        2000
+      ]
+    ],
+    "F16JZ24A": [
+      [
+        "F16JZ26A",
+        1000
+      ]
+    ],
+    "ZF12TX2420TD": [
+      [
+        "ZF12TX2620",
+        2000
+      ]
+    ],
+    "12TX2420TD": [
+      [
+        "12TX2421TD",
+        1500
+      ]
+    ],
+    "12TX2421TD": [
+      [
+        "12TX2621TD",
+        2000
+      ]
+    ],
+    "12TX2621TD": [
+      [
+        "12TX2821TD",
+        2000
+      ]
+    ],
+    "ZF16S2530TO": [
+      [
+        "ZF12TX2620",
+        3000
+      ]
+    ],
+    "16S2233TD": [
+      [
+        "16S2531TO",
+        1500
+      ]
+    ],
+    "16S2531TO": [
+      [
+        "ZF16S2530TO",
+        0
+      ]
+    ],
+    "EHDM26N112CR": [
+      [
+        "EHDM26N112C",
+        0
+      ]
+    ],
+    "112JSD200TA": [
+      [
+        "12JSD200TA",
+        0
+      ]
+    ],
+    "8JSX110TM变速箱": [
+      [
+        "8JSX110TM",
+        0
+      ]
+    ],
+    "10JSD180": [
+      [
+        "12JSD180T",
+        1500
+      ],
+      [
+        "12JSD200TB",
+        2500
+      ],
+      [
+        "10JSD180T",
+        0
+      ],
+      [
+        "10JSD180TB",
+        0
+      ]
+    ],
+    "12JSD160T": [
+      [
+        "12JSD180T",
+        1200
+      ]
+    ],
+    "12JSD180T": [
+      [
+        "12JSD200TB",
+        1000
+      ]
+    ],
+    "12JSD200TB": [
+      [
+        "12JSDX220TB",
+        1200
+      ],
+      [
+        "12JSDX240T",
+        3000
+      ],
+      [
+        "16JSD200T",
+        1500
+      ],
+      [
+        "SF16JZ240",
+        13000
+      ],
+      [
+        "12JSD200TAB",
+        0
+      ],
+      [
+        "12JSD200TA",
+        0
+      ]
+    ],
+    "12JSDX240T": [
+      [
+        "12JSDX240K",
+        0
+      ],
+      [
+        "16JSDX240T",
+        1200
+      ],
+      [
+        "12JSDX240TA",
+        0
+      ]
+    ],
+    "SF16JZ240": [
+      [
+        "F16JZ260",
+        1500
+      ],
+      [
+        "SF16JZ240A",
+        0
+      ]
+    ],
+    "SF16JZ260": [
+      [
+        "ZF12TX2620",
+        25000
+      ],
+      [
+        "SF16JZ260A",
+        0
+      ]
+    ],
+    "9JS180": [
+      [
+        "10JSD180",
+        0
+      ]
+    ],
+    "IRONCASE": [
+      [
+        "ALUMCASE",
+        1000
+      ]
+    ],
+    "IRONCASE12": [
+      [
+        "ALUMCASE12",
+        500
+      ]
+    ],
+    "10JSD180T": [
+      [
+        "10JSD180TB",
+        0
+      ]
+    ],
+    "12JSDX220TB": [
+      [
+        "12JSDX220TAB",
+        0
+      ]
+    ],
+    "16JSD200T": [
+      [
+        "16JSD200TA",
+        0
+      ]
+    ],
+    "16JSDX240T": [
+      [
+        "16JSDX240TA",
+        0
+      ]
+    ],
+    "F16JZ260": [
+      [
+        "F16JZ26A",
+        0
+      ]
+    ],
+    "10JSD160": [
+      [
+        "10JSD180",
+        0
+      ]
+    ],
+    "12JSD160TA": [
+      [
+        "12JSD160T",
+        0
+      ]
+    ],
+    "12JSD200K": [
+      [
+        "12JSD200TB",
+        0
+      ]
+    ],
+    "12JSDX240TB": [
+      [
+        "12JSDX240T",
+        0
+      ]
+    ],
+    "13JSDX240T": [
+      [
+        "12JSDX240T",
+        0
+      ]
+    ],
+    "13JSDX260T": [
+      [
+        "12JSDX240T",
+        1500
+      ]
+    ],
+    "8JSX110TM": [
+      [
+        "8JS125TB",
+        0
+      ]
+    ],
+    "8JSX95TM": [
+      [
+        "8JS95TM",
+        0
+      ]
+    ],
+    "10JSX110A": [
+      [
+        "10JSD140",
+        0
+      ]
+    ],
+    "8JS85M": [
+      [
+        "8JS85TM",
+        0
+      ]
+    ],
+    "8JS105TA": [
+      [
+        "8JS105",
+        0
+      ]
+    ],
+    "12JSD200T": [
+      [
+        "12JSD200TB",
+        0
+      ]
+    ],
+    "12JSD220TAB": [
+      [
+        "12JSDX220TAB",
+        0
+      ]
+    ],
+    "SF16JZ26": [
+      [
+        "SF16JZ260A",
+        0
+      ]
+    ],
+    "SF8JZ110A": [
+      [
+        "F8JZ110MM",
+        0
+      ]
+    ],
+    "F8JZ95MM": [
+      [
+        "8JS95TM",
+        0
+      ]
+    ],
+    "ZF9S1517TO": [
+      [
+        "9AS1517TO",
+        0
+      ]
+    ],
+    "9AS1517TO": [
+      [
+        "9JS119",
+        0
+      ]
+    ],
+    "EHDM26N112C": [
+      [
+        "SF16JZ240",
+        0
+      ]
+    ],
+    "8JS85TEC": [
+      [
+        "8JS85TM",
+        0
+      ]
+    ],
+    "10JSD180B": [
+      [
+        "10JSD180",
+        0
+      ]
+    ]
+  },
+  "base_model_map": {
+    "RTD11509C": "RTD11509C",
+    "9JS135+QH50": "9JS135",
+    "RTD11509C+QH50": "RTD11509C",
+    "12JSD200T+QH50": "12JSD200T",
+    "F16JZ24A-铝壳-QHG50B花键": "F16JZ24A",
+    "RTD11509C-铁壳-QH50": "RTD11509C",
+    "10JSD180-铁壳-QH50": "10JSD180",
+    "8JS85TE-C-铝壳-QD40J": "8JS85TE-C",
+    "9_RTD11509C-铁壳-无取力器": "RTD11509C",
+    "10JSD180-铁壳-无取力器": "10JSD180",
+    "9_RTD11509C-铁壳-QH50": "RTD11509C",
+    "12JSD200TA-B-铝壳-QH50-FHB400": "12JSD200TA-B",
+    "SF16JZ220A-铝壳-QHG50C-FHB400": "SF16JZ220A",
+    "12TX2421TD-铝壳-EZF650花键-ZF缓速器": "12TX2421TD",
+    "12JSD200T-铁壳-QH50": "12JSD200T",
+    "8JS85TM-铝壳-QD40J法兰取力器": "8JS85TM",
+    "F8JZ95MM-铝壳-QD40J法兰取力器": "F8JZ95MM",
+    "10JSD180+QH50": "10JSD180",
+    "RTD-11509C+QH50法兰": "RTD-11509C",
+    "12JSD200K": "12JSD200K",
+    "12JSD200K-铁壳-无取力器": "12JSD200K",
+    "12JSD200T-B-铁壳-无取力器": "12JSD200T-B",
+    "12JSDX220TB": "12JSDX220TB",
+    "SF16JZ260A-铝壳-FHB400液力缓速器-强制冷却": "SF16JZ260A",
+    "12JSD200K+QH50": "12JSD200K",
+    "12JSD200K-铁壳-QH50花键": "12JSD200K",
+    "10JSD180-铁壳-QH50花键": "10JSD180",
+    "SF16JZ240-铝壳": "SF16JZ240",
+    "SF16JZ260-铝壳-QHG50C取力器": "SF16JZ260",
+    "SF12JZ200-铝壳-QHG50C取力器": "SF12JZ200",
+    "8JSX110TM-铝壳-QD40J花键取力器": "8JSX110TM",
+    "12JSD200TA-B-铁壳-QH50+FHB400": "12JSD200TA-B",
+    "12JSD200TA-B-铁壳-QH50+FHB400缓速器": "12JSD200TA-B",
+    "12JSD200TA-B-铁壳-QH50-FHB400": "12JSD200TA-B",
+    "10JSD180": "10JSD180",
+    "8JS85TM-铝壳-QD40J": "8JS85TM",
+    "9JS135-铝壳铁壳-QH50，取力器花键式": "9JS135",
+    "12JSD200TA-B铝壳": "12JSD200TA-B",
+    "12JSD200T-B- 铝壳-无取力器": "12JSD200T-B",
+    "12JSD200T-B": "12JSD200T-B",
+    "10JSD180-铁壳-QH50(法兰)": "10JSD180",
+    "ZF16S2530TO-铝壳-EZF650花键取力器": "ZF16S2530TO",
+    "12JSD200T-B-铁壳-QH50": "12JSD200T-B",
+    "10JSD160+铁壳-QH50花键": "10JSD160",
+    "10JSD180+铁壳-QH50花键": "10JSD180",
+    "12JSD200T-B-铁壳-QH50花键": "12JSD200T-B",
+    "8JS85TM-铁壳-无取力器": "8JS85TM",
+    "12JSD200T-B-QH70法兰": "12JSD200T-B",
+    "8JS85TM-铁壳-QD40J法兰取力器": "8JS85TM",
+    "12JSD200T-B-铁壳-QH50法兰取力器": "12JSD200T-B",
+    "8JS85M-铁壳-QD40J法兰": "8JS85M",
+    "8JS85TM-铝壳-QD40J法兰": "8JS85TM",
+    "12JSDX220TB+FHB400": "12JSDX220TB",
+    "12JSDX220TA-B-铁壳-QH50花键-FHB400": "12JSDX220TA-B",
+    "10JSD140-铁壳-QH50": "10JSD140",
+    "12JSD200T-B-铁壳+QH50": "12JSD200T-B",
+    "12JSD200T-B+QH50": "12JSD200T-B",
+    "12JSD180T-铁壳-QH50": "12JSD180T",
+    "112JSD200TA-铁壳-QH50": "112JSD200TA",
+    "12JSD200T-B-铁壳-QH50取力器": "12JSD200T-B",
+    "8JS85TM-铝壳-QD40J花键": "8JS85TM",
+    "12JSD200TA-B-铁壳-无取力器": "12JSD200TA-B",
+    "SF16JZ240A-铝壳+FHB400缓速器": "SF16JZ240A",
+    "12JSD200TA-B-QH50取力器+FHB400缓速器": "12JSD200TA-B",
+    "SF13JZ220A-铝壳": "SF13JZ220A",
+    "16JSDX240TA- 铁壳+FHB400缓速器": "16JSDX240TA",
+    "12JSDX220TA-B- 铁壳+FHB400缓速器": "12JSDX220TA-B",
+    "16JSDX240TA- 铁壳": "16JSDX240TA",
+    "12JSD200TA-B-铝壳-QH50取力器": "12JSD200TA-B",
+    "12JSDX220TA-B-铝壳-QH50取力器+FHB400缓速器": "12JSDX220TA-B",
+    "12JSDX220TA-B-铁壳-QH50取力器-FHB400缓速器": "12JSDX220TA-B",
+    "12JSDX220TA-B-铝壳-QH50取力器": "12JSDX220TA-B",
+    "8JSX110TM-铝壳-QD40J取力器": "8JSX110TM",
+    "10JSD180-QH50花键": "10JSD180",
+    "10JSD180-铁壳": "10JSD180",
+    "8JS85TM-铝壳-QD40J取力器": "8JS85TM",
+    "10JSD180-铁壳-QH70取力器": "10JSD180",
+    "12JSDX240K-铁壳-QH50取力器+FHB400缓速器": "12JSDX240K",
+    "12JSD200T-B-铁壳-QH50取力器+FHB400缓速器": "12JSD200T-B",
+    "12JSDX240K-铁壳-QH50取力器-FHB400缓速器": "12JSDX240K",
+    "SF13JZ240A-铝壳+QHG50C取力器+FHB400缓速器": "SF13JZ240A",
+    "SF13JZ240A-铝壳-QHG50C取力器+FHB400缓速器": "SF13JZ240A",
+    "8JS85TM-铝壳": "8JS85TM",
+    "12JSD200T-B-铁壳-无取力器+FHB400": "12JSD200T-B",
+    "SF16JZ260-铝壳-QHG50C花键-FHB400": "SF16JZ260",
+    "SF16JZ240-铝壳-QHG50C-FHB400": "SF16JZ240",
+    "SF16JZ260-铝壳-QHG50C-FHB400-强制冷却": "SF16JZ260",
+    "13JSDX260T-铁壳-QH50-FHB400缓速器-换挡助力": "13JSDX260T",
+    "12JSDX240T-铝壳-QH50花键-带换挡助力": "12JSDX240T",
+    "SF16JZ240-铝壳-QHG50C": "SF16JZ240",
+    "12JSDX240T-铝壳-QH50花键-换挡助力": "12JSDX240T",
+    "12JSD200T-B-铝壳-无取力器": "12JSD200T-B",
+    "12JSD200T-B+QH50花键": "12JSD200T-B",
+    "10JSD180+QH50花键": "10JSD180",
+    "12JSDX240K-铁壳-QH50花键": "12JSDX240K",
+    "12JSD200T-B-铁壳-QH50花键带换挡助力": "12JSD200T-B",
+    "8JS85TM-铝壳-无取力器": "8JS85TM",
+    "F8JZ110MM-铝壳-QD40J花键": "F8JZ110MM",
+    "9_RTD11509C-铁壳-QH50法兰": "RTD11509C",
+    "12JSDX240TA-铁壳": "12JSDX240TA",
+    "12JSD200TA-B-铝壳": "12JSD200TA-B",
+    "16JSDX240TA-铝壳+FHB400液力缓速器": "16JSDX240TA",
+    "SF16JZ240A-铝壳-FHB400缓速器": "SF16JZ240A",
+    "12JSDX240TA-铁壳-QH50花键取力器+FHB400液力缓速器": "12JSDX240TA",
+    "12JSDX240TA-铁壳-QH50-FHB400": "12JSDX240TA",
+    "12JSDX240TA-铁壳 -QH50花键取力器+FHB400液力缓速器": "12JSDX240TA",
+    "9JS119TB-QH50取力器": "9JS119TB",
+    "16JSDX240TA-铝壳 -QH50取力器+FHB400缓速器": "16JSDX240TA",
+    "12JSDX220TB-铁壳-无取力器（带助力）": "12JSDX220TB",
+    "12JSDX220TB-铁壳-QH70(花键)（带助力）": "12JSDX220TB",
+    "12JSD200T-B-铝壳-QH50": "12JSD200T-B",
+    "SF12JZ220A-铝壳-QHG50C法兰取力器": "SF12JZ220A",
+    "10JSD140T-铝壳-无取力器": "10JSD140T",
+    "12JSD200TA-B-铝壳-QH50": "12JSD200TA-B",
+    "10JSD140TB-铝壳-QH50": "10JSD140TB",
+    "9 AS 1517 TO": "9AS1517TO",
+    "12JSD200TA-B-铝壳-QH50（花键取力器）": "12JSD200TA-B",
+    "12JSD200T -B-铁壳-QH50": "12JSD200T-B",
+    "12JSD200T -B-铁壳-无取力器": "12JSD200T-B",
+    "RTD11509C-QH50": "RTD11509C",
+    "10JSD160": "10JSD160",
+    "12JSDX240TA-铁壳-QH70花键": "12JSDX240TA",
+    "12JSDX220TB-铁壳-QH50花键": "12JSDX220TB",
+    "SF16JZ240A-铝壳-QHG50C法兰取力器": "SF16JZ240A",
+    "10JSD160+QH50": "10JSD160",
+    "SF13JZ220A-铝壳-QHG50C花键": "SF13JZ220A",
+    "SF12JZ220A-铝壳-QHG50C": "SF12JZ220A",
+    "SF16JZ240A-铝壳-无取力器": "SF16JZ240A",
+    "SF8JZ110A": "SF8JZ110A",
+    "8JSX110TM变速箱-铁壳-无取力器": "8JSX110TM变速箱",
+    "9JS135T-B-换挡气助力": "9JS135T-B",
+    "8JSX110TM": "8JSX110TM",
+    "9JS135T-B -铁壳": "9JS135T-B",
+    "10JSD180TB-铁壳": "10JSD180TB",
+    "9JS135T-B": "9JS135T-B",
+    "10JSD180TB-铁壳-无取力器": "10JSD180TB",
+    "10JSD140": "10JSD140",
+    "12JSD200T-B-铁壳": "12JSD200T-B",
+    "12JSDX240T-铁壳": "12JSDX240T",
+    "12JSDX240TB-铁壳--无取力器": "12JSDX240TB",
+    "12JSDX240TB-铁壳-QH50法兰": "12JSDX240TB",
+    "SF13JZ260A+QHG50C/变速器增加油冷": "SF13JZ260A",
+    "10JSD180TB-铁壳-QH50-FHB400": "10JSD180TB",
+    "10JSD180TB-铁壳-QH50-换挡气助力": "10JSD180TB",
+    "10JSD140+QH50换挡气助力": "10JSD140",
+    "10JSD180T+QH50+FHB400换挡气助力": "10JSD180T",
+    "12JSD200T-B+QH50换挡气助力": "12JSD200T-B",
+    "10JSD140+QH50": "10JSD140",
+    "10JSD180T-铁壳-QH50（FHB400液力缓速器）": "10JSD180T",
+    "12JSD200T-B+QH50+FHB400换挡气助力": "12JSD200T-B",
+    "12JSD200T-B+QH50（FHB400液力缓速器）": "12JSD200T-B",
+    "12JSDX240TB-铁壳-QH50": "12JSDX240TB",
+    "12JSD200T-B-铁壳-QH50换挡气助力": "12JSD200T-B",
+    "12JSD200T-B+QH50-": "12JSD200T-B",
+    "10JSD180TB": "10JSD180TB",
+    "9JS135T-B -铁壳-带气助力": "9JS135T-B",
+    "10JSD180TB-铁壳-无取力器-换挡气助力": "10JSD180TB",
+    "10JSD140-铁壳-无取力器": "10JSD140",
+    "16JSDX240TA-铁壳-QH50": "16JSDX240TA",
+    "12JSD200TA-B-铁壳-QH50": "12JSD200TA-B",
+    "12JSDX240TA-铁壳-QH50花键取力器": "12JSDX240TA",
+    "10JSD180-铁壳-QH50取力器": "10JSD180",
+    "12JSD200TA-B-铁壳-QH50取力器": "12JSD200TA-B",
+    "10JSX110A-铁壳-QH50F花键取力器": "10JSX110A",
+    "12JSD180T-铁壳": "12JSD180T",
+    "10JSX110A-铁壳-无取力器": "10JSX110A",
+    "8JS125TA-铁壳-QCD45A": "8JS125TA",
+    "12JSD180T-铁壳-QH50法兰": "12JSD180T",
+    "8JSX95TM-铝壳-QD40J法兰取力器": "8JSX95TM",
+    "SF16JZ260A-铝壳-QHG50C花键-FHB400": "SF16JZ260A",
+    "12JSD200TA-B-铁壳-QH50花键": "12JSD200TA-B",
+    "12JSDX220TA-B-铁壳-QH50花键": "12JSDX220TA-B",
+    "12JSDX240TA-铁壳-QH50花键-FHB400": "12JSDX240TA",
+    "12JSDX220TA-B-铁壳-无取力器": "12JSDX220TA-B",
+    "9JS135T-B-铁壳+QH50花键": "9JS135T-B",
+    "12JSDX220TA-B-铁壳-QH50": "12JSDX220TA-B",
+    "12JSD160TA-铁壳-QH50": "12JSD160TA",
+    "12JSD180T-铁壳-QH50花键": "12JSD180T",
+    "12JSD200T-B-铝壳-QH50花键": "12JSD200T-B",
+    "SF16JZ240-铝壳-QHG50C法兰": "SF16JZ240",
+    "12JSD200T-B-铁-QH50法兰": "12JSD200T-B",
+    "16JSDX240TA-铁壳-QH50花键": "16JSDX240TA",
+    "10JSD180铁壳-QH50": "10JSD180",
+    "12JSD200T-B-铁壳-QH50（换挡气助力）": "12JSD200T-B",
+    "12JSD200T-B-铝壳-无取力器（带助力）": "12JSD200T-B",
+    "12JSD200TA-B-铝壳-无取力器（带助力）": "12JSD200TA-B",
+    "12JSD200T-B-铁壳-无取力器（带助力）": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QH50（带助力）": "12JSD200T-B",
+    "12JSD200T-B-QH50": "12JSD200T-B",
+    "12JSD200TA-B-铝壳-无取力器": "12JSD200TA-B",
+    "12JSDX220T-B": "12JSDX220T-B",
+    "12TX2420TD": "12TX2420TD",
+    "ZF 12TX2420TD +EZF650花键": "ZF12TX2420TD",
+    "10JSD180-铁壳--QH50-花键": "10JSD180",
+    "10JSD180TB-铁壳-无取力器（带气助力）": "10JSD180TB",
+    "12JSD200TA-B-铁壳-无取力器（带助力）": "12JSD200TA-B",
+    "10JSD180TB-铁壳-无取力器-带气助力": "10JSD180TB",
+    "SF16JZ260A-铝壳-QHG50C": "SF16JZ260A",
+    "SF16JZ220A-铝壳-无取力器": "SF16JZ220A",
+    "SF16JZ260A(铝壳)+QHG50C": "SF16JZ260A",
+    "EHDM-26N112C-铝壳-无取力器": "EHDM-26N112C",
+    "SF16JZ260A+QHG50C": "SF16JZ260A",
+    "SF16JZ220A-铝壳-QHG50C": "SF16JZ220A",
+    "10JSD180T-铁壳-QH50带助力": "10JSD180T",
+    "10JSD180T-铁壳-QHG50取力器": "10JSD180T",
+    "10JSD180TB-铁壳-QHG50取力器 变速箱带换挡气助力": "10JSD180TB",
+    "10JSD180TB-铁壳-QHG50取力器变速箱带换挡气助力": "10JSD180TB",
+    "10JSD180TB+QH50带气助力": "10JSD180TB",
+    "12JSD220TA-B+QH50带气助力": "12JSD220TA-B",
+    "10JSD180TB-铁壳-QH50-挡气助力": "10JSD180TB",
+    "12JSD200TA-B-铁壳-QH70-换挡气助力": "12JSD200TA-B",
+    "9AS1517 TO": "9AS1517TO",
+    "RTD-11509C+QH50": "RTD-11509C",
+    "12JSDX220T-B-铁壳-QH70": "12JSDX220T-B",
+    "12JSD200T-B-QH50花键": "12JSD200T-B",
+    "RTD-11509C": "RTD-11509C",
+    "16S2233TD-铝壳": "16S2233TD",
+    "EHDM-26N112C-R（福伊特液力缓速器）": "EHDM-26N112C-R",
+    "16S2531TO-铝壳-EZF650花键取力器（液力缓速器）": "16S2531TO",
+    "12TX2621TD-EZF650花键（带液力缓速器）": "12TX2621TD",
+    "ZF9S1517TO-铝壳-EZF100N取力器": "ZF9S1517TO",
+    "12JSDX240K （强制冷却）": "12JSDX240K",
+    "12JSD200TA-B-铁壳": "12JSD200TA-B",
+    "10JSD180-铁壳+QH50": "10JSD180",
+    "ZF16S2530TO-铝壳-无取力器": "ZF16S2530TO",
+    "12TX2421TD-铝壳": "12TX2421TD",
+    "12TX2420TD-铝壳": "12TX2420TD",
+    "10JSD180T": "10JSD180T",
+    "12JSDX220TB-铝壳-无取力器（带助力）": "12JSDX220TB",
+    "12JSD200T-B-铝壳-无取力器（换挡气助力）": "12JSD200T-B",
+    "12JSDX220TB-铝壳-无取力器（带换挡气助力）": "12JSDX220TB",
+    "12JSD200T-B-铝壳-无取力器（带换挡气助力）": "12JSD200T-B",
+    "8JS85TM-铝壳-QD40J内六齿花键取力器": "8JS85TM",
+    "10JSD180T+QH50花键": "10JSD180T",
+    "12JSDX240TB+QH50": "12JSDX240TB",
+    "12JSD200T-B-铝壳": "12JSD200T-B",
+    "12JSDX240TA-铁壳-QH50-FHB400液力缓速器": "12JSDX240TA",
+    "SF16JZ240A-QHG50C花键-FHB400": "SF16JZ240A",
+    "12JSD200T-B-铁壳-QH50（法兰式）": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QH50（花键式）": "12JSD200T-B",
+    "9JS135T_B-铁壳-（带气助力）-QH50-花键取力器": "9JS135T_B",
+    "12JSD200TA-B-铝壳-无取力器（带换挡气助力）": "12JSD200TA-B",
+    "12JSD200TA-B-铁壳-无取力器（带换挡气助力）": "12JSD200TA-B",
+    "10JSD180T-铁壳-QH50（换挡气助力）": "10JSD180T",
+    "10JSD180T-铁壳-QH50+换挡气助力": "10JSD180T",
+    "8JS85TM-铁壳-QD40J法兰": "8JS85TM",
+    "10JSD180T-铁壳-QH50取力器": "10JSD180T",
+    "10JSD180T-铁壳": "10JSD180T",
+    "10JSD180T-铁壳-QH70取力器": "10JSD180T",
+    "SF16JZ240A-铝壳-QHG50C取力器+FHB400缓速器": "SF16JZ240A",
+    "16JSD200TA-铝壳-QH50取力器+FHB400缓速器": "16JSD200TA",
+    "SF16JZ260A-铝壳-QHG50C取力器+FHB400缓速器": "SF16JZ260A",
+    "13JSDX240T-铁壳（带助力）-QH50花键取力器+FHB400缓速器": "13JSDX240T",
+    "12TX2621TD+EZF650取力器（带液力缓速器）": "12TX2621TD",
+    "8JS85TM-铁壳-QD40J": "8JS85TM",
+    "10JSD180T+QH50": "10JSD180T",
+    "RTD11509C+QH50法兰": "RTD11509C",
+    "10JSD140T+QH50法兰": "10JSD140T",
+    "10JSD180T+QH50法兰": "10JSD180T",
+    "10JSD180+QH50法兰": "10JSD180",
+    "8JSX110TM-铁壳-QD40J": "8JSX110TM",
+    "SF16JZ240A-铝壳-QHG50C取力器": "SF16JZ240A",
+    "10JSX110A-铁壳-QH50F花键": "10JSX110A",
+    "8JS85TM-QD40J": "8JS85TM",
+    "12JSDX220TB+QH50": "12JSDX220TB",
+    "8JS85TM-铁壳": "8JS85TM",
+    "SF16JZ240A-铝壳-QHG50C": "SF16JZ240A",
+    "12JSD200T-B-铁壳-QH50(花键取力器）": "12JSD200T-B",
+    "10JSD180T-铁壳-无取力器": "10JSD180T",
+    "10JSD180T-铁壳-QH50法兰": "10JSD180T",
+    "SF13JZ220A-铝壳-无取力器": "SF13JZ220A",
+    "SF16JZ220A-铝壳-QHG50C法兰": "SF16JZ220A",
+    "12JSD200T-B-铁壳-QH50（法兰）": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QH50法兰": "12JSD200T-B",
+    "12JSDX220TB-铁壳-QH50法兰": "12JSDX220TB",
+    "12JSD200T-B-铁壳-QH50(法兰)": "12JSD200T-B",
+    "SF16JZ220A-铝壳-QHG50C（法兰式）": "SF16JZ220A",
+    "SF16JZ240A-铝壳": "SF16JZ240A",
+    "SF16JZ240A-铝壳-QHG50C(花键式)": "SF16JZ240A",
+    "12JSD200TA-B-铁壳-QH50(花键式）": "12JSD200TA-B",
+    "12JSD200TA-B-铁壳-QH50（花键式）": "12JSD200TA-B",
+    "12JSDX220TA-B-铁壳-QH70(花键式）": "12JSDX220TA-B",
+    "12JSD200T-B-铁壳-QH50(花键式）": "12JSD200T-B",
+    "12JSDX220TB-铁壳-QH50(花键式）": "12JSDX220TB",
+    "SF13JZ220A-铝壳-QHG50C(花键式": "SF13JZ220A",
+    "SF13JZ220A-铝壳-QHG50C（花键式）": "SF13JZ220A",
+    "SF13JZ220A-铝壳-QHG50C(花键式）": "SF13JZ220A",
+    "8JS95TM-铝壳-QD40J(法兰式)": "8JS95TM",
+    "SF16JZ220A+QHG50C(法兰式）": "SF16JZ220A",
+    "12JSDX220TB-铁壳-QH50（法兰）": "12JSDX220TB",
+    "10JSD180+QH50（花键）": "10JSD180",
+    "12JSD200T-B-铁壳 -QH50花键": "12JSD200T-B",
+    "12JSD200T-B+QH50（花键）": "12JSD200T-B",
+    "12JSD200T-B-QH50法兰": "12JSD200T-B",
+    "8JS85TM（铝）": "8JS85TM",
+    "9JS135T_B-铁壳-无取力器（带换挡气助力）": "9JS135T_B",
+    "SF12JZ220A-铝壳-无取力器": "SF12JZ220A",
+    "16JSD200TA": "16JSD200TA",
+    "16JSD200TA+QH50(花键)": "16JSD200TA",
+    "16JSD200TA+QH50": "16JSD200TA",
+    "16JSDX240TA-铁壳": "16JSDX240TA",
+    "SF16JZ240A-QHG50C": "SF16JZ240A",
+    "16JSDX240TA-铁壳-QH50(花键式）": "16JSDX240TA",
+    "SF16JZ240A-铝壳-QHG50C(花键式）": "SF16JZ240A",
+    "16JSDX240TA-铁壳-QH50（花键式）": "16JSDX240TA",
+    "16JSDX240TA-铁壳-QH50（花键式取力器）": "16JSDX240TA",
+    "16JSDX240TA-QH50": "16JSDX240TA",
+    "10JSD180T-铁壳-QH50（花键式）": "10JSD180T",
+    "10JSD180T-铁壳-QH50法兰取力器": "10JSD180T",
+    "8JSX110TM+QD40J": "8JSX110TM",
+    "SF16JZ260A+QHG50B+液力缓速器": "SF16JZ260A",
+    "SF16JZ260A-铝壳-QHG50B+FHB400": "SF16JZ260A",
+    "12JSD200TA-B-铁壳-QH50花键取力器 FHB400": "12JSD200TA-B",
+    "12JSD200TA-B铁壳-QH50花键取力器": "12JSD200TA-B",
+    "12JSDX220TB-铁壳-QH50花键取力器": "12JSDX220TB",
+    "12JSDX220TB-铁壳-QH50+FHB400": "12JSDX220TB",
+    "8JS105TA-铁壳-无取力器": "8JS105TA",
+    "8JS125TB-铁壳-无取力器": "8JS125TB",
+    "10JSD140T (体现换挡气助力）": "10JSD140T",
+    "10JSD180T-铁壳-无取力器(体现换挡气助力）": "10JSD180T",
+    "10JSD140TB-铁壳-无取力器（带气助力）": "10JSD140TB",
+    "10JSD140T-铁壳-无取力器（带气助力）": "10JSD140T",
+    "12JSD200TA-B-铝壳带换挡气助力": "12JSD200TA-B",
+    "9JS119T_B-铁壳": "9JS119T_B",
+    "12JSDX240T-铝壳-QH70取力器带换挡气助力": "12JSDX240T",
+    "10JSD140T-铁壳": "10JSD140T",
+    "设计推荐": "设计推荐",
+    "12JSD200TA-B-铁壳带换挡气助力": "12JSD200TA-B",
+    "12JSDX220TA-B-铁壳-无取力器/体现换挡气助力": "12JSDX220TA-B",
+    "12JSD200TA-B-铁壳-QH70/体现换挡气助力": "12JSD200TA-B",
+    "12JSD200TA-B-铝壳-无取力器/体现换挡气助力": "12JSD200TA-B",
+    "12JSDX220T-B-铁壳-QH70（带助力）": "12JSDX220T-B",
+    "12JSD200TA-B-铁壳-QH70带气助力": "12JSD200TA-B",
+    "10JSD140T-铝壳-QHG50/带换挡气助力": "10JSD140T",
+    "12JSD160T- 铝壳-QHG50 带助力": "12JSD160T",
+    "12JSD200T-B-铝壳-QHG50（体现换挡气助力）": "12JSD200T-B",
+    "12JSD200T-B- 铝壳-QHG50 带助力": "12JSD200T-B",
+    "12JSD200T-B+QHG50铝壳": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QHG50-换挡气助力": "12JSD200T-B",
+    "12JSD200T-B+QHG50": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QHG50（体现换挡气助力）": "12JSD200T-B",
+    "12JSD200T-B+QHG50(体现换挡气助力）": "12JSD200T-B",
+    "12JSD200T-B-铁壳-QHG50花键（带助力）": "12JSD200T-B",
+    "SF16JZ220-铝壳-无取力器": "SF16JZ220",
+    "RTD-11509C-铁壳-无取力器": "RTD-11509C",
+    "10JSD180B-铁壳-无取力器": "10JSD180B",
+    "SF16JZ240A-QHG50C法兰": "SF16JZ240A",
+    "F16JZ26A-铝壳- QHG50C（法兰取力器）+FHB400": "F16JZ26A",
+    "12TX2821TD-铝壳（EZF650花键取力器/液力缓速器）": "12TX2821TD",
+    "12JSDX220TA-B-铁壳-QH50 FHB400液力缓速器": "12JSDX220TA-B",
+    "SF16JZ240A-铝壳-QHG50C+法士特FHB400缓速器": "SF16JZ240A",
+    "12JSD160TA": "12JSD160TA",
+    "12JSD200TA-B": "12JSD200TA-B",
+    "12JSDX220TA-B+QH50": "12JSDX220TA-B",
+    "12JSDX220TA-B-铁壳-QH70": "12JSDX220TA-B",
+    "12JSDX220TA-B-QH70": "12JSDX220TA-B",
+    "12JSDX220TA-B+FHB400": "12JSDX220TA-B",
+    "12JSDX240TA-铁壳-FHB400缓速器": "12JSDX240TA",
+    "12JSD200TA-B-QH70法兰上拉": "12JSD200TA-B",
+    "12TX2621TD-铝壳-带液力缓速器（预留取力器线束及开关）": "12TX2621TD",
+    "SF16JZ26-铝壳-QHG50C-B花键-FHB400": "SF16JZ26",
+    "12JSDX220TA-B-铁壳-无取力器-FHB400": "12JSDX220TA-B",
+    "12JSDX220TA-B-FHB400缓速器": "12JSDX220TA-B",
+    "12JSDX240TA-FHB400液力缓速器": "12JSDX240TA",
+    "12TX2821TD-铝壳-EZF650花键-带缓速器": "12TX2821TD",
+    "12JSDX220TA-B铝壳+QH50": "12JSDX220TA-B",
+    "12JSDX220TA-B+QH70+FHB400液力缓速器": "12JSDX220TA-B",
+    "12JSDX240TA+QH70+FHB400": "12JSDX240TA",
+    "12JSDX220TA-B+QH50+FHB400": "12JSDX220TA-B",
+    "12JSDX220TA-B+QH50+FHB400液力缓速器": "12JSDX220TA-B",
+    "12JSDX240TA+QH50+FHB400": "12JSDX240TA",
+    "12JSD160TA+QH50": "12JSD160TA",
+    "8JSX95TM-铝壳-QD40J": "8JSX95TM",
+    "9JS135T_B-铁壳-QH50": "9JS135T_B"
+  },
+  "downgrade_rule": "变速箱高换低减价为选换装×80%",
+  "downgrade_multiplier": 0.8,
+  "stats": {
+    "unique_full_strings": 374,
+    "unique_base_models": 72,
+    "covered_by_swap_rules": 71,
+    "uncovered_by_swap_rules": 1,
+    "graph_nodes": 65
+  }
+}

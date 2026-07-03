@@ -21,7 +21,8 @@
     "options": "",
     "price": 39.02,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 36.852,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240AQHG50C"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 42.172,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 43.085,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中东/Middle East",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 31.435,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 59.105,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 39.445,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 35.791,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TAQH50"
   },
   {
     "region": "中东/Middle East",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 42.552,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "中东/Middle East",
@@ -237,6 +246,7 @@
     "options": "",
     "price": 56.105,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   }
 ]

@@ -21,7 +21,8 @@
     "options": "",
     "price": 26.29,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 26.33,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 32.24,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 26.24,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 17.405,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 29.125,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "9JS135TB换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -165,7 +171,8 @@
     "options": "DH981831H5H00",
     "price": 25.18,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "8JSX110TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -189,7 +196,8 @@
     "options": "DH991831H5700",
     "price": 23.885,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "9JS135TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -213,7 +221,8 @@
     "options": "DH992540H5B00",
     "price": 32.335,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -237,7 +246,8 @@
     "options": "DH992531H5700",
     "price": 29.425,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "9JS135TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -261,7 +271,8 @@
     "options": "DH992536H5XH1",
     "price": 32.227,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -285,7 +296,8 @@
     "options": "DH952534H01H5",
     "price": 26.676,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -309,7 +321,8 @@
     "options": "DH952542H38M2",
     "price": 29.906,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -333,7 +346,8 @@
     "options": "DH952542H08HD",
     "price": 29.556,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -357,7 +371,8 @@
     "options": "DH972538H5211",
     "price": 34.795,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -381,7 +396,8 @@
     "options": "DH972542H58MN",
     "price": 34.605,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -405,7 +421,8 @@
     "options": "DH972548HK5M7",
     "price": 38.025,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX240T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -429,7 +446,8 @@
     "options": "DH9A2542H5210",
     "price": 36.986,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -453,7 +471,8 @@
     "options": "DH9A2546H5XY1",
     "price": 36.354,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX240TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -477,7 +496,8 @@
     "options": "DH9A2552HK5M9",
     "price": 37.842,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX240TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -501,7 +521,8 @@
     "options": "DH972554H59H3",
     "price": 42.237,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF13JZ260A+QHG50C/变速器增加油冷"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -525,7 +546,8 @@
     "options": "",
     "price": 32.794,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -549,7 +571,8 @@
     "options": "",
     "price": 32.024,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -573,7 +596,8 @@
     "options": "",
     "price": 26.216,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -597,7 +621,8 @@
     "options": "",
     "price": 26.404,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -621,7 +646,8 @@
     "options": "",
     "price": 30.046,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50+FHB400换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -645,7 +671,8 @@
     "options": "",
     "price": 30.246,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50+FHB400换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -669,7 +696,8 @@
     "options": "",
     "price": 29.026,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -693,7 +721,8 @@
     "options": "",
     "price": 27.466,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -717,7 +746,8 @@
     "options": "",
     "price": 25.766,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -741,7 +771,8 @@
     "options": "",
     "price": 25.731,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -765,7 +796,8 @@
     "options": "",
     "price": 31.377,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -789,7 +821,8 @@
     "options": "",
     "price": 33.192,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -813,7 +846,8 @@
     "options": "",
     "price": 32.036,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -837,7 +871,8 @@
     "options": "",
     "price": 35.346,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50+FHB400换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -861,7 +896,8 @@
     "options": "",
     "price": 31.536,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -885,7 +921,8 @@
     "options": "",
     "price": 36.772,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50（FHB400液力缓速器）"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -909,7 +946,8 @@
     "options": "",
     "price": 36.209,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -933,7 +971,8 @@
     "options": "",
     "price": 29.52,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -957,7 +996,8 @@
     "options": "",
     "price": 33.418,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -981,7 +1021,8 @@
     "options": "",
     "price": 32.888,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50换挡气助力"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1005,7 +1046,8 @@
     "options": "",
     "price": 35.255,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1029,7 +1071,8 @@
     "options": "",
     "price": 36.419,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1053,7 +1096,8 @@
     "options": "",
     "price": 35.144,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1077,7 +1121,8 @@
     "options": "",
     "price": 28.019,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JSX110TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1101,7 +1146,8 @@
     "options": "",
     "price": 32.676,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1125,7 +1171,8 @@
     "options": "",
     "price": 29.945,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "9JS135TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1149,7 +1196,8 @@
     "options": "",
     "price": 32.093,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1173,7 +1221,8 @@
     "options": "",
     "price": 26.4,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1197,7 +1246,8 @@
     "options": "",
     "price": 27.0,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1221,7 +1271,8 @@
     "options": "",
     "price": 31.608,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1245,6 +1296,7 @@
     "options": "",
     "price": 36.973,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

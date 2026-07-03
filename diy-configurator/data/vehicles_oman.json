@@ -21,7 +21,8 @@
     "options": "DH9A2554H5905",
     "price": 43.137,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "DH972548H3T99",
     "price": 41.75,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "DH972552H3T05",
     "price": 43.445,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ240AQHG50C花键FHB400"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "DH992542H3801",
     "price": 33.73,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -117,6 +121,7 @@
     "options": "",
     "price": 32.535,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

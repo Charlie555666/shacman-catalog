@@ -21,7 +21,8 @@
     "options": "电动翻转 | 油底壳保护栅",
     "price": 26.6,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "9JS135T_B"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -45,7 +46,8 @@
     "options": "电动翻转 | 油底壳保护栅",
     "price": 28.605,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -69,7 +71,8 @@
     "options": "电动翻转",
     "price": 29.05,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 27.805,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 30.305,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 27.05,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -165,6 +171,7 @@
     "options": "",
     "price": 18.42,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   }
 ]

@@ -21,7 +21,8 @@
     "options": "",
     "price": 31.446,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 32.129,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 43.975,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 32.829,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 28.106,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -141,6 +146,7 @@
     "options": "",
     "price": 31.454,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   }
 ]

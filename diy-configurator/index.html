@@ -185,6 +185,9 @@ const STATE = {
   selectedAccessories: {},  // {id: true/false}
   engineSwaps: null,
   accessories: null,
+  transmissionUpgrades: null,
+  selectedTransmission: null,
+  _transmissionPriceChange: 0,
   paints: null
 };
 
@@ -535,16 +538,18 @@ async function renderStep5(app) {
     }
     return 7; // Default: 4x2
   }
-  // Load engine swaps & accessories if not loaded
+  // Load engine swaps & accessories & transmission upgrades if not loaded
   if (!STATE.engineSwaps) {
     app.innerHTML = '<div class="card"><div class="loading"><div class="spinner"></div>正在加载配置数据 / Loading configuration data...</div></div>';
     try {
-      const [es, ac] = await Promise.all([
+      const [es, ac, tu] = await Promise.all([
         fetchJSON(DATA_BASE + 'engine_swaps.json'),
-        fetchJSON(DATA_BASE + 'accessories.json')
+        fetchJSON(DATA_BASE + 'accessories.json'),
+        fetchJSON(DATA_BASE + 'transmission_upgrades.json')
       ]);
       STATE.engineSwaps = es;
       STATE.accessories = ac;
+      STATE.transmissionUpgrades = tu;
     } catch(e) {
       app.innerHTML = `<div class="card"><p style="color:red">加载失败 / Failed to load config data: ${e.message}</p></div>`;
       return;
@@ -592,6 +597,61 @@ async function renderStep5(app) {
     engineHTML = `<div class="card">
       <h2><span class="icon">⚙️</span> 发动机 / Engine</h2>
       <p>${v.engine} (${v.hp}HP · ${v.emission}) — 此发动机暂无可换装选项 / No swap options available</p>
+    </div>`;
+  }
+
+  // ── Transmission Swap Options ──
+  let transHTML = '';
+  const currentTrans = STATE.selectedTransmission || v.gearbox;
+  const tuUpgrades = STATE.transmissionUpgrades && STATE.transmissionUpgrades.upgrades;
+  const transBase = (v.gearbox_base || (v.gearbox ? v.gearbox.split('-')[0].split('+')[0].trim() : ''));
+  const transOptions = tuUpgrades && tuUpgrades[transBase] ? tuUpgrades[transBase] : [];
+
+  if (transOptions.length > 0) {
+    transHTML = `<div class="card">
+      <h2><span class="icon">🔧</span> 变速箱换装 / Gearbox Swap</h2>
+      <p style="color:#888; margin-bottom:12px;">原装 / Original: <strong>${v.gearbox}</strong></p>
+      <p style="color:#666; font-size:12px; margin-bottom:12px;">基础型号 / Base Model: <strong>${transBase}</strong> (${transOptions.length} 种换装选项 / swap options)</p>`;
+
+    // Default: keep original
+    const isDefault = currentTrans === v.gearbox;
+    transHTML += `<div class="option-row ${isDefault ? 'selected' : ''}" onclick="selectTransmission('${v.gearbox.replace(/'/g,"\\'")}', 0)">
+      <input type="radio" name="transmission" ${isDefault ? 'checked' : ''}>
+      <div class="opt-info"><div class="opt-name"><span class="opt-cn">保持原装 / Keep Original</span><span class="opt-en">Keep stock gearbox</span></div><div class="opt-desc">${v.gearbox}</div></div>
+      <div class="opt-price zero">¥0</div>
+    </div>`;
+
+    // Show swap options
+    let shown = 0;
+    for (const opt of transOptions) {
+      if (shown >= 8) break; // Show max 8 options
+      const priceYuan = opt.price;
+      const isDowngrade = opt.is_downgrade || priceYuan < 0;
+      const isUpgrade = !isDowngrade && priceYuan > 0;
+      const arrow = isDowngrade ? '↓' : '↑';
+      const label = isDowngrade ? '降级 / Downgrade' : '升级 / Upgrade';
+      const selected = currentTrans === opt.target;
+      
+      transHTML += `<div class="option-row ${selected ? 'selected' : ''}" onclick="selectTransmission('${opt.target.replace(/'/g,"\\'")}', ${priceYuan})">
+        <input type="radio" name="transmission" ${selected ? 'checked' : ''}>
+        <div class="opt-info">
+          <div class="opt-name"><span class="opt-cn">换装: ${opt.target}</span><span class="opt-en">Swap to: ${opt.target}</span></div>
+          <div class="opt-desc">${arrow} ${label}${opt.steps > 1 ? ' (' + opt.steps + '步/steps)' : ''}</div>
+        </div>
+        <div class="opt-price ${priceYuan > 0 ? 'positive' : priceYuan < 0 ? 'negative' : 'zero'}">${priceYuan >= 0 ? '+' : ''}¥${Math.abs(priceYuan).toLocaleString()}元</div>
+      </div>`;
+      shown++;
+    }
+
+    if (transOptions.length > 8) {
+      transHTML += `<p style="color:#888; font-size:12px; margin-top:8px;">还有 ${transOptions.length - 8} 种选项未显示 / ${transOptions.length - 8} more options hidden</p>`;
+    }
+
+    transHTML += '</div>';
+  } else {
+    transHTML = `<div class="card">
+      <h2><span class="icon">🔧</span> 变速箱 / Gearbox</h2>
+      <p>${v.gearbox} — 此变速箱暂无可换装选项 / No swap options available</p>
     </div>`;
   }
 
@@ -683,12 +743,18 @@ async function renderStep5(app) {
     <button class="btn btn-primary" onclick="STATE.step=6;render()">查看报价汇总 / View Quote →</button>
   </div>`;
 
-  app.innerHTML = engineHTML + accHTML + navHTML;
+  app.innerHTML = engineHTML + transHTML + accHTML + navHTML;
 }
 
 function selectEngine(engine, priceChange) {
   STATE.selectedEngine = engine;
   STATE._enginePriceChange = priceChange;
+  renderStep5Content();
+}
+
+function selectTransmission(transmission, priceChange) {
+  STATE.selectedTransmission = transmission;
+  STATE._transmissionPriceChange = priceChange;
   renderStep5Content();
 }
 
@@ -725,6 +791,7 @@ function renderStep6(app) {
   const v = STATE.selectedVehicle;
   const basePrice = v.has_price ? v.price : 0;
   const engineChange = STATE._enginePriceChange || 0;
+  const transChange = STATE._transmissionPriceChange || 0;
 
   let accessoriesTotal = 0;
   const selectedAcc = [];
@@ -733,7 +800,7 @@ function renderStep6(app) {
     selectedAcc.push({ id, price });
   }
 
-  const optionTotalWan = (engineChange + accessoriesTotal) / 10000; // 换装总价(万元)
+  const optionTotalWan = (engineChange + transChange + accessoriesTotal) / 10000; // 换装总价(万元)
   const totalPrice = basePrice + optionTotalWan;
   // FOB底盘价 = (底盘价 + 换装总价) × 0.95 ÷ 1.13
   const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13;
@@ -786,7 +853,7 @@ function renderStep6(app) {
       </div>
       <div class="summary-item">
         <div class="s-label">变速箱 / Gearbox</div>
-        <div class="s-value">${v.gearbox}</div>
+        <div class="s-value">${STATE.selectedTransmission || v.gearbox}</div>
       </div>
     </div>
 
@@ -821,6 +888,7 @@ function renderStep6(app) {
     <div class="price-breakdown">
       <div class="line"><span>底盘价格 / Chassis Base</span><span>¥${basePrice.toFixed(1)} 万</span></div>
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
+      ${transChange !== 0 ? `<div class="line"><span>变速箱换装 / Gearbox Swap</span><span style="color:${transChange>0?'#ff8a80':'#a5d6a7'}">${transChange>=0?'+':''}¥${Math.abs(transChange).toLocaleString()}元</span></div>` : ''}
       ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>底盘+换装合计 / Subtotal</span><span>¥${totalPrice.toFixed(1)} 万</span></div>
       <div class="line total" style="color:var(--gold); font-size:18px;"><span>🏁 FOB底盘价 / FOB Chassis Price</span><span>¥${fobChassisPrice.toFixed(2)} 万</span></div>
@@ -828,6 +896,7 @@ function renderStep6(app) {
     ` : `
     <div class="price-breakdown">
       ${engineChange !== 0 ? `<div class="line"><span>发动机换装 / Engine Swap</span><span style="color:${engineChange>0?'#ff8a80':'#a5d6a7'}">${engineChange>=0?'+':''}¥${(engineChange/10000).toFixed(1)} 万</span></div>` : ''}
+      ${transChange !== 0 ? `<div class="line"><span>变速箱换装 / Gearbox Swap</span><span style="color:${transChange>0?'#ff8a80':'#a5d6a7'}">${transChange>=0?'+':''}¥${Math.abs(transChange).toLocaleString()}元</span></div>` : ''}
       ${selectedAcc.map(a => { const cn = a.id.split('_').slice(1).join(' '); const en = accLookup[cn] || ''; const tc = tireLookup[cn]; const ct = tc ? getTireCount(v.drive) : 0; return `<div class="line"><span>${cn}${en ? '<br><small style="opacity:0.6;font-weight:400;font-size:11px;">' + en + '</small>' : ''}${ct ? '<br><small style="color:#888;font-size:10px;">' + ct + '条全套 / ' + ct + ' tires full set</small>' : ''}</span><span style="color:${a.price>0?'#ff8a80':'#a5d6a7'}">${a.price>=0?'+':''}¥${Math.abs(a.price).toLocaleString()}元</span></div>`; }).join('')}
       <div class="line total"><span>选装合计 / Options Subtotal</span><span>¥${optionTotalWan.toFixed(1)} 万</span></div>
     </div>
@@ -869,6 +938,8 @@ function resetAll() {
   STATE.selectedEngine = null;
   STATE.selectedAccessories = {};
   STATE._enginePriceChange = 0;
+  STATE.selectedTransmission = null;
+  STATE._transmissionPriceChange = 0;
   STATE.countryData = null;
   render();
 }

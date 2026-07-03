@@ -21,7 +21,8 @@
     "options": "",
     "price": 44.847,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 49.817,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 44.944,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中南美区/Latin America",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 45.844,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "中南美区/Latin America",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 38.61,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 43.906,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中南美区/Latin America",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 39.283,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 45.363,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 45.778,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 28.645,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JSX110TM"
   },
   {
     "region": "中南美区/Latin America",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 47.164,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 41.353,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 46.833,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -333,6 +346,7 @@
     "options": "",
     "price": 29.4,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JSX110TM"
   }
 ]

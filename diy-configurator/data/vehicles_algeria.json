@@ -21,7 +21,8 @@
     "options": "",
     "price": 26.83,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "其他/Other",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 27.56,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "其他/Other",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 25.44,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "9JS135+QH50"
   },
   {
     "region": "其他/Other",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 26.19,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C+QH50"
   },
   {
     "region": "其他/Other",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 30.55,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200T+QH50"
   },
   {
     "region": "其他/Other",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 31.04,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "F16JZ24A"
   },
   {
     "region": "其他/Other",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 33.69,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200T+QH50"
   },
   {
     "region": "其他/Other",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 34.49,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "F16JZ24A"
   },
   {
     "region": "其他/Other",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 25.19,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "9JS135+QH50"
   },
   {
     "region": "其他/Other",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 26.92,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "其他/Other",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 27.88,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "其他/Other",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 30.88,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "其他/Other",
@@ -309,7 +321,8 @@
     "options": "DH981821H06M3",
     "price": 16.81,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "8JS85TEC"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 28.26,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 32.33,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 26.93,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -405,7 +421,8 @@
     "options": "DH971842H38M3",
     "price": 30.267,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -429,7 +446,8 @@
     "options": "DH971846H38M7",
     "price": 32.467,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ220A"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -453,7 +471,8 @@
     "options": "DH9A1846H38M0",
     "price": 37.382,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12TX2421TD"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -477,7 +496,8 @@
     "options": "DH9A1846H38M1",
     "price": 38.082,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12TX2421TD"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -501,7 +521,8 @@
     "options": "DH972542H38M8",
     "price": 34.19,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -525,7 +546,8 @@
     "options": "DH972546H38M2",
     "price": 36.222,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF16JZ220A"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -549,7 +571,8 @@
     "options": "DH971842H32M1",
     "price": 30.687,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200T"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -573,7 +596,8 @@
     "options": "DH972542H32M2",
     "price": 33.847,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200T"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -597,7 +621,8 @@
     "options": "",
     "price": 27.15,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -621,7 +646,8 @@
     "options": "",
     "price": 30.8,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -645,7 +671,8 @@
     "options": "DH981821H06MH",
     "price": 17.09,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -669,7 +696,8 @@
     "options": "DH981821H06M3",
     "price": 16.89,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -693,6 +721,7 @@
     "options": "DH981824H37M4",
     "price": 21.61,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "F8JZ95MM"
   }
 ]

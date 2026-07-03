@@ -21,7 +21,8 @@
     "options": "",
     "price": 30.577,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 31.627,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 28.758,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180QH50花键"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 30.717,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -117,6 +121,7 @@
     "options": "",
     "price": 31.017,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   }
 ]

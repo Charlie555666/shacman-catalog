@@ -21,7 +21,8 @@
     "options": "DH9A2540H5B00",
     "price": 34.486,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -45,7 +46,8 @@
     "options": "DH992540H5B05",
     "price": 36.635,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "SF12JZ220A"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -69,7 +71,8 @@
     "options": "DH992534H57Q1",
     "price": 29.943,
     "has_price": true,
-    "price_source": "base_dh_col"
+    "price_source": "base_dh_col",
+    "gearbox_base": "10JSD-140T"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 37.126,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 32.753,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140TB"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 28.161,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "9AS1517TO"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -165,6 +171,7 @@
     "options": "",
     "price": 36.772,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   }
 ]

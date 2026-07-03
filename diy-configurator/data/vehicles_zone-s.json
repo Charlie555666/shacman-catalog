@@ -21,7 +21,8 @@
     "options": "DH9A2534H51H1",
     "price": 34.699,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-160TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -45,7 +46,8 @@
     "options": "DH9A3138H58H0",
     "price": 38.171,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -69,7 +71,8 @@
     "options": "5600×2300×1100",
     "price": 46.609,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH50"
   },
   {
     "region": "亚俄区/CIS",
@@ -93,7 +96,8 @@
     "options": "5600×2300×1500",
     "price": 55.119,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -117,7 +121,8 @@
     "options": "/",
     "price": 46.609,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -141,7 +146,8 @@
     "options": "/",
     "price": 47.469,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -165,7 +171,8 @@
     "options": "/",
     "price": 47.569,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -189,7 +196,8 @@
     "options": "/",
     "price": 47.569,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -213,7 +221,8 @@
     "options": "/",
     "price": 47.569,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -237,7 +246,8 @@
     "options": "/",
     "price": 46.609,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -261,7 +271,8 @@
     "options": "/",
     "price": 47.319,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -285,7 +296,8 @@
     "options": "/",
     "price": 47.469,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -309,7 +321,8 @@
     "options": "/",
     "price": 47.419,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -333,7 +346,8 @@
     "options": "/",
     "price": 47.419,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -357,7 +371,8 @@
     "options": "/",
     "price": 47.419,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TABQH70"
   },
   {
     "region": "亚俄区/CIS",
@@ -381,7 +396,8 @@
     "options": "——",
     "price": 50.389,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -405,7 +421,8 @@
     "options": "——",
     "price": 50.914,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -429,7 +446,8 @@
     "options": "/",
     "price": 56.869,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -453,7 +471,8 @@
     "options": "DH9A2542H5SH4",
     "price": 46.336,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -477,7 +496,8 @@
     "options": "DH9A3142H5SH1",
     "price": 51.066,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -501,7 +521,8 @@
     "options": "DH9A2542H5SH1",
     "price": 45.782,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TABQH70法兰上拉"
   },
   {
     "region": "亚俄区/CIS",
@@ -525,7 +546,8 @@
     "options": "13T HD单级减速桥-2.643 | 康迪泰克气囊 | 轮胎三角品牌 | 轮胎朝阳品牌 | 旗舰版选装包[EPB电子手刹+预留两盏危险警示灯线束接口及支架+ADR系统+固定侧防护+应急启动电缆+通风加热空气副座椅+(980L+400L铝合金油箱）+2500w逆变电源+EZF650花键+克诺尔ELC+前悬架免维护橡胶衬套]（仅第一款） | 旗舰版选装包[EPB电子手刹+预留两盏危险警示灯线束接口及支架+国产AEBS+ADR系统+可翻转侧防护+通风加热空气副座椅+(900L+360L铝合金油箱）+2500w逆变电源]",
     "price": 50.235,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12TX2621TD"
   },
   {
     "region": "亚俄区/CIS",
@@ -549,7 +571,8 @@
     "options": "康迪泰克气囊 | 旗舰版选装包[EPB电子手刹+预留两盏危险警示灯线束接口及支架+国产AEBS+ADR系统+可翻转侧防护+通风加热空气副座椅+(900L+360L铝合金油箱）+2500w逆变电源] | 轮胎朝阳品牌 | 轮胎三角品牌",
     "price": 47.58,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ26"
   },
   {
     "region": "亚俄区/CIS",
@@ -573,7 +596,8 @@
     "options": "康迪泰克气囊 | 海沃鞍座 | 约斯特50鞍座 | 轮胎三角品牌",
     "price": 40.779,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -597,7 +621,8 @@
     "options": "约斯特50鞍座 | 12.00R20 | 海沃鞍座 | 轮胎朝阳品牌 | 轮胎三角品牌",
     "price": 39.749,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TABFHB400缓速器"
   },
   {
     "region": "亚俄区/CIS",
@@ -621,7 +646,8 @@
     "options": "约斯特50鞍座 | 12.00R20 | 海沃鞍座 | 轮胎朝阳品牌 | 轮胎三角品牌",
     "price": 42.049,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX240TAFHB400液力缓速器"
   },
   {
     "region": "亚俄区/CIS",
@@ -645,7 +671,8 @@
     "options": "侧防护+应急启动电缆 | 进口品牌4kw风暖+9kw水暖独立暖风 | 康迪泰克气囊 | 通风加热空气副座椅 | 轮胎朝阳品牌 | 轮胎三角品牌",
     "price": 55.985,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12TX2821TD"
   },
   {
     "region": "亚俄区/CIS",
@@ -669,7 +696,8 @@
     "options": "进口品牌4kw风暖+9kw水暖独立暖风 | 通风加热空气副座椅 | 轮胎三角品牌",
     "price": 54.647,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12TX2821TD"
   },
   {
     "region": "亚俄区/CIS",
@@ -693,7 +721,8 @@
     "options": "/",
     "price": 69.393,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ26"
   },
   {
     "region": "亚俄区/CIS",
@@ -717,7 +746,8 @@
     "options": "DH9A2542H58H0",
     "price": 36.059,
     "has_price": false,
-    "price_source": "quotation_file_direct"
+    "price_source": "quotation_file_direct",
+    "gearbox_base": "12JSDX220TAB+QH50"
   },
   {
     "region": "亚俄区/CIS",
@@ -741,7 +771,8 @@
     "options": "DH9A2538H52M3",
     "price": 42.503,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH50"
   },
   {
     "region": "亚俄区/CIS",
@@ -765,7 +796,8 @@
     "options": "DH9A2554H59H2",
     "price": 40.459,
     "has_price": false,
-    "price_source": "quotation_file_direct"
+    "price_source": "quotation_file_direct",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -789,7 +821,8 @@
     "options": "DH9A2542H58EH",
     "price": 36.669,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -813,7 +846,8 @@
     "options": "DH9A2542H58EI",
     "price": 36.369,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -837,7 +871,8 @@
     "options": "DH9A2542H58E1",
     "price": 37.099,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -861,7 +896,8 @@
     "options": "DH9A2542H58E2",
     "price": 37.099,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -885,7 +921,8 @@
     "options": "DH9A2542H58EM",
     "price": 37.099,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -909,7 +946,8 @@
     "options": "DH9A2542H58E3",
     "price": 36.369,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -933,7 +971,8 @@
     "options": "DH9A2542H58E4",
     "price": 36.369,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -957,7 +996,8 @@
     "options": "DH9A2542H58E5",
     "price": 36.669,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -981,7 +1021,8 @@
     "options": "DH9A2542H58EK",
     "price": 36.939,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -1005,7 +1046,8 @@
     "options": "DH9A2542H58EJ",
     "price": 36.939,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -1029,7 +1071,8 @@
     "options": "DH9A3142H58E1",
     "price": 41.369,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH70+FHB400液力缓速器"
   },
   {
     "region": "亚俄区/CIS",
@@ -1053,7 +1096,8 @@
     "options": "DH9A3154H59H2",
     "price": 43.849,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240TA+QH70+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -1077,7 +1121,8 @@
     "options": "DH9A3142H58H1",
     "price": 41.369,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH50+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -1101,7 +1146,8 @@
     "options": "DH9A3142H58E2",
     "price": 40.899,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH50+FHB400液力缓速器"
   },
   {
     "region": "亚俄区/CIS",
@@ -1125,7 +1171,8 @@
     "options": "DH9A3144H52H0",
     "price": 41.524,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB+QH50+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -1149,7 +1196,8 @@
     "options": "DH9A3154H59H1",
     "price": 43.849,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240TA+QH50+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -1173,7 +1221,8 @@
     "options": "DH9A3154H59E1",
     "price": 42.859,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240TA+QH50+FHB400"
   },
   {
     "region": "亚俄区/CIS",
@@ -1197,7 +1246,8 @@
     "options": "DH952534H51H9",
     "price": 31.001,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-160TA+QH50"
   },
   {
     "region": "亚俄区/CIS",
@@ -1221,7 +1271,8 @@
     "options": "DH981824H5H00",
     "price": 20.793,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JSX95TM"
   },
   {
     "region": "亚俄区/CIS",
@@ -1245,6 +1296,7 @@
     "options": "DH982526H5H00",
     "price": 23.648,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "9JS135T_B"
   }
 ]

@@ -21,7 +21,8 @@
     "options": "DH951840H08M2",
     "price": 23.541,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -45,7 +46,8 @@
     "options": "DH952542H08MG",
     "price": 30.76,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -69,6 +71,7 @@
     "options": "DH952534H01PD",
     "price": 26.92,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   }
 ]

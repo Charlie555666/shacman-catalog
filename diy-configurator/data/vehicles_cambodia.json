@@ -21,7 +21,8 @@
     "options": "",
     "price": 27.034,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 15.962,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 25.911,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "9JS135铝壳"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -93,7 +96,8 @@
     "options": "WABCO 4通道ABS | 鹿鼎J-3800-50双摆鞍座 | 11R22.5 | 12JSD200TA-B铝壳带气助力",
     "price": 26.812,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -117,7 +121,8 @@
     "options": "12JSD200T-B-铝壳-QH50花键取力器 | 12JSD200T-B-铝壳-QH50法兰取力器 | L50鞍座 | 600L铝合金油箱 | 13T HD单级减速桥-4.111",
     "price": 26.3,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -141,7 +146,8 @@
     "options": "12JSD200T-B-铝壳-QH50花键取力器 | 12JSD200T-B-铝壳-QH50法兰取力器 | L50鞍座 | 600L铝合金油箱 | 13T HD单级减速桥-4.111",
     "price": 27.05,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -165,6 +171,7 @@
     "options": "",
     "price": 26.789,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   }
 ]

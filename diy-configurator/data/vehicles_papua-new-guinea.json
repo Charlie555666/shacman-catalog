@@ -21,7 +21,8 @@
     "options": "",
     "price": 30.315,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -45,6 +46,7 @@
     "options": "",
     "price": 28.319,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   }
 ]

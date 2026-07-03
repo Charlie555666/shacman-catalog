@@ -21,7 +21,8 @@
     "options": "",
     "price": 29.976,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240K（强制冷却）"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 32.254,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240K（强制冷却）"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 35.138,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240K（强制冷却）"
   },
   {
     "region": "中南美区/Latin America",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 30.719,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中南美区/Latin America",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 26.519,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "中南美区/Latin America",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 28.087,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 31.201,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中南美区/Latin America",
@@ -189,6 +196,7 @@
     "options": "",
     "price": 31.997,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

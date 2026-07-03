@@ -21,7 +21,8 @@
     "options": "",
     "price": 34.379,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "16JSD-200TA"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 28.219,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSD-200TA+QH50(花键)"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 31.558,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSD-200TA+QH50"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -93,6 +96,7 @@
     "options": "",
     "price": 34.569,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "16JSD-200TA+QH50"
   }
 ]

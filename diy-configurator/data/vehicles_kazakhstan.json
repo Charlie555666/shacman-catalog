@@ -21,7 +21,8 @@
     "options": "DH9A2534H01M5",
     "price": 29.327,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚俄区/CIS",
@@ -45,7 +46,8 @@
     "options": "DH972536H5XM1",
     "price": 33.142,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -69,7 +71,8 @@
     "options": "DH973138H5XM1",
     "price": 36.742,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -93,7 +96,8 @@
     "options": "DH982531H5H05",
     "price": 27.83,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSX110A"
   },
   {
     "region": "亚俄区/CIS",
@@ -117,7 +121,8 @@
     "options": "DH982526H57H3",
     "price": 24.247,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS125TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -141,7 +146,8 @@
     "options": "DH972536H5XM3",
     "price": 32.872,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -165,7 +171,8 @@
     "options": "DH981824H5H07",
     "price": 21.54,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JSX95TM"
   },
   {
     "region": "亚俄区/CIS",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 45.675,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "亚俄区/CIS",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 46.785,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "亚俄区/CIS",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 50.45,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ260A"
   },
   {
     "region": "亚俄区/CIS",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 31.957,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 34.596,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 42.174,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 45.379,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -357,7 +371,8 @@
     "options": "DH982531H5H04",
     "price": 23.273,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "9JS135TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -381,7 +396,8 @@
     "options": "DH9A2534H01M2",
     "price": 27.965,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-140"
   },
   {
     "region": "亚俄区/CIS",
@@ -405,7 +421,8 @@
     "options": "DH9A2538H01M2",
     "price": 29.065,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -429,7 +446,8 @@
     "options": "DH972538H5XM1",
     "price": 32.71,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -453,7 +471,8 @@
     "options": "DH972536H5X05",
     "price": 32.48,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -477,7 +496,8 @@
     "options": "DH972536H5X07",
     "price": 32.48,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -501,7 +521,8 @@
     "options": "DH972538H58M8",
     "price": 32.537,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -525,7 +546,8 @@
     "options": "DH9A3140H08M2",
     "price": 32.609,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -549,7 +571,8 @@
     "options": "DH973138H5XM2",
     "price": 35.418,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚俄区/CIS",
@@ -573,7 +596,8 @@
     "options": "DH973142H58M4",
     "price": 37.787,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX220TAB"
   },
   {
     "region": "亚俄区/CIS",
@@ -597,7 +621,8 @@
     "options": "DH952534H5140",
     "price": 31.001,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-160TA"
   },
   {
     "region": "亚俄区/CIS",
@@ -621,7 +646,8 @@
     "options": "DH972536H5X01",
     "price": 43.562,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   },
   {
     "region": "亚俄区/CIS",
@@ -645,6 +671,7 @@
     "options": "DH972536H5X08",
     "price": 43.362,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-180T"
   }
 ]

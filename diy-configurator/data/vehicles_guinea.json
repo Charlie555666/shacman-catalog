@@ -21,7 +21,8 @@
     "options": "",
     "price": 25.54,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 25.61,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 29.4,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 28.492,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 27.416,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-160"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 23.541,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 35.17,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX240TA"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 31.08,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 34.78,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 27.88,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-160+QH50"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 31.021,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 31.021,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 38.663,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "SF13JZ220A"
   },
   {
     "region": "非洲一区/Africa Zone 1",
@@ -333,6 +346,7 @@
     "options": "",
     "price": 35.347,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "SF13JZ220A"
   }
 ]

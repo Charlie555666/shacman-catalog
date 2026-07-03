@@ -21,7 +21,8 @@
     "options": "",
     "price": 26.593,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 25.283,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 26.333,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 31.305,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 31.135,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 35.8,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -165,7 +171,8 @@
     "options": "QH50花键取力器 | （400L+230L）铝合金油箱 | 13T HD单级+4.625 | 180Ah免维护蓄电池 | WABCO四通道ABS | 大客户包一（取消顶侧导流罩上排气+前混合后块状，备胎同前轴+危险指示灯+加装HX双前拖钩+驾驶室液压悬置） | 铝合金操作平台 | 金属保险杠+三级上车踏板 | 前下部防护 | 油底壳保护栅 | 315/80R22.5矿用花纹 | 选装包：国产驻车空调、油浴式空滤器、增加一道长效粗滤",
     "price": 30.899,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -189,7 +196,8 @@
     "options": "QH50花键取力器 | 13T HD 单级桥4.625 | 11R22.5纵向花纹(轮辋装饰罩) | 700L+230L铝合金油箱 | WABCO四通道ABS | 180Ah免维护蓄电池 | 铝合金操作平台 | （400L+230L）铝合金油箱",
     "price": 31.379,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -213,7 +221,8 @@
     "options": "12.00R20混合花纹 | 金属保险杠+三级踏板 | 12JSD200TA-B（气助力）+16T HD双级4.769 | WABCO四通道ABS | 铝合金储气筒 | 700L+230L铝合金油箱 | QH50花键取力器 | （400L+230L）铝合金油箱 | 铝合金操作平台 | 12R22.5前混后块，备胎同前轴 | 前下部防护 | 选装包：国产驻车空调、油浴式空滤器、增加一道长效粗滤",
     "price": 30.95,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -237,7 +246,8 @@
     "options": "加长平顶驾驶室不带顶导流罩 | 12R22.5混合花纹（轮辋装饰罩） | 油底壳保护栅 | 排气管带防火帽 | 轻量化前下防护 | 12.00R20前混后块，备胎同前轴 | 16T HD双级铸造桥-4.266 | 700L+230L铝合金油箱 | WABCO四通道ABS | 铝合金操作平台 | 玻璃钢保险杠",
     "price": 31.63,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 27.25,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TBQH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 27.75,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TBQH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 28.937,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TBQH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 30.97,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TBQH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 16.739,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 33.487,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -405,6 +421,7 @@
     "options": "",
     "price": 31.07,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   }
 ]

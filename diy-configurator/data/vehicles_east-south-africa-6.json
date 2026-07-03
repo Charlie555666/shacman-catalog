@@ -21,7 +21,8 @@
     "options": "[1.1 X6000/6×4/M13/AMT/板簧悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）; [1.1 X6000/6×4/M13/AMT/板簧悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）、国产驻车空调（取消天窗）",
     "price": 52.788,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -45,7 +46,8 @@
     "options": "[1.1 X6000/6×4/M13/AMT/板簧悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）; [1.1 X6000/6×4/M13/AMT/板簧悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）、国产驻车空调（取消天窗）",
     "price": 51.788,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -69,7 +71,8 @@
     "options": "[1.2 X6000/6×4/M13/AMT/后全空气悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）; [1.2 X6000/6×4/M13/AMT/后全空气悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）、国产驻车空调",
     "price": 55.288,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -93,7 +96,8 @@
     "options": "[1.2 X6000/6×4/M13/AMT/后全空气悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）; [1.2 X6000/6×4/M13/AMT/后全空气悬架/按南非认证散件控制]:东南部非洲选装包（尾部反光板+前下视镜+尾灯保护珊）、国产驻车空调",
     "price": 54.288,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 40.375,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ240"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 44.435,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ240"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 42.6,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 46.65,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -213,7 +221,8 @@
     "options": "[3.1 X3000/6×4/M13/MT/赞比亚方向]:国产铸造90鞍座(G9038C-190); [3.1 X3000/6×4/M13/MT/赞比亚方向]:国产铸造90鞍座(G9038C-190)",
     "price": 40.278,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "13JSDX260T"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -237,7 +246,8 @@
     "options": "[4.1 X3000/6×4/M13/AMT]:X3000加长平顶驾驶室带顶导流罩; [4.1 X3000/6×4/M13/AMT]:X3000加长平顶驾驶室带顶导流罩（仅第一款）、JOST 50鞍座、约斯特国产C型铸造50鞍座、分体式挡泥板、不锈钢前围防护、13T HD单级减速桥-3.364",
     "price": 39.99,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -261,7 +271,8 @@
     "options": "[4.1 X3000/6×4/M13/AMT]:JOST 50鞍座; [4.1 X3000/6×4/M13/AMT]:X3000加长平顶驾驶室带顶导流罩（仅第一款）、JOST 50鞍座、约斯特国产C型铸造50鞍座、分体式挡泥板、不锈钢前围防护、13T HD单级减速桥-3.364",
     "price": 40.99,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ260"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -285,7 +296,8 @@
     "options": "[4.2 X3000/6×4/M13/MT]:不锈钢前围防护; [4.2 X3000/6×4/M13/MT]:不锈钢前围防护",
     "price": 37.65,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX240T"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -309,7 +321,8 @@
     "options": "[4.3 X3000/6×4/M10 440/AMT]:X3000加长平顶驾驶室带顶导流罩; [4.3 X3000/6×4/M10 440/AMT]:X3000加长平顶驾驶室带顶导流罩、X3000加长高顶驾驶室带顶侧导流罩、不锈钢前围（银色）、加装2盏危险警示灯、铸造L90鞍座、分体式挡泥板、SHACMAN Telematics不带屏",
     "price": 35.044,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ240"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -333,7 +346,8 @@
     "options": "[4.4 X3000/6×4/M10 440/MT]:轻量化三段整体挡泥板; [4.4 X3000/6×4/M10 440/MT]:轻量化三段整体挡泥板、不锈钢前围（银色）、WABCO进口四通道ABS、SHACMAN Telematics（不带屏）",
     "price": 33.465,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX240T"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -357,7 +371,8 @@
     "options": "[4.5 X3000/6×4/WP12.430/MT]:X3000加长平顶驾驶室不带顶导流罩; [4.5 X3000/6×4/WP12.430/MT]:加长平顶驾驶室不带顶导流罩、315/80R22.5前混后块备胎同后轮、约斯特50鞍座、进口离合器、国产四通道ABS、12JSD200T-B-铁壳-QH50花键、不锈钢前围防护",
     "price": 31.995,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -381,7 +396,8 @@
     "options": "[5.1 H3000S/6×4/WP12.430/MT/津巴布韦方向]:国产铸造50鞍座; [5.1 H3000S/6×4/WP12.430/MT/津巴布韦方向]:国产铸造50鞍座、315/80R22.5，前混后块备胎同后轮、12JSD200T-B-铝壳-QH50花键、700L+230L铝合金油箱",
     "price": 29.41,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -405,7 +421,8 @@
     "options": "[5.2 H3000S/6×4/M10 385/MT]:国产铸造50鞍座; [5.2 H3000S/6×4/M10 385/MT]:国产铸造50鞍座、315/80R22.5，前混后块备胎同后轮、12JSD200T-B-铝壳-QH50花键、700L+230L铝合金油箱",
     "price": 29.727,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -429,7 +446,8 @@
     "options": "[5.3 H3000S/6×4/WP10.380/MT/仅莫桑比克（非中置空滤）]:H3000S加长高顶驾驶室不带顶侧导流罩; [5.3 H3000S/6×4/WP10.380/MT/仅莫桑比克（非中置空滤）]:H3000S加长高顶驾驶室不带顶侧导流罩、12JSD200T-B-铝壳-QH50花键、前围防护（双前拖钩、取消前大灯保护栅）、挡风玻璃防护+前围防护（双前拖钩、取消前大灯保护栅）",
     "price": 27.55,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -453,7 +471,8 @@
     "options": "[6.1 H3000/6×4/WP12.400/MT/坦桑、赞比亚等]:H3000加长半高顶驾驶室带顶导流罩; [6.1 H3000/6×4/WP12.400/MT/坦桑、赞比亚等]:H3000加长半高顶驾驶室带顶导流罩、（700L+230L）铝合金油箱、国产四通道ABS、12JSD200T-B-铝壳-QH50花键、前围防护（双前拖钩、取消前大灯保护栅）、挡风玻璃防护+前围防护（双前拖钩、取消前大灯保护栅）、轻量化三段式整体式挡泥板、H3000加长高顶驾驶室带顶侧导流罩、加装一盏危险警示灯",
     "price": 28.366,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -477,7 +496,8 @@
     "options": "[7.1 F3000/6×4/WP12.400/MT/津巴布韦方向]:12JSD200T-B铁壳+QH50花键; [7.1 F3000/6×4/WP12.400/MT/津巴布韦方向]:12JSD200T-B铁壳+QH50花键、F3000加长高顶驾驶室带顶侧导流罩、普通90鞍座、WABCO四通道ABS、四点空气悬置",
     "price": 29.522,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -501,7 +521,8 @@
     "options": "[7.2 F3000/6×4/WP10.380/MT/莫桑比克方向]:F3000加长高顶驾驶室带顶侧导流罩; [7.2 F3000/6×4/WP10.380/MT/莫桑比克方向]:F3000加长高顶驾驶室带顶侧导流罩",
     "price": 28.188,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -525,7 +546,8 @@
     "options": "[8.1 F3000/6×4/WP12.400/MT/津巴布韦方向]:加长高顶驾驶室带顶侧导流罩; [8.1 F3000/6×4/WP12.400/MT/津巴布韦方向]:加长高顶驾驶室带顶侧导流罩、WABCO四通道ABS、前轮385/65R22.5，后轮及备胎315/80R22.5前纵后块、四点空气悬浮、16THD双级铸造桥-3.866、加长平顶驾驶室带顶侧导流罩、12.00R20前混后块",
     "price": 30.096,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB+QH50花键"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -549,7 +571,8 @@
     "options": "[1.1 F3000加强版自卸车/6×4（坦桑尼亚、赞比亚方向）]:315/80R22.5混合花纹; [1.1 F3000加强版自卸车/6×4（坦桑尼亚、赞比亚方向）]:315/80R22.5混合花纹、国产四通道ABS、三拉带400L铁油箱+防护、12.00R20矿用花纹、12.00R20横向花纹、10JSD180T+QH50、普通暖风",
     "price": 26.44,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -573,7 +596,8 @@
     "options": "[1.2 F3000加强版自卸车/6×4（乌干达、莫桑比克方向）]:12.00R20矿用花纹; [1.2 F3000加强版自卸车/6×4（乌干达、莫桑比克方向）]:12.00R20矿用花纹、电动摇窗机、普通暖风、国产四通道ABS",
     "price": 26.621,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -597,7 +621,8 @@
     "options": "[1.3 F3000加强版自卸车/6×4（津巴布韦方向）]:10JSD180T+16T HD双级4.769; [1.3 F3000加强版自卸车/6×4（津巴布韦方向）]:10JSD180T+16T HD双级4.769、315/80R22.5矿用花纹、12.00R20矿用花纹、加装一盏危险警示灯",
     "price": 27.76,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -621,7 +646,8 @@
     "options": "",
     "price": 29.431,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -645,7 +671,8 @@
     "options": "[2.1 F3000加强版自卸车/8×4（莫桑比克方向）]:12.00R20混合花纹; [2.1 F3000加强版自卸车/8×4（莫桑比克方向）]:12.00R20混合花纹、电动摇窗机、加装一盏危险警示灯",
     "price": 30.084,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180+QH50花键"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -669,7 +696,8 @@
     "options": "[2.2 F3000加强版自卸车/8×4（乌干达、坦桑尼亚方向）]:超级版选装包二; [2.2 F3000加强版自卸车/8×4（乌干达、坦桑尼亚方向）]:超级版选装包二、12.00R20矿用花纹、315/80R22.5混合花纹、国产四通道ABS、普通暖风、电动摇窗机",
     "price": 30.286,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -693,7 +721,8 @@
     "options": "",
     "price": 31.04,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -717,7 +746,8 @@
     "options": "",
     "price": 32.511,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -741,7 +771,8 @@
     "options": "[2.5 F3000超级版自卸车/8×4（赞比亚方向）]:后轮越野花纹; [2.5 F3000超级版自卸车/8×4（赞比亚方向）]:后轮越野花纹、10JSD180T+QH50",
     "price": 32.136,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "10JSD-180+QH50花键"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -765,7 +796,8 @@
     "options": "[2.6 F3000超强版自卸车/8×4（津巴布韦方向）]:超级版选装包二; [2.6 F3000超强版自卸车/8×4（津巴布韦方向）]:超级版选装包二（不带长效粗滤）、16T HD双级减速桥-6.733+12.00R20矿用花纹、超级版选装包二+增加一道普通粗滤+侧置备胎架、315/80R22.5矿用花纹",
     "price": 32.68,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX240K"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -789,7 +821,8 @@
     "options": "",
     "price": 34.062,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -813,7 +846,8 @@
     "options": "",
     "price": 18.49,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -837,7 +871,8 @@
     "options": "",
     "price": 17.88,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -861,7 +896,8 @@
     "options": "[1.2 L3000标载版载货车/4×2（莫桑比克方向）]:8JS85TM-铁壳-无取力器; [1.2 L3000标载版载货车/4×2（莫桑比克方向）]:8JS85TM-铁壳-无取力器",
     "price": 16.75,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -885,7 +921,8 @@
     "options": "[1.3 L3000标载板载货车/4×2（津巴布韦方向）]:电动翻转; [1.3 L3000标载板载货车/4×2（津巴布韦方向）]:电动翻转、400L铝合金油箱、军用拖钩+车架尾部预留全挂车电气路接口+带挂车手阀、10.00R20混合花纹、L3000驾驶室带顶导流罩",
     "price": 17.162,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -909,7 +946,8 @@
     "options": "",
     "price": 21.92,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "F8JZ110MM"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -933,7 +971,8 @@
     "options": "",
     "price": 26.395,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -957,7 +996,8 @@
     "options": "",
     "price": 25.96,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "RTD11509C"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -981,6 +1021,7 @@
     "options": "",
     "price": 26.0,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "RTD11509C"
   }
 ]

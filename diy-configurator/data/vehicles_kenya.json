@@ -21,7 +21,8 @@
     "options": "DH992538H01MG",
     "price": 28.639,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -45,7 +46,8 @@
     "options": "DH972544H3WPC",
     "price": 34.081,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSDX240T"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -69,7 +71,8 @@
     "options": "DH972544H3W00",
     "price": 34.081,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "SF16JZ240"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -93,7 +96,8 @@
     "options": "DH952542H08H8",
     "price": 28.629,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB铁QH50法兰"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -117,7 +121,8 @@
     "options": "DH992540H0800",
     "price": 29.751,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 25.731,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -165,6 +171,7 @@
     "options": "",
     "price": 20.916,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "8JS85TM"
   }
 ]

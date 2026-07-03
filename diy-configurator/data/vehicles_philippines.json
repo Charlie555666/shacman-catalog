@@ -21,7 +21,8 @@
     "options": "",
     "price": 27.176,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 27.946,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 32.583,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 16.975,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 29.826,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 26.356,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 25.306,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 26.476,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140T+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 33.313,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 30.74,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 16.415,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -285,7 +296,8 @@
     "options": "",
     "price": 26.106,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -309,7 +321,8 @@
     "options": "",
     "price": 26.546,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -333,7 +346,8 @@
     "options": "",
     "price": 29.646,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -357,7 +371,8 @@
     "options": "",
     "price": 30.086,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -381,7 +396,8 @@
     "options": "",
     "price": 26.416,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-140T+QH50法兰"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -405,7 +421,8 @@
     "options": "",
     "price": 29.816,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -429,7 +446,8 @@
     "options": "",
     "price": 30.286,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -453,7 +471,8 @@
     "options": "",
     "price": 15.8,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -477,7 +496,8 @@
     "options": "",
     "price": 19.28,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JSX110TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -501,7 +521,8 @@
     "options": "600L铝合金油箱 | SHACMAN telematics车载终端 | 12JSD200T-B+QH50 | 换挡气助力 | 多功能方向盘带定速巡航 | 铝合金侧防护栏（原色） | 16T HD 双级4.769 | 铝合金储气筒 | 电动翻转 | 轮辋装饰罩 | 加长半高顶驾驶室",
     "price": 25.255,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -525,7 +546,8 @@
     "options": "加长半高顶驾驶室 | 600L铝合金油箱 | 12JSD200T-B+QH50 | 10JSD180-QH50 | 16T HD双级4.266 | 整体式后视镜 | 手动翻转 | 铝合金储气筒 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 专属外观 | 换挡气助力 | 轮辋装饰罩",
     "price": 23.29,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -549,7 +571,8 @@
     "options": "600L铝合金油箱 | 铝合金储气筒 | 16T HD 双级4.266 | H3000S加长高顶驾驶室不带顶侧导流罩 | WABCO 四通道ABS | 12JSD200T-B+QH50 | 铝合金侧防护栏（原色） | 换挡气助力",
     "price": 23.476,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -573,7 +596,8 @@
     "options": "600L铝合金油箱 | 铝合金储气筒 | 换挡气助力 | 16T HD 双级4.266 | WABCO 四通道ABS | 12JSD200T-B+QH50 | 加长高顶驾驶室 | 加大版铝合金操作平台 | 铝合金侧防护栏（原色）",
     "price": 23.676,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -597,7 +621,8 @@
     "options": "600L铝合金 | 铝合金储气筒 | 铝合金侧防护栏（原色） | 12JSD200T-B+QH50 | 16T HD 双级4.266 | 换挡气助力 | SHACMAN telematics车载终端",
     "price": 28.413,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -621,7 +646,8 @@
     "options": "SHACMAN telematics车载终端 | 铝合金储气筒 | 换挡气助力 | 铝合金侧防护栏（原色） | 600L铝合金油箱 | WABCO 四通道ABS | 长换油 | 12JSD200T-B+QH50",
     "price": 28.654,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -645,7 +671,8 @@
     "options": "600L铝合金油箱 | 13T HD 双级4.266 | 16T HD 双级4.769 | 12JSD200T-B+QH50 | 铝合金储气筒 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 换挡气助力",
     "price": 24.878,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -669,7 +696,8 @@
     "options": "铝合金储气筒 | 12JSD200T-B-铁壳-QH50 | 整体式后视镜 | 电动翻转 | 铝合金侧防护栏（原色） | 专属外观 | WABCO 四通道ABS | 600L铝合金油箱 | 加装油箱盖防盗装置 | 换挡气助力 | 轮辋装饰罩 | 13T MAN单级减速桥-4.625 | 600L铝合金油箱+油箱盖防盗+铝合金侧防护",
     "price": 27.966,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -693,7 +721,8 @@
     "options": "铝合金储气筒 | 轮辋装饰罩 | 12JSDX220TB-QH50 | 换挡气助力 | SHACMAN telematics车载终端 | 多功能方向盘带定速巡航 | 电动翻转 | 铝合金侧防护栏（原色） | 长换油 | WABCO 四通道ABS | 600L铝合金油箱 | 加装油箱盖防盗装置",
     "price": 29.451,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -717,7 +746,8 @@
     "options": "600L铝合金油箱 | 12JSD200T-B-铁壳-QH50 | 铝合金侧防护栏（原色） | 铝合金储气筒 | WABCO 四通道ABS | 换挡气助力",
     "price": 28.636,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -741,7 +771,8 @@
     "options": "600L铝合金油箱 | 12JSD200T-B-铁壳-QH50 | 铝合金侧防护栏（原色） | 铝合金储气筒 | WABCO 四通道ABS | 中控锁（双遥控） | 换挡气助力",
     "price": 31.936,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -765,7 +796,8 @@
     "options": "600L铝合金油箱 | SHACMAN telematics车载终端 | 13T HD单级桥-4.625 | 换挡气助力 | 12JSDX220TB-铁壳-QH50 | 铝合金侧防护栏（原色） | 铝合金储气筒 | WABCO 四通道ABS | 长换油 | 中控锁（双遥控）",
     "price": 31.826,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -789,7 +821,8 @@
     "options": "铝合金储气筒 | 12JSD200T-B-铁壳-QH50 | 换挡气助力 | SHACMAN telematics车载终端 | 铝合金侧防护栏（原色） | 600L铝合金油箱 | WABCO 四通道ABS",
     "price": 34.078,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -813,7 +846,8 @@
     "options": "铝合金储气筒 | 13T HD单级减速桥-4.625 | 换挡气助力 | 12JSD200T-B-铁壳-QH50 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 600L铝合金油箱",
     "price": 30.328,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -837,7 +871,8 @@
     "options": "铝合金储气筒 | 12JSD200T-B-铁壳-QH50 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 600L铝合金油箱 | SHACMAN telematics车载终端 | 换挡气助力",
     "price": 34.358,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -861,7 +896,8 @@
     "options": "铝合金储气筒 | 13T HD单级减速桥-4.625 | 12JSDX220TB-铁壳-QH50 | 换挡气助力 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 600L铝合金油箱 | SHACMAN telematics车载终端 | 长换油",
     "price": 34.184,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -885,7 +921,8 @@
     "options": "13T HD单级减速桥-4.625 | 铝合金侧防护栏（原色） | 油箱盖防盗装置 | 600L铝合金油箱 | SHACMAN telematics车载终端 | 长换油 | 12R22.5混合花纹",
     "price": 37.013,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -909,7 +946,8 @@
     "options": "600L铝合金油箱 | 铝合金储气筒 | 轮辋装饰罩 | 铝合金侧防护栏（原色） | 16T HD 双级3.866 | 12JSD200T-B-铁壳+QH50 | 整体式后视镜 | 电动翻转 | 分体式挡泥板 | SHACMAN telematics车载终端 | WABCO 四通道ABS | 专属外观 | 换挡气助力",
     "price": 31.71,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -933,7 +971,8 @@
     "options": "铝合金储气筒 | 轮辋装饰罩 | 换挡气助力 | 液力缓速器 | 多功能方向盘带定速巡航 | 12JSDX220TB-铁壳-QH50 | 电动翻转 | 16T HD 双级3.866 | 600L铝合金油箱 | WABCO 四通道ABS | 长换油 | 分体式挡泥板 | 铝合金侧防护栏（原色） | SHACMAN telematics车载终端",
     "price": 30.06,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -957,7 +996,8 @@
     "options": "铝合金储气筒 | 整体式后视镜 | 手动翻转 | 600L铝合金油箱 | 16THD双级4.769 | 分体式挡泥板 | WABCO 四通道 ABS | 专属外观 | 轮辋装饰罩 | 换挡气助力",
     "price": 28.76,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -981,7 +1021,8 @@
     "options": "600L铝合金油箱 | 12JSD200T-B-铁壳-QH50 | WABCO 四通道ABS | 铝合金储气筒 | 铝合金侧防护栏（原色） | 中控锁（双遥控） | 换挡气助力",
     "price": 29.126,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1005,7 +1046,8 @@
     "options": "600L铝合金油箱 | 12JSD200T-B-铁壳-QH50 | SHACMAN telematics车载终端 | 铝合金储气筒 | 16T HD 双级3.866 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 换挡气助力",
     "price": 32.326,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1029,7 +1071,8 @@
     "options": "600L铝合金油箱 | 12JSDX220TB-铁壳-QH50 | 换挡气助力 | FHB400 液力缓速器 | SHACMAN telematics车载终端 | 铝合金储气筒 | 16T HD 双级4.769 | WABCO 四通道ABS | 铝合金侧防护栏（原色）",
     "price": 32.246,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1053,7 +1096,8 @@
     "options": "铝合金储气筒 | 16T HD双级4.769 | 换挡气助力 | SHACMAN telematics车载终端 | FHB400 液力缓速器",
     "price": 34.663,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1077,7 +1121,8 @@
     "options": "铝合金储气筒 | 12JSD200T-B-铁壳-QH50 | WABCO 四通道ABS | 600L铝合金油箱 | 铝合金侧防护栏（原色） | 16T HD 双级3.866 | SHACMAN telematics车载终端 | 16T HD 双级4.769 | 换挡气助力",
     "price": 34.808,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1101,7 +1146,8 @@
     "options": "铝合金储气筒 | 12JSDX220TB-铁壳-QH50 | 换挡气助力 | FHB400 液力缓速器 | WABCO 四通道ABS | 600L铝合金油箱 | 长换油 | 铝合金侧防护栏（原色） | SHACMAN telematics车载终端 | 16T HD 双级4.769",
     "price": 34.634,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSDX220TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1125,7 +1171,8 @@
     "options": "铝合金储气筒 | 600L铝合金油箱 | WABCO 四通道ABS | 铝合金侧防护栏（原色） | 12JSD200T-B-铁壳-QH50 | 16T HD 双级4.266 | 换挡气助力",
     "price": 30.728,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1149,7 +1196,8 @@
     "options": "",
     "price": 17.575,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1173,7 +1221,8 @@
     "options": "",
     "price": 21.105,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSX110A"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1197,7 +1246,8 @@
     "options": "",
     "price": 20.865,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TMQD40J"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1221,7 +1271,8 @@
     "options": "",
     "price": 28.392,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1245,7 +1296,8 @@
     "options": "",
     "price": 29.72,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1269,7 +1321,8 @@
     "options": "",
     "price": 27.535,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1293,7 +1346,8 @@
     "options": "",
     "price": 26.29,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1317,7 +1371,8 @@
     "options": "",
     "price": 26.49,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1341,7 +1396,8 @@
     "options": "",
     "price": 25.975,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "RTD11509C+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1365,7 +1421,8 @@
     "options": "",
     "price": 30.55,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1389,7 +1446,8 @@
     "options": "",
     "price": 27.12,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1413,7 +1471,8 @@
     "options": "",
     "price": 27.255,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1437,7 +1496,8 @@
     "options": "",
     "price": 31.297,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1461,7 +1521,8 @@
     "options": "",
     "price": 28.522,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1485,7 +1546,8 @@
     "options": "",
     "price": 32.912,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1509,7 +1571,8 @@
     "options": "",
     "price": 31.397,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1533,7 +1596,8 @@
     "options": "",
     "price": 28.172,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1557,7 +1621,8 @@
     "options": "",
     "price": 34.038,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1581,7 +1646,8 @@
     "options": "",
     "price": 30.628,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1605,7 +1671,8 @@
     "options": "",
     "price": 31.838,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1629,7 +1696,8 @@
     "options": "",
     "price": 35.248,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1653,7 +1721,8 @@
     "options": "",
     "price": 36.171,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1677,7 +1746,8 @@
     "options": "",
     "price": 37.222,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1701,7 +1771,8 @@
     "options": "",
     "price": 35.107,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSDX220TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1725,7 +1796,8 @@
     "options": "",
     "price": 33.152,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1749,7 +1821,8 @@
     "options": "",
     "price": 16.175,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1773,7 +1846,8 @@
     "options": "",
     "price": 16.525,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1797,7 +1871,8 @@
     "options": "",
     "price": 15.975,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1821,7 +1896,8 @@
     "options": "",
     "price": 27.517,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1845,7 +1921,8 @@
     "options": "",
     "price": 29.122,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1869,7 +1946,8 @@
     "options": "",
     "price": 28.387,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1893,7 +1971,8 @@
     "options": "",
     "price": 28.347,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1917,7 +1996,8 @@
     "options": "",
     "price": 32.978,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1941,7 +2021,8 @@
     "options": "",
     "price": 28.931,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -1965,6 +2046,7 @@
     "options": "",
     "price": 29.561,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180T"
   }
 ]

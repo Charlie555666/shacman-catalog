@@ -21,7 +21,8 @@
     "options": "F3000加长平顶驾驶室不带顶导流罩 | 180Ah免维护蓄电池 | 金属保险杠-军用前围 | 钢板保险杠 | 12JSD200T-B+QH50（花键式） | 电动摇窗机 | 增加一盏危险警示灯 | SHACMAN Telematics（不带屏）",
     "price": 30.76,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "F3000加长平顶驾驶室不带顶侧导流罩 | 180Ah免维护蓄电池 | 金属保险杠-军用前围 | 钢板保险杠 | 12JSD200T-B+QH50（花键式） | 电动摇窗机 | 增加一盏危险警示灯 | SHACMAN Telematics（不带屏） | 双芯空滤+增加一道普通粗滤 | 电动翻转",
     "price": 30.966,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -69,7 +71,8 @@
     "options": "加长高顶驾驶室带顶侧导流罩 | 180Ah免维护蓄电池 | SHACMAN Telematics（不带屏） | 电动翻转 | WABCO进口四通道ABS | 7寸多媒体显示屏+360环视",
     "price": 32.513,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -93,7 +96,8 @@
     "options": "加长高顶驾驶室带顶侧导流罩 | 双芯空滤 | 180Ah免维护蓄电池 | SHACMAN Telematics（不带屏） | 电动翻转 | WABCO进口四通道ABS | 7寸多媒体显示屏+360环视",
     "price": 33.361,
     "has_price": true,
-    "price_source": "price_col"
+    "price_source": "price_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 28.116,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "10JSD-180+QH50（花键）"
   },
   {
     "region": "中东/Middle East",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 29.986,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 31.472,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB+QH50（花键）"
   },
   {
     "region": "中东/Middle East",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 30.456,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 32.713,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "中东/Middle East",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 30.841,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TBQH50法兰"
   },
   {
     "region": "中东/Middle East",
@@ -261,6 +271,7 @@
     "options": "",
     "price": 16.038,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JS85TM（铝）"
   }
 ]

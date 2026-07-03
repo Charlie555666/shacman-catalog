@@ -21,7 +21,8 @@
     "options": "",
     "price": 44.982,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2233TD"
   },
   {
     "region": "中南美区/Latin America",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 46.712,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2233TD"
   },
   {
     "region": "中南美区/Latin America",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 59.909,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "EHDM26N112CR（福伊特液力缓速器）"
   },
   {
     "region": "中南美区/Latin America",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 65.175,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2531TO"
   },
   {
     "region": "中南美区/Latin America",
@@ -117,7 +121,8 @@
     "options": "",
     "price": 58.828,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2531TO"
   },
   {
     "region": "中南美区/Latin America",
@@ -141,7 +146,8 @@
     "options": "",
     "price": 80.608,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2531TO"
   },
   {
     "region": "中南美区/Latin America",
@@ -165,7 +171,8 @@
     "options": "",
     "price": 58.808,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2621TDEZF650花键（带液力缓速器）"
   },
   {
     "region": "中南美区/Latin America",
@@ -189,7 +196,8 @@
     "options": "",
     "price": 50.11,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16S2531TO"
   },
   {
     "region": "中南美区/Latin America",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 50.31,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12TX2621TDEZF650花键（带液力缓速器）"
   },
   {
     "region": "中南美区/Latin America",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 39.53,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "ZF9S1517TO"
   },
   {
     "region": "中南美区/Latin America",
@@ -261,6 +271,7 @@
     "options": "",
     "price": 32.25,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "ZF9S1517TO"
   }
 ]

@@ -21,7 +21,8 @@
     "options": "",
     "price": 41.275,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "16JSDX240TA"
   },
   {
     "region": "中东/Middle East",
@@ -45,6 +46,7 @@
     "options": "",
     "price": 36.082,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

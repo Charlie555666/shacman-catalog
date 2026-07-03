@@ -21,7 +21,8 @@
     "options": "",
     "price": 26.406,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 31.462,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 26.406,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -93,7 +96,8 @@
     "options": "",
     "price": 31.462,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -117,7 +121,8 @@
     "options": "DH952542H08PE",
     "price": 30.76,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -141,7 +146,8 @@
     "options": "DH952542H08PC",
     "price": 30.76,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -165,7 +171,8 @@
     "options": "DH972542H42B6",
     "price": 33.69,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -189,7 +196,8 @@
     "options": "DH992542H08NF",
     "price": 28.707,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -213,7 +221,8 @@
     "options": "",
     "price": 28.116,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -237,7 +246,8 @@
     "options": "",
     "price": 28.116,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -261,7 +271,8 @@
     "options": "",
     "price": 30.866,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "10JSD-180+QH50"
   },
   {
     "region": "非洲二区/Africa Zone 2",
@@ -285,6 +296,7 @@
     "options": "",
     "price": 34.279,
     "has_price": true,
-    "price_source": "model_map"
+    "price_source": "model_map",
+    "gearbox_base": "12JSD-200TB"
   }
 ]

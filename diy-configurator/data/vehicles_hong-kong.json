@@ -21,7 +21,8 @@
     "options": "",
     "price": 55.88,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF12JZ220A"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 38.883,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF16JZ240A"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -69,7 +71,8 @@
     "options": "",
     "price": 30.45,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "SF8JZ110A"
   },
   {
     "region": "亚太区-其他/Asia Pacific-Other",
@@ -93,6 +96,7 @@
     "options": "",
     "price": 28.156,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "8JSX110TM变速箱"
   }
 ]

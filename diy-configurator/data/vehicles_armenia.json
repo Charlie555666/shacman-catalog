@@ -21,7 +21,8 @@
     "options": "",
     "price": 31.944,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -45,7 +46,8 @@
     "options": "",
     "price": 35.437,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   },
   {
     "region": "中东/Middle East",
@@ -69,6 +71,7 @@
     "options": "",
     "price": 46.851,
     "has_price": true,
-    "price_source": "options_col"
+    "price_source": "options_col",
+    "gearbox_base": "12JSD-200TAB"
   }
 ]
