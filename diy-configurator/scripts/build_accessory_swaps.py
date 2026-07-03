@@ -152,6 +152,7 @@ def translate_config(text):
         'H3000车型换装右置方向盘': 'H3000: RHD Steering',
         'L3000车型换装右置方向盘': 'L3000: RHD Steering',
         '偏置矿用自卸换装右置方向盘': 'Offset Mining Dump: RHD Steering',
+        '轮胎品牌': 'Tire Brand',
     }
 
     result = text
@@ -159,9 +160,19 @@ def translate_config(text):
         result = result.replace(cn, en)
     return result
 
-def detect_vehicle_source(base_config, category):
-    """Detect what a vehicle currently has for a given swap category."""
-    if not base_config:
+def detect_vehicle_source(vehicle_data, category):
+    """Detect what a vehicle currently has for a given swap category.
+    Scans ALL text fields in the vehicle data, not just base_config."""
+    if not vehicle_data:
+        return None
+
+    # Concatenate ALL text fields for comprehensive scanning
+    all_text = ''
+    for key, val in vehicle_data.items():
+        if isinstance(val, str) and val.strip():
+            all_text += val + '\n'
+    
+    if not all_text.strip():
         return None
 
     detectors = {
@@ -183,12 +194,75 @@ def detect_vehicle_source(base_config, category):
             (r'(四点液压悬浮)', '四点液压悬浮'),
             (r'(四点空气悬浮)', '四点空气悬浮'),
         ],
+        '油箱': [
+            (r'((\d+L)\s*铝合金油箱)',),
+            (r'(\d+L\s*铁油箱)',),
+            (r'((\d+L\+\d+L)\s*铝合金油箱)',),
+            (r'(\d+L\s*不锈钢油箱)',),
+        ],
+        '转向机': [
+            (r'(进口转向机)', '进口转向机'),
+            (r'(国产转向机)', '国产转向机'),
+            (r'(右置方向盘)', '右置方向盘'),
+        ],
+        '悬架系统': [
+            (r'(前后多片簧.*四骑马螺栓)', '前后多片簧+四骑马螺栓'),
+            (r'(前后多片簧.*两骑马螺栓)', '前后多片簧+两骑马螺栓'),
+            (r'(前后少片簧.*两骑马螺栓)', '前后少片簧+两骑马螺栓'),
+            (r'(前后少片簧.*四骑马螺栓)', '前后少片簧+四骑马螺栓'),
+            (r'(前后多片簧)', '前后多片簧'),
+            (r'(前后少片簧)', '前后少片簧'),
+            (r'(复合式空气悬架)', '复合式空气悬架'),
+            (r'(全气囊空气悬架)', '全气囊空气悬架'),
+        ],
+        '变速箱': [
+            (r'((?:\d+JSD|F\d|Eaton|AL|S12\w*)[^，,\s]*)',),  # match gearbox codes
+        ],
+        '车桥': [
+            (r'((?:\d+\.?\d*T\s*\w+级\d+\.\d+|\d+\.?\d*T\s*MAN\s*\w*级\d+\.\d+))',),
+        ],
+        '离合器': [
+            (r'(拉式离合器)', '拉式离合器'),
+            (r'(推式离合器)', '推式离合器'),
+        ],
+        '电器系统': [
+            (r'(165Ah)', '165Ah'),
+            (r'(180Ah)', '180Ah'),
+            (r'(200Ah)', '200Ah'),
+        ],
+        '底盘其他': [
+            (r'(工程保险杠)', '工程保险杠'),
+            (r'(金属保险杠)', '金属保险杠'),
+            (r'(玻璃钢保险杠)', '玻璃钢保险杠'),
+            (r'(钢板保险杠)', '钢板保险杠'),
+        ],
+        '轮胎品牌': [
+            (r'(米其林)', '米其林'),
+            (r'(三角)', '三角'),
+            (r'(玲珑)', '玲珑'),
+            (r'(双钱)', '双钱'),
+            (r'(中策)', '中策'),
+            (r'(成山)', '成山'),
+            (r'(金宇)', '金宇'),
+        ],
+        '驾驶室相关部件': [
+            (r'(平地)', '平地'),
+            (r'(全宽)', '全宽'),
+            (r'(液压主座椅)', '液压主座椅'),
+            (r'(空气主座椅)', '空气主座椅'),
+        ],
+        '其他附件': [
+            (r'(加强型尾灯)', '加强型尾灯'),
+            (r'(油底壳保护栅)', '油底壳保护栅'),
+        ],
     }
 
     if category in detectors:
-        for pattern, label in detectors[category]:
-            if re.search(pattern, base_config):
-                return label
+        for entry in detectors[category]:
+            pattern, label = entry[0], entry[1] if len(entry) > 1 else None
+            m = re.search(pattern, all_text)
+            if m:
+                return label if label else m.group(1)
     return None
 
 # ── Load accessories ──
@@ -212,7 +286,14 @@ ADD_PATTERNS = [
 ]
 
 # Categories that are primarily swap-based
-SWAP_CATEGORIES = {'驾驶室', '鞍座', '油箱', '空调', '转向机', '驾驶室悬置', '悬架系统'}
+SWAP_CATEGORIES = {
+    '驾驶室', '鞍座', '油箱', '空调', '转向机', '驾驶室悬置', '悬架系统',
+    '变速箱', '车桥', '离合器', '电器系统', '底盘其他', '轮胎品牌',
+    '驾驶室相关部件', '其他附件', '驱动'
+}
+
+# Tire brand categories to merge
+TIRE_BRAND_CATEGORIES = {'三角', '中策', '双钱', '成山', '玲珑', '米其林', '金宇'}
 
 # ── Categorize each item ──
 swap_items = []
@@ -251,6 +332,9 @@ print(f"Add-on items: {len(addon_items)}")
 swap_by_cat = {}
 for item in swap_items:
     cat = item.get('category', 'Other')
+    # Merge tire brand categories into unified "轮胎品牌"
+    if cat in TIRE_BRAND_CATEGORIES:
+        cat = '轮胎品牌'
     if cat not in swap_by_cat:
         swap_by_cat[cat] = []
     swap_by_cat[cat].append({
@@ -270,6 +354,7 @@ for item in swap_items:
     })
 
 # ── Detect vehicle source for each swap category ──
+# Generate per-vehicle source mapping: {model: {category: source, ...}}
 vehicle_sources = {}
 for vf in os.listdir(DATA_DIR):
     if not vf.startswith('vehicles_') or not vf.endswith('.json'):
@@ -277,22 +362,27 @@ for vf in os.listdir(DATA_DIR):
     with open(os.path.join(DATA_DIR, vf), 'r', encoding='utf-8') as f:
         vehicles = json.load(f)
     for v in vehicles:
-        bc = v.get('base_config', '')
-        if not bc:
+        model = v.get('model', '')
+        if not model:
             continue
+        model_sources = {}
         for cat in SWAP_CATEGORIES:
-            src = detect_vehicle_source(bc, cat)
+            src = detect_vehicle_source(v, cat)
             if src:
-                if cat not in vehicle_sources:
-                    vehicle_sources[cat] = {}
-                vehicle_sources[cat][src] = vehicle_sources[cat].get(src, 0) + 1
+                model_sources[cat] = src
+        if model_sources:
+            if model not in vehicle_sources:
+                vehicle_sources[model] = {}
+            # Merge: add new categories, don't overwrite existing ones
+            for cat, src in model_sources.items():
+                if cat not in vehicle_sources[model]:
+                    vehicle_sources[model][cat] = src
 
 # ── Build output ──
 output = {
     'swap_categories': {},
     'addon_items': [],
-    'vehicle_sources': {cat: sorted(sources.items(), key=lambda x: -x[1])
-                        for cat, sources in vehicle_sources.items()}
+    'vehicle_sources': vehicle_sources
 }
 
 # Swap categories

@@ -168,607 +168,6 @@
         ]
       }
     },
-    "三角": {
-      "label_cn": "三角",
-      "label_en": "Triangle",
-      "options": {
-        "12.00R20": [
-          {
-            "source": "12.00R20",
-            "target": "三角品牌",
-            "price": 300,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12.00R20",
-            "target_en": "Triangle品牌",
-            "description_cn": "12.00R20指定三角品牌",
-            "description_en": "12.00R20: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "12.00R24": [
-          {
-            "source": "12.00R24",
-            "target": "三角品牌",
-            "price": 300,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12.00R24",
-            "target_en": "Triangle品牌",
-            "description_cn": "12.00R24指定三角品牌",
-            "description_en": "12.00R24: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "12R22.5": [
-          {
-            "source": "12R22.5",
-            "target": "三角品牌",
-            "price": 250,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "12R22.5指定三角品牌",
-            "description_en": "12R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "13R22.5": [
-          {
-            "source": "13R22.5",
-            "target": "三角品牌",
-            "price": 150,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "13R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "13R22.5指定三角品牌",
-            "description_en": "13R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "14.00R20": [
-          {
-            "source": "14.00R20",
-            "target": "三角品牌",
-            "price": 200,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "14.00R20",
-            "target_en": "Triangle品牌",
-            "description_cn": "14.00R20指定三角品牌",
-            "description_en": "14.00R20: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "295/80R22.5": [
-          {
-            "source": "295/80R22.5",
-            "target": "三角品牌",
-            "price": 200,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "295/80R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "295/80R22.5指定三角品牌",
-            "description_en": "295/80R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/70R22.5": [
-          {
-            "source": "315/70R22.5",
-            "target": "三角品牌",
-            "price": 250,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/70R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "315/70R22.5指定三角品牌",
-            "description_en": "315/70R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/80R22.5": [
-          {
-            "source": "315/80R22.5",
-            "target": "三角品牌",
-            "price": 100,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/80R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "315/80R22.5指定三角品牌",
-            "description_en": "315/80R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "385/65R22.5": [
-          {
-            "source": "385/65R22.5",
-            "target": "三角品牌",
-            "price": 450,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "385/65R22.5",
-            "target_en": "Triangle品牌",
-            "description_cn": "385/65R22.5指定三角品牌",
-            "description_en": "385/65R22.5: Specify Triangle Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "三角品牌": [
-          {
-            "source": "三角品牌",
-            "target": "315/80R22.5",
-            "price": 80,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "315/80R22.5",
-            "description_cn": "三角品牌换装315/80R22.5",
-            "description_en": "Swap Triangle品牌 to 315/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "13R22.5",
-            "price": 120,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "13R22.5",
-            "description_cn": "三角品牌换装13R22.5",
-            "description_en": "Swap Triangle品牌 to 13R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "14.00R20",
-            "price": 160,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "14.00R20",
-            "description_cn": "三角品牌换装14.00R20",
-            "description_en": "Swap Triangle品牌 to 14.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "295/80R22.5",
-            "price": 160,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "295/80R22.5",
-            "description_cn": "三角品牌换装295/80R22.5",
-            "description_en": "Swap Triangle品牌 to 295/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "12R22.5",
-            "price": 200,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "12R22.5",
-            "description_cn": "三角品牌换装12R22.5",
-            "description_en": "Swap Triangle品牌 to 12R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "315/70R22.5",
-            "price": 200,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "315/70R22.5",
-            "description_cn": "三角品牌换装315/70R22.5",
-            "description_en": "Swap Triangle品牌 to 315/70R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "12.00R20",
-            "price": 240,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "12.00R20",
-            "description_cn": "三角品牌换装12.00R20",
-            "description_en": "Swap Triangle品牌 to 12.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "12.00R24",
-            "price": 240,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "12.00R24",
-            "description_cn": "三角品牌换装12.00R24",
-            "description_en": "Swap Triangle品牌 to 12.00R24",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "三角品牌",
-            "target": "385/65R22.5",
-            "price": 360,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Triangle品牌",
-            "target_en": "385/65R22.5",
-            "description_cn": "三角品牌换装385/65R22.5",
-            "description_en": "Swap Triangle品牌 to 385/65R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
-    "中策": {
-      "label_cn": "中策",
-      "label_en": "Zhongce",
-      "options": {
-        "12.00R20": [
-          {
-            "source": "12.00R20",
-            "target": "中策品牌",
-            "price": 300,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12.00R20",
-            "target_en": "Zhongce品牌",
-            "description_cn": "12.00R20指定中策品牌",
-            "description_en": "12.00R20: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "12R22.5": [
-          {
-            "source": "12R22.5",
-            "target": "中策品牌",
-            "price": 250,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12R22.5",
-            "target_en": "Zhongce品牌",
-            "description_cn": "12R22.5指定中策品牌",
-            "description_en": "12R22.5: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "295/80R22.5": [
-          {
-            "source": "295/80R22.5",
-            "target": "中策品牌",
-            "price": 150,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "295/80R22.5",
-            "target_en": "Zhongce品牌",
-            "description_cn": "295/80R22.5指定中策品牌",
-            "description_en": "295/80R22.5: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/70R22.5": [
-          {
-            "source": "315/70R22.5",
-            "target": "中策品牌",
-            "price": 200,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/70R22.5",
-            "target_en": "Zhongce品牌",
-            "description_cn": "315/70R22.5指定中策品牌",
-            "description_en": "315/70R22.5: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/80R22.5": [
-          {
-            "source": "315/80R22.5",
-            "target": "中策品牌",
-            "price": 100,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/80R22.5",
-            "target_en": "Zhongce品牌",
-            "description_cn": "315/80R22.5指定中策品牌",
-            "description_en": "315/80R22.5: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "385/65R22.5": [
-          {
-            "source": "385/65R22.5",
-            "target": "中策品牌",
-            "price": 400,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "385/65R22.5",
-            "target_en": "Zhongce品牌",
-            "description_cn": "385/65R22.5指定中策品牌",
-            "description_en": "385/65R22.5: Specify Zhongce Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "中策品牌": [
-          {
-            "source": "中策品牌",
-            "target": "315/80R22.5",
-            "price": 80,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "315/80R22.5",
-            "description_cn": "中策品牌换装315/80R22.5",
-            "description_en": "Swap Zhongce品牌 to 315/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "中策品牌",
-            "target": "295/80R22.5",
-            "price": 120,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "295/80R22.5",
-            "description_cn": "中策品牌换装295/80R22.5",
-            "description_en": "Swap Zhongce品牌 to 295/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "中策品牌",
-            "target": "315/70R22.5",
-            "price": 160,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "315/70R22.5",
-            "description_cn": "中策品牌换装315/70R22.5",
-            "description_en": "Swap Zhongce品牌 to 315/70R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "中策品牌",
-            "target": "12R22.5",
-            "price": 200,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "12R22.5",
-            "description_cn": "中策品牌换装12R22.5",
-            "description_en": "Swap Zhongce品牌 to 12R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "中策品牌",
-            "target": "12.00R20",
-            "price": 240,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "12.00R20",
-            "description_cn": "中策品牌换装12.00R20",
-            "description_en": "Swap Zhongce品牌 to 12.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "中策品牌",
-            "target": "385/65R22.5",
-            "price": 320,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Zhongce品牌",
-            "target_en": "385/65R22.5",
-            "description_cn": "中策品牌换装385/65R22.5",
-            "description_en": "Swap Zhongce品牌 to 385/65R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
     "其他附件": {
       "label_cn": "其他附件",
       "label_en": "",
@@ -897,248 +296,6 @@
             "target_en": "分体式挡泥板",
             "description_cn": "轻量化整体式挡泥板换装分体式挡泥板",
             "description_en": "Swap 轻量化整体式挡泥板 to 分体式挡泥板",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
-    "双钱": {
-      "label_cn": "双钱",
-      "label_en": "Double Coin",
-      "options": {
-        "12.00R20": [
-          {
-            "source": "12.00R20",
-            "target": "双钱品牌",
-            "price": 800,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12.00R20",
-            "target_en": "Double Coin品牌",
-            "description_cn": "12.00R20指定双钱品牌",
-            "description_en": "12.00R20: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "12R22.5": [
-          {
-            "source": "12R22.5",
-            "target": "双钱品牌",
-            "price": 700,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12R22.5",
-            "target_en": "Double Coin品牌",
-            "description_cn": "12R22.5指定双钱品牌",
-            "description_en": "12R22.5: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/70R22.5": [
-          {
-            "source": "315/70R22.5",
-            "target": "双钱品牌",
-            "price": 600,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/70R22.5",
-            "target_en": "Double Coin品牌",
-            "description_cn": "315/70R22.5指定双钱品牌",
-            "description_en": "315/70R22.5: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/80R22.5": [
-          {
-            "source": "315/80R22.5",
-            "target": "双钱品牌",
-            "price": 400,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/80R22.5",
-            "target_en": "Double Coin品牌",
-            "description_cn": "315/80R22.5指定双钱品牌",
-            "description_en": "315/80R22.5: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "385/65R22.5、295/80R22.5": [
-          {
-            "source": "385/65R22.5、295/80R22.5",
-            "target": "双钱品牌",
-            "price": 700,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "385/65R22.5、295/80R22.5",
-            "target_en": "Double Coin品牌",
-            "description_cn": "385/65R22.5、295/80R22.5指定双钱品牌",
-            "description_en": "385/65R22.5 & 295/80R22.5: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "425/65R22.5": [
-          {
-            "source": "425/65R22.5",
-            "target": "双钱品牌",
-            "price": 1200,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "425/65R22.5",
-            "target_en": "Double Coin品牌",
-            "description_cn": "425/65R22.5指定双钱品牌",
-            "description_en": "425/65R22.5: Specify Double Coin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "双钱品牌": [
-          {
-            "source": "双钱品牌",
-            "target": "315/80R22.5",
-            "price": 320,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "315/80R22.5",
-            "description_cn": "双钱品牌换装315/80R22.5",
-            "description_en": "Swap Double Coin品牌 to 315/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "双钱品牌",
-            "target": "315/70R22.5",
-            "price": 480,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "315/70R22.5",
-            "description_cn": "双钱品牌换装315/70R22.5",
-            "description_en": "Swap Double Coin品牌 to 315/70R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "双钱品牌",
-            "target": "12R22.5",
-            "price": 560,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "12R22.5",
-            "description_cn": "双钱品牌换装12R22.5",
-            "description_en": "Swap Double Coin品牌 to 12R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "双钱品牌",
-            "target": "385/65R22.5、295/80R22.5",
-            "price": 560,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "385/65R22.5、295/80R22.5",
-            "description_cn": "双钱品牌换装385/65R22.5、295/80R22.5",
-            "description_en": "Swap Double Coin品牌 to 385/65R22.5、295/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "双钱品牌",
-            "target": "12.00R20",
-            "price": 640,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "12.00R20",
-            "description_cn": "双钱品牌换装12.00R20",
-            "description_en": "Swap Double Coin品牌 to 12.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "双钱品牌",
-            "target": "425/65R22.5",
-            "price": 960,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Double Coin品牌",
-            "target_en": "425/65R22.5",
-            "description_cn": "双钱品牌换装425/65R22.5",
-            "description_en": "Swap Double Coin品牌 to 425/65R22.5",
             "note_en": "",
             "unit": "辆",
             "is_tire_set": false,
@@ -2045,209 +1202,6 @@
         ]
       }
     },
-    "成山": {
-      "label_cn": "成山",
-      "label_en": "Chengshan",
-      "options": {
-        "12.00R20": [
-          {
-            "source": "12.00R20",
-            "target": "成山品牌",
-            "price": 350,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "12.00R20",
-            "target_en": "Chengshan品牌",
-            "description_cn": "12.00R20指定成山品牌",
-            "description_en": "12.00R20: Specify Chengshan Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "14.00R20": [
-          {
-            "source": "14.00R20",
-            "target": "成山品牌",
-            "price": 600,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "14.00R20",
-            "target_en": "Chengshan品牌",
-            "description_cn": "14.00R20指定成山品牌",
-            "description_en": "14.00R20: Specify Chengshan Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/70R22.5": [
-          {
-            "source": "315/70R22.5",
-            "target": "成山品牌",
-            "price": 200,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/70R22.5",
-            "target_en": "Chengshan品牌",
-            "description_cn": "315/70R22.5指定成山品牌",
-            "description_en": "315/70R22.5: Specify Chengshan Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/80R22.5": [
-          {
-            "source": "315/80R22.5",
-            "target": "成山品牌",
-            "price": 100,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/80R22.5",
-            "target_en": "Chengshan品牌",
-            "description_cn": "315/80R22.5指定成山品牌",
-            "description_en": "315/80R22.5: Specify Chengshan Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "385/65R22.5、12.00R24": [
-          {
-            "source": "385/65R22.5、12.00R24",
-            "target": "成山品牌",
-            "price": 250,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "385/65R22.5、12.00R24",
-            "target_en": "Chengshan品牌",
-            "description_cn": "385/65R22.5、12.00R24指定成山品牌",
-            "description_en": "385/65R22.5 & 12.00R24: Specify Chengshan Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "成山品牌": [
-          {
-            "source": "成山品牌",
-            "target": "315/80R22.5",
-            "price": 80,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Chengshan品牌",
-            "target_en": "315/80R22.5",
-            "description_cn": "成山品牌换装315/80R22.5",
-            "description_en": "Swap Chengshan品牌 to 315/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "成山品牌",
-            "target": "315/70R22.5",
-            "price": 160,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Chengshan品牌",
-            "target_en": "315/70R22.5",
-            "description_cn": "成山品牌换装315/70R22.5",
-            "description_en": "Swap Chengshan品牌 to 315/70R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "成山品牌",
-            "target": "385/65R22.5、12.00R24",
-            "price": 200,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Chengshan品牌",
-            "target_en": "385/65R22.5、12.00R24",
-            "description_cn": "成山品牌换装385/65R22.5、12.00R24",
-            "description_en": "Swap Chengshan品牌 to 385/65R22.5、12.00R24",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "成山品牌",
-            "target": "12.00R20",
-            "price": 280,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Chengshan品牌",
-            "target_en": "12.00R20",
-            "description_cn": "成山品牌换装12.00R20",
-            "description_en": "Swap Chengshan品牌 to 12.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "成山品牌",
-            "target": "14.00R20",
-            "price": 480,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Chengshan品牌",
-            "target_en": "14.00R20",
-            "description_cn": "成山品牌换装14.00R20",
-            "description_en": "Swap Chengshan品牌 to 14.00R20",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
     "油箱": {
       "label_cn": "油箱",
       "label_en": "",
@@ -2642,53 +1596,6 @@
         ]
       }
     },
-    "玲珑": {
-      "label_cn": "玲珑",
-      "label_en": "Linglong",
-      "options": {
-        "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24": [
-          {
-            "source": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "target": "玲珑品牌",
-            "price": 100,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "target_en": "Linglong品牌",
-            "description_cn": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24指定玲珑品牌",
-            "description_en": "Multiple Sizes: Specify Linglong Brand (295/80, 315/70, 12R, 12.00R20, 315/80, 13R, 12.00R24)",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "玲珑品牌": [
-          {
-            "source": "玲珑品牌",
-            "target": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "price": 80,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Linglong品牌",
-            "target_en": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "description_cn": "玲珑品牌换装295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "description_en": "Swap Linglong品牌 to 295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
     "电器系统": {
       "label_cn": "电器系统",
       "label_en": "",
@@ -2992,170 +1899,6 @@
             "description_cn": "热区空调换装普通暖风",
             "description_en": "Swap Hot-region A/C to Standard Heater",
             "note_en": "单制冷热区空调与热区空调同价",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          }
-        ]
-      }
-    },
-    "米其林": {
-      "label_cn": "米其林",
-      "label_en": "Michelin",
-      "options": {
-        "11R22.5": [
-          {
-            "source": "11R22.5",
-            "target": "米其林品牌",
-            "price": 2000,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "11R22.5",
-            "target_en": "Michelin品牌",
-            "description_cn": "11R22.5指定米其林品牌",
-            "description_en": "11R22.5: Specify Michelin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "295/80R22.5": [
-          {
-            "source": "295/80R22.5",
-            "target": "米其林品牌",
-            "price": 2400,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "295/80R22.5",
-            "target_en": "Michelin品牌",
-            "description_cn": "295/80R22.5指定米其林品牌",
-            "description_en": "295/80R22.5: Specify Michelin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "315/80R22.5": [
-          {
-            "source": "315/80R22.5",
-            "target": "米其林品牌",
-            "price": 2000,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "315/80R22.5",
-            "target_en": "Michelin品牌",
-            "description_cn": "315/80R22.5指定米其林品牌",
-            "description_en": "315/80R22.5: Specify Michelin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "385/65R22.5": [
-          {
-            "source": "385/65R22.5",
-            "target": "米其林品牌",
-            "price": 4800,
-            "is_deduction": false,
-            "note": "",
-            "source_en": "385/65R22.5",
-            "target_en": "Michelin品牌",
-            "description_cn": "385/65R22.5指定米其林品牌",
-            "description_en": "385/65R22.5: Specify Michelin Brand",
-            "note_en": "",
-            "unit": "条",
-            "is_tire_set": true,
-            "tire_count": {
-              "4×2": 7,
-              "4x2": 7,
-              "6×4": 11,
-              "6x4": 11,
-              "8×4": 13,
-              "8x4": 13
-            }
-          }
-        ],
-        "米其林品牌": [
-          {
-            "source": "米其林品牌",
-            "target": "11R22.5",
-            "price": 1600,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Michelin品牌",
-            "target_en": "11R22.5",
-            "description_cn": "米其林品牌换装11R22.5",
-            "description_en": "Swap Michelin品牌 to 11R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "米其林品牌",
-            "target": "315/80R22.5",
-            "price": 1600,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Michelin品牌",
-            "target_en": "315/80R22.5",
-            "description_cn": "米其林品牌换装315/80R22.5",
-            "description_en": "Swap Michelin品牌 to 315/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "米其林品牌",
-            "target": "295/80R22.5",
-            "price": 1920,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Michelin品牌",
-            "target_en": "295/80R22.5",
-            "description_cn": "米其林品牌换装295/80R22.5",
-            "description_en": "Swap Michelin品牌 to 295/80R22.5",
-            "note_en": "",
-            "unit": "辆",
-            "is_tire_set": false,
-            "tire_count": {}
-          },
-          {
-            "source": "米其林品牌",
-            "target": "385/65R22.5",
-            "price": 3840,
-            "is_deduction": true,
-            "note": "",
-            "source_en": "Michelin品牌",
-            "target_en": "385/65R22.5",
-            "description_cn": "米其林品牌换装385/65R22.5",
-            "description_en": "Swap Michelin品牌 to 385/65R22.5",
-            "note_en": "",
             "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
@@ -3569,10 +2312,124 @@
         ]
       }
     },
-    "金宇": {
-      "label_cn": "金宇",
-      "label_en": "Jinyu",
+    "轮胎品牌": {
+      "label_cn": "轮胎品牌",
+      "label_en": "Tire Brand",
       "options": {
+        "11R22.5": [
+          {
+            "source": "11R22.5",
+            "target": "米其林品牌",
+            "price": 2000,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "11R22.5",
+            "target_en": "Michelin品牌",
+            "description_cn": "11R22.5指定米其林品牌",
+            "description_en": "11R22.5: Specify Michelin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "12.00R20": [
+          {
+            "source": "12.00R20",
+            "target": "三角品牌",
+            "price": 300,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12.00R20",
+            "target_en": "Triangle品牌",
+            "description_cn": "12.00R20指定三角品牌",
+            "description_en": "12.00R20: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "12.00R20",
+            "target": "中策品牌",
+            "price": 300,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12.00R20",
+            "target_en": "Zhongce品牌",
+            "description_cn": "12.00R20指定中策品牌",
+            "description_en": "12.00R20: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "12.00R20",
+            "target": "成山品牌",
+            "price": 350,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12.00R20",
+            "target_en": "Chengshan品牌",
+            "description_cn": "12.00R20指定成山品牌",
+            "description_en": "12.00R20: Specify Chengshan Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "12.00R20",
+            "target": "双钱品牌",
+            "price": 800,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12.00R20",
+            "target_en": "Double Coin品牌",
+            "description_cn": "12.00R20指定双钱品牌",
+            "description_en": "12.00R20: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
         "12.00R20子午胎": [
           {
             "source": "12.00R20子午胎",
@@ -3584,6 +2441,168 @@
             "target_en": "Jinyu品牌",
             "description_cn": "12.00R20子午胎指定金宇品牌",
             "description_en": "12.00R20: Specify Jinyu Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "12.00R24": [
+          {
+            "source": "12.00R24",
+            "target": "三角品牌",
+            "price": 300,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12.00R24",
+            "target_en": "Triangle品牌",
+            "description_cn": "12.00R24指定三角品牌",
+            "description_en": "12.00R24: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "12R22.5": [
+          {
+            "source": "12R22.5",
+            "target": "三角品牌",
+            "price": 250,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "12R22.5指定三角品牌",
+            "description_en": "12R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "12R22.5",
+            "target": "中策品牌",
+            "price": 250,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12R22.5",
+            "target_en": "Zhongce品牌",
+            "description_cn": "12R22.5指定中策品牌",
+            "description_en": "12R22.5: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "12R22.5",
+            "target": "双钱品牌",
+            "price": 700,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "12R22.5",
+            "target_en": "Double Coin品牌",
+            "description_cn": "12R22.5指定双钱品牌",
+            "description_en": "12R22.5: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "13R22.5": [
+          {
+            "source": "13R22.5",
+            "target": "三角品牌",
+            "price": 150,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "13R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "13R22.5指定三角品牌",
+            "description_en": "13R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "14.00R20": [
+          {
+            "source": "14.00R20",
+            "target": "三角品牌",
+            "price": 200,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "14.00R20",
+            "target_en": "Triangle品牌",
+            "description_cn": "14.00R20指定三角品牌",
+            "description_en": "14.00R20: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "14.00R20",
+            "target": "成山品牌",
+            "price": 600,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "14.00R20",
+            "target_en": "Chengshan品牌",
+            "description_cn": "14.00R20指定成山品牌",
+            "description_en": "14.00R20: Specify Chengshan Brand",
             "note_en": "",
             "unit": "条",
             "is_tire_set": true,
@@ -3619,9 +2638,165 @@
               "8×4": 13,
               "8x4": 13
             }
+          },
+          {
+            "source": "295/80R22.5",
+            "target": "中策品牌",
+            "price": 150,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "295/80R22.5",
+            "target_en": "Zhongce品牌",
+            "description_cn": "295/80R22.5指定中策品牌",
+            "description_en": "295/80R22.5: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "295/80R22.5",
+            "target": "三角品牌",
+            "price": 200,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "295/80R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "295/80R22.5指定三角品牌",
+            "description_en": "295/80R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "295/80R22.5",
+            "target": "米其林品牌",
+            "price": 2400,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "295/80R22.5",
+            "target_en": "Michelin品牌",
+            "description_cn": "295/80R22.5指定米其林品牌",
+            "description_en": "295/80R22.5: Specify Michelin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24": [
+          {
+            "source": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "target": "玲珑品牌",
+            "price": 100,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "target_en": "Linglong品牌",
+            "description_cn": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24指定玲珑品牌",
+            "description_en": "Multiple Sizes: Specify Linglong Brand (295/80, 315/70, 12R, 12.00R20, 315/80, 13R, 12.00R24)",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
           }
         ],
         "315/70R22.5": [
+          {
+            "source": "315/70R22.5",
+            "target": "中策品牌",
+            "price": 200,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/70R22.5",
+            "target_en": "Zhongce品牌",
+            "description_cn": "315/70R22.5指定中策品牌",
+            "description_en": "315/70R22.5: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/70R22.5",
+            "target": "成山品牌",
+            "price": 200,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/70R22.5",
+            "target_en": "Chengshan品牌",
+            "description_cn": "315/70R22.5指定成山品牌",
+            "description_en": "315/70R22.5: Specify Chengshan Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/70R22.5",
+            "target": "三角品牌",
+            "price": 250,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/70R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "315/70R22.5指定三角品牌",
+            "description_en": "315/70R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
           {
             "source": "315/70R22.5",
             "target": "金宇品牌",
@@ -3643,9 +2818,75 @@
               "8×4": 13,
               "8x4": 13
             }
+          },
+          {
+            "source": "315/70R22.5",
+            "target": "双钱品牌",
+            "price": 600,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/70R22.5",
+            "target_en": "Double Coin品牌",
+            "description_cn": "315/70R22.5指定双钱品牌",
+            "description_en": "315/70R22.5: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
           }
         ],
         "315/80R22.5": [
+          {
+            "source": "315/80R22.5",
+            "target": "三角品牌",
+            "price": 100,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/80R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "315/80R22.5指定三角品牌",
+            "description_en": "315/80R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/80R22.5",
+            "target": "中策品牌",
+            "price": 100,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/80R22.5",
+            "target_en": "Zhongce品牌",
+            "description_cn": "315/80R22.5指定中策品牌",
+            "description_en": "315/80R22.5: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
           {
             "source": "315/80R22.5",
             "target": "金宇品牌",
@@ -3656,6 +2897,72 @@
             "target_en": "Jinyu品牌",
             "description_cn": "315/80R22.5指定金宇品牌",
             "description_en": "315/80R22.5: Specify Jinyu Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/80R22.5",
+            "target": "成山品牌",
+            "price": 100,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/80R22.5",
+            "target_en": "Chengshan品牌",
+            "description_cn": "315/80R22.5指定成山品牌",
+            "description_en": "315/80R22.5: Specify Chengshan Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/80R22.5",
+            "target": "双钱品牌",
+            "price": 400,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/80R22.5",
+            "target_en": "Double Coin品牌",
+            "description_cn": "315/80R22.5指定双钱品牌",
+            "description_en": "315/80R22.5: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "315/80R22.5",
+            "target": "米其林品牌",
+            "price": 2000,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "315/80R22.5",
+            "target_en": "Michelin品牌",
+            "description_cn": "315/80R22.5指定米其林品牌",
+            "description_en": "315/80R22.5: Specify Michelin Brand",
             "note_en": "",
             "unit": "条",
             "is_tire_set": true,
@@ -3691,6 +2998,604 @@
               "8×4": 13,
               "8x4": 13
             }
+          },
+          {
+            "source": "385/65R22.5",
+            "target": "中策品牌",
+            "price": 400,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "385/65R22.5",
+            "target_en": "Zhongce品牌",
+            "description_cn": "385/65R22.5指定中策品牌",
+            "description_en": "385/65R22.5: Specify Zhongce Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "385/65R22.5",
+            "target": "三角品牌",
+            "price": 450,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "385/65R22.5",
+            "target_en": "Triangle品牌",
+            "description_cn": "385/65R22.5指定三角品牌",
+            "description_en": "385/65R22.5: Specify Triangle Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          },
+          {
+            "source": "385/65R22.5",
+            "target": "米其林品牌",
+            "price": 4800,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "385/65R22.5",
+            "target_en": "Michelin品牌",
+            "description_cn": "385/65R22.5指定米其林品牌",
+            "description_en": "385/65R22.5: Specify Michelin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "385/65R22.5、12.00R24": [
+          {
+            "source": "385/65R22.5、12.00R24",
+            "target": "成山品牌",
+            "price": 250,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "385/65R22.5、12.00R24",
+            "target_en": "Chengshan品牌",
+            "description_cn": "385/65R22.5、12.00R24指定成山品牌",
+            "description_en": "385/65R22.5 & 12.00R24: Specify Chengshan Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "385/65R22.5、295/80R22.5": [
+          {
+            "source": "385/65R22.5、295/80R22.5",
+            "target": "双钱品牌",
+            "price": 700,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "385/65R22.5、295/80R22.5",
+            "target_en": "Double Coin品牌",
+            "description_cn": "385/65R22.5、295/80R22.5指定双钱品牌",
+            "description_en": "385/65R22.5 & 295/80R22.5: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "425/65R22.5": [
+          {
+            "source": "425/65R22.5",
+            "target": "双钱品牌",
+            "price": 1200,
+            "is_deduction": false,
+            "note": "",
+            "source_en": "425/65R22.5",
+            "target_en": "Double Coin品牌",
+            "description_cn": "425/65R22.5指定双钱品牌",
+            "description_en": "425/65R22.5: Specify Double Coin Brand",
+            "note_en": "",
+            "unit": "条",
+            "is_tire_set": true,
+            "tire_count": {
+              "4×2": 7,
+              "4x2": 7,
+              "6×4": 11,
+              "6x4": 11,
+              "8×4": 13,
+              "8x4": 13
+            }
+          }
+        ],
+        "米其林品牌": [
+          {
+            "source": "米其林品牌",
+            "target": "11R22.5",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "11R22.5",
+            "description_cn": "米其林品牌换装11R22.5",
+            "description_en": "Swap Michelin品牌 to 11R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "315/80R22.5",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "米其林品牌换装315/80R22.5",
+            "description_en": "Swap Michelin品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "295/80R22.5",
+            "price": 1920,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "米其林品牌换装295/80R22.5",
+            "description_en": "Swap Michelin品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "385/65R22.5",
+            "price": 3840,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "米其林品牌换装385/65R22.5",
+            "description_en": "Swap Michelin品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "三角品牌": [
+          {
+            "source": "三角品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "三角品牌换装315/80R22.5",
+            "description_en": "Swap Triangle品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "13R22.5",
+            "price": 120,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "13R22.5",
+            "description_cn": "三角品牌换装13R22.5",
+            "description_en": "Swap Triangle品牌 to 13R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "14.00R20",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "14.00R20",
+            "description_cn": "三角品牌换装14.00R20",
+            "description_en": "Swap Triangle品牌 to 14.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "295/80R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "三角品牌换装295/80R22.5",
+            "description_en": "Swap Triangle品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12R22.5",
+            "description_cn": "三角品牌换装12R22.5",
+            "description_en": "Swap Triangle品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "315/70R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "三角品牌换装315/70R22.5",
+            "description_en": "Swap Triangle品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12.00R20",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12.00R20",
+            "description_cn": "三角品牌换装12.00R20",
+            "description_en": "Swap Triangle品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12.00R24",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12.00R24",
+            "description_cn": "三角品牌换装12.00R24",
+            "description_en": "Swap Triangle品牌 to 12.00R24",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "385/65R22.5",
+            "price": 360,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "三角品牌换装385/65R22.5",
+            "description_en": "Swap Triangle品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "双钱品牌": [
+          {
+            "source": "双钱品牌",
+            "target": "315/80R22.5",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "双钱品牌换装315/80R22.5",
+            "description_en": "Swap Double Coin品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "315/70R22.5",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "双钱品牌换装315/70R22.5",
+            "description_en": "Swap Double Coin品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "12R22.5",
+            "price": 560,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "12R22.5",
+            "description_cn": "双钱品牌换装12R22.5",
+            "description_en": "Swap Double Coin品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "385/65R22.5、295/80R22.5",
+            "price": 560,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "385/65R22.5、295/80R22.5",
+            "description_cn": "双钱品牌换装385/65R22.5、295/80R22.5",
+            "description_en": "Swap Double Coin品牌 to 385/65R22.5、295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "12.00R20",
+            "price": 640,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "12.00R20",
+            "description_cn": "双钱品牌换装12.00R20",
+            "description_en": "Swap Double Coin品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "425/65R22.5",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "425/65R22.5",
+            "description_cn": "双钱品牌换装425/65R22.5",
+            "description_en": "Swap Double Coin品牌 to 425/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "中策品牌": [
+          {
+            "source": "中策品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "中策品牌换装315/80R22.5",
+            "description_en": "Swap Zhongce品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "295/80R22.5",
+            "price": 120,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "中策品牌换装295/80R22.5",
+            "description_en": "Swap Zhongce品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "315/70R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "中策品牌换装315/70R22.5",
+            "description_en": "Swap Zhongce品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "12R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "12R22.5",
+            "description_cn": "中策品牌换装12R22.5",
+            "description_en": "Swap Zhongce品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "12.00R20",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "12.00R20",
+            "description_cn": "中策品牌换装12.00R20",
+            "description_en": "Swap Zhongce品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "385/65R22.5",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "中策品牌换装385/65R22.5",
+            "description_en": "Swap Zhongce品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "成山品牌": [
+          {
+            "source": "成山品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "成山品牌换装315/80R22.5",
+            "description_en": "Swap Chengshan品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "315/70R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "成山品牌换装315/70R22.5",
+            "description_en": "Swap Chengshan品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "385/65R22.5、12.00R24",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "385/65R22.5、12.00R24",
+            "description_cn": "成山品牌换装385/65R22.5、12.00R24",
+            "description_en": "Swap Chengshan品牌 to 385/65R22.5、12.00R24",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "12.00R20",
+            "price": 280,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "12.00R20",
+            "description_cn": "成山品牌换装12.00R20",
+            "description_en": "Swap Chengshan品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "14.00R20",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "14.00R20",
+            "description_cn": "成山品牌换装14.00R20",
+            "description_en": "Swap Chengshan品牌 to 14.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "金宇品牌": [
@@ -3764,6 +3669,23 @@
             "target_en": "315/70R22.5",
             "description_cn": "金宇品牌换装315/70R22.5",
             "description_en": "Swap Jinyu品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "玲珑品牌": [
+          {
+            "source": "玲珑品牌",
+            "target": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Linglong品牌",
+            "target_en": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "description_cn": "玲珑品牌换装295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "description_en": "Swap Linglong品牌 to 295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
             "note_en": "",
             "unit": "辆",
             "is_tire_set": false,
@@ -7876,51 +7798,4893 @@
     }
   ],
   "vehicle_sources": {
-    "驾驶室悬置": [
-      [
-        "四点液压悬浮",
-        13
-      ],
-      [
-        "四点空气悬浮",
-        5
-      ]
-    ],
-    "驾驶室": [
-      [
-        "加长平顶",
-        215
-      ],
-      [
-        "中长平顶",
-        205
-      ],
-      [
-        "加长高顶",
-        192
-      ],
-      [
-        "标准驾驶室",
-        114
-      ],
-      [
-        "半高顶",
-        52
-      ]
-    ],
-    "空调": [
-      [
-        "电控自动恒温空调",
-        438
-      ],
-      [
-        "普通暖风",
-        23
-      ],
-      [
-        "热区空调",
-        16
-      ]
-    ]
+    "SX5255GJBJR334": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F2000",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "13T STR双级5.73",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX5255GJBDR384": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮",
+      "转向机": "国产转向机"
+    },
+    "SX5255GYSJM434": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F2000",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "13T STR双级4.8",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX5255GYSDN434": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮",
+      "转向机": "国产转向机"
+    },
+    "SX41854V361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T+QH50",
+      "底盘其他": "玻璃钢保险杠",
+      "驾驶室悬置": "四点空气悬浮"
+    },
+    "SX42554V324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T+QH50",
+      "底盘其他": "玻璃钢保险杠",
+      "驾驶室悬置": "四点空气悬浮",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX3255JM384": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F2000",
+      "底盘其他": "玻璃钢保险杠",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX3255DR384": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮",
+      "转向机": "国产转向机",
+      "车桥": "16T MAN双级5.262"
+    },
+    "SX3255DT384": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮",
+      "车桥": "16T HD双级5.262",
+      "转向机": "国产转向机",
+      "油箱": "300L铝合金油箱",
+      "悬架系统": "前后多片簧"
+    },
+    "SX3315DT366": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮",
+      "转向机": "国产转向机",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX11858J501": {
+      "驾驶室相关部件": "液压主座椅",
+      "转向机": "国产转向机"
+    },
+    "SX5315GJBDT306": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41855V361": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳-QH50-FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41855X361": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ220A-铝壳-QHG50C-FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42555V324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳-QH50-FHB400",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅",
+      "悬架系统": "前后多片簧+四骑马螺栓"
+    },
+    "SX42555X324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ220A-铝壳-QHG50C-FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DT306": {
+      "电器系统": "165Ah",
+      "空调": "热区空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11858J571": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX11858K501": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "变速箱": "F8JZ95MM-铝壳-QD40J法兰取力器"
+    },
+    "SX5255GSSDR434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GSSMN434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GSS6R434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "工程保险杠"
+    },
+    "SX4255JV324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92",
+      "悬架系统": "前后多片簧+四骑马螺栓"
+    },
+    "SX4255HV324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200K-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555V384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "工程保险杠",
+      "悬架系统": "前后多片簧+四骑马螺栓"
+    },
+    "SX425551384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB",
+      "底盘其他": "工程保险杠"
+    },
+    "SX425554384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ260A-铝壳-FHB400液力缓速器-强制冷却",
+      "底盘其他": "工程保险杠"
+    },
+    "SX3315DV386": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX3255MR384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315MV386": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200K+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V366": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200K-铁壳-QH50花键",
+      "底盘其他": "工程保险杠"
+    },
+    "SX32556R384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50花键",
+      "底盘其他": "工程保险杠"
+    },
+    "SX42584V323C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258Y4323C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260-铝壳-QHG50C取力器"
+    },
+    "SX41884V361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GS361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F12JZ200-铝壳-QHG50C取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX11888N451C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX32556V384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50+FHB400",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX33156V406": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33186V486T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50-FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJBHR404": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "10JSD180",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX5185GYY8J451": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "车桥": "10T HD单级4.625"
+    },
+    "SX4255HL324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4255HR324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200TA-B铝壳",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4255HT324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-",
+      "悬架系统": "前后少片簧",
+      "转向机": "国产转向机",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX4255GT324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-",
+      "悬架系统": "前后少片簧"
+    },
+    "SX3255DV384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5255JSQDT584": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5255GJBDT384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX42555Y385C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16S2530TO-铝壳-EZF650花键取力器",
+      "底盘其他": "工程保险杠",
+      "转向机": "国产转向机",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX4255DV324": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX4255DV384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX4255DT384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX4185DT361": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX4255HT384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX4185HT361": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "油箱": "600L铝合金油箱",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX3255MT384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50花键",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92",
+      "空调": "电控自动恒温空调"
+    },
+    "SX3315MT386": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50花键"
+    },
+    "SX3315DV366": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5255GJBJR384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJBJR404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJB5R404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX5255GJB5T404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX5315GSNJU456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX5315GSN5U456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-QH70法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GSN5V456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-QH70法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255JSQDR584": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX5185ZYS8J451": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX5255GYY5T464": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50法兰取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5185GSS8J451": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX5255GYY5T465": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5185JSQ8J571": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5185TCXHN501": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶"
+    },
+    "SX42554V324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "金属保险杠",
+      "转向机": "国产转向机",
+      "其他附件": "油底壳保护栅",
+      "悬架系统": "前后少片簧",
+      "油箱": "230L铝合金油箱",
+      "车桥": "16T HD双级4.266"
+    },
+    "SX42554W324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TB+FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255NT324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4185NT361": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F3000",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX425541324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH50花键-FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX3255DR404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级5.92"
+    },
+    "SX3255DT404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX3315DT386": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级5.262",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX3255DV404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255NV324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX3255DT324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556T404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556V404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556T404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556R404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V386": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX31858F401": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "F401"
+    },
+    "SX12554V434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铁壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX12554V654": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铁壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584Y323C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240A-铝壳+FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32586V384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33186V306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5259GJB6U364C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "中长平顶",
+      "变速箱": "F13JZ220A-铝壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5319GJB6W306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "中长平顶",
+      "变速箱": "F13JZ220A-铝壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42595X344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "16JSDX240TA-",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41895U381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425952344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "16JSDX240TA-",
+      "底盘其他": "工程保险杠"
+    },
+    "SX32596U354C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铝壳-QH50取力器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX33196W326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX220TA-B-铝壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX33196W366C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX220TA-B-铝壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX31898M371C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX12595U464C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铝壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX13195W466C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铝壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11898M571C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX42555T324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32555R354": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-QH50花键",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12555T434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12555T464": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJB6T384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GJB6T306C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5185GSS8J451C": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶"
+    },
+    "SX5185ZYS8J451C": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX5255ZYSDR434C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425551324C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240K-铁壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555V384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425552324C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240K-铁壳-QH50取力器-FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556V384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556W384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F13JZ240A-铝壳+QHG50C取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V366C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156Y386C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F13JZ240A-铝壳-QHG50C取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11858J501C": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5255GSSJR434": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5315GSSJT456": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5255GJYJR434": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5315GJYJT456": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3255JT384": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "加强型尾灯",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315JU406": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "加强型尾灯",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX1315JV456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255Y4324CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260-铝壳-QHG50C花键-FHB400"
+    },
+    "DH9X2548H39A0": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260-铝壳-QHG50C花键-FHB400"
+    },
+    "SX4255YY324CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260-铝壳-QHG50C花键-FHB400"
+    },
+    "SX42554W324CR": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240-铝壳-QHG50C-FHB400",
+      "底盘其他": "玻璃钢保险杠",
+      "油箱": "300L铝合金油箱"
+    },
+    "SX42554Y324CR": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260-铝壳-QHG50C-FHB400-强制冷却",
+      "底盘其他": "玻璃钢保险杠",
+      "油箱": "300L铝合金油箱"
+    },
+    "SX425544324CR": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "300L铝合金油箱",
+      "变速箱": "13JSDX260T-铁壳-QH50-FHB400缓速器-换挡助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555W324CR": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "油箱": "300L铝合金油箱",
+      "变速箱": "F16JZ240-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42554V324R": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4255HV324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-铝壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HT324CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-铝壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HT324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-铝壳-无取力器",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX4255HU324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B-铝壳-无取力器",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅",
+      "车桥": "13T HD单级3.7"
+    },
+    "SX4255NU324R": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "300L铝合金油箱",
+      "变速箱": "F3000",
+      "底盘其他": "玻璃钢保险杠",
+      "驾驶室悬置": "四点空气悬浮"
+    },
+    "SX4255JT324R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "油箱": "230L铝合金油箱",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255DR384R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "加强型尾灯",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255DT384R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX3255DT384CR": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315DT366R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315DT386R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315DT386CR": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "380L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315DU386R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "400L铁油箱",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3315DV456R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX33156V366R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T-B-铁壳-QH50花键带换挡助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX31858K401R": {
+      "驾驶室相关部件": "空气主座椅",
+      "油箱": "200L铝合金油箱"
+    },
+    "SX11858J571R": {
+      "驾驶室相关部件": "空气主座椅",
+      "油箱": "700L铝合金油箱"
+    },
+    "SX11858J451R": {
+      "驾驶室相关部件": "液压主座椅",
+      "油箱": "200L铁油箱"
+    },
+    "SX11858K571R": {
+      "驾驶室相关部件": "液压主座椅",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "F8JZ110MM-铝壳-QD40J花键"
+    },
+    "SX5255GSSMN434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "油箱": "400L铝合金油箱",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GSSDN434R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "油箱": "300L铝合金油箱",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GJB6W306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX240TA-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41855S361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX425542324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "16JSDX240TA-铝壳+FHB400液力缓速器",
+      "底盘其他": "玻璃钢保险杠",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX42555Y324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ240A-铝壳-FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32556W354C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50花键取力器+FHB400液力缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX325562384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50-FHB400",
+      "底盘其他": "工程保险杠"
+    },
+    "SX33156W366C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX240TA-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1185MM531C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX12555W464C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长平顶",
+      "变速箱": "16JSDX240TA-铝壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GJBDU306": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42554V404T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铁壳-QH70(花键)（带助力）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41854V361": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铁壳-QH70(花键)（带助力）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42585U324R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铝壳-QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258GU324R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F12JZ220A-铝壳-QHG50C法兰取力器"
+    },
+    "SX4258GR324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD140T-铝壳-无取力器"
+    },
+    "SX33286U306R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铝壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3318MR306R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD140TB-铝壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11888N571CR": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX13185U406R": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳-QH50（花键取力器）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32586U384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3258MU384": {
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T"
+    },
+    "SX3258MV384": {
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T"
+    },
+    "SX32586V384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3318MV306": {
+      "变速箱": "12JSD200T",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX5258GJBHU384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "12JSD200T",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX5318GJBMV306": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "油箱": "360L铝合金油箱",
+      "变速箱": "12JSD200T",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX5315GYYMT456": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HV384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠",
+      "其他附件": "油底壳保护栅",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机"
+    },
+    "SX42554V384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B-铁壳-无取力器"
+    },
+    "SX3255DU384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "空调": "电控自动恒温空调",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255MU384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556U384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315MU366": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DU366": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "空调": "电控自动恒温空调",
+      "其他附件": "油底壳保护栅",
+      "车桥": "16THD双级5.262"
+    },
+    "SX12554T504": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX1255GR504": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD180-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GSSDN434": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX5255GYYDN434": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX4255JU324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机"
+    },
+    "SX4255JT324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX4185JU361": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠",
+      "车桥": "16T HD双级4.769",
+      "空调": "电控自动恒温空调",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX425552384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240TA-铁壳-QH70花键",
+      "底盘其他": "工程保险杠"
+    },
+    "SX4255J1324": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX42555X384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-QHG50C法兰取力器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX3315DU406": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "加强型尾灯",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX33156X406C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "加强型尾灯",
+      "变速箱": "F13JZ220A-铝壳-QHG50C花键",
+      "底盘其他": "工程保险杠"
+    },
+    "SX32556X384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-QHG50C花键",
+      "底盘其他": "工程保险杠"
+    },
+    "SX5389GJBMY28CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F12JZ220A-铝壳-QHG50C"
+    },
+    "SX418942401R": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "平地",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX11898M621CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "变速箱": "F8JZ110A"
+    },
+    "SX11898M611CR": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5255JSQDN564R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GSSDR434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GSSDV456R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJYDR434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5185GXS8J501R": {
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX5258GJBMN384R": {
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "工程保险杠"
+    },
+    "SX41888N361CR": {
+      "驾驶室相关部件": "空气主座椅",
+      "车桥": "13T HD单级6.167"
+    },
+    "SX4188MN361R": {
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX4258MU324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳",
+      "底盘其他": "工程保险杠"
+    },
+    "SX4258MN324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX4258MS324CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳-无取力器"
+    },
+    "SX4255JR324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX4255JV324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92",
+      "空调": "电控自动恒温空调",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX42585T324CR": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX42585V324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42585Y324CR": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240T-铁壳",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX42584V324CR": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX42584X344CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX240TB-铁壳--无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX425852344CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TB-铁壳-QH50法兰"
+    },
+    "SX425853364R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F13JZ260A+QHG50C/变速器增加油冷"
+    },
+    "SX3258MU384R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳-QH50-FHB400",
+      "底盘其他": "工程保险杠"
+    },
+    "SX3258MS384CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180TB-铁壳-QH50-换挡气助力"
+    },
+    "SX3255DR434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255DR384CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255DR434CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255DV434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255DT434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255MR384R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD140+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92",
+      "空调": "普通暖风",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX32556R384CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180T-铁壳-QH50（FHB400液力缓速器）",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX32586T464CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX3315DV366R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DV366CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V366CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B+QH50（FHB400液力缓速器）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156X366CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240TB-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255DU484R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3315DV506R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DU506R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DV506CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V506CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B+QH50-",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156V506R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12588N583CR": {
+      "驾驶室相关部件": "空气主座椅",
+      "车桥": "13T HD单级6.167"
+    },
+    "SX1258MU584R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB",
+      "底盘其他": "工程保险杠"
+    },
+    "SX1258MN584R": {
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX1258MS584CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳-无取力器-换挡气助力"
+    },
+    "SX1255DR464R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1255DR614R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1315DV386R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX13186T456CR": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJB6T404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41854W361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ220A-铝壳-QHG50C-FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32556T384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156Y326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50花键取力器"
+    },
+    "SX5255GJBJR384R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5185GSS8J451CR": {
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX5255GSSJR434CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255ZYSJR434R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555V324C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555V324CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铝壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255DT384C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "空调": "电控自动恒温空调"
+    },
+    "SX3255DV385CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32558M344CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX31858J401CR": {
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX3315DV366C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "空调": "电控自动恒温空调"
+    },
+    "SX11858J501CR": {
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX1255JR434C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJB6R404": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5258GJB6S404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD180T-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5318GJB6T326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5248GJB8N334C": {
+      "转向机": "国产转向机"
+    },
+    "SX5258JSQ8L564": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "变速箱": "S125TA-铁壳-QCD45A"
+    },
+    "SX5258JSQ5S584C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD180T-铁壳-QH50法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5188ZYS8K451C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX4188Y3381": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C花键-FHB400"
+    },
+    "SX4188Y3381C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C花键-FHB400"
+    },
+    "SX4258Y3344": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C花键-FHB400",
+      "轮胎品牌": "三角",
+      "底盘其他": "玻璃钢保险杠",
+      "悬架系统": "前后多片簧"
+    },
+    "SX42584X324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH50花键",
+      "底盘其他": "金属保险杠",
+      "油箱": "600L铝合金油箱",
+      "悬架系统": "前后少片簧"
+    },
+    "SX425843324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50花键-FHB400",
+      "底盘其他": "玻璃钢保险杠",
+      "转向机": "国产转向机",
+      "轮胎品牌": "三角",
+      "悬架系统": "前后多片簧"
+    },
+    "SX42585X385C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32588N344C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX32556T384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD180T-铁壳-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.92"
+    },
+    "SX32586T404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32586S434C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD180T-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32586T384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.92"
+    },
+    "SX33156U386": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD180T-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33186T406C": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33186V386": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3258DR384": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585S435C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "变速箱": "12JSD180T-铁壳-QH50花键",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585S385C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "变速箱": "12JSD180T-铁壳-QH50花键",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255JU324R": {
+      "电器系统": "165Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255MJ324R": {
+      "电器系统": "165Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425853344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-铁壳-QH50花键",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX12585V464": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50"
+    },
+    "SX5255GJBHR384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "10JSD180",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GYYHN464": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX5255GYYHR464": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180铁壳-QH50"
+    },
+    "SX5315GYYHT456": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50"
+    },
+    "SX5315GYY5R406": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5315GPG4V456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50（换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255DU404": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92",
+      "空调": "电控自动恒温空调"
+    },
+    "SX32556U404": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX13154V326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠",
+      "车桥": "13T HD双级4.266"
+    },
+    "SX1315HV326": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200TA-B-铝壳-无取力器"
+    },
+    "SX5315GJB5W326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220T-B",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315GSS5V456C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255XLC5Y434C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41854Y381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F650花键",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX33155V326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556V404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32555T384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255MT384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX12555T464C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5258GJB6S404CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180TB-铁壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5318GJB6T406CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180TB-铁壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5258GJBDS404CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5318GJBDX406CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5258GJBMT424R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳-无取力器-带气助力",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884X321R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884U361R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GV361R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ220A-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188XU361CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ260A(铝壳)+QHG50C",
+      "车桥": "13T单级3.364"
+    },
+    "SX4188YT361CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ220A-铝壳-无取力器",
+      "车桥": "13T单级3.364"
+    },
+    "SX41884U361CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258XY323CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ260A+QHG50C"
+    },
+    "SX42584X323CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ220A-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258XY324CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C"
+    },
+    "SX4258X4324CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C"
+    },
+    "SX4258Y4324CR": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C"
+    },
+    "SX425843324R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级3.866"
+    },
+    "SX42584X324R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级3.866"
+    },
+    "SX425844324CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258GX324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ220A-铝壳-QHG50C"
+    },
+    "SX3255PR404R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "其他附件": "加强型尾灯",
+      "变速箱": "10JSD180T-铁壳-QH50带助力",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级6.733"
+    },
+    "SX3255PT354": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "其他附件": "加强型尾灯",
+      "变速箱": "10JSD180T-铁壳-QHG50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255PT434R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "其他附件": "加强型尾灯",
+      "变速箱": "10JSD180T-铁壳-QH50带助力",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX32586S464CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180TB-铁壳-QHG50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33186T486CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180TB-铁壳-QHG50取力器变速箱带换挡气助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3258DS464CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3318DX486CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3258MT464R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180TB-铁壳-QH50-挡气助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1318HX546R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH70-换挡气助力"
+    },
+    "SX5255GJBDR404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GYYDR434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555W384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220T-B-铁壳-QH70",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255JV384": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769",
+      "悬架系统": "前后多片簧+四骑马螺栓"
+    },
+    "SX3315MT366": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32545MT384": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33156T366C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50花键",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1185MN461": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1315DT456": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1255DR564": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4259Y4344C": {
+      "转向机": "国产转向机",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650花键取力器（液力缓速器）"
+    },
+    "SX42594X404T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650花键取力器（液力缓速器）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4259Y2424CT": {
+      "转向机": "国产转向机",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650花键取力器（液力缓速器）"
+    },
+    "SX42594Y344C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650花键取力器（液力缓速器）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX1259HR564C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "半高顶",
+      "变速箱": "F9S1517TO-铝壳-EZF100N取力器"
+    },
+    "SX12598M564C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "变速箱": "F9S1517TO-铝壳-EZF100N取力器"
+    },
+    "SX4255JV344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555V344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240K",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42554X344": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240K",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX3255JR404": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32555T404": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315JU386": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33155U386": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5318GJB5X306C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16S2530TO-铝壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4188YY381": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "轮胎品牌": "三角",
+      "油箱": "400L铝合金油箱",
+      "变速箱": "F650花键+克诺尔ELC+前悬架免维护橡胶衬套]（仅第一款）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX33185W306C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5255GJBMR354": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T"
+    },
+    "SX4185HW361C": {
+      "电器系统": "165Ah",
+      "空调": "普通暖风",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铝壳-无取力器（带助力）",
+      "悬架系统": "前后多片簧",
+      "车桥": "16T HD双级4.266"
+    },
+    "SX4255GV324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铝壳-无取力器（换挡气助力）",
+      "悬架系统": "前后少片簧",
+      "油箱": "400L铝合金油箱",
+      "车桥": "13T HD单级3.7"
+    },
+    "SX4255GX324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铝壳-无取力器（带换挡气助力）",
+      "悬架系统": "前后少片簧",
+      "车桥": "13T HD单级3.7",
+      "油箱": "400L铝合金油箱"
+    },
+    "SX42554X324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TB-铝壳-无取力器（带换挡气助力）",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "13T HD单级3.7"
+    },
+    "SX3185MJ421": {
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX32555V434": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240TB+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX1315HT456": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200T-B-铝壳"
+    },
+    "SX4255JV404T": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255JV404TL": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255JV504T": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42554V404TL": {
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B-铁壳"
+    },
+    "SX42554V504T": {
+      "电器系统": "180Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3315DT406": {
+      "电器系统": "165Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "加强型尾灯",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX3255DV504T": {
+      "电器系统": "165Ah",
+      "空调": "普通暖风",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425853404": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ260A-铝壳-QHG50C",
+      "底盘其他": "金属保险杠"
+    },
+    "SX42555Y404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX240TA-铁壳-QH50-FHB400液力缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX425552404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-QHG50C花键-FHB400",
+      "底盘其他": "工程保险杠"
+    },
+    "SX3255MV384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HL324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4255GT324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铝壳-无取力器（带换挡气助力）",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4255HS324CR": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200TA-B-铁壳-无取力器（带换挡气助力）",
+      "悬架系统": "前后少片簧"
+    },
+    "SX3255HT384R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "10JSD180T-铁壳-QH50（换挡气助力）"
+    },
+    "SX3315HT386R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "10JSD180T-铁壳-QH50（换挡气助力）"
+    },
+    "SX11858K501R": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5168GJBMR361C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳"
+    },
+    "SX5258GJB6S384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180T-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5318GJB6T306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5166ZYSMN381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH50取力器"
+    },
+    "SX5258ZYSMR404C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH70取力器"
+    },
+    "SX5258ZYSMR434C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH70取力器"
+    },
+    "SX5258ZYSMR464C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH70取力器"
+    },
+    "SX42584Y344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240A-铝壳-QHG50C取力器+FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX42584V404T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "16JSD200TA-铝壳-QH50取力器+FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "其他附件": "油底壳保护栅"
+    },
+    "SX425844344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "平地",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C取力器+FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258Y4344C": {
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ260A-铝壳-QHG50C取力器+FHB400缓速器"
+    },
+    "SX42594X384TL": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ240A-铝壳-QHG50C取力器+FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32586W354C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32586W384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX325862354C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "中长平顶",
+      "变速箱": "13JSDX240T-铁壳（带助力）-QH50花键取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX331862306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "中长平顶",
+      "变速箱": "13JSDX240T-铁壳（带助力）-QH50花键取力器+FHB400缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1258MR564C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH50取力器"
+    },
+    "SX1258MV564C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器"
+    },
+    "SX5255GJBMT384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX5258GJB5T384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "10JSD180T",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX5185JSQ8K571": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5258JSQMR584C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX5255JSQMT584": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX5255JSQMR584": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769",
+      "变速箱": "10JSD140T+QH50法兰"
+    },
+    "SX5258JSQ6T584": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "变速箱": "10JSD180T+QH50法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5315JSQMT456": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180+QH50法兰",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX5255GYYMT464": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50"
+    },
+    "SX5255GYYMT564": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50"
+    },
+    "SX5258GYYMR464C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50法兰"
+    },
+    "SX5258GYYMR564C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T+QH50法兰"
+    },
+    "SX5255GYYMR564": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD140T+QH50法兰"
+    },
+    "SX5185ZYS8J401": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX5188ZYS8K361": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX4185GT361C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B"
+    },
+    "SX4185GT361": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "车桥": "16T HD双级4.266"
+    },
+    "SX4185HT401": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX41884T361": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884T361C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41854T361": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4255GW324C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSDX220TB",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4258GV324C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "悬架系统": "前后少片簧"
+    },
+    "SX4258GX324C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSDX220TB",
+      "悬架系统": "前后少片簧"
+    },
+    "SX42584V324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级4.769",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "轮胎品牌": "三角"
+    },
+    "SX42584V324C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "12JSD200T-B",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42585X324C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "油箱": "600L铝合金油箱",
+      "变速箱": "F16JZ240A-铝壳-QHG50C取力器",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机"
+    },
+    "SX3185MK401": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.262"
+    },
+    "SX3188MK401": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.262"
+    },
+    "SX3255MK354": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556R354C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180-铁壳-QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX3258MT384C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX3255MT434": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX32554T434": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD180+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.92"
+    },
+    "SX32585T404C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "10JSD180+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.92"
+    },
+    "SX32554T404C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16THD双级5.92"
+    },
+    "SX3318MV406C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX3315MV406": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX3315GV406": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX3318GV406C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX33184V406": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX33184V406C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX33154W406C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TB+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX33154V406": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200T-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX11858K571": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX1255MT584": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX1255MS584C": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX12586T584": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD180T",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "16T HD双级4.769"
+    },
+    "SX1315MT456": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T",
+      "车桥": "16T HD双级4.266"
+    },
+    "SX4188HX381": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-QHG50C",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3378MU366": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50(花键取力器）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HU324": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200T-B-铁壳-无取力器",
+      "底盘其他": "金属保险杠",
+      "车桥": "13T HD单级3.7"
+    },
+    "SX5378GJBHT346C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180T-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5188JSQMR561": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180T-铁壳-QH50法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5378GJBMX346C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5288ZXXMU464": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ220A-铝壳-QHG50C法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5288JSQMU584": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50（法兰）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5288JSQ6U584": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5378JSQMX456": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铁壳-QH50法兰",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5288GYSMU434": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50(法兰)",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5288GSSMU434": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ220A-铝壳-QHG50C（法兰式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41884Y381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "平地",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650取力器（带液力缓速器）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884X381": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GX381": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GX381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884X381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳",
+      "底盘其他": "玻璃钢保险杠",
+      "转向机": "国产转向机"
+    },
+    "SX41885X381": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-QHG50C(花键式)",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188HV381": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铁壳-QH50(花键式）"
+    },
+    "SX4188DV381": {
+      "电器系统": "180Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4258HX344": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70(花键式）"
+    },
+    "SX42585X344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70(花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32986V384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50(花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3378DX326": {
+      "电器系统": "180Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX33786X326": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TB-铁壳-QH50(花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3298MV384": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-QHG50C（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3378MX326": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-QHG50C（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32986X384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-QHG50C（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33786X326C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F13JZ220A-铝壳-QHG50C（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3298DV384": {
+      "电器系统": "180Ah",
+      "空调": "热区空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX1188MR461": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180T"
+    },
+    "SX1288MU434": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11888K461C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX12885U434": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ220A+QHG50C(法兰式）"
+    },
+    "SX5319GJB5U326CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "10JSD180T-铁壳-无取力器",
+      "底盘其他": "工程保险杠"
+    },
+    "SX5259JSQ5U464CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TB-铁壳-QH50法兰",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41895U361CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ220A-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41895U321CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F16JZ220A-铝壳-无取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32595U354CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TB-铁壳-QH50（法兰）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32595U324CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TB-铁壳-QH50（法兰）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX33195U326CR": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TB-铁壳-QH50（法兰）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX3255JV384": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32555V38": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B+QH50（花键）"
+    },
+    "SX1255JV434": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX12555V434": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50法兰"
+    },
+    "SX1255JV464": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F3000",
+      "底盘其他": "钢板保险杠"
+    },
+    "SX11858J451": {
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX3315DV386R": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室": "中长平顶",
+      "变速箱": "F3000",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5258GJBMN324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX5258GJBMR324R": {
+      "电器系统": "165Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室"
+    },
+    "SX4258HU324R": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "F12JZ220A-铝壳-无取力器"
+    },
+    "SX5315GJB5V306": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSD200TA",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33155V306": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "进口转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSD200TA+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5378GJBHX346C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4188GV381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-铁壳-QH50（花键式）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX425852405C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "16JSDX240TA-铁壳-QH50（花键式取力器）",
+      "底盘其他": "工程保险杠"
+    },
+    "SX3378HX306C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1258MV464C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX11885S462C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180T-铁壳-QH50（花键式）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12585Y465C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "16JSDX240TA-铁壳-QH50（花键式取力器）",
+      "底盘其他": "工程保险杠"
+    },
+    "SX5258GJB6T384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4258GN323C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD180T-铁壳-QH50法兰取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX3258MN433C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD180T-铁壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32586T384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX5188JSQ8K571": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅"
+    },
+    "SX41884Y451T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "平地",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ260A+QHG50B+液力缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584Y404T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "平地",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ260A-铝壳-QHG50B+FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX41884V451T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200TA-B-铁壳-QH50花键取力器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5258GJB5T534T": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD180T-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12588K434": {
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX12588L564": {
+      "驾驶室相关部件": "空气主座椅",
+      "变速箱": "S125TB-铁壳-无取力器"
+    },
+    "SX5258GJBHR404": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "10JSD140T",
+      "底盘其他": "工程保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX5258GJBHS404C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "10JSD180T-铁壳-无取力器(体现换挡气助力）"
+    },
+    "SX41884R361": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD140TB-铁壳-无取力器（带气助力）",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠",
+      "车桥": "13T HD单级4.111"
+    },
+    "SX42584V384TL": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铝壳带换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GL361": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "车桥": "13T HD单级4.111"
+    },
+    "SX42584Y384TL": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX240T-铝壳-QH70取力器带换挡气助力",
+      "悬架系统": "前后多片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188GN361": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "10JSD140T-铁壳",
+      "车桥": "13T HD单级4.111"
+    },
+    "SX41884M501TL": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258GU324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铝壳带换挡气助力",
+      "悬架系统": "前后少片簧"
+    },
+    "SX42584U324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铁壳带换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584X324": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220TA-B-铁壳-无取力器/体现换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584U344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铝壳带换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584X344": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH70/体现换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584X344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铝壳-无取力器/体现换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42584W344C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铝壳-无取力器/体现换挡气助力",
+      "悬架系统": "前后少片簧",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4258GX324": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSDX220T-B-铁壳-QH70（带助力）",
+      "悬架系统": "前后多片簧+四骑马螺栓"
+    },
+    "SX42584W324C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH70带气助力",
+      "悬架系统": "前后多片簧+四骑马螺栓",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4258JV385": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "F3000",
+      "悬架系统": "前后多片簧+四骑马螺栓",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32586R354": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "10JSD140T-铝壳-QHG50/带换挡气助力",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX3258MR354": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "10JSD140T-铝壳-QHG50/带换挡气助力",
+      "底盘其他": "金属保险杠",
+      "驾驶室悬置": "四点液压悬浮"
+    },
+    "SX3318MR326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD160T-"
+    },
+    "SX33186U326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "变速箱": "12JSD200T-B-铝壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级4.266"
+    },
+    "SX3318MU326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "12JSD200T-B-",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级4.769"
+    },
+    "SX3255PV404C": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "其他附件": "加强型尾灯",
+      "变速箱": "12JSD200T-B-铁壳-QHG50-换挡气助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3258MU354": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "标准驾驶室",
+      "变速箱": "12JSD200T-B+QHG50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级4.769"
+    },
+    "SX3258MT354C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3318MT326C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铝壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33185V326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B+QHG50(体现换挡气助力）",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T MAN双级5.262"
+    },
+    "SX33186T326C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铝壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3255PT434": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "液压主座椅",
+      "其他附件": "加强型尾灯",
+      "变速箱": "10JSD180T-铁壳-QH50带助力",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33185U326": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QHG50花键（带助力）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX33186U326C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX3318MU326C": {
+      "电器系统": "165Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QHG50（体现换挡气助力）",
+      "底盘其他": "金属保险杠"
+    },
+    "SX41855T381C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200T-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4185HV361": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "12JSD200T-B-铁壳",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4185HT361C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "变速箱": "F16JZ220-铝壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX4255HW384C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "半高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-QHG50C",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32556VT384C": {
+      "电器系统": "180Ah",
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "中长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSD200T-B-铁壳-QH50花键",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1185MN701": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1255MR584": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX1255MR464": {
+      "电器系统": "165Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "液压主座椅",
+      "驾驶室": "标准驾驶室",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "10JSD180B-铁壳-无取力器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX418841381C": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F16JZ26A-铝壳-",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX4188Y4381C": {
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "变速箱": "F650花键取力器/液力缓速器）",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32585W384C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "12JSDX220TA-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX12584W434C": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长高顶",
+      "其他附件": "油底壳保护栅",
+      "变速箱": "F16JZ240A-铝壳-QHG50C+法士特FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5258GJB5R404": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD160TA",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX5318GJB5T326": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32585V385": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+QH50",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX325853385": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50-FHB400液力缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585V425": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX32585V465": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585V485": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-QH70",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX32585V505": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-QH70",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX42585V385": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX42585W385C": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+FHB400",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX425853385": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TA-铁壳-FHB400缓速器",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32585V504T": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33185V486T": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSD200TA-B-铁壳-QH50-FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585V384": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+QH50",
+      "底盘其他": "金属保险杠"
+    },
+    "SX325853384": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TA-铁壳-QH50-FHB400液力缓速器",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585V484": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B铝壳+QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32585V404": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B铝壳+QH50",
+      "底盘其他": "玻璃钢保险杠"
+    },
+    "SX32585V464": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70",
+      "底盘其他": "金属保险杠"
+    },
+    "SX32585V504": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B-铁壳-QH70",
+      "底盘其他": "金属保险杠"
+    },
+    "SX33185V386": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+QH70+FHB400液力缓速器",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX331853386": {
+      "空调": "电控自动恒温空调",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TA+QH70+FHB400",
+      "底盘其他": "金属保险杠",
+      "车桥": "16T HD双级5.262"
+    },
+    "SX33185W386C": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX220TA-B+QH50+FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX331853326": {
+      "空调": "电控自动恒温空调",
+      "驾驶室相关部件": "空气主座椅",
+      "驾驶室": "加长平顶",
+      "变速箱": "12JSDX240TA+QH50+FHB400",
+      "底盘其他": "金属保险杠"
+    },
+    "SX31888K401C": {
+      "电器系统": "180Ah",
+      "驾驶室相关部件": "空气主座椅"
+    },
+    "SX32588L344C": {
+      "电器系统": "180Ah",
+      "转向机": "国产转向机",
+      "驾驶室相关部件": "空气主座椅"
+    }
   }
 }

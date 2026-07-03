@@ -673,23 +673,31 @@ async function renderStep5(app) {
   // ── Accessory Swaps (radio groups by category) ──
   let accHTML = '';
   const swapCats = STATE.accessorySwaps.swap_categories || {};
+  const vs = STATE.accessorySwaps.vehicle_sources || {};
+  const modelSources = vs[v.model] || {};
   const bc = v.base_config || '';
 
   for (const [cat, catInfo] of Object.entries(swapCats)) {
     const sources = Object.keys(catInfo.options);
     if (sources.length === 0) continue;
 
-    // Detect vehicle's current config for this category
+    // Detect vehicle's current config:
+    // 1. Use pre-detected vehicle_sources from data layer (most accurate)
+    // 2. Fall back to substring matching on all vehicle fields
+    // 3. Final fallback: most common source (sources[0])
     let detectedSource = null;
-    // Check base_config for known source strings
-    for (const src of sources) {
-      if (bc.includes(src) || bc.includes(src.replace(/.*?(\w+驾驶室).*/, '$1'))) {
-        detectedSource = src;
-        break;
+    if (modelSources[cat] && catInfo.options[modelSources[cat]]) {
+      detectedSource = modelSources[cat];
+    }
+    if (!detectedSource) {
+      for (const src of sources) {
+        if (bc.includes(src) || bc.includes(src.replace(/.*?(\w+驾驶室).*/, '$1'))) {
+          detectedSource = src;
+          break;
+        }
       }
     }
-
-    // If not detected, use first source as default
+    // If still not detected, use first source as default
     if (!detectedSource) detectedSource = sources[0];
     const targets = catInfo.options[detectedSource] || [];
     if (targets.length === 0) continue;
