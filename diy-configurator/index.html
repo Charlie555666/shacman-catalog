@@ -727,20 +727,29 @@ async function renderStep5(app) {
     accHTML += '</div>';
   }
 
-  // ── Add-on Accessories (checkboxes) ──
-  const byCat = STATE.accessories.by_category || {};
+  // ── Add-on Accessories (checkboxes from accessory_swaps.json addon_items) ──
+  const addons = STATE.accessoryAddons || [];
+  // Group by category
+  const addonByCat = {};
+  for (const item of addons) {
+    const cat = item.category || '其他 / Other';
+    if (!addonByCat[cat]) addonByCat[cat] = [];
+    addonByCat[cat].push(item);
+  }
+
   let addonHTML = '<div class="card"><h2><span class="icon">📦</span> 加装选装 / Optional Add-ons</h2>';
 
-  // Show add-on items by original categories
-  const displayOrder = ['驾驶室相关部件', '米其林', '三角', '双钱', '中策', '金宇', '成山', '玲珑', '轮辋'];
+  const displayOrder = ['驾驶室相关部件', '电器系统', '安全类', '防护类', '寒区推荐配置', '高温地区推荐配置',
+    '底盘其他', '其他附件', '取力器', '悬架系统', '空调', '离合器', '轮辋',
+    '油箱', '鞍座', '变速箱', '车桥', '转向机', '驾驶室', '驾驶室悬置', '超级版自卸', '其他'];
   const seenCats = new Set();
 
   for (const cat of displayOrder) {
-    const items = byCat[cat];
+    const items = addonByCat[cat];
     if (!items || items.length === 0) continue;
     seenCats.add(cat);
-
-    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
+    const catLabel_display = cat === '其他 / Other' ? cat : catLabel(cat);
+    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel_display}</h3>`;
 
     const showItems = items.slice(0, 5);
     const hiddenItems = items.slice(5);
@@ -752,16 +761,18 @@ async function renderStep5(app) {
       const isTireSet = item.is_tire_set && v.drive;
       const tireCt = isTireSet ? getTireCount(v.drive) : 0;
       const totalP = isTireSet ? p * tireCt : p;
+      const descEn = item.description_en || '';
+      const noteText = item.note ? item.note + (item.note_en ? ' / ' + item.note_en : '') : '';
       addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + (item.note_en ? ' / ' + item.note_en : '') + '</div>' : ''}</div>
+        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span>${descEn ? '<span class="opt-en">' + descEn + '</span>' : ''}</div>${noteText ? '<div class="opt-desc">' + noteText + '</div>' : ''}</div>
         <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
         ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
       </div>`;
     }
 
     if (hiddenItems.length > 0) {
-      const catId = 'cat_' + cat.replace(/\s/g, '_');
+      const catId = 'addon_cat_' + cat.replace(/[\s\/]/g, '_');
       addonHTML += `<div id="${catId}_more" style="display:none;">`;
       for (const item of hiddenItems) {
         const id = `addon_${cat}_${item.description}`;
@@ -770,9 +781,11 @@ async function renderStep5(app) {
         const isTireSet = item.is_tire_set && v.drive;
         const tireCt = isTireSet ? getTireCount(v.drive) : 0;
         const totalP = isTireSet ? p * tireCt : p;
+        const descEn = item.description_en || '';
+        const noteText = item.note ? item.note + (item.note_en ? ' / ' + item.note_en : '') : '';
         addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
           <input type="checkbox" ${checked ? 'checked' : ''}>
-          <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + '</div>' : ''}</div>
+          <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span>${descEn ? '<span class="opt-en">' + descEn + '</span>' : ''}</div>${noteText ? '<div class="opt-desc">' + noteText + '</div>' : ''}</div>
           <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
           ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
         </div>`;
@@ -782,11 +795,12 @@ async function renderStep5(app) {
     }
   }
 
-  // Remaining categories
-  for (const [cat, items] of Object.entries(byCat)) {
-    if (seenCats.has(cat)) continue;
+  // Remaining categories (not in displayOrder)
+  for (const [cat, items] of Object.entries(addonByCat)) {
+    if (seenCats.has(cat) || cat === '') continue;
     if (items.length === 0) continue;
-    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel(cat)}</h3>`;
+    const catLabel_display = catLabel(cat);
+    addonHTML += `<h3 style="font-size:16px; color:var(--navy); margin:15px 0 10px; padding-bottom:5px; border-bottom:1px solid #eee;">${catLabel_display}</h3>`;
     for (const item of items.slice(0, 4)) {
       const id = `addon_${cat}_${item.description}`;
       const checked = STATE.selectedAccessories[id] || false;
@@ -794,9 +808,11 @@ async function renderStep5(app) {
       const isTireSet = item.is_tire_set && v.drive;
       const tireCt = isTireSet ? getTireCount(v.drive) : 0;
       const totalP = isTireSet ? p * tireCt : p;
+      const descEn = item.description_en || '';
+      const noteText = item.note ? item.note + (item.note_en ? ' / ' + item.note_en : '') : '';
       addonHTML += `<div class="option-row ${checked ? 'selected' : ''}" onclick="toggleAddon('${id.replace(/'/g,"\\'")}', ${totalP})">
         <input type="checkbox" ${checked ? 'checked' : ''}>
-        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span><span class="opt-en">${item.description_en || ''}</span></div>${item.note ? '<div class="opt-desc">' + item.note + '</div>' : ''}</div>
+        <div class="opt-info"><div class="opt-name"><span class="opt-cn">${item.description}</span>${descEn ? '<span class="opt-en">' + descEn + '</span>' : ''}</div>${noteText ? '<div class="opt-desc">' + noteText + '</div>' : ''}</div>
         <div class="opt-price ${totalP > 0 ? 'positive' : totalP < 0 ? 'negative' : 'zero'}">${totalP >= 0 ? '+' : ''}¥${Math.abs(totalP).toLocaleString()}元${isTireSet ? '' : '/' + item.unit}</div>
         ${isTireSet ? '<div class="opt-price-sub">¥' + Math.abs(p).toLocaleString() + '元/条 ×' + tireCt + '</div>' : ''}
       </div>`;
@@ -880,7 +896,7 @@ function renderStep6(app) {
   const fobExtraWan = 0.3;
   const fobChassisPrice = (basePrice + optionTotalWan) * 0.95 / 1.13 + fobExtraWan;
 
-  // Build accessory lookup for English descriptions & tire info
+  // Build accessory lookup for English descriptions & tire info (from both sources)
   const accLookup = {};
   const tireLookup = {};  // track tire items for set pricing display
   if (STATE.accessories && STATE.accessories.by_category) {
@@ -890,6 +906,17 @@ function renderStep6(app) {
         if (item.is_tire_set && item.tire_count) {
           tireLookup[item.description] = item.tire_count;
         }
+      }
+    }
+  }
+  // Also add from accessory_swaps addon_items (which have their own description_en)
+  if (STATE.accessoryAddons) {
+    for (const item of STATE.accessoryAddons) {
+      if (item.description_en && !accLookup[item.description]) {
+        accLookup[item.description] = item.description_en;
+      }
+      if (item.is_tire_set && item.tire_count && !tireLookup[item.description]) {
+        tireLookup[item.description] = item.tire_count;
       }
     }
   }
