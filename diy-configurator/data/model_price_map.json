@@ -2454,5 +2454,37 @@
   "SX12555T464": {
     "price": 31.017,
     "source": "2026年非洲二区价格册-120款"
+  },
+  "SX3315DT386": {
+    "price": 29.8,
+    "source": "unknown"
+  },
+  "SX4255NV324": {
+    "price": 29.5,
+    "source": "unknown"
+  },
+  "SX12588K434": {
+    "price": 23.385,
+    "source": "unknown"
+  },
+  "SX12588L564": {
+    "price": 24.215,
+    "source": "unknown"
+  },
+  "SX41884M501TL": {
+    "price": 30.5,
+    "source": "unknown"
+  },
+  "SX3258MR354": {
+    "price": 30.5,
+    "source": "unknown"
+  },
+  "SX32585V384": {
+    "price": 36.059,
+    "source": "unknown"
+  },
+  "SX325853384": {
+    "price": 40.459,
+    "source": "unknown"
   }
 }

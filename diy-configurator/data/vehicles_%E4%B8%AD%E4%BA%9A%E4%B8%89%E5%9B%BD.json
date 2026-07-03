@@ -619,9 +619,9 @@
     "fifth_wheel": "中长平顶",
     "base_config": "液压主座椅、四点液压悬浮驾驶室、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、沙漠空滤器、金属保险杠、三级上车踏板、前后大灯保护栅、水箱保护栅、轮辋装饰罩、165Ah免维护蓄电池、后桥稳定杆，体现管线整改、SHACMAN标识、全英文标识",
     "options": "",
-    "price": null,
+    "price": 29.8,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "estimated_from_similar"
   },
   {
     "region": "亚俄区/CIS",
@@ -667,9 +667,9 @@
     "fifth_wheel": "加长高顶",
     "base_config": "液压主座椅、四点液压悬浮驾驶室、普通后视镜、电控自动恒温空调、电动摇窗机、手动翻转、油浴空滤器、金属保险杠、两级踏板、日间行车灯、前后大灯保护栅、水箱保护栅、轮辋装饰罩、165Ah免维护蓄电池、大箱底板加热排气管、2公斤灭火器、驻车楔块、SHACMAN标识、海关联盟俄文铭牌",
     "options": "",
-    "price": null,
+    "price": 29.5,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "estimated_from_similar"
   },
   {
     "region": "亚俄区/CIS",

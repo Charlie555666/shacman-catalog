@@ -211,9 +211,9 @@
     "fifth_wheel": "MAN 7.5T",
     "base_config": "X5000加长高顶驾驶室带顶侧导流罩、空气主座椅（带通风）、空气副座椅、四点空气悬置、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、玻璃钢保险杠、三级上车踏板、中控锁(带遥控器)、多功能方向盘（带定速巡航）、直流空滤器、水箱保护栅、约斯特50鞍座、轻量化三段整体式挡泥板、180Ah免维护蓄电池、10寸多媒体屏幕",
     "options": "360环视、驻车空调、车载冰箱、WABCO四通道ABS",
-    "price": null,
+    "price": 30.5,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "estimated_from_similar"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",
@@ -571,9 +571,9 @@
     "fifth_wheel": "标准",
     "base_config": "H3000S标准驾驶室不带导流罩、空气主座椅、四点液压悬浮、电动电加热后视镜、电控自动恒温空调、电动摇窗机、电动翻转、黑色面漆金属保险杠、黑色免漆两级上车踏板、中控锁（1把遥控钥匙+2把机械钥匙）、国产离合器、中置空滤器+单体油浴、国产转向机、165Ah免维护蓄电池、水箱保护栅、前后稳定杆",
     "options": "",
-    "price": null,
+    "price": 30.5,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "estimated_from_similar"
   },
   {
     "region": "亚太区-东南亚/Asia Pacific-SEA",

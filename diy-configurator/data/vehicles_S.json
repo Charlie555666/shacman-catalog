@@ -715,9 +715,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带双遥控）、油浴式空滤器、箱式后处理（大厢底板加热）、多功能方向盘（带定速巡航）、水箱保护栅、前后稳定杆、220Ah低温免维护蓄电池",
     "options": "DH9A2542H58H0",
-    "price": null,
+    "price": 36.059,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "quotation_file_direct"
   },
   {
     "region": "亚俄区/CIS",
@@ -763,9 +763,9 @@
     "fifth_wheel": "加长平顶驾驶室",
     "base_config": "X5000加长平顶驾驶室不带顶导流罩、空气主座椅、电动电加热后视镜、电控自动恒温空调、电动摇窗机、手动翻转、金属保险杠-带灯护网、三级上车踏板、中控锁（带双遥控）、油浴式空滤器、箱式后处理（大厢底板加热）、多功能方向盘（带定速巡航）、水箱保护栅、前后稳定杆、220Ah低温免维护蓄电池",
     "options": "DH9A2554H59H2",
-    "price": null,
+    "price": 40.459,
     "has_price": false,
-    "price_source": "none"
+    "price_source": "quotation_file_direct"
   },
   {
     "region": "亚俄区/CIS",

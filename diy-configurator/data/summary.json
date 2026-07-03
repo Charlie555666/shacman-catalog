@@ -89,5 +89,11 @@
     "特种车",
     "自卸车",
     "载货车"
-  ]
+  ],
+  "price_coverage": {
+    "with_price": 850,
+    "estimated": 4,
+    "missing": 0,
+    "coverage_pct": 100.0
+  }
 }
