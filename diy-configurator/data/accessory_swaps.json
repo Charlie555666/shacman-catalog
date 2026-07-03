@@ -80,6 +80,91 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "中置空滤器": [
+          {
+            "source": "中置空滤器",
+            "target": "普通空滤",
+            "price": 640,
+            "is_deduction": true,
+            "note": "高配换低配不减钱",
+            "source_en": "Center-mounted Air Filter",
+            "target_en": "普通空滤",
+            "description_cn": "中置空滤器换装普通空滤",
+            "description_en": "Swap Center-mounted Air Filter to 普通空滤",
+            "note_en": "No price reduction for downgrade",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "油浴式空滤器": [
+          {
+            "source": "油浴式空滤器",
+            "target": "普通空滤",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Oil-bath Air Filter",
+            "target_en": "普通空滤",
+            "description_cn": "油浴式空滤器换装普通空滤",
+            "description_en": "Swap Oil-bath Air Filter to 普通空滤",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "分体式油浴": [
+          {
+            "source": "分体式油浴",
+            "target": "普通空滤",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Split-type Oil-bath Filter",
+            "target_en": "普通空滤",
+            "description_cn": "分体式油浴换装普通空滤",
+            "description_en": "Swap Split-type Oil-bath Filter to 普通空滤",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "双级空滤器": [
+          {
+            "source": "双级空滤器",
+            "target": "普通空滤",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Dual-stage Air Filter",
+            "target_en": "普通空滤",
+            "description_cn": "双级空滤器换装普通空滤",
+            "description_en": "Swap Dual-stage Air Filter to 普通空滤",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "沙漠式空滤器": [
+          {
+            "source": "沙漠式空滤器",
+            "target": "普通空滤",
+            "price": 640,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Desert-type Air Filter",
+            "target_en": "普通空滤",
+            "description_cn": "沙漠式空滤器换装普通空滤",
+            "description_en": "Swap Desert-type Air Filter to 普通空滤",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -302,6 +387,143 @@
               "8x4": 13
             }
           }
+        ],
+        "三角品牌": [
+          {
+            "source": "三角品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "三角品牌换装315/80R22.5",
+            "description_en": "Swap Triangle品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "13R22.5",
+            "price": 120,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "13R22.5",
+            "description_cn": "三角品牌换装13R22.5",
+            "description_en": "Swap Triangle品牌 to 13R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "14.00R20",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "14.00R20",
+            "description_cn": "三角品牌换装14.00R20",
+            "description_en": "Swap Triangle品牌 to 14.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "295/80R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "三角品牌换装295/80R22.5",
+            "description_en": "Swap Triangle品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12R22.5",
+            "description_cn": "三角品牌换装12R22.5",
+            "description_en": "Swap Triangle品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "315/70R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "三角品牌换装315/70R22.5",
+            "description_en": "Swap Triangle品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12.00R20",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12.00R20",
+            "description_cn": "三角品牌换装12.00R20",
+            "description_en": "Swap Triangle品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "12.00R24",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "12.00R24",
+            "description_cn": "三角品牌换装12.00R24",
+            "description_en": "Swap Triangle品牌 to 12.00R24",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三角品牌",
+            "target": "385/65R22.5",
+            "price": 360,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Triangle品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "三角品牌换装385/65R22.5",
+            "description_en": "Swap Triangle品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -452,6 +674,98 @@
               "8x4": 13
             }
           }
+        ],
+        "中策品牌": [
+          {
+            "source": "中策品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "中策品牌换装315/80R22.5",
+            "description_en": "Swap Zhongce品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "295/80R22.5",
+            "price": 120,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "中策品牌换装295/80R22.5",
+            "description_en": "Swap Zhongce品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "315/70R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "中策品牌换装315/70R22.5",
+            "description_en": "Swap Zhongce品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "12R22.5",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "12R22.5",
+            "description_cn": "中策品牌换装12R22.5",
+            "description_en": "Swap Zhongce品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "12.00R20",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "12.00R20",
+            "description_cn": "中策品牌换装12.00R20",
+            "description_en": "Swap Zhongce品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "中策品牌",
+            "target": "385/65R22.5",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Zhongce品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "中策品牌换装385/65R22.5",
+            "description_en": "Swap Zhongce品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -519,6 +833,72 @@
             "description_en": "Metal Mudguards → 3-piece Integrated Mudguards",
             "note_en": "",
             "unit": "桥",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "三段整体式挡泥板": [
+          {
+            "source": "三段整体式挡泥板",
+            "target": "分体式挡泥板",
+            "price": 640,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "三段整体式挡泥板",
+            "target_en": "分体式挡泥板",
+            "description_cn": "三段整体式挡泥板换装分体式挡泥板",
+            "description_en": "Swap 三段整体式挡泥板 to 分体式挡泥板",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "三段整体式挡泥板",
+            "target": "金属挡泥板",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "三段整体式挡泥板",
+            "target_en": "金属挡泥板",
+            "description_cn": "三段整体式挡泥板换装金属挡泥板",
+            "description_en": "Swap 三段整体式挡泥板 to 金属挡泥板",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "轻量化三段式整体式挡泥板": [
+          {
+            "source": "轻量化三段式整体式挡泥板",
+            "target": "分体式挡泥板",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "轻量化三段式整体式挡泥板",
+            "target_en": "分体式挡泥板",
+            "description_cn": "轻量化三段式整体式挡泥板换装分体式挡泥板",
+            "description_en": "Swap 轻量化三段式整体式挡泥板 to 分体式挡泥板",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "轻量化整体式挡泥板": [
+          {
+            "source": "轻量化整体式挡泥板",
+            "target": "分体式挡泥板",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "轻量化整体式挡泥板",
+            "target_en": "分体式挡泥板",
+            "description_cn": "轻量化整体式挡泥板换装分体式挡泥板",
+            "description_en": "Swap 轻量化整体式挡泥板 to 分体式挡泥板",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -672,6 +1052,98 @@
               "8x4": 13
             }
           }
+        ],
+        "双钱品牌": [
+          {
+            "source": "双钱品牌",
+            "target": "315/80R22.5",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "双钱品牌换装315/80R22.5",
+            "description_en": "Swap Double Coin品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "315/70R22.5",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "双钱品牌换装315/70R22.5",
+            "description_en": "Swap Double Coin品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "12R22.5",
+            "price": 560,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "12R22.5",
+            "description_cn": "双钱品牌换装12R22.5",
+            "description_en": "Swap Double Coin品牌 to 12R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "385/65R22.5、295/80R22.5",
+            "price": 560,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "385/65R22.5、295/80R22.5",
+            "description_cn": "双钱品牌换装385/65R22.5、295/80R22.5",
+            "description_en": "Swap Double Coin品牌 to 385/65R22.5、295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "12.00R20",
+            "price": 640,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "12.00R20",
+            "description_cn": "双钱品牌换装12.00R20",
+            "description_en": "Swap Double Coin品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "双钱品牌",
+            "target": "425/65R22.5",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Double Coin品牌",
+            "target_en": "425/65R22.5",
+            "description_cn": "双钱品牌换装425/65R22.5",
+            "description_en": "Swap Double Coin品牌 to 425/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -731,6 +1203,21 @@
         "12JSD180T": [
           {
             "source": "12JSD180T",
+            "target": "12JSD160T",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSD180T",
+            "target_en": "12JSD160T",
+            "description_cn": "12JSD180T换装12JSD160T",
+            "description_en": "Swap 12JSD180T to 12JSD160T",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "12JSD180T",
             "target": "12JSD200T-B",
             "price": 1000,
             "is_deduction": false,
@@ -743,9 +1230,39 @@
             "unit": "台",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "12JSD180T",
+            "target": "10JSD180",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSD180T",
+            "target_en": "10JSD180",
+            "description_cn": "12JSD180T换装10JSD180",
+            "description_en": "Swap 12JSD180T to 10JSD180",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "12JSD200T-B": [
+          {
+            "source": "12JSD200T-B",
+            "target": "12JSD180T",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSD200T-B",
+            "target_en": "12JSD180T",
+            "description_cn": "12JSD200T-B换装12JSD180T",
+            "description_en": "Swap 12JSD200T-B to 12JSD180T",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "12JSD200T-B",
             "target": "12JSDX220T-B",
@@ -773,6 +1290,21 @@
             "description_en": "12JSD200T-B → 16JSD200T Transmission",
             "note_en": "",
             "unit": "台",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "12JSD200T-B",
+            "target": "10JSD180",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSD200T-B",
+            "target_en": "10JSD180",
+            "description_cn": "12JSD200T-B换装10JSD180",
+            "description_en": "Swap 12JSD200T-B to 10JSD180",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           },
@@ -837,9 +1369,39 @@
             "unit": "台",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "12JSDX240T",
+            "target": "12JSD200T-B",
+            "price": 2400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSDX240T",
+            "target_en": "12JSD200T-B",
+            "description_cn": "12JSDX240T换装12JSD200T-B",
+            "description_en": "Swap 12JSDX240T to 12JSD200T-B",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "8JS118": [
+          {
+            "source": "8JS118",
+            "target": "8JS85TM",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "8JS118",
+            "target_en": "8JS85TM",
+            "description_cn": "8JS118换装8JS85TM",
+            "description_en": "Swap 8JS118 to 8JS85TM",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "8JS118",
             "target": "9JS119",
@@ -933,6 +1495,21 @@
             "unit": "台",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "9JS119",
+            "target": "8JS118",
+            "price": 2240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "9JS119",
+            "target_en": "8JS118",
+            "description_cn": "9JS119换装8JS118",
+            "description_en": "Swap 9JS119 to 8JS118",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "9JS135": [
@@ -950,9 +1527,39 @@
             "unit": "台",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "9JS135",
+            "target": "9JS119",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "9JS135",
+            "target_en": "9JS119",
+            "description_cn": "9JS135换装9JS119",
+            "description_en": "Swap 9JS135 to 9JS119",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "RTD11509C": [
+          {
+            "source": "RTD11509C",
+            "target": "9JS135",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "RTD11509C",
+            "target_en": "9JS135",
+            "description_cn": "RTD11509C换装9JS135",
+            "description_en": "Swap RTD11509C to 9JS135",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "RTD11509C",
             "target": "9JS150A",
@@ -997,6 +1604,21 @@
             "description_en": "SF16JZ240 → F16JZ260 AMT Transmission",
             "note_en": "",
             "unit": "台",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "SF16JZ240",
+            "target": "12JSD200T-B",
+            "price": 10400,
+            "is_deduction": true,
+            "note": "AMT变速箱仅潍柴共轨和康明斯发动机可选，必须带ABS",
+            "source_en": "SF16JZ240",
+            "target_en": "12JSD200T-B",
+            "description_cn": "SF16JZ240换装12JSD200T-B",
+            "description_en": "Swap SF16JZ240 to 12JSD200T-B",
+            "note_en": "AMT only available with Weichai Common Rail or Cummins engine, ABS required",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1051,6 +1673,227 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "12JSDX220T-B": [
+          {
+            "source": "12JSDX220T-B",
+            "target": "12JSD200T-B",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSDX220T-B",
+            "target_en": "12JSD200T-B",
+            "description_cn": "12JSDX220T-B换装12JSD200T-B",
+            "description_en": "Swap 12JSDX220T-B to 12JSD200T-B",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "16JSD200T": [
+          {
+            "source": "16JSD200T",
+            "target": "12JSD200T-B",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "16JSD200T",
+            "target_en": "12JSD200T-B",
+            "description_cn": "16JSD200T换装12JSD200T-B",
+            "description_en": "Swap 16JSD200T to 12JSD200T-B",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "12JSDX240K": [
+          {
+            "source": "12JSDX240K",
+            "target": "12JSDX240T",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12JSDX240K",
+            "target_en": "12JSDX240T",
+            "description_cn": "12JSDX240K换装12JSDX240T",
+            "description_en": "Swap 12JSDX240K to 12JSDX240T",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "16JSDX240T": [
+          {
+            "source": "16JSDX240T",
+            "target": "12JSDX240T",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "16JSDX240T",
+            "target_en": "12JSDX240T",
+            "description_cn": "16JSDX240T换装12JSDX240T",
+            "description_en": "Swap 16JSDX240T to 12JSDX240T",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "8JS105": [
+          {
+            "source": "8JS105",
+            "target": "8JS85TM",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "8JS105",
+            "target_en": "8JS85TM",
+            "description_cn": "8JS105换装8JS85TM",
+            "description_en": "Swap 8JS105 to 8JS85TM",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "8JS95TM": [
+          {
+            "source": "8JS95TM",
+            "target": "8JS85TM",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "8JS95TM",
+            "target_en": "8JS85TM",
+            "description_cn": "8JS95TM换装8JS85TM",
+            "description_en": "Swap 8JS95TM to 8JS85TM",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "8JS125TB": [
+          {
+            "source": "8JS125TB",
+            "target": "8JS85TM",
+            "price": 2240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "8JS125TB",
+            "target_en": "8JS85TM",
+            "description_cn": "8JS125TB换装8JS85TM",
+            "description_en": "Swap 8JS125TB to 8JS85TM",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "9JS150A": [
+          {
+            "source": "9JS150A",
+            "target": "RTD11509C",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "9JS150A",
+            "target_en": "RTD11509C",
+            "description_cn": "9JS150A换装RTD11509C",
+            "description_en": "Swap 9JS150A to RTD11509C",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "9JS180/10JSD180": [
+          {
+            "source": "9JS180/10JSD180",
+            "target": "RTD11509C",
+            "price": 3600,
+            "is_deduction": true,
+            "note": "9JS180与10JSD180同价",
+            "source_en": "9JS180/10JSD180",
+            "target_en": "RTD11509C",
+            "description_cn": "9JS180/10JSD180换装RTD11509C",
+            "description_en": "Swap 9JS180/10JSD180 to RTD11509C",
+            "note_en": "9JS180 & 10JSD180: same price",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "F16JZ260": [
+          {
+            "source": "F16JZ260",
+            "target": "SF16JZ240",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "F16JZ260",
+            "target_en": "SF16JZ240",
+            "description_cn": "F16JZ260换装SF16JZ240",
+            "description_en": "Swap F16JZ260 to SF16JZ240",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "ZF12TX2620(不带缓速器）": [
+          {
+            "source": "ZF12TX2620(不带缓速器）",
+            "target": "SF16JZ260",
+            "price": 20000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "ZF12TX2620(不带缓速器）",
+            "target_en": "SF16JZ260",
+            "description_cn": "ZF12TX2620(不带缓速器）换装SF16JZ260",
+            "description_en": "Swap ZF12TX2620(不带缓速器） to SF16JZ260",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "×80%": [
+          {
+            "source": "×80%",
+            "target": "变速箱高换低减价为选",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "×80%",
+            "target_en": "变速箱高换低减价为选",
+            "description_cn": "×80%换装变速箱高换低减价为选",
+            "description_en": "Swap ×80% to 变速箱高换低减价为选",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "铝壳变速箱": [
+          {
+            "source": "铝壳变速箱",
+            "target": "铁壳变速箱",
+            "price": 800,
+            "is_deduction": true,
+            "note": "12档变速箱加价500，仅适用于法士特变速箱",
+            "source_en": "铝壳变速箱",
+            "target_en": "铁壳变速箱",
+            "description_cn": "铝壳变速箱换装铁壳变速箱",
+            "description_en": "Swap 铝壳变速箱 to 铁壳变速箱",
+            "note_en": "12-speed transmission +¥500, Fast Gear only",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1091,6 +1934,40 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "克诺尔品牌": [
+          {
+            "source": "克诺尔品牌",
+            "target": "盘式制动器",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "克诺尔品牌",
+            "target_en": "盘式制动器",
+            "description_cn": "克诺尔品牌换装盘式制动器",
+            "description_en": "Swap 克诺尔品牌 to 盘式制动器",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "盘式制动": [
+          {
+            "source": "盘式制动",
+            "target": "鼓式制动",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "每根轴或桥加价2000，仅适合标载工况",
+            "source_en": "盘式制动",
+            "target_en": "鼓式制动",
+            "description_cn": "盘式制动换装鼓式制动",
+            "description_en": "Swap 盘式制动 to 鼓式制动",
+            "note_en": "+¥2,000 per axle/shaft, standard load only",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1126,6 +2003,40 @@
             "target_en": "Multi-leaf Springs (F&R)2 U-bolts",
             "description_cn": "前后少片簧换前后多片簧两骑马螺栓",
             "description_en": "Replace Parabolic Leaf Springs with Multi-leaf Springs + 2 U-bolts (Front & Rear)",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "四主片四骑马螺栓": [
+          {
+            "source": "四主片四骑马螺栓",
+            "target": "两主片两骑马螺栓",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "加强版牵引，载货，专用可选",
+            "source_en": "4 Main Leaves4 U-bolts",
+            "target_en": "2 Main Leaves2 U-bolts",
+            "description_cn": "四主片四骑马螺栓换装两主片两骑马螺栓",
+            "description_en": "Swap 4 Main Leaves4 U-bolts to 2 Main Leaves2 U-bolts",
+            "note_en": "Enhanced version for tractor, cargo, special vehicles",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "前后多片簧两骑马螺栓": [
+          {
+            "source": "前后多片簧两骑马螺栓",
+            "target": "前后少片簧",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Multi-leaf Springs (F&R)2 U-bolts",
+            "target_en": "Parabolic Leaf Springs (F&R)",
+            "description_cn": "前后多片簧两骑马螺栓换装前后少片簧",
+            "description_en": "Swap Multi-leaf Springs (F&R)2 U-bolts to Parabolic Leaf Springs (F&R)",
             "note_en": "",
             "unit": "辆",
             "is_tire_set": false,
@@ -1257,6 +2168,83 @@
               "8x4": 13
             }
           }
+        ],
+        "成山品牌": [
+          {
+            "source": "成山品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "成山品牌换装315/80R22.5",
+            "description_en": "Swap Chengshan品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "315/70R22.5",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "成山品牌换装315/70R22.5",
+            "description_en": "Swap Chengshan品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "385/65R22.5、12.00R24",
+            "price": 200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "385/65R22.5、12.00R24",
+            "description_cn": "成山品牌换装385/65R22.5、12.00R24",
+            "description_en": "Swap Chengshan品牌 to 385/65R22.5、12.00R24",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "12.00R20",
+            "price": 280,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "12.00R20",
+            "description_cn": "成山品牌换装12.00R20",
+            "description_en": "Swap Chengshan品牌 to 12.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "成山品牌",
+            "target": "14.00R20",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Chengshan品牌",
+            "target_en": "14.00R20",
+            "description_cn": "成山品牌换装14.00R20",
+            "description_en": "Swap Chengshan品牌 to 14.00R20",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1301,6 +2289,21 @@
         "260L铝合金油箱": [
           {
             "source": "260L铝合金油箱",
+            "target": "230L铝合金油箱",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "260L Aluminum Fuel Tank",
+            "target_en": "230L Aluminum Fuel Tank",
+            "description_cn": "260L铝合金油箱换装230L铝合金油箱",
+            "description_en": "Swap 260L Aluminum Fuel Tank to 230L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "260L铝合金油箱",
             "target": "300铝合金油箱",
             "price": 500,
             "is_deduction": false,
@@ -1328,6 +2331,21 @@
             "description_en": "300L Aluminum Fuel Tank → 400L Aluminum Fuel Tank",
             "note_en": "",
             "unit": "个",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "300L铝合金油箱",
+            "target": "200L铁",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "300L Aluminum Fuel Tank",
+            "target_en": "200L Steel",
+            "description_cn": "300L铝合金油箱换装200L铁",
+            "description_en": "Swap 300L Aluminum Fuel Tank to 200L Steel",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1365,6 +2383,36 @@
           }
         ],
         "400L铝合金油箱": [
+          {
+            "source": "400L铝合金油箱",
+            "target": "300L铝合金油箱",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "400L Aluminum Fuel Tank",
+            "target_en": "300L Aluminum Fuel Tank",
+            "description_cn": "400L铝合金油箱换装300L铝合金油箱",
+            "description_en": "Swap 400L Aluminum Fuel Tank to 300L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "400L铝合金油箱",
+            "target": "380L铁油箱",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "400L Aluminum Fuel Tank",
+            "target_en": "380L Steel Fuel Tank",
+            "description_cn": "400L铝合金油箱换装380L铁油箱",
+            "description_en": "Swap 400L Aluminum Fuel Tank to 380L Steel Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "400L铝合金油箱",
             "target": "600L铝合金油箱",
@@ -1416,6 +2464,21 @@
         "600L铝合金油箱": [
           {
             "source": "600L铝合金油箱",
+            "target": "500L铝合金油箱",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "600L Aluminum Fuel Tank",
+            "target_en": "500L Aluminum Fuel Tank",
+            "description_cn": "600L铝合金油箱换装500L铝合金油箱",
+            "description_en": "Swap 600L Aluminum Fuel Tank to 500L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "600L铝合金油箱",
             "target": "700L铝合金油箱",
             "price": 500,
             "is_deduction": false,
@@ -1428,9 +2491,39 @@
             "unit": "个",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "600L铝合金油箱",
+            "target": "400L铝合金油箱",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "600L Aluminum Fuel Tank",
+            "target_en": "400L Aluminum Fuel Tank",
+            "description_cn": "600L铝合金油箱换装400L铝合金油箱",
+            "description_en": "Swap 600L Aluminum Fuel Tank to 400L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "700L铝合金油箱": [
+          {
+            "source": "700L铝合金油箱",
+            "target": "600L铝合金油箱",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "700L Aluminum Fuel Tank",
+            "target_en": "600L Aluminum Fuel Tank",
+            "description_cn": "700L铝合金油箱换装600L铝合金油箱",
+            "description_en": "Swap 700L Aluminum Fuel Tank to 600L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "700L铝合金油箱",
             "target": "双腔油箱",
@@ -1458,6 +2551,91 @@
             "description_en": "700L Aluminum Fuel Tank → (400L+300L) Dual Aluminum Fuel Tanks",
             "note_en": "",
             "unit": "个",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "300铝合金油箱": [
+          {
+            "source": "300铝合金油箱",
+            "target": "260L铝合金油箱",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "300L Aluminum Fuel Tank",
+            "target_en": "260L Aluminum Fuel Tank",
+            "description_cn": "300铝合金油箱换装260L铝合金油箱",
+            "description_en": "Swap 300L Aluminum Fuel Tank to 260L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "400L不锈钢油箱": [
+          {
+            "source": "400L不锈钢油箱",
+            "target": "380L铁油箱",
+            "price": 2880,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "400L Stainless Steel Fuel Tank",
+            "target_en": "380L Steel Fuel Tank",
+            "description_cn": "400L不锈钢油箱换装380L铁油箱",
+            "description_en": "Swap 400L Stainless Steel Fuel Tank to 380L Steel Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "800L铝合金油箱": [
+          {
+            "source": "800L铝合金油箱",
+            "target": "400L铝合金油箱",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "800L Aluminum Fuel Tank",
+            "target_en": "400L Aluminum Fuel Tank",
+            "description_cn": "800L铝合金油箱换装400L铝合金油箱",
+            "description_en": "Swap 800L Aluminum Fuel Tank to 400L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "双腔油箱": [
+          {
+            "source": "双腔油箱",
+            "target": "700L铝合金油箱",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "双腔油箱",
+            "target_en": "700L Aluminum Fuel Tank",
+            "description_cn": "双腔油箱换装700L铝合金油箱",
+            "description_en": "Swap 双腔油箱 to 700L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "（400L+300L）铝合金油箱": [
+          {
+            "source": "（400L+300L）铝合金油箱",
+            "target": "700L铝合金油箱",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "（400L+300L）铝合金油箱",
+            "target_en": "700L Aluminum Fuel Tank",
+            "description_cn": "（400L+300L）铝合金油箱换装700L铝合金油箱",
+            "description_en": "Swap （400L+300L）铝合金油箱 to 700L Aluminum Fuel Tank",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1491,6 +2669,23 @@
               "8x4": 13
             }
           }
+        ],
+        "玲珑品牌": [
+          {
+            "source": "玲珑品牌",
+            "target": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Linglong品牌",
+            "target_en": "295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "description_cn": "玲珑品牌换装295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "description_en": "Swap Linglong品牌 to 295/80R22.5、315/70R22.5、12R22.5、12.00R20、315/80R22.5、13R22.5、12.00R24",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1518,6 +2713,21 @@
         "165Ah免维护蓄电池": [
           {
             "source": "165Ah免维护蓄电池",
+            "target": "135Ah免维护蓄电池",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "165Ah免维护蓄电池",
+            "target_en": "135Ah免维护蓄电池",
+            "description_cn": "165Ah免维护蓄电池换装135Ah免维护蓄电池",
+            "description_en": "Swap 165Ah免维护蓄电池 to 135Ah免维护蓄电池",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "165Ah免维护蓄电池",
             "target": "180Ah免维护蓄电池",
             "price": 400,
             "is_deduction": false,
@@ -1535,6 +2745,21 @@
         "180Ah低温蓄电池": [
           {
             "source": "180Ah低温蓄电池",
+            "target": "180Ah免维护蓄电池",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "180Ah低温蓄电池",
+            "target_en": "180Ah免维护蓄电池",
+            "description_cn": "180Ah低温蓄电池换装180Ah免维护蓄电池",
+            "description_en": "Swap 180Ah低温蓄电池 to 180Ah免维护蓄电池",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "180Ah低温蓄电池",
             "target": "220Ah低温蓄电池",
             "price": 400,
             "is_deduction": false,
@@ -1550,6 +2775,21 @@
           }
         ],
         "180Ah免维护蓄电池": [
+          {
+            "source": "180Ah免维护蓄电池",
+            "target": "165Ah免维护蓄电池",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "180Ah免维护蓄电池",
+            "target_en": "165Ah免维护蓄电池",
+            "description_cn": "180Ah免维护蓄电池换装165Ah免维护蓄电池",
+            "description_en": "Swap 180Ah免维护蓄电池 to 165Ah免维护蓄电池",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "180Ah免维护蓄电池",
             "target": "220Ah免维护蓄电池",
@@ -1580,6 +2820,40 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "220Ah低温蓄电池": [
+          {
+            "source": "220Ah低温蓄电池",
+            "target": "180Ah低温蓄电池",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "220Ah低温蓄电池",
+            "target_en": "180Ah低温蓄电池",
+            "description_cn": "220Ah低温蓄电池换装180Ah低温蓄电池",
+            "description_en": "Swap 220Ah低温蓄电池 to 180Ah低温蓄电池",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "220Ah免维护蓄电池": [
+          {
+            "source": "220Ah免维护蓄电池",
+            "target": "180Ah免维护蓄电池",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "220Ah免维护蓄电池",
+            "target_en": "180Ah免维护蓄电池",
+            "description_cn": "220Ah免维护蓄电池换装180Ah免维护蓄电池",
+            "description_en": "Swap 220Ah免维护蓄电池 to 180Ah免维护蓄电池",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1600,6 +2874,23 @@
             "description_en": "Domestic Clutch → Eaton Clutch",
             "note_en": "Deduct ¥700 if removed",
             "unit": "台",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "伊顿离合器": [
+          {
+            "source": "伊顿离合器",
+            "target": "国产离合器",
+            "price": 800,
+            "is_deduction": true,
+            "note": "取消减700",
+            "source_en": "伊顿离合器",
+            "target_en": "国产离合器",
+            "description_cn": "伊顿离合器换装国产离合器",
+            "description_en": "Swap 伊顿离合器 to 国产离合器",
+            "note_en": "Deduct ¥700 if removed",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1655,6 +2946,53 @@
             "description_en": "Electronic Climate Control → Hot-region A/C",
             "note_en": "单制冷热区空调与热区空调同价",
             "unit": "台",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "电控自动恒温空调",
+            "target": "普通暖风",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "单制冷空调与电控自动恒温空调同价",
+            "source_en": "Electronic Auto Climate Control",
+            "target_en": "Standard Heater",
+            "description_cn": "电控自动恒温空调换装普通暖风",
+            "description_en": "Swap Electronic Auto Climate Control to Standard Heater",
+            "note_en": "单制冷空调与电控自动恒温空调同价",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "热区空调": [
+          {
+            "source": "热区空调",
+            "target": "电控自动恒温空调",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "单制冷热区空调与热区空调同价",
+            "source_en": "Hot-region A/C",
+            "target_en": "Electronic Auto Climate Control",
+            "description_cn": "热区空调换装电控自动恒温空调",
+            "description_en": "Swap Hot-region A/C to Electronic Auto Climate Control",
+            "note_en": "单制冷热区空调与热区空调同价",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "热区空调",
+            "target": "普通暖风",
+            "price": 3200,
+            "is_deduction": true,
+            "note": "单制冷热区空调与热区空调同价",
+            "source_en": "Hot-region A/C",
+            "target_en": "Standard Heater",
+            "description_cn": "热区空调换装普通暖风",
+            "description_en": "Swap Hot-region A/C to Standard Heater",
+            "note_en": "单制冷热区空调与热区空调同价",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1760,6 +3098,68 @@
               "8x4": 13
             }
           }
+        ],
+        "米其林品牌": [
+          {
+            "source": "米其林品牌",
+            "target": "11R22.5",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "11R22.5",
+            "description_cn": "米其林品牌换装11R22.5",
+            "description_en": "Swap Michelin品牌 to 11R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "315/80R22.5",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "米其林品牌换装315/80R22.5",
+            "description_en": "Swap Michelin品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "295/80R22.5",
+            "price": 1920,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "米其林品牌换装295/80R22.5",
+            "description_en": "Swap Michelin品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "米其林品牌",
+            "target": "385/65R22.5",
+            "price": 3840,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Michelin品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "米其林品牌换装385/65R22.5",
+            "description_en": "Swap Michelin品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -1785,6 +3185,21 @@
           }
         ],
         "13吨HD技术单级桥": [
+          {
+            "source": "13吨HD技术单级桥",
+            "target": "11.5吨HD技术单级桥",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "13吨HD技术单级桥",
+            "target_en": "11.5吨HD技术单级桥",
+            "description_cn": "13吨HD技术单级桥换装11.5吨HD技术单级桥",
+            "description_en": "Swap 13吨HD技术单级桥 to 11.5吨HD技术单级桥",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "13吨HD技术单级桥",
             "target": "13吨HD技术双级桥",
@@ -1850,6 +3265,21 @@
             "unit": "轴",
             "is_tire_set": false,
             "tire_count": {}
+          },
+          {
+            "source": "7.5吨HD前轴",
+            "target": "5.5吨HD前轴",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "5.5T前轴无法匹配12.00R20轮胎",
+            "source_en": "7.5吨HD前轴",
+            "target_en": "5.5吨HD前轴",
+            "description_cn": "7.5吨HD前轴换装5.5吨HD前轴",
+            "description_en": "Swap 7.5吨HD前轴 to 5.5吨HD前轴",
+            "note_en": "5.5T前轴无法匹配12.00R20轮胎",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
           }
         ],
         "前轴、后桥高配": [
@@ -1865,6 +3295,74 @@
             "description_en": "Front Axle/Rear Axle Downgrade (No Price Reduction)",
             "note_en": "",
             "unit": "轴",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "13吨HD技术双级桥": [
+          {
+            "source": "13吨HD技术双级桥",
+            "target": "13吨HD技术单级桥",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "13吨HD技术双级桥",
+            "target_en": "13吨HD技术单级桥",
+            "description_cn": "13吨HD技术双级桥换装13吨HD技术单级桥",
+            "description_en": "Swap 13吨HD技术双级桥 to 13吨HD技术单级桥",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "4.8T加强型前轴": [
+          {
+            "source": "4.8T加强型前轴",
+            "target": "4.8T前轴",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "4.8T加强型前轴",
+            "target_en": "4.8T前轴",
+            "description_cn": "4.8T加强型前轴换装4.8T前轴",
+            "description_en": "Swap 4.8T加强型前轴 to 4.8T前轴",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "9.5吨HD前轴": [
+          {
+            "source": "9.5吨HD前轴",
+            "target": "7.5吨HD前轴",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "9.5吨HD前轴",
+            "target_en": "7.5吨HD前轴",
+            "description_cn": "9.5吨HD前轴换装7.5吨HD前轴",
+            "description_en": "Swap 9.5吨HD前轴 to 7.5吨HD前轴",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "低配不减钱": [
+          {
+            "source": "低配不减钱",
+            "target": "前轴、后桥高配",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "低配不减钱",
+            "target_en": "前轴、后桥高配",
+            "description_cn": "低配不减钱换装前轴、后桥高配",
+            "description_en": "Swap 低配不减钱 to 前轴、后桥高配",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -1971,6 +3469,98 @@
             "target_en": "RHD Steering（Domestic Steering Gear）",
             "description_cn": "偏置矿用自卸换装右置方向盘（国产转向机）",
             "description_en": "Offset Mining Dump Truck: Upgrade to RHD Steering (Domestic Steering Gear)",
+            "note_en": "F3000 chassis + offset cab configuration (non-Tongli mining dump)",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "右置方向盘（国产转向机）": [
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "F3000",
+            "price": 2800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "F3000",
+            "description_cn": "右置方向盘（国产转向机）换装F3000",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to F3000",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "X3000/X5000车型",
+            "price": 3200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "X3000/X5000车型",
+            "description_cn": "右置方向盘（国产转向机）换装X3000/X5000车型",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to X3000/X5000车型",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "H3000S车型",
+            "price": 4400,
+            "is_deduction": true,
+            "note": "H3000S右舵车型仅体现H3000S外观",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "H3000S车型",
+            "description_cn": "右置方向盘（国产转向机）换装H3000S车型",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to H3000S车型",
+            "note_en": "H3000S RHD models: H3000S exterior only",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "H3000车型",
+            "price": 4400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "H3000车型",
+            "description_cn": "右置方向盘（国产转向机）换装H3000车型",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to H3000车型",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "L3000车型",
+            "price": 4400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "L3000车型",
+            "description_cn": "右置方向盘（国产转向机）换装L3000车型",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to L3000车型",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "右置方向盘（国产转向机）",
+            "target": "偏置矿用自卸",
+            "price": 4800,
+            "is_deduction": true,
+            "note": "车辆状态为F3000底盘加偏置驾驶室，非通力偏置矿用自卸车",
+            "source_en": "RHD Steering（Domestic Steering Gear）",
+            "target_en": "偏置矿用自卸",
+            "description_cn": "右置方向盘（国产转向机）换装偏置矿用自卸",
+            "description_en": "Swap RHD Steering（Domestic Steering Gear） to 偏置矿用自卸",
             "note_en": "F3000 chassis + offset cab configuration (non-Tongli mining dump)",
             "unit": "辆",
             "is_tire_set": false,
@@ -2102,6 +3692,83 @@
               "8x4": 13
             }
           }
+        ],
+        "金宇品牌": [
+          {
+            "source": "金宇品牌",
+            "target": "295/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Jinyu品牌",
+            "target_en": "295/80R22.5",
+            "description_cn": "金宇品牌换装295/80R22.5",
+            "description_en": "Swap Jinyu品牌 to 295/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "金宇品牌",
+            "target": "315/80R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Jinyu品牌",
+            "target_en": "315/80R22.5",
+            "description_cn": "金宇品牌换装315/80R22.5",
+            "description_en": "Swap Jinyu品牌 to 315/80R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "金宇品牌",
+            "target": "385/65R22.5",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Jinyu品牌",
+            "target_en": "385/65R22.5",
+            "description_cn": "金宇品牌换装385/65R22.5",
+            "description_en": "Swap Jinyu品牌 to 385/65R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "金宇品牌",
+            "target": "12.00R20子午胎",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Jinyu品牌",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "金宇品牌换装12.00R20子午胎",
+            "description_en": "Swap Jinyu品牌 to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "金宇品牌",
+            "target": "315/70R22.5",
+            "price": 240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Jinyu品牌",
+            "target_en": "315/70R22.5",
+            "description_cn": "金宇品牌换装315/70R22.5",
+            "description_en": "Swap Jinyu品牌 to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -2142,6 +3809,21 @@
           }
         ],
         "11.00R20子午胎": [
+          {
+            "source": "11.00R20子午胎",
+            "target": "10.00R20子午胎",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "11.00R20子午胎",
+            "target_en": "10.00R20子午胎",
+            "description_cn": "11.00R20子午胎换装10.00R20子午胎",
+            "description_en": "Swap 11.00R20子午胎 to 10.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
           {
             "source": "11.00R20子午胎",
             "target": "12.00R20子午胎",
@@ -2203,6 +3885,21 @@
             "description_en": "12.00R20 Radial Tires → 315/70R22.5 Tubeless Tires",
             "note_en": "",
             "unit": "条",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "12.00R20子午胎",
+            "target": "11.00R20子午胎",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12.00R20子午胎",
+            "target_en": "11.00R20子午胎",
+            "description_cn": "12.00R20子午胎换装11.00R20子午胎",
+            "description_en": "Swap 12.00R20子午胎 to 11.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           },
@@ -2357,6 +4054,21 @@
             "description_en": "12.00R24: Specify Mining Pattern Tread",
             "note_en": "",
             "unit": "条",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "12.00R24子午胎",
+            "target": "12.00R20子午胎",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "12.00R24子午胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "12.00R24子午胎换装12.00R20子午胎",
+            "description_en": "Swap 12.00R24子午胎 to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -2517,6 +4229,21 @@
         "加强型90鞍座": [
           {
             "source": "加强型90鞍座",
+            "target": "普通90鞍座",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Heavy-duty 90 Fifth Wheel",
+            "target_en": "Standard 90 Fifth Wheel",
+            "description_cn": "加强型90鞍座换装普通90鞍座",
+            "description_en": "Swap Heavy-duty 90 Fifth Wheel to Standard 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "加强型90鞍座",
             "target": "JOST 50鞍座(不带E标)",
             "price": 1000,
             "is_deduction": true,
@@ -2542,6 +4269,21 @@
             "target_en": "加强型JOST 90鞍座(JSK39DV1-46)",
             "description_cn": "加强型JOST 90鞍座(JSK39DV1-35)换装加强型JOST 90鞍座(JSK39DV1-46)",
             "description_en": "Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-35) → Heavy-duty JOST 90 Fifth Wheel (JSK39DV1-46)",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "target": "普通90鞍座",
+            "price": 1440,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "target_en": "Standard 90 Fifth Wheel",
+            "description_cn": "加强型JOST 90鞍座(JSK39DV1-35)换装普通90鞍座",
+            "description_en": "Swap 加强型JOST 90鞍座(JSK39DV1-35) to Standard 90 Fifth Wheel",
             "note_en": "",
             "unit": "辆",
             "is_tire_set": false,
@@ -2780,6 +4522,621 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "10R22.5真空胎": [
+          {
+            "source": "10R22.5真空胎",
+            "target": "10.00R20子午胎",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "10R22.5真空胎",
+            "target_en": "10.00R20子午胎",
+            "description_cn": "10R22.5真空胎换装10.00R20子午胎",
+            "description_en": "Swap 10R22.5真空胎 to 10.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "11.00R20子午胎、295/80R22.5真空胎": [
+          {
+            "source": "11.00R20子午胎、295/80R22.5真空胎",
+            "target": "11R22.5、12R22.5真空胎",
+            "price": 240240,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "11.00R20子午胎、295/80R22.5真空胎",
+            "target_en": "11R22.5、12R22.5真空胎",
+            "description_cn": "11.00R20子午胎、295/80R22.5真空胎换装11R22.5、12R22.5真空胎",
+            "description_en": "Swap 11.00R20子午胎、295/80R22.5真空胎 to 11R22.5、12R22.5真空胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "块状花纹": [
+          {
+            "source": "块状花纹",
+            "target": "11R22.5、12R22.5真空胎",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Block Pattern Tread",
+            "target_en": "11R22.5、12R22.5真空胎",
+            "description_cn": "块状花纹换装11R22.5、12R22.5真空胎",
+            "description_en": "Swap Block Pattern Tread to 11R22.5、12R22.5真空胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "块状花纹",
+            "target": "315/70R22.5",
+            "price": 120,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Block Pattern Tread",
+            "target_en": "315/70R22.5",
+            "description_cn": "块状花纹换装315/70R22.5",
+            "description_en": "Swap Block Pattern Tread to 315/70R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "块状花纹",
+            "target": "295/80R22.5、315/80R22.5子午胎",
+            "price": 160,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Block Pattern Tread",
+            "target_en": "295/80R22.5、315/80R22.5子午胎",
+            "description_cn": "块状花纹换装295/80R22.5、315/80R22.5子午胎",
+            "description_en": "Swap Block Pattern Tread to 295/80R22.5、315/80R22.5子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "13R22.5真空胎": [
+          {
+            "source": "13R22.5真空胎",
+            "target": "12.00R20子午胎",
+            "price": 120,
+            "is_deduction": true,
+            "note": "需选用加宽桥（轮胎选换装加价，加宽桥不加价）",
+            "source_en": "13R22.5真空胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "13R22.5真空胎换装12.00R20子午胎",
+            "description_en": "Swap 13R22.5真空胎 to 12.00R20子午胎",
+            "note_en": "Requires wide axle (tire swap has surcharge, axle upgrade free)",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "315/70R22.5真空胎": [
+          {
+            "source": "315/70R22.5真空胎",
+            "target": "12.00R20子午胎",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "315/70R22.5真空胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "315/70R22.5真空胎换装12.00R20子午胎",
+            "description_en": "Swap 315/70R22.5真空胎 to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "315/80R22.5真空胎": [
+          {
+            "source": "315/80R22.5真空胎",
+            "target": "12.00R20子午胎",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "315/80R22.5真空胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "315/80R22.5真空胎换装12.00R20子午胎",
+            "description_en": "Swap 315/80R22.5真空胎 to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "385/65R22.5真空胎": [
+          {
+            "source": "385/65R22.5真空胎",
+            "target": "12.00R20子午胎",
+            "price": 400,
+            "is_deduction": true,
+            "note": "385/65R22.5真空胎标配24PR",
+            "source_en": "385/65R22.5真空胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "385/65R22.5真空胎换装12.00R20子午胎",
+            "description_en": "Swap 385/65R22.5真空胎 to 12.00R20子午胎",
+            "note_en": "385/65R22.5真空胎标配24PR",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "425/65R22.5（20PR）真空胎": [
+          {
+            "source": "425/65R22.5（20PR）真空胎",
+            "target": "12.00R20子午胎",
+            "price": 880,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "425/65R22.5（20PR）真空胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "425/65R22.5（20PR）真空胎换装12.00R20子午胎",
+            "description_en": "Swap 425/65R22.5（20PR）真空胎 to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "20-20沙漠轮胎": [
+          {
+            "source": "20-20沙漠轮胎",
+            "target": "12.00R20子午胎",
+            "price": 5120,
+            "is_deduction": true,
+            "note": "含轮辋价格",
+            "source_en": "20-20沙漠轮胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "20-20沙漠轮胎换装12.00R20子午胎",
+            "description_en": "Swap 20-20沙漠轮胎 to 12.00R20子午胎",
+            "note_en": "Price includes wheel rims",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "15.5-20斜交轮胎": [
+          {
+            "source": "15.5-20斜交轮胎",
+            "target": "12.00R20子午胎",
+            "price": 2800,
+            "is_deduction": true,
+            "note": "含轮辋价格",
+            "source_en": "15.5-20斜交轮胎",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "15.5-20斜交轮胎换装12.00R20子午胎",
+            "description_en": "Swap 15.5-20斜交轮胎 to 12.00R20子午胎",
+            "note_en": "Price includes wheel rims",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "矿用/越野花纹": [
+          {
+            "source": "矿用/越野花纹",
+            "target": "12.00R20子午胎",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "矿用/Off-road Pattern Tread",
+            "target_en": "12.00R20子午胎",
+            "description_cn": "矿用/越野花纹换装12.00R20子午胎",
+            "description_en": "Swap 矿用/Off-road Pattern Tread to 12.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "20层级": [
+          {
+            "source": "20层级",
+            "target": "315/80R22.5、12.00R24真空胎18层级",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "20层级",
+            "target_en": "315/80R22.5、12.00R24真空胎18层级",
+            "description_cn": "20层级换装315/80R22.5、12.00R24真空胎18层级",
+            "description_en": "Swap 20层级 to 315/80R22.5、12.00R24真空胎18层级",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "20层级",
+            "target": "12.00R20子午胎18层级",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "20层级",
+            "target_en": "12.00R20子午胎18层级",
+            "description_cn": "20层级换装12.00R20子午胎18层级",
+            "description_en": "Swap 20层级 to 12.00R20子午胎18层级",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "矿用花纹": [
+          {
+            "source": "矿用花纹",
+            "target": "13R22.5",
+            "price": 0,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Mining Pattern Tread",
+            "target_en": "13R22.5",
+            "description_cn": "矿用花纹换装13R22.5",
+            "description_en": "Swap Mining Pattern Tread to 13R22.5",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "矿用花纹",
+            "target": "315/80R22.5子午胎",
+            "price": 80,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Mining Pattern Tread",
+            "target_en": "315/80R22.5子午胎",
+            "description_cn": "矿用花纹换装315/80R22.5子午胎",
+            "description_en": "Swap Mining Pattern Tread to 315/80R22.5子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "矿用花纹",
+            "target": "12.00R24子午胎",
+            "price": 320,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Mining Pattern Tread",
+            "target_en": "12.00R24子午胎",
+            "description_cn": "矿用花纹换装12.00R24子午胎",
+            "description_en": "Swap Mining Pattern Tread to 12.00R24子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "越野花纹": [
+          {
+            "source": "越野花纹",
+            "target": "14.00R20子午胎",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Off-road Pattern Tread",
+            "target_en": "14.00R20子午胎",
+            "description_cn": "越野花纹换装14.00R20子午胎",
+            "description_en": "Swap Off-road Pattern Tread to 14.00R20子午胎",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "约斯特50双摆鞍座（JSK38G1-2）": [
+          {
+            "source": "约斯特50双摆鞍座（JSK38G1-2）",
+            "target": "JOST 50鞍座",
+            "price": 24000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "约斯特50双摆鞍座（JSK38G1-2）",
+            "target_en": "JOST 50鞍座",
+            "description_cn": "约斯特50双摆鞍座（JSK38G1-2）换装JOST 50鞍座",
+            "description_en": "Swap 约斯特50双摆鞍座（JSK38G1-2） to JOST 50鞍座",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "JOST轻量化90鞍座": [
+          {
+            "source": "JOST轻量化90鞍座",
+            "target": "JOST 50鞍座（不带E标）",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "JOST轻量化90鞍座",
+            "target_en": "JOST 50鞍座（不带E标）",
+            "description_cn": "JOST轻量化90鞍座换装JOST 50鞍座（不带E标）",
+            "description_en": "Swap JOST轻量化90鞍座 to JOST 50鞍座（不带E标）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "90型普通双摆鞍座": [
+          {
+            "source": "90型普通双摆鞍座",
+            "target": "加强型90型鞍座",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "90-type Dual-oscillation Fifth Wheel",
+            "target_en": "Heavy-duty 90 Fifth Wheel",
+            "description_cn": "90型普通双摆鞍座换装加强型90型鞍座",
+            "description_en": "Swap 90-type Dual-oscillation Fifth Wheel to Heavy-duty 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "90型普通双摆鞍座",
+            "target": "普通90鞍座",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "90-type Dual-oscillation Fifth Wheel",
+            "target_en": "Standard 90 Fifth Wheel",
+            "description_cn": "90型普通双摆鞍座换装普通90鞍座",
+            "description_en": "Swap 90-type Dual-oscillation Fifth Wheel to Standard 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "JOST 50鞍座(不带E标)": [
+          {
+            "source": "JOST 50鞍座(不带E标)",
+            "target": "普通50鞍座",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "JOST 50鞍座(不带E标)",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "JOST 50鞍座(不带E标)换装普通50鞍座",
+            "description_en": "Swap JOST 50鞍座(不带E标) to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          },
+          {
+            "source": "JOST 50鞍座(不带E标)",
+            "target": "加强型90鞍座",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "JOST 50鞍座(不带E标)",
+            "target_en": "Heavy-duty 90 Fifth Wheel",
+            "description_cn": "JOST 50鞍座(不带E标)换装加强型90鞍座",
+            "description_en": "Swap JOST 50鞍座(不带E标) to Heavy-duty 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "加强型JOST 90鞍座(JSK39DV1-46)": [
+          {
+            "source": "加强型JOST 90鞍座(JSK39DV1-46)",
+            "target": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "加强型JOST 90鞍座(JSK39DV1-46)",
+            "target_en": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_cn": "加强型JOST 90鞍座(JSK39DV1-46)换装加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_en": "Swap 加强型JOST 90鞍座(JSK39DV1-46) to 加强型JOST 90鞍座(JSK39DV1-35)",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "国产铸造90鞍座(G9038C-190)带E标": [
+          {
+            "source": "国产铸造90鞍座(G9038C-190)带E标",
+            "target": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "price": 2400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Domestic Cast 90 Fifth Wheel(G9038C-190)带E标",
+            "target_en": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_cn": "国产铸造90鞍座(G9038C-190)带E标换装加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_en": "Swap Domestic Cast 90 Fifth Wheel(G9038C-190)带E标 to 加强型JOST 90鞍座(JSK39DV1-35)",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "约斯特国产铸造90鞍座(JSK38C)带E标": [
+          {
+            "source": "约斯特国产铸造90鞍座(JSK38C)带E标",
+            "target": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "price": 3040,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "约斯特Domestic Cast 90 Fifth Wheel(JSK38C)带E标",
+            "target_en": "加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_cn": "约斯特国产铸造90鞍座(JSK38C)带E标换装加强型JOST 90鞍座(JSK39DV1-35)",
+            "description_en": "Swap 约斯特Domestic Cast 90 Fifth Wheel(JSK38C)带E标 to 加强型JOST 90鞍座(JSK39DV1-35)",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "普通90型鞍座": [
+          {
+            "source": "普通90型鞍座",
+            "target": "普通50型鞍座",
+            "price": 640,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Standard 90 Fifth Wheel",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "普通90型鞍座换装普通50型鞍座",
+            "description_en": "Swap Standard 90 Fifth Wheel to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "约斯特国产化加强50鞍座(JSK39DV1-28)": [
+          {
+            "source": "约斯特国产化加强50鞍座(JSK39DV1-28)",
+            "target": "普通50型鞍座",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "约斯特国产化加强50鞍座(JSK39DV1-28)",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "约斯特国产化加强50鞍座(JSK39DV1-28)换装普通50型鞍座",
+            "description_en": "Swap 约斯特国产化加强50鞍座(JSK39DV1-28) to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "轻量化90型鞍座": [
+          {
+            "source": "轻量化90型鞍座",
+            "target": "普通50鞍座",
+            "price": 480,
+            "is_deduction": true,
+            "note": "普通50鞍座与低位50鞍座同价，仅港口运输标柜车型可选",
+            "source_en": "Lightweight 90 Fifth Wheel",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "轻量化90型鞍座换装普通50鞍座",
+            "description_en": "Swap Lightweight 90 Fifth Wheel to Standard 50 Fifth Wheel",
+            "note_en": "Same price as low-profile 50 FW; only for port transport standard container models",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "国产JSK37DV鞍座（铸造鞍座）": [
+          {
+            "source": "国产JSK37DV鞍座（铸造鞍座）",
+            "target": "普通50鞍座",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Domestic JSK37DV Fifth Wheel（铸造鞍座）",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "国产JSK37DV鞍座（铸造鞍座）换装普通50鞍座",
+            "description_en": "Swap Domestic JSK37DV Fifth Wheel（铸造鞍座） to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "JOST 50鞍座(带E标)": [
+          {
+            "source": "JOST 50鞍座(带E标)",
+            "target": "普通50鞍座",
+            "price": 960,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "JOST 50鞍座(带E标)",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "JOST 50鞍座(带E标)换装普通50鞍座",
+            "description_en": "Swap JOST 50鞍座(带E标) to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "国产铸造50鞍座(L50)": [
+          {
+            "source": "国产铸造50鞍座(L50)",
+            "target": "普通50鞍座",
+            "price": 1360,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Domestic Cast 50 Fifth Wheel(L50)",
+            "target_en": "Standard 50 Fifth Wheel",
+            "description_cn": "国产铸造50鞍座(L50)换装普通50鞍座",
+            "description_en": "Swap Domestic Cast 50 Fifth Wheel(L50) to Standard 50 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "国产铸造90鞍座(L90)": [
+          {
+            "source": "国产铸造90鞍座(L90)",
+            "target": "普通90鞍座",
+            "price": 1360,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Domestic Cast 90 Fifth Wheel(L90)",
+            "target_en": "Standard 90 Fifth Wheel",
+            "description_cn": "国产铸造90鞍座(L90)换装普通90鞍座",
+            "description_en": "Swap Domestic Cast 90 Fifth Wheel(L90) to Standard 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "JOST 90鞍座": [
+          {
+            "source": "JOST 90鞍座",
+            "target": "普通90鞍座",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "JOST 90鞍座",
+            "target_en": "Standard 90 Fifth Wheel",
+            "description_cn": "JOST 90鞍座换装普通90鞍座",
+            "description_en": "Swap JOST 90鞍座 to Standard 90 Fifth Wheel",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "约斯特国产C型铸造50鞍座（JSK37C)": [
+          {
+            "source": "约斯特国产C型铸造50鞍座（JSK37C)",
+            "target": "约斯特50鞍座（不带E标）",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "约斯特国产C型铸造50鞍座（JSK37C)",
+            "target_en": "约斯特50鞍座（不带E标）",
+            "description_cn": "约斯特国产C型铸造50鞍座（JSK37C)换装约斯特50鞍座（不带E标）",
+            "description_en": "Swap 约斯特国产C型铸造50鞍座（JSK37C) to 约斯特50鞍座（不带E标）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -2851,6 +5208,74 @@
             "description_en": "Same-torque Transfer Case: Specify Tiema/Zhuchi Brand",
             "note_en": "",
             "unit": "个",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "4×4": [
+          {
+            "source": "4×4",
+            "target": "4×2",
+            "price": 80000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "4×4",
+            "target_en": "4×2",
+            "description_cn": "4×4换装4×2",
+            "description_en": "Swap 4×4 to 4×2",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "6×6": [
+          {
+            "source": "6×6",
+            "target": "6×4",
+            "price": 80000,
+            "is_deduction": true,
+            "note": "500马力以下按此执行，500马力以上需考虑分动器差价",
+            "source_en": "6×6",
+            "target_en": "6×4",
+            "description_cn": "6×6换装6×4",
+            "description_en": "Swap 6×6 to 6×4",
+            "note_en": "Applies to ≤500HP; >500HP requires transfer case price adjustment",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "到FDX-3200": [
+          {
+            "source": "到FDX-3200",
+            "target": "FDX-2500",
+            "price": 32000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "到FDX-3200",
+            "target_en": "FDX-2500",
+            "description_cn": "到FDX-3200换装FDX-2500",
+            "description_en": "Swap 到FDX-3200 to FDX-2500",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "铁马/株齿品牌": [
+          {
+            "source": "铁马/株齿品牌",
+            "target": "同扭矩分动箱",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "铁马/株齿品牌",
+            "target_en": "同扭矩分动箱",
+            "description_cn": "铁马/株齿品牌换装同扭矩分动箱",
+            "description_en": "Swap 铁马/株齿品牌 to 同扭矩分动箱",
+            "note_en": "",
+            "unit": "辆",
             "is_tire_set": false,
             "tire_count": {}
           }
@@ -3013,6 +5438,159 @@
             "is_tire_set": false,
             "tire_count": {}
           }
+        ],
+        "加长高顶N驾驶室": [
+          {
+            "source": "加长高顶N驾驶室",
+            "target": "德龙F3000加长平顶J驾驶室",
+            "price": 2400,
+            "is_deduction": true,
+            "note": "D、J同价",
+            "source_en": "Extended High RoofN-type Cab",
+            "target_en": "Delong F3000Extended Flat RoofJ-type Cab",
+            "description_cn": "加长高顶N驾驶室换装德龙F3000加长平顶J驾驶室",
+            "description_en": "Swap Extended High RoofN-type Cab to Delong F3000Extended Flat RoofJ-type Cab",
+            "note_en": "Type D & J: same price",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "加长平顶J驾驶室": [
+          {
+            "source": "加长平顶J驾驶室",
+            "target": "德龙F3000加长高顶N驾驶室",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Extended Flat RoofJ-type Cab",
+            "target_en": "Delong F3000Extended High RoofN-type Cab",
+            "description_cn": "加长平顶J驾驶室换装德龙F3000加长高顶N驾驶室",
+            "description_en": "Swap Extended Flat RoofJ-type Cab to Delong F3000Extended High RoofN-type Cab",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "M3000同规格驾驶室": [
+          {
+            "source": "M3000同规格驾驶室",
+            "target": "德龙H3000",
+            "price": 0,
+            "is_deduction": true,
+            "note": "同价",
+            "source_en": "M3000Same-spec Cab",
+            "target_en": "Delong H3000",
+            "description_cn": "M3000同规格驾驶室换装德龙H3000",
+            "description_en": "Swap M3000Same-spec Cab to Delong H3000",
+            "note_en": "Same price",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "新H3000标准驾驶室（M）": [
+          {
+            "source": "新H3000标准驾驶室（M）",
+            "target": "德龙H3000加长半高顶驾驶室（H）",
+            "price": 1440,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "新H3000Standard Cab（M）",
+            "target_en": "Delong H3000加长Semi High Roof驾驶室（H）",
+            "description_cn": "新H3000标准驾驶室（M）换装德龙H3000加长半高顶驾驶室（H）",
+            "description_en": "Swap 新H3000Standard Cab（M） to Delong H3000加长Semi High Roof驾驶室（H）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "高顶驾驶室（G）": [
+          {
+            "source": "高顶驾驶室（G）",
+            "target": "德龙H3000半高顶驾驶室（H）",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "High Roof驾驶室（G）",
+            "target_en": "Delong H3000Semi High Roof驾驶室（H）",
+            "description_cn": "高顶驾驶室（G）换装德龙H3000半高顶驾驶室（H）",
+            "description_en": "Swap High Roof驾驶室（G） to Delong H3000Semi High Roof驾驶室（H）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "H3000加长半高顶驾驶室（H）": [
+          {
+            "source": "H3000加长半高顶驾驶室（H）",
+            "target": "德龙H3000标准驾驶室（M）",
+            "price": 2000,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "H3000加长Semi High Roof驾驶室（H）",
+            "target_en": "Delong H3000Standard Cab（M）",
+            "description_cn": "H3000加长半高顶驾驶室（H）换装德龙H3000标准驾驶室（M）",
+            "description_en": "Swap H3000加长Semi High Roof驾驶室（H） to Delong H3000Standard Cab（M）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "半高顶驾驶室（H）": [
+          {
+            "source": "半高顶驾驶室（H）",
+            "target": "德龙H3000高顶驾驶室（G）",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Semi High Roof驾驶室（H）",
+            "target_en": "Delong H3000High Roof驾驶室（G）",
+            "description_cn": "半高顶驾驶室（H）换装德龙H3000高顶驾驶室（G）",
+            "description_en": "Swap Semi High Roof驾驶室（H） to Delong H3000High Roof驾驶室（G）",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "加长高顶4驾驶室": [
+          {
+            "source": "加长高顶4驾驶室",
+            "target": "德龙X3000加长平顶5驾驶室",
+            "price": 2400,
+            "is_deduction": true,
+            "note": "5、6同价",
+            "source_en": "Extended High RoofType 4 Cab",
+            "target_en": "Delong X3000Extended Flat RoofType 5 Cab",
+            "description_cn": "加长高顶4驾驶室换装德龙X3000加长平顶5驾驶室",
+            "description_en": "Swap Extended High RoofType 4 Cab to Delong X3000Extended Flat RoofType 5 Cab",
+            "note_en": "Type 5 & 6: same price",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "加长平顶5驾驶室": [
+          {
+            "source": "加长平顶5驾驶室",
+            "target": "德龙X3000加长高顶4驾驶室",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Extended Flat RoofType 5 Cab",
+            "target_en": "Delong X3000Extended High RoofType 4 Cab",
+            "description_cn": "加长平顶5驾驶室换装德龙X3000加长高顶4驾驶室",
+            "description_en": "Swap Extended Flat RoofType 5 Cab to Delong X3000Extended High RoofType 4 Cab",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
         ]
       }
     },
@@ -3031,6 +5609,23 @@
             "target_en": "4-point Air Cab Mount驾驶室",
             "description_cn": "四点液压悬置换装四点空气悬置驾驶室",
             "description_en": "4-point Hydraulic Cab Suspension → 4-point Air Cab Suspension",
+            "note_en": "Deduct ¥700 if removed (not applicable for X3000/X5000 tractors)",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "四点空气悬置驾驶室": [
+          {
+            "source": "四点空气悬置驾驶室",
+            "target": "四点液压悬置",
+            "price": 800,
+            "is_deduction": true,
+            "note": "减价700（X3000/X5000牵引车不减价）",
+            "source_en": "4-point Air Cab Mount驾驶室",
+            "target_en": "4-point Hydraulic Cab Mount",
+            "description_cn": "四点空气悬置驾驶室换装四点液压悬置",
+            "description_en": "Swap 4-point Air Cab Mount驾驶室 to 4-point Hydraulic Cab Mount",
             "note_en": "Deduct ¥700 if removed (not applicable for X3000/X5000 tractors)",
             "unit": "辆",
             "is_tire_set": false,
@@ -3171,6 +5766,142 @@
             "target_en": "Heavy-duty Bumper",
             "description_cn": "金属保险杠、玻璃钢保险杠换装工程保险杠",
             "description_en": "Metal/FRP Bumper → Heavy-duty Bumper",
+            "note_en": "Only available for X3000",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "成空气主座椅": [
+          {
+            "source": "成空气主座椅",
+            "target": "X3000/X5000液压主座椅",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "减价500",
+            "source_en": "成Air Driver Seat",
+            "target_en": "X3000/X5000Hydraulic Driver Seat",
+            "description_cn": "成空气主座椅换装X3000/X5000液压主座椅",
+            "description_en": "Swap 成Air Driver Seat to X3000/X5000Hydraulic Driver Seat",
+            "note_en": "Deduct ¥500 if removed",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "通风加热空气主座椅": [
+          {
+            "source": "通风加热空气主座椅",
+            "target": "X3000/X5000空气主座椅",
+            "price": 1600,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Ventilated & Heated Air Driver Seat",
+            "target_en": "X3000/X5000Air Driver Seat",
+            "description_cn": "通风加热空气主座椅换装X3000/X5000空气主座椅",
+            "description_en": "Swap Ventilated & Heated Air Driver Seat to X3000/X5000Air Driver Seat",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "）": [
+          {
+            "source": "）",
+            "target": "保险杠状态变化（玻璃钢、金属保险杠互",
+            "price": 400,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "）",
+            "target_en": "Bumper Material Change（玻璃钢、Metal Bumper互",
+            "description_cn": "）换装保险杠状态变化（玻璃钢、金属保险杠互",
+            "description_en": "Swap ） to Bumper Material Change（玻璃钢、Metal Bumper互",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "液压副座椅": [
+          {
+            "source": "液压副座椅",
+            "target": "固定副座椅",
+            "price": 800,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Hydraulic Passenger Seat",
+            "target_en": "Fixed Passenger Seat",
+            "description_cn": "液压副座椅换装固定副座椅",
+            "description_en": "Swap Hydraulic Passenger Seat to Fixed Passenger Seat",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "空气副座椅": [
+          {
+            "source": "空气副座椅",
+            "target": "固定副座椅",
+            "price": 1200,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Air Passenger Seat",
+            "target_en": "Fixed Passenger Seat",
+            "description_cn": "空气副座椅换装固定副座椅",
+            "description_en": "Swap Air Passenger Seat to Fixed Passenger Seat",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "电动摇窗机": [
+          {
+            "source": "电动摇窗机",
+            "target": "手动摇窗机",
+            "price": 480,
+            "is_deduction": true,
+            "note": "",
+            "source_en": "Power Windows",
+            "target_en": "Manual Window Crank",
+            "description_cn": "电动摇窗机换装手动摇窗机",
+            "description_en": "Swap Power Windows to Manual Window Crank",
+            "note_en": "",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "空气主座椅": [
+          {
+            "source": "空气主座椅",
+            "target": "液压主座椅",
+            "price": 480,
+            "is_deduction": true,
+            "note": "除X3000/X5000以外平台可选；减价500",
+            "source_en": "Air Driver Seat",
+            "target_en": "Hydraulic Driver Seat",
+            "description_cn": "空气主座椅换装液压主座椅",
+            "description_en": "Swap Air Driver Seat to Hydraulic Driver Seat",
+            "note_en": "除X3000/X5000以外平台可选；减价500",
+            "unit": "辆",
+            "is_tire_set": false,
+            "tire_count": {}
+          }
+        ],
+        "工程保险杠": [
+          {
+            "source": "工程保险杠",
+            "target": "金属保险杠、玻璃钢保险杠",
+            "price": 480,
+            "is_deduction": true,
+            "note": "仅X3000可选",
+            "source_en": "Heavy-duty Bumper",
+            "target_en": "Metal/FRP Bumper",
+            "description_cn": "工程保险杠换装金属保险杠、玻璃钢保险杠",
+            "description_en": "Swap Heavy-duty Bumper to Metal/FRP Bumper",
             "note_en": "Only available for X3000",
             "unit": "辆",
             "is_tire_set": false,
@@ -5145,18 +7876,14 @@
     }
   ],
   "vehicle_sources": {
-    "空调": [
+    "驾驶室悬置": [
       [
-        "电控自动恒温空调",
-        438
+        "四点液压悬浮",
+        13
       ],
       [
-        "普通暖风",
-        23
-      ],
-      [
-        "热区空调",
-        16
+        "四点空气悬浮",
+        5
       ]
     ],
     "驾驶室": [
@@ -5181,14 +7908,18 @@
         52
       ]
     ],
-    "驾驶室悬置": [
+    "空调": [
       [
-        "四点液压悬浮",
-        13
+        "电控自动恒温空调",
+        438
       ],
       [
-        "四点空气悬浮",
-        5
+        "普通暖风",
+        23
+      ],
+      [
+        "热区空调",
+        16
       ]
     ]
   }

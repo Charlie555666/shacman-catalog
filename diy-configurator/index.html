@@ -191,6 +191,7 @@ const STATE = {
   accessoryAddons: null,    // add-on items
   selectedTransmission: null,
   _transmissionPriceChange: 0,
+  _enginePriceChange: 0,
   paints: null
 };
 
@@ -859,6 +860,18 @@ function renderStep5Content() {
   const app = document.getElementById('app');
   // Re-render step 5
   renderStep5(app);
+}
+
+function selectEngine(engine, adj) {
+  STATE.selectedEngine = engine;
+  STATE._enginePriceChange = adj;
+  renderStep5Content();
+}
+
+function selectTransmission(trans, priceYuan) {
+  STATE.selectedTransmission = trans;
+  STATE._transmissionPriceChange = priceYuan;
+  renderStep5Content();
 }
 
 function toggleMore(catId) {

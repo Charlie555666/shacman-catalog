@@ -314,6 +314,39 @@ for cat, items in sorted(swap_by_cat.items()):
         opts_sorted = sorted(opts, key=lambda x: x['price'])
         output['swap_categories'][cat]['options'][src] = opts_sorted
 
+    # Generate reverse (downgrade) entries for each forward swap
+    # If A→B costs +X, then B→A costs -X×0.8 (downgrade 80% rule)
+    for src, opts in sorted(by_source.items()):
+        for item in opts:
+            target = item['target']
+            if target not in output['swap_categories'][cat]['options']:
+                output['swap_categories'][cat]['options'][target] = []
+            # Check if reverse already exists (avoid duplicates)
+            rev_exists = any(r['target'] == item['source'] for r in output['swap_categories'][cat]['options'][target])
+            if not rev_exists:
+                downgrade_base = round(item['price'] * 0.8)  # positive base, is_deduction=True will negate in frontend
+                output['swap_categories'][cat]['options'][target].append({
+                    'source': target,
+                    'target': item['source'],
+                    'price': downgrade_base,
+                    'is_deduction': True,  # ★ 标记为扣减项，前端会取负
+                    'note': item.get('note', ''),
+                    'source_en': item['target_en'],
+                    'target_en': item['source_en'],
+                    'description_cn': f'{target}换装{item["source"]}',
+                    'description_en': f'Swap {item["target_en"]} to {item["source_en"]}',
+                    'note_en': item.get('note_en', ''),
+                    'unit': '辆',
+                    'is_tire_set': False,
+                    'tire_count': {}
+                })
+
+    # Re-sort sources after adding reverse entries
+    for src in output['swap_categories'][cat]['options']:
+        output['swap_categories'][cat]['options'][src] = sorted(
+            output['swap_categories'][cat]['options'][src], key=lambda x: x['price']
+        )
+
 # Add-on items
 for item in addon_items:
     output['addon_items'].append({
