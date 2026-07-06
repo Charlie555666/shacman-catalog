@@ -73,16 +73,86 @@ body {
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
   background:#e0e3e8; color:var(--text-dark); min-height:100vh;
 }
-.hero {
+/* === Hero Slider === */
+.hero-slider {
+  position:relative; width:100%; height:520px; overflow:hidden;
   background:linear-gradient(135deg,var(--deep-navy),#0D1B2A 60%,var(--navy));
-  color:white; text-align:center; padding:60px 20px 50px;
 }
-.hero h1 { font-size:32px; font-weight:700; letter-spacing:4px; margin-bottom:10px; }
-.hero p { font-size:14px; color:rgba(255,255,255,0.6); letter-spacing:2px; }
-.hero .stats { margin-top:24px; display:flex; justify-content:center; gap:40px; }
-.hero .stat { text-align:center; }
-.hero .stat .num { font-size:28px; font-weight:700; color:var(--mid-blue); }
-.hero .stat .label { font-size:11px; color:rgba(255,255,255,0.5); }
+.hero-slide {
+  position:absolute; top:0; left:0; width:100%; height:100%;
+  opacity:0; transition:opacity 1s ease-in-out; z-index:1;
+}
+.hero-slide.active { opacity:1; z-index:2; }
+.hero-slide img {
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+.hero-slide::after {
+  content:''; position:absolute; top:0; left:0; width:100%; height:100%;
+  background:linear-gradient(135deg,rgba(13,27,42,0.78),rgba(26,34,62,0.72));
+  z-index:1;
+}
+/* Content overlay */
+.hero-content {
+  position:absolute; top:0; left:0; width:100%; height:100%;
+  z-index:3; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; text-align:center; color:white; padding:40px 20px;
+}
+.hero-content h1 { font-size:32px; font-weight:700; letter-spacing:4px; margin-bottom:10px; }
+.hero-content p { font-size:14px; color:rgba(255,255,255,0.65); letter-spacing:2px; }
+.hero-content .stats { margin-top:24px; display:flex; justify-content:center; gap:40px; }
+.hero-content .stat { text-align:center; }
+.hero-content .stat .num { font-size:28px; font-weight:700; color:var(--mid-blue); }
+.hero-content .stat .label { font-size:11px; color:rgba(255,255,255,0.5); }
+/* Navigation arrows */
+.slider-arrow {
+  position:absolute; top:50%; transform:translateY(-50%); z-index:5;
+  background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25);
+  color:white; width:44px; height:44px; border-radius:50%; cursor:pointer;
+  font-size:18px; display:flex; align-items:center; justify-content:center;
+  transition:all 0.3s; backdrop-filter:blur(4px); line-height:1; padding:0;
+  -webkit-tap-highlight-color:transparent;
+}
+.slider-arrow:hover { background:rgba(255,255,255,0.28); border-color:rgba(255,255,255,0.5); }
+.slider-arrow.prev { left:20px; }
+.slider-arrow.next { right:20px; }
+/* Dots */
+.slider-dots {
+  position:absolute; bottom:22px; left:50%; transform:translateX(-50%);
+  z-index:5; display:flex; gap:10px;
+}
+.slider-dot {
+  width:10px; height:10px; border-radius:50%;
+  background:rgba(255,255,255,0.4); border:none; cursor:pointer;
+  transition:all 0.3s; padding:0;
+  -webkit-tap-highlight-color:transparent;
+}
+.slider-dot.active { background:var(--mid-blue); transform:scale(1.35); }
+/* CTA button */
+.hero-cta {
+  margin-top:24px; display:inline-flex; align-items:center; gap:8px;
+  background:var(--mid-blue); color:white; border:none; border-radius:6px;
+  padding:12px 28px; font-size:14px; font-weight:600; cursor:pointer;
+  transition:all 0.2s; letter-spacing:0.5px;
+}
+.hero-cta:hover { background:#0890c9; transform:translateY(-1px); box-shadow:0 4px 12px rgba(10,162,225,0.3); }
+/* Responsive */
+@media (max-width:768px) {
+  .hero-slider { height:420px; }
+  .hero-content h1 { font-size:24px; letter-spacing:2px; }
+  .hero-content .stats { gap:24px; }
+  .hero-content .stat .num { font-size:22px; }
+  .slider-arrow { width:36px; height:36px; font-size:14px; }
+  .slider-arrow.prev { left:10px; }
+  .slider-arrow.next { right:10px; }
+}
+@media (max-width:480px) {
+  .hero-slider { height:380px; }
+  .hero-content h1 { font-size:20px; letter-spacing:1px; }
+  .hero-content p { font-size:12px; }
+  .hero-content .stats { gap:16px; }
+  .hero-content .stat .num { font-size:20px; }
+  .hero-cta { padding:10px 20px; font-size:12px; }
+}
 .container { max-width:1000px; margin:0 auto; padding:30px 20px; }
 .region-section { margin-bottom:30px; }
 .region-title {
@@ -105,33 +175,70 @@ body {
 }
 @media (max-width:600px) {
   .country-grid { grid-template-columns:1fr 1fr; }
-  .hero h1 { font-size:22px; }
 }
 </style>
 </head>
 <body>
 
-<div class="hero">
-  <h1>SHACMAN GLOBAL CATALOG 2026</h1>
-  <p>Browse heavy duty trucks by destination country</p>
-  <div class="stats">
-    <div class="stat">
-      <div class="num">56</div>
-      <div class="label">Countries</div>
-    </div>
-    <div class="stat">
-      <div class="num">832</div>
-      <div class="label">Models</div>
-    </div>
-    <div class="stat">
-      <div class="num">5</div>
-      <div class="label">Regions</div>
-    </div>
+<div class="hero-slider">
+  <!-- Slide 1: X3000 6x4 Tractor -->
+  <div class="hero-slide active">
+    <img src="images/products/shacman/tractor/x3000_6x4_tractor_01.jpg" alt="SHACMAN X3000 6x4 Tractor Head">
   </div>
-  <div style="margin-top:24px;">
-    <button onclick="window.print()" style="display:inline-flex;align-items:center;gap:8px;background:var(--mid-blue);color:white;border:none;border-radius:6px;padding:12px 28px;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.2s;letter-spacing:0.5px;" onmouseover="this.style.background='#0890c9';this.style.transform='translateY(-1px)';this.style.boxShadow='0 4px 12px rgba(10,162,225,0.3)'" onmouseout="this.style.background='var(--mid-blue)';this.style.transform='none';this.style.boxShadow='none'">
-      📥 Download / Print Full Catalog
-    </button>
+  <!-- Slide 2: F3000 Dump Truck -->
+  <div class="hero-slide">
+    <img src="images/products/shacman/dump/f3000_dump_01.jpg" alt="SHACMAN F3000 Dump Truck">
+  </div>
+  <!-- Slide 3: H3000S Tractor -->
+  <div class="hero-slide">
+    <img src="images/products/shacman/tractor/h3000s_tractor_01.jpg" alt="SHACMAN H3000S Tractor Head">
+  </div>
+  <!-- Slide 4: H3000 Concrete Mixer -->
+  <div class="hero-slide">
+    <img src="images/products/shacman/special/h3000_mixer_01.png" alt="SHACMAN H3000 Concrete Mixer Truck">
+  </div>
+  <!-- Slide 5: X3000 4x2 Tractor -->
+  <div class="hero-slide">
+    <img src="images/products/shacman/tractor/x3000_4x2_tractor_01.jpg" alt="SHACMAN X3000 4x2 Tractor Head">
+  </div>
+  <!-- Slide 6: H3000 Dump Truck -->
+  <div class="hero-slide">
+    <img src="images/products/shacman/dump/h3000_dump_01.jpg" alt="SHACMAN H3000 Dump Truck">
+  </div>
+
+  <!-- Content Overlay -->
+  <div class="hero-content">
+    <h1>SHACMAN GLOBAL CATALOG 2026</h1>
+    <p>Browse heavy duty trucks by destination country</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="num">56</div>
+        <div class="label">Countries</div>
+      </div>
+      <div class="stat">
+        <div class="num">832</div>
+        <div class="label">Models</div>
+      </div>
+      <div class="stat">
+        <div class="num">5</div>
+        <div class="label">Regions</div>
+      </div>
+    </div>
+    <button class="hero-cta" onclick="window.print()">📥 Download / Print Full Catalog</button>
+  </div>
+
+  <!-- Navigation Arrows -->
+  <button class="slider-arrow prev" aria-label="Previous slide">&#10094;</button>
+  <button class="slider-arrow next" aria-label="Next slide">&#10095;</button>
+
+  <!-- Dot Indicators -->
+  <div class="slider-dots">
+    <button class="slider-dot active" aria-label="Slide 1"></button>
+    <button class="slider-dot" aria-label="Slide 2"></button>
+    <button class="slider-dot" aria-label="Slide 3"></button>
+    <button class="slider-dot" aria-label="Slide 4"></button>
+    <button class="slider-dot" aria-label="Slide 5"></button>
+    <button class="slider-dot" aria-label="Slide 6"></button>
   </div>
 </div>
 
@@ -514,5 +621,60 @@ body {
   SHACMAN · Shaanxi Fenghan Trading Co., Ltd. · Xi'an, China · www.fenghan-trade.com
 </div>
 
+<script>
+(function() {
+  var slides = document.querySelectorAll('.hero-slide');
+  var dots = document.querySelectorAll('.slider-dot');
+  var current = 0;
+  var timer = null;
+  var INTERVAL = 5000;
+
+  function goTo(index) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (index + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function startAuto() {
+    stopAuto();
+    timer = setInterval(next, INTERVAL);
+  }
+
+  function stopAuto() {
+    if (timer) { clearInterval(timer); timer = null; }
+  }
+
+  var prevBtn = document.querySelector('.slider-arrow.prev');
+  var nextBtn = document.querySelector('.slider-arrow.next');
+  if (prevBtn) prevBtn.addEventListener('click', function() { prev(); startAuto(); });
+  if (nextBtn) nextBtn.addEventListener('click', function() { next(); startAuto(); });
+
+  for (var i = 0; i < dots.length; i++) {
+    (function(idx) {
+      dots[idx].addEventListener('click', function() { goTo(idx); startAuto(); });
+    })(i);
+  }
+
+  var slider = document.querySelector('.hero-slider');
+  if (slider) {
+    slider.addEventListener('mouseenter', stopAuto);
+    slider.addEventListener('mouseleave', startAuto);
+
+    var touchX = 0;
+    slider.addEventListener('touchstart', function(e) { touchX = e.touches[0].clientX; }, {passive:true});
+    slider.addEventListener('touchend', function(e) {
+      var diff = touchX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) { diff > 0 ? next() : prev(); startAuto(); }
+    }, {passive:true});
+  }
+
+  startAuto();
+})();
+</script>
 </body>
 </html>
