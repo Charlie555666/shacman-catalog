@@ -109,6 +109,28 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // ===== Recommended Model Tab Switching (.tab-item / .tab-content) =====
+    var tabItems = document.querySelectorAll('.tab-item[data-tab]');
+    var tabContents = document.querySelectorAll('.tab-content[id]');
+
+    tabItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            var targetId = this.getAttribute('data-tab');
+
+            // Update active tab
+            tabItems.forEach(function(t) { t.classList.remove('active'); });
+            this.classList.add('active');
+
+            // Show target content
+            tabContents.forEach(function(content) {
+                content.classList.remove('active');
+                if (content.getAttribute('id') === targetId) {
+                    content.classList.add('active');
+                }
+            });
+        });
+    });
+
     // ===== Filter Tabs (Products Page) =====
     var filterTabs = document.querySelectorAll('.filter-tab');
     filterTabs.forEach(function(tab) {
@@ -210,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ===== Scroll Reveal Animation =====
-    var revealElements = document.querySelectorAll('.product-card, .recommend-card, .news-card, .stat-item, .video-card');
+    var revealElements = document.querySelectorAll('.product-card, .recommend-card, .news-card, .stat-item, .video-card, .product-grid-item');
 
     function checkReveal() {
         revealElements.forEach(function(el, index) {
