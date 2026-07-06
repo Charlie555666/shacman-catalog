@@ -355,7 +355,7 @@
     {
       "standard": "WP6.240E32",
       "swap": "ISDe210 30",
-      "price_change": 29000.0,
+      "price_change": -29000.0,
       "note": "",
       "standard_en": "Weichai WP6.240E32",
       "swap_en": "ISDe210 30"
@@ -659,7 +659,7 @@
       },
       {
         "swap": "WP12.460N",
-        "price_change": -22500
+        "price_change": 22500
       },
       {
         "swap": "WP10 340E22",
@@ -701,7 +701,7 @@
       },
       {
         "swap": "WP12.430E50",
-        "price_change": -3750
+        "price_change": 3750
       }
     ],
     "WP12.430E201": [
@@ -767,7 +767,7 @@
       },
       {
         "swap": "WP6.210E32",
-        "price_change": -2500
+        "price_change": 2500
       }
     ],
     "WP6.210E32": [
@@ -793,7 +793,7 @@
     "WP6.240E32": [
       {
         "swap": "ISDe210 30",
-        "price_change": 29000.0
+        "price_change": -29000.0
       }
     ],
     "WP7.240E51": [
@@ -887,7 +887,7 @@
       },
       {
         "swap": "WP12.400E50",
-        "price_change": -7500
+        "price_change": 7500
       }
     ],
     "ISME420 30": [
@@ -1067,7 +1067,7 @@
     "ISDe210 30": [
       {
         "swap": "WP6.240E32",
-        "price_change": -23200
+        "price_change": 23200
       }
     ],
     "WP7.270E51": [
