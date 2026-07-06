@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png">
+    <script src="js/data-loader.js"></script>
 </head>
 <body>
 
@@ -159,7 +160,7 @@
         </div>
     </section>
 
-    <!-- ===== PRODUCT CATEGORIES WITH TABS ===== -->
+    <!-- ===== PRODUCT CATEGORIES WITH TABS (动态加载) ===== -->
     <section class="section-bg-light" id="products">
         <div class="container">
             <div class="s_title">
@@ -176,326 +177,21 @@
                 <button class="tab-btn" data-tab="mixer">Mixer Truck</button>
             </div>
 
-            <!-- Tractor Panel -->
-            <div class="tab-panel active" data-panel="tractor">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="SAGMOTO E1s Tractor" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2216%22>SAGMOTO E1s</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>E1s 560HP Tractor</h3>
-                            <div class="card-spec">Cummins Z14EVIE 560 | Heavy Duty</div>
-                            <p>Premium heavy-duty tractor for long-haul transport with exceptional fuel efficiency and driver comfort.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="SAGMOTO Z3 Tractor" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Z3</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>Z3 520HP Tractor</h3>
-                            <div class="card-spec">Cummins M13 520 | Next-Gen</div>
-                            <p>Next-generation tractor with advanced aerodynamics, intelligent driving assistance, and superior power delivery.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="SAGMOTO X1s Tractor" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO X1s</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X1s 520HP Tractor</h3>
-                            <div class="card-spec">Cummins M13 520 | Premium</div>
-                            <p>Premium flagship tractor with luxury cabin, advanced connectivity, and maximum performance capabilities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dump Truck Panel -->
-            <div class="tab-panel" data-panel="dump">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/e85366e2-4d82-4914-bb15-edd97fcf9880.jpg" alt="SAGMOTO X1s Dump" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO X1s Dump</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X1s 450HP Dump Truck</h3>
-                            <div class="card-spec">Cummins ISME 450 | Heavy Mining</div>
-                            <p>Heavy-duty mining dump truck with reinforced chassis and high-strength steel body for extreme conditions.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/e85366e2-4d82-4914-bb15-edd97fcf9880.jpg" alt="SAGMOTO X3s Dump" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO X3s Dump</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X3s 400HP Dump Truck</h3>
-                            <div class="card-spec">Yuchai YC6MK400-33 | Standard</div>
-                            <p>Standard dump truck with reliable Yuchai powertrain, ideal for construction and infrastructure projects.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/e85366e2-4d82-4914-bb15-edd97fcf9880.jpg" alt="SAGMOTO E3 Dump" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO E3 Dump</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>E3 400HP Dump Truck</h3>
-                            <div class="card-spec">Yuchai YC6MK400-33 | Medium</div>
-                            <p>Versatile medium dump truck with excellent maneuverability and fuel economy for urban construction.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Special Vehicle Panel -->
-            <div class="tab-panel" data-panel="special">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d65fabbc-082e-40d0-b2d6-943f8f5fd897.jpg" alt="SAGMOTO X9 Sweeper" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Special</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X9 140HP Sweeper</h3>
-                            <div class="card-spec">Yuchai YC4D140-33 | Municipal</div>
-                            <p>Efficient street sweeper with high-capacity debris collection system for urban road maintenance.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d65fabbc-082e-40d0-b2d6-943f8f5fd897.jpg" alt="SAGMOTO X7 Tow Truck" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Tow</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X7 160HP Tow Truck</h3>
-                            <div class="card-spec">Yuchai YC4E160-33 | Recovery</div>
-                            <p>Reliable recovery vehicle with powerful winch system for roadside assistance and vehicle transport.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d65fabbc-082e-40d0-b2d6-943f8f5fd897.jpg" alt="SAGMOTO X7s Aerial" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Aerial</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X7s 140HP Aerial Platform</h3>
-                            <div class="card-spec">Aerial Work | Elevated</div>
-                            <p>Stable aerial work platform for electrical maintenance, tree trimming, and elevated construction tasks.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- New Energy Panel -->
-            <div class="tab-panel" data-panel="new-energy">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="SAGMOTO i9 EV" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO i9 EV</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>i9 120HP EV Cargo</h3>
-                            <div class="card-spec">Electric Motor | Zero Emission</div>
-                            <p>Electric light truck with long-range battery, fast charging, and zero emissions for urban last-mile delivery.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="SAGMOTO i9 Lite" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO i9 Lite</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>i9 Lite EV</h3>
-                            <div class="card-spec">Electric | Compact</div>
-                            <p>Compact electric vehicle for urban logistics with tight turning radius and agile maneuverability.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cargo Truck Panel -->
-            <div class="tab-panel" data-panel="cargo">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO X3s Cargo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Cargo</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X3s 345HP Cargo Truck</h3>
-                            <div class="card-spec">Cummins ISME 345 30 | Heavy</div>
-                            <p>Heavy cargo truck with spacious cargo capacity and powerful Cummins engine for long-distance logistics.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO E3 Cargo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Cargo</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>E3 340HP Cargo Truck</h3>
-                            <div class="card-spec">Yuchai YC6MK340-33 | Medium</div>
-                            <p>Versatile medium cargo truck balancing payload capacity and operating economy for regional distribution.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO X6s Cargo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Cargo</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X6s 210HP Cargo Truck</h3>
-                            <div class="card-spec">Cummins ISD 210 30 | Light</div>
-                            <p>Light cargo truck ideal for urban distribution with compact design and excellent fuel economy.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mixer Truck Panel -->
-            <div class="tab-panel" data-panel="mixer">
-                <div class="p_gridbox">
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO X3s Mixer" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Mixer</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X3s 385HP Mixer Truck</h3>
-                            <div class="card-spec">Cummins ISME 385 30 | Heavy</div>
-                            <p>Heavy-duty concrete mixer with large drum capacity, reliable hydraulics for continuous operation.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO E3 Mixer" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Mixer</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>E3 375HP Mixer Truck</h3>
-                            <div class="card-spec">Yuchai YC6MK375-33 | Standard</div>
-                            <p>Standard concrete mixer with proven Yuchai power and efficient mixing performance for construction sites.</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-img">
-                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="SAGMOTO X9 Mixer" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22360%22 height=%22240%22><rect fill=%22%23e5e5e5%22 width=%22360%22 height=%22240%22/><text x=%22180%22 y=%22120%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO Mixer</text></svg>'">
-                        </div>
-                        <div class="card-body">
-                            <h3>X9 140HP Mixer Truck</h3>
-                            <div class="card-spec">Yuchai YC4D140-33 | Small</div>
-                            <p>Compact concrete mixer for small-scale construction, narrow urban access, and tight job sites.</p>
-                        </div>
-                    </div>
-                </div>
+            <div id="tabPanelsContainer">
+                <!-- 动态渲染产品分类面板 -->
             </div>
         </div>
     </section>
 
-    <!-- ===== RECOMMENDED MODELS ===== -->
+    <!-- ===== RECOMMENDED MODELS (动态加载) ===== -->
     <section class="section-bg-white" id="recommended">
         <div class="container">
             <div class="s_title">
                 <h2>Recommended Models</h2>
                 <p>Our most popular and top-performing vehicles</p>
             </div>
-            <div class="recommend-grid">
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="E1s 560HP" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>E1s 560HP Tractor</h3>
-                        <ul class="features">
-                            <li>Cummins Z14EVIE 560 engine</li>
-                            <li>Advanced fuel efficiency system</li>
-                            <li>Luxury driver cabin with A/C</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/e85366e2-4d82-4914-bb15-edd97fcf9880.jpg" alt="X1s 450HP" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>X1s 450HP Dump Truck</h3>
-                        <ul class="features">
-                            <li>Cummins ISME 450 mining engine</li>
-                            <li>Reinforced high-strength frame</li>
-                            <li>Heavy-duty mining suspension</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="X3s 345HP" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>X3s 345HP Cargo Truck</h3>
-                        <ul class="features">
-                            <li>Cummins ISME 345 30 engine</li>
-                            <li>Large cargo bed capacity</li>
-                            <li>Comfortable long-haul cabin</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="i9 EV Cargo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>i9 120HP EV Cargo</h3>
-                        <ul class="features">
-                            <li>Zero emission electric drive</li>
-                            <li>200+ km range per charge</li>
-                            <li>Fast DC charging capability</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/bbcc9a0f-a242-4f31-9916-c49f708f8342.jpg" alt="X3s 385HP Mixer" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>X3s 385HP Mixer Truck</h3>
-                        <ul class="features">
-                            <li>Cummins ISME 385 30 engine</li>
-                            <li>Large mixing drum capacity</li>
-                            <li>Reliable hydraulic system</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d65fabbc-082e-40d0-b2d6-943f8f5fd897.jpg" alt="X7 160HP Tow Truck" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>X7 160HP Tow Truck</h3>
-                        <ul class="features">
-                            <li>Yuchai YC4E160-33 engine</li>
-                            <li>Heavy-duty winch system</li>
-                            <li>Versatile recovery platform</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/810591ee-22d5-417b-8907-b660c81417d0.jpg" alt="Z3 520HP" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>Z3 520HP Tractor</h3>
-                        <ul class="features">
-                            <li>Cummins M13 520 engine</li>
-                            <li>Next-gen aerodynamic design</li>
-                            <li>Intelligent driving assistance</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="recommend-card">
-                    <div class="card-img">
-                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/e85366e2-4d82-4914-bb15-edd97fcf9880.jpg" alt="X6s 285HP" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22270%22 height=%22200%22><rect fill=%22%23e5e5e5%22 width=%22270%22 height=%22200%22/><text x=%22135%22 y=%22100%22 text-anchor=%22middle%22 fill=%22%23999%22>SAGMOTO</text></svg>'">
-                    </div>
-                    <div class="card-body">
-                        <h3>X6s 285HP Dump Truck</h3>
-                        <ul class="features">
-                            <li>Cummins ISD 285 engine</li>
-                            <li>Lightweight chassis design</li>
-                            <li>Excellent maneuverability</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="recommend-grid" id="recommendGrid">
+                <!-- 动态渲染推荐车型 -->
             </div>
         </div>
     </section>
@@ -620,5 +316,89 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    // ===== 动态加载产品数据 =====
+    (async function() {
+        await loadSagmotoProducts();
+
+        const products = window.SAGMOTO_DATA.products;
+        if (!products.length) return;
+
+        // Tab顺序映射
+        const tabOrder = ['tractor', 'dump', 'special', 'new-energy', 'cargo', 'mixer'];
+        const categoryLabels = {
+            'tractor': 'Tractor', 'dump': 'Dump Truck', 'special': 'Special Vehicle',
+            'new-energy': 'New Energy', 'cargo': 'Cargo Truck', 'mixer': 'Mixer Truck'
+        };
+        const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240'%3E%3Crect fill='%23e5e5e5' width='360' height='240'/%3E%3Ctext x='180' y='120' text-anchor='middle' fill='%23999' font-size='16'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
+        const fallbackImgSmall = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='270' height='200'%3E%3Crect fill='%23e5e5e5' width='270' height='200'/%3E%3Ctext x='135' y='100' text-anchor='middle' fill='%23999' font-size='14'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
+
+        // 渲染Tab面板
+        const container = document.getElementById('tabPanelsContainer');
+        if (container) {
+            container.innerHTML = tabOrder.map((cat, idx) => {
+                const catProducts = products.filter(p => p.category === cat).slice(0, 3);
+                if (!catProducts.length) return '';
+                return `
+                    <div class="tab-panel ${idx === 0 ? 'active' : ''}" data-panel="${cat}">
+                        <div class="p_gridbox">
+                            ${catProducts.map(p => `
+                                <div class="product-card">
+                                    <div class="card-img">
+                                        <img src="${p.image}" alt="SAGMOTO ${p.name}" onerror="this.src='${fallbackImg}'">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3>${p.name}</h3>
+                                        <div class="card-spec">${p.spec}</div>
+                                        <p>${p.description}</p>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 渲染推荐车型
+        const recommendGrid = document.getElementById('recommendGrid');
+        if (recommendGrid) {
+            const featured = products.filter(p => p.featured).slice(0, 8);
+            recommendGrid.innerHTML = featured.map(p => {
+                const features = p.description.split('. ').filter(s => s.length > 10).slice(0, 3);
+                return `
+                    <div class="recommend-card">
+                        <div class="card-img">
+                            <img src="${p.image}" alt="${p.name}" onerror="this.src='${fallbackImgSmall}'">
+                        </div>
+                        <div class="card-body">
+                            <h3>${p.name}</h3>
+                            <ul class="features">
+                                ${features.map(f => `<li>${f.replace(/\.$/, '')}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 重新绑定Tab切换（因为DOM已更新）
+        var tabBtns = document.querySelectorAll('.tab-btn');
+        var tabPanels = document.querySelectorAll('.tab-panel');
+        tabBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var target = this.getAttribute('data-tab');
+                tabBtns.forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
+                tabPanels.forEach(function(panel) {
+                    panel.classList.remove('active');
+                    if (panel.getAttribute('data-panel') === target) {
+                        panel.classList.add('active');
+                    }
+                });
+            });
+        });
+    })();
+    </script>
 </body>
 </html>
