@@ -62,59 +62,6 @@ img {
     padding: 0 20px;
 }
 
-/* === Top Bar === */
-.e_container-1 {
-    background: var(--primary);
-    padding: 8px 0;
-    font-size: 13px;
-}
-
-.e_container-1 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top-contact {
-    display: flex;
-    gap: 24px;
-}
-
-.top-contact a {
-    color: rgba(255,255,255,0.85);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.top-contact a:hover {
-    color: #fff;
-}
-
-.top-contact svg {
-    width: 14px;
-    height: 14px;
-    fill: currentColor;
-}
-
-.lang-selector {
-    display: flex;
-    gap: 12px;
-}
-
-.lang-selector a {
-    color: rgba(255,255,255,0.7);
-    font-size: 12px;
-    padding: 2px 8px;
-    border-radius: 2px;
-}
-
-.lang-selector a.active,
-.lang-selector a:hover {
-    color: #fff;
-    background: rgba(255,255,255,0.15);
-}
-
 /* === Header / Navigation (透明背景，覆盖在Hero上方) === */
 .e_container-2 {
     background: transparent;
@@ -669,274 +616,254 @@ section {
     margin-top: 16px;
 }
 
-/* === Product Category Image Grid (匹配sagmoto.com官网) === */
-.category-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 280px);
-    gap: 20px;
+/* === Category Showcase (3+3 black overlay grid matching sagmoto.com) === */
+.category-showcase {
+    padding: 0;
+    background: #fff;
 }
 
-.category-card {
+.cat-grid {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+
+.cat-row {
+    display: flex;
+    gap: 0;
+}
+
+.cat-row.top-row {
+    margin-bottom: 0;
+}
+
+.cat-card {
     position: relative;
-    display: block;
     overflow: hidden;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: var(--transition);
+    background: #000;
 }
 
-.category-card img {
+.cat-card a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cat-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+    opacity: 0.7;
 }
 
-.category-card:hover img {
-    transform: scale(1.08);
+.cat-card:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
-/* 左下角白色文字标签 */
-.category-card .category-label {
+.cat-overlay {
     position: absolute;
-    bottom: 16px;
-    left: 16px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    bottom: 24px;
+    left: 24px;
     z-index: 2;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
-/* 图片底部暗色遮罩 */
-.category-card::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
-    z-index: 1;
-    transition: var(--transition);
+.cat-label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
 
-.category-card:hover::after {
-    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+/* Row 1: Tractor(790px) | Dump(385px) | Special(385px) */
+.cat-card-large {
+    width: 50%;
+    height: 338px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .category-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 200px);
-        gap: 12px;
-    }
-    .category-card .category-label {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    .category-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 200px);
-    }
-}
-
-/* === Company Intro Section === */
-.company-intro {
-    text-align: center;
-}
-
-.company-intro .intro-text {
-    max-width: 800px;
-    margin: 0 auto 48px;
-    font-size: 16px;
-    color: var(--text-gray);
-    line-height: 1.8;
-}
-
-.stats-row {
+.cat-card-right {
     display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-}
-
-.stat-item {
-    text-align: center;
-}
-
-.stat-item .stat-number {
-    font-size: 42px;
-    font-weight: 700;
-    color: var(--primary);
-    line-height: 1;
-}
-
-.stat-item .stat-number span {
-    color: var(--accent);
-}
-
-.stat-item .stat-label {
-    font-size: 14px;
-    color: var(--text-gray);
-    margin-top: 8px;
-}
-
-/* === Product Category Tabs === */
-.tab-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex: 0 0 50%;
     gap: 0;
-    margin-bottom: 40px;
-    border-bottom: 2px solid var(--border-color);
 }
 
-.tab-btn {
-    padding: 14px 32px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: var(--text-gray);
-    font-family: var(--font-family);
-    position: relative;
-    transition: var(--transition);
-    font-weight: 500;
+.cat-card-small {
+    width: 50%;
+    height: 338px;
 }
 
-.tab-btn::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: var(--accent);
-    transform: scaleX(0);
-    transition: var(--transition);
+/* Row 2: 3 equal columns */
+.cat-row.bottom-row {
+    display: flex;
 }
 
-.tab-btn.active {
-    color: var(--accent);
+.cat-row.bottom-row .cat-card-small {
+    flex: 1;
+    height: 338px;
 }
 
-.tab-btn.active::after {
-    transform: scaleX(1);
+/* Remove old category grid */
+.category-section {
+    display: none;
+}
 }
 
-.tab-btn:hover {
-    color: var(--accent);
-}
-
-/* === Recommended Models Section === */
-/* ===== RECOMMENDED MODELS (匹配sagmoto.com官网) ===== */
-.recommend-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-}
-
-.recommend-panel {
+/* === Company Intro Section (replaced by tagline) === */
+.company-intro {
     display: none;
 }
 
-.recommend-panel.active {
-    display: block;
+/* === Tagline Section (matching sagmoto.com) === */
+.tagline-section {
+    background: #f5f5f5;
+    padding: 60px 20px;
+    margin-top: 10px;
 }
 
-.recommend-card {
-    background: var(--bg-white);
-    border-radius: 6px;
+.tagline-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tagline-text {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+/* === Product Showcases (matching sagmoto.com paired left-right cards) === */
+.product-showcases {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+}
+
+.product-item {
+    margin-bottom: 30px;
+}
+
+.product-item.reverse .product-card {
+    flex-direction: row-reverse;
+}
+
+.product-card {
+    display: flex;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
     overflow: hidden;
-    box-shadow: var(--shadow-sm);
-    transition: var(--transition);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: box-shadow 0.3s;
 }
 
-.recommend-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-4px);
+.product-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
-.recommend-card .card-img {
-    height: 200px;
+.product-img {
+    flex: 0 0 420px;
+    min-height: 280px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
-    background: var(--bg-light);
 }
 
-.recommend-card .card-img a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.recommend-card .card-img img {
+.product-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
 
-.recommend-card:hover .card-img img {
+.product-card:hover .product-img img {
     transform: scale(1.05);
 }
 
-.recommend-card .card-body {
-    padding: 18px;
+.product-body {
+    flex: 1;
+    padding: 30px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.recommend-card .card-body h3 {
-    font-size: 17px;
-    color: var(--text-dark);
+.product-body h3 {
+    font-size: 22px;
     font-weight: 600;
-    margin-bottom: 12px;
-}
-
-.recommend-card .card-body h3 a {
-    color: var(--text-dark);
-    text-decoration: none;
-}
-
-.recommend-card .card-body h3 a:hover {
-    color: var(--accent);
-}
-
-/* 描述行 - 红色竖线样式 (匹配sagmoto.com) */
-.recommend-card .card-body .desc-lines p {
-    font-size: 13px;
-    color: var(--text-gray);
-    padding: 4px 0;
-    position: relative;
-    padding-left: 12px;
-    margin-bottom: 4px;
-    line-height: 1.5;
-    border-left: 2px solid var(--accent);
-}
-
-/* + 按钮 (匹配sagmoto.com) */
-.recommend-card .card-body .btn-plus {
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
     display: inline-block;
-    margin-top: 12px;
-    padding: 6px 24px;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    color: var(--text-gray);
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    transition: var(--transition);
 }
 
-.recommend-card .card-body .btn-plus:hover {
+.product-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.product-body ul li {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+    padding: 4px 0 4px 16px;
+    position: relative;
+    border-left: 2px solid var(--accent);
+    margin-bottom: 6px;
+}
+
+.product-body ul li::before {
+    content: '';
+}
+
+.btn-plus {
+    display: inline-block;
+    padding: 8px 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+    font-size: 20px;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: all 0.3s;
+}
+
+.btn-plus:hover {
     border-color: var(--accent);
     color: var(--accent);
-    background: rgba(196, 18, 48, 0.05);
+    background: rgba(196, 18, 48, 0.04);
+}
+
+/* =============================================
+   LEGACY RECOMMENDED/TAB STYLES (hidden)
+   ============================================= */
+#recommended,
+#recommendTabs,
+#recommendPanelsContainer,
+.tab-nav,
+.recommend-grid,
+.recommend-panel,
+.recommend-card,
+.desc-lines,
+#x9-showcase,
+#x7-showcase,
+showcase-grid,
+.showcase-card {
+    display: none !important;
+}
+
+/* === News Section (hidden on new homepage) === */
+#news {
+    display: none;
 }
 
 /* === News Section === */
@@ -1023,22 +950,42 @@ section {
     }
 }
 
-/* === Video Centre === */
+/* === Video Centre (matching sagmoto.com — black bg, 4 cards) === */
+.video-centre {
+    background: #000;
+    padding: 60px 20px;
+}
+
+.video-inner {
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+.video-inner h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .video-card {
     position: relative;
-    border-radius: 6px;
     overflow: hidden;
+    border-radius: 4px;
     cursor: pointer;
+    display: block;
+    text-decoration: none;
 }
 
 .video-card .video-thumb {
-    height: 300px;
+    height: 220px;
     overflow: hidden;
 }
 
@@ -1047,40 +994,42 @@ section {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+    opacity: 0.8;
 }
 
 .video-card:hover .video-thumb img {
     transform: scale(1.05);
+    opacity: 1;
 }
 
 .video-card .play-icon {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70px;
-    height: 70px;
+    transform: translate(-50%, -50%) translateY(-10px);
+    width: 60px;
+    height: 60px;
     background: rgba(196, 18, 48, 0.9);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transition);
+    transition: all 0.3s;
 }
 
 .video-card .play-icon::after {
     content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
     width: 0;
     height: 0;
-    border-left: 22px solid #fff;
-    border-top: 14px solid transparent;
-    border-bottom: 14px solid transparent;
-    margin-left: 4px;
+    border-left: 18px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
 }
 
 .video-card:hover .play-icon {
     background: var(--accent);
-    transform: translate(-50%, -50%) scale(1.1);
+    transform: translate(-50%, -50%) translateY(-10px) scale(1.1);
 }
 
 .video-card .video-title {
@@ -1088,94 +1037,167 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 16px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    padding: 14px 16px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
-/* === Footer === */
-.e_container-30 {
-    background: var(--primary-dark);
-    color: rgba(255,255,255,0.8);
-    padding: 60px 0 0;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 40px;
-}
-
-.footer-col h3 {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-}
-
-.footer-col ul li {
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
-    transition: var(--transition);
-}
-
-.footer-col ul li a:hover {
-    color: #fff;
-    padding-left: 6px;
-}
-
-.footer-col p {
-    font-size: 14px;
-    margin-bottom: 8px;
-    color: rgba(255,255,255,0.7);
-    line-height: 1.8;
-}
-
-.qr-code {
+/* === Contact Section (matching sagmoto.com) === */
+.contact-section {
+    padding: 80px 20px;
     text-align: center;
-}
-
-.qr-code img {
-    max-width: 140px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    border: 3px solid rgba(255,255,255,0.2);
-    border-radius: 4px;
-    padding: 4px;
     background: #fff;
 }
 
-.qr-code p {
-    margin-top: 10px;
-    font-size: 12px;
-    color: rgba(255,255,255,0.6);
+.contact-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-inner h2 {
+    font-size: 30px;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.contact-inner p {
+    font-size: 15px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 12px 48px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: #1a3a8a;
+}
+
+/* === Site Footer (matching sagmoto.com) === */
+.site-footer {
+    background: #f8f8f8;
+    border-top: 1px solid #eee;
+}
+
+.footer-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-main {
+    display: flex;
+    gap: 60px;
+    padding: 50px 0 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer-col h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: var(--accent);
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: #666;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: var(--accent);
+}
+
+.footer-contact p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 1.7;
+}
+
+.hotline-label {
+    color: #999 !important;
+    font-size: 13px !important;
+    margin-bottom: 4px !important;
+}
+
+.hotline-number {
+    font-size: 22px !important;
+    font-weight: 700;
+    color: var(--primary) !important;
+    margin-bottom: 12px !important;
+}
+
+.footer-addr,
+.footer-fax,
+.footer-email {
+    font-size: 13px !important;
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.1);
-    padding: 20px 0;
+    background: #f0f0f0;
+    padding: 16px 0;
     text-align: center;
+}
+
+.footer-copyright {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     font-size: 13px;
-    color: rgba(255,255,255,0.5);
+    color: #999;
 }
 
-.footer-bottom a {
-    color: rgba(255,255,255,0.6);
+.footer-copyright p {
+    display: inline;
 }
 
-.footer-bottom a:hover {
-    color: #fff;
+/* Hide old footer */
+.e_container-30 {
+    display: none;
 }
 
 /* === Sub-page Header === */
@@ -1478,23 +1500,27 @@ section {
 
 /* Tablet (<=1024px) */
 @media (max-width: 1024px) {
-    .category-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .cat-card-large {
+        height: 280px;
     }
-
-    .recommend-grid {
+    .cat-card-small {
+        height: 280px;
+    }
+    .cat-row.bottom-row .cat-card-small {
+        height: 240px;
+    }
+    .product-img {
+        flex: 0 0 320px;
+        min-height: 240px;
+    }
+    .product-body h3 {
+        font-size: 20px;
+    }
+    .video-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .news-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .products-grid-detailed {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .news-listing-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1608,12 +1634,45 @@ section {
         padding: 50px 0;
     }
 
-    .category-grid {
-        grid-template-columns: 1fr;
+    /* Category Showcase responsive */
+    .cat-row {
+        flex-direction: column;
+    }
+    .cat-card-large {
+        width: 100%;
+        height: 250px;
+    }
+    .cat-card-right {
+        flex: none;
+    }
+    .cat-card-small {
+        width: 50%;
+        height: 250px;
+    }
+    .cat-row.bottom-row {
+        flex-direction: column;
+    }
+    .cat-row.bottom-row .cat-card-small {
+        width: 100%;
+        height: 220px;
     }
 
-    .recommend-grid {
-        grid-template-columns: 1fr;
+    /* Product Showcase responsive */
+    .product-card {
+        flex-direction: column !important;
+    }
+    .product-img {
+        flex: none;
+        height: 220px;
+    }
+    .product-body {
+        padding: 20px;
+    }
+    .product-body h3 {
+        font-size: 18px;
+    }
+    .product-body ul li {
+        font-size: 13px;
     }
 
     .news-grid {
@@ -1623,10 +1682,18 @@ section {
     .video-grid {
         grid-template-columns: 1fr;
     }
+    .video-card .video-thumb {
+        height: 180px;
+    }
 
-    .footer-grid {
-        grid-template-columns: 1fr;
+    /* Footer responsive */
+    .footer-main {
+        flex-direction: column;
         gap: 30px;
+    }
+    .footer-copyright {
+        flex-direction: column;
+        gap: 4px;
     }
 
     .stats-row {
