@@ -135,6 +135,40 @@
         </div>
     </div>
 
+    <!-- ===== PRODUCT CATEGORIES GRID (匹配sagmoto.com官网) ===== -->
+    <section class="section-bg-white category-section" id="product-categories">
+        <div class="container">
+            <div class="category-grid">
+                <!-- 第一行 -->
+                <a href="products.html?cat=heavy-duty" class="category-card large">
+                    <img src="images/categories/tractor.jpg" alt="Tractor">
+                    <span class="category-label">Tractor</span>
+                </a>
+                <a href="products.html?cat=off-road" class="category-card">
+                    <img src="images/categories/dump.jpg" alt="Dump Truck">
+                    <span class="category-label">Dump Truck</span>
+                </a>
+                <a href="products.html?cat=special" class="category-card">
+                    <img src="images/categories/special.jpg" alt="Special Vehicle">
+                    <span class="category-label">Special Vehicle</span>
+                </a>
+                <!-- 第二行 -->
+                <a href="products.html?cat=new-energy" class="category-card">
+                    <img src="images/categories/newenergy.jpg" alt="New Energy">
+                    <span class="category-label">New Energy</span>
+                </a>
+                <a href="products.html?cat=off-road" class="category-card">
+                    <img src="images/categories/offroad.jpg" alt="Off-road Truck">
+                    <span class="category-label">Off-road Truck</span>
+                </a>
+                <a href="products.html?cat=medium-duty" class="category-card">
+                    <img src="images/categories/cargo.jpg" alt="Cargo Truck">
+                    <span class="category-label">Cargo Truck</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- ===== COMPANY INTRO ===== -->
     <section class="section-bg-white company-intro">
         <div class="container">
@@ -166,25 +200,56 @@
         </div>
     </section>
 
-    <!-- ===== PRODUCT CATEGORIES WITH TABS (动态加载) ===== -->
+    <!-- ===== PRODUCT CATEGORIES (匹配sagmoto.com官网 - 6张图片网格) ===== -->
     <section class="section-bg-light" id="products">
         <div class="container">
             <div class="s_title">
                 <h2>Product Categories</h2>
                 <p>Explore our comprehensive range of commercial vehicles</p>
             </div>
-
-            <div class="tab-nav" id="categoryTabs">
-                <button class="tab-btn active" data-tab="light">Light Duty Truck</button>
-                <button class="tab-btn" data-tab="medium">Medium Duty Truck</button>
-                <button class="tab-btn" data-tab="heavy">Heavy Duty Truck</button>
-                <button class="tab-btn" data-tab="offroad">Off-road Truck</button>
-                <button class="tab-btn" data-tab="special">Special Vehicle</button>
-                <button class="tab-btn" data-tab="new-energy">New Energy</button>
-            </div>
-
-            <div id="tabPanelsContainer">
-                <!-- 动态渲染产品分类面板 -->
+            <div class="category-grid">
+                <a href="products.html?cat=heavy-duty" class="category-card">
+                    <img src="images/categories/tractor.jpg" alt="Tractor Truck">
+                    <div class="category-overlay">
+                        <span class="category-name">Tractor Truck</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
+                <a href="products.html?cat=light-duty" class="category-card">
+                    <img src="images/categories/cargo.jpg" alt="Cargo Truck">
+                    <div class="category-overlay">
+                        <span class="category-name">Cargo Truck</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
+                <a href="products.html?cat=off-road" class="category-card">
+                    <img src="images/categories/dump.jpg" alt="Dump Truck">
+                    <div class="category-overlay">
+                        <span class="category-name">Dump Truck</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
+                <a href="products.html?cat=special" class="category-card">
+                    <img src="images/categories/special.jpg" alt="Special Vehicle">
+                    <div class="category-overlay">
+                        <span class="category-name">Special Vehicle</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
+                <a href="products.html?cat=off-road" class="category-card">
+                    <img src="images/categories/offroad.jpg" alt="Off-road / Mining Truck">
+                    <div class="category-overlay">
+                        <span class="category-name">Off-road / Mining Truck</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
+                <a href="products.html?cat=new-energy" class="category-card">
+                    <img src="images/categories/newenergy.jpg" alt="New Energy Vehicle">
+                    <div class="category-overlay">
+                        <span class="category-name">New Energy Vehicle</span>
+                        <span class="category-plus">+</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -337,41 +402,7 @@
         const products = window.SAGMOTO_DATA.products;
         if (!products.length) return;
 
-        // Tab顺序映射
-        const tabOrder = ['light', 'medium', 'heavy', 'offroad', 'special', 'new-energy'];
-        const categoryLabels = {
-            'light': 'Light Duty Truck', 'medium': 'Medium Duty Truck', 'heavy': 'Heavy Duty Truck',
-            'offroad': 'Off-road Truck', 'special': 'Special Vehicle', 'new-energy': 'New Energy'
-        };
-        const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240'%3E%3Crect fill='%23e5e5e5' width='360' height='240'/%3E%3Ctext x='180' y='120' text-anchor='middle' fill='%23999' font-size='16'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
         const fallbackImgSmall = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='270' height='200'%3E%3Crect fill='%23e5e5e5' width='270' height='200'/%3E%3Ctext x='135' y='100' text-anchor='middle' fill='%23999' font-size='14'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
-
-        // 渲染Tab面板
-        const container = document.getElementById('tabPanelsContainer');
-        if (container) {
-            container.innerHTML = tabOrder.map((cat, idx) => {
-                const catProducts = products.filter(p => p.category === cat).slice(0, 3);
-                if (!catProducts.length) return '';
-                return `
-                    <div class="tab-panel ${idx === 0 ? 'active' : ''}" data-panel="${cat}">
-                        <div class="p_gridbox">
-                            ${catProducts.map(p => `
-                                <div class="product-card">
-                                    <div class="card-img">
-                                        <img src="${p.image}" alt="SAGMOTO ${p.name}" onerror="this.src='${fallbackImg}'">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3>${p.name}</h3>
-                                        <div class="card-spec">${p.spec}</div>
-                                        <p>${p.description}</p>
-                                    </div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
 
         // 渲染推荐车型 (完全匹配sagmoto.com官网 - 带tab切换，每个分类4个产品)
         const recommendPanelsContainer = document.getElementById('recommendPanelsContainer');
@@ -440,26 +471,6 @@
                     });
                 });
             }
-        }
-
-        // 重新绑定产品分类Tab切换（限制在categoryTabs容器内）
-        var categoryTabs = document.getElementById('categoryTabs');
-        if (categoryTabs) {
-            var tabBtns = categoryTabs.querySelectorAll('.tab-btn');
-            var tabPanels = document.querySelectorAll('.tab-panel');
-            tabBtns.forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    var target = this.getAttribute('data-tab');
-                    tabBtns.forEach(function(b) { b.classList.remove('active'); });
-                    this.classList.add('active');
-                    tabPanels.forEach(function(panel) {
-                        panel.classList.remove('active');
-                        if (panel.getAttribute('data-panel') === target) {
-                            panel.classList.add('active');
-                        }
-                    });
-                });
-            });
         }
     })();
     </script>

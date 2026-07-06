@@ -514,6 +514,79 @@ section {
     margin-top: 16px;
 }
 
+/* === Product Category Image Grid (匹配sagmoto.com官网) === */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.category-card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    aspect-ratio: 4 / 3;
+    background: var(--bg-light);
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.category-card:hover img {
+    transform: scale(1.08);
+}
+
+.category-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 24px;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: var(--transition);
+}
+
+.category-card:hover .category-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+}
+
+.category-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    letter-spacing: 0.5px;
+}
+
+.category-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    transition: var(--transition);
+    flex-shrink: 0;
+}
+
+.category-card:hover .category-plus {
+    background: #fff;
+    color: var(--accent);
+    transform: rotate(90deg);
+}
+
 /* === Company Intro Section === */
 .company-intro {
     text-align: center;
@@ -600,77 +673,6 @@ section {
 
 .tab-btn:hover {
     color: var(--accent);
-}
-
-/* Product Grid */
-.tab-panel {
-    display: none;
-}
-
-.tab-panel.active {
-    display: block;
-}
-
-.p_gridbox {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
-
-.product-card {
-    background: var(--bg-white);
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: var(--shadow-sm);
-    transition: var(--transition);
-    cursor: pointer;
-}
-
-.product-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-4px);
-}
-
-.product-card .card-img {
-    width: 100%;
-    height: 240px;
-    overflow: hidden;
-    background: var(--bg-light);
-}
-
-.product-card .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.product-card:hover .card-img img {
-    transform: scale(1.05);
-}
-
-.product-card .card-body {
-    padding: 20px;
-}
-
-.product-card .card-body h3 {
-    font-size: 18px;
-    color: var(--text-dark);
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.product-card .card-body .card-spec {
-    font-size: 14px;
-    color: var(--accent);
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-.product-card .card-body p {
-    font-size: 14px;
-    color: var(--text-gray);
-    line-height: 1.6;
 }
 
 /* === Recommended Models Section === */
@@ -1299,7 +1301,7 @@ section {
 
 /* Tablet (<=1024px) */
 @media (max-width: 1024px) {
-    .p_gridbox {
+    .category-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1429,7 +1431,7 @@ section {
         padding: 50px 0;
     }
 
-    .p_gridbox {
+    .category-grid {
         grid-template-columns: 1fr;
     }
 
