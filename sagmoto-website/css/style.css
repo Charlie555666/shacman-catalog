@@ -518,6 +518,7 @@ section {
 .category-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 280px);
     gap: 20px;
 }
 
@@ -526,8 +527,8 @@ section {
     display: block;
     overflow: hidden;
     border-radius: 4px;
-    aspect-ratio: 4 / 3;
-    background: var(--bg-light);
+    cursor: pointer;
+    transition: var(--transition);
 }
 
 .category-card img {
@@ -541,50 +542,54 @@ section {
     transform: scale(1.08);
 }
 
-.category-overlay {
+/* 左下角白色文字标签 */
+.category-card .category-label {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/* 图片底部暗色遮罩 */
+.category-card::after {
+    content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px 24px;
-    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
+    z-index: 1;
     transition: var(--transition);
 }
 
-.category-card:hover .category-overlay {
-    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+.category-card:hover::after {
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
 }
 
-.category-name {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    letter-spacing: 0.5px;
+/* Responsive */
+@media (max-width: 768px) {
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        gap: 12px;
+    }
+    .category-card .category-label {
+        font-size: 14px;
+    }
 }
 
-.category-plus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: var(--accent);
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    transition: var(--transition);
-    flex-shrink: 0;
-}
-
-.category-card:hover .category-plus {
-    background: #fff;
-    color: var(--accent);
-    transform: rotate(90deg);
+@media (max-width: 480px) {
+    .category-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px);
+    }
 }
 
 /* === Company Intro Section === */
