@@ -73,16 +73,18 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
-        // Mobile dropdown toggle
-        var productsLi = mainNav.querySelector('.has-dropdown');
-        if (productsLi) {
-            productsLi.addEventListener('click', function(e) {
+        // Mobile dropdown toggle for ALL has-dropdown items
+        var dropdownItems = mainNav.querySelectorAll('.has-dropdown');
+        dropdownItems.forEach(function(item) {
+            item.addEventListener('click', function(e) {
                 if (window.innerWidth <= 768) {
+                    // Only prevent default if clicking the parent link, not a child
+                    if (e.target.closest('.dropdown-menu a') || e.target.closest('.mega-inner a')) return;
                     e.preventDefault();
                     this.classList.toggle('mobile-sub-open');
                 }
             });
-        }
+        });
     }
 
     // ===== Tab Switching =====
