@@ -4,15 +4,16 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    // ===== Banner Swiper =====
-    if (document.querySelector('.swiper-container')) {
-        new Swiper('.swiper-container', {
+    // ===== Banner Swiper (全屏轮播) =====
+    if (document.querySelector('.hero-slider.swiper-container')) {
+        new Swiper('.hero-slider.swiper-container', {
             loop: true,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
             },
             speed: 800,
+            autoHeight: false,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -24,6 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
             effect: 'fade',
             fadeEffect: {
                 crossFade: true,
+            },
+            on: {
+                init: function() {
+                    // 强制设置全屏高度
+                    var container = this.el;
+                    container.style.height = '100vh';
+                    var wrapper = container.querySelector('.swiper-wrapper');
+                    if (wrapper) wrapper.style.height = '100vh';
+                    var slides = container.querySelectorAll('.swiper-slide');
+                    slides.forEach(function(s) { s.style.height = '100vh'; });
+                },
             },
         });
     }

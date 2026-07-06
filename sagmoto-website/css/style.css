@@ -257,31 +257,37 @@ img {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* === Banner Slider === */
-.swiper-container {
-    width: 100%;
+/* === Banner Slider (全屏轮播 - 匹配sagmoto.com官网) === */
+.hero-slider.swiper-container {
+    width: 100% !important;
+    height: 100vh !important;
     position: relative;
 }
 
-.swiper-slide {
+.hero-slider .swiper-wrapper {
+    height: 100vh !important;
+}
+
+.hero-slider .swiper-slide {
     position: relative;
-    height: 550px;
+    height: 100vh !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.swiper-slide::after {
+.hero-slider .swiper-slide::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0) 100%);
+    z-index: 1;
 }
 
-.slide-content {
+.hero-slider .slide-content {
     position: relative;
     z-index: 2;
     height: 100%;
@@ -290,71 +296,172 @@ img {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 80px;
 }
 
-.slide-content .p_info {
+.hero-slider .slide-content .p_info {
     color: #ffffff;
     max-width: 600px;
+    position: relative;
 }
 
-.slide-content .p_info h2 {
-    font-size: 48px;
+.hero-slider .slide-content .p_info h2 {
+    font-size: 42px;
     font-weight: 700;
-    margin-bottom: 16px;
-    line-height: 1.2;
+    margin-bottom: 20px;
+    line-height: 1.3;
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.slide-content .p_info p {
-    font-size: 18px;
+/* 红色横线分隔符 */
+.hero-slider .slide-content .p_info .p_line {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    margin: 20px 0;
+}
+
+.hero-slider .slide-content .p_info .p_summary {
+    font-size: 16px;
     line-height: 1.8;
     opacity: 0.9;
     text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    max-width: 500px;
 }
 
-.slide-content .p_info .btn-link {
+/* MORE + 按钮 - 匹配官网样式 */
+.hero-slider .slide-content .p_info .btn-link {
     display: inline-block;
     margin-top: 24px;
-    padding: 12px 32px;
-    background: var(--accent);
+    padding: 12px 36px;
+    border: 1px solid rgba(255,255,255,0.6);
     color: #fff;
-    border-radius: 3px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
     transition: var(--transition);
+    text-decoration: none;
 }
 
-.slide-content .p_info .btn-link:hover {
-    background: var(--accent-hover);
-    transform: translateY(-2px);
-}
-
-/* Swiper pagination */
-.swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background: rgba(255,255,255,0.5);
-    opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
+.hero-slider .slide-content .p_info .btn-link:hover {
     background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    background: rgba(0,0,0,0.3);
+/* Swiper pagination - 底部居中 */
+.hero-slider .swiper-pagination {
+    bottom: 80px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    width: auto !important;
+}
+
+.hero-slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    opacity: 1;
+    margin: 0 6px !important;
     border-radius: 50%;
     transition: var(--transition);
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    background: rgba(0,0,0,0.6);
+.hero-slider .swiper-pagination-bullet-active {
+    background: #fff;
+    width: 30px;
+    border-radius: 5px;
+}
+
+/* Swiper arrows - 底部两侧 */
+.hero-slider .swiper-button-prev,
+.hero-slider .swiper-button-next {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 0;
+    transition: var(--transition);
+    bottom: 40px;
+    top: auto;
+    position: absolute;
+}
+
+.hero-slider .swiper-button-prev {
+    right: 120px;
+    left: auto;
+}
+
+.hero-slider .swiper-button-next {
+    right: 40px;
+    left: auto;
+}
+
+.hero-slider .swiper-button-prev:hover,
+.hero-slider .swiper-button-next:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.6);
+}
+
+.hero-slider .swiper-button-prev::after,
+.hero-slider .swiper-button-next::after {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* SCROLL DOWN - 底部中央 */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+
+.scroll-down .mouse-icon {
+    width: 20px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.scroll-down .mouse-icon i {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 6px;
+    background: #fff;
+    border-radius: 1px;
+    animation: scrollWheel 1.5s infinite;
+}
+
+.scroll-down span {
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@keyframes scrollWheel {
+    0% { top: 6px; opacity: 1; }
+    100% { top: 16px; opacity: 0; }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+    40% { transform: translateX(-50%) translateY(-8px); }
+    60% { transform: translateX(-50%) translateY(-4px); }
 }
 
 .swiper-button-prev::after,
@@ -1292,16 +1399,26 @@ section {
         font-size: 13px;
     }
 
-    .swiper-slide {
-        height: 350px;
+    .hero-slider .swiper-slide,
+    .hero-slider .swiper-wrapper {
+        height: 100vh;
     }
 
-    .slide-content .p_info h2 {
+    .hero-slider .slide-content .p_info h2 {
         font-size: 28px;
     }
 
-    .slide-content .p_info p {
-        font-size: 15px;
+    .hero-slider .slide-content .p_info .p_summary {
+        font-size: 14px;
+    }
+
+    .hero-slider .swiper-button-prev,
+    .hero-slider .swiper-button-next {
+        display: none;
+    }
+
+    .hero-slider .slide-content {
+        padding: 0 30px;
     }
 
     .s_title h2 {
@@ -1392,12 +1509,21 @@ section {
 
 /* Small Mobile (<=480px) */
 @media (max-width: 480px) {
-    .swiper-slide {
-        height: 280px;
+    .hero-slider .swiper-slide,
+    .hero-slider .swiper-wrapper {
+        height: 100vh;
     }
 
-    .slide-content .p_info h2 {
+    .hero-slider .slide-content .p_info h2 {
         font-size: 22px;
+    }
+
+    .hero-slider .slide-content {
+        padding: 0 20px;
+    }
+
+    .scroll-down {
+        display: none;
     }
 
     .stats-row {
