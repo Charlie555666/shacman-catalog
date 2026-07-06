@@ -5692,7 +5692,7 @@
           {
             "source": "成空气主座椅",
             "target": "X3000/X5000液压主座椅",
-            "price": 1200,
+            "price": 500,
             "is_deduction": true,
             "note": "减价500",
             "source_en": "成Air Driver Seat",
@@ -5794,7 +5794,7 @@
           {
             "source": "空气主座椅",
             "target": "液压主座椅",
-            "price": 480,
+            "price": 500,
             "is_deduction": true,
             "note": "除X3000/X5000以外平台可选；减价500",
             "source_en": "Air Driver Seat",
