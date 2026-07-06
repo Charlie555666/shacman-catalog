@@ -36,9 +36,14 @@
         '.fenghan-hero-wrap .hero-subtitle{gap:8px}.fenghan-hero-wrap .hero-btns{flex-direction:column;align-items:center}' +
         '.fenghan-hero-wrap .hero-btns a{width:100%;max-width:280px;text-align:center}' +
         '.fenghan-trust{gap:16px;padding:28px 12px}.fenghan-trust .stat-num{font-size:26px}.fenghan-brands .brands-row{gap:16px}}' +
-        // DIY Configurator Nav Link
-        '.diy-nav-link{color:#C89B3C !important;font-weight:700 !important;text-decoration:none !important;padding:8px 16px !important;border:2px solid #C89B3C;border-radius:6px;transition:all .25s;display:inline-block;margin-left:4px}' +
-        '.diy-nav-link:hover{background:#C89B3C;color:#0D1F3D!important;transform:translateY(-1px);box-shadow:0 4px 12px rgba(200,155,60,.35)}';
+        // DIY Configurator Banner Styles
+        '.diy-config-banner{background:linear-gradient(90deg,#C89B3C 0%,#e0b050 50%,#C89B3C 100%);padding:10px 16px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.15);z-index:100;position:relative}' +
+        '.diy-config-btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:#0D1F3D;font-weight:700;font-size:16px;padding:10px 28px;border-radius:30px;background:rgba(255,255,255,.92);border:2px solid #fff;transition:all .25s;box-shadow:0 2px 8px rgba(0,0,0,.1)}' +
+        '.diy-config-btn:hover{background:#fff;transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.2);color:#0D1F3D}' +
+        '.diy-config-btn .diy-icon{font-size:24px;line-height:1;filter:drop-shadow(0 1px 1px rgba(0,0,0,.1))}' +
+        '.diy-config-btn .diy-text{font-size:16px;letter-spacing:.3px}' +
+        '.diy-config-btn .diy-sub{font-size:11px;font-weight:400;color:#555;opacity:.9;border-left:1px solid rgba(0,0,0,.15);padding-left:10px;margin-left:2px;white-space:nowrap}' +
+        '@media(max-width:640px){.diy-config-btn{padding:8px 18px;gap:6px}.diy-config-btn .diy-icon{font-size:20px}.diy-config-btn .diy-text{font-size:14px}.diy-config-btn .diy-sub{display:none}.diy-config-banner{padding:8px 12px}}';
     document.head.appendChild(style);
 
     // Inject HTML sections
@@ -95,29 +100,20 @@
             else art.appendChild(trust);
         }
 
-        // 3. DIY Configurator Nav Link — inject into top navigation bar (after FAQ)
-        var nav = document.querySelector('nav,[class*=nav],[class*=menu],[class*=header] ul,[class*=navbar]') || document.querySelector('header');
-        var faqLink = null;
-        if (nav) {
-            var navLinks = nav.querySelectorAll('a');
-            for (var n = 0; n < navLinks.length; n++) {
-                if (navLinks[n].textContent.toUpperCase().indexOf('FAQ') > -1) {
-                    faqLink = navLinks[n];
-                    break;
-                }
-            }
-        }
-        var diyNav = document.createElement('a');
-        diyNav.className = 'diy-nav-link';
-        diyNav.href = 'https://charlie555666.github.io/shacman-catalog/diy-configurator/';
-        diyNav.target = '_blank';
-        diyNav.rel = 'noopener';
-        diyNav.title = 'DIY Vehicle Configurator — Build Your SHACMAN Truck';
-        diyNav.textContent = '\u2699\uFE0F DIY Config';
-        if (faqLink && faqLink.parentNode) {
-            faqLink.parentNode.insertBefore(diyNav, faqLink.nextSibling);
-        } else if (nav) {
-            nav.appendChild(diyNav);
+        // 3. DIY Configurator Banner — placed below the nav bar, independent from nav links
+        var navEl = document.querySelector('nav,[class*=nav],[class*=navbar],[class*=menu]');
+        var headerEl = document.querySelector('header') || document.querySelector('[class*=header]') || navEl;
+        var diyBanner = document.createElement('div');
+        diyBanner.className = 'diy-config-banner';
+        diyBanner.innerHTML = '<a href="https://charlie555666.github.io/shacman-catalog/diy-configurator/" class="diy-config-btn" target="_blank" rel="noopener" title="DIY Vehicle Configurator — Build Your SHACMAN Truck">' +
+            '<span class="diy-icon">\u2699\uFE0F</span>' +
+            '<span class="diy-text">DIY Configurator</span>' +
+            '<span class="diy-sub">Build your truck online</span>' +
+            '</a>';
+        if (headerEl) {
+            headerEl.insertAdjacentElement('afterend', diyBanner);
+        } else if (art) {
+            art.insertBefore(diyBanner, art.firstElementChild);
         }
 
         // 4. Brand section - insert before footer
