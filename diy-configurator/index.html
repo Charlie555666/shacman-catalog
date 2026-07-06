@@ -705,9 +705,11 @@ async function renderStep5(app) {
     accHTML += `<div class="card"><h2><span class="icon">🔩</span> ${cat} / ${catInfo.label_en || cat}</h2>
       <p style="color:#888; margin-bottom:12px;">当前配置 / Current: <strong>${detectedSource}</strong>${sources.length > 1 ? ' (' + sources.length + '种可选 / options)' : ''}</p>`;
 
-    // "Keep current" option
-    accHTML += `<div class="option-row selected" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '', 0)">
-      <input type="radio" name="swap_${cat.replace(/\s/g,'_')}" checked>
+    // "Keep current" option — check actual selection state
+    const currentSwap = STATE._swapSelections && STATE._swapSelections[cat];
+    const isKeepingStock = !currentSwap || !currentSwap.target;
+    accHTML += `<div class="option-row ${isKeepingStock ? 'selected' : ''}" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '', 0)">
+      <input type="radio" name="swap_${cat.replace(/\s/g,'_')}" ${isKeepingStock ? 'checked' : ''}>
       <div class="opt-info"><div class="opt-name"><span class="opt-cn">保持原装 / Keep Stock</span><span class="opt-en">Keep original configuration</span></div><div class="opt-desc">${detectedSource}</div></div>
       <div class="opt-price zero">¥0</div>
     </div>`;
@@ -719,8 +721,9 @@ async function renderStep5(app) {
       const arrow = isDowngrade ? '↓' : '↑';
       const label = isDowngrade ? '降级' : '升级';
       const targetEn = t.target_en || '';
-      accHTML += `<div class="option-row" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '${t.target.replace(/'/g,"\\'")}', ${price})">
-        <input type="radio" name="swap_${cat.replace(/\s/g,'_')}">
+      const thisTargetSelected = currentSwap && currentSwap.target === t.target;
+      accHTML += `<div class="option-row ${thisTargetSelected ? 'selected' : ''}" onclick="selectSwap('${cat.replace(/'/g,"\\'")}', '${t.target.replace(/'/g,"\\'")}', ${price})">
+        <input type="radio" name="swap_${cat.replace(/\s/g,'_')}" ${thisTargetSelected ? 'checked' : ''}>
         <div class="opt-info">
           <div class="opt-name"><span class="opt-cn">${t.target}</span>${targetEn ? '<span class="opt-en">' + targetEn + '</span>' : ''}</div>
           <div class="opt-desc">${arrow} ${label} / ${isDowngrade ? 'Downgrade' : 'Upgrade'}</div>
