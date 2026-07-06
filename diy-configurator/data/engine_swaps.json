@@ -355,7 +355,7 @@
     {
       "standard": "WP6.240E32",
       "swap": "ISDe210 30",
-      "price_change": -29000.0,
+      "price_change": 29000.0,
       "note": "",
       "standard_en": "Weichai WP6.240E32",
       "swap_en": "ISDe210 30"
@@ -626,20 +626,12 @@
         "price_change": 95000.0
       },
       {
-        "swap": "WP12.400E201",
-        "price_change": 8000.0
-      },
-      {
         "swap": "M10E5 385",
         "price_change": 41000.0
       },
       {
         "swap": "M10E3 440",
         "price_change": 25000.0
-      },
-      {
-        "swap": "ISM11E5 385",
-        "price_change": 44000.0
       },
       {
         "swap": "ISME420 30",
@@ -650,16 +642,12 @@
         "price_change": 18000.0
       },
       {
-        "swap": "WP10.375E50",
-        "price_change": 43000.0
-      },
-      {
         "swap": "M13E5 520",
         "price_change": 77000.0
       },
       {
         "swap": "WP12.460N",
-        "price_change": 22500
+        "price_change": -14400
       },
       {
         "swap": "WP10 340E22",
@@ -701,7 +689,7 @@
       },
       {
         "swap": "WP12.430E50",
-        "price_change": 3750
+        "price_change": -2400
       }
     ],
     "WP12.430E201": [
@@ -727,7 +715,7 @@
       },
       {
         "swap": "ISM420 30",
-        "price_change": -8750
+        "price_change": -5600
       },
       {
         "swap": "WP10 340E22",
@@ -742,10 +730,6 @@
       {
         "swap": "WP12.400E50",
         "price_change": -3000.0
-      },
-      {
-        "swap": "WP12.460E50",
-        "price_change": 8000.0
       },
       {
         "swap": "WP12.460E50",
@@ -767,7 +751,7 @@
       },
       {
         "swap": "WP6.210E32",
-        "price_change": 2500
+        "price_change": -1600
       }
     ],
     "WP6.210E32": [
@@ -778,10 +762,6 @@
       {
         "swap": "WP6.180E32",
         "price_change": -2000.0
-      },
-      {
-        "swap": "WP7.240E51",
-        "price_change": 32000.0
       }
     ],
     "WP6.210": [
@@ -793,7 +773,7 @@
     "WP6.240E32": [
       {
         "swap": "ISDe210 30",
-        "price_change": -29000.0
+        "price_change": 29000.0
       }
     ],
     "WP7.240E51": [
@@ -887,7 +867,7 @@
       },
       {
         "swap": "WP12.400E50",
-        "price_change": 7500
+        "price_change": -4800
       }
     ],
     "ISME420 30": [
@@ -1067,7 +1047,7 @@
     "ISDe210 30": [
       {
         "swap": "WP6.240E32",
-        "price_change": 23200
+        "price_change": -23200
       }
     ],
     "WP7.270E51": [
