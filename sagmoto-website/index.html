@@ -168,7 +168,7 @@
                 <p>Explore our comprehensive range of commercial vehicles</p>
             </div>
 
-            <div class="tab-nav">
+            <div class="tab-nav" id="categoryTabs">
                 <button class="tab-btn active" data-tab="light">Light Duty Truck</button>
                 <button class="tab-btn" data-tab="medium">Medium Duty Truck</button>
                 <button class="tab-btn" data-tab="heavy">Heavy Duty Truck</button>
@@ -183,15 +183,22 @@
         </div>
     </section>
 
-    <!-- ===== RECOMMENDED MODELS (动态加载) ===== -->
+    <!-- ===== RECOMMENDED MODELS (完全匹配sagmoto.com官网) ===== -->
     <section class="section-bg-white" id="recommended">
         <div class="container">
             <div class="s_title">
-                <h2>Recommended Models</h2>
-                <p>Our most popular and top-performing vehicles</p>
+                <h2>Recommended Model</h2>
             </div>
-            <div class="recommend-grid" id="recommendGrid">
-                <!-- 动态渲染推荐车型 -->
+            <div class="tab-nav" id="recommendTabs">
+                <button class="tab-btn active" data-tab="light">Light Duty Truck</button>
+                <button class="tab-btn" data-tab="medium">Medium Duty Truck</button>
+                <button class="tab-btn" data-tab="heavy">Heavy Duty Truck</button>
+                <button class="tab-btn" data-tab="special">Special Vehicle</button>
+                <button class="tab-btn" data-tab="offroad">Off-road Truck</button>
+                <button class="tab-btn" data-tab="newenergy">New Energy</button>
+            </div>
+            <div id="recommendPanelsContainer">
+                <!-- 动态渲染推荐车型面板 -->
             </div>
         </div>
     </section>
@@ -360,44 +367,94 @@
             }).join('');
         }
 
-        // 渲染推荐车型
-        const recommendGrid = document.getElementById('recommendGrid');
-        if (recommendGrid) {
-            const featured = products.filter(p => p.featured).slice(0, 8);
-            recommendGrid.innerHTML = featured.map(p => {
-                const features = p.description.split('. ').filter(s => s.length > 10).slice(0, 3);
+        // 渲染推荐车型 (完全匹配sagmoto.com官网 - 带tab切换，每个分类4个产品)
+        const recommendPanelsContainer = document.getElementById('recommendPanelsContainer');
+        const recommendTabs = document.getElementById('recommendTabs');
+        if (recommendPanelsContainer) {
+            const categories = ['light', 'medium', 'heavy', 'special', 'offroad', 'newenergy'];
+            const catLabels = {
+                light: 'Light Duty Truck',
+                medium: 'Medium Duty Truck', 
+                heavy: 'Heavy Duty Truck',
+                special: 'Special Vehicle',
+                offroad: 'Off-road Truck',
+                newenergy: 'New Energy'
+            };
+            
+            // 渲染每个分类的panel
+            recommendPanelsContainer.innerHTML = categories.map((cat, idx) => {
+                const catProducts = products.filter(p => p.category === cat).slice(0, 4);
                 return `
-                    <div class="recommend-card">
-                        <div class="card-img">
-                            <img src="${p.image}" alt="${p.name}" onerror="this.src='${fallbackImgSmall}'">
-                        </div>
-                        <div class="card-body">
-                            <h3>${p.name}</h3>
-                            <ul class="features">
-                                ${features.map(f => `<li>${f.replace(/\.$/, '')}</li>`).join('')}
-                            </ul>
+                    <div class="recommend-panel ${idx === 0 ? 'active' : ''}" data-panel="${cat}">
+                        <div class="recommend-grid">
+                            ${catProducts.map(p => {
+                                const descLines = [];
+                                if (p.desc1) descLines.push(p.desc1);
+                                if (p.desc2) descLines.push(p.desc2);
+                                if (p.desc3) descLines.push(p.desc3);
+                                return `
+                                    <div class="recommend-card">
+                                        <div class="card-img">
+                                            <a href="products.html?search=${encodeURIComponent(p.name)}">
+                                                <img src="${p.image}" alt="${p.name}" onerror="this.src='${fallbackImgSmall}'">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h3><a href="products.html?search=${encodeURIComponent(p.name)}">${p.name}</a></h3>
+                                            <div class="desc-lines">
+                                                ${descLines.map(d => `<p>${d}</p>`).join('')}
+                                            </div>
+                                            <a href="products.html?search=${encodeURIComponent(p.name)}" class="btn-plus">
+                                                <span>+</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
                         </div>
                     </div>
                 `;
             }).join('');
+            
+            // 绑定推荐区域tab切换
+            if (recommendTabs) {
+                const recTabBtns = recommendTabs.querySelectorAll('.tab-btn');
+                const recPanels = recommendPanelsContainer.querySelectorAll('.recommend-panel');
+                recTabBtns.forEach(function(btn) {
+                    btn.addEventListener('click', function() {
+                        var target = this.getAttribute('data-tab');
+                        recTabBtns.forEach(function(b) { b.classList.remove('active'); });
+                        this.classList.add('active');
+                        recPanels.forEach(function(panel) {
+                            panel.classList.remove('active');
+                            if (panel.getAttribute('data-panel') === target) {
+                                panel.classList.add('active');
+                            }
+                        });
+                    });
+                });
+            }
         }
 
-        // 重新绑定Tab切换（因为DOM已更新）
-        var tabBtns = document.querySelectorAll('.tab-btn');
-        var tabPanels = document.querySelectorAll('.tab-panel');
-        tabBtns.forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                var target = this.getAttribute('data-tab');
-                tabBtns.forEach(function(b) { b.classList.remove('active'); });
-                this.classList.add('active');
-                tabPanels.forEach(function(panel) {
-                    panel.classList.remove('active');
-                    if (panel.getAttribute('data-panel') === target) {
-                        panel.classList.add('active');
-                    }
+        // 重新绑定产品分类Tab切换（限制在categoryTabs容器内）
+        var categoryTabs = document.getElementById('categoryTabs');
+        if (categoryTabs) {
+            var tabBtns = categoryTabs.querySelectorAll('.tab-btn');
+            var tabPanels = document.querySelectorAll('.tab-panel');
+            tabBtns.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    var target = this.getAttribute('data-tab');
+                    tabBtns.forEach(function(b) { b.classList.remove('active'); });
+                    this.classList.add('active');
+                    tabPanels.forEach(function(panel) {
+                        panel.classList.remove('active');
+                        if (panel.getAttribute('data-panel') === target) {
+                            panel.classList.add('active');
+                        }
+                    });
                 });
             });
-        });
+        }
     })();
     </script>
 </body>
