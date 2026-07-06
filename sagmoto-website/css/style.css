@@ -115,18 +115,21 @@ img {
     background: rgba(255,255,255,0.15);
 }
 
-/* === Header / Navigation === */
+/* === Header / Navigation (透明背景，覆盖在Hero上方) === */
 .e_container-2 {
-    background: var(--bg-white);
-    border-bottom: 1px solid var(--border-color);
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
     position: sticky;
     top: 0;
     z-index: 1000;
     transition: var(--transition);
 }
 
-.e_container-2.shrink {
+.e_container-2.shrink,
+.e_container-2.scrolled {
+    background: var(--bg-white);
     box-shadow: var(--shadow-md);
+    border-bottom-color: var(--border-color);
 }
 
 .e_container-2 .container {
@@ -141,9 +144,29 @@ img {
     flex-shrink: 0;
 }
 
-.logo-area img {
-    height: 48px;
+.logo-area a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    height: 40px;
     width: auto;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* 滚动后导航栏文字变深色 */
+.e_container-2.scrolled .logo-text,
+.e_container-2.shrink .logo-text {
+    color: var(--text-dark);
 }
 
 .main-nav {
@@ -156,14 +179,35 @@ img {
     position: relative;
 }
 
+/* 导航文字默认白色（透明背景时） */
 .main-nav > li > a {
     display: block;
     padding: 12px 20px;
-    color: var(--text-dark);
+    color: #fff;
     font-size: 15px;
     font-weight: 500;
     position: relative;
     white-space: nowrap;
+}
+
+/* 滚动后导航文字变深色 */
+.e_container-2.scrolled .main-nav > li > a,
+.e_container-2.shrink .main-nav > li > a {
+    color: var(--text-dark);
+}
+
+/* 搜索图标样式 */
+.nav-search > a {
+    padding: 10px 12px !important;
+}
+
+.nav-search > a svg {
+    display: block;
+    transition: var(--transition);
+}
+
+.nav-search > a:hover svg {
+    transform: scale(1.1);
 }
 
 .main-nav > li > a::after {
