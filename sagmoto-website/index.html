@@ -17,13 +17,13 @@
     <div class="e_container-1">
         <div class="container">
             <div class="top-contact">
-                <a href="tel:+8609178738888">
+                <a href="tel:+8615319431311">
                     <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/></svg>
-                    +86 (0)917 873 8888
+                    +86 15319431311
                 </a>
-                <a href="mailto:sales@sagmoto.com">
+                <a href="mailto:sales@fenghan-trade.com">
                     <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                    sales@sagmoto.com
+                    sales@fenghan-trade.com
                 </a>
             </div>
             <div class="lang-selector">
@@ -169,12 +169,12 @@
             </div>
 
             <div class="tab-nav">
-                <button class="tab-btn active" data-tab="tractor">Tractor</button>
-                <button class="tab-btn" data-tab="dump">Dump Truck</button>
+                <button class="tab-btn active" data-tab="light">Light Duty Truck</button>
+                <button class="tab-btn" data-tab="medium">Medium Duty Truck</button>
+                <button class="tab-btn" data-tab="heavy">Heavy Duty Truck</button>
+                <button class="tab-btn" data-tab="offroad">Off-road Truck</button>
                 <button class="tab-btn" data-tab="special">Special Vehicle</button>
                 <button class="tab-btn" data-tab="new-energy">New Energy</button>
-                <button class="tab-btn" data-tab="cargo">Cargo Truck</button>
-                <button class="tab-btn" data-tab="mixer">Mixer Truck</button>
             </div>
 
             <div id="tabPanelsContainer">
@@ -297,8 +297,8 @@
                         Postal Code: 721013
                     </p>
                     <p>
-                        <strong>Phone:</strong> +86 (0)917 873 8888<br>
-                        <strong>Email:</strong> sales@sagmoto.com
+                        <strong>Phone:</strong> +86 15319431311<br>
+                        <strong>Email:</strong> sales@fenghan-trade.com
                     </p>
                 </div>
                 <div class="footer-col qr-code">
@@ -325,10 +325,10 @@
         if (!products.length) return;
 
         // Tab顺序映射
-        const tabOrder = ['tractor', 'dump', 'special', 'new-energy', 'cargo', 'mixer'];
+        const tabOrder = ['light', 'medium', 'heavy', 'offroad', 'special', 'new-energy'];
         const categoryLabels = {
-            'tractor': 'Tractor', 'dump': 'Dump Truck', 'special': 'Special Vehicle',
-            'new-energy': 'New Energy', 'cargo': 'Cargo Truck', 'mixer': 'Mixer Truck'
+            'light': 'Light Duty Truck', 'medium': 'Medium Duty Truck', 'heavy': 'Heavy Duty Truck',
+            'offroad': 'Off-road Truck', 'special': 'Special Vehicle', 'new-energy': 'New Energy'
         };
         const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240'%3E%3Crect fill='%23e5e5e5' width='360' height='240'/%3E%3Ctext x='180' y='120' text-anchor='middle' fill='%23999' font-size='16'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
         const fallbackImgSmall = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='270' height='200'%3E%3Crect fill='%23e5e5e5' width='270' height='200'/%3E%3Ctext x='135' y='100' text-anchor='middle' fill='%23999' font-size='14'%3ESAGMOTO%3C/text%3E%3C/svg%3E";
