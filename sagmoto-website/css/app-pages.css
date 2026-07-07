@@ -1,0 +1,375 @@
+/* ===== App Pages — Styles for content extracted from official sagmoto.com ===== */
+
+.scraped-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Product list sections */
+.scraped-content .e_container-1 { max-width: 1200px; margin: 0 auto; }
+.scraped-content .e_container-2 { max-width: 1200px; margin: 0 auto; }
+.scraped-content .e_container-3 { max-width: 1200px; margin: 0 auto; }
+.scraped-content .e_container-5 { max-width: 1200px; margin: 0 auto; }
+.scraped-content .e_container-9 { max-width: 1200px; margin: 0 auto; }
+
+/* Section layout containers */
+.scraped-content .p_gridbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scraped-content .p_gridCell {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Product grid */
+.scraped-content .e_loop-4 .p_list,
+.scraped-content .e_loop-8 .p_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scraped-content .cbox-4,
+.scraped-content .cbox-8 {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.scraped-content .cbox-4:hover,
+.scraped-content .cbox-8:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+/* Product card image */
+.scraped-content .e_image-6,
+.scraped-content .e_image-10 {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.scraped-content .e_image-6 img,
+.scraped-content .e_image-10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.scraped-content .cbox-4:hover .e_image-6 img {
+    transform: scale(1.05);
+}
+
+/* Product card title */
+.scraped-content .e_text-7,
+.scraped-content .e_text-10 {
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1F3D;
+    text-align: center;
+}
+
+.scraped-content .e_text-7 a,
+.scraped-content .e_text-10 a {
+    color: #0D1F3D;
+    text-decoration: none;
+}
+
+.scraped-content .e_text-7 a:hover,
+.scraped-content .e_text-10 a:hover {
+    color: #C62828;
+}
+
+/* Section titles (e_text-10 in product sections) */
+.scraped-content .e_text-10.s_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0D1F3D;
+    text-align: center;
+    padding: 40px 0 0;
+    margin: 0;
+}
+
+/* Category navigation cards (e_loop-8 with e_container-9) */
+.scraped-content .e_container-9.s_layout {
+    padding: 20px;
+}
+
+.scraped-content .e_container-9 .e_image-11 {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.scraped-content .e_container-9 .e_image-11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.scraped-content .e_container-9 .e_text-12 {
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.scraped-content .e_container-9 .e_text-12 a {
+    color: #0D1F3D;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Rich text content (service pages) */
+.scraped-content .e_richText {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.scraped-content .e_richText h1,
+.scraped-content .e_richText h2,
+.scraped-content .e_richText h3 {
+    color: #0D1F3D;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.scraped-content .e_richText p {
+    margin-bottom: 16px;
+}
+
+.scraped-content .e_richText img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Product detail showcase pages (pzkyzyc, pzmtc) */
+.scraped-content .e_text-11.s_title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.scraped-content .e_text-12.s_title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0D1F3D;
+    padding-top: 40px;
+}
+
+.scraped-content .e_line-15,
+.scraped-content .e_line-77,
+.scraped-content .e_line-11,
+.scraped-content .e_line-10 {
+    width: 60px;
+    height: 3px;
+    background: #C62828;
+    margin: 20px auto;
+    border: none;
+}
+
+.scraped-content .e_image-91,
+.scraped-content .e_image-62,
+.scraped-content .e_image-67 {
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.scraped-content .e_image-91 img,
+.scraped-content .e_image-62 img,
+.scraped-content .e_image-67 img {
+    width: 100%;
+    height: auto;
+}
+
+.scraped-content .e_text-63.s_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0D1F3D;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.scraped-content .e_text-89 {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+/* Advantage grid (pzkyzyc) */
+.scraped-content .e_container-17,
+.scraped-content .e_container-24,
+.scraped-content .e_container-21 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scraped-content .e_richText-25,
+.scraped-content .e_richText-22 {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Hide CMS breadcrumb (we have our own) */
+.scraped-content .e_breadcrumb,
+.scraped-content .p_breadcrumb,
+.scraped-content .e_breadcrumb-3 {
+    display: none !important;
+}
+
+/* Hide CMS empty/template text nodes */
+.scraped-content .text-secondary.p_icon {
+    display: none !important;
+}
+.scraped-content .text-secondary.p_title:empty {
+    display: none !important;
+}
+
+/* Fix the category header layout (c_category_427) */
+.scraped-content [id^="c_category_427"] .e_container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scraped-content [id^="c_category_427"] .e_text-11 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D1F3D;
+    margin: 0;
+}
+
+/* Category filter tabs */
+.scraped-content .e_loop-8 .e_container-9 {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    background: #f0f2f5;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.scraped-content .e_loop-8 .e_container-9:hover {
+    background: #0D1F3D;
+}
+
+.scraped-content .e_loop-8 .e_container-9:hover a {
+    color: #fff;
+}
+
+.scraped-content .e_loop-8 .e_text-10 a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Section spacing for c_static and c_product_list blocks */
+.scraped-content [id^="c_static_"] {
+    margin: 0;
+}
+
+.scraped-content [id^="c_static_001"] .e_text-12 {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    padding-top: 10px;
+}
+
+/* Fix container widths inside scraped content */
+.scraped-content .e_container-1.s_layout,
+.scraped-content .e_container-2.s_layout,
+.scraped-content .e_container-17.s_layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scraped-content .cbox-1-0,
+.scraped-content .cbox-2-0 {
+    flex: 1;
+    min-width: 280px;
+    padding: 15px;
+}
+
+.scraped-content .cbox-1-1,
+.scraped-content .cbox-2-1 {
+    flex: 1;
+    min-width: 280px;
+    padding: 15px;
+}
+
+/* Hide empty containers */
+.scraped-content div:empty {
+    display: none;
+}
+
+/* Fix e_effect containers */
+.scraped-content [id^="c_effect"] {
+    display: none;
+}
+
+/* General spacing */
+.scraped-content section,
+.scraped-content [id^="c_static_"],
+.scraped-content [id^="c_product_list_"],
+.scraped-content [id^="c_effect_"] {
+    padding: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .scraped-content .e_loop-4 .p_list,
+    .scraped-content .e_loop-8 .p_list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+    }
+    
+    .scraped-content .e_image-6 {
+        height: 180px;
+    }
+    
+    .scraped-content .e_text-10.s_title {
+        font-size: 22px;
+    }
+}
