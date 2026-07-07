@@ -18,6 +18,7 @@ BASE_URL = "http://www.sagmoto.com"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0.0.0 Safari/537.36"
 
 PAGE_LIST = [
+    # Application pages (content 100% from sagmoto.com)
     ("/qyc.html", "qyc.html"),
     ("/zxc.html", "zxc.html"),
     ("/zhc.html", "zhc.html"),
@@ -25,14 +26,18 @@ PAGE_LIST = [
     ("/pzkyzyc.html", "pzkyzyc.html"),
     ("/pzmtc.html", "pzmtc.html"),
     ("/tzc.html", "tzc.html"),
+    # Service pages
     ("/service.html", "service.html"),
     ("/video_list.html", "video_list.html"),
     ("/service_list/1674411714944516096.html", "service_list/1674411714944516096.html"),
     ("/service_list/1674411730417303552.html", "service_list/1674411730417303552.html"),
     ("/service_list/1674411748220751872.html", "service_list/1674411748220751872.html"),
     ("/service_list/1674411767427842048.html", "service_list/1674411767427842048.html"),
+    # News pages
     ("/news_list/81163.html", "news_list/81163.html"),
     ("/news_list/1.html", "news_list/1.html"),
+    # About page (exists on sagmoto.com)
+    ("/about.html", "about.html"),
 ]
 
 # Nav CSS to overlay on top of CMS nav bar
@@ -45,28 +50,42 @@ NAV_CSS = """<style>
 /* --- OUR NAV --- */
 .our-nav-bar{background:#0D1F3D;width:100%;position:sticky;top:0;z-index:9999;box-shadow:0 2px 10px rgba(0,0,0,.3);font-family:Arial,Helvetica,sans-serif}
 .our-nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:70px}
-.our-nav-logo{height:45px}
+.our-logo-link{display:flex;align-items:center;gap:10px;text-decoration:none}
+.our-nav-logo{height:42px}
+.our-logo-text{color:#fff;font-size:18px;font-weight:700;letter-spacing:2px}
 .our-main-nav{list-style:none;display:flex;gap:0;margin:0;padding:0;height:100%}
 .our-main-nav>li{position:relative;height:100%;display:flex;align-items:center}
-.our-main-nav>li>a{color:#fff;text-decoration:none;padding:0 18px;font-size:13px;font-weight:600;letter-spacing:.5px;height:100%;display:flex;align-items:center;transition:all .2s;white-space:nowrap}
+.our-main-nav>li>a{color:#fff;text-decoration:none;padding:0 16px;font-size:13px;font-weight:600;letter-spacing:.5px;height:100%;display:flex;align-items:center;transition:all .2s;white-space:nowrap}
 .our-main-nav>li>a:hover{color:#C89B3C}
 .our-main-nav>li>a .our-arrow{font-size:9px;margin-left:4px}
-.our-has-dropdown:hover>.our-dropdown-mega{display:flex}
-.our-dropdown-mega{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;min-width:700px;border-radius:0 0 6px 6px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:25px 30px;gap:30px;z-index:10000;border-top:3px solid #C62828}
-.our-dropdown-col h4{color:#0D1F3D;font-size:13px;font-weight:700;margin:0 0 10px 0;text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid #e0e0e0;padding-bottom:6px}
-.our-dropdown-col a{display:block;color:#333;text-decoration:none;padding:5px 0;font-size:12px;transition:all .2s;white-space:nowrap}
+.our-has-dropdown:hover>.our-dropdown-mega,.our-has-dropdown:hover>.our-app-dropdown{display:flex}
+.our-dropdown-mega{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;min-width:700px;border-radius:0 0 6px 6px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:25px 30px;gap:25px;z-index:10000;border-top:3px solid #C62828;flex-wrap:wrap}
+.our-app-dropdown{min-width:900px;padding:25px 30px;gap:20px}
+.our-dropdown-mega.our-app-dropdown{min-width:1050px}
+.our-dropdown-col{flex:1;min-width:150px}
+.our-dropdown-col h4{color:#0D1F3D;font-size:13px;font-weight:700;margin:0 0 10px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px;white-space:nowrap}
+.our-dropdown-col h3{color:#C89B3C;font-size:15px;margin:0 0 15px 0;font-weight:600}
+.our-dropdown-col a{display:block;color:#333;text-decoration:none;padding:4px 0;font-size:12px;transition:all .2s;white-space:nowrap}
 .our-dropdown-col a:hover{color:#C62828;padding-left:5px}
+.our-dropdown-col a img{width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:5px;border-radius:3px}
 
 /* --- OUR FOOTER --- */
 .our-site-footer{background:#0D1F3D;color:#ccc;padding:50px 40px 20px;margin-top:0;font-family:Arial,Helvetica,sans-serif}
 .our-footer-inner{max-width:1400px;margin:0 auto}
-.our-footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:30px}
-.our-footer-col h4{color:#C89B3C;font-size:15px;margin-bottom:15px;font-weight:600}
+.our-footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding-bottom:30px}
+.our-footer-col h3{color:#C89B3C;font-size:15px;margin-bottom:15px;font-weight:600}
 .our-footer-col p,.our-footer-col a{color:#aaa;font-size:13px;line-height:1.7;text-decoration:none;display:block;transition:.2s}
+.our-footer-col ul{list-style:none;padding:0;margin:0}
+.our-footer-col ul li{margin-bottom:6px}
 .our-footer-col a:hover{color:#fff}
-.our-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;text-align:center;font-size:12px;color:#999}
-@media(max-width:1024px){.our-main-nav>li>a{padding:0 10px;font-size:11px}.our-nav-inner{padding:0 20px}}
-@media(max-width:768px){.our-nav-inner{height:60px;padding:0 15px}.our-nav-logo{height:35px}.our-main-nav{display:none}}
+.our-footer-col .sub{color:#777;font-size:11px;margin-left:4px}
+.our-footer-col img{max-width:120px;margin-bottom:10px}
+.our-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;font-size:12px;color:#999}
+.our-footer-bottom a{color:#999;text-decoration:none;margin:0 10px}
+.our-footer-bottom a:hover{color:#fff}
+@media(max-width:1200px){.our-dropdown-mega.our-app-dropdown{min-width:800px}}
+@media(max-width:1024px){.our-main-nav>li>a{padding:0 8px;font-size:11px}.our-nav-inner{padding:0 20px}.our-dropdown-mega{min-width:500px}.our-app-dropdown{min-width:600px}.our-footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.our-nav-inner{height:60px;padding:0 15px}.our-nav-logo{height:35px}.our-main-nav{display:none}.our-footer-grid{grid-template-columns:1fr}}
 </style>"""
 
 

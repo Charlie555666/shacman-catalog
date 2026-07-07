@@ -33,7 +33,7 @@
     if(window.tenant && window.tenant.language == 'hn'){
         window.tenant.language = 'es'
     }
-    window.pageObj={"instanceId":"new2023032811535752050","pageId":"52985059-ae0b-4a3a-996b-2c683e663869","name":"Tractor","filename":"qyc","pageAddress":null,"appId":"60006","pageMotherSetIdList":["340102d1-70fe-40c0-a5cb-c1d1b652a998","footer"],"pageMotherSetList":[{"instanceId":"new2023032811535752050","motherSetId":"340102d1-70fe-40c0-a5cb-c1d1b652a998","motherSetName":"隐藏导航","motherViewType":null,"motherOperStatus":null,"motherSetImageUrl":"","motherSetDel":0,"motherSetLocation":0,"pageIds":null,"createTime":1682501048000,"updateTime":1682501048000,"version":0},{"instanceId":"new2023032811535752050","motherSetId":"footer","motherSetName":"默认底部","motherViewType":null,"motherOperStatus":null,"motherSetImageUrl":"/productimg/mother/p/footer.png","motherSetDel":1,"motherSetLocation":1,"pageIds":null,"createTime":1668064843000,"updateTime":1668064843000,"version":0}],"children":null,"batchCacheTPageList":null,"pageType":"1","contentType":"18512","viewType":null,"imageUrl":null,"previewImg":null,"showOrder":29,"parentId":"0","bindId":null,"operStatus":"BUSINESS","del":0,"pageTypeName":null,"isHomePage":0,"isLoginPage":0,"isRegisterPage":null,"isDeafault":0,"isLoginCheck":null,"isSpecialPage":0,"isErrorPage":0,"isPermissionPage":null,"isShopPage":0,"isNavigation":null,"isFlowpage":0,"createTime":1692934090000,"updateTime":1775639052000,"renderInfo":{"host":"www.sagmoto.com","realhost":"www.sagmoto.com","traceId":"3f0aeefa-8fed-4930-8de0-e9d968f25533"}};
+    window.pageObj={"instanceId":"new2023032811535752050","pageId":"52985059-ae0b-4a3a-996b-2c683e663869","name":"Tractor","filename":"qyc","pageAddress":null,"appId":"60006","pageMotherSetIdList":["340102d1-70fe-40c0-a5cb-c1d1b652a998","footer"],"pageMotherSetList":[{"instanceId":"new2023032811535752050","motherSetId":"340102d1-70fe-40c0-a5cb-c1d1b652a998","motherSetName":"隐藏导航","motherViewType":null,"motherOperStatus":null,"motherSetImageUrl":"","motherSetDel":0,"motherSetLocation":0,"pageIds":null,"createTime":1682501048000,"updateTime":1682501048000,"version":0},{"instanceId":"new2023032811535752050","motherSetId":"footer","motherSetName":"默认底部","motherViewType":null,"motherOperStatus":null,"motherSetImageUrl":"/productimg/mother/p/footer.png","motherSetDel":1,"motherSetLocation":1,"pageIds":null,"createTime":1668064843000,"updateTime":1668064843000,"version":0}],"children":null,"batchCacheTPageList":null,"pageType":"1","contentType":"18512","viewType":null,"imageUrl":null,"previewImg":null,"showOrder":29,"parentId":"0","bindId":null,"operStatus":"BUSINESS","del":0,"pageTypeName":null,"isHomePage":0,"isLoginPage":0,"isRegisterPage":null,"isDeafault":0,"isLoginCheck":null,"isSpecialPage":0,"isErrorPage":0,"isPermissionPage":null,"isShopPage":0,"isNavigation":null,"isFlowpage":0,"createTime":1692934090000,"updateTime":1775639052000,"renderInfo":{"host":"www.sagmoto.com","realhost":"www.sagmoto.com","traceId":"0bb8e908-089c-41fa-a1fc-22ab09c12eac"}};
 </script>
 <script src="/npublic/libs/core/ceccjquery.min.js,require.min.js,lib.min.js,page.min.js?instance=new2023032811535752050&viewType=p&v=1775725714000&siteType=oper"></script>
 <script src="/npublic/commonjs/common.min.js?instance=new2023032811535752050&viewType=p&v=1775725714000&siteType=oper"></script>
@@ -46,63 +46,148 @@
 /* --- OUR NAV --- */
 .our-nav-bar{background:#0D1F3D;width:100%;position:sticky;top:0;z-index:9999;box-shadow:0 2px 10px rgba(0,0,0,.3);font-family:Arial,Helvetica,sans-serif}
 .our-nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:70px}
-.our-nav-logo{height:45px}
+.our-logo-link{display:flex;align-items:center;gap:10px;text-decoration:none}
+.our-nav-logo{height:42px}
+.our-logo-text{color:#fff;font-size:18px;font-weight:700;letter-spacing:2px}
 .our-main-nav{list-style:none;display:flex;gap:0;margin:0;padding:0;height:100%}
 .our-main-nav>li{position:relative;height:100%;display:flex;align-items:center}
-.our-main-nav>li>a{color:#fff;text-decoration:none;padding:0 18px;font-size:13px;font-weight:600;letter-spacing:.5px;height:100%;display:flex;align-items:center;transition:all .2s;white-space:nowrap}
+.our-main-nav>li>a{color:#fff;text-decoration:none;padding:0 16px;font-size:13px;font-weight:600;letter-spacing:.5px;height:100%;display:flex;align-items:center;transition:all .2s;white-space:nowrap}
 .our-main-nav>li>a:hover{color:#C89B3C}
 .our-main-nav>li>a .our-arrow{font-size:9px;margin-left:4px}
-.our-has-dropdown:hover>.our-dropdown-mega{display:flex}
-.our-dropdown-mega{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;min-width:700px;border-radius:0 0 6px 6px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:25px 30px;gap:30px;z-index:10000;border-top:3px solid #C62828}
-.our-dropdown-col h4{color:#0D1F3D;font-size:13px;font-weight:700;margin:0 0 10px 0;text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid #e0e0e0;padding-bottom:6px}
-.our-dropdown-col a{display:block;color:#333;text-decoration:none;padding:5px 0;font-size:12px;transition:all .2s;white-space:nowrap}
+.our-has-dropdown:hover>.our-dropdown-mega,.our-has-dropdown:hover>.our-app-dropdown{display:flex}
+.our-dropdown-mega{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;min-width:700px;border-radius:0 0 6px 6px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:25px 30px;gap:25px;z-index:10000;border-top:3px solid #C62828;flex-wrap:wrap}
+.our-app-dropdown{min-width:900px;padding:25px 30px;gap:20px}
+.our-dropdown-mega.our-app-dropdown{min-width:1050px}
+.our-dropdown-col{flex:1;min-width:150px}
+.our-dropdown-col h4{color:#0D1F3D;font-size:13px;font-weight:700;margin:0 0 10px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px;white-space:nowrap}
+.our-dropdown-col h3{color:#C89B3C;font-size:15px;margin:0 0 15px 0;font-weight:600}
+.our-dropdown-col a{display:block;color:#333;text-decoration:none;padding:4px 0;font-size:12px;transition:all .2s;white-space:nowrap}
 .our-dropdown-col a:hover{color:#C62828;padding-left:5px}
+.our-dropdown-col a img{width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:5px;border-radius:3px}
 
 /* --- OUR FOOTER --- */
 .our-site-footer{background:#0D1F3D;color:#ccc;padding:50px 40px 20px;margin-top:0;font-family:Arial,Helvetica,sans-serif}
 .our-footer-inner{max-width:1400px;margin:0 auto}
-.our-footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:30px}
-.our-footer-col h4{color:#C89B3C;font-size:15px;margin-bottom:15px;font-weight:600}
+.our-footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding-bottom:30px}
+.our-footer-col h3{color:#C89B3C;font-size:15px;margin-bottom:15px;font-weight:600}
 .our-footer-col p,.our-footer-col a{color:#aaa;font-size:13px;line-height:1.7;text-decoration:none;display:block;transition:.2s}
+.our-footer-col ul{list-style:none;padding:0;margin:0}
+.our-footer-col ul li{margin-bottom:6px}
 .our-footer-col a:hover{color:#fff}
-.our-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;text-align:center;font-size:12px;color:#999}
-@media(max-width:1024px){.our-main-nav>li>a{padding:0 10px;font-size:11px}.our-nav-inner{padding:0 20px}}
-@media(max-width:768px){.our-nav-inner{height:60px;padding:0 15px}.our-nav-logo{height:35px}.our-main-nav{display:none}}
+.our-footer-col .sub{color:#777;font-size:11px;margin-left:4px}
+.our-footer-col img{max-width:120px;margin-bottom:10px}
+.our-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;font-size:12px;color:#999}
+.our-footer-bottom a{color:#999;text-decoration:none;margin:0 10px}
+.our-footer-bottom a:hover{color:#fff}
+@media(max-width:1200px){.our-dropdown-mega.our-app-dropdown{min-width:800px}}
+@media(max-width:1024px){.our-main-nav>li>a{padding:0 8px;font-size:11px}.our-nav-inner{padding:0 20px}.our-dropdown-mega{min-width:500px}.our-app-dropdown{min-width:600px}.our-footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.our-nav-inner{height:60px;padding:0 15px}.our-nav-logo{height:35px}.our-main-nav{display:none}.our-footer-grid{grid-template-columns:1fr}}
 </style>
 <base href="http://www.sagmoto.com/">
 </head><body data-pageid="52985059-ae0b-4a3a-996b-2c683e663869"><div class="our-nav-bar">
     <div class="our-nav-inner">
         <a href="index.html" class="our-logo-link">
-            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/45799ffa-90f5-4dc5-8fc1-f0dd10445b52.png" alt="SAGMOTO" class="our-nav-logo">
+            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO" class="our-nav-logo">
+            <span class="our-logo-text">SAG INTL</span>
         </a>
         <ul class="our-main-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li class="our-has-dropdown"><a href="products.html">PRODUCTS <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="products.html">PRODUCTS <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>Light Duty</h4><a href="products.html">X9 Series</a><a href="products.html">X6 Series</a><a href="products.html">i9 Series</a></div>
-                    <div class="our-dropdown-col"><h4>Medium Duty</h4><a href="products.html">E3 Series</a></div>
-                    <div class="our-dropdown-col"><h4>Heavy Duty</h4><a href="products.html">X3s Tractor</a><a href="products.html">X3s Dump</a><a href="products.html">X3s Cargo</a></div>
-                    <div class="our-dropdown-col"><h4>Electric</h4><a href="products.html">E9 Series</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>Light Duty Truck(4.5T≤GCW≤25T)</h4>
+                        <a href="products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ef3451b4-d300-4c3d-92c5-dab5f29efb6f.png" alt="i9"/> i9</a>
+                        <a href="products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/175cc731-094c-4946-880b-90aa3a1a867e.png" alt="X9"/> X9</a>
+                        <a href="products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0630693e-37e8-43be-98dd-acbdb49c70c9.png" alt="X7"/> X7</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Medium Duty Truck(12T≤GCW≤60T)</h4>
+                        <a href="products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/64c3428c-c60f-4579-ac04-e561cbe8c772.png" alt="E6"/> E6</a>
+                        <a href="products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/8ae116ac-60cf-4da2-b2cb-ac4c80b04b92.png" alt="X6"/> X6</a>
+                        <a href="products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d2bf1d4c-09c4-426a-895a-bd8f6aba5a63.jpg" alt="X5"/> X5</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Heavy Duty Truck(18T≤GCW≤100T)</h4>
+                        <a href="products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/84912c76-6629-4d69-ad59-d8da5940fbb4.jpg" alt="E1st"/> E1st</a>
+                        <a href="products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/a32c4261-9dac-4e68-87f7-c037b5a56733.jpg" alt="Z3"/> Z3</a>
+                        <a href="products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0d2ddb14-41e9-4f6c-b60a-1b53fa89e0f3.png" alt="E3"/> E3</a>
+                        <a href="products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/9aa95967-f314-494d-adbe-05935dee2d6c.png" alt="E9"/> E9</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Off-road Truck</h4>
+                        <a href="products.html?cat=offroad"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/fd557db0-8dc9-4c44-af5a-a0a89b608fc6.jpg" alt="Off-road"/> Off-road Dump</a>
+                        <a href="products.html?cat=offroad"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/2f71c746-9325-462d-96c7-2f59c4c7503e.jpg" alt="X3s"/> X3s</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="qyc.html">APPLICATION <span class="our-arrow">&#9662;</span></a>
-                <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>By Application</h4><a href="qyc.html">Tractor</a><a href="zxc.html">Dump Truck</a><a href="zhc.html">Cargo Truck</a><a href="special.html">Special Vehicle</a><a href="pzkyzyc.html">Off-road Dump Truck</a><a href="pzmtc.html">Off-road Tractor</a><a href="tzc.html">Off-road Truck</a></div>
+            <li class="our-has-dropdown">
+                <a href="qyc.html">APPLICATIONS <span class="our-arrow">&#9662;</span></a>
+                <div class="our-dropdown-mega our-app-dropdown">
+                    <div class="our-dropdown-col">
+                        <h4>Tractor</h4>
+                        <a href="qyc.html">Port Transport</a>
+                        <a href="qyc.html">Hazardous Chemicals Transport</a>
+                        <a href="qyc.html">Coal Transport</a>
+                        <a href="qyc.html">Sand And Gravel Transport</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Dump Truck</h4>
+                        <a href="zxc.html">Urban Construction</a>
+                        <a href="zxc.html">Mining</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Cargo Truck</h4>
+                        <a href="zhc.html">Express Delivery</a>
+                        <a href="zhc.html">Intercity Logistics</a>
+                        <a href="zhc.html">City Distribution</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Special Vehicle</h4>
+                        <a href="special.html">City Transportation</a>
+                        <a href="special.html">Smart Sanitation</a>
+                        <a href="special.html">Dangerous Goods Transportation</a>
+                        <a href="special.html">Road Work & Rescue</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Off-road Truck</h4>
+                        <a href="pzkyzyc.html">Off-road Dump Truck</a>
+                        <a href="pzmtc.html">Off-road Tractor</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="service.html">SERVICE <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="service.html">SERVICES <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>Service</h4><a href="service.html">Service Policy</a><a href="service_list/1674411714944516096.html">Find Provider</a><a href="service_list/1674411730417303552.html">Maintenance</a><a href="service_list/1674411748220751872.html">Driving Reminder</a><a href="service_list/1674411767427842048.html">Safe Driving</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>Service</h4>
+                        <a href="service.html">Service Policy</a>
+                        <a href="service_list/1674411714944516096.html">Find Your Service Provider</a>
+                        <a href="service_list/1674411730417303552.html">Maintenance Service</a>
+                        <a href="service_list/1674411748220751872.html">Driving Reminder</a>
+                        <a href="service_list/1674411767427842048.html">Safe Driving</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="news_list/81163.html">NEWS <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="news.html">NEWS <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>News</h4><a href="news_list/81163.html">News Center</a><a href="video_list.html">Video Center</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>News</h4>
+                        <a href="news_list/1.html">News Center</a>
+                        <a href="video_list.html">Video Center</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="about.html">ABOUT US <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="about.html">ABOUT US <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>About</h4><a href="about.html">Company Profile</a><a href="contact.html">Contact Us</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>About</h4>
+                        <a href="about.html">Who We Are</a>
+                        <a href="about.html">When We Started</a>
+                        <a href="about.html">Technological Innovation</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -1963,26 +2048,39 @@ $(()=>{
     <div class="our-footer-inner">
         <div class="our-footer-grid">
             <div class="our-footer-col">
-                <h4>SAGMOTO</h4>
-                <p>SAG Commercial Vehicle Company, a subsidiary of Shaanxi Automobile Holding Group, established in 1968.</p>
-                <p>Room 603A, Floor 6, Building B, Chanba Free Trade Center, No.777 Eurasia Avenue, Xi'an, China</p>
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="products.html?cat=light">Light Duty Truck<span class="sub">(4.5T≤GCW≤25T)</span></a></li>
+                    <li><a href="products.html?cat=medium">Medium Duty Truck<span class="sub">(12T≤GCW≤60T)</span></a></li>
+                    <li><a href="products.html?cat=heavy">Heavy Duty Truck<span class="sub">(18T≤GCW≤100T)</span></a></li>
+                    <li><a href="products.html?cat=offroad">Off-road Truck</a></li>
+                </ul>
             </div>
             <div class="our-footer-col">
-                <h4>Quick Links</h4>
-                <a href="products.html">Products</a>
-                <a href="qyc.html">Applications</a>
-                <a href="service.html">Service</a>
-                <a href="about.html">About Us</a>
+                <h3>APPLICATIONS</h3>
+                <ul>
+                    <li><a href="qyc.html">Tractor</a></li>
+                    <li><a href="zxc.html">Dump Truck</a></li>
+                    <li><a href="zhc.html">Cargo Truck</a></li>
+                    <li><a href="special.html">Special Vehicle</a></li>
+                    <li><a href="tzc.html">Off-road Truck</a></li>
+                    <li><a href="new-energy.html">New Energy</a></li>
+                </ul>
             </div>
             <div class="our-footer-col">
-                <h4>Contact</h4>
-                <p>Tel: +86 15319431311</p>
-                <p>Email: sales@fenghan-trade.com</p>
-                <a href="contact.html">Contact Form</a>
+                <h3>CONTACT US</h3>
+                <p><strong>Address:</strong><br>Room 603A, Floor 6, Building B,<br>Chanba Free Trade Center, No.777 Eurasia Avenue,<br>Chanba Ecological District, Xi'an, Shaanxi, China</p>
+                <p><strong>Tel:</strong> +86 15319431311<br><strong>E-mail:</strong> sales@fenghan-trade.com</p>
+            </div>
+            <div class="our-footer-col our-qr-code">
+                <h3>FOLLOW US</h3>
+                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO QR Code"/>
+                <p>Scan to visit our mobile site</p>
             </div>
         </div>
         <div class="our-footer-bottom">
-            <p>&copy; 2026 Shaanxi Fenghan Trading Co., Ltd. All rights reserved.</p>
+            <p>&copy; 2026 SAGMOTO | 陕汽集团商用车有限公司 | All Rights Reserved</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a> | <a href="index.html">Sitemap</a></p>
         </div>
     </div>
 </div>
