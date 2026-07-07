@@ -71,40 +71,112 @@ NAV_CSS = """<style>
 
 
 def make_nav_html(idx_prefix):
-    """Generate nav HTML with correct path prefix."""
+    """Generate nav HTML matching our site structure."""
+    products_prefix = idx_prefix
     return f"""<div class="our-nav-bar">
     <div class="our-nav-inner">
         <a href="{idx_prefix}index.html" class="our-logo-link">
-            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/45799ffa-90f5-4dc5-8fc1-f0dd10445b52.png" alt="SAGMOTO" class="our-nav-logo">
+            <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO" class="our-nav-logo">
+            <span class="our-logo-text">SAG INTL</span>
         </a>
         <ul class="our-main-nav">
-            <li><a href="{idx_prefix}index.html">HOME</a></li>
-            <li class="our-has-dropdown"><a href="{idx_prefix}products.html">PRODUCTS <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="{products_prefix}products.html">PRODUCTS <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>Light Duty</h4><a href="{idx_prefix}products.html">X9 Series</a><a href="{idx_prefix}products.html">X6 Series</a><a href="{idx_prefix}products.html">i9 Series</a></div>
-                    <div class="our-dropdown-col"><h4>Medium Duty</h4><a href="{idx_prefix}products.html">E3 Series</a></div>
-                    <div class="our-dropdown-col"><h4>Heavy Duty</h4><a href="{idx_prefix}products.html">X3s Tractor</a><a href="{idx_prefix}products.html">X3s Dump</a><a href="{idx_prefix}products.html">X3s Cargo</a></div>
-                    <div class="our-dropdown-col"><h4>Electric</h4><a href="{idx_prefix}products.html">E9 Series</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>Light Duty Truck(4.5T≤GCW≤25T)</h4>
+                        <a href="{products_prefix}products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ef3451b4-d300-4c3d-92c5-dab5f29efb6f.png" alt="i9"/> i9</a>
+                        <a href="{products_prefix}products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/175cc731-094c-4946-880b-90aa3a1a867e.png" alt="X9"/> X9</a>
+                        <a href="{products_prefix}products.html?cat=light"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0630693e-37e8-43be-98dd-acbdb49c70c9.png" alt="X7"/> X7</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Medium Duty Truck(12T≤GCW≤60T)</h4>
+                        <a href="{products_prefix}products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/64c3428c-c60f-4579-ac04-e561cbe8c772.png" alt="E6"/> E6</a>
+                        <a href="{products_prefix}products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/8ae116ac-60cf-4da2-b2cb-ac4c80b04b92.png" alt="X6"/> X6</a>
+                        <a href="{products_prefix}products.html?cat=medium"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d2bf1d4c-09c4-426a-895a-bd8f6aba5a63.jpg" alt="X5"/> X5</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Heavy Duty Truck(18T≤GCW≤100T)</h4>
+                        <a href="{products_prefix}products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/84912c76-6629-4d69-ad59-d8da5940fbb4.jpg" alt="E1st"/> E1st</a>
+                        <a href="{products_prefix}products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/a32c4261-9dac-4e68-87f7-c037b5a56733.jpg" alt="Z3"/> Z3</a>
+                        <a href="{products_prefix}products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0d2ddb14-41e9-4f6c-b60a-1b53fa89e0f3.png" alt="E3"/> E3</a>
+                        <a href="{products_prefix}products.html?cat=heavy"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/9aa95967-f314-494d-adbe-05935dee2d6c.png" alt="E9"/> E9</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Off-road Truck</h4>
+                        <a href="{products_prefix}products.html?cat=offroad"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/fd557db0-8dc9-4c44-af5a-a0a89b608fc6.jpg" alt="Off-road"/> Off-road Dump</a>
+                        <a href="{products_prefix}products.html?cat=offroad"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/2f71c746-9325-462d-96c7-2f59c4c7503e.jpg" alt="X3s"/> X3s</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="{idx_prefix}qyc.html">APPLICATION <span class="our-arrow">&#9662;</span></a>
-                <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>By Application</h4><a href="{idx_prefix}qyc.html">Tractor</a><a href="{idx_prefix}zxc.html">Dump Truck</a><a href="{idx_prefix}zhc.html">Cargo Truck</a><a href="{idx_prefix}special.html">Special Vehicle</a><a href="{idx_prefix}pzkyzyc.html">Off-road Dump Truck</a><a href="{idx_prefix}pzmtc.html">Off-road Tractor</a><a href="{idx_prefix}tzc.html">Off-road Truck</a></div>
+            <li class="our-has-dropdown">
+                <a href="{idx_prefix}qyc.html">APPLICATIONS <span class="our-arrow">&#9662;</span></a>
+                <div class="our-dropdown-mega our-app-dropdown">
+                    <div class="our-dropdown-col">
+                        <h4>Tractor</h4>
+                        <a href="{idx_prefix}qyc.html">Port Transport</a>
+                        <a href="{idx_prefix}qyc.html">Hazardous Chemicals Transport</a>
+                        <a href="{idx_prefix}qyc.html">Coal Transport</a>
+                        <a href="{idx_prefix}qyc.html">Sand And Gravel Transport</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Dump Truck</h4>
+                        <a href="{idx_prefix}zxc.html">Urban Construction</a>
+                        <a href="{idx_prefix}zxc.html">Mining</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Cargo Truck</h4>
+                        <a href="{idx_prefix}zhc.html">Express Delivery</a>
+                        <a href="{idx_prefix}zhc.html">Intercity Logistics</a>
+                        <a href="{idx_prefix}zhc.html">City Distribution</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Special Vehicle</h4>
+                        <a href="{idx_prefix}special.html">City Transportation</a>
+                        <a href="{idx_prefix}special.html">Smart Sanitation</a>
+                        <a href="{idx_prefix}special.html">Dangerous Goods Transportation</a>
+                        <a href="{idx_prefix}special.html">Road Work & Rescue</a>
+                    </div>
+                    <div class="our-dropdown-col">
+                        <h4>Off-road Truck</h4>
+                        <a href="{idx_prefix}pzkyzyc.html">Off-road Dump Truck</a>
+                        <a href="{idx_prefix}pzmtc.html">Off-road Tractor</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="{idx_prefix}service.html">SERVICE <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="{idx_prefix}service.html">SERVICES <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>Service</h4><a href="{idx_prefix}service.html">Service Policy</a><a href="{idx_prefix}service_list/1674411714944516096.html">Find Provider</a><a href="{idx_prefix}service_list/1674411730417303552.html">Maintenance</a><a href="{idx_prefix}service_list/1674411748220751872.html">Driving Reminder</a><a href="{idx_prefix}service_list/1674411767427842048.html">Safe Driving</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>Service</h4>
+                        <a href="{idx_prefix}service.html">Service Policy</a>
+                        <a href="{idx_prefix}service_list/1674411714944516096.html">Find Your Service Provider</a>
+                        <a href="{idx_prefix}service_list/1674411730417303552.html">Maintenance Service</a>
+                        <a href="{idx_prefix}service_list/1674411748220751872.html">Driving Reminder</a>
+                        <a href="{idx_prefix}service_list/1674411767427842048.html">Safe Driving</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="{idx_prefix}news_list/81163.html">NEWS <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="{idx_prefix}news.html">NEWS <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>News</h4><a href="{idx_prefix}news_list/81163.html">News Center</a><a href="{idx_prefix}video_list.html">Video Center</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>News</h4>
+                        <a href="{idx_prefix}news_list/1.html">News Center</a>
+                        <a href="{idx_prefix}video_list.html">Video Center</a>
+                    </div>
                 </div>
             </li>
-            <li class="our-has-dropdown"><a href="{idx_prefix}about.html">ABOUT US <span class="our-arrow">&#9662;</span></a>
+            <li class="our-has-dropdown">
+                <a href="{idx_prefix}about.html">ABOUT US <span class="our-arrow">&#9662;</span></a>
                 <div class="our-dropdown-mega">
-                    <div class="our-dropdown-col"><h4>About</h4><a href="{idx_prefix}about.html">Company Profile</a><a href="{idx_prefix}contact.html">Contact Us</a></div>
+                    <div class="our-dropdown-col">
+                        <h4>About</h4>
+                        <a href="{idx_prefix}about.html">Who We Are</a>
+                        <a href="{idx_prefix}about.html">When We Started</a>
+                        <a href="{idx_prefix}about.html">Technological Innovation</a>
+                        <a href="{idx_prefix}contact.html">Contact Us</a>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -117,26 +189,39 @@ def make_footer_html(idx_prefix):
     <div class="our-footer-inner">
         <div class="our-footer-grid">
             <div class="our-footer-col">
-                <h4>SAGMOTO</h4>
-                <p>SAG Commercial Vehicle Company, a subsidiary of Shaanxi Automobile Holding Group, established in 1968.</p>
-                <p>Room 603A, Floor 6, Building B, Chanba Free Trade Center, No.777 Eurasia Avenue, Xi'an, China</p>
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="{idx_prefix}products.html?cat=light">Light Duty Truck<span class="sub">(4.5T≤GCW≤25T)</span></a></li>
+                    <li><a href="{idx_prefix}products.html?cat=medium">Medium Duty Truck<span class="sub">(12T≤GCW≤60T)</span></a></li>
+                    <li><a href="{idx_prefix}products.html?cat=heavy">Heavy Duty Truck<span class="sub">(18T≤GCW≤100T)</span></a></li>
+                    <li><a href="{idx_prefix}products.html?cat=offroad">Off-road Truck</a></li>
+                </ul>
             </div>
             <div class="our-footer-col">
-                <h4>Quick Links</h4>
-                <a href="{idx_prefix}products.html">Products</a>
-                <a href="{idx_prefix}qyc.html">Applications</a>
-                <a href="{idx_prefix}service.html">Service</a>
-                <a href="{idx_prefix}about.html">About Us</a>
+                <h3>APPLICATIONS</h3>
+                <ul>
+                    <li><a href="{idx_prefix}qyc.html">Tractor</a></li>
+                    <li><a href="{idx_prefix}zxc.html">Dump Truck</a></li>
+                    <li><a href="{idx_prefix}zhc.html">Cargo Truck</a></li>
+                    <li><a href="{idx_prefix}special.html">Special Vehicle</a></li>
+                    <li><a href="{idx_prefix}tzc.html">Off-road Truck</a></li>
+                    <li><a href="{idx_prefix}new-energy.html">New Energy</a></li>
+                </ul>
             </div>
             <div class="our-footer-col">
-                <h4>Contact</h4>
-                <p>Tel: +86 15319431311</p>
-                <p>Email: sales@fenghan-trade.com</p>
-                <a href="{idx_prefix}contact.html">Contact Form</a>
+                <h3>CONTACT US</h3>
+                <p><strong>Address:</strong><br>Room 603A, Floor 6, Building B,<br>Chanba Free Trade Center, No.777 Eurasia Avenue,<br>Chanba Ecological District, Xi'an, Shaanxi, China</p>
+                <p><strong>Tel:</strong> +86 15319431311<br><strong>E-mail:</strong> sales@fenghan-trade.com</p>
+            </div>
+            <div class="our-footer-col our-qr-code">
+                <h3>FOLLOW US</h3>
+                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO QR Code"/>
+                <p>Scan to visit our mobile site</p>
             </div>
         </div>
         <div class="our-footer-bottom">
-            <p>&copy; 2026 Shaanxi Fenghan Trading Co., Ltd. All rights reserved.</p>
+            <p>&copy; 2026 SAGMOTO | 陕汽集团商用车有限公司 | All Rights Reserved</p>
+            <p><a href="{idx_prefix}privacy.html">Privacy Policy</a> | <a href="{idx_prefix}terms.html">Terms of Use</a> | <a href="{idx_prefix}index.html">Sitemap</a></p>
         </div>
     </div>
 </div>"""
