@@ -124,6 +124,120 @@ img {
     display: block;
 }
 
+/* ===== TOP BAR (应用页面专用) ===== */
+.e_container-1 {
+    background: var(--primary-dark);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    width: 100%;
+}
+
+.e_container-1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.top-contact {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.top-contact a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    font-weight: 400;
+    transition: var(--transition);
+}
+
+.top-contact a:hover {
+    color: #fff;
+}
+
+.top-contact svg {
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.lang-selector a {
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.lang-selector a:hover,
+.lang-selector a.active {
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+}
+
+/* Logo - 应用页面版本（logo-icon + logo-text） */
+.logo-icon {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-left: 10px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+/* 应用页面导航容器使用 .container 代替 .header-inner */
+.e_container-2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 64px;
+}
+
+/* 应用页面导航默认深色文字（白色背景） */
+.e_container-2:not(.transparent) .main-nav > li > a {
+    color: var(--text-dark);
+}
+
+.e_container-2:not(.transparent) .main-nav > li > a:hover,
+.e_container-2:not(.transparent) .main-nav > li > a.active {
+    color: var(--accent) !important;
+}
+
+/* 确保应用页面 .e_container-2 有白色背景 */
+.e_container-2:not(.transparent) {
+    background: var(--bg-white);
+    border-bottom-color: var(--border-color);
+}
+
+.e_container-2:not(.transparent):not(.shrink) {
+    box-shadow: var(--shadow-sm);
+}
+
+/* 确保应用页面 .nav-arrow 颜色正确 */
+.e_container-2:not(.transparent) .main-nav > li > a .nav-arrow {
+    color: var(--text-dark);
+    opacity: 0.6;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
