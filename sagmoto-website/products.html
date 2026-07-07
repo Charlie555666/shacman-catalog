@@ -250,16 +250,46 @@
             'special': 'Special Vehicle', 'new-energy': 'New Energy', 'all': 'All Products'
         };
 
+        // Product detail page mapping
+        var productDetailPages = {
+            'X9 4X4 Dump Truck': 'x9.html',
+            'X9 Tow truck': 'x9.html',
+            'X7 Flatbed Truck': 'x7.html',
+            '9 Series Sweeper': 'x9.html',
+            'X6 Dropside Truck': 'x6.html',
+            'X6 AWD Cargo truck': 'x6.html',
+            'X6 Cement Mixers Truck': 'x6.html',
+            'X6 Sprinkler Truck': 'x6.html',
+            'E1st Tractor': 'e1st.html',
+            'Z3 Tractor Truck': 'z3.html',
+            'X3s Trailer Truck': 'x3s.html',
+            'E3 Tractor Truck': 'e3.html',
+            'X9 Aerial work platform truck': 'x9.html',
+            'X9 Tow truck': 'x9.html',
+            'X7 Concrete Mixer Truck': 'x7.html',
+            'X3s Mixer trucks 8X4': 'x3s.html',
+            '9 series': 'off-road-4x4.html',
+            '7 Series': 'off-road-4x4.html',
+            '6 Series': 'off-road-4x4.html',
+            'Off-road Dump Truck': 'off-road-4x4.html',
+            'i9': 'i9.html',
+            'i9 lite': 'i9.html',
+            'i5 compressor car': 'i5.html'
+        };
+        function getDetailPage(name) {
+            return productDetailPages[name] || 'products.html?search=' + encodeURIComponent(name);
+        }
+
         function renderProducts(cat) {
             var filtered = cat === 'all' ? allProducts : allProducts.filter(function(p) { return p.category === cat; });
             catTitle.innerHTML = '<h2>' + (catLabels[cat] || 'Products') + '</h2><p>' + filtered.length + ' models available</p>';
             grid.innerHTML = filtered.map(function(p) {
                 return '<div class="product-card">' +
-                    '<a href="products.html?search=' + encodeURIComponent(p.name) + '" class="product-card-img">' +
+                    '<a href="' + getDetailPage(p.name) + '" class="product-card-img">' +
                     '<img src="' + p.image + '" alt="' + p.name + '" onerror="this.src=\'' + fallbackImg + '\'">' +
                     '</a>' +
                     '<div class="product-card-body">' +
-                    '<h3><a href="products.html?search=' + encodeURIComponent(p.name) + '">' + p.name + '</a></h3>' +
+                    '<h3><a href="' + getDetailPage(p.name) + '">' + p.name + '</a></h3>' +
                     '<p class="product-card-specs">' + (p.specs || '') + '</p>' +
                     '</div>' +
                     '</div>';
@@ -277,9 +307,9 @@
         if (searchParam) {
             catTitle.innerHTML = '<h2>Search: ' + searchParam + '</h2>';
             grid.innerHTML = allProducts.filter(function(p) { return p.name.toLowerCase().indexOf(searchParam.toLowerCase()) >= 0; }).map(function(p) {
-                return '<div class="product-card featured"><a href="products.html?search=' + encodeURIComponent(p.name) + '" class="product-card-img">' +
+                return '<div class="product-card featured"><a href="' + getDetailPage(p.name) + '" class="product-card-img">' +
                     '<img src="' + p.image + '" alt="' + p.name + '" onerror="this.src=\'' + fallbackImg + '\'"></a>' +
-                    '<div class="product-card-body"><h3><a href="products.html?search=' + encodeURIComponent(p.name) + '">' + p.name + '</a></h3>' +
+                    '<div class="product-card-body"><h3><a href="' + getDetailPage(p.name) + '">' + p.name + '</a></h3>' +
                     '<p class="product-card-desc">' + (p.description || '') + '</p>' +
                     '<p class="product-card-specs">' + (p.specs || '') + '</p></div></div>';
             }).join('');
