@@ -151,11 +151,12 @@ def fix_page_paths(html):
     # Remove <base> tag
     html = re.sub(r'<base\s+[^>]*>', '', html)
     
-    # Fix protocol-relative URLs to HTTPS
-    html = html.replace('//omo-oss-image.thefastimg.com', 'https://omo-oss-image.thefastimg.com')
-    html = html.replace('//omo-oss-image1.thefastimg.com', 'https://omo-oss-image1.thefastimg.com')
-    html = html.replace('//omo-oss-image2.thefastimg.com', 'https://omo-oss-image2.thefastimg.com')
-    html = html.replace('//dcloud-static01.faststatics.com', 'https://dcloud-static01.faststatics.com')
+    # Fix protocol-relative CDN URLs to HTTPS (safe, won't double-replace)
+    html = re.sub(
+        r'(?<=["\'=\s])(//(?:omo-oss-image\d*\.thefastimg\.com|dcloud-static01\.faststatics\.com))',
+        r'https:\1',
+        html
+    )
     
     # Fix root-relative paths in [href/src/data-*]="..." to "mirror/..."
     # But skip: http://, https://, //, data:, #, javascript:, mailto:, tel:
@@ -177,6 +178,10 @@ def fix_page_paths(html):
     
     # Fix favicon
     html = html.replace('href="/favicon.ico"', 'href="mirror/favicon.ico"')
+    
+    # Safety: recursively fix any https:https:... patterns (belt-and-suspenders)
+    while 'https:https:' in html:
+        html = html.replace('https:https:', 'https:')
     
     return html
 
