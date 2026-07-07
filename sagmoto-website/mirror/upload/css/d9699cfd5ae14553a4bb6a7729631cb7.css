@@ -1,0 +1,328 @@
+/* SAF coolest v1.2
+ * Copyright © Chennan All rights reserved.
+ * This source code is Written by Wudong, Dinghaiyan and Chennan of SAF-Team in CE·Chengdu.
+ * You can use it with permission from the author. */
+
+
+.saf-content {width:100%; max-width:var(--bw); margin:0 auto; padding:0 15px;}
+.saf-rom {margin:0 -15px;}
+
+body {
+   --saftime:0.8s;
+  --safswtime:1s 1s;
+  --pagecolor:#fff;
+    opacity: 0;
+    transition: padding-top 1s;
+}
+body.saf-active { --pagecolor:#000;}
+body.saf-show {
+    opacity: 1;
+}
+body.saf-make {
+    opacity: 1;
+}
+body.saf-show .saf-scroll-animation:not(.saf-no-scroll-animation).saf-scrolled {
+    animation: fadeInUp var(--saftime) both;
+}
+.saf-scroll-animation:not(.saf-no-scroll-animation) {
+    opacity: 0;
+}
+.saf-make .saf-scroll-animation {
+    opacity: 1;
+}
+
+@keyframes saf-circleLeft {
+  0% {opacity:0; transform:translate(-100%,0) rotate(0deg);}
+  100%{opacity:1; transform:translate(0,0) rotate(360deg);}
+}
+@keyframes saf-circleRight {
+  0% {opacity:0; transform:translate(100%,0) rotate(0deg);}
+  100%{opacity:1; transform:translate(0,0) rotate(-360deg);}
+}
+.saf-fadeInUp.saf-scrolled {animation: fadeInUp var(--saftime) both !important;}
+.saf-fadeInDown.saf-scrolled {animation: fadeInDown var(--saftime) both  !important;}
+.saf-fadeInLeft.saf-scrolled {animation: fadeInLeft var(--saftime) both  !important;}
+.saf-fadeInRight.saf-scrolled {animation: fadeInRight var(--saftime) both  !important;}
+
+.saf-bounceInLeft.saf-scrolled {animation: bounceInLeft var(--saftime) both  !important;  opacity:1;}
+.saf-bounceInRight.saf-scrolled {animation: bounceInRight var(--saftime) both  !important; opacity:1;}
+.saf-bounceInUp.saf-scrolled {animation: bounceInUp var(--saftime)both  !important; opacity:1;}
+.saf-bounceInDown.saf-scrolled {animation: bounceInDown var(--saftime) both  !important; opacity:1;}
+
+.saf-flipInX.saf-scrolled {animation: flipInX var(--saftime) both  !important;  opacity:1;}
+.saf-flipInY.saf-scrolled {animation: flipInY var(--saftime) both  !important;  opacity:1;}
+
+.saf-lightSpeedInLeft.saf-scrolled {animation: lightSpeedInLeft var(--saftime) both  !important; opacity:1;}
+.saf-lightSpeedInRight.saf-scrolled {animation: lightSpeedInRight var(--saftime) both  !important; opacity:1;}
+
+.saf-backInLeft.saf-scrolled {animation: backInLeft var(--saftime) both  !important; opacity:1;}
+.saf-backInRight.saf-scrolled {animation: backInRight var(--saftime) both  !important; opacity:1;}
+.saf-backInDown.saf-scrolled {animation: backInDown var(--saftime) both  !important; opacity:1;}
+.saf-backInUp.saf-scrolled {animation: backInUp var(--saftime) both  !important; opacity:1;}
+
+.saf-rotateInDownLeft.saf-scrolled {animation: rotateInDownLeft var(--saftime) both  !important; opacity:1;}
+.saf-rotateInDownRight.saf-scrolled {animation: rotateInDownRight var(--saftime) both  !important; opacity:1;}
+.saf-rotateInUpLeft.saf-scrolled {animation: rotateInUpLeft var(--saftime) both  !important; opacity:1;}
+.saf-rotateInUpRight.saf-scrolled {animation: rotateInUpRight var(--saftime) both  !important; opacity:1;}
+
+.saf-jackInTheBox.saf-scrolled {animation: jackInTheBox var(--saftime) both  !important; opacity:1;}
+
+.saf-zoomInDown.saf-scrolled {animation: zoomInDown var(--saftime) both  !important; opacity:1;}
+.saf-zoomInLeft.saf-scrolled {animation: zoomInLeft var(--saftime) both  !important; opacity:1;}
+.saf-zoomInRight.saf-scrolled {animation: zoomInRight var(--saftime) both  !important; opacity:1;}
+.saf-zoomInUp.saf-scrolled {animation: zoomInUp var(--saftime) both  !important; opacity:1;}
+
+.saf-circleLeft.saf-scrolled {animation: saf-circleLeft var(--saftime) both  !important;}
+.saf-circleRight.saf-scrolled {animation: saf-circleRight var(--saftime) both  !important;}
+
+ 
+
+.swiper-slide-active .saf-fadeInUp {animation: fadeInUp var(--safswtime) both !important;}
+.swiper-slide-active .saf-fadeInDown {animation: fadeInDown var(--safswtime) both  !important;}
+.swiper-slide-active .saf-fadeInLeft {animation: fadeInLeft var(--safswtime) both  !important;}
+.swiper-slide-active .saf-fadeInRight {animation: fadeInRight var(--safswtime) both  !important;}
+
+.swiper-slide-active .saf-bounceInLeft {animation: bounceInLeft var(--safswtime) both  !important;  opacity:1;}
+.swiper-slide-active .saf-bounceInRight {animation: bounceInRight var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-bounceInUp {animation: bounceInUp var(--safswtime)both  !important; opacity:1;}
+.swiper-slide-active .saf-bounceInDown {animation: bounceInDown var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-flipInX {animation: flipInX var(--safswtime) both  !important;  opacity:1;}
+.swiper-slide-active .saf-flipInY {animation: flipInY var(--safswtime) both  !important;  opacity:1;}
+
+.swiper-slide-active .saf-lightSpeedInLeft {animation: lightSpeedInLeft var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-lightSpeedInRight {animation: lightSpeedInRight var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-backInLeft {animation: backInLeft var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-backInRight {animation: backInRight var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-backInDown {animation: backInDown var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-backInUp {animation: backInUp var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-rotateInDownLeft {animation: rotateInDownLeft var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-rotateInDownRight {animation: rotateInDownRight var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-rotateInUpLeft {animation: rotateInUpLeft var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-rotateInUpRight {animation: rotateInUpRight var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-jackInTheBox {animation: jackInTheBox var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-zoomInDown {animation: zoomInDown var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-zoomInLeft {animation: zoomInLeft var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-zoomInRight {animation: zoomInRight var(--safswtime) both  !important; opacity:1;}
+.swiper-slide-active .saf-zoomInUp {animation: zoomInUp var(--safswtime) both  !important; opacity:1;}
+
+.swiper-slide-active .saf-circleLeft {animation: saf-circleLeft var(--safswtime) both  !important;}
+.swiper-slide-active .saf-circleRight {animation: saf-circleRight var(--safswtime) both  !important;}
+
+.swiper-slide-active .saf-d-1 {animation-delay:1.1s !important;}
+.swiper-slide-active .saf-d-2 {animation-delay:1.2s !important;}
+.swiper-slide-active .saf-d-3 {animation-delay:1.3s !important;}
+.swiper-slide-active .saf-d-4 {animation-delay:1.4s !important;}
+.swiper-slide-active .saf-d-5 {animation-delay:1.5s !important;}
+.swiper-slide-active .saf-d-6 {animation-delay:1.6s !important;}
+.swiper-slide-active .saf-d-7 {animation-delay:1.7s !important;}
+.swiper-slide-active .saf-d-8 {animation-delay:1.8s !important;}
+.swiper-slide-active .saf-d-9 {animation-delay:1.9s !important;}
+.swiper-slide-active .saf-d-10 {animation-delay:2s !important;}
+.swiper-slide-active .saf-d-11 {animation-delay:2.1s !important;}
+.swiper-slide-active .saf-d-12 {animation-delay:2.2s !important;}
+.swiper-slide-active .saf-d-13 {animation-delay:2.3s !important;}
+.swiper-slide-active .saf-d-14 {animation-delay:2.4s !important;}
+.swiper-slide-active .saf-d-15 {animation-delay:2.5s !important;}
+
+
+/*循环体swiper*/
+.saf-sBar {display: flex;width: 100%;justify-content: center; padding-top: 20px; align-items:center;}
+.saf-sBar .saf-s-Btn {width: 40px;height: 40px;border: 1px #ddd solid;border-radius: 50%;display: flex;align-items: center;justify-content: center;transition: all 0.5s;}
+.saf-sBar .saf-s-Btn:hover {background: var(--c);border-color: var(--c);}
+.saf-sBar .saf-s-Btn svg {width: auto;height: 22px;fill: #666;}
+.saf-sBar .saf-s-Btn:hover svg {fill: #fff;}
+
+.saf-sBar .saf-cn-pagination {display: flex;align-items: center;padding: 0 20px;}
+.saf-sBar .saf-cn-pagination.bullets span {width: 5px;height: 5px;border-radius: 5px;margin: 0 2px;transition: all 0.5s;}
+.saf-sBar .saf-cn-pagination.bullets span.swiper-pagination-bullet-active {width: 30px;background: var(--c);}
+
+.saf-sBar .saf-cn-pagination.progressbar {height:4px; position:relative; flex:1; max-width:80%; margin:0 20px; padding:0; border-radius:5px; overflow:hidden;}
+.saf-sBar .saf-cn-pagination.progressbar span{background:var(--c); border-radius:5px;}
+
+.saf-sBar .saf-cn-pagination.fraction {flex:none;width:auto;}
+.saf-sBar .saf-cn-pagination.fraction span {padding:0 3px; font-weight:bold; line-height:1.6; font-size:14px; }
+.saf-sBar .saf-cn-pagination.fraction span.swiper-pagination-current{color:var(--c);font-size:16px;}
+
+.saf-licenseoprov {display:flex; align-items:center;}
+.saf-auto-licenseo {display:flex; align-items:center; justify-content:center;}
+.saf-auto-licenseo a {display:block; line-height:1.6;font-size:14px;margin-left:10px; color:#666;}
+
+.licenseBox {width:100%; height: 100%; padding:15px; position: fixed;z-index:99999;background: rgba(0,0,0,0.8); left: 0;top:0;display: flex; align-items: center; justify-content: center; transition:all 0.5s; opacity: 0; visibility: hidden;}
+.licenseBox a {display: flex; width: 60px; height: 60px; border: 1px #fff solid; border-radius: 50%; position: absolute; right: 50px; top: 50px; color:#fff;font-size: 30px; transition: all 0.5s;overflow: hidden; z-index:5; align-items:center; justify-content:center;}
+.licenseBox a:before {content:"";display: block;width: 100%; height: 100%; border-radius:50%; background: var(--c); position: absolute; left: 0; top: 0; transform: scale(0); transition: all 0.5s; z-index:-1;}
+.licenseBox a:hover {border-color: var(--c);}
+.licenseBox a:hover:before {transform: scale(1);}
+
+.licenseBox .licenseRim {width: 100%; max-width: 1000px; background: #fff; border-radius: 15px; padding: 15px; opacity: 0; transform: translate(0,100px); transition: all 0.5s ease 0.3s;}
+.licenseBox .licenseRim img {width:100%; height:100%; object-fit:cover;}
+.licenseBox.show {opacity: 1; visibility: visible;}
+.licenseBox.show .licenseRim {opacity: 1; transform: translate(0,0);}
+
+
+.saf-nodata {text-align:center; padding:30px 0;}
+.saf-nodata span svg {width:auto; height:100px; fill:#f00;}
+.saf-nodata .saf-pop {padding-top:10px; text-align:center;}
+ 
+
+
+@keyframes r {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.saf-circletxt {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.saf-circletxt {
+  animation:r 30s linear infinite;
+}
+.saf-circletxt span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color:var(--cc);
+ 
+}
+.saf-circletext {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: var(--ccsize);
+  height: var(--ccsize);
+  position: absolute;
+  bottom:20px;
+  left:20px;
+  border-radius: 500vw;
+  z-index:100;
+}
+.saf-circletext svg {
+  width:auto;
+  height:30%;
+}
+.saf-circletext svg path {
+  fill:var(--cc); 
+}
+
+
+.saf-table-container {width:100%; overflow-x:auto;}
+.saf-table-container .saf-table-wrapper { display:inline-block; width:100%; min-width:1000px;}
+.saf-table-container .saf-table-wrapper table {width:100% !important;}
+
+
+.saf-rolling-container {
+  width:100000vw;
+  position:relative;
+}
+.saf-rolling-wrapper {
+  display:flex;
+  width:max-content;
+}
+.saf-overflow-hidden {
+  overflow:hidden;
+  width:100%;
+  position:relative;
+}
+
+
+  body.saf-shield-mo div.saf-no-mo-tip {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body.saf-shield-mo .main {display:none;}
+  body.saf-shield-mo > div.saf-no-mo-tip {
+    display: flex !important;
+    height: 100vh;
+    font-size: 20px;
+    color: #333; 
+    text-align: center;
+    align-items: center;
+  }
+
+  body.saf-shield-mo > div.saf-no-mo-tip div {
+    width: 100%;
+    padding:20px;
+  }
+
+  body.saf-shield-mo > div.saf-no-mo-tip svg {
+    width: 20vw;
+    height: 20vw;
+    margin: auto;
+    margin-bottom: 10vw;
+    display: block;
+  }
+
+  body.saf-shield-mo > div.saf-no-mo-tip path {
+    fill: red;
+  }
+
+  body.saf-shield-mo > div.saf-no-mo-tip h2 {
+    font-size: 24px;
+    color: #000;
+  }
+
+  body.saf-shield-mo > div.saf-no-mo-tip p {
+    font-size: 14px;
+    color: #888;
+    line-height: 3;
+  }
+
+}
+
+
+.saf-accordion > div {transition:all 0.5s;} 
+
+
+
+[saf-fullscreen] {width:100% !important;  margin:0 !important; float:none !important; padding:0; position:relative !important; background:#333;}
+[saf-fullscreen]  div.swiper.swiper-vertical {width:100%; height:100vh; max-height:1440px;} 
+[saf-fullscreen]  div.swiper > div > div  {width:100% !important; height:100vh !important; display:flex; flex-direction:column;justify-content:center; align-items:center;overflow:hidden; max-height:1440px; flex:0 0 100%;}
+
+[saf-fullscreen].vfooter  div.swiper > div > div {transform:scale(0.9); opacity:0.8; transition:all 0.8s;}
+[saf-fullscreen].vfooter  div.swiper > div > div.swiper-slide-active {transform: scale(1); opacity:1; z-index:3;}
+[saf-fullscreen].vfooter  div.swiper > div  div.saf-fullfooter {height:auto!important; transform:scale(1);opacity:1;} 
+
+
+.swiper-pagination-vertical.saf-pagination.fraction {position:fixed; z-index:99; width:20px !important; left:10px; top:50%; bottom:auto; transform:translate(0,-50%); color:transparent;}
+.swiper-pagination-vertical.saf-pagination.fraction:before {content:"";display:block; width:20px; height:1px; background:var(--pagecolor); opacity:0.5; position:absolute; left:0; top:50%;}
+.swiper-pagination-vertical.saf-pagination.fraction span {color:var(--pagecolor); font-size:16px; display:block; text-align:center;}
+
+.swiper-pagination-horizontal.saf-pagination.fraction {position:fixed; z-index:99; width:20px !important; left:10px; top:50%; bottom:auto; transform:translate(0,-50%); color:transparent;}
+.swiper-pagination-horizontal.saf-pagination.fraction:before {content:"";display:block; width:20px; height:1px; background:var(--pagecolor); opacity:0.5; position:absolute; left:0; top:50%;}
+.swiper-pagination-horizontal.saf-pagination.fraction span {color:var(--pagecolor); font-size:16px; display:block; text-align:center;}
+
+
+.swiper-pagination-vertical.saf-pagination.progressbar {z-index:99; left:auto; right:0;}
+.swiper-pagination-vertical.saf-pagination.progressbar span {background:var(--pagecolor);}
+
+.swiper-pagination-horizontal.saf-pagination.progressbar {z-index:99; }
+.swiper-pagination-horizontal.saf-pagination.progressbar span {background:var(--pagecolor);}
+
+.swiper-pagination-vertical.saf-pagination.bullets {width:auto; z-index:99; position:fixed; right:10px; left:auto; top:50%; transform:translate(0,-50%);}
+.swiper-pagination-vertical.saf-pagination.bullets span {width:6px; height:6px; border-radius:5px; transition:all 0.5s;}
+.swiper-pagination-vertical.saf-pagination.bullets span.swiper-pagination-bullet-active {height:40px; background:var(--pagecolor);}
+
+.swiper-pagination-horizontal.saf-pagination.bullets {width:10px; display:flex; flex-wrap:wrap; z-index:99; position:fixed; right:10px; left:auto; bottom:auto; top:50%; transform:translate(0,-50%);}
+.swiper-pagination-horizontal.saf-pagination.bullets span {width:6px; height:6px; border-radius:5px; transition:all 0.5s; margin:5px 0;}
+.swiper-pagination-horizontal.saf-pagination.bullets span.swiper-pagination-bullet-active {height:40px; background:var(--pagecolor);}
+
+
+.saf-make  [saf-fullscreen] {height:auto; max-height:none;}
