@@ -17,77 +17,162 @@
 </head>
 <body>
 
-<!-- ===== HEADER / NAVIGATION ===== -->
+<!-- ===== HEADER / NAVIGATION (匹配sagmoto.com官网三栏结构) ===== -->
 <div class="e_container-2">
-    <div class="container">
+    <div class="header-inner">
         <div class="logo-area">
             <a href="index.html">
-                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO" class="logo-icon">
-                <span class="logo-text">SAG INTL</span>
+                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/7c996f42-7545-43cf-b326-fff928aa4f57.png" alt="SAGMOTO" class="logo-dark">
+                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/45799ffa-90f5-4dc5-8fc1-f0dd10445b52.png" alt="SAGMOTO" class="logo-light">
             </a>
         </div>
         <div class="mobile-toggle">
             <span></span><span></span><span></span>
         </div>
         <ul class="main-nav">
-            <li class="has-dropdown">
-                <a href="products.html">PRODUCTS</a>
+            <!-- PRODUCTS -->
+            <li class="has-dropdown has-mega">
+                <a href="products.html">PRODUCTS <svg class="nav-arrow" viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376c.673-.673.927-1.6 1.6-2.303.513-.48 1.056-.833 1.567-1.344z" fill="currentColor"/></svg></a>
                 <div class="dropdown-mega">
                     <div class="mega-inner">
-                        <div class="mega-col">
-                            <h4>Light Duty Truck<span class="sub">4.5T≤GCW≤25T</span></h4>
-                            <ul>
-                                <li><a href="products.html?cat=light-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ef3451b4-d300-4c3d-92c5-dab5f29efb6f.png" alt="i9"> i9</a></li>
-                                <li><a href="products.html?cat=light-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/175cc731-094c-4946-880b-90aa3a1a867e.png" alt="X9"> X9</a></li>
-                                <li><a href="products.html?cat=light-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0630693e-37e8-43be-98dd-acbdb49c70c9.png" alt="X7"> X7</a></li>
+                        <!-- 左栏：分类导航 -->
+                        <div class="mega-left">
+                            <div class="mega-title">PRODUCTS</div>
+                            <ul class="mega-cat-list">
+                                <li><a href="products.html?cat=light-duty" class="mega-cat-item active">Light Duty Truck<span>4.5T≤GCW≤25T</span></a></li>
+                                <li><a href="products.html?cat=medium-duty" class="mega-cat-item">Medium Duty Truck<span>12T≤GCW≤60T</span></a></li>
+                                <li><a href="products.html?cat=heavy-duty" class="mega-cat-item">Heavy Duty Truck<span>18T≤GCW≤100T</span></a></li>
+                                <li><a href="products.html?cat=off-road" class="mega-cat-item">Off-road Truck</a></li>
                             </ul>
                         </div>
-                        <div class="mega-col">
-                            <h4>Medium Duty Truck<span class="sub">12T≤GCW≤60T</span></h4>
-                            <ul>
-                                <li><a href="products.html?cat=medium-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/64c3428c-c60f-4579-ac04-e561cbe8c772.png" alt="E6"> E6</a></li>
-                                <li><a href="products.html?cat=medium-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/8ae116ac-60cf-4da2-b2cb-ac4c80b04b92.png" alt="X6"> X6</a></li>
-                                <li><a href="products.html?cat=medium-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d2bf1d4c-09c4-426a-895a-bd8f6aba5a63.jpg" alt="X5"> X5</a></li>
-                            </ul>
+                        <!-- 中栏：车型图片网格 -->
+                        <div class="mega-center">
+                            <div class="mega-center-intro"></div>
+                            <div class="mega-center-img">
+                                <img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/fd557db0-8dc9-4c44-af5a-a0a89b608fc6.jpg" alt="PRODUCTS">
+                            </div>
+                            <div class="model-groups">
+                                <!-- Light Duty -->
+                                <div class="model-group">
+                                    <a href="products.html?cat=light-duty"><span class="model-arrow">▸</span><span>E9</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/9aa95967-f314-494d-adbe-05935dee2d6c.png" alt="E9"></a>
+                                    <a href="products.html?cat=light-duty"><span class="model-arrow">▸</span><span>X9</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/175cc731-094c-4946-880b-90aa3a1a867e.png" alt="X9"></a>
+                                    <a href="products.html?cat=light-duty"><span class="model-arrow">▸</span><span>i9</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ef3451b4-d300-4c3d-92c5-dab5f29efb6f.png" alt="i9"></a>
+                                    <a href="products.html?cat=light-duty"><span class="model-arrow">▸</span><span>X7</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0630693e-37e8-43be-98dd-acbdb49c70c9.png" alt="X7"></a>
+                                </div>
+                                <!-- Medium Duty -->
+                                <div class="model-group">
+                                    <a href="products.html?cat=medium-duty"><span class="model-arrow">▸</span><span>E6</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/64c3428c-c60f-4579-ac04-e561cbe8c772.png" alt="E6"></a>
+                                    <a href="products.html?cat=medium-duty"><span class="model-arrow">▸</span><span>X6</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/8ae116ac-60cf-4da2-b2cb-ac4c80b04b92.png" alt="X6"></a>
+                                    <a href="products.html?cat=medium-duty"><span class="model-arrow">▸</span><span>i5</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/543bf02f-f5fa-4fb9-b0f1-d54199fd50c0.png" alt="i5"></a>
+                                    <a href="products.html?cat=medium-duty"><span class="model-arrow">▸</span><span>X5</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/d2bf1d4c-09c4-426a-895a-bd8f6aba5a63.jpg" alt="X5"></a>
+                                </div>
+                                <!-- Heavy Duty -->
+                                <div class="model-group">
+                                    <a href="products.html?cat=heavy-duty"><span class="model-arrow">▸</span><span>Z3</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/a32c4261-9dac-4e68-87f7-c037b5a56733.jpg" alt="Z3"></a>
+                                    <a href="products.html?cat=heavy-duty"><span class="model-arrow">▸</span><span>E1st</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/84912c76-6629-4d69-ad59-d8da5940fbb4.jpg" alt="E1st"></a>
+                                    <a href="products.html?cat=heavy-duty"><span class="model-arrow">▸</span><span>E3</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0d2ddb14-41e9-4f6c-b60a-1b53fa89e0f3.png" alt="E3"></a>
+                                    <a href="products.html?cat=off-road"><span class="model-arrow">▸</span><span>X3s</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/2f71c746-9325-462d-96c7-2f59c4c7503e.jpg" alt="X3s"></a>
+                                </div>
+                                <!-- Off-road -->
+                                <div class="model-group">
+                                    <a href="products.html?cat=off-road"><span class="model-arrow">▸</span><span>Off-road</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/fd557db0-8dc9-4c44-af5a-a0a89b608fc6.jpg" alt="Off-road"></a>
+                                    <a href="products.html?cat=off-road"><span class="model-arrow">▸</span><span>4x4</span><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/49cddb3b-b925-4b02-b43e-130edc5707fd.png" alt="4x4"></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mega-col">
-                            <h4>Heavy Duty Truck<span class="sub">18T≤GCW≤100T</span></h4>
-                            <ul>
-                                <li><a href="products.html?cat=heavy-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/84912c76-6629-4d69-ad59-d8da5940fbb4.jpg" alt="E1st"> E1st</a></li>
-                                <li><a href="products.html?cat=heavy-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/a32c4261-9dac-4e68-87f7-c037b5a56733.jpg" alt="Z3"> Z3</a></li>
-                                <li><a href="products.html?cat=heavy-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/0d2ddb14-41e9-4f6c-b60a-1b53fa89e0f3.png" alt="E3"> E3</a></li>
-                                <li><a href="products.html?cat=heavy-duty"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/9aa95967-f314-494d-adbe-05935dee2d6c.png" alt="E9"> E9</a></li>
-                            </ul>
-                        </div>
-                        <div class="mega-col">
-                            <h4>Off-road Truck</h4>
-                            <ul>
-                                <li><a href="products.html?cat=off-road"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/fd557db0-8dc9-4c44-af5a-a0a89b608fc6.jpg" alt="Off-road"> Off-road Dump</a></li>
-                                <li><a href="products.html?cat=off-road"><img src="https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/2f71c746-9325-462d-96c7-2f59c4c7503e.jpg" alt="X3s"> X3s</a></li>
-                            </ul>
+                        <!-- 右栏：营销与服务 -->
+                        <div class="mega-right">
+                            <div class="mega-right-inner">
+                                <div class="mega-right-title">Marketing and Services</div>
+                                <div class="mega-right-links">
+                                    <a href="products.html"><span>Products</span><svg viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
+                                    <a href="contact.html"><span>Request a Quote</span><svg viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
+                                </div>
+                                <div class="mega-right-phone">
+                                    <div class="mega-phone-label">Sales Service Hotline:</div>
+                                    <a href="tel:0086-029-86119719" class="mega-phone-num">0086-029-86119719</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </li>
+            <!-- APPLICATIONS (匹配官网多级分类) -->
             <li class="has-dropdown">
-                <a href="javascript:;">APPLICATIONS</a>
-                <ul class="dropdown-menu">
-                    <li><a href="products.html?cat=heavy-duty">Tractor</a></li>
-                    <li><a href="products.html?cat=off-road">Dump Truck</a></li>
-                    <li><a href="products.html?cat=medium-duty">Cargo Truck</a></li>
-                    <li><a href="products.html?cat=special">Special Vehicle</a></li>
+                <a href="javascript:;">APPLICATIONS <svg class="nav-arrow" viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
+                <ul class="dropdown-menu dropdown-wide">
+                    <li class="dropdown-group">
+                        <a href="products.html?cat=tractor" class="dropdown-group-title">Tractor</a>
+                        <ul class="dropdown-sub">
+                            <li><a href="products.html?cat=tractor">4x2 Tractor</a></li>
+                            <li><a href="products.html?cat=tractor">6x4 Tractor</a></li>
+                            <li><a href="products.html?cat=tractor">LNG Tractor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-group">
+                        <a href="products.html?cat=dump" class="dropdown-group-title">Dump Truck</a>
+                        <ul class="dropdown-sub">
+                            <li><a href="products.html?cat=dump">6x4 Dump</a></li>
+                            <li><a href="products.html?cat=dump">8x4 Dump</a></li>
+                            <li><a href="products.html?cat=off-road">Off-road Dump</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-group">
+                        <a href="products.html?cat=cargo" class="dropdown-group-title">Cargo Truck</a>
+                        <ul class="dropdown-sub">
+                            <li><a href="products.html?cat=cargo">4x2 Cargo</a></li>
+                            <li><a href="products.html?cat=cargo">6x2 Cargo</a></li>
+                            <li><a href="products.html?cat=cargo">6x4 Cargo</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-group">
+                        <a href="products.html?cat=special" class="dropdown-group-title">Special Vehicle</a>
+                        <ul class="dropdown-sub">
+                            <li><a href="products.html?cat=special">Concrete Mixer</a></li>
+                            <li><a href="products.html?cat=special">Water Truck</a></li>
+                            <li><a href="products.html?cat=special">Fuel Tanker</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-group">
+                        <a href="products.html?cat=off-road" class="dropdown-group-title">Off-road Truck</a>
+                        <ul class="dropdown-sub">
+                            <li><a href="products.html?cat=off-road">Mining Dump</a></li>
+                            <li><a href="products.html?cat=off-road">4x4 All-terrain</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
+            <!-- SERVICES -->
             <li class="has-dropdown">
-                <a href="javascript:;">SERVICES</a>
+                <a href="javascript:;">SERVICES <svg class="nav-arrow" viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
                 <ul class="dropdown-menu">
                     <li><a href="about.html#service">Service Policy</a></li>
                     <li><a href="contact.html">Find Your Service Provider</a></li>
                     <li><a href="about.html#service">Maintenance Service</a></li>
+                    <li><a href="about.html#service">Genuine Parts</a></li>
+                    <li><a href="contact.html">Technical Support</a></li>
                 </ul>
             </li>
-            <li><a href="news.html">NEWS</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
+            <!-- NEWS -->
+            <li class="has-dropdown">
+                <a href="news.html">NEWS <svg class="nav-arrow" viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
+                <ul class="dropdown-menu">
+                    <li><a href="news.html">Company News</a></li>
+                    <li><a href="news.html">Product News</a></li>
+                    <li><a href="news.html">Industry Trends</a></li>
+                    <li><a href="news.html">Exhibition News</a></li>
+                </ul>
+            </li>
+            <!-- ABOUT US -->
+            <li class="has-dropdown">
+                <a href="about.html">ABOUT US <svg class="nav-arrow" viewBox="0 0 1024 1024" width="10" height="10"><path d="M761.056 532.128c.513-.993 1.344-1.823 1.792-2.849 8.8-18.304 5.92-40.703-9.664-55.424L399.936 139.744c-19.264-18.208-49.632-17.345-67.872 1.889-18.208 19.264-17.376 49.63 1.889 67.872l316.96 299.84L335.2 813.63c-19.072 18.4-19.648 48.768-1.247 67.872 9.407 9.792 21.984 14.69 34.56 14.69 12 0 24-4.48 33.312-13.44l350.048-337.376z" fill="currentColor"/></svg></a>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html">Who We Are</a></li>
+                    <li><a href="about.html">When We Started</a></li>
+                    <li><a href="about.html">Technological Innovation</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
             <li class="nav-search"><a href="#" onclick="event.preventDefault();"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a></li>
         </ul>
     </div>

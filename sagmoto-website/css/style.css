@@ -62,7 +62,7 @@ img {
     padding: 0 20px;
 }
 
-/* === Header / Navigation (透明背景，覆盖在Hero上方) === */
+/* === Header / Navigation (透明背景，覆盖在Hero上方，匹配sagmoto.com官网) === */
 .e_container-2 {
     background: transparent;
     border-bottom: 1px solid rgba(255,255,255,0.15);
@@ -70,6 +70,7 @@ img {
     top: 0;
     z-index: 1000;
     transition: var(--transition);
+    width: 100%;
 }
 
 .e_container-2.shrink,
@@ -79,14 +80,17 @@ img {
     border-bottom-color: var(--border-color);
 }
 
-.e_container-2 .container {
+.header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 64px;
 }
 
+/* Logo - 双图切换(暗色/亮色背景) */
 .logo-area {
     flex-shrink: 0;
 }
@@ -94,47 +98,71 @@ img {
 .logo-area a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    height: 40px;
 }
 
-.logo-icon {
+.logo-area .logo-dark {
     height: 40px;
     width: auto;
+    display: block;
 }
 
-.logo-text {
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.logo-area .logo-light {
+    height: 40px;
+    width: auto;
+    display: none;
 }
 
-/* 滚动后导航栏文字变深色 */
-.e_container-2.scrolled .logo-text,
-.e_container-2.shrink .logo-text {
-    color: var(--text-dark);
+/* 滚动后切换logo为暗色版本 */
+.e_container-2.scrolled .logo-area .logo-dark,
+.e_container-2.shrink .logo-area .logo-dark {
+    display: none;
+}
+
+.e_container-2.scrolled .logo-area .logo-light,
+.e_container-2.shrink .logo-area .logo-light {
+    display: block;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
     gap: 0;
+    height: 100%;
 }
 
 .main-nav > li {
     position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 /* 导航文字默认白色（透明背景时） */
 .main-nav > li > a {
-    display: block;
-    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 18px;
+    height: 100%;
     color: #fff;
     font-size: 15px;
     font-weight: 500;
     position: relative;
     white-space: nowrap;
+    transition: var(--transition);
+}
+
+/* 下拉箭头 */
+.nav-arrow {
+    margin-left: 2px;
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+}
+
+.main-nav > li:hover > a .nav-arrow {
+    transform: rotate(90deg);
+    opacity: 1;
 }
 
 /* 滚动后导航文字变深色 */
@@ -145,7 +173,7 @@ img {
 
 /* 搜索图标样式 */
 .nav-search > a {
-    padding: 10px 12px !important;
+    padding: 0 12px !important;
 }
 
 .nav-search > a svg {
@@ -157,6 +185,7 @@ img {
     transform: scale(1.1);
 }
 
+/* 底部红色虚线下划线动画 */
 .main-nav > li > a::after {
     content: '';
     position: absolute;
@@ -171,15 +200,15 @@ img {
 
 .main-nav > li > a:hover,
 .main-nav > li > a.active {
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 
 .main-nav > li > a:hover::after,
 .main-nav > li > a.active::after {
-    width: 60%;
+    width: calc(100% - 36px);
 }
 
-/* === Dropdown Menu === */
+/* === 普通 Dropdown Menu (SERVICES/NEWS/ABOUT US) === */
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -194,6 +223,7 @@ img {
     transition: var(--transition);
     z-index: 100;
     border-top: 2px solid var(--accent);
+    padding: 8px 0;
 }
 
 .main-nav > li:hover .dropdown-menu {
@@ -204,127 +234,443 @@ img {
 
 .dropdown-menu li a {
     display: block;
-    padding: 12px 20px;
+    padding: 10px 20px;
     color: var(--text-dark);
     font-size: 14px;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: none;
     transition: var(--transition);
+    white-space: nowrap;
 }
 
 .dropdown-menu li a:hover {
     background: var(--bg-light);
     color: var(--accent);
-    padding-left: 24px;
+    padding-left: 26px;
 }
 
-/* === Mega Dropdown (PRODUCTS) === */
-.dropdown-mega {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(10px);
-    background: var(--bg-white);
-    box-shadow: var(--shadow-lg);
-    border-radius: 0 0 6px 6px;
-    opacity: 0;
-    visibility: hidden;
-    transition: var(--transition);
-    z-index: 100;
-    border-top: 2px solid var(--accent);
-    min-width: 700px;
-    padding: 0;
-}
-
-.main-nav > li:hover .dropdown-mega {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(0);
-}
-
-.mega-inner {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
+/* 宽版下拉 (APPLICATIONS) */
+.dropdown-menu.dropdown-wide {
+    min-width: 560px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 16px;
 }
 
-.mega-col {
-    padding: 0 12px;
+.dropdown-group {
+    width: 180px;
+    margin-bottom: 12px;
+    padding: 0 8px;
 }
 
-.mega-col h4 {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--primary);
-    margin-bottom: 6px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border-color);
-    white-space: nowrap;
+.dropdown-group-title {
+    font-weight: 700 !important;
+    color: var(--primary) !important;
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    margin-bottom: 4px;
+    pointer-events: auto;
 }
 
-.mega-col h4 .sub {
-    display: block;
-    font-weight: 400;
-    font-size: 11px;
-    color: var(--text-light);
-    margin-top: 2px;
+.dropdown-group-title:hover {
+    color: var(--accent) !important;
+    background: transparent !important;
+    padding-left: 12px !important;
 }
 
-.mega-col ul {
+.dropdown-sub {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.mega-col ul li {
-    margin: 2px 0;
+.dropdown-sub li a {
+    font-size: 13px !important;
+    padding: 6px 20px !important;
+    color: var(--text-gray) !important;
 }
 
-.mega-col ul li a {
+.dropdown-sub li a:hover {
+    color: var(--accent) !important;
+    padding-left: 26px !important;
+}
+
+/* === Mega Dropdown (PRODUCTS - 三栏布局) === */
+.dropdown-mega {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: var(--bg-white);
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    z-index: 99;
+    border-top: 1px solid var(--border-color);
+}
+
+.main-nav > li:hover .dropdown-mega {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.mega-inner {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 8px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px 40px;
+    gap: 30px;
+}
+
+/* 左栏：分类导航 */
+.mega-left {
+    width: 240px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--border-color);
+    padding-right: 30px;
+}
+
+.mega-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mega-cat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mega-cat-item {
+    display: block;
+    padding: 10px 12px;
+    font-size: 14px;
     color: var(--text-dark);
-    font-size: 13px;
     border-radius: 4px;
     transition: var(--transition);
+    margin-bottom: 2px;
 }
 
-.mega-col ul li a:hover {
+.mega-cat-item span {
+    display: block;
+    font-size: 11px;
+    color: var(--text-light);
+    margin-top: 1px;
+}
+
+.mega-cat-item:hover,
+.mega-cat-item.active {
     background: var(--bg-light);
     color: var(--accent);
 }
 
-.mega-col ul li a img {
-    width: 36px;
-    height: 24px;
+.mega-cat-item:hover span,
+.mega-cat-item.active span {
+    color: var(--accent);
+}
+
+/* 中栏：车型网格 */
+.mega-center {
+    flex: 1;
+    min-width: 0;
+}
+
+.mega-center-intro {
+    margin-bottom: 12px;
+}
+
+.mega-center-img {
+    margin-bottom: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.mega-center-img img {
+    width: 100%;
+    height: 120px;
     object-fit: cover;
+    border-radius: 4px;
+}
+
+.model-groups {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.model-group {
+    flex: 1;
+    min-width: 130px;
+}
+
+.model-group a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: var(--text-dark);
+    border-radius: 4px;
+    transition: var(--transition);
+    margin-bottom: 2px;
+}
+
+.model-group a:hover {
+    background: var(--bg-light);
+    color: var(--accent);
+}
+
+.model-group a .model-arrow {
+    font-size: 10px;
+    color: var(--accent);
+    flex-shrink: 0;
+}
+
+.model-group a span:not(.model-arrow) {
+    font-weight: 600;
+    min-width: 32px;
+}
+
+.model-group a img {
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
     border-radius: 2px;
     flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
-    .dropdown-mega {
-        position: static;
-        transform: none;
-        box-shadow: none;
-        border: none;
-        min-width: auto;
+/* 右栏：营销与服务 */
+.mega-right {
+    width: 220px;
+    flex-shrink: 0;
+    border-left: 1px solid var(--border-color);
+    padding-left: 30px;
+}
+
+.mega-right-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mega-right-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mega-right-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.mega-right-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: var(--text-dark);
+    border-radius: 4px;
+    transition: var(--transition);
+    background: var(--bg-light);
+}
+
+.mega-right-links a:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+.mega-right-phone {
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+}
+
+.mega-phone-label {
+    font-size: 12px;
+    color: var(--text-light);
+    margin-bottom: 4px;
+}
+
+.mega-phone-num {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent);
+    transition: var(--transition);
+}
+
+.mega-phone-num:hover {
+    color: var(--primary);
+}
+
+@media (max-width: 1024px) {
+    .header-inner {
+        padding: 0 20px;
+    }
+    .main-nav > li > a {
+        padding: 0 12px;
+        font-size: 14px;
+    }
+    .mega-inner {
+        padding: 16px 20px;
+        gap: 16px;
+    }
+    .mega-left {
+        width: 180px;
+        padding-right: 16px;
+    }
+    .mega-right {
+        width: 180px;
+        padding-left: 16px;
+    }
+    .model-groups {
+        gap: 8px;
+    }
+    .model-group {
+        min-width: 100px;
+    }
+    .model-group a img {
         display: none;
     }
-    .main-nav > li.mobile-sub-open .dropdown-mega {
+}
+
+@media (max-width: 768px) {
+    .header-inner {
+        padding: 0 16px;
+    }
+
+    .dropdown-mega {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: auto;
+        min-width: 100vw;
+        transform: translateY(10px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .main-nav > li:hover .dropdown-mega {
+        transform: translateY(0);
+    }
+
+    .mega-inner {
+        flex-direction: column;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .mega-left {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding-right: 0;
+        padding-bottom: 12px;
+    }
+
+    .mega-center {
+        width: 100%;
+    }
+
+    .mega-center-img {
+        display: none;
+    }
+
+    .model-groups {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .model-group {
+        min-width: auto;
+    }
+
+    .model-group a img {
+        width: 24px;
+        height: 16px;
         display: block;
+    }
+
+    .mega-right {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+        padding-left: 0;
+        padding-top: 12px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        border: none;
         opacity: 1;
         visibility: visible;
         transform: none;
+        display: none;
+        padding: 0;
     }
-    .mega-inner {
-        grid-template-columns: 1fr;
+
+    .main-nav > li.mobile-sub-open .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu.dropdown-wide {
+        flex-direction: column;
+        min-width: auto;
         padding: 8px;
     }
-    .mega-col {
-        padding: 4px 0;
+
+    .dropdown-group {
+        width: 100%;
+    }
+
+    .mobile-toggle {
+        display: flex;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: var(--bg-white);
+        flex-direction: column;
+        box-shadow: var(--shadow-lg);
+        max-height: calc(100vh - 64px);
+        overflow-y: auto;
+    }
+
+    .main-nav.mobile-open {
+        display: flex;
+    }
+
+    .main-nav > li {
+        height: auto;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .main-nav > li > a {
+        color: var(--text-dark) !important;
+        padding: 14px 20px;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .nav-search {
+        display: none;
     }
 }
 
