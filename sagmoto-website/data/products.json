@@ -123,10 +123,7 @@
       "desc3": ""
     },
     {
-      "id": "medium-01",
-      "category": "medium",
-      "categoryLabel": "Medium Duty Truck",
-      "name": "X6 Cement Mixers Truck",
+      "id": "medium-03",
       "spec": "Dropside | 12T<=GCW<=60T",
       "description": "Flexible, Lightweight and Powerful Modular weight reduction design, aluminum alloy, high-strength profiles Short wheelbase design chassis, can be equipped with shortened axle, with smaller turning radius",
       "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/a9351ff3-e79c-44f1-b08f-a7bb8659d32f.png",
@@ -304,7 +301,7 @@
       "desc3": "Reinforced multi-leaf springs, high strength and rigidity double-layer chassis, easy to cope with complex working conditions."
     },
     {
-      "id": "special-01",
+      "id": "special-04",
       "category": "special",
       "categoryLabel": "Special Vehicle",
       "name": "X3s Mixer trucks 8X4",
@@ -384,7 +381,7 @@
       "desc3": "Customized Upper-body"
     },
     {
-      "id": "offroad-01",
+      "id": "offroad-04",
       "category": "offroad",
       "categoryLabel": "Off-road Truck",
       "name": "Off-road Dump Truck",
