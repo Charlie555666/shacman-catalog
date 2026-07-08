@@ -185,24 +185,27 @@
 </div>
 <div class="contact-form-col">
 <h2>Send Us a Message</h2>
-<form class="contact-form" id="contactForm" onsubmit="event.preventDefault();alert('Thank you for your inquiry. We will respond within 24 hours.');">
+<form class="contact-form" id="contactForm" action="https://formsubmit.co/sales@fenghan-trade.com" method="POST">
+<input type="hidden" name="_captcha" value="false"/>
+<input type="hidden" name="_next" value="https://charlie555666.github.io/shacman-catalog/sagmoto-website/contact.html?sent=true"/>
+<input type="hidden" name="_subject" value="New Inquiry from SAGMOTO Website"/>
 <div class="form-row">
 <div class="form-group">
-<input placeholder="Your Name *" required="" type="text"/>
+<input name="name" placeholder="Your Name *" required="" type="text"/>
 </div>
 <div class="form-group">
-<input placeholder="E-mail Address *" required="" type="email"/>
+<input name="email" placeholder="E-mail Address *" required="" type="email"/>
 </div>
 </div>
 <div class="form-group">
-<input placeholder="Company / Organization" type="text"/>
+<input name="company" placeholder="Company / Organization" type="text"/>
 </div>
 <div class="form-row">
 <div class="form-group">
-<input placeholder="Phone / WhatsApp" type="tel"/>
+<input name="phone" placeholder="Phone / WhatsApp" type="tel"/>
 </div>
 <div class="form-group">
-<select>
+<select name="inquiry_type">
 <option value="">Select Inquiry Type</option>
 <option>Product Inquiry</option>
 <option>After-Sales Support</option>
@@ -213,7 +216,7 @@
 </div>
 </div>
 <div class="form-group">
-<textarea placeholder="Your Message *" required="" rows="5"></textarea>
+<textarea name="message" placeholder="Your Message *" required="" rows="5"></textarea>
 </div>
 <button class="btn-primary" type="submit">Submit Inquiry</button>
 </form>
