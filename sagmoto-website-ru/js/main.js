@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     container.style.height = '100vh';
                     var wrapper = container.querySelector('.swiper-wrapper');
                     if (wrapper) wrapper.style.height = '100vh';
-                    var slides = container.querySelectorВсе('.swiper-slide');
+                    var slides = container.querySelectorAll('.swiper-slide');
                     slides.forEach(function(s) { s.style.height = '100vh'; });
                 },
             },
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Close mobile menu when clicking a nav link
-        var navLinks = mainNav.querySelectorВсе('a');
+        var navLinks = mainNav.querySelectorAll('a');
         navLinks.forEach(function(link) {
             link.addEventListener('click', function() {
                 mobileToggle.classList.remove('active');
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Mobile dropdown toggle for ALL has-dropdown items
-        var dropdownItems = mainNav.querySelectorВсе('.has-dropdown');
+        var dropdownItems = mainNav.querySelectorAll('.has-dropdown');
         dropdownItems.forEach(function(item) {
             item.addEventListener('click', function(e) {
                 if (window.innerWidth <= 768) {
@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ===== Tab Switching =====
-    var tabBtns = document.querySelectorВсе('.tab-btn');
-    var tabPanels = document.querySelectorВсе('.tab-panel');
+    var tabBtns = document.querySelectorAll('.tab-btn');
+    var tabPanels = document.querySelectorAll('.tab-panel');
 
     tabBtns.forEach(function(btn) {
         btn.addEventListener('click', function() {
@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ===== Recommended Model Tab Switching (.tab-item / .tab-content) =====
-    var tabItems = document.querySelectorВсе('.tab-item[data-tab]');
-    var tabContents = document.querySelectorВсе('.tab-content[id]');
+    var tabItems = document.querySelectorAll('.tab-item[data-tab]');
+    var tabContents = document.querySelectorAll('.tab-content[id]');
 
     tabItems.forEach(function(item) {
         item.addEventListener('click', function() {
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ===== Filter Tabs (Продукция Page) =====
-    var filterTabs = document.querySelectorВсе('.filter-tab');
+    var filterTabs = document.querySelectorAll('.filter-tab');
     filterTabs.forEach(function(tab) {
         tab.addEventListener('click', function() {
             var filter = this.getAttribute('data-filter');
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             filterTabs.forEach(function(t) { t.classList.remove('active'); });
             this.classList.add('active');
 
-            var items = document.querySelectorВсе('.filter-item');
+            var items = document.querySelectorAll('.filter-item');
             items.forEach(function(item) {
                 if (filter === 'all' || item.getAttribute('data-category') === filter) {
                     item.style.display = 'block';
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Animate visible cards
             setTimeout(function() {
-                var visible = document.querySelectorВсе('.filter-item[style*="block"], .filter-item:not([style*="none"])');
+                var visible = document.querySelectorAll('.filter-item[style*="block"], .filter-item:not([style*="none"])');
                 visible.forEach(function(v, i) {
                     v.style.animation = 'fadeInUp 0.3s ease forwards';
                     v.style.animationDelay = (i * 0.05) + 's';
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ===== Smooth Scroll for Anchor Links =====
-    document.querySelectorВсе('a[href^="#"]').forEach(function(anchor) {
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         anchor.addEventListener('click', function(e) {
             var targetId = this.getAttribute('href');
             if (targetId === '#') return;
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ===== Scroll Reveal Animation =====
-    var revealElements = document.querySelectorВсе('.product-card, .recommend-card, .news-card, .stat-item, .video-card, .product-grid-item');
+    var revealElements = document.querySelectorAll('.product-card, .recommend-card, .news-card, .stat-item, .video-card, .product-grid-item');
 
     function checkReveal() {
         revealElements.forEach(function(el, index) {
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ===== Active Navigation Highlight =====
     var currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
-    var navLinksВсе = document.querySelectorВсе('.main-nav a');
+    var navLinksВсе = document.querySelectorAll('.main-nav a');
     navLinksВсе.forEach(function(link) {
         var href = link.getAttribute('href');
         if (href && href === currentPage) {
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ===== Language Selector =====
-    var langLinks = document.querySelectorВсе('.lang-selector a');
+    var langLinks = document.querySelectorAll('.lang-selector a');
     langLinks.forEach(function(link) {
         link.addEventListener('click', function(e) {
             e.preventDefault();

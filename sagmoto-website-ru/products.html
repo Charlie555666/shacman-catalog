@@ -284,7 +284,7 @@
 
         function renderПродукция(cat) {
             var filtered = cat === 'all' ? allПродукция : allПродукция.filter(function(p) { return p.category === cat; });
-            catTitle.innerHTML = '<h2>' + (catLabels[cat] || 'Продукция') + '</h2><p>' + filtered.length + ' models available</p>';
+            catTitle.innerHTML = '<h2>' + (catLabels[cat] || 'Продукция') + '</h2><p>' + filtered.length + ' моделей доступно</p>';
             grid.innerHTML = filtered.map(function(p) {
                 return '<div class="product-card">' +
                     '<a href="' + getDetailPage(p.name) + '" class="product-card-img">' +
@@ -292,12 +292,12 @@
                     '</a>' +
                     '<div class="product-card-body">' +
                     '<h3><a href="' + getDetailPage(p.name) + '">' + p.name + '</a></h3>' +
-                    '<p class="product-card-specs">' + (p.specs || '') + '</p>' +
+                    '<p class="product-card-specs">' + (p.spec || '') + '</p>' +
                     '</div>' +
                     '</div>';
             }).join('');
             if (!filtered.length) {
-                grid.innerHTML = '<p class="no-results">No products found in this category. Please check back soon.</p>';
+                grid.innerHTML = '<p class="no-results">Продукция не найдена в этой категории. Пожалуйста, проверьте позже.</p>';
             }
         }
 
@@ -307,17 +307,17 @@
         var searchParam = params.get('search');
 
         if (searchParam) {
-            catTitle.innerHTML = '<h2>Search: ' + searchParam + '</h2>';
+            catTitle.innerHTML = '<h2>Поиск: ' + searchParam + '</h2>';
             grid.innerHTML = allПродукция.filter(function(p) { return p.name.toLowerCase().indexOf(searchParam.toLowerCase()) >= 0; }).map(function(p) {
                 return '<div class="product-card featured"><a href="' + getDetailPage(p.name) + '" class="product-card-img">' +
                     '<img src="' + p.image + '" alt="' + p.name + '" onerror="this.src=\'' + fallbackImg + '\'"></a>' +
                     '<div class="product-card-body"><h3><a href="' + getDetailPage(p.name) + '">' + p.name + '</a></h3>' +
                     '<p class="product-card-desc">' + (p.description || '') + '</p>' +
-                    '<p class="product-card-specs">' + (p.specs || '') + '</p></div></div>';
+                    '<p class="product-card-specs">' + (p.spec || '') + '</p></div></div>';
             }).join('');
         } else {
             // Highlight current tab
-            var tabs = document.querySelectorВсе('#productTabs .tab-btn');
+            var tabs = document.querySelectorAll('#productTabs .tab-btn');
             tabs.forEach(function(b) { b.classList.remove('active'); if (b.getAttribute('data-cat') === catParam) b.classList.add('active'); });
             renderПродукция(catParam);
 

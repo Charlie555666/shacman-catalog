@@ -554,7 +554,7 @@
 
   // ==================== Init ====================
   function init() {
-    var buttons = document.querySelectorВсе('.pg-plus');
+    var buttons = document.querySelectorAll('.pg-plus');
     for (var i = 0; i < buttons.length; i++) {
       (function(btn) {
         // Remove href navigation
