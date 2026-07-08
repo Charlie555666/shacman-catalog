@@ -179,15 +179,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ===== Contact Form Отправить =====
+    // ===== Contact Form Submit =====
     var contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
             var name = this.querySelector('[name="name"]');
             var email = this.querySelector('[name="email"]');
-            var phone = this.querySelector('[name="phone"]');
             var message = this.querySelector('[name="message"]');
 
             // Simple validation
@@ -207,27 +204,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             if (!valid) {
+                e.preventDefault();
                 alert('Пожалуйста, заполните все обязательные поля правильно.');
                 return;
             }
 
-            // Show success
-            var btn = this.querySelector('.btn-submit');
-            var originalText = btn.textContent;
-            btn.textContent = 'Отправка...';
-            btn.disabled = true;
-
-            setTimeout(function() {
-                btn.textContent = 'Сообщение отправлено!';
-                btn.style.background = '#28a745';
-                contactForm.reset();
-
-                setTimeout(function() {
-                    btn.textContent = originalText;
-                    btn.style.background = '#c41230';
-                    btn.disabled = false;
-                }, 2000);
-            }, 1000);
+            // Valid - let form post to formsubmit.co naturally
+            var btn = this.querySelector('.btn-primary');
+            if (btn) {
+                btn.textContent = 'Отправка...';
+                btn.disabled = true;
+            }
         });
     }
 
