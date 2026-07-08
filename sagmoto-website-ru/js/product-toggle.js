@@ -141,7 +141,7 @@
       ]
     },
     "x6 cement mixers truck": {
-      name: "X6 Cement Mixer Truck",
+      name: "X6 Автобетоносмеситель",
       category: "Средние грузовики (Спецтехника)",
       engine: "Cummins ISD",
       hp: 210,
