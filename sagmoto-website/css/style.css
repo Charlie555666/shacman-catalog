@@ -1364,6 +1364,102 @@ section {
     background: rgba(196, 18, 48, 0.04);
 }
 
+.pg-plus.active {
+    border-color: var(--accent);
+    color: #fff;
+    background: var(--accent);
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* === Product Specs Toggle Panel === */
+.product-specs-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.45s ease, margin 0.3s ease, padding 0.3s ease;
+    background: #f9f9fa;
+    border-radius: 6px;
+    margin-top: 0;
+}
+
+.product-specs-panel.open {
+    max-height: 800px;
+    margin-top: 16px;
+}
+
+.specs-inner {
+    padding: 20px;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+.specs-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.specs-table tr:last-child {
+    border-bottom: none;
+}
+
+.specs-table td {
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.specs-table .specs-label {
+    color: #666;
+    font-weight: 500;
+    width: 35%;
+    white-space: nowrap;
+}
+
+.specs-table .specs-value {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.specs-table .specs-value.highlight {
+    color: var(--accent);
+}
+
+.specs-features {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 14px;
+}
+
+.specs-features h5 {
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.specs-features ul {
+    margin: 0;
+    padding: 0 0 0 16px;
+    columns: 2;
+    column-gap: 24px;
+}
+
+.specs-features ul li {
+    font-size: 12.5px;
+    color: #555;
+    line-height: 1.7;
+    padding: 2px 0;
+    break-inside: avoid;
+}
+
+@media (max-width: 600px) {
+    .specs-features ul {
+        columns: 1;
+    }
+}
+
 /* === Latest News Section === */
 .latest-news-section {
     background: #f7f7f7;
