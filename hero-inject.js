@@ -56,7 +56,7 @@
     style.textContent = 
         /* === Chinese Company Intro === */
         '.cn-company-intro{background:linear-gradient(135deg,#0D1F3D 0%,#152a54 100%);padding:40px 24px 32px;text-align:center;border-bottom:3px solid #C62828}' +
-        '.cn-company-intro .cn-logo-text{font-size:28px;font-weight:700;color:#fff;margin:0 0 6px;letter-spacing:2px}' +
+        '.cn-company-intro .cn-logo-text{font-size:28px;font-weight:700;color:#0D1F3D;margin:0;letter-spacing:2px}' +
         '.cn-company-intro .cn-en-name{font-size:13px;color:rgba(255,255,255,.65);margin:0 0 20px;font-family:Arial;text-transform:uppercase;letter-spacing:1px}' +
         '.cn-company-intro .cn-tagline{font-size:17px;color:#C89B3C;font-weight:600;margin:0 0 16px;padding:8px 24px;background:rgba(200,155,60,.12);border-radius:4px;display:inline-block}' +
         '.cn-company-intro .cn-features{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin:0 auto}' +
@@ -162,11 +162,11 @@
         // ===== SECTION B: 中文业务描述 + 产品分类 (折叠卡片) =====
         var bizDesc = document.createElement('section');
         bizDesc.className = 'cn-business-desc';
-        bizDesc.innerHTML = '<div class="cn-collapse-header" role="button" aria-expanded="true" tabindex="0">' +
+        bizDesc.innerHTML = '<div class="cn-collapse-header collapsed" role="button" aria-expanded="false" tabindex="0">' +
             '<h2>\uD83D\uDD0D \u4E3B\u8425\u4EA7\u54C1 \u2014 \u4E2D\u56FD\u91CD\u5361\u51FA\u53E3\u5168\u54C1\u7C7B\u8986\u76D6</h2>' +
-            '<span class="cn-collapse-arrow">\u25BC</span>' +
+            '<span class="cn-collapse-arrow">\u25B6</span>' +
             '</div>' +
-            '<div class="cn-collapse-body">' +
+            '<div class="cn-collapse-body collapsed">' +
             '<p class="cn-desc-text">' +
             '<strong>\u9655\u897F\u98CE\u7FF0\u8D38\u6613\u6709\u9650\u516C\u53F8</strong>\u662F<strong>\u9655\u6C7D\u96C6\u56E2SHACMAN/SAGMOTO\u54C1\u724C</strong>\u6B63\u5F0F\u6388\u6743\u7684\u51FA\u53E3\u7ECF\u9500\u5546\uFF0C' +
             '\u603B\u90E8\u4F4D\u4E8E\u4E2D\u56FD\u9655\u897F\u7701\u897F\u5B89\u5E02\uFF0C\u4E13\u4E1A\u4ECE\u4E8B\u91CD\u578B\u5361\u8F66\u53CA\u5546\u7528\u8F66\u8F86\u7684\u8FDB\u51FA\u53E3\u8D38\u6613\u3002' +
