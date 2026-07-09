@@ -1,7 +1,7 @@
 /**
  * hero-inject.js — 51微店 fenghan-trade.com 首页优化：中文SEO + 首屏 + DIY配置器
  * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/hero-inject.js
- * Version: 2026-07-09 (v3: +cn-business-desc折叠卡片)
+ * Version: 2026-07-09 (v4: fix CSS truncation + hero insertion order)
  */
 (function() {
     if (window.__fenghanInjected) return;
