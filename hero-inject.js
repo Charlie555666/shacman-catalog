@@ -55,16 +55,16 @@
     var style = document.createElement('style');
     style.textContent = 
         /* === Chinese Company Intro === */
-        '.cn-company-intro{background:linear-gradient(135deg,#0D1F3D 0%,#152a54 100%);padding:40px 24px 32px;text-align:center;border-bottom:3px solid #C62828}' +
-        '.cn-company-intro .cn-logo-text{font-size:28px;font-weight:700;color:#0D1F3D;margin:0;letter-spacing:2px}' +
-        '.cn-company-intro .cn-en-name{font-size:13px;color:rgba(255,255,255,.65);margin:0 0 20px;font-family:Arial;text-transform:uppercase;letter-spacing:1px}' +
-        '.cn-company-intro .cn-tagline{font-size:17px;color:#C89B3C;font-weight:600;margin:0 0 16px;padding:8px 24px;background:rgba(200,155,60,.12);border-radius:4px;display:inline-block}' +
-        '.cn-company-intro .cn-features{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin:0 auto}' +
-        '.cn-company-intro .cn-feat-item{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.9);font-size:14px;padding:6px 16px;background:rgba(255,255,255,.08);border-radius:6px}' +
-        '.cn-company-intro .cn-feat-item strong{color:#C89B3C}' +
-        '.cn-company-intro .cn-contact-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12)}' +
-        '.cn-company-intro .cn-contact-strip a,.cn-company-intro .cn-contact-strip span{color:rgba(255,255,255,.8);font-size:13px;text-decoration:none;padding:6px 16px;background:rgba(255,255,255,.05);border-radius:20px;transition:all .2s}' +
-        '.cn-company-intro .cn-contact-strip a:hover{background:rgba(255,255,255,.15);color:#fff}' +
+        '.cn-company-intro{background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.08);border:1px solid #eef1f5;margin:40px auto;max-width:960px;overflow:hidden}' +
+        '.cn-company-intro .cn-logo-text{font-size:24px;font-weight:700;color:#0D1F3D;margin:0;letter-spacing:1px}' +
+        '.cn-company-intro .cn-en-name{font-size:13px;color:#666;margin:0 0 16px;font-family:Arial;text-transform:uppercase;letter-spacing:1px}' +
+        '.cn-company-intro .cn-tagline{font-size:16px;color:#C62828;font-weight:600;margin:0 0 16px;padding:6px 18px;background:rgba(198,40,40,.06);border-radius:4px;display:inline-block}' +
+        '.cn-company-intro .cn-features{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;max-width:900px;margin:0 auto}' +
+        '.cn-company-intro .cn-feat-item{display:flex;align-items:center;gap:8px;color:#444;font-size:14px;padding:6px 16px;background:#f5f7fa;border-radius:6px}' +
+        '.cn-company-intro .cn-feat-item strong{color:#C62828}' +
+        '.cn-company-intro .cn-contact-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:20px;padding-top:18px;border-top:1px solid #eef1f5}' +
+        '.cn-company-intro .cn-contact-strip a,.cn-company-intro .cn-contact-strip span{color:#555;font-size:13px;text-decoration:none;padding:6px 16px;background:#f5f7fa;border-radius:20px;transition:all .2s}' +
+        '.cn-company-intro .cn-contact-strip a:hover{background:#0D1F3D;color:#fff}' +
         /* === Chinese Business Description === */
         '.cn-business-desc{background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.08);border:1px solid #eef1f5;margin:40px auto;max-width:960px;overflow:hidden}' +
         '.cn-collapse-header{padding:18px 24px;background:linear-gradient(135deg,#f8fafd,#fff);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid transparent;transition:all .3s}' +
