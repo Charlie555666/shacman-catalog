@@ -1,7 +1,7 @@
 /**
- * whatsapp-inject.js — 51微店 fenghan-trade.com WhatsApp悬浮按钮
- * Injected via 统计代码 as: <script src="whatsapp-inject.js"></script>
- * Version: 2026-07-02
+ * whatsapp-inject.js — 51微店 fenghan-trade.com WhatsApp悬浮按钮 + SAGMOTO互链横幅
+ * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/whatsapp-inject.js
+ * Version: 2026-07-09 (v2: +crosslink banner to sagmoto-trucks.com)
  */
 (function() {
     if (window.__fenghanWAInjected) return;
@@ -39,5 +39,50 @@
         document.addEventListener('DOMContentLoaded', inject);
     } else {
         inject();
+    }
+
+    // ===== SAGMOTO Cross-Link Banner =====
+    var crossStyle = document.createElement('style');
+    crossStyle.textContent =
+        '.fenghan-crossbar{position:fixed;bottom:0;left:0;right:0;z-index:99990;' +
+        'background:linear-gradient(90deg,#0D1F3D,#1a3a6e);color:#fff;text-align:center;' +
+        'padding:10px 16px;font-size:14px;display:flex;align-items:center;justify-content:center;' +
+        'gap:10px;flex-wrap:wrap;box-shadow:0 -2px 12px rgba(0,0,0,0.3)}' +
+        '.fenghan-crossbar a{color:#C89B3C;text-decoration:none;font-weight:600;' +
+        'border-bottom:1px dashed #C89B3C;transition:color 0.2s}' +
+        '.fenghan-crossbar a:hover{color:#fff;border-bottom-color:#fff}' +
+        '.fenghan-crossbar .cross-close{color:#999;cursor:pointer;font-size:18px;line-height:1;' +
+        'padding:2px 6px;transition:color 0.2s}' +
+        '.fenghan-crossbar .cross-close:hover{color:#fff}' +
+        '@media(max-width:600px){.fenghan-crossbar{font-size:12px;padding:8px 10px;gap:4px}}';
+    document.head.appendChild(crossStyle);
+
+    var crossbar = document.createElement('div');
+    crossbar.className = 'fenghan-crossbar';
+    crossbar.innerHTML =
+        '🚛 <strong>SAGMOTO Brand Site</strong> ' +
+        '— <a href="https://sagmoto-trucks.com/" target="_blank" rel="noopener">sagmoto-trucks.com</a>' +
+        '<span class="cross-close" title="Close">✕</span>';
+
+    crossbar.querySelector('.cross-close').addEventListener('click', function() {
+        crossbar.style.display = 'none';
+        // Restore WhatsApp float position
+        var wf = document.querySelector('.whatsapp-float');
+        if (wf) wf.style.bottom = '24px';
+    });
+
+    function insertCrossbar() {
+        if (document.body) {
+            document.body.appendChild(crossbar);
+            // Push WhatsApp float up to avoid overlap
+            var wf = document.querySelector('.whatsapp-float');
+            if (wf) wf.style.bottom = '56px';
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', insertCrossbar);
+    } else {
+        insertCrossbar();
     }
 })();
