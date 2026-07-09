@@ -92,7 +92,7 @@
         '.cn-business-desc .cn-prod-card{padding:14px 10px}' +
         '.cn-collapse-header h2{font-size:16px}' +
         '.cn-collapse-header{padding:14px 18px}' +
-        '.cn-collapse-body{padding:18px 16px}}'
+        '.cn-collapse-body{padding:18px 16px}}' +
         /* === Hero Wrap === */
         '.fenghan-hero-wrap{background:linear-gradient(135deg,#0D1F3D 0%,#1a3a6e 100%);padding:48px 24px;text-align:center;margin:0}' +
         '.fenghan-hero-wrap .hero-title{font-size:30px;font-weight:700;color:#fff;margin:0 0 12px;font-family:Calibri,Arial,sans-serif;line-height:1.3}' +
@@ -216,8 +216,9 @@
         if (carousel && carousel.parentNode) {
             carousel.parentNode.insertBefore(hero, carousel.nextSibling);
         } else {
-            var fc = art.firstElementChild;
-            if (fc) art.insertBefore(hero, fc);
+            // Insert hero after cnIntro, not before the first child (which is now cnIntro)
+            var heroRef = cnIntro.nextSibling;
+            if (heroRef) art.insertBefore(hero, heroRef);
             else art.appendChild(hero);
         }
 
