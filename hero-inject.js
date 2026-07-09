@@ -1,7 +1,7 @@
 /**
  * hero-inject.js — 51微店 fenghan-trade.com 首页优化：中文SEO + 首屏 + DIY配置器
  * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/hero-inject.js
- * Version: 2026-07-09 (v4: fix CSS truncation + hero insertion order)
+ * Version: 2026-07-09 (v5: cnIntro collapsible, default collapsed)
  */
 (function() {
     if (window.__fenghanInjected) return;
@@ -130,10 +130,14 @@
     function init() {
         var art = document.querySelector('article') || document.querySelector('main') || document.body;
 
-        // ===== SECTION A: 中文公司简介 (页面最顶部) =====
+        // ===== SECTION A: 中文公司简介 (折叠，默认收起) =====
         var cnIntro = document.createElement('section');
         cnIntro.className = 'cn-company-intro';
-        cnIntro.innerHTML = '<h1 class="cn-logo-text">陕西风瀚贸易有限公司</h1>' +
+        cnIntro.innerHTML = '<div class="cn-collapse-header" role="button" aria-expanded="false" tabindex="0">' +
+            '<h1 class="cn-logo-text">陕西风瀚贸易有限公司</h1>' +
+            '<span class="cn-collapse-arrow">\u25B6</span>' +
+            '</div>' +
+            '<div class="cn-collapse-body collapsed">' +
             '<p class="cn-en-name">Shaanxi Fenghan Trading Co., Ltd. \u2014 SHACMAN / SAGMOTO Authorized Exporter</p>' +
             '<p class="cn-tagline">\uD83C\uDDE8\uD83C\uDDF3 陕汽集团授权出口经销商 | 中国重卡出口专家</p>' +
             '<div class="cn-features">' +
@@ -147,7 +151,8 @@
             '<span>\uD83D\uDCDE +86 153 1943 1311</span>' +
             '<a href="mailto:sales@fenghan-trade.com">\u2709 sales@fenghan-trade.com</a>' +
             '<a href="https://wa.me/8615319431311" target="_blank">\uD83D\uDCAC WhatsApp\u54A8\u8BE2</a>' +
-            '<span>\uD83D\uDCCD \u4E2D\u56FD\xB7\u897F\u5B89\u6D60\u705E\u81EA\u8D38\u4E2D\u5FC3</span>' +
+            '<span>\uD83D\uDCCD \u4E2D\u56FD\u00B7\u897F\u5B89\u6D60\u705E\u81EA\u8D38\u4E2D\u5FC3</span>' +
+            '</div>' +
             '</div>';
 
         var fc = art.firstElementChild;
@@ -179,7 +184,22 @@
             '</div>' +
             '</div>';
 
-        // 折叠交互
+        // 折叠交互 - cnIntro
+        var introHeader = cnIntro.querySelector('.cn-collapse-header');
+        var introBody = cnIntro.querySelector('.cn-collapse-body');
+        var introArrow = cnIntro.querySelector('.cn-collapse-arrow');
+        function toggleIntroCollapse() {
+            var isCollapsed = introBody.classList.toggle('collapsed');
+            introHeader.classList.toggle('collapsed', isCollapsed);
+            introHeader.setAttribute('aria-expanded', !isCollapsed);
+            introArrow.textContent = isCollapsed ? '\u25B6' : '\u25BC';
+        }
+        introHeader.addEventListener('click', toggleIntroCollapse);
+        introHeader.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleIntroCollapse(); }
+        });
+
+        // 折叠交互 - bizDesc
         var header = bizDesc.querySelector('.cn-collapse-header');
         var body = bizDesc.querySelector('.cn-collapse-body');
         var arrow = bizDesc.querySelector('.cn-collapse-arrow');
