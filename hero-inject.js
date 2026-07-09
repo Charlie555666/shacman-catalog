@@ -54,17 +54,6 @@
     // ===== Inject ALL CSS (CN SEO + Hero + Trust + Brands + DIY) =====
     var style = document.createElement('style');
     style.textContent = 
-        /* === Chinese Company Intro === */
-        '.cn-company-intro{background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.08);border:1px solid #eef1f5;margin:40px auto;max-width:960px;overflow:hidden}' +
-        '.cn-company-intro .cn-logo-text{font-size:24px;font-weight:700;color:#0D1F3D;margin:0;letter-spacing:1px}' +
-        '.cn-company-intro .cn-en-name{font-size:13px;color:#666;margin:0 0 16px;font-family:Arial;text-transform:uppercase;letter-spacing:1px}' +
-        '.cn-company-intro .cn-tagline{font-size:16px;color:#C62828;font-weight:600;margin:0 0 16px;padding:6px 18px;background:rgba(198,40,40,.06);border-radius:4px;display:inline-block}' +
-        '.cn-company-intro .cn-features{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;max-width:900px;margin:0 auto}' +
-        '.cn-company-intro .cn-feat-item{display:flex;align-items:center;gap:8px;color:#444;font-size:14px;padding:6px 16px;background:#f5f7fa;border-radius:6px}' +
-        '.cn-company-intro .cn-feat-item strong{color:#C62828}' +
-        '.cn-company-intro .cn-contact-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:20px;padding-top:18px;border-top:1px solid #eef1f5}' +
-        '.cn-company-intro .cn-contact-strip a,.cn-company-intro .cn-contact-strip span{color:#555;font-size:13px;text-decoration:none;padding:6px 16px;background:#f5f7fa;border-radius:20px;transition:all .2s}' +
-        '.cn-company-intro .cn-contact-strip a:hover{background:#0D1F3D;color:#fff}' +
         /* === Chinese Business Description === */
         '.cn-business-desc{background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.08);border:1px solid #eef1f5;margin:40px auto;max-width:960px;overflow:hidden}' +
         '.cn-collapse-header{padding:18px 24px;background:linear-gradient(135deg,#f8fafd,#fff);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid transparent;transition:all .3s}' +
@@ -130,36 +119,6 @@
     function init() {
         var art = document.querySelector('article') || document.querySelector('main') || document.body;
 
-        // ===== SECTION A: 中文公司简介 (折叠，默认收起) =====
-        var cnIntro = document.createElement('section');
-        cnIntro.className = 'cn-company-intro';
-        cnIntro.innerHTML = '<div class="cn-collapse-header" role="button" aria-expanded="false" tabindex="0">' +
-            '<h1 class="cn-logo-text">陕西风瀚贸易有限公司</h1>' +
-            '<span class="cn-collapse-arrow">\u25B6</span>' +
-            '</div>' +
-            '<div class="cn-collapse-body collapsed">' +
-            '<p class="cn-en-name">Shaanxi Fenghan Trading Co., Ltd. \u2014 SHACMAN / SAGMOTO Authorized Exporter</p>' +
-            '<p class="cn-tagline">\uD83C\uDDE8\uD83C\uDDF3 陕汽集团授权出口经销商 | 中国重卡出口专家</p>' +
-            '<div class="cn-features">' +
-            '<span class="cn-feat-item">\u2705 <strong>200+</strong> 车型配置</span>' +
-            '<span class="cn-feat-item">\uD83C\uDF0D <strong>50+</strong> 出口国家</span>' +
-            '<span class="cn-feat-item">\uD83D\uDE9B <strong>自卸车/牵引车/载货车/专用车</strong></span>' +
-            '<span class="cn-feat-item">\uD83C\uDFED <strong>工厂直供</strong> 价格优势</span>' +
-            '<span class="cn-feat-item">\uD83D\uDCB0 <strong>原厂质保</strong> 全球售后</span>' +
-            '</div>' +
-            '<div class="cn-contact-strip">' +
-            '<span>\uD83D\uDCDE +86 153 1943 1311</span>' +
-            '<a href="mailto:sales@fenghan-trade.com">\u2709 sales@fenghan-trade.com</a>' +
-            '<a href="https://wa.me/8615319431311" target="_blank">\uD83D\uDCAC WhatsApp\u54A8\u8BE2</a>' +
-            '<span>\uD83D\uDCCD \u4E2D\u56FD\u00B7\u897F\u5B89\u6D60\u705E\u81EA\u8D38\u4E2D\u5FC3</span>' +
-            '</div>' +
-            '</div>';
-
-        var fc = art.firstElementChild;
-        if (fc) art.insertBefore(cnIntro, fc);
-        else art.appendChild(cnIntro);
-
-        // ===== SECTION B: 中文业务描述 + 产品分类 (折叠卡片) =====
         var bizDesc = document.createElement('section');
         bizDesc.className = 'cn-business-desc';
         bizDesc.innerHTML = '<div class="cn-collapse-header collapsed" role="button" aria-expanded="false" tabindex="0">' +
@@ -184,21 +143,6 @@
             '</div>' +
             '</div>';
 
-        // 折叠交互 - cnIntro
-        var introHeader = cnIntro.querySelector('.cn-collapse-header');
-        var introBody = cnIntro.querySelector('.cn-collapse-body');
-        var introArrow = cnIntro.querySelector('.cn-collapse-arrow');
-        function toggleIntroCollapse() {
-            var isCollapsed = introBody.classList.toggle('collapsed');
-            introHeader.classList.toggle('collapsed', isCollapsed);
-            introHeader.setAttribute('aria-expanded', !isCollapsed);
-            introArrow.textContent = isCollapsed ? '\u25B6' : '\u25BC';
-        }
-        introHeader.addEventListener('click', toggleIntroCollapse);
-        introHeader.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleIntroCollapse(); }
-        });
-
         // 折叠交互 - bizDesc
         var header = bizDesc.querySelector('.cn-collapse-header');
         var body = bizDesc.querySelector('.cn-collapse-body');
@@ -214,7 +158,8 @@
             if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleCollapse(); }
         });
 
-        if (cnIntro.nextSibling) art.insertBefore(bizDesc, cnIntro.nextSibling);
+        var fc2 = art.firstElementChild;
+        if (fc2) art.insertBefore(bizDesc, fc2);
         else art.appendChild(bizDesc);
 
         // ===== SECTION C: Hero wrap (原有英文Hero) =====
@@ -236,8 +181,8 @@
         if (carousel && carousel.parentNode) {
             carousel.parentNode.insertBefore(hero, carousel.nextSibling);
         } else {
-            // Insert hero after cnIntro, not before the first child (which is now cnIntro)
-            var heroRef = cnIntro.nextSibling;
+            // Insert hero after bizDesc
+            var heroRef = bizDesc.nextSibling;
             if (heroRef) art.insertBefore(hero, heroRef);
             else art.appendChild(hero);
         }
