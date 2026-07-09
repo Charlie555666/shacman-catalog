@@ -1,7 +1,7 @@
 /**
  * hero-inject.js — 51微店 fenghan-trade.com 首页优化：中文SEO + 首屏 + DIY配置器
  * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/hero-inject.js
- * Version: 2026-07-08 (v2: +中文SEO公司简介/产品分类/JSON-LD)
+ * Version: 2026-07-09 (v3: +cn-business-desc折叠卡片)
  */
 (function() {
     if (window.__fenghanInjected) return;
@@ -66,9 +66,16 @@
         '.cn-company-intro .cn-contact-strip a,.cn-company-intro .cn-contact-strip span{color:rgba(255,255,255,.8);font-size:13px;text-decoration:none;padding:6px 16px;background:rgba(255,255,255,.05);border-radius:20px;transition:all .2s}' +
         '.cn-company-intro .cn-contact-strip a:hover{background:rgba(255,255,255,.15);color:#fff}' +
         /* === Chinese Business Description === */
-        '.cn-business-desc{background:#fff;padding:36px 24px;max-width:960px;margin:0 auto;text-align:center}' +
-        '.cn-business-desc h2{font-size:22px;color:#0D1F3D;margin:0 0 20px;font-weight:700}' +
-        '.cn-business-desc .cn-desc-text{font-size:15px;color:#555;line-height:1.9;max-width:800px;margin:0 auto 28px;text-align:justify}' +
+        '.cn-business-desc{background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.08);border:1px solid #eef1f5;margin:40px auto;max-width:960px;overflow:hidden}' +
+        '.cn-collapse-header{padding:18px 24px;background:linear-gradient(135deg,#f8fafd,#fff);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid transparent;transition:all .3s}' +
+        '.cn-collapse-header:hover{background:linear-gradient(135deg,#f0f4f8,#fff)}' +
+        '.cn-collapse-header h2{font-size:20px;color:#0D1F3D;margin:0;font-weight:700;display:flex;align-items:center;gap:10px}' +
+        '.cn-collapse-arrow{width:28px;height:28px;border-radius:50%;background:#0D1F3D;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;transition:transform .3s;flex-shrink:0}' +
+        '.cn-collapse-body{padding:28px 24px;transition:max-height .4s ease,opacity .3s ease,padding .3s ease;max-height:2000px;opacity:1;overflow:hidden}' +
+        '.cn-collapse-body.collapsed{max-height:0;opacity:0;padding:0 24px}' +
+        '.cn-collapse-header.collapsed .cn-collapse-arrow{transform:rotate(-90deg)}' +
+        '.cn-collapse-header.collapsed{border-bottom-color:#eef1f5}' +
+        '.cn-business-desc .cn-desc-text{font-size:15px;color:#555;line-height:1.9;max-width:800px;margin:0 auto 24px;text-align:justify}' +
         '.cn-business-desc .cn-desc-text strong{color:#C62828}' +
         '.cn-business-desc .cn-product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:880px;margin:0 auto}' +
         '.cn-business-desc .cn-prod-card{background:#f8f9fa;border-radius:10px;padding:22px 16px;text-align:center;border:1px solid #eee;transition:all .25s}' +
@@ -82,7 +89,10 @@
         '.cn-company-intro .cn-features{gap:10px}' +
         '.cn-company-intro .cn-feat-item{font-size:12px;padding:4px 12px}' +
         '.cn-business-desc .cn-product-grid{grid-template-columns:1fr 1fr;gap:10px}' +
-        '.cn-business-desc .cn-prod-card{padding:14px 10px}}' +
+        '.cn-business-desc .cn-prod-card{padding:14px 10px}' +
+        '.cn-collapse-header h2{font-size:16px}' +
+        '.cn-collapse-header{padding:14px 18px}' +
+        '.cn-collapse-body{padding:18px 16px}}'
         /* === Hero Wrap === */
         '.fenghan-hero-wrap{background:linear-gradient(135deg,#0D1F3D 0%,#1a3a6e 100%);padding:48px 24px;text-align:center;margin:0}' +
         '.fenghan-hero-wrap .hero-title{font-size:30px;font-weight:700;color:#fff;margin:0 0 12px;font-family:Calibri,Arial,sans-serif;line-height:1.3}' +
@@ -144,22 +154,21 @@
         if (fc) art.insertBefore(cnIntro, fc);
         else art.appendChild(cnIntro);
 
-        // ===== SECTION B: 中文业务描述 + 产品分类 =====
+        // ===== SECTION B: 中文业务描述 + 产品分类 (折叠卡片) =====
         var bizDesc = document.createElement('section');
         bizDesc.className = 'cn-business-desc';
-        bizDesc.innerHTML = '<h2>\uD83D\uDD0D \u4E3B\u8425\u4EA7\u54C1 \u2014 \u4E2D\u56FD\u91CD\u5361\u51FA\u53E3\u5168\u54C1\u7C7B\u8986\u76D6</h2>' +
+        bizDesc.innerHTML = '<div class="cn-collapse-header" role="button" aria-expanded="true" tabindex="0">' +
+            '<h2>\uD83D\uDD0D \u4E3B\u8425\u4EA7\u54C1 \u2014 \u4E2D\u56FD\u91CD\u5361\u51FA\u53E3\u5168\u54C1\u7C7B\u8986\u76D6</h2>' +
+            '<span class="cn-collapse-arrow">\u25BC</span>' +
+            '</div>' +
+            '<div class="cn-collapse-body">' +
             '<p class="cn-desc-text">' +
-            '<strong>\u9655\u897F\u98CE\u7FF0\u8D38\u6613\u6709\u9650\u516C\u53F8</strong>' +
-            '\u662F<strong>\u9655\u6C7D\u96C6\u56E2SHACMAN/SAGMOTO\u54C1\u724C</strong>' +
-            '\u6B63\u5F0F\u6388\u6743\u7684\u51FA\u53E3\u7ECF\u9500\u5546\uFF0C' +
-            '\u603B\u90E8\u4F4D\u4E8E\u4E2D\u56FD\u9655\u897F\u7701\u897F\u5B89\u5E02\uFF0C' +
-            '\u4E13\u4E1A\u4ECE\u4E8B\u91CD\u578B\u5361\u8F66\u53CA\u5546\u7528\u8F66\u8F86\u7684\u8FDB\u51FA\u53E3\u8D38\u6613\u3002' +
+            '<strong>\u9655\u897F\u98CE\u7FF0\u8D38\u6613\u6709\u9650\u516C\u53F8</strong>\u662F<strong>\u9655\u6C7D\u96C6\u56E2SHACMAN/SAGMOTO\u54C1\u724C</strong>\u6B63\u5F0F\u6388\u6743\u7684\u51FA\u53E3\u7ECF\u9500\u5546\uFF0C' +
+            '\u603B\u90E8\u4F4D\u4E8E\u4E2D\u56FD\u9655\u897F\u7701\u897F\u5B89\u5E02\uFF0C\u4E13\u4E1A\u4ECE\u4E8B\u91CD\u578B\u5361\u8F66\u53CA\u5546\u7528\u8F66\u8F86\u7684\u8FDB\u51FA\u53E3\u8D38\u6613\u3002' +
             '\u516C\u53F8\u4F9D\u6258\u9655\u6C7D\u96C6\u56E2\u5F3A\u5927\u7684\u751F\u4EA7\u5236\u9020\u80FD\u529B\u548C\u5B8C\u5584\u7684\u4F9B\u5E94\u94FE\u4F53\u7CFB\uFF0C' +
-            '\u5411\u5168\u7403\u5BA2\u6237\u63D0\u4F9B<strong>\u81EA\u5378\u8F66\u3001\u7275\u5F15\u8F66\u3001\u8F7D\u8D27\u8F66\u3001\u4E13\u7528\u8F66</strong>' +
-            '\u7B49\u5168\u7CFB\u5217\u5546\u7528\u8F66\u4EA7\u54C1\u3002\u4E3B\u8981\u51FA\u53E3\u5E02\u573A\u8986\u76D6' +
-            '<strong>\u975E\u6D32\u3001\u4E2D\u4E1C\u3001\u4E1C\u5357\u4E9A\u3001\u4E2D\u4E9A\u3001\u72EC\u8054\u4F53\u3001\u4E2D\u5357\u7F8E\u6D32</strong>' +
-            '\u7B49\u533A\u57DF\uFF0C\u670D\u52A1\u8D85\u8FC750\u4E2A\u56FD\u5BB6\u548C\u5730\u533A\u7684\u5BA2\u6237\uFF0C' +
-            '\u63D0\u4F9B<strong>\u5DE5\u5382\u76F4\u4F9B\u4EF7\u683C\u3001\u539F\u5382\u6574\u8F66\u8D28\u4FDD\u3001\u5168\u7403\u914D\u4EF6\u4F9B\u5E94</strong>' +
+            '\u5411\u5168\u7403\u5BA2\u6237\u63D0\u4F9B<strong>\u81EA\u5378\u8F66\u3001\u7275\u5F15\u8F66\u3001\u8F7D\u8D27\u8F66\u3001\u4E13\u7528\u8F66</strong>\u7B49\u5168\u7CFB\u5217\u5546\u7528\u8F66\u4EA7\u54C1\u3002' +
+            '\u4E3B\u8981\u51FA\u53E3\u5E02\u573A\u8986\u76D6<strong>\u975E\u6D32\u3001\u4E2D\u4E1C\u3001\u4E1C\u5357\u4E9A\u3001\u4E2D\u4E9A\u3001\u72EC\u8054\u4F53\u3001\u4E2D\u5357\u7F8E\u6D32</strong>\u7B49\u533A\u57DF\uFF0C' +
+            '\u670D\u52A1\u8D85\u8FC750\u4E2A\u56FD\u5BB6\u548C\u5730\u533A\u7684\u5BA2\u6237\uFF0C\u63D0\u4F9B<strong>\u5DE5\u5382\u76F4\u4F9B\u4EF7\u683C\u3001\u539F\u5382\u6574\u8F66\u8D28\u4FDD\u3001\u5168\u7403\u914D\u4EF6\u4F9B\u5E94</strong>' +
             '\u548C\u4E13\u4E1A\u552E\u540E\u670D\u52A1\uFF0C\u81F4\u529B\u4E8E\u6210\u4E3A\u4E2D\u56FD\u91CD\u5361\u51FA\u53E3\u9886\u57DF\u7684\u9886\u5148\u4F01\u4E1A\u3002' +
             '</p>' +
             '<div class="cn-product-grid">' +
@@ -167,7 +176,23 @@
             '<div class="cn-prod-card"><span class="cn-prod-icon">\uD83D\uDE9A</span><span class="cn-prod-name">\u7275\u5F15\u8F66</span><span class="cn-prod-en">Tractor Truck</span></div>' +
             '<div class="cn-prod-card"><span class="cn-prod-icon">\uD83D\uDE99</span><span class="cn-prod-name">\u8F7D\u8D27\u8F66</span><span class="cn-prod-en">Cargo Truck</span></div>' +
             '<div class="cn-prod-card"><span class="cn-prod-icon">\uD83D\uDEE1</span><span class="cn-prod-name">\u4E13\u7528\u8F66</span><span class="cn-prod-en">Special Vehicle</span></div>' +
+            '</div>' +
             '</div>';
+
+        // 折叠交互
+        var header = bizDesc.querySelector('.cn-collapse-header');
+        var body = bizDesc.querySelector('.cn-collapse-body');
+        var arrow = bizDesc.querySelector('.cn-collapse-arrow');
+        function toggleCollapse() {
+            var isCollapsed = body.classList.toggle('collapsed');
+            header.classList.toggle('collapsed', isCollapsed);
+            header.setAttribute('aria-expanded', !isCollapsed);
+            arrow.textContent = isCollapsed ? '\u25B6' : '\u25BC';
+        }
+        header.addEventListener('click', toggleCollapse);
+        header.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleCollapse(); }
+        });
 
         if (cnIntro.nextSibling) art.insertBefore(bizDesc, cnIntro.nextSibling);
         else art.appendChild(bizDesc);

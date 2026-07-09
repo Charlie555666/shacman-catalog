@@ -1,7 +1,7 @@
 /**
  * whatsapp-inject.js — 51微店 fenghan-trade.com WhatsApp悬浮按钮 + SAGMOTO互链横幅
  * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/whatsapp-inject.js
- * Version: 2026-07-09 (v2: +crosslink banner to sagmoto-trucks.com)
+ * Version: 2026-07-09 (v3: +crosslink compact pill style)
  */
 (function() {
     if (window.__fenghanWAInjected) return;
@@ -41,42 +41,41 @@
         inject();
     }
 
-    // ===== SAGMOTO Cross-Link Banner =====
+    // ===== SAGMOTO Cross-Link Banner (v3: compact pill style) =====
     var crossStyle = document.createElement('style');
     crossStyle.textContent =
-        '.fenghan-crossbar{position:fixed;bottom:0;left:0;right:0;z-index:99990;' +
-        'background:linear-gradient(90deg,#0D1F3D,#1a3a6e);color:#fff;text-align:center;' +
-        'padding:10px 16px;font-size:14px;display:flex;align-items:center;justify-content:center;' +
-        'gap:10px;flex-wrap:wrap;box-shadow:0 -2px 12px rgba(0,0,0,0.3)}' +
+        '.fenghan-crossbar{position:fixed;bottom:16px;left:16px;z-index:99990;' +
+        'background:linear-gradient(135deg,#0D1F3D,#1a3a6e);color:#fff;' +
+        'padding:10px 18px;border-radius:30px;font-size:13px;display:flex;align-items:center;' +
+        'gap:8px;box-shadow:0 4px 16px rgba(13,31,61,.35);border:1px solid rgba(200,155,60,.25);' +
+        'transition:all .3s ease;max-width:calc(100% - 100px);backdrop-filter:blur(4px)}' +
+        '.fenghan-crossbar:hover{box-shadow:0 6px 20px rgba(13,31,61,.45);transform:translateY(-1px)}' +
+        '.fenghan-crossbar .cross-icon{font-size:16px;line-height:1}' +
+        '.fenghan-crossbar .cross-label{color:rgba(255,255,255,.85);font-weight:500;white-space:nowrap}' +
         '.fenghan-crossbar a{color:#C89B3C;text-decoration:none;font-weight:600;' +
-        'border-bottom:1px dashed #C89B3C;transition:color 0.2s}' +
+        'border-bottom:1px dashed rgba(200,155,60,.6);transition:all .2s;white-space:nowrap}' +
         '.fenghan-crossbar a:hover{color:#fff;border-bottom-color:#fff}' +
-        '.fenghan-crossbar .cross-close{color:#999;cursor:pointer;font-size:18px;line-height:1;' +
-        'padding:2px 6px;transition:color 0.2s}' +
-        '.fenghan-crossbar .cross-close:hover{color:#fff}' +
-        '@media(max-width:600px){.fenghan-crossbar{font-size:12px;padding:8px 10px;gap:4px}}';
+        '.fenghan-crossbar .cross-close{color:rgba(255,255,255,.5);cursor:pointer;font-size:15px;' +
+        'line-height:1;padding:2px 4px;margin-left:4px;transition:all .2s;border-radius:50%}' +
+        '.fenghan-crossbar .cross-close:hover{color:#fff;background:rgba(255,255,255,.15)}' +
+        '@media(max-width:600px){.fenghan-crossbar{bottom:12px;left:12px;padding:8px 14px;font-size:12px;gap:6px}}';
     document.head.appendChild(crossStyle);
 
     var crossbar = document.createElement('div');
     crossbar.className = 'fenghan-crossbar';
     crossbar.innerHTML =
-        '🚛 <strong>SAGMOTO Brand Site</strong> ' +
-        '— <a href="https://sagmoto-trucks.com/" target="_blank" rel="noopener">sagmoto-trucks.com</a>' +
+        '<span class="cross-icon">🚛</span>' +
+        '<span class="cross-label">SAGMOTO Brand Site</span>' +
+        '<a href="https://sagmoto-trucks.com/" target="_blank" rel="noopener">sagmoto-trucks.com</a>' +
         '<span class="cross-close" title="Close">✕</span>';
 
     crossbar.querySelector('.cross-close').addEventListener('click', function() {
         crossbar.style.display = 'none';
-        // Restore WhatsApp float position
-        var wf = document.querySelector('.whatsapp-float');
-        if (wf) wf.style.bottom = '24px';
     });
 
     function insertCrossbar() {
         if (document.body) {
             document.body.appendChild(crossbar);
-            // Push WhatsApp float up to avoid overlap
-            var wf = document.querySelector('.whatsapp-float');
-            if (wf) wf.style.bottom = '56px';
         }
     }
 
