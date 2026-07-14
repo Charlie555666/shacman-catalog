@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.mirror_raw/
+
+Sitemap: https://sagmoto-trucks.com/sitemap.xml
