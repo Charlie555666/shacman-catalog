@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-13",
   "products": [
     {
       "id": "light-01",
@@ -239,6 +239,51 @@
       "desc1": "Equipped with dual warning system to ensure driving safety.",
       "desc2": "The width of the berth reaches 850mm, and the distance between the upper and lower berths is 800mm for more comfortable rest.",
       "desc3": "Efficient power chain, excellent chassis configuration for better operation."
+    },
+    {
+      "id": "heavy-05",
+      "category": "heavy",
+      "categoryLabel": "Heavy Duty Truck",
+      "name": "X1s Dump Truck 6x4",
+      "spec": "Cummins ISME420 420HP | 50T GVW",
+      "description": "Built for Latin America's toughest mining and construction jobs. Cummins ISME420 engine with JACOB brake, FAST 12JSD200T-B transmission, MAN-technology HDZ16T double-stage cast widened axles. Standard 360-degree camera, driving recorder, LED DRL, and complete factory protection package. Oil-bath air filter for extreme dust conditions.",
+      "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ad8c9fa6-6e55-4d5d-92e1-77960ba555ec.jpg",
+      "tags": [
+        "dump-truck",
+        "mining",
+        "cummins",
+        "heavy-duty"
+      ],
+      "hp": 420,
+      "engine": "Cummins ISME420",
+      "featured": true,
+      "detailUrl": "x1s.html",
+      "desc1": "Cummins ISME420 engine (420HP, 10.8L) with JACOB engine brake for safe downhill operation.",
+      "desc2": "MAN-technology HDZ16T double-stage cast widened axles with 5.262 ratio for extreme torque multiplication.",
+      "desc3": "Standard 360-degree surround-view camera, full protection package, and oil-bath air filter."
+    },
+    {
+      "id": "heavy-06",
+      "category": "heavy",
+      "categoryLabel": "Heavy Duty Truck",
+      "name": "X1s Dump Truck 8x4",
+      "spec": "Cummins M13E3 520HP | 90T GVW",
+      "description": "The ultimate mining dump truck for Latin America. Powered by Cummins M13E3 550 engine (520HP, 12.5L), FAST 12JSDX240T transmission, and MAN-technology HDZ16T axles. Mining-reinforced 14/14/12 suspension, triple-layer frame (8+7+8mm), 90T GVW capacity. Standard 360-degree camera, complete protection package, Spanish-language cab labels.",
+      "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2023032811535752050/cms/image/ad8c9fa6-6e55-4d5d-92e1-77960ba555ec.jpg",
+      "tags": [
+        "dump-truck",
+        "mining",
+        "cummins",
+        "heavy-duty",
+        "8x4"
+      ],
+      "hp": 520,
+      "engine": "Cummins M13E3 550",
+      "featured": true,
+      "detailUrl": "x1s.html",
+      "desc1": "Cummins M13E3 550 engine (520HP, 12.5L) — massive power for high-altitude mining operations.",
+      "desc2": "Mining-reinforced suspension (14/14/12) and triple-layer frame for sustained 90-ton operation.",
+      "desc3": "Standard 360-degree camera, complete protection package, and Spanish-language cab flip labels."
     },
     {
       "id": "special-01",
