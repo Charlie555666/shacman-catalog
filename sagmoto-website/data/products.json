@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "products": [
     {
       "id": "light-01",
@@ -284,6 +284,29 @@
       "desc1": "Cummins M13E3 550 engine (520HP, 12.5L) — massive power for high-altitude mining operations.",
       "desc2": "Mining-reinforced suspension (14/14/12) and triple-layer frame for sustained 90-ton operation.",
       "desc3": "Standard 360-degree camera, complete protection package, and Spanish-language cab flip labels."
+    },
+    {
+      "id": "heavy-07",
+      "category": "heavy",
+      "categoryLabel": "Heavy Duty Truck",
+      "name": "X1s Tractor Truck 6x4",
+      "spec": "Cummins C520 520HP | 6x4 Tractor",
+      "description": "The X1s heavy-duty platform configured as a long-haul tractor for container, tanker, and flatbed trailer operations. Cummins C520 engine (520HP), MAN-technology HDZ16T double-stage axles, high-roof sleeper cab with fold-down bed. Same mining-grade frame and protection package as the dump truck variant.",
+      "image": "https://charlie555666.github.io/shacman-catalog/images/products/x1s/tractor/x1s-tractor-01-hero.jpg",
+      "tags": [
+        "tractor",
+        "long-haul",
+        "cummins",
+        "heavy-duty",
+        "sleeper-cab"
+      ],
+      "hp": 520,
+      "engine": "Cummins C520",
+      "featured": true,
+      "detailUrl": "x1s.html",
+      "desc1": "Cummins C520 engine (520HP) paired with FAST transmission for efficient long-haul operation.",
+      "desc2": "High-roof sleeper cab with fold-down bed, digital instrument cluster, and automatic climate control.",
+      "desc3": "MAN-technology HDZ16T axles with heavy-duty fifth wheel for container, tanker, and flatbed trailers."
     },
     {
       "id": "special-01",
