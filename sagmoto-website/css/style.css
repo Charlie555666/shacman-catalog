@@ -1076,6 +1076,108 @@ section {
     margin-top: 16px;
 }
 
+/* === X1s Exclusive Banner === */
+.x1s-banner {
+    background: linear-gradient(135deg, #c0392b 0%, #e74c3c 30%, #f39c12 100%);
+    position: relative;
+    overflow: hidden;
+}
+.x1s-banner::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255,255,255,0.03) 10px,
+        rgba(255,255,255,0.03) 20px
+    );
+    animation: x1s-stripe 20s linear infinite;
+}
+@keyframes x1s-stripe {
+    0% { transform: translate(0,0); }
+    100% { transform: translate(50px,50px); }
+}
+.x1s-banner-link {
+    display: block;
+    text-decoration: none;
+    padding: 18px 20px;
+    position: relative;
+    z-index: 1;
+}
+.x1s-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.x1s-banner-badge {
+    background: #fff;
+    color: #c0392b;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: x1s-pulse 2s infinite;
+}
+@keyframes x1s-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+.x1s-banner-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+.x1s-banner-desc {
+    color: rgba(255,255,255,0.9);
+    font-size: 14px;
+    font-weight: 500;
+}
+.x1s-banner-cta {
+    background: #fff;
+    color: #c0392b;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+.x1s-banner-link:hover .x1s-banner-cta {
+    background: #2c3e50;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .x1s-banner-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .x1s-banner-title {
+        font-size: 18px;
+    }
+    .x1s-banner-desc {
+        font-size: 12px;
+    }
+    .x1s-banner-link {
+        padding: 14px 15px;
+    }
+}
+
 /* === Category Showcase (3+3 black overlay grid matching sagmoto.com) === */
 .category-showcase {
     padding: 0;
