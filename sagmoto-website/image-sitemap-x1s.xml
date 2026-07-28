@@ -1,300 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-air-filter-oil-bath-53.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Air Filter Oil Bath</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — air filter oil bath. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-air-tank-28.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s air brake reservoir tanks — dual tank system, moisture drain, pressure gauges]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s air brake reservoir tanks — dual tank system, moisture drain, pressure gauges]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Air Tank</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — air tank. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-battery-box-27.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s battery and electrical box — maintenance-free battery, sealed connectors, fuse panel]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s battery and electrical box — maintenance-free battery, sealed connectors, fuse panel]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Battery Box</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — battery box. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-battery-compartment-54.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Battery Compartment</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — battery compartment. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-brake-system-56.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Brake System</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — brake system. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cab-interior-dashboard-40.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cab Interior Dashboard</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cab interior dashboard. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cab-interior-seats-41.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cab Interior Seats</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cab interior seats. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cab-sleeper-berth-42.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cab Sleeper Berth</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cab sleeper berth. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cabin-closeup-09.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump truck cabin close-up — SAGMOTO logo, X1s badge, chrome accents]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump truck cabin close-up — SAGMOTO logo, X1s badge, chrome accents]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Cabin Closeup</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cabin closeup. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cargo-bed-24.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s U-shaped cargo bed interior — high-strength steel, smooth walls, easy unloading]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s U-shaped cargo bed interior — high-strength steel, smooth walls, easy unloading]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Cargo Bed</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cargo bed. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cargo-bed-interior-49.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cargo Bed Interior</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cargo bed interior. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cargo-bed-tailgate-mechanism-51.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cargo Bed Tailgate Mechanism</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cargo bed tailgate mechanism. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-cargo-bed-u-shape-50.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Cargo Bed U Shape</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — cargo bed u shape. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-chassis-under-11.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump truck under chassis view — reinforced frame, suspension system, fuel tank]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump truck under chassis view — reinforced frame, suspension system, fuel tank]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Chassis Under</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — chassis under. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-chassis-undercarriage-44.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Chassis Undercarriage</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — chassis undercarriage. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-dashboard-center-console-61.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Dashboard Center Console</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — dashboard center console. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-door-panel-interior-60.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Door Panel Interior</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — door panel interior. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-engine-bay-15.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s Cummins engine bay — 420HP power unit, cooling system, engine cover]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s Cummins engine bay — 420HP power unit, cooling system, engine cover]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Engine Bay</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — engine bay. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-engine-cummins-detail-43.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Engine Cummins Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — engine cummins detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-exhaust-23.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s exhaust system and muffler — vertical stack, heat shield, emissions compliant]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s exhaust system and muffler — vertical stack, heat shield, emissions compliant]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Exhaust</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — exhaust. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-exhaust-system-55.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Exhaust System</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — exhaust system. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-export-ready-37.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s export-ready dump truck — final inspection, protective film, shipping preparation]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s export-ready dump truck — final inspection, protective film, shipping preparation]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Export Ready</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — export ready. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-floor-35.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s trucks parked on factory floor — ready for export, protective wrapping, inspection tags]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s trucks parked on factory floor — ready for export, protective wrapping, inspection tags]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Floor</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory floor. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-inspection-69.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Inspection</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory inspection. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-line-18.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump trucks on factory production line — multiple units, quality inspection]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump trucks on factory production line — multiple units, quality inspection]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Line</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory line. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-line-close-68.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Line Close</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory line close. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-line-wide-67.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Line Wide</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory line wide. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-shipping-prep-72.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Shipping Prep</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory shipping prep. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-wrapping-70.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Wrapping</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory wrapping. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-factory-yard-fleet-71.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Factory Yard Fleet</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — factory yard fleet. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-fender-30.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s rear fender and mudguard — reinforced plastic, splash protection, reflectors]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s rear fender and mudguard — reinforced plastic, splash protection, reflectors]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Fender</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — fender. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-angle-sunlight-76.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Front Angle Sunlight</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front angle sunlight. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-axle-21.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s front axle and suspension — leaf spring, shock absorbers, steering linkage]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s front axle and suspension — leaf spring, shock absorbers, steering linkage]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Front Axle</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front axle. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-axle-suspension-46.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Front Axle Suspension</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front axle suspension. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-grille-13.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s front grille close-up — SAGMOTO emblem, air intake, headlight assembly]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s front grille close-up — SAGMOTO emblem, air intake, headlight assembly]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Front Grille</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front grille. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-grille-emblem-59.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Front Grille Emblem</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front grille emblem. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-three-quarter-06.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump truck front three-quarter angle — LED headlights, wide windshield, aerodynamic design]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump truck front three-quarter angle — LED headlights, wide windshield, aerodynamic design]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Front Three Quarter</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front three quarter. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck front view in factory — Cummins engine, MAN cab, heavy-duty grille]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck front view in factory — Cummins engine, MAN cab, heavy-duty grille]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Front View</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — front view. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-fuel-tank-26.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dual fuel tanks — 400L capacity, aluminum construction, lockable caps]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dual fuel tanks — 400L capacity, aluminum construction, lockable caps]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Fuel Tank</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — fuel tank. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-fuel-tank-alloy-47.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Fuel Tank Alloy</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — fuel tank alloy. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-gearshift-fast-12speed-63.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Gearshift Fast 12Speed</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — gearshift fast 12speed. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-headlight-led-detail-58.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Headlight Led Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — headlight led detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-hydraulic-20.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s hydraulic lifting cylinder — telescopic ram, oil lines, mounting brackets]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s hydraulic lifting cylinder — telescopic ram, oil lines, mounting brackets]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Hydraulic</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — hydraulic. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-hydraulic-cylinder-48.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Hydraulic Cylinder</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — hydraulic cylinder. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-interior-cabin-14.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s truck cabin interior — driver seat, dashboard, steering wheel, sleeper berth]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s truck cabin interior — driver seat, dashboard, steering wheel, sleeper berth]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Interior Cabin</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — interior cabin. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-license-plate-33.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s rear license plate area — mounting bracket, lighting, compliance markers]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s rear license plate area — mounting bracket, lighting, compliance markers]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — License Plate</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — license plate. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-mirror-assembly-52.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Mirror Assembly</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — mirror assembly. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-mirror-detail-16.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s side mirror and door detail — wide-angle mirrors, door handle, window trim]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s side mirror and door detail — wide-angle mirrors, door handle, window trim]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Mirror Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — mirror detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-multiple-units-36.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s multiple dump trucks lined up — fleet view, consistent quality, mass production]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s multiple dump trucks lined up — fleet view, consistent quality, mass production]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Multiple Units</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — multiple units. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-paint-finish-19.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red paint finish detail — glossy coating, UV protection, corrosion resistant]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red paint finish detail — glossy coating, UV protection, corrosion resistant]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Paint Finish</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — paint finish. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-angle-08.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump truck rear angle shot — dump body raised, hydraulic cylinder visible]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump truck rear angle shot — dump body raised, hydraulic cylinder visible]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Angle</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear angle. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-axle-22.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s rear dual axle assembly — MAN HDZ16T axles, differential, drive shaft]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s rear dual axle assembly — MAN HDZ16T axles, differential, drive shaft]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Axle</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear axle. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-axle-man-detail-45.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Axle Man Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear axle man detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-bumper-heavy-duty-64.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Bumper Heavy Duty</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear bumper heavy duty. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-detail-04.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s dump truck rear close-up — dual rear wheels, heavy-duty axle, safety markers]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s dump truck rear close-up — dual rear wheels, heavy-duty axle, safety markers]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-lights-17.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s rear tail lights and bumper — LED brake lights, reverse sensors, tow hook]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s rear tail lights and bumper — LED brake lights, reverse sensors, tow hook]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Lights</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear lights. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-rear-three-quarter-05.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck rear three-quarter view — tailgate mechanism, chain locks, SAGMOTO badge]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck rear three-quarter view — tailgate mechanism, chain locks, SAGMOTO badge]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Rear Three Quarter</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — rear three quarter. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-roof-light-32.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s roof marker lights — amber warning beacon, LED strip, visibility enhancement]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s roof marker lights — amber warning beacon, LED strip, visibility enhancement]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Roof Light</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — roof light. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-full-07.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck full side view — complete 6x4 dump body, red paint finish, factory floor]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck full side view — complete 6x4 dump body, red paint finish, factory floor]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Side Full</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side full. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-left-02.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck left side profile — 6x4 configuration, U-shaped cargo bed, factory fresh]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck left side profile — 6x4 configuration, U-shaped cargo bed, factory fresh]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Side Left</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side left. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-panels-12.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck side panel detail — diamond plate texture, reflective strips]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck side panel detail — diamond plate texture, reflective strips]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Side Panels</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side panels. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-profile-close-75.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Side Profile Close</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side profile close. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-right-03.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s red dump truck right side view — hydraulic lifting system, reinforced chassis]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s red dump truck right side view — hydraulic lifting system, reinforced chassis]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Side Right</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side right. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-side-skirt-31.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s side skirt and toolbox — integrated storage, lockable compartments, aerodynamic fairing]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s side skirt and toolbox — integrated storage, lockable compartments, aerodynamic fairing]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Side Skirt</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — side skirt. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-steering-linkage-57.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Steering Linkage</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — steering linkage. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-steering-wheel-multi-62.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Steering Wheel Multi</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — steering wheel multi. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-step-rail-25.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s side step and hand rail — aluminum steps, anti-slip surface, safety rail]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s side step and hand rail — aluminum steps, anti-slip surface, safety rail]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Step Rail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — step rail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-three-quarter-front-high-73.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Three Quarter Front High</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — three quarter front high. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-three-quarter-rear-low-74.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Three Quarter Rear Low</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — three quarter rear low. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-tire-offroad-pattern-65.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Tire Offroad Pattern</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — tire offroad pattern. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-tires-detail-10.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s heavy-duty tires close-up — off-road tread pattern, dual wheel setup, hub details]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s heavy-duty tires close-up — off-road tread pattern, dual wheel setup, hub details]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Tires Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — tires detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-towing-hitch-34.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s rear towing hitch and pintle hook — heavy-duty towing, safety chains, D-rings]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s rear towing hitch and pintle hook — heavy-duty towing, safety chains, D-rings]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Towing Hitch</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — towing hitch. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://sagmoto-trucks.com/x1s.html</loc>
     <image:image>
       <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-wheel-detail-29.jpg</image:loc>
-      <image:title><![CDATA[SAGMOTO X1s wheel and rim detail — forged alloy rim, lug nuts, tire pressure valve]]></image:title>
-      <image:caption><![CDATA[SAGMOTO X1s wheel and rim detail — forged alloy rim, lug nuts, tire pressure valve]]></image:caption>
+      <image:title>SAGMOTO X1s Dump Truck — Wheel Detail</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — wheel detail. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-wheel-hub-closeup-66.jpg</image:loc>
+      <image:title>SAGMOTO X1s Dump Truck — Wheel Hub Closeup</image:title>
+      <image:caption>SAGMOTO X1s heavy duty dump truck real factory photo — wheel hub closeup. Cummins engine, MAN axles, mining truck. July 2026.</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Factory Walkaround Video</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Factory Walkaround Video.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-360-exterior-tour-10.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Hydraulic Lift Demo</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Hydraulic Lift Demo.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-cabin-interior-tour-04.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Cummins Engine Startup</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Cummins Engine Startup.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-engine-startup-03.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Cabin Interior Tour</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Cabin Interior Tour.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-export-shipping-08.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Production Line Video</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Production Line Video.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-factory-walkaround-01.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Test Drive Yard</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Test Drive Yard.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-fleet-overview-09.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Loading Demo</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Loading Demo.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-hydraulic-lift-demo-02.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Export Shipping Prep</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Export Shipping Prep.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-loading-demo-07.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s Fleet Overview</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s Fleet Overview.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-production-line-05.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/real-photos/x1s-dump-red-front-view-01.jpg</video:thumbnail_loc>
+      <video:title>SAGMOTO X1s 360 Exterior Tour</video:title>
+      <video:description>Real SAGMOTO X1s dump truck video filmed at Shaanxi Automobile factory, July 2026. SAGMOTO X1s 360 Exterior Tour.</video:description>
+      <video:content_loc>https://charlie555666.github.io/shacman-catalog/images/products/x1s/videos/x1s-dump-red-test-drive-yard-06.mp4</video:content_loc>
+      <video:publication_date>2026-07-28</video:publication_date>
+    </video:video>
   </url>
 </urlset>
