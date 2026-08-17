@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4: added empty H1 tag fix + meta description auto-generation
+// v4.1: fix ALL empty H1 tags (not just first) + runtime lazy-load images
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
@@ -252,16 +252,24 @@
     addHreflang('zh-Hans', 'https://charlie555666.github.io/shacman-catalog/index.html');
   }
 
-  // ─── 6. Fix empty H1 tags ─────────────────────────────────────────────────
+  // ─── 6. Fix empty H1 tags (ALL h1s, not just the first) ─────────────────
   function fixEmptyH1() {
-    var h1 = document.querySelector('h1');
-    if (h1 && !h1.textContent.trim()) {
-      // H1 exists but is empty - fill it based on page context
-      var title = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
-      h1.textContent = title;
-      h1.setAttribute('aria-label', title);
-      console.log('[SEO] Fixed empty H1:', title);
-    } else if (!h1) {
+    var h1s = document.querySelectorAll('h1');
+    if (h1s.length > 0) {
+      var fixed = 0;
+      Array.prototype.forEach.call(h1s, function(h) {
+        if (!h.textContent.trim()) {
+          // Empty H1: fill with page title, visually-hidden style so layout is unchanged
+          var title = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
+          h.textContent = title;
+          h.style.cssText = 'position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;';
+          h.setAttribute('aria-hidden', 'false');
+          fixed++;
+          console.log('[SEO] Fixed empty H1 (hidden fill):', title);
+        }
+      });
+      if (fixed > 0) return;
+    } else {
       // No H1 at all - create one (visually hidden for design, visible for SEO)
       var newH1 = document.createElement('h1');
       var pageTitle = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
@@ -274,11 +282,33 @@
     }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', fixEmptyH1);
-  } else {
-    setTimeout(fixEmptyH1, 500);
+  // ─── 7. Lazy-load images at runtime (SaaS platform cannot edit HTML) ────
+  function enableLazyLoading() {
+    var imgs = document.querySelectorAll('img');
+    var lazyCount = 0;
+    Array.prototype.forEach.call(imgs, function(img, i) {
+      // Skip images already lazyloaded or inline base64 / svg
+      if (img.hasAttribute('loading')) return;
+      if (!img.src || img.src.indexOf('data:') === 0) return;
+      if (img.closest('[data-lazyload="false"], [data-no-lazy], .no-lazy')) return;
+      // First 3 images are above the fold - leave them eager (LCP)
+      if (i >= 3) {
+        img.setAttribute('loading', 'lazy');
+        lazyCount++;
+      }
+    });
+    if (lazyCount > 0) console.log('[SEO] Added loading=lazy to ' + lazyCount + ' images');
   }
 
-  console.log('[SEO] JSON-LD v4 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix)');
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      fixEmptyH1();
+      setTimeout(enableLazyLoading, 800);
+    });
+  } else {
+    setTimeout(fixEmptyH1, 500);
+    setTimeout(enableLazyLoading, 1000);
+  }
+
+  console.log('[SEO] JSON-LD v4.1 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load)');
 })();
