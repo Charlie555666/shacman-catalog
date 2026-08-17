@@ -313,17 +313,89 @@
     } catch (e) { /* best-effort */ }
   }
 
+  // ─── 9. Fill missing Open Graph tags (blog article pages lack og:image/og:description) ──
+  function fillMissingOG() {
+    try {
+      var head = document.head;
+      function hasMeta(attr, val) {
+        return head.querySelector('meta[' + attr + '="' + val + '"]');
+      }
+      function setMeta(prop, content) {
+        var m = document.createElement('meta');
+        m.setAttribute('property', prop);
+        m.setAttribute('content', content);
+        head.appendChild(m);
+        return m;
+      }
+      var changed = [];
+
+      // og:description <- meta description or first paragraph
+      var ogDesc = hasMeta('property', 'og:description');
+      if (!ogDesc) {
+        var md = head.querySelector('meta[name="description"]');
+        var desc = md && md.getAttribute('content');
+        if (!desc) {
+          var p = document.querySelector('.view.rich_media_content p, article p, .blog-content p, main p');
+          desc = p ? p.textContent.trim().slice(0, 150) : '';
+        }
+        if (desc) {
+          setMeta('og:description', desc);
+          changed.push('og:description');
+        }
+      }
+
+      // og:image <- first substantial content image, fallback to default
+      var ogImg = hasMeta('property', 'og:image');
+      if (!ogImg) {
+        var imgs = document.querySelectorAll('img');
+        var picked = '';
+        for (var i = 0; i < imgs.length; i++) {
+          var src = imgs[i].src || '';
+          if (src.indexOf('data:') === 0) continue;
+          if (imgs[i].width >= 200 && imgs[i].height >= 150) { picked = src; break; }
+        }
+        if (!picked && imgs.length) {
+          for (var j = 0; j < imgs.length; j++) {
+            if (imgs[j].src && imgs[j].src.indexOf('data:') !== 0) { picked = imgs[j].src; break; }
+          }
+        }
+        if (!picked) picked = 'https://www.fenghan-trade.com/template/default/images/logo.png';
+        setMeta('og:image', picked);
+        changed.push('og:image');
+      }
+
+      // og:title <- document title
+      var ogTitle = hasMeta('property', 'og:title');
+      if (!ogTitle && document.title) {
+        setMeta('og:title', document.title);
+        changed.push('og:title');
+      }
+
+      // og:url <- canonical or location
+      var ogUrl = hasMeta('property', 'og:url');
+      if (!ogUrl) {
+        var canon = head.querySelector('link[rel="canonical"]');
+        setMeta('og:url', canon ? canon.getAttribute('href') : location.href);
+        changed.push('og:url');
+      }
+
+      if (changed.length) console.log('[SEO] Filled missing OG tags: ' + changed.join(', '));
+    } catch (e) { /* best-effort */ }
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       fixEmptyH1();
       setTimeout(enableLazyLoading, 800);
       setTimeout(fixTitleDupes, 500);
+      setTimeout(fillMissingOG, 1200);
     });
   } else {
     setTimeout(fixEmptyH1, 500);
     setTimeout(enableLazyLoading, 1000);
     setTimeout(fixTitleDupes, 500);
+    setTimeout(fillMissingOG, 1200);
   }
 
-  console.log('[SEO] JSON-LD v4.2 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe)');
+  console.log('[SEO] JSON-LD v4.3 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill)');
 })();
