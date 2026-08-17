@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.2: fix ALL empty H1 tags + runtime lazy-load + title dedupe
+// v4.3: fill missing OG tags (og:image/og:description/og:title/og:url) at runtime
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
