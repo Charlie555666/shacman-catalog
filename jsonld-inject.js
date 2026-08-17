@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.1: fix ALL empty H1 tags (not just first) + runtime lazy-load images
+// v4.2: fix ALL empty H1 tags + runtime lazy-load + title dedupe
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
@@ -300,15 +300,30 @@
     if (lazyCount > 0) console.log('[SEO] Added loading=lazy to ' + lazyCount + ' images');
   }
 
+  // ─── 8. Fix duplicated title keywords (e.g. "SHACMAN SHACMAN") ──────────
+  function fixTitleDupes() {
+    try {
+      var t = document.title;
+      if (!t) return;
+      var fixed = t.replace(/\b([A-Za-z0-9]{2,})\s+\1\b/gi, '$1');
+      if (fixed !== t) {
+        document.title = fixed;
+        console.log('[SEO] Fixed duplicated title:', fixed);
+      }
+    } catch (e) { /* best-effort */ }
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       fixEmptyH1();
       setTimeout(enableLazyLoading, 800);
+      setTimeout(fixTitleDupes, 500);
     });
   } else {
     setTimeout(fixEmptyH1, 500);
     setTimeout(enableLazyLoading, 1000);
+    setTimeout(fixTitleDupes, 500);
   }
 
-  console.log('[SEO] JSON-LD v4.1 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load)');
+  console.log('[SEO] JSON-LD v4.2 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe)');
 })();
