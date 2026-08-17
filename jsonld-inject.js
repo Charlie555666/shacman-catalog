@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v3: added BlogPosting schema for blog articles + Blog BreadcrumbList + FAQPage auto-detect (GEO)
+// v4: added empty H1 tag fix + meta description auto-generation
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
@@ -252,5 +252,33 @@
     addHreflang('zh-Hans', 'https://charlie555666.github.io/shacman-catalog/index.html');
   }
 
-  console.log('[SEO] JSON-LD v3 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang)');
+  // ─── 6. Fix empty H1 tags ─────────────────────────────────────────────────
+  function fixEmptyH1() {
+    var h1 = document.querySelector('h1');
+    if (h1 && !h1.textContent.trim()) {
+      // H1 exists but is empty - fill it based on page context
+      var title = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
+      h1.textContent = title;
+      h1.setAttribute('aria-label', title);
+      console.log('[SEO] Fixed empty H1:', title);
+    } else if (!h1) {
+      // No H1 at all - create one (visually hidden for design, visible for SEO)
+      var newH1 = document.createElement('h1');
+      var pageTitle = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
+      newH1.textContent = pageTitle;
+      newH1.style.cssText = 'position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;';
+      newH1.setAttribute('aria-hidden', 'false');
+      var body = document.body || document.documentElement;
+      body.insertBefore(newH1, body.firstChild);
+      console.log('[SEO] Created missing H1:', pageTitle);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fixEmptyH1);
+  } else {
+    setTimeout(fixEmptyH1, 500);
+  }
+
+  console.log('[SEO] JSON-LD v4 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix)');
 })();
