@@ -1,6 +1,6 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.5: SAGMOTO keywords injection + brand shift to SAGMOTO primary
-// Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
+// v4.6: 全面SEO修复 — Bing验证+canonical+og:type/site_name/locale+Twitter card+robots meta+geo标签+WebPage schema
+// Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
   'use strict';
 
@@ -8,11 +8,41 @@
   var path = window.location.pathname;
   var HEAD = document.head;
 
-  // ─── 0. Google Search Console verification meta ────────────────────────────
+  // ─── 0. Search engine verification + robots + geo meta ───────────────────
   var gscMeta = document.createElement('meta');
   gscMeta.name = 'google-site-verification';
   gscMeta.content = 'ToFV2gZpfLfPuYrf8hPCWdo8VJwGuGxn5jf-UCn9YnQ';
   HEAD.appendChild(gscMeta);
+
+  // Bing verification (runtime — may help with Bing's JS-capable crawler)
+  var bingMeta = document.createElement('meta');
+  bingMeta.name = 'msvalidate.01';
+  bingMeta.content = 'B79A149C0CFDD0146D76B855376A72D0';
+  HEAD.appendChild(bingMeta);
+
+  // Robots meta (if missing — ensures pages are indexable)
+  if (!HEAD.querySelector('meta[name="robots"]')) {
+    var robotsMeta = document.createElement('meta');
+    robotsMeta.name = 'robots';
+    robotsMeta.content = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+    HEAD.appendChild(robotsMeta);
+  }
+
+  // Geo tags (local SEO signal)
+  var geoTags = [
+    { name: 'geo.region', content: 'CN' },
+    { name: 'geo.placename', content: "Xi'an, Shaanxi, China" },
+    { name: 'geo.position', content: '34.3416;108.9398' },
+    { name: 'ICBM', content: '34.3416, 108.9398' }
+  ];
+  geoTags.forEach(function(g) {
+    if (!HEAD.querySelector('meta[name="' + g.name + '"]')) {
+      var m = document.createElement('meta');
+      m.name = g.name;
+      m.content = g.content;
+      HEAD.appendChild(m);
+    }
+  });
 
   function addSchema(data) {
     var s = document.createElement('script');
@@ -245,11 +275,31 @@
   addHreflang('en', canonicalUrl);
   addHreflang('x-default', canonicalUrl);
   if (path === '/' || path === '' || path === '/index.html') {
-    addHreflang('fr', 'https://charlie555666.github.io/shacman-catalog/index.html');
-    addHreflang('ar', 'https://charlie555666.github.io/shacman-catalog/index.html');
-    addHreflang('ru', 'https://charlie555666.github.io/shacman-catalog/index.html');
-    addHreflang('es', 'https://charlie555666.github.io/shacman-catalog/index.html');
-    addHreflang('zh-Hans', 'https://charlie555666.github.io/shacman-catalog/index.html');
+    addHreflang('fr', 'https://sagmoto-trucks.com/');
+    addHreflang('ar', 'https://sagmoto-trucks.com/');
+    addHreflang('ru', 'https://sagmoto-trucks.com/');
+    addHreflang('es', 'https://sagmoto-trucks.com/');
+    addHreflang('zh-Hans', 'https://sagmoto-trucks.com/');
+  }
+
+  // ─── 5b. WebPage schema (non-blog, non-product pages) ─────────────────────
+  var isProductPage = path.indexOf('/goods/') !== -1 || path.indexOf('/product/') !== -1;
+  if (!isBlog && !isProductPage) {
+    addSchema({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": document.title.split('|')[0].trim() || 'SAGMOTO Heavy Duty Trucks',
+      "url": window.location.href,
+      "description": (function() {
+        var d = HEAD.querySelector('meta[name="description"]');
+        return d ? d.getAttribute('content') : 'Authorized SAGMOTO/SHACMAN truck exporter. Factory price, worldwide shipping to 50+ countries.';
+      })(),
+      "publisher": { "@type": "Organization", "name": "Shaanxi Fenghan Trading Co., Ltd." },
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": window.location.href
+      }
+    });
   }
 
   // ─── 6. Fix empty H1 tags (ALL h1s, not just the first) ─────────────────
@@ -313,7 +363,7 @@
     } catch (e) { /* best-effort */ }
   }
 
-  // ─── 9. Fill missing Open Graph tags (blog article pages lack og:image/og:description) ──
+  // ─── 9. Fill missing Open Graph + Twitter + Canonical tags ───────────────
   function fillMissingOG() {
     try {
       var head = document.head;
@@ -323,6 +373,13 @@
       function setMeta(prop, content) {
         var m = document.createElement('meta');
         m.setAttribute('property', prop);
+        m.setAttribute('content', content);
+        head.appendChild(m);
+        return m;
+      }
+      function setNameMeta(name, content) {
+        var m = document.createElement('meta');
+        m.setAttribute('name', name);
         m.setAttribute('content', content);
         head.appendChild(m);
         return m;
@@ -379,7 +436,73 @@
         changed.push('og:url');
       }
 
-      if (changed.length) console.log('[SEO] Filled missing OG tags: ' + changed.join(', '));
+      // og:type <- page type detection
+      if (!hasMeta('property', 'og:type')) {
+        var ogType = 'website';
+        if (path.indexOf('/blog-news/') !== -1 || path.indexOf('/blog/') !== -1) {
+          ogType = 'article';
+        } else if (path.indexOf('/goods/') !== -1 || path.indexOf('/product/') !== -1) {
+          ogType = 'product';
+        }
+        setMeta('og:type', ogType);
+        changed.push('og:type:' + ogType);
+      }
+
+      // og:site_name
+      if (!hasMeta('property', 'og:site_name')) {
+        setMeta('og:site_name', 'SAGMOTO / SHACMAN Truck Export — Fenghan Trading');
+        changed.push('og:site_name');
+      }
+
+      // og:locale
+      if (!hasMeta('property', 'og:locale')) {
+        setMeta('og:locale', 'en_US');
+        changed.push('og:locale');
+      }
+
+      // ── Canonical link (if missing) ──
+      if (!head.querySelector('link[rel="canonical"]')) {
+        var canonLink = document.createElement('link');
+        canonLink.rel = 'canonical';
+        // Strip query params for canonical (except blog ID)
+        var canonPath = path;
+        var canonSearch = '';
+        if (path.indexOf('/blog-news/') !== -1) {
+          // Keep blog article URLs clean
+          canonSearch = window.location.search;
+        }
+        canonLink.href = BASE_URL + canonPath + canonSearch;
+        head.appendChild(canonLink);
+        changed.push('canonical');
+      }
+
+      // ── Twitter Card tags (if missing) ──
+      if (!hasMeta('name', 'twitter:card')) {
+        setNameMeta('twitter:card', 'summary_large_image');
+        changed.push('twitter:card');
+      }
+      if (!hasMeta('name', 'twitter:title') && document.title) {
+        setNameMeta('twitter:title', document.title.split('|')[0].trim());
+        changed.push('twitter:title');
+      }
+      if (!hasMeta('name', 'twitter:description')) {
+        var tDesc = head.querySelector('meta[name="description"]');
+        var tDescContent = tDesc ? tDesc.getAttribute('content') : '';
+        if (!tDescContent) {
+          var tP = document.querySelector('article p, .blog-content p, main p');
+          tDescContent = tP ? tP.textContent.trim().slice(0, 150) : 'Authorized SAGMOTO/SHACMAN truck exporter. Factory price, worldwide shipping.';
+        }
+        setNameMeta('twitter:description', tDescContent);
+        changed.push('twitter:description');
+      }
+      if (!hasMeta('name', 'twitter:image')) {
+        var twImg = hasMeta('property', 'og:image');
+        var twImgContent = twImg ? twImg.getAttribute('content') : 'https://www.fenghan-trade.com/template/default/images/logo.png';
+        setNameMeta('twitter:image', twImgContent);
+        changed.push('twitter:image');
+      }
+
+      if (changed.length) console.log('[SEO] Filled missing tags: ' + changed.join(', '));
     } catch (e) { /* best-effort */ }
   }
 
@@ -457,7 +580,7 @@
       console.log('[SEO] Created meta keywords with ' + SAGMOTO_KW.length + ' SAGMOTO keywords');
     }
 
-    // Also add article:tag meta for blog pages
+    // Also add article:tag, article:author, article:section meta for blog pages
     var isBlogPage = path.indexOf('/blog-news/') !== -1 || path.indexOf('/blog/') !== -1;
     if (isBlogPage) {
       SAGMOTO_KW.slice(0, 15).forEach(function(kw) {
@@ -466,6 +589,21 @@
         tag.setAttribute('content', kw);
         HEAD.appendChild(tag);
       });
+      // article:author
+      var artAuthor = document.createElement('meta');
+      artAuthor.setAttribute('property', 'article:author');
+      artAuthor.setAttribute('content', 'Shaanxi Fenghan Trading Co., Ltd.');
+      HEAD.appendChild(artAuthor);
+      // article:section
+      var artSection = document.createElement('meta');
+      artSection.setAttribute('property', 'article:section');
+      artSection.setAttribute('content', 'Commercial Vehicles');
+      HEAD.appendChild(artSection);
+      // article:publisher
+      var artPub = document.createElement('meta');
+      artPub.setAttribute('property', 'article:publisher');
+      artPub.setAttribute('content', BASE_URL + '/');
+      HEAD.appendChild(artPub);
     }
   }
 
@@ -487,5 +625,5 @@
     setTimeout(injectSagmotoKeywords, 300);
   }
 
-  console.log('[SEO] JSON-LD v4.5 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill+DE-text-fix+SAGMOTO-keywords)');
+  console.log('[SEO] JSON-LD v4.6 injected (Org+WebSite+WebPage+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG+Twitter+Canonical+DE-text-fix+SAGMOTO-keywords+Bing-verify+robots+geo)');
 })();
