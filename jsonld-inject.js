@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.3: fill missing OG tags (og:image/og:description/og:title/og:url) at runtime
+// v4.4: fix German "Ansicht" -> "View" text localization bug + fill missing OG tags
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
@@ -383,19 +383,52 @@
     } catch (e) { /* best-effort */ }
   }
 
+  // ─── 10. Fix German localization bug "Ansicht" -> "View" ──────────────────
+  function fixGermanText() {
+    var replaced = 0;
+    var elements = document.querySelectorAll('a, span, button, div');
+    Array.prototype.forEach.call(elements, function(el) {
+      // Only replace if the element's direct text is exactly "Ansicht" (no child elements)
+      if (el.children.length === 0 && el.textContent.trim() === 'Ansicht') {
+        el.textContent = 'View';
+        replaced++;
+      }
+    });
+    // Also check for other common German UI strings from 51微店 template
+    var germanMap = {
+      'Ansicht': 'View',
+      'Details ansehen': 'View Details',
+      'Mehr': 'More',
+      'Zurück': 'Back',
+      'Weiter': 'Next'
+    };
+    Array.prototype.forEach.call(elements, function(el) {
+      if (el.children.length === 0) {
+        var txt = el.textContent.trim();
+        if (germanMap[txt]) {
+          el.textContent = germanMap[txt];
+          replaced++;
+        }
+      }
+    });
+    if (replaced > 0) console.log('[SEO] Fixed ' + replaced + ' German UI text(s) -> English');
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       fixEmptyH1();
       setTimeout(enableLazyLoading, 800);
       setTimeout(fixTitleDupes, 500);
       setTimeout(fillMissingOG, 1200);
+      setTimeout(fixGermanText, 600);
     });
   } else {
     setTimeout(fixEmptyH1, 500);
     setTimeout(enableLazyLoading, 1000);
     setTimeout(fixTitleDupes, 500);
     setTimeout(fillMissingOG, 1200);
+    setTimeout(fixGermanText, 600);
   }
 
-  console.log('[SEO] JSON-LD v4.3 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill)');
+  console.log('[SEO] JSON-LD v4.4 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill+DE-text-fix)');
 })();
