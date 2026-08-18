@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.4: fix German "Ansicht" -> "View" text localization bug + fill missing OG tags
+// v4.5: SAGMOTO keywords injection + brand shift to SAGMOTO primary
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage structured data
 (function() {
   'use strict';
@@ -36,7 +36,7 @@
     "alternateName": ["Fenghan Trading", "陕西风瀚贸易有限公司"],
     "url": BASE_URL + "/",
     "logo": BASE_URL + "/company_logo.png",
-    "description": "Official SHACMAN heavy duty truck export supplier. Tractor trucks, dump trucks, cargo trucks, and special vehicles for 50+ countries across Africa, Middle East, CIS, Southeast Asia, and Latin America.",
+    "description": "Authorized SAGMOTO / SHACMAN heavy duty truck export supplier. Tractor trucks, dump trucks, cargo trucks, and special vehicles for 50+ countries across Africa, Middle East, CIS, Southeast Asia, and Latin America. Models: X3s, E3, E1st, Z3, X6, X9, i9.",
     "foundingDate": "2018",
     "address": {
       "@type": "PostalAddress",
@@ -61,9 +61,9 @@
     addSchema({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Fenghan Trading \u2014 SHACMAN Heavy Duty Trucks",
+      "name": "Fenghan Trading \u2014 SAGMOTO Heavy Duty Trucks",
       "url": BASE_URL + "/",
-      "description": "Your trusted SHACMAN heavy duty truck supplier. Browse SHACMAN tractor trucks, dump trucks, cargo trucks and special vehicles with factory-direct pricing and worldwide shipping.",
+      "description": "Your trusted SAGMOTO / SHACMAN truck supplier. Browse SAGMOTO tractor trucks (X3s, E3, E1st, Z3), dump trucks, cargo trucks, mixer trucks, special vehicles and electric trucks (i9, i5) with factory-direct pricing and worldwide shipping.",
       "inLanguage": ["en", "fr", "es", "ru", "zh"],
       "publisher": { "@type": "Organization", "name": "Shaanxi Fenghan Trading Co., Ltd." },
       "potentialAction": {
@@ -81,7 +81,7 @@
     function injectBlogSchema() {
       var headline = safeText('h1', '') ||
                      (document.title || '').split('|')[0].trim() ||
-                     'SHACMAN Truck Guide';
+                     'SAGMOTO Truck Guide';
       var desc = safeText('meta[name="description"]', '') ||
                  safeText('.article-content p, .blog-content p, .content p', '') || '';
       if (desc.length > 300) desc = desc.substring(0, 297) + '...';
@@ -164,7 +164,7 @@
       var nameEl = document.querySelector('h1') ||
                    document.querySelector('.goods-name') ||
                    document.querySelector('[class*="product-name"]');
-      var productName = nameEl ? nameEl.textContent.trim() : (document.title.split('|')[0].trim() || 'SHACMAN Truck');
+      var productName = nameEl ? nameEl.textContent.trim() : (document.title.split('|')[0].trim() || 'SAGMOTO Truck');
 
       var priceEl = document.querySelector('.goods-price em, .price em, [class*="price"] em, [class*="price"] strong') ||
                     document.querySelector('.goods-price, [class*="current-price"]');
@@ -185,9 +185,9 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": productName,
-        "description": productName + " \u2014 SHACMAN heavy duty truck for export. Factory-direct pricing, worldwide shipping. Contact Fenghan Trading for quotation.",
-        "brand": { "@type": "Brand", "name": "SHACMAN", "alternateName": "Shaanxi Automobile Group" },
-        "manufacturer": { "@type": "Organization", "name": "Shaanxi Automobile Group Co., Ltd.", "url": "https://www.shacman.com.cn/" },
+        "description": productName + " \u2014 SAGMOTO / SHACMAN heavy duty truck for export. Factory-direct pricing, worldwide shipping. Contact Fenghan Trading for quotation.",
+        "brand": { "@type": "Brand", "name": "SAGMOTO", "alternateName": "Shaanxi Automobile Group" },
+        "manufacturer": { "@type": "Organization", "name": "Shaanxi Automobile Group Co., Ltd.", "url": "https://sagmoto-trucks.com/" },
         "seller": { "@type": "Organization", "name": "Shaanxi Fenghan Trading Co., Ltd.", "url": BASE_URL + "/" },
         "url": window.location.href
       };
@@ -260,7 +260,7 @@
       Array.prototype.forEach.call(h1s, function(h) {
         if (!h.textContent.trim()) {
           // Empty H1: fill with page title, visually-hidden style so layout is unchanged
-          var title = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
+          var title = document.title.split('|')[0].trim() || 'SAGMOTO Heavy Duty Trucks';
           h.textContent = title;
           h.style.cssText = 'position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;';
           h.setAttribute('aria-hidden', 'false');
@@ -272,7 +272,7 @@
     } else {
       // No H1 at all - create one (visually hidden for design, visible for SEO)
       var newH1 = document.createElement('h1');
-      var pageTitle = document.title.split('|')[0].trim() || 'SHACMAN Heavy Duty Trucks';
+      var pageTitle = document.title.split('|')[0].trim() || 'SAGMOTO Heavy Duty Trucks';
       newH1.textContent = pageTitle;
       newH1.style.cssText = 'position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;';
       newH1.setAttribute('aria-hidden', 'false');
@@ -414,6 +414,61 @@
     if (replaced > 0) console.log('[SEO] Fixed ' + replaced + ' German UI text(s) -> English');
   }
 
+  // ─── 11. Inject SAGMOTO model keywords into meta keywords ────────────────
+  function injectSagmotoKeywords() {
+    var SAGMOTO_KW = [
+      'SAGMOTO X3s', 'SAGMOTO E3', 'SAGMOTO E1st', 'SAGMOTO Z3',
+      'SAGMOTO X6', 'SAGMOTO X6s', 'SAGMOTO X7', 'SAGMOTO X9',
+      'SAGMOTO X9s', 'SAGMOTO E9', 'SAGMOTO E6', 'SAGMOTO X5',
+      'SAGMOTO i9', 'SAGMOTO i5',
+      'SAGMOTO tractor truck', 'SAGMOTO dump truck', 'SAGMOTO cargo truck',
+      'SAGMOTO mixer truck', 'SAGMOTO tanker truck', 'SAGMOTO crane truck',
+      'SAGMOTO special vehicle', 'SAGMOTO electric truck', 'SAGMOTO off-road truck',
+      'SAGMOTO semi truck', 'SAGMOTO prime mover', 'SAGMOTO tipper truck',
+      'SAGMOTO sprinkler truck', 'SAGMOTO garbage truck', 'SAGMOTO tow truck',
+      'SAGMOTO new energy truck',
+      'SAGMOTO truck price', 'SAGMOTO truck specs', 'buy SAGMOTO truck',
+      'SAGMOTO truck export', 'SAGMOTO truck dealer', 'SAGMOTO truck supplier',
+      'SAGMOTO truck factory price',
+      'Cummins engine truck', 'Weichai engine truck', 'Yuchai engine truck',
+      'SAGMOTO 6x4', 'SAGMOTO 8x4', 'SAGMOTO 4x2', 'SAGMOTO 4x4',
+      'SAGMOTO truck Africa', 'SAGMOTO truck Middle East',
+      'SAGMOTO truck Southeast Asia', 'SAGMOTO truck CIS',
+      'SAGMOTO truck Central Asia', 'SAGMOTO truck South America',
+      'sagmoto-trucks.com', 'LHD RHD truck'
+    ];
+
+    var meta = document.querySelector('meta[name="keywords"]');
+    if (meta) {
+      var existing = (meta.getAttribute('content') || '').toLowerCase();
+      var toAdd = SAGMOTO_KW.filter(function(kw) {
+        return existing.indexOf(kw.toLowerCase()) === -1;
+      });
+      if (toAdd.length > 0) {
+        var old = meta.getAttribute('content') || '';
+        meta.setAttribute('content', old + (old ? ', ' : '') + toAdd.join(', '));
+        console.log('[SEO] Added ' + toAdd.length + ' SAGMOTO keywords to meta keywords');
+      }
+    } else {
+      var m = document.createElement('meta');
+      m.setAttribute('name', 'keywords');
+      m.setAttribute('content', SAGMOTO_KW.join(', '));
+      HEAD.appendChild(m);
+      console.log('[SEO] Created meta keywords with ' + SAGMOTO_KW.length + ' SAGMOTO keywords');
+    }
+
+    // Also add article:tag meta for blog pages
+    var isBlogPage = path.indexOf('/blog-news/') !== -1 || path.indexOf('/blog/') !== -1;
+    if (isBlogPage) {
+      SAGMOTO_KW.slice(0, 15).forEach(function(kw) {
+        var tag = document.createElement('meta');
+        tag.setAttribute('property', 'article:tag');
+        tag.setAttribute('content', kw);
+        HEAD.appendChild(tag);
+      });
+    }
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       fixEmptyH1();
@@ -421,6 +476,7 @@
       setTimeout(fixTitleDupes, 500);
       setTimeout(fillMissingOG, 1200);
       setTimeout(fixGermanText, 600);
+      setTimeout(injectSagmotoKeywords, 300);
     });
   } else {
     setTimeout(fixEmptyH1, 500);
@@ -428,7 +484,8 @@
     setTimeout(fixTitleDupes, 500);
     setTimeout(fillMissingOG, 1200);
     setTimeout(fixGermanText, 600);
+    setTimeout(injectSagmotoKeywords, 300);
   }
 
-  console.log('[SEO] JSON-LD v4.4 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill+DE-text-fix)');
+  console.log('[SEO] JSON-LD v4.5 injected (Org+WebSite+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG-fill+DE-text-fix+SAGMOTO-keywords)');
 })();
