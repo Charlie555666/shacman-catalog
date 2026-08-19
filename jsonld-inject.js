@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.6: 全面SEO修复 — Bing验证+canonical+og:type/site_name/locale+Twitter card+robots meta+geo标签+WebPage schema
+// v4.7: X1关键词强化 — SAGMOTO X1s/X1 dump truck全变体关键词注入(2026-08-19)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
   'use strict';
@@ -544,6 +544,10 @@
       'SAGMOTO X6', 'SAGMOTO X6s', 'SAGMOTO X7', 'SAGMOTO X9',
       'SAGMOTO X9s', 'SAGMOTO E9', 'SAGMOTO E6', 'SAGMOTO X5',
       'SAGMOTO i9', 'SAGMOTO i5',
+      'SAGMOTO X1s', 'SAGMOTO X1', 'X1 dump truck', 'X1s dump truck',
+      'X1 mining truck', 'X1 8x4 dump truck', 'X1 6x4 dump truck',
+      'X1 tractor truck', 'X1s mining truck', 'X1 truck price',
+      'X1 heavy duty truck', 'X1 tipper truck', 'X1 dump truck export',
       'SAGMOTO tractor truck', 'SAGMOTO dump truck', 'SAGMOTO cargo truck',
       'SAGMOTO mixer truck', 'SAGMOTO tanker truck', 'SAGMOTO crane truck',
       'SAGMOTO special vehicle', 'SAGMOTO electric truck', 'SAGMOTO off-road truck',
@@ -625,5 +629,5 @@
     setTimeout(injectSagmotoKeywords, 300);
   }
 
-  console.log('[SEO] JSON-LD v4.6 injected (Org+WebSite+WebPage+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG+Twitter+Canonical+DE-text-fix+SAGMOTO-keywords+Bing-verify+robots+geo)');
+  console.log('[SEO] JSON-LD v4.7 injected (Org+WebSite+WebPage+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG+Twitter+Canonical+DE-text-fix+SAGMOTO-keywords+X1-keywords+Bing-verify+robots+geo)');
 })();
