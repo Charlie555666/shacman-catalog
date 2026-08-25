@@ -1,7 +1,7 @@
 /**
  * hero-inject.js — 51微店 fenghan-trade.com 首页优化：中文SEO + 首屏 + DIY配置器
  * Injected via GitHub Pages: charlie555666.github.io/shacman-catalog/hero-inject.js
- * Version: 2026-07-09 (v5: cnIntro collapsible, default collapsed)
+ * Version: 2026-08-25 (v5.1: 移除重复JSON-LD Organization, 统一由jsonld-inject.js注入)
  */
 (function() {
     if (window.__fenghanInjected) return;
@@ -32,24 +32,8 @@
         document.head.appendChild(mk);
     }
 
-    // ===== SEO: 百度 JSON-LD 结构化数据 =====
-    var ld = document.createElement('script');
-    ld.type = 'application/ld+json';
-    ld.textContent = JSON.stringify({
-        "@context":"https://schema.org","@type":"Organization",
-        "name":"陕西风瀚贸易有限公司","alternateName":"Shaanxi Fenghan Trading Co., Ltd.",
-        "description":"陕汽集团SHACMAN/SAGMOTO授权出口经销商，专业从事中国重卡出口。主营自卸车、牵引车、载货车、专用车。",
-        "url":"https://fenghan-trade.com","telephone":"+86-15319431311","email":"sales@fenghan-trade.com",
-        "address":{"@type":"PostalAddress","addressCountry":"CN","addressRegion":"Shaanxi","addressLocality":"Xi'an","streetAddress":"Room 603A, Floor 6, Building B, Chanba Free Trade Center, No.777 Eurasia Avenue"},
-        "makesOffer":[
-            {"@type":"Offer","name":"自卸车 Dump Truck","description":"SHACMAN/SAGMOTO自卸车出口，6x4 8x4矿用工程"},
-            {"@type":"Offer","name":"牵引车 Tractor Truck","description":"SHACMAN/SAGMOTO牵引车出口，长途物流"},
-            {"@type":"Offer","name":"载货车 Cargo Truck","description":"SHACMAN/SAGMOTO载货车出口，城市配送物流"},
-            {"@type":"Offer","name":"专用车 Special Vehicle","description":"SHACMAN/SAGMOTO专用车出口，搅拌车油罐车环卫车"}
-        ],
-        "sameAs":["https://www.facebook.com/profile.php?id=61591439076603","https://www.youtube.com/@FenghanTrading"]
-    });
-    document.head.appendChild(ld);
+    // ===== 注: JSON-LD Organization 已由 jsonld-inject.js 统一注入 (v4.7+, SAGMOTO品牌) =====
+    // 为避免重复Organization schema, 此处不再注入JSON-LD (2026-08-25清理)
 
     // ===== Inject ALL CSS (CN SEO + Hero + Trust + Brands + DIY) =====
     var style = document.createElement('style');
