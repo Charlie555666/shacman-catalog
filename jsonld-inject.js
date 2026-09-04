@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.7: X1关键词强化 — SAGMOTO X1s/X1 dump truck全变体关键词注入(2026-08-19)
+// v4.8: Cross-link to sagmoto-trucks.com & dongfengevtrucks.com added in Organization sameAs (2026-09-04)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
   'use strict';
@@ -82,7 +82,9 @@
     },
     "sameAs": [
       "https://www.tiktok.com/@shacmanmachelle",
-      "https://charlie555666.github.io/shacman-catalog/"
+      "https://charlie555666.github.io/shacman-catalog/",
+      "https://sagmoto-trucks.com/",
+      "https://dongfengevtrucks.com/"
     ]
   });
 
