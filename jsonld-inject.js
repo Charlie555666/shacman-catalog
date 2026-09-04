@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.9: Auto-load crosslink-inject.js (底部互链条) + sameAs 加入2/4号站 (2026-09-04)
+// v4.10: Inline底部互链条 (GitHub Pages边缘节点无法及时刷新独立js, 直接inline确保1号站生效) (2026-09-04)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
   'use strict';
@@ -633,14 +633,51 @@
 
   console.log('[SEO] JSON-LD v4.7 injected (Org+WebSite+WebPage+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG+Twitter+Canonical+DE-text-fix+SAGMOTO-keywords+X1-keywords+Bing-verify+robots+geo)');
 
-  // ─── 99. Auto-load crosslink-inject.js (底部互链) ────────────────────────
-  // 在1号站底部加载双向互链条, 指向 sagmoto-trucks.com 和 dongfengevtrucks.com
-  // 用script元素动态加载(同源), 不会重复创建
-  if (!document.querySelector('script[data-fenghan-crosslink]') && !window.__fenghanCrossLink) {
-    var xLink = document.createElement('script');
-    xLink.src = 'https://charlie555666.github.io/shacman-catalog/crosslink-inject.js?v=2.0';
-    xLink.setAttribute('data-fenghan-crosslink', '1');
-    xLink.defer = true;
-    (document.head || document.documentElement).appendChild(xLink);
+  // ─── 99. Inline crosslink (底部互链) ─────────────────────────────────────
+  // 由于GitHub Pages对独立js文件缓存较强,直接inline底部条代码,避免拉不到新版
+  if (window.__fenghanCrossLink) { /* already loaded */ }
+  else {
+    window.__fenghanCrossLink = 1;
+    var xStyle = document.createElement('style');
+    xStyle.textContent =
+      '.fenghan-crosslink-bar{position:fixed;bottom:0;left:0;right:0;z-index:99990;' +
+      'background:linear-gradient(90deg,#0D1F3D,#1a3a6e);color:#fff;text-align:center;' +
+      'padding:10px 16px;font-size:13px;display:flex;align-items:center;justify-content:center;' +
+      'gap:8px;flex-wrap:wrap;box-shadow:0 -2px 12px rgba(0,0,0,0.3);line-height:1.5}' +
+      '.fenghan-crosslink-bar strong{color:#C89B3C;font-weight:600}' +
+      '.fenghan-crosslink-bar a{color:#C89B3C;text-decoration:none;font-weight:600;' +
+      'border-bottom:1px dashed #C89B3C;transition:color 0.2s;padding:0 4px}' +
+      '.fenghan-crosslink-bar a:hover{color:#fff;border-bottom-color:#fff}' +
+      '.fenghan-crosslink-divider{color:#666;font-size:14px}' +
+      '.fenghan-crosslink-close{color:#999;cursor:pointer;font-size:18px;line-height:1;' +
+      'padding:0 4px;margin-left:8px;transition:color 0.2s}' +
+      '.fenghan-crosslink-close:hover{color:#fff}';
+    document.head.appendChild(xStyle);
+
+    var xBar = document.createElement('div');
+    xBar.className = 'fenghan-crosslink-bar';
+    xBar.innerHTML =
+      '🚛 <strong>Our Brand Network</strong> — ' +
+      '<a href="https://sagmoto-trucks.com/" target="_blank" rel="noopener">SAGMOTO (sagmoto-trucks.com)</a>' +
+      '<span class="fenghan-crosslink-divider">·</span>' +
+      '⚡ <a href="https://dongfengevtrucks.com/" target="_blank" rel="noopener">Dongfeng EV (dongfengevtrucks.com)</a>' +
+      '<span class="fenghan-crosslink-close" title="关闭">✕</span>';
+
+    xBar.querySelector('.fenghan-crosslink-close').addEventListener('click', function() {
+      xBar.style.display = 'none';
+    });
+
+    function xInsert() {
+      if (document.body) {
+        document.body.appendChild(xBar);
+        var wa = document.querySelector('.whatsapp-float');
+        if (wa) wa.style.bottom = '56px';
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', xInsert);
+    } else {
+      xInsert();
+    }
   }
 })();
