@@ -1,5 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
-// v4.8: Cross-link to sagmoto-trucks.com & dongfengevtrucks.com added in Organization sameAs (2026-09-04)
+// v4.9: Auto-load crosslink-inject.js (底部互链条) + sameAs 加入2/4号站 (2026-09-04)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
   'use strict';
@@ -632,4 +632,15 @@
   }
 
   console.log('[SEO] JSON-LD v4.7 injected (Org+WebSite+WebPage+Blog+Product+FAQ+Breadcrumb+hreflang+H1Fix-all+lazy-load+title-dedupe+OG+Twitter+Canonical+DE-text-fix+SAGMOTO-keywords+X1-keywords+Bing-verify+robots+geo)');
+
+  // ─── 99. Auto-load crosslink-inject.js (底部互链) ────────────────────────
+  // 在1号站底部加载双向互链条, 指向 sagmoto-trucks.com 和 dongfengevtrucks.com
+  // 用script元素动态加载(同源), 不会重复创建
+  if (!document.querySelector('script[data-fenghan-crosslink]') && !window.__fenghanCrossLink) {
+    var xLink = document.createElement('script');
+    xLink.src = 'https://charlie555666.github.io/shacman-catalog/crosslink-inject.js?v=2.0';
+    xLink.setAttribute('data-fenghan-crosslink', '1');
+    xLink.defer = true;
+    (document.head || document.documentElement).appendChild(xLink);
+  }
 })();
