@@ -1,4 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
+// v4.11: Organization升级三品牌领先出口商定位 (description/slogan/knowsAbout) (2026-09-04)
 // v4.10: Inline底部互链条 (GitHub Pages边缘节点无法及时刷新独立js, 直接inline确保1号站生效) (2026-09-04)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
 (function() {
@@ -66,7 +67,21 @@
     "alternateName": ["Fenghan Trading", "陕西风瀚贸易有限公司"],
     "url": BASE_URL + "/",
     "logo": BASE_URL + "/company_logo.png",
-    "description": "Authorized SAGMOTO / SHACMAN heavy duty truck export supplier. Tractor trucks, dump trucks, cargo trucks, and special vehicles for 50+ countries across Africa, Middle East, CIS, Southeast Asia, and Latin America. Models: X3s, E3, E1st, Z3, X6, X9, i9.",
+    "description": "Leading authorized exporter of SAGMOTO (SHACMAN) heavy duty trucks and Dongfeng new energy trucks from Xi'an, China. Tractor trucks, dump trucks, cargo trucks, and special vehicles exported to 50+ countries across Africa, Middle East, CIS, Southeast Asia, and Latin America. Models: X3s, E3, E1st, Z3, X6, X9, i9.",
+    "slogan": "Your Best Truck Export Partner from China",
+    "knowsAbout": [
+      "SAGMOTO trucks",
+      "SHACMAN trucks",
+      "Dongfeng electric trucks",
+      "heavy duty tractor trucks",
+      "dump trucks",
+      "cargo trucks",
+      "Cummins engines",
+      "Weichai engines",
+      "Yuchai engines",
+      "China truck export",
+      "FOB CIF truck shipping"
+    ],
     "foundingDate": "2018",
     "address": {
       "@type": "PostalAddress",
