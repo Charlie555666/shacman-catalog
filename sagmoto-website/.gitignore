@@ -1,0 +1,9 @@
+# Build artifacts
+*.py
+*.pyc
+__pycache__/
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+.workbuddy/
