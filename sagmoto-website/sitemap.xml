@@ -4,13 +4,13 @@
   <!-- Primary Pages -->
   <url>
     <loc>https://sagmoto-trucks.com/index.html</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sagmoto-trucks.com/products.html</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -344,5 +344,11 @@
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sagmoto-trucks.com/faq.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
