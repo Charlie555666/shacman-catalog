@@ -1,4 +1,6 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
+// v4.12: Auto-FAQ by SAGMOTO model (X3s/E3/Z3/E1st/X6/X7/E9/i9 etc.) + LHD/RHD (2026-09-07)
+// v4.12: Auto-FAQ by SAGMOTO model URL slug (X3s/E3/Z3/E1st/X6/X7/E9/i9) (2026-09-07)
 // v4.11: Organization升级三品牌领先出口商定位 (description/slogan/knowsAbout) (2026-09-04)
 // v4.10: Inline底部互链条 (GitHub Pages边缘节点无法及时刷新独立js, 直接inline确保1号站生效) (2026-09-04)
 // Injects Organization + WebSite + Product + BlogPosting + FAQPage + WebPage + Breadcrumb structured data
@@ -58,6 +60,122 @@
     var t = el ? el.textContent.trim() : '';
     return t || (fallback || '');
   }
+
+  // SAGMOTO model-specific FAQ database (v4.12: auto-FAQ by URL model slug)
+  // Key: model slug (lowercase). Each has 3-4 buyer questions.
+  var SAGMOTO_MODEL_FAQ = {
+    'x3s': [
+      ['What is the engine and power of SAGMOTO X3s?',
+       'SAGMOTO X3s is powered by Cummins ISME 420HP inline-6 turbo-diesel with 12JSD200T manual transmission (12 forward + 2 reverse gears). Torque 2,100 Nm at 1,100-1,400 rpm. Max GCW 90T. Best for heavy bulk haulage and Africa/Middle East regional transport.'],
+      ['What is the FOB price for SAGMOTO X3s?',
+       'FOB price for SAGMOTO X3s 6x4 tractor ranges USD 38,000 - 58,000 depending on configuration (cab, axle, emission). CIF West Africa adds USD 2,800-3,500. Bulk orders 10+ units qualify for 3-7% discount tier.'],
+      ['X3s vs E3 flagship: which should I choose?',
+       'X3s uses Cummins ISME 420HP with manual transmission - proven workhorse for Africa/Middle East, ideal for heavy bulk 40T+ GCW, mining, regional haulage. E3 uses Yuchai YC6MK 400HP - more fuel efficient in tropical conditions. For premium express logistics consider E1st.'],
+      ['What warranty does SAGMOTO X3s come with?',
+       'Complete vehicle warranty 24 months or 150,000 km. Powertrain (engine + transmission + axle) 36 months or 300,000 km. Genuine Cummins parts available through 50+ authorized service centers across Africa, Middle East and CIS.']
+    ],
+    'e3': [
+      ['What is the engine of SAGMOTO E3?',
+       'SAGMOTO E3 is powered by Yuchai YC6MK 400HP inline-6 turbo-diesel with 12JSD200T manual transmission. Torque 1,920 Nm. Designed for tropical climates and African duty cycles with reinforced cooling package.'],
+      ['How does E3 differ from X3s?',
+       'E3 uses Yuchai engine (made in China) - lower acquisition cost (USD 4,000-6,000 less than X3s), excellent parts availability in Africa and Southeast Asia, well-suited for fleet operators prioritizing TCO. X3s uses Cummins for brand recognition and resale value.'],
+      ['What is the SAGMOTO E3 FOB price?',
+       'FOB SAGMOTO E3 6x4 tractor: USD 35,000 - 52,000. E3 is positioned as the value flagship for fleet buyers in emerging markets. CIF East Africa (Mombasa/Dar es Salaam) typically USD 2,400-2,900 additional.'],
+      ['Does E3 support RHD and Euro V emissions?',
+       'Yes. E3 supports LHD (standard) and RHD (4-6 weeks lead time, USD 1,200-1,800 adder for Indonesia, Kenya, Tanzania). Available in Euro II/III for standard Africa/CIS markets and Euro V for Kenya, Nigeria new rules, GCC markets.']
+    ],
+    'e3max': [
+      ['What is SAGMOTO E3 MAX?',
+       'E3 MAX is the upgraded E3 with Yuchai YC6MK 430HP engine, reinforced rear axle and 1,500 Nm torque. Designed for medium-haul logistics in tropical markets with 65T GCW.'],
+      ['E3 MAX price and warranty?',
+       'FOB E3 MAX 6x4 tractor: USD 42,000 - 58,000. Same 24-month vehicle warranty + 36-month powertrain warranty as X3s flagship.'],
+      ['E3 MAX vs E3 vs X3s flagship?',
+       'E3 MAX sits between E3 (value) and X3s (premium). It offers 30HP more than E3 and 8% better fuel economy than X3s in regional haulage duty. Best choice for mixed-load logistics operators.']
+    ],
+    'z3': [
+      ['What is the engine and power of SAGMOTO Z3?',
+       'SAGMOTO Z3 is the premium dump truck and tractor flagship, powered by Cummins M13 520HP with 12JSD240TA manual transmission. Max torque 2,400 Nm. Max GCW 80T. Designed for heavy bulk mining and 100+ ton dump operations.'],
+      ['What is SAGMOTO Z3 dump truck FOB price?',
+       'FOB SAGMOTO Z3 6x4 dump truck: USD 45,000 - 68,000. Z3 8x4 dump truck with reinforced frame: USD 55,000 - 85,000. CIF options available to major African and Middle Eastern ports.'],
+      ['Z3 vs X3s: which is right for mining?',
+       'Z3 has higher power (520HP vs 420HP), stronger frame and reinforced dump body options - ideal for 70T+ mining operations. X3s 6x4 is more versatile for mixed regional haulage. For 100T+ heavy mining dump operations, specify Z3.'],
+      ['What dump body options are available for Z3?',
+       'Z3 6x4 dump supports 18-25 cubic meter U-shape and square-shape bodies in HARDOX 450/500 wear steel. Z3 8x4 dump supports 25-35 cubic meter bodies. Rock bodies (3mm HARDOX), coal bodies (4mm standard steel), and tipper configurations available.']
+    ],
+    'e1st': [
+      ['What is the engine and power of SAGMOTO E1st flagship?',
+       'SAGMOTO E1st is the new-generation flagship with Cummins Z14 560HP inline-6 turbo-diesel and Eaton 12-speed AMT (automated manual). Max torque 2,650 Nm. Max GCW 100T. Cab is high-roof flat-floor with 2.13m internal height.'],
+      ['E1st FOB price and lead time?',
+       'FOB SAGMOTO E1st 6x4: USD 52,000 - 78,000. Custom-configured units 30-45 days production; stock units 15-20 days. Sea transit West Africa 35-40 days, Middle East 18-22 days, South America 38-45 days.'],
+      ['How does E1st compare to Volvo FH and Mercedes Actros?',
+       'E1st delivers comparable engine output (560HP) and equivalent AMT technology at 40-55% lower acquisition cost than European premium brands. Buyers in CIS, Africa and Southeast Asia report 80-85% of premium-brand TCO over 5 years.'],
+      ['Does E1st meet EU GSR (General Safety Regulation)?',
+       'Yes. E1st Euro VI variant includes AEBS (Advanced Emergency Braking), LDWS (Lane Departure Warning), blind spot detection, ISA and driver drowsiness monitoring - all required for EU type approval from July 2024.']
+    ],
+    'x6': [
+      ['What is the SAGMOTO X6 medium truck used for?',
+       'SAGMOTO X6 is a medium-duty truck (4x2/4x4, 8-15T GVW) powered by Cummins ISD 210HP engine with Fastgear 6DS transmission. Best for urban distribution, construction, agricultural transport, and municipal services across Africa, Middle East and Southeast Asia.'],
+      ['What is SAGMOTO X6 FOB price?',
+       'FOB SAGMOTO X6 4x2 medium truck: USD 22,000 - 32,000. X6 4x4 off-road variant: USD 28,000 - 42,000. Popular cab-chassis configuration for local body builders.'],
+      ['X6 body configurations available?',
+       'X6 supports dry cargo box, curtain-side, refrigerated box, tipper/dump, concrete mixer (6-8 m3 drum), water tanker, compactor, and specialized bodies (crane, aerial, recovery). Local Asian and African body builders familiar with X6 chassis mounting points.'],
+      ['Does X6 support right-hand drive?',
+       'Yes. X6 RHD is factory-direct with 4-6 weeks lead time, USD 1,200-1,500 adder. Common RHD markets: Indonesia, Malaysia, Kenya, Tanzania, Hong Kong, Singapore.']
+    ],
+    'x6s': [
+      ['What is SAGMOTO X6s?',
+       'X6s is the upgraded X6 medium-duty truck with Cummins ISD 240HP (vs 210HP), 9-speed Fastgear transmission, and reinforced chassis. Designed for heavier payload and mountainous terrain operation.'],
+      ['X6s FOB price?',
+       'FOB SAGMOTO X6s 4x2: USD 25,000 - 36,000. Premium medium-duty positioning for African, Middle East and CIS markets.'],
+      ['X6s vs X6 vs X7?',
+       'X6s sits between X6 (210HP, standard) and X7 (light 140HP, 4x2). Choose X6s for medium-duty premium positioning with stronger drivetrain.']
+    ],
+    'x7': [
+      ['What is SAGMOTO X7 light truck used for?',
+       'SAGMOTO X7 is a light-duty truck (4x2, 4.5-12T GVW) powered by Yuchai YC4E 140-160HP engine with 6DS transmission. Best for urban last-mile delivery, light municipal services, and small business logistics.'],
+      ['What is SAGMOTO X7 FOB price?',
+       'FOB SAGMOTO X7 4x2 light truck: USD 14,000 - 22,000. Cab-chassis configuration popular for local body building (cargo box, refrigerated, tipper).'],
+      ['X7 vs X5 light duty?',
+       'X7 is the modern light-duty flagship with Yuchai YC4E 140-160HP. X5 is the entry-level with smaller engine (YC4D 120HP) for ultra-cost-sensitive markets. X7 preferred for African and Middle East fleet operators.']
+    ],
+    'x7s': [
+      ['What is SAGMOTO X7s?',
+       'X7s is the upgraded X7 with Yuchai YC4E 160HP and 9-speed transmission, designed for medium-haul logistics with 12T GVW capability.'],
+      ['X7s FOB price?',
+       'FOB SAGMOTO X7s: USD 18,000 - 26,000. Positioned between X7 and X9 in the Sagmoto light/medium lineup.']
+    ],
+    'e9': [
+      ['What is SAGMOTO E9 medium heavy truck?',
+       'SAGMOTO E9 is a medium-heavy truck (18-25T GVW) powered by Yuchai YC6MK 350-380HP engine with 9JS119 manual transmission. Designed for regional haulage and construction site logistics.'],
+      ['E9 FOB price?',
+       'FOB SAGMOTO E9 6x4: USD 32,000 - 48,000. E9 is positioned as the bridge between medium-duty (X6) and heavy-duty (X3s) flagships.']
+    ],
+    'i9': [
+      ['What is SAGMOTO i9?',
+       'SAGMOTO i9 is the cab-chassis configuration optimized for specialized body building (refrigerated trucks, tankers, garbage compactors, fire trucks). Yuchai YC6MK 350HP with 9JS119 transmission.'],
+      ['i9 vs X9 comparison?',
+       'X9 is the standard sleeper-cab tractor for long-distance. i9 is the cab-chassis for special body upfits. Same drivetrain, different body strategy.']
+    ],
+    'x9': [
+      ['What is SAGMOTO X9 used for?',
+       'SAGMOTO X9 is a heavy-duty tractor (6x4) with Yuchai YC4E/D 140-160HP or higher powerplant for medium-heavy regional haulage. Common in Southeast Asia and Latin America.'],
+      ['X9 vs X3s flagship?',
+       'X9 is the medium-heavy configuration (16-25T GVW) for regional logistics. X3s is the heavy flagship (40T+ GCW). Different duty cycles - choose by load profile.']
+    ],
+    'x5': [
+      ['What is SAGMOTO X5 light duty truck?',
+       'SAGMOTO X5 is the entry-level light-duty truck (4x2, 4.5-8T GVW) with Yuchai YC4D 120HP engine and 6DS manual transmission. Optimized for cost-sensitive markets and basic logistics.'],
+      ['X5 FOB price?',
+       'FOB SAGMOTO X5: USD 11,000 - 17,000. The most affordable Sagmoto model. Popular in CIS, Southeast Asia and African small business operators.']
+    ],
+    'i5': [
+      ['What is SAGMOTO i5?',
+       'SAGMOTO i5 is the cab-chassis version of X5 for specialized body builders - refrigerated trucks, light tankers, and small dump applications. Yuchai YC4D 120HP drivetrain.'],
+      ['i5 vs X5?',
+       'i5 is the cab-chassis (no body), X5 comes with factory cargo box. Same drivetrain, different body strategy. Choose i5 for local body building.']
+    ]
+  };
+
 
   // ─── 1. Organization schema (all pages) ───────────────────────────────────
   addSchema({
@@ -171,10 +289,12 @@
         ]
       });
 
-      // FAQPage auto-detect: look for visible Q&A blocks (h3 + following p)
+      // FAQPage auto-detect (v4.12): visible Q&A blocks + model-based FAQ from URL slug
       try {
-        var faqBlocks = document.querySelectorAll('.faq-item, .faq, .q-and-a, [class*="faq"]');
         var mainEntity = [];
+
+        // (a) Visible Q&A blocks
+        var faqBlocks = document.querySelectorAll('.faq-item, .faq, .q-and-a, [class*="faq"]');
         if (faqBlocks.length > 0) {
           faqBlocks.forEach(function(blk) {
             var qEl = blk.querySelector('h2, h3, h4, .question, [class*="question"]');
@@ -188,6 +308,30 @@
             }
           });
         }
+
+        // (b) Model-based FAQ from URL slug (fallback / supplement)
+        if (mainEntity.length < 2) {
+          var urlLower = path.toLowerCase();
+          // Try model slugs in order (longest first to avoid e3 matching in e3max)
+          var modelSlugs = Object.keys(SAGMOTO_MODEL_FAQ).sort(function(a, b) { return b.length - a.length; });
+          for (var i = 0; i < modelSlugs.length; i++) {
+            var slug = modelSlugs[i];
+            // Match slug with word boundary to avoid x6 matching x60/x600
+            var slugRe = new RegExp('(^|[\\-])' + slug + '([\\-]|[0-9]|$)', 'i');
+            if (slugRe.test(urlLower)) {
+              var faqs = SAGMOTO_MODEL_FAQ[slug];
+              faqs.forEach(function(pair) {
+                mainEntity.push({
+                  "@type": "Question",
+                  "name": pair[0],
+                  "acceptedAnswer": { "@type": "Answer", "text": pair[1] }
+                });
+              });
+              break;
+            }
+          }
+        }
+
         if (mainEntity.length >= 2) {
           addSchema({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": mainEntity });
         }
