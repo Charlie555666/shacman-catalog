@@ -819,7 +819,7 @@
       '🚛 <strong>Our Brand Network</strong> — ' +
       '<a href="https://sagmoto-trucks.com/" target="_blank" rel="noopener">SAGMOTO (sagmoto-trucks.com)</a>' +
       '<span class="fenghan-crosslink-divider">·</span>' +
-      '⚡ <a href="https://dongfengevtrucks.com/" target="_blank" rel="noopener">Dongfeng EV (dongfengevtrucks.com)</a>' +
+      '⚡ <a href="https://dongfengevtrucks.com/" target="_blank" rel="noopener">EV Trucks — Dongfeng Electric (dongfengevtrucks.com)</a>' +
       '<span class="fenghan-crosslink-close" title="关闭">✕</span>';
 
     xBar.querySelector('.fenghan-crosslink-close').addEventListener('click', function() {
