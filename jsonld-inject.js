@@ -1,4 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
+// v4.13: TAGCRAWLFIX blog tag云 nofollow+隐藏 回收爬取预算 (2026-10-10)
 // v4.12: Auto-FAQ by SAGMOTO model (X3s/E3/Z3/E1st/X6/X7/E9/i9 etc.) + LHD/RHD (2026-09-07)
 // v4.12: Auto-FAQ by SAGMOTO model URL slug (X3s/E3/Z3/E1st/X6/X7/E9/i9) (2026-09-07)
 // v4.11: Organization升级三品牌领先出口商定位 (description/slogan/knowsAbout) (2026-09-04)
@@ -839,4 +840,26 @@
       xInsert();
     }
   }
+
+  // ─── TAGCRAWLFIX v4.13: blog tag 云治理（爬取预算回收）───────────────
+  // 每篇博客页侧栏 Blog Tag 面板含 ~2099 个 /blog/tag/ 薄页链接，
+  // 是 GSC「已抓取-尚未编入索引」236 条 tag 页 + 462 篇文章无法被抓取的根因。
+  // 处理：全部 rel=nofollow + 面板折叠隐藏（保留 DOM，删除本段即可恢复）。
+  function tagCrawlFix() {
+    try {
+      var links = document.querySelectorAll('a[href*="/blog/tag/"]');
+      for (var i = 0; i < links.length; i++) links[i].setAttribute('rel', 'nofollow');
+      var panels = document.querySelectorAll('.left_list_nav');
+      for (var j = 0; j < panels.length; j++) {
+        var h = panels[j].querySelector('.panel-heading');
+        if (h && /blog\s*tag/i.test(h.innerText || '')) panels[j].style.display = 'none';
+      }
+    } catch (e) {}
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', tagCrawlFix);
+  } else {
+    tagCrawlFix();
+  }
+
 })();
