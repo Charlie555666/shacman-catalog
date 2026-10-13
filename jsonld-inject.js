@@ -1,4 +1,5 @@
 // JSON-LD Structured Data Injection for fenghan-trade.com
+// v4.14: CURRENCYFIX 货币链接抹href 断 403 发现源 (2026-10-13)
 // v4.13: TAGCRAWLFIX blog tag云 nofollow+隐藏 回收爬取预算 (2026-10-10)
 // v4.12: Auto-FAQ by SAGMOTO model (X3s/E3/Z3/E1st/X6/X7/E9/i9 etc.) + LHD/RHD (2026-09-07)
 // v4.12: Auto-FAQ by SAGMOTO model URL slug (X3s/E3/Z3/E1st/X6/X7/E9/i9) (2026-09-07)
@@ -860,6 +861,30 @@
     document.addEventListener('DOMContentLoaded', tagCrawlFix);
   } else {
     tagCrawlFix();
+  }
+
+  // ─── CURRENCYFIX v4.14: 货币链接治理（403 屏蔽根治）───────────────
+  // 每页含 ~146 个 a[href*="?currency="] 货币切换链接，51微店平台 WAF 对该参数返回 403，
+  // GSC「禁止访问(403)」已积压 405 条（405/405 全部为 ?currency= 页），白耗爬取预算。
+  // 处理：抹掉 href（Googlebot 不再发现这些 URL）+ rel=nofollow，保留文本样式。
+  // 用户点击货币切换本来就会 403（功能已失效），无副作用。删除本段即可恢复。
+  function currencyFix() {
+    try {
+      var links = document.querySelectorAll('a[href*="currency="]');
+      for (var i = 0; i < links.length; i++) {
+        var a = links[i];
+        a.setAttribute('data-currency-href', a.getAttribute('href') || '');
+        a.setAttribute('rel', 'nofollow');
+        a.removeAttribute('href');
+        a.style.cursor = 'default';
+      }
+      if (links.length) console.log('[SEO] CURRENCYFIX: neutralized', links.length, 'currency links');
+    } catch (e) {}
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', currencyFix);
+  } else {
+    currencyFix();
   }
 
 })();
